@@ -11,13 +11,11 @@
   --r:16px; --r-sm:12px; --sh:none;
   --st:env(safe-area-inset-top); --sb:env(safe-area-inset-bottom);
   --sl:env(safe-area-inset-left); --sr:env(safe-area-inset-right);
-  color-scheme: light dark;
+  color-scheme: light;
 }
-@media (prefers-color-scheme: dark){
-  :root{ --bg:#131F24; --card:#131F24; --ink:#F1F7FB; --ink-strong:#FFFFFF; --muted:#A3B2BA; --faded:#52656D; --line:#37464F;
+html.oscuro{ --bg:#131F24; --card:#131F24; --ink:#F1F7FB; --ink-strong:#FFFFFF; --muted:#A3B2BA; --faded:#52656D; --line:#37464F;
     --pri-soft:#1E3A12; --pri-ink:#79D635; --blue-soft:#0F3447; --amber-soft:#3B2A10; --coral-soft:#3F1D1F;
     --ok-soft:#1E3A12; --violet-soft:#33204A; }
-}
 *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
 html,body{margin:0; background:var(--bg); color:var(--ink);
   font-family:"Nunito",ui-rounded,"SF Pro Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
@@ -74,7 +72,9 @@ p{margin:.4em 0}
 .tag.amber{background:var(--amber-soft); color:#B86A00}
 .tag.violet{background:var(--violet-soft); color:#8E44C9}
 .tag.blue{background:var(--blue-soft); color:var(--blue-2)}
-@media (prefers-color-scheme: dark){ .tag.amber{color:var(--amber)} .tag.violet{color:var(--violet)} .tag.blue{color:var(--blue)} }
+html.oscuro .tag.amber{color:var(--amber)}
+html.oscuro .tag.violet{color:var(--violet)}
+html.oscuro .tag.blue{color:var(--blue)}
 
 /* Hero del reto diario */
 .hero{background:var(--pri); color:#fff; border-radius:20px; padding:20px; border-bottom:6px solid var(--pri-2); position:relative; overflow:hidden}
@@ -115,7 +115,7 @@ p{margin:.4em 0}
 .prelee .txt p{margin:.6em 0; line-height:1.55; font-weight:600}
 .case summary,.prelee summary{list-style:none; font-weight:800; display:flex; justify-content:space-between; gap:8px; color:var(--ink-strong); cursor:pointer}
 .prelee summary{color:var(--blue-2)}
-@media (prefers-color-scheme: dark){ .prelee summary{color:var(--blue)} }
+html.oscuro .prelee summary{color:var(--blue)}
 .case summary::-webkit-details-marker,.prelee summary::-webkit-details-marker{display:none}
 .case .txt{margin-top:10px; white-space:pre-line}
 .case blockquote{margin:10px 0 0; padding:10px 12px; border-left:4px solid var(--amber); background:var(--amber-soft); border-radius:10px; white-space:pre-line; font-size:16px}
@@ -136,7 +136,7 @@ table.t th{background:var(--pri-soft)}
 .opt.ok .L{background:var(--pri); color:#fff; border-color:var(--pri)}
 .opt.bad{border-color:var(--coral); background:var(--coral-soft); color:var(--coral-2)}
 .opt.bad .L{background:var(--coral); color:#fff; border-color:var(--coral)}
-@media (prefers-color-scheme: dark){ .opt.sel,.opt.ok,.opt.bad{color:var(--ink)} }
+html.oscuro .opt.sel, html.oscuro .opt.ok, html.oscuro .opt.bad{color:var(--ink)}
 .opt[disabled]{pointer-events:none}
 .sticky-bottom{position:sticky; bottom:0; padding:12px 0 calc(var(--sb) + 4px);
   background:linear-gradient(to top, var(--bg) 75%, transparent)}
@@ -145,14 +145,15 @@ table.t th{background:var(--pri-soft)}
 .fb.bad{background:var(--coral-soft)}
 .fb h3{font-size:22px; font-weight:900}
 .fb.ok h3{color:var(--pri-ink)} .fb.bad h3{color:var(--coral-2)}
-@media (prefers-color-scheme: dark){ .fb.bad h3{color:var(--coral)} }
+html.oscuro .fb.bad h3{color:var(--coral)}
 .just{margin-top:10px; padding-top:10px; border-top:2px dashed rgba(0,0,0,.1)}
 .just p{margin:.5em 0}
 .tip{margin-top:10px; padding:10px 12px; border-radius:12px; background:var(--card); font-size:15px; border:2px solid var(--line)}
 .src{font-size:13px; color:var(--muted); margin-top:8px}
 .review-banner{background:var(--violet-soft); color:#8E44C9; border-radius:12px; padding:10px 12px; font-weight:800; font-size:14px; margin-bottom:12px}
 .review-banner.lect{background:var(--blue-soft); color:var(--blue-2)}
-@media (prefers-color-scheme: dark){ .review-banner{color:var(--violet)} .review-banner.lect{color:var(--blue)} }
+html.oscuro .review-banner{color:var(--violet)}
+html.oscuro .review-banner.lect{color:var(--blue)}
 
 /* Listas e insignias */
 .list>*{border-bottom:2px solid var(--line); padding:12px 0}
@@ -161,7 +162,7 @@ table.t th{background:var(--pri-soft)}
 .badge{background:var(--card); border-radius:16px; padding:12px 8px; text-align:center; border:2px solid var(--line); border-bottom-width:4px}
 .badge .e{font-size:34px; filter:grayscale(1); opacity:.35}
 .badge.on{border-color:var(--yellow); background:#FFF9DB}
-@media (prefers-color-scheme: dark){ .badge.on{background:#3A3410} }
+html.oscuro .badge.on{background:#3A3410}
 .badge.on .e{filter:none; opacity:1}
 .badge b{display:block; font-size:13px; margin-top:4px; font-weight:800}
 .badge small{display:block; font-size:11.5px; color:var(--muted)}
@@ -204,3 +205,5 @@ label.lab{display:block; font-weight:800; margin:12px 0 6px; color:var(--ink-str
 .ficha-btn{width:100%; background:none; border:0; padding:12px 2px; text-align:left; font:inherit; color:inherit; cursor:pointer}
 .radio{display:flex; gap:8px; align-items:center; font-size:15px}
 details summary{cursor:pointer}
+
+html.oscuro{color-scheme:dark}

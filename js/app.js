@@ -65,7 +65,7 @@ const estadoInicial = () => ({
   v: 1, t: 0,
   perfil: { nombre: "", inicio: null, xp: 0, racha: 0, mejorRacha: 0, ultimoDia: null, dias: [], insignias: {}, rescates: 0, dueloSemana: null, respondidas: 0 },
   items: {}, familias: {}, fichas: {}, lecturas: {}, sesiones: [], simulacros: [], retoHoy: null,
-  ajustes: { sonido: true, avisoSimulacro: null }
+  ajustes: { sonido: true, avisoSimulacro: null, tema: "claro" }
 });
 const INTERVALOS = [0, 1, 3, 7, 14, 30]; // días según la caja de repaso
 const DOMINIO = 3; // caja desde la cual la familia se considera dominada
@@ -738,6 +738,8 @@ function vistaAjustes() {
   return `<div class="top"><button class="icon-btn" data-v="inicio">‹</button><h2>Ajustes</h2><span style="width:44px"></span></div>
   <div class="card stack"><label class="lab" for="nombre">Nombre</label><input id="nombre" class="input" value="${esc(P.nombre)}">
     <button class="btn sec" data-a="guardarNombre">Guardar nombre</button></div>
+  <div class="card mt"><div class="row between"><span>Apariencia</span><div class="row">${[["claro", "☀️ Claro"], ["oscuro", "🌙 Oscuro"], ["auto", "Auto"]].map(([v, n]) => `<button class="chip ${(S.estado.ajustes.tema || "claro") === v ? "xp" : ""}" data-a="tema" data-t="${v}">${n}</button>`).join("")}</div></div>
+    <p class="tiny muted">"Auto" sigue el modo claro u oscuro del celular.</p></div>
   <div class="card mt"><div class="row between"><span>Sonidos</span><button class="chip" data-a="sonido">${S.estado.ajustes.sonido ? "🔊 Activados" : "🔇 Desactivados"}</button></div></div>
   <div class="card mt stack"><h3>Respaldo</h3><p class="sync" data-sync>${syncHTML()}</p>
     <button class="btn sec" data-a="syncAhora">☁️ Guardar en la nube ahora</button>
@@ -824,8 +826,14 @@ function avisoSimulacro() {
 
 /* ---------- render y eventos ---------- */
 let timerInt = null;
+function aplicarTema() {
+  const t = S.estado?.ajustes?.tema || "claro";
+  const oscuro = t === "oscuro" || (t === "auto" && matchMedia("(prefers-color-scheme: dark)").matches);
+  document.documentElement.classList.toggle("oscuro", oscuro);
+  document.querySelectorAll('meta[name="theme-color"]').forEach(m => m.content = oscuro ? "#131F24" : "#FFFFFF");
+}
 function render() {
-  clearInterval(timerInt);
+  clearInterval(timerInt); aplicarTema();
   const v = !S.clave ? vistaLogin() : !S.estado.perfil.nombre ? vistaNombre() : ({
     inicio: vistaInicio, pregunta: vistaPregunta, resumen: vistaResumen, resumenSimulacro: vistaResumenSimulacro,
     cofre: vistaCofre, biblioteca: vistaBiblioteca, insignias: vistaInsignias, progreso: vistaProgreso, ajustes: vistaAjustes
@@ -875,6 +883,7 @@ $app.addEventListener("click", async e => {
     m.querySelector("[data-m=seguir]").onclick = cerrarModal;
     m.querySelector("[data-m=salir]").onclick = () => { cerrarModal(); if (sim && S.ses.res.length) terminarSesion(); else { S.ses = null; ir("inicio"); } };
   }
+  else if (a === "tema") { S.estado.ajustes.tema = b.dataset.t; guardarLocal(); render(); }
   else if (a === "sonido") { S.estado.ajustes.sonido = !S.estado.ajustes.sonido; guardarLocal(); render(); }
   else if (a === "syncAhora") { S.sync = { ok: true, msg: "Guardando…" }; pintarSync(); await sincronizar(); toast(S.sync.ok ? "Guardado en la nube" : S.sync.msg); }
   else if (a === "exportar") {
