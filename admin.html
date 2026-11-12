@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Panel · Plaza Docente</title>
+<link rel="icon" href="icons/icon-192.png">
+<style>
+:root{--bg:#F7F4EE;--card:#fff;--ink:#1D2330;--muted:#667085;--line:#E7E2D8;--pri:#0E7C66;--pri-soft:#E3F3EE;--seq1:#D6EFE8;--seq2:#93D3C2;--seq3:#3FA58C;--seq4:#0E7C66;
+  --ok:#1E8E4F;--warn:#B7791F;--bad:#C2410C;--r:16px;--sh:0 1px 2px rgba(16,24,40,.06),0 4px 14px rgba(16,24,40,.05)}
+@media (prefers-color-scheme:dark){:root{--bg:#12161D;--card:#1B212B;--ink:#EEF1F5;--muted:#9AA4B2;--line:#2A3240;--pri:#3FC4A3;--pri-soft:#173A33;--seq1:#1F3B35;--seq2:#23654F;--seq3:#2E9C7E;--seq4:#4FD1AE;--ok:#4ADE80;--warn:#F6C35B;--bad:#FB923C}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:max(16px,env(safe-area-inset-top)) 16px 40px}
+main{max-width:1080px;margin:0 auto}h1{font-size:26px;margin:0}h2{font-size:18px;margin:0 0 10px}h3{font-size:15px;margin:0}
+.muted{color:var(--muted)}.small{font-size:14px}.tiny{font-size:12px}
+.card{background:var(--card);border-radius:var(--r);box-shadow:var(--sh);padding:16px}
+.grid{display:grid;gap:12px}.g4{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}.g2{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.mt{margin-top:12px}.mt2{margin-top:22px}.row{display:flex;gap:10px;align-items:center}.between{justify-content:space-between}.wrap{flex-wrap:wrap}
+.kpi .v{font-size:30px;font-weight:750;letter-spacing:-.5px}.kpi .l{font-size:13px;color:var(--muted)}
+.status{display:flex;gap:12px;align-items:center;padding:16px;border-radius:var(--r);font-weight:600}
+.status.ok{background:color-mix(in srgb,var(--ok) 14%,var(--card))}.status.pend{background:color-mix(in srgb,var(--warn) 18%,var(--card))}.status.off{background:color-mix(in srgb,var(--bad) 14%,var(--card))}
+.status .e{font-size:30px}
+input,select{font:inherit;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);width:100%}
+button{font:inherit;font-weight:650;border:0;border-radius:12px;padding:12px 16px;background:var(--pri);color:#fff;cursor:pointer}
+button.sec{background:var(--pri-soft);color:var(--ink)}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-weight:600;font-size:12px}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+.bar{position:relative;height:10px;background:var(--line);border-radius:6px;overflow:visible;min-width:80px}.bar i{display:block;height:100%;border-radius:6px;background:var(--pri)}
+.bar .meta{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--ink);opacity:.55}
+.tag{display:inline-block;white-space:nowrap;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:650;background:var(--pri-soft)}
+.tag.w{background:color-mix(in srgb,var(--warn) 22%,var(--card))}.tag.b{background:color-mix(in srgb,var(--bad) 18%,var(--card))}
+.heat{display:grid;grid-template-columns:22px repeat(var(--cols),minmax(0,26px));gap:4px;font-size:11px;color:var(--muted)}
+.heat .c{height:22px;border-radius:4px;background:var(--line);position:relative}.heat .c.l1{background:var(--seq1)}.heat .c.l2{background:var(--seq2)}.heat .c.l3{background:var(--seq3)}.heat .c.l4{background:var(--seq4)}
+.heat .c.reto::after{content:"";position:absolute;inset:30%;border-radius:50%;background:var(--card)}
+.heat .c.fut{background:transparent}
+.legend{display:flex;gap:6px;align-items:center;font-size:12px;color:var(--muted);flex-wrap:wrap}.legend .sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+svg text{fill:var(--muted);font-size:11px}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);padding:6px 9px;border-radius:8px;font-size:13px;opacity:0;transition:opacity .1s;z-index:9}
+.msg{white-space:pre-wrap;background:var(--pri-soft);border-radius:12px;padding:12px;font-size:15px}
+ul.clean{margin:6px 0 0;padding-left:18px}
+details summary{cursor:pointer;color:var(--muted);font-size:13px;margin-top:8px}
+</style>
+</head>
+<body>
+<main id="app"><p class="muted">Cargando…</p></main>
+<div class="tip" id="tip"></div>
+<script src="js/config.js?v=2"></script>
+<script>
+(() => {
+"use strict";
+const CFG = window.PLAZA_CONFIG, $ = document.getElementById("app"), tip = document.getElementById("tip");
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const pad = n => String(n).padStart(2, "0");
+const fISO = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+const hoy = () => fISO(new Date());
+const mas = (iso, n) => { const d = new Date(iso + "T12:00:00"); d.setDate(d.getDate() + n); return fISO(d); };
+const MES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+const corta = iso => { const d = new Date(iso + "T12:00:00"); return `${d.getDate()} ${MES[d.getMonth()]}`; };
+const pct = (a, b) => b ? Math.round(a / b * 100) : null;
+const P = v => v === null || v === undefined ? "—" : v + " %";
+async function sha256(t) { const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(t)); return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, "0")).join(""); }
+async function rpc(fn, body) {
+  const r = await fetch(`${CFG.supabaseUrl}/rest/v1/rpc/${fn}`, { method: "POST", headers: { "Content-Type": "application/json", apikey: CFG.supabaseKey, Authorization: `Bearer ${CFG.supabaseKey}` }, body: JSON.stringify(body) });
+  const t = await r.text(); if (!r.ok) throw new Error(t.includes("clave_invalida") ? "clave_invalida" : "HTTP " + r.status); return JSON.parse(t);
+}
+const get = u => fetch(u, { cache: "no-cache" }).then(r => r.json());
+let D = null, M = null, TOT = null, sel = null;
+
+function login(msg) {
+  $.innerHTML = `<div style="max-width:420px;margin:10vh auto" class="card">
+    <h1>📊 Panel de seguimiento</h1><p class="muted small">Solo para el administrador. Usa tu clave de Plaza Docente.</p>
+    <input id="k" type="password" placeholder="Tu clave" autocapitalize="none" autocomplete="current-password">
+    <button class="mt" id="go" style="width:100%">Entrar</button>${msg ? `<p class="small" style="color:var(--bad)">${esc(msg)}</p>` : ""}</div>`;
+  const go = async () => { const k = document.getElementById("k").value.trim(); if (!k) return;
+    const h = await sha256(k); try { await cargar(h); localStorage.setItem("pd_admin", h); } catch (e) { login(e.message === "clave_invalida" ? "Clave incorrecta o sin permisos de administrador." : "Sin conexión."); } };
+  document.getElementById("go").onclick = go; document.getElementById("k").onkeydown = e => e.key === "Enter" && go();
+}
+async function cargar(h) {
+  const [d, m, ind] = await Promise.all([rpc("pd_admin", { p_clave: h }), get("data/marco.json"), get("data/indice.json")]);
+  const lotes = await Promise.all(ind.lotes.map(l => get("data/" + l)));
+  const ret = new Set(ind.retirados || []); TOT = { porComp: {}, items: 0, fichas: 0, porFam: {} };
+  lotes.forEach(l => { (l.items || []).filter(i => !ret.has(i.id)).forEach(i => { const c = m.familias[i.familia]?.componente; if (!c) return; TOT.items++; TOT.porComp[c] = (TOT.porComp[c] || 0) + 1; TOT.porFam[i.familia] = (TOT.porFam[i.familia] || 0) + 1; }); TOT.fichas += (l.fichas || []).length; });
+  TOT.fichasLista = lotes.flatMap(l => l.fichas || []);
+  D = d; M = m;
+  const alumnas = D.cuentas.filter(c => !c.admin);
+  sel = sel || (alumnas[0] || D.cuentas[0])?.id;
+  render();
+}
+
+function analizar(c) {
+  const E = c.estado || {}, Pf = E.perfil || {}, items = E.items || {}, fams = E.familias || {};
+  const h = hoy(), ayer = mas(h, -1);
+  const racha = (Pf.ultimoDia === h || Pf.ultimoDia === ayer) ? (Pf.racha || 0) : 0;
+  const diasMap = {}; (c.dias || []).forEach(d => diasMap[d.dia] = d);
+  const tot = Object.values(diasMap).reduce((a, d) => ({ n: a.n + d.n, ok: a.ok + d.ok, min: a.min + (+d.min || 0) }), { n: 0, ok: 0, min: 0 });
+  const rango = n => { let r = { n: 0, ok: 0, min: 0, dias: 0 }; for (let k = 0; k < n; k++) { const d = diasMap[mas(h, -k)]; if (d) { r.n += d.n; r.ok += d.ok; r.min += +d.min || 0; r.dias++; } } return r; };
+  const s7 = rango(7), s30 = rango(30), sPrev7 = (() => { let r = { n: 0, ok: 0 }; for (let k = 7; k < 14; k++) { const d = diasMap[mas(h, -k)]; if (d) { r.n += d.n; r.ok += d.ok; } } return r; })();
+  // por componente (desde el estado de la app, igual que "preparación" en la app)
+  const comps = M.componentes.map(cp => {
+    let n = 0, ok = 0, vistos = 0;
+    Object.entries(items).forEach(([id, s]) => { const fam = famDeItem(id, c); if (!fam || M.familias[fam]?.componente !== cp.id) return; if (s.vistos) { vistos++; n += s.vistos; ok += s.aciertos; } });
+    const famIds = Object.keys(M.familias).filter(f => M.familias[f].componente === cp.id);
+    const dom = famIds.filter(f => (fams[f]?.caja || 0) >= 3).length;
+    const fr = (c.familias || []).filter(f => f.componente === cp.id);
+    const n2 = fr.reduce((a, f) => a + f.n, 0), ok2 = fr.reduce((a, f) => a + f.ok, 0);
+    return { ...cp, n: n2 || n, ok: n2 ? ok2 : ok, vistos, total: TOT.porComp[cp.id] || 0, fams: famIds.length, dom };
+  });
+  const prepComps = comps.filter(x => x.id !== "PSI"), conPrec = prepComps.filter(x => x.n);
+  const media = conPrec.length ? conPrec.reduce((a, x) => a + x.ok / x.n, 0) / conPrec.length : 0;
+  const cob = prepComps.reduce((a, x) => a + Math.min(x.vistos, x.total), 0) / Math.max(1, prepComps.reduce((a, x) => a + x.total, 0));
+  const prep = Math.round(media * cob * 100);
+  const debiles = (c.familias || []).filter(f => f.n >= 2).map(f => ({ ...f, p: f.ok / f.n, nombre: M.familias[f.familia]?.nombre || f.familia }))
+    .sort((a, b) => a.p - b.p || b.n - a.n).slice(0, 6);
+  const fuertes = (c.familias || []).filter(f => f.n >= 3).map(f => ({ ...f, p: f.ok / f.n, nombre: M.familias[f.familia]?.nombre || f.familia })).sort((a, b) => b.p - a.p).slice(0, 3);
+  const cofre = Object.entries(fams).filter(([, s]) => s.enCofre).map(([f, s]) => ({ f, ...s, nombre: M.familias[f]?.nombre || f })).sort((a, b) => (a.proxima || "").localeCompare(b.proxima || ""));
+  const fichasLeidas = Object.keys(E.fichas || {}).length;
+  const ultimo = c.ultimo ? new Date(c.ultimo) : null;
+  return { E, Pf, racha, retoHoy: E.retoHoy === h, diasMap, tot, s7, s30, sPrev7, comps, prep, debiles, fuertes, cofre, fichasLeidas, ultimo, sims: E.simulacros || [] };
+}
+let FAMIDX = null;
+function famDeItem(id) { return FAMIDX?.[id]; }
+
+function hace(d) {
+  if (!d) return "nunca";
+  const min = Math.round((Date.now() - d) / 60000);
+  if (min < 60) return `hace ${Math.max(1, min)} min`; const h = Math.round(min / 60); if (h < 24) return `hace ${h} h`;
+  const dd = Math.round(h / 24); return dd === 1 ? "ayer" : `hace ${dd} días`;
+}
+
+function heatmap(A) {
+  const semanas = 10, h = hoy(), dHoy = new Date(h + "T12:00:00"), lunes = mas(h, -((dHoy.getDay() + 6) % 7));
+  const ini = mas(lunes, -(semanas - 1) * 7), retos = new Set(A.Pf.dias || []);
+  const max = Math.max(1, ...Object.values(A.diasMap).map(d => d.n));
+  let html = `<div class="heat" style="--cols:${semanas}"><span></span>`;
+  for (let w = 0; w < semanas; w++) { const f = mas(ini, w * 7); html += `<span>${w % 2 === 0 ? corta(f) : ""}</span>`; }
+  ["L", "M", "X", "J", "V", "S", "D"].forEach((dn, k) => {
+    html += `<span>${dn}</span>`;
+    for (let w = 0; w < semanas; w++) {
+      const f = mas(ini, w * 7 + k); if (f > h) { html += `<span class="c fut"></span>`; continue; }
+      const d = A.diasMap[f], n = d?.n || 0, lv = n === 0 ? 0 : Math.min(4, Math.ceil(n / max * 4));
+      const t = `${corta(f)}: ${n ? `${n} preguntas · ${pct(d.ok, n)} % acierto · ${d.min} min` : "sin actividad"}${retos.has(f) ? " · reto ✓" : ""}`;
+      html += `<span class="c ${lv ? "l" + lv : ""} ${retos.has(f) ? "reto" : ""}" data-t="${esc(t)}"></span>`;
+    }
+  });
+  return html + `</div><div class="legend mt"><span>Menos</span><span class="sw" style="background:var(--line)"></span><span class="sw" style="background:var(--seq1)"></span><span class="sw" style="background:var(--seq2)"></span><span class="sw" style="background:var(--seq3)"></span><span class="sw" style="background:var(--seq4)"></span><span>Más preguntas</span><span style="margin-left:10px">● punto = cumplió el reto (cuenta para la racha)</span></div>`;
+}
+
+function chartDiario(A) {
+  const dias = 30, h = hoy(), W = 640, H = 200, L = 34, R = 8, T = 10, B = 24, iw = W - L - R, ih = H - T - B;
+  const pts = []; for (let k = dias - 1; k >= 0; k--) { const f = mas(h, -k), d = A.diasMap[f]; pts.push({ f, n: d?.n || 0, p: d && d.n ? d.ok / d.n * 100 : null }); }
+  const bw = iw / dias, x = i => L + i * bw + bw / 2, y = p => T + ih - p / 100 * ih;
+  let g = "";
+  [0, 50, 60, 100].forEach(v => g += `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)" ${v === 60 ? 'stroke-dasharray="4 3" stroke="var(--muted)"' : ""}/><text x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${v}%</text>`);
+  g += `<text x="${W - R}" y="${y(60) - 4}" text-anchor="end">meta 60 %</text>`;
+  let path = "", open = false;
+  pts.forEach((p, i) => { if (p.p === null) { open = false; return; } path += `${open ? "L" : "M"}${x(i).toFixed(1)},${y(p.p).toFixed(1)}`; open = true; });
+  g += `<path d="${path}" fill="none" stroke="var(--pri)" stroke-width="2" stroke-linejoin="round"/>`;
+  pts.forEach((p, i) => { if (p.p !== null) g += `<circle cx="${x(i)}" cy="${y(p.p)}" r="4" fill="var(--pri)" stroke="var(--card)" stroke-width="2"/>`;
+    g += `<rect x="${L + i * bw}" y="${T}" width="${bw}" height="${ih}" fill="transparent" data-t="${esc(`${corta(p.f)}: ${p.n ? `${p.n} preguntas · ${Math.round(p.p)} % acierto` : "sin actividad"}`)}"/>`;
+    if (i % 5 === 0 || i === dias - 1) g += `<text x="${x(i)}" y="${H - 6}" text-anchor="middle">${corta(p.f)}</text>`; });
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Porcentaje de acierto diario, últimos 30 días">${g}</svg>`;
+}
+
+function mensaje(A, nombre) {
+  const n = (A.Pf.nombre || nombre || "amor").split(" ")[0], partes = [];
+  if (!A.retoHoy) partes.push(A.racha > 0 ? `${n}, llevas ${A.racha} ${A.racha === 1 ? "día" : "días"} de racha 🔥. ¿Le dedicamos 10 minutos al reto de hoy para no perderla?` : `${n}, hoy es buen día para retomar Plaza Docente: solo 10 minutos con el reto diario y arrancamos racha nueva 💪`);
+  else partes.push(`¡${n}, ya cumpliste el reto de hoy! ${A.racha > 1 ? `Vas ${A.racha} días seguidos 🔥.` : ""}`);
+  const p7 = pct(A.s7.ok, A.s7.n);
+  if (p7 !== null) partes.push(p7 >= 70 ? `Esta semana vas con ${p7} % de acierto: estás por encima de la meta de 60. 👏` : p7 >= 60 ? `Esta semana vas con ${p7} %: ya pasas la línea de 60, vamos por más.` : `Esta semana vas con ${p7} %: cada error queda en tu cofre para repasarlo, así se sube.`);
+  if (A.fuertes[0]) partes.push(`Lo que mejor dominas: ${A.fuertes[0].nombre}.`);
+  if (A.debiles[0] && A.debiles[0].p < .6) partes.push(`Si quieres reforzar algo, prueba "${A.debiles[0].nombre}" en el mapa o en la biblioteca.`);
+  return partes.join("\n");
+}
+
+function render() {
+  const c = D.cuentas.find(x => x.id === sel); if (!c) { $.innerHTML = `<div class="card">No hay cuentas.</div>`; return; }
+  // índice ítem→familia desde intentos no está en el estado: lo reconstruimos del banco cargado
+  const A = analizar(c), nombre = A.Pf.nombre || c.nombre;
+  const p7 = pct(A.s7.ok, A.s7.n), pp = pct(A.sPrev7.ok, A.sPrev7.n), pg = pct(A.tot.ok, A.tot.n);
+  const tend = p7 !== null && pp !== null ? (p7 - pp >= 0 ? `▲ ${p7 - pp} pts vs semana anterior` : `▼ ${pp - p7} pts vs semana anterior`) : "sin semana anterior para comparar";
+  const sinActividadDias = A.ultimo ? Math.floor((Date.now() - A.ultimo) / 864e5) : null;
+  const st = A.retoHoy ? { c: "ok", e: "✅", t: "Ya hizo el reto de hoy" } : (sinActividadDias !== null && sinActividadDias >= 2) || !A.ultimo ? { c: "off", e: "⚠️", t: A.ultimo ? `No entra desde ${hace(A.ultimo)}` : "Todavía no ha empezado" } : { c: "pend", e: "⏳", t: "Aún no hace el reto de hoy" };
+  const sims = A.sims.slice(-6);
+  const opts = D.cuentas.map(x => `<option value="${x.id}" ${x.id === sel ? "selected" : ""}>${esc((x.estado?.perfil?.nombre) || x.nombre)}${x.admin ? " (tu cuenta de prueba)" : ""}</option>`).join("");
+  const msg = mensaje(A, nombre);
+  $.innerHTML = `
+  <div class="row between wrap"><div><div class="muted small">Panel de seguimiento · Plaza Docente</div><h1>${esc(nombre)}</h1></div>
+    <div class="row" style="min-width:260px"><select id="cuenta" aria-label="Cuenta">${opts}</select><button class="sec" id="rec" title="Actualizar">↻</button></div></div>
+  <div class="status ${st.c} mt"><span class="e">${st.e}</span><div><div>${st.t}</div><div class="small muted" style="font-weight:500">Última actividad: ${A.ultimo ? `${hace(A.ultimo)} (${A.ultimo.toLocaleString("es-CO", { weekday: "long", hour: "numeric", minute: "2-digit" })})` : "sin respuestas registradas"} · Racha: ${A.racha} ${A.racha === 1 ? "día" : "días"} (mejor: ${A.Pf.mejorRacha || 0})</div></div></div>
+
+  <div class="grid g4 mt">
+    <div class="card kpi"><div class="l">Acierto últimos 7 días</div><div class="v">${P(p7)}</div><div class="tiny muted">${tend}</div></div>
+    <div class="card kpi"><div class="l">Acierto total</div><div class="v">${P(pg)}</div><div class="tiny muted">${A.tot.n} respuestas · meta del examen: 60</div></div>
+    <div class="card kpi"><div class="l">Días activos (30 días)</div><div class="v">${A.s30.dias}<span class="small muted"> / 30</span></div><div class="tiny muted">${Math.round(A.s7.min)} min estudiados esta semana</div></div>
+    <div class="card kpi"><div class="l">Preparación estimada</div><div class="v">${A.prep} %</div><div class="tiny muted">precisión × cobertura del banco (igual que en su app)</div></div>
+    <div class="card kpi"><div class="l">Fichas estudiadas</div><div class="v">${A.fichasLeidas}<span class="small muted"> / ${TOT.fichas}</span></div><div class="tiny muted">biblioteca "Estudia y responde"</div></div>
+    <div class="card kpi"><div class="l">Nivel y XP</div><div class="v">${Math.floor(Math.sqrt((A.Pf.xp || 0) / 50)) + 1}</div><div class="tiny muted">${(A.Pf.xp || 0).toLocaleString("es-CO")} XP · ${Object.keys(A.Pf.insignias || {}).length} insignias</div></div>
+  </div>
+
+  <div class="grid g2 mt">
+    <div class="card"><h2>Constancia (últimas 10 semanas)</h2>${heatmap(A)}</div>
+    <div class="card"><h2>Acierto diario (últimos 30 días)</h2>${A.tot.n ? chartDiario(A) : `<p class="muted small">Aparecerá cuando empiece a responder.</p>`}</div>
+  </div>
+
+  <div class="card mt"><h2>Cómo va por componente de la prueba</h2>
+    <table><thead><tr><th>Componente</th><th class="n">Acierto</th><th style="width:34%">Acierto frente a la meta (línea = 60 %)</th><th class="n">Banco visto</th><th class="n">Dominadas</th></tr></thead><tbody>
+    ${A.comps.map(x => { const p = pct(x.ok, x.n); return `<tr><td>${x.icono} ${esc(x.nombre)}${x.id === "PSI" ? ' <span class="tiny muted">(clasificatoria)</span>' : ""}</td><td class="n"><b>${P(p)}</b></td>
+      <td><div class="bar" data-t="${esc(`${x.nombre}: ${x.ok}/${x.n} correctas`)}"><i style="width:${p ?? 0}%;${p !== null && p < 60 ? "background:var(--warn)" : ""}"></i><span class="meta" style="left:60%"></span></div></td>
+      <td class="n">${Math.min(x.vistos, x.total)}/${x.total}</td><td class="n">${x.dom}/${x.fams}</td></tr>`; }).join("")}
+    </tbody></table><p class="tiny muted">Barra naranja = por debajo de 60 %. "Dominadas" = competencias acertadas 3 veces seguidas en el repaso espaciado.</p></div>
+
+  <div class="grid g2 mt">
+    <div class="card"><h2>Dónde necesita ayuda</h2>${A.debiles.length ? `<table><tbody>${A.debiles.map(f => `<tr><td>${esc(f.nombre)}<div class="tiny muted">${esc(M.componentes.find(x => x.id === f.componente)?.nombre || "")}</div></td><td class="n">${f.ok}/${f.n}</td><td class="n"><span class="tag ${f.p < .5 ? "b" : f.p < .6 ? "w" : ""}">${Math.round(f.p * 100)} %</span></td></tr>`).join("")}</tbody></table>
+      <p class="tiny muted">Competencias con al menos 2 respuestas, de menor a mayor acierto. La tarea diaria prioriza estas al crear preguntas nuevas.</p>` : `<p class="muted small">Aún no hay suficientes respuestas.</p>`}</div>
+    <div class="card"><h2>Cofre de errores (${A.cofre.length})</h2>${A.cofre.length ? `<table><tbody>${A.cofre.map(f => `<tr><td>${esc(f.nombre)}</td><td class="n tiny">${f.proxima <= hoy() ? '<span class="tag w">toca hoy</span>' : "vuelve el " + corta(f.proxima)}</td><td class="n tiny">${"●".repeat(Math.min(f.caja, 3))}${"○".repeat(Math.max(0, 3 - f.caja))}</td></tr>`).join("")}</tbody></table>
+      <p class="tiny muted">Lo que falló y le volverá a salir en otro contexto. ●●● = sale del cofre.</p>` : `<p class="muted small">Cofre vacío.</p>`}</div>
+  </div>
+
+  <div class="grid g2 mt">
+    <div class="card"><h2>Simulacros mensuales</h2>${sims.length ? `<table><thead><tr><th>Fecha</th><th class="n">Puntaje</th><th>Resultado</th></tr></thead><tbody>${sims.map(s => `<tr><td>${corta(s.fecha)}</td><td class="n"><b>${(+s.puntaje).toLocaleString("es-CO", { maximumFractionDigits: 2 })}</b></td><td>${s.puntaje >= 60 ? '<span class="tag">✓ aprueba (≥ 60)</span>' : '<span class="tag b">bajo 60</span>'}</td></tr>`).join("")}</tbody></table>` : `<p class="muted small">Aún no presenta simulacros. El primero se habilita el primer sábado de diciembre (${"5 dic"}).</p>`}</div>
+    <div class="card"><h2>Últimas sesiones</h2>${c.sesiones.length ? `<table><thead><tr><th>Cuándo</th><th>Tipo</th><th class="n">Correctas</th></tr></thead><tbody>${c.sesiones.slice(0, 10).map(s => `<tr><td>${new Date(s.creado).toLocaleString("es-CO", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" })}</td><td>${{ reto: "Reto diario", duelo: "Duelo", modulo: "Módulo", simulacro: "Simulacro", estudio: "Ficha de estudio" }[s.tipo] || esc(s.tipo)}</td><td class="n">${s.ok}/${s.total}</td></tr>`).join("")}</tbody></table>` : `<p class="muted small">Sin sesiones todavía.</p>`}</div>
+  </div>
+
+  <div class="card mt"><h2>💬 Mensaje sugerido para motivarla</h2><div class="msg" id="msg">${esc(msg)}</div>
+    <div class="row wrap mt"><a id="wa" href="https://wa.me/?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener"><button>Enviar por WhatsApp</button></a><button class="sec" id="copiar">Copiar</button></div>
+    <p class="tiny muted">Se arma con su racha, su acierto de la semana y lo que mejor y peor domina. Edítalo a tu gusto antes de enviarlo.</p></div>
+
+  ${c.reportes.length ? `<div class="card mt"><h2>Preguntas que reportó</h2><table><tbody>${c.reportes.map(r => `<tr><td>${esc(r.item)}</td><td>${esc(r.motivo)}${r.nota ? `<div class="tiny muted">${esc(r.nota)}</div>` : ""}</td><td><span class="tag ${r.estado === "pendiente" ? "w" : ""}">${esc(r.estado)}</span>${r.resolucion ? `<div class="tiny muted">${esc(r.resolucion)}</div>` : ""}</td></tr>`).join("")}</tbody></table></div>` : ""}
+
+  <details><summary>Ver como tabla (días con actividad)</summary><table class="mt"><thead><tr><th>Día</th><th class="n">Preguntas</th><th class="n">Correctas</th><th class="n">Acierto</th><th class="n">Minutos</th></tr></thead><tbody>
+    ${Object.values(A.diasMap).sort((a, b) => b.dia.localeCompare(a.dia)).map(d => `<tr><td>${corta(d.dia)}</td><td class="n">${d.n}</td><td class="n">${d.ok}</td><td class="n">${pct(d.ok, d.n)} %</td><td class="n">${d.min}</td></tr>`).join("") || `<tr><td colspan="5" class="muted">Sin datos</td></tr>`}</tbody></table></details>
+  <p class="tiny muted mt">Datos al ${new Date(D.ahora).toLocaleString("es-CO")}. Banco actual: ${TOT.items} preguntas y ${TOT.fichas} fichas. <a href="#" id="salir">Cerrar sesión del panel</a></p>`;
+
+  document.getElementById("cuenta").onchange = e => { sel = e.target.value; render(); };
+  document.getElementById("rec").onclick = () => cargar(localStorage.getItem("pd_admin")).catch(() => login("Sin conexión."));
+  document.getElementById("copiar").onclick = () => navigator.clipboard?.writeText(msg).then(() => { document.getElementById("copiar").textContent = "¡Copiado!"; });
+  document.getElementById("salir").onclick = e => { e.preventDefault(); localStorage.removeItem("pd_admin"); login(); };
+}
+// tooltip
+document.addEventListener("pointermove", e => { const t = e.target.closest?.("[data-t]"); if (!t) { tip.style.opacity = 0; return; }
+  tip.textContent = t.dataset.t; tip.style.opacity = 1; const x = Math.min(e.clientX + 12, innerWidth - tip.offsetWidth - 8); tip.style.left = x + "px"; tip.style.top = (e.clientY + 14) + "px"; });
+document.addEventListener("click", e => { const t = e.target.closest?.("[data-t]"); if (t) { tip.textContent = t.dataset.t; tip.style.opacity = 1; tip.style.left = Math.min(e.clientX, innerWidth - 220) + "px"; tip.style.top = (e.clientY + 14) + "px"; setTimeout(() => tip.style.opacity = 0, 2200); } });
+
+(async () => {
+  // índice ítem → familia (para el banco visto por componente)
+  try { const ind = await get("data/indice.json"); const ls = await Promise.all(ind.lotes.map(l => get("data/" + l))); FAMIDX = {}; ls.forEach(l => (l.items || []).forEach(i => FAMIDX[i.id] = i.familia)); } catch {}
+  const h = localStorage.getItem("pd_admin");
+  if (h) cargar(h).catch(e => login(e.message === "clave_invalida" ? "Vuelve a escribir tu clave." : "Sin conexión.")); else login();
+})();
+})();
+</script>
+</body>
+</html>
