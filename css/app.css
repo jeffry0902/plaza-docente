@@ -216,3 +216,5 @@ html.oscuro{color-scheme:dark}
 .citaC{margin:8px 0 0; padding:8px 12px; border-left:4px solid var(--pri); background:var(--pri-soft); border-radius:10px; font-size:15px}
 .flashcard{min-height:260px; display:flex; flex-direction:column; justify-content:center; cursor:pointer}
 .chip[disabled]{opacity:.45}
+.expl{margin-top:10px; padding:12px; border-radius:12px; background:var(--card); border:2px solid var(--line)}
+.expl p{margin:.4em 0 0}

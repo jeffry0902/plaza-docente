@@ -31,6 +31,20 @@ Solo documentos oficiales: Guía 30 MEN, Ley 1620 de 2013 (texto vigente traído
 4. Opciones de longitud parecida, sin "todas las anteriores", sin absolutos obvios. Las incorrectas son errores típicos reales.
 5. Justificación por opción: la correcta empieza por "Es correcta."; las demás por "Es incorrecta." y dicen por qué.
 
+## 4b. Opciones sin pistas de forma, dificultad y retroalimentación (obligatorio desde 2026-11-13)
+**Longitud y estructura de las opciones**
+- Las tres opciones tienen la misma forma: misma estructura gramatical, mismo nivel de detalle y longitud parecida (diferencia máxima ±15 %). Todas llevan su "porque…" o ninguna lo lleva.
+- La correcta NO puede ser la más larga ni la más "completa" de forma sistemática: en cada lote, la correcta es la opción más larga en máximo el 40 % de los ítems (el validador lo revisa).
+- Los distractores son errores reales y atractivos: acciones razonables pero fuera del debido proceso, la norma correcta aplicada en el momento equivocado, la instancia equivocada, una verdad a medias, un enfoque pedagógico válido pero que no responde a lo que pide el enunciado. Nada de opciones absurdas o evidentemente groseras.
+
+**Dificultad (campo `dificultad`: 1, 2 o 3)**
+- 1 = reconoce el concepto o el dato; 2 = aplica la norma o el concepto a un caso; 3 = analiza un caso con dos o más condiciones, distractores muy cercanos (dos opciones "buenas" y una sola correcta según el detalle de la norma o del enunciado), o razonamiento en dos pasos.
+- Cada lote: al menos 35 % de nivel 3, 40 % de nivel 2 y máximo 25 % de nivel 1.
+
+**Retroalimentación (lo más importante del proceso)**
+- Campo `explicacion` (60-140 palabras): por qué la correcta es correcta, conectándola con la cita oficial y con la palabra clave del enunciado, y cuál es la lógica de la CNSC que se debe recordar.
+- Cada justificación de opción (`j`) explica en 2 o 3 frases el razonamiento: para la correcta, qué la hace correcta; para cada incorrecta, qué error concreto comete y en qué caso SÍ sería correcta (si aplica). Mínimo 20 palabras cada una.
+
 ## 5. Proceso
 1. Redactar el lote en `data/lotes/AAAA-MM-DD.json` (ids nuevos únicos).
 2. `python3 tools/validar.py --fuentes fuentes` → debe decir `RESULTADO: OK`.

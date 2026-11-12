@@ -100,6 +100,8 @@ def main():
             items.append(it)
 
     letras = collections.Counter()
+    PILOTO = "lotes/2026-11-12-piloto.json"   # lote inicial: se reescribe aparte; las reglas nuevas aplican a los lotes siguientes
+    por_lote = collections.defaultdict(lambda: {"n": 0, "larga": 0, "dif": collections.Counter()})
     for it in items:
         i = it.get("id")
         if i in ids: errores.append(f"ítem duplicado {i}")
@@ -125,10 +127,30 @@ def main():
         for ct in it.get("citas", []):
             ok, m = cita_ok(docs, ct.get("doc", ""), ct.get("texto", ""))
             if not ok: errores.append(f"{i}: {m} → «{ct.get('texto','')[:90]}»")
+        if it["_lote"] != PILOTO:
+            L = por_lote[it["_lote"]]; L["n"] += 1
+            if ops and max(ops, key=lambda o: len(o.get("t", "")))["l"] == it.get("clave"): L["larga"] += 1
+            L["dif"][it.get("dificultad")] += 1
+            if it.get("dificultad") not in (1, 2, 3): errores.append(f"{i}: falta 'dificultad' (1, 2 o 3)")
+            ex = it.get("explicacion", "")
+            if not (60 <= len(ex.split()) <= 160): errores.append(f"{i}: 'explicacion' debe tener entre 60 y 140 palabras")
+            for o in ops:
+                if len(o.get("j", "").split()) < 20: errores.append(f"{i}: la justificación de la opción {o.get('l')} es muy corta (mín. 20 palabras)")
+            lc = [len(o.get("t", "")) for o in ops if o["l"] == it.get("clave")]
+            otras = [len(o.get("t", "")) for o in ops if o["l"] != it.get("clave")]
+            if lc and otras and lc[0] > 1.15 * (sum(otras) / len(otras)):
+                errores.append(f"{i}: la opción correcta es >15 % más larga que el promedio de las incorrectas (pista de forma)")
         largos = [len(o.get("t", "")) for o in ops]
         if largos and max(largos) > 1.9 * max(1, min(largos)):
             avisos.append(f"{i}: opciones de longitud muy desigual (pista involuntaria)")
 
+    for lote, L in por_lote.items():
+        if L["n"] and L["larga"] / L["n"] > 0.40:
+            errores.append(f"{lote}: la correcta es la opción más larga en {L['larga']}/{L['n']} ítems (máximo 40 %)")
+        if L["n"] >= 10:
+            d3 = L["dif"][3] / L["n"]; d1 = L["dif"][1] / L["n"]
+            if d3 < 0.35: errores.append(f"{lote}: solo {round(d3*100)} % de ítems de dificultad 3 (mínimo 35 %)")
+            if d1 > 0.25: errores.append(f"{lote}: {round(d1*100)} % de ítems de dificultad 1 (máximo 25 %)")
     usadas = collections.Counter(it["familia"] for it in items if it.get("familia"))
     for fid in fams:
         if usadas[fid] < 2: avisos.append(f"familia {fid}: solo {usadas[fid]} ítem(s); el repaso necesita variantes")

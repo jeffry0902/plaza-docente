@@ -614,6 +614,7 @@ function vistaPregunta() {
     fb = `<div class="fb ${res.ok ? "ok" : "bad"} pop">
       <h3>${res.ok ? pick(["¡Exacto!", "¡Muy bien!", "¡Así se hace!", "¡Correcto!"]) + ` +${s.ultimoXp} XP` : `La respuesta era la ${letraVisible(it.clave)}`}</h3>
       ${res.ok ? "" : `<p class="small">Esta competencia queda en tu cofre: te la volveré a presentar en otro contexto hasta que la domines.</p>`}
+      ${it.explicacion ? `<div class="expl"><b>🧭 Por qué</b><p>${esc(it.explicacion)}</p></div>` : ""}
       <div class="just">${just}</div>
       ${citasHTML(it.citas)}
       <div class="tip">💡 <b>Clave CNSC:</b> ${esc(it.consejo)}</div>
@@ -630,7 +631,7 @@ function vistaPregunta() {
   <div class="chips" style="margin-bottom:10px">
     <span class="tag">${esc(comp.prueba.split(" (")[0])}</span>
     <span class="tag amber">${comp.icono} ${esc(comp.oficial)}</span>
-    <span class="tag blue">${esc(it.competencia)}</span>
+    <span class="tag blue">${esc(it.competencia)}</span>${it.dificultad ? `<span class="tag ${it.dificultad === 3 ? "amber" : ""}">${["", "Básica", "Media", "Alta"][it.dificultad]}</span>` : ""}
   </div>
   ${pre}
   ${caso ? `<details class="case" ${abierto ? "open" : ""}><summary><span>📄 Caso: ${esc(caso.titulo)}</span><span class="muted tiny">ver/ocultar</span></summary>
