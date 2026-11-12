@@ -38,6 +38,13 @@ def limpiar_lineas(raw):
     raw = re.sub(r"\d{0,3}\s*Orientaciones Curriculares para el Área de Tecnología e Informática en la Educación Básica y Media\s*\d{0,3}", " ", raw)
     raw = re.sub(r"([a-záéíóúñ])- ([a-záéíóúñ])", r"\1\2", raw)                              # "em- plear"
     raw = raw.replace(" • ", "\n• ")
+    # encabezados de página de decretos: "DECRETO NÚMERO / Hoja N°. 15 / Continuación del Decreto “…” / -----"
+    raw = re.sub(r"DECRETO N[ÚU]MERO[^\n]*\n+\s*Hoja N[°º*]?\.?\s*\d+\s*\n+\s*Continuación del Decreto\s*[“\"][^”\"]*[”\"]\s*\n*\s*-{10,}", "\n", raw)
+    raw = re.sub(r"\n-{20,}", "\n", raw)
+    raw = re.sub(r"[^\n]{0,60}Hoja N\S{0,2}\s*\d+[^\n]*\n", "\n", raw)
+    raw = re.sub(r"(?m)^[^\n]{0,25}0?03842 18 MAR 2022[^\n]{0,30}$", "", raw)
+    raw = re.sub(r"(?m)^\s*(RESOLUCIÓN|ResoLución|RESOLUCION)\s*(NÚMERO|número|NUMERO)[^\n]{0,30}$", "", raw)
+    raw = re.sub(r"Continuación (del Decreto|de la Resolución)[^\n]*(\n[^\n]*){0,3}?[”\"]\s*\n", "\n", raw)
     for l in raw.split("\n"):
         s = l.strip()
         if not s: out.append(""); continue

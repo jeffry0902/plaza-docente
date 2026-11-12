@@ -46,9 +46,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 1,
-"total": 20,
+"total": 19,
 "titulo": "Arts. 1 a 5",
-"palabras": 626,
+"palabras": 577,
 "archivo": "lecturas/p001.json"
 },
 {
@@ -146,9 +146,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 2,
-"total": 20,
-"titulo": "Arts. 6 a 8",
-"palabras": 441,
+"total": 19,
+"titulo": "Arts. 6 a 9",
+"palabras": 495,
 "archivo": "lecturas/p002.json"
 },
 {
@@ -166,9 +166,9 @@
 "doc": "resolucion_3842_2022_ocr",
 "nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
 "parte": 1,
-"total": 9,
+"total": 7,
 "titulo": "Presentación",
-"palabras": 750,
+"palabras": 762,
 "archivo": "lecturas/p002.json"
 },
 {
@@ -246,9 +246,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 3,
-"total": 20,
-"titulo": "Arts. 9 a 11",
-"palabras": 444,
+"total": 19,
+"titulo": "Arts. 10 a 13",
+"palabras": 430,
 "archivo": "lecturas/p003.json"
 },
 {
@@ -346,9 +346,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 4,
-"total": 20,
-"titulo": "Arts. 12 a 15",
-"palabras": 453,
+"total": 19,
+"titulo": "Arts. 14 a 16",
+"palabras": 469,
 "archivo": "lecturas/p004.json"
 },
 {
@@ -446,9 +446,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 5,
-"total": 20,
-"titulo": "Arts. 16 a 18",
-"palabras": 526,
+"total": 19,
+"titulo": "Arts. 17 a 20",
+"palabras": 500,
 "archivo": "lecturas/p005.json"
 },
 {
@@ -466,9 +466,9 @@
 "doc": "resolucion_3842_2022_ocr",
 "nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
 "parte": 2,
-"total": 9,
-"titulo": "Hoja N*. 18 ResoLuciÓN NÚMERODO3842 18 MAR 2022",
-"palabras": 758,
+"total": 7,
+"titulo": "Parte 2",
+"palabras": 790,
 "archivo": "lecturas/p005.json"
 },
 {
@@ -546,9 +546,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 6,
-"total": 20,
-"titulo": "Arts. 19 a 22",
-"palabras": 577,
+"total": 19,
+"titulo": "Arts. 21 a 24",
+"palabras": 424,
 "archivo": "lecturas/p006.json"
 },
 {
@@ -646,9 +646,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 7,
-"total": 20,
-"titulo": "Arts. 23 a 27",
-"palabras": 498,
+"total": 19,
+"titulo": "Arts. 25 a 28",
+"palabras": 442,
 "archivo": "lecturas/p007.json"
 },
 {
@@ -746,9 +746,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 8,
-"total": 20,
-"titulo": "Arts. 28 a 29",
-"palabras": 622,
+"total": 19,
+"titulo": "Arts. 29 a 30",
+"palabras": 458,
 "archivo": "lecturas/p008.json"
 },
 {
@@ -766,9 +766,9 @@
 "doc": "resolucion_3842_2022_ocr",
 "nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
 "parte": 3,
-"total": 9,
-"titulo": "Hoja N*. 20 RESOLUCIÓN número 003842 18 MAR 2022",
-"palabras": 495,
+"total": 7,
+"titulo": "Normalista superior",
+"palabras": 675,
 "archivo": "lecturas/p008.json"
 },
 {
@@ -846,9 +846,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 9,
-"total": 20,
+"total": 19,
 "titulo": "Arts. 31 a 33",
-"palabras": 558,
+"palabras": 509,
 "archivo": "lecturas/p009.json"
 },
 {
@@ -946,9 +946,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 10,
-"total": 20,
+"total": 19,
 "titulo": "Arts. 34 a 36",
-"palabras": 762,
+"palabras": 774,
 "archivo": "lecturas/p010.json"
 },
 {
@@ -1046,9 +1046,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 11,
-"total": 20,
-"titulo": "Art. 21",
-"palabras": 479,
+"total": 19,
+"titulo": "Arts. 21 a 37",
+"palabras": 721,
 "archivo": "lecturas/p011.json"
 },
 {
@@ -1126,9 +1126,9 @@
 "doc": "resolucion_3842_2022_ocr",
 "nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
 "parte": 4,
-"total": 9,
-"titulo": "Normalista superior",
-"palabras": 477,
+"total": 7,
+"titulo": "Licenciatura en Educación",
+"palabras": 621,
 "archivo": "lecturas/p012.json"
 },
 {
@@ -1146,9 +1146,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 12,
-"total": 20,
-"titulo": "Arts. 37 a 38",
-"palabras": 494,
+"total": 19,
+"titulo": "Arts. 38 a 39",
+"palabras": 737,
 "archivo": "lecturas/p012.json"
 },
 {
@@ -1246,9 +1246,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 13,
-"total": 20,
-"titulo": "Art. 39",
-"palabras": 693,
+"total": 19,
+"titulo": "Arts. 40 a 41",
+"palabras": 622,
 "archivo": "lecturas/p013.json"
 },
 {
@@ -1296,9 +1296,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 14,
-"total": 20,
-"titulo": "Arts. 40 a 41",
-"palabras": 671,
+"total": 19,
+"titulo": "Arts. 42 a 43",
+"palabras": 660,
 "archivo": "lecturas/p013.json"
 },
 {
@@ -1336,9 +1336,9 @@
 "doc": "resolucion_3842_2022_ocr",
 "nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
 "parte": 5,
-"total": 9,
-"titulo": "Licenciatura en lenguas modernas español (solo, con otra opción o con",
-"palabras": 544,
+"total": 7,
+"titulo": "Licenciatura en Educación",
+"palabras": 582,
 "archivo": "lecturas/p014.json"
 },
 {
@@ -1346,9 +1346,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 15,
-"total": 20,
-"titulo": "Arts. 42 a 43",
-"palabras": 758,
+"total": 19,
+"titulo": "Art. 44",
+"palabras": 542,
 "archivo": "lecturas/p014.json"
 },
 {
@@ -1376,9 +1376,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 16,
-"total": 20,
-"titulo": "Art. 44",
-"palabras": 591,
+"total": 19,
+"titulo": "Art. 45",
+"palabras": 569,
 "archivo": "lecturas/p014.json"
 },
 {
@@ -1416,9 +1416,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 17,
-"total": 20,
-"titulo": "Art. 45",
-"palabras": 618,
+"total": 19,
+"titulo": "Arts. 46 a 49",
+"palabras": 475,
 "archivo": "lecturas/p015.json"
 },
 {
@@ -1446,9 +1446,9 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 18,
-"total": 20,
-"titulo": "Arts. 46 a 49",
-"palabras": 524,
+"total": 19,
+"titulo": "Arts. 50 a 39",
+"palabras": 449,
 "archivo": "lecturas/p015.json"
 },
 {
@@ -1456,9 +1456,9 @@
 "doc": "resolucion_3842_2022_ocr",
 "nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
 "parte": 6,
-"total": 9,
-"titulo": "Licenciatura en Educación",
-"palabras": 435,
+"total": 7,
+"titulo": "Filología e idiomas",
+"palabras": 444,
 "archivo": "lecturas/p015.json"
 },
 {
@@ -1486,33 +1486,23 @@
 "doc": "decreto_1965_2013",
 "nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
 "parte": 19,
-"total": 20,
-"titulo": "Arts. 50 a 51",
-"palabras": 456,
+"total": 19,
+"titulo": "Arts. 53 a 55",
+"palabras": 246,
 "archivo": "lecturas/p015.json"
 },
 {
 "id": "L150",
-"doc": "decreto_1965_2013",
-"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
-"parte": 20,
-"total": 20,
-"titulo": "Arts. 39 a 55",
-"palabras": 337,
-"archivo": "lecturas/p015.json"
-},
-{
-"id": "L151",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 8,
 "total": 41,
 "titulo": "Arts. 30 a 32",
 "palabras": 429,
-"archivo": "lecturas/p016.json"
+"archivo": "lecturas/p015.json"
 },
 {
-"id": "L152",
+"id": "L151",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 10,
@@ -1522,7 +1512,7 @@
 "archivo": "lecturas/p016.json"
 },
 {
-"id": "L153",
+"id": "L152",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 11,
@@ -1532,7 +1522,7 @@
 "archivo": "lecturas/p016.json"
 },
 {
-"id": "L154",
+"id": "L153",
 "doc": "decreto_1278_2002",
 "nombre": "Decreto 1278 de 2002 (Estatuto docente)",
 "parte": 9,
@@ -1542,17 +1532,17 @@
 "archivo": "lecturas/p016.json"
 },
 {
-"id": "L155",
+"id": "L154",
 "doc": "resolucion_3842_2022_ocr",
 "nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
 "parte": 7,
-"total": 9,
-"titulo": "Licenciatura en Educación",
-"palabras": 466,
+"total": 7,
+"titulo": "Medios audiovisuales",
+"palabras": 842,
 "archivo": "lecturas/p016.json"
 },
 {
-"id": "L156",
+"id": "L155",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 9,
@@ -1562,7 +1552,7 @@
 "archivo": "lecturas/p016.json"
 },
 {
-"id": "L157",
+"id": "L156",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 12,
@@ -1572,7 +1562,7 @@
 "archivo": "lecturas/p016.json"
 },
 {
-"id": "L158",
+"id": "L157",
 "doc": "decreto_1278_2002",
 "nombre": "Decreto 1278 de 2002 (Estatuto docente)",
 "parte": 10,
@@ -1582,7 +1572,7 @@
 "archivo": "lecturas/p016.json"
 },
 {
-"id": "L159",
+"id": "L158",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 10,
@@ -1592,37 +1582,27 @@
 "archivo": "lecturas/p016.json"
 },
 {
-"id": "L160",
-"doc": "resolucion_3842_2022_ocr",
-"nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
-"parte": 8,
-"total": 9,
-"titulo": "Licenciatura en Ciencias de la Educación",
-"palabras": 501,
-"archivo": "lecturas/p016.json"
-},
-{
-"id": "L161",
+"id": "L159",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 13,
 "total": 48,
 "titulo": "Arts. 50 a 55",
 "palabras": 497,
-"archivo": "lecturas/p017.json"
+"archivo": "lecturas/p016.json"
 },
 {
-"id": "L162",
+"id": "L160",
 "doc": "decreto_1278_2002",
 "nombre": "Decreto 1278 de 2002 (Estatuto docente)",
 "parte": 11,
 "total": 17,
 "titulo": "Arts. 36 a 38",
 "palabras": 495,
-"archivo": "lecturas/p017.json"
+"archivo": "lecturas/p016.json"
 },
 {
-"id": "L163",
+"id": "L161",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 11,
@@ -1632,7 +1612,7 @@
 "archivo": "lecturas/p017.json"
 },
 {
-"id": "L164",
+"id": "L162",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 14,
@@ -1642,17 +1622,7 @@
 "archivo": "lecturas/p017.json"
 },
 {
-"id": "L165",
-"doc": "resolucion_3842_2022_ocr",
-"nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
-"parte": 9,
-"total": 9,
-"titulo": "Licenciatura en pedagogía y didáctica de la educación física, recreación y depor",
-"palabras": 529,
-"archivo": "lecturas/p017.json"
-},
-{
-"id": "L166",
+"id": "L163",
 "doc": "decreto_1278_2002",
 "nombre": "Decreto 1278 de 2002 (Estatuto docente)",
 "parte": 12,
@@ -1662,7 +1632,7 @@
 "archivo": "lecturas/p017.json"
 },
 {
-"id": "L167",
+"id": "L164",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 12,
@@ -1672,7 +1642,7 @@
 "archivo": "lecturas/p017.json"
 },
 {
-"id": "L168",
+"id": "L165",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 15,
@@ -1682,7 +1652,7 @@
 "archivo": "lecturas/p017.json"
 },
 {
-"id": "L169",
+"id": "L166",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 16,
@@ -1692,7 +1662,7 @@
 "archivo": "lecturas/p017.json"
 },
 {
-"id": "L170",
+"id": "L167",
 "doc": "decreto_1278_2002",
 "nombre": "Decreto 1278 de 2002 (Estatuto docente)",
 "parte": 13,
@@ -1702,37 +1672,37 @@
 "archivo": "lecturas/p017.json"
 },
 {
-"id": "L171",
+"id": "L168",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 13,
 "total": 41,
 "titulo": "Arts. 42 a 43",
 "palabras": 450,
-"archivo": "lecturas/p018.json"
+"archivo": "lecturas/p017.json"
 },
 {
-"id": "L172",
+"id": "L169",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 17,
 "total": 48,
 "titulo": "Arts. 74 a 78",
 "palabras": 537,
-"archivo": "lecturas/p018.json"
+"archivo": "lecturas/p017.json"
 },
 {
-"id": "L173",
+"id": "L170",
 "doc": "decreto_1278_2002",
 "nombre": "Decreto 1278 de 2002 (Estatuto docente)",
 "parte": 14,
 "total": 17,
 "titulo": "Arts. 47 a 53",
 "palabras": 569,
-"archivo": "lecturas/p018.json"
+"archivo": "lecturas/p017.json"
 },
 {
-"id": "L174",
+"id": "L171",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 14,
@@ -1742,7 +1712,7 @@
 "archivo": "lecturas/p018.json"
 },
 {
-"id": "L175",
+"id": "L172",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 18,
@@ -1752,7 +1722,7 @@
 "archivo": "lecturas/p018.json"
 },
 {
-"id": "L176",
+"id": "L173",
 "doc": "decreto_1278_2002",
 "nombre": "Decreto 1278 de 2002 (Estatuto docente)",
 "parte": 15,
@@ -1762,7 +1732,7 @@
 "archivo": "lecturas/p018.json"
 },
 {
-"id": "L177",
+"id": "L174",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 15,
@@ -1772,7 +1742,7 @@
 "archivo": "lecturas/p018.json"
 },
 {
-"id": "L178",
+"id": "L175",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 19,
@@ -1782,7 +1752,7 @@
 "archivo": "lecturas/p018.json"
 },
 {
-"id": "L179",
+"id": "L176",
 "doc": "decreto_1278_2002",
 "nombre": "Decreto 1278 de 2002 (Estatuto docente)",
 "parte": 16,
@@ -1792,7 +1762,7 @@
 "archivo": "lecturas/p018.json"
 },
 {
-"id": "L180",
+"id": "L177",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 16,
@@ -1802,37 +1772,37 @@
 "archivo": "lecturas/p018.json"
 },
 {
-"id": "L181",
+"id": "L178",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 20,
 "total": 48,
 "titulo": "Arts. 87 a 93",
 "palabras": 453,
-"archivo": "lecturas/p019.json"
+"archivo": "lecturas/p018.json"
 },
 {
-"id": "L182",
+"id": "L179",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 21,
 "total": 48,
 "titulo": "Arts. 94 a 99",
 "palabras": 485,
-"archivo": "lecturas/p019.json"
+"archivo": "lecturas/p018.json"
 },
 {
-"id": "L183",
+"id": "L180",
 "doc": "decreto_1278_2002",
 "nombre": "Decreto 1278 de 2002 (Estatuto docente)",
 "parte": 17,
 "total": 17,
 "titulo": "Arts. 64 a 69",
 "palabras": 501,
-"archivo": "lecturas/p019.json"
+"archivo": "lecturas/p018.json"
 },
 {
-"id": "L184",
+"id": "L181",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 17,
@@ -1842,7 +1812,7 @@
 "archivo": "lecturas/p019.json"
 },
 {
-"id": "L185",
+"id": "L182",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 22,
@@ -1852,7 +1822,7 @@
 "archivo": "lecturas/p019.json"
 },
 {
-"id": "L186",
+"id": "L183",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 18,
@@ -1862,7 +1832,7 @@
 "archivo": "lecturas/p019.json"
 },
 {
-"id": "L187",
+"id": "L184",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 23,
@@ -1872,7 +1842,7 @@
 "archivo": "lecturas/p019.json"
 },
 {
-"id": "L188",
+"id": "L185",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 19,
@@ -1882,7 +1852,7 @@
 "archivo": "lecturas/p019.json"
 },
 {
-"id": "L189",
+"id": "L186",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 24,
@@ -1892,7 +1862,7 @@
 "archivo": "lecturas/p019.json"
 },
 {
-"id": "L190",
+"id": "L187",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 20,
@@ -1902,37 +1872,37 @@
 "archivo": "lecturas/p019.json"
 },
 {
-"id": "L191",
+"id": "L188",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 25,
 "total": 48,
 "titulo": "Arts. 115 a 118",
 "palabras": 503,
-"archivo": "lecturas/p020.json"
+"archivo": "lecturas/p019.json"
 },
 {
-"id": "L192",
+"id": "L189",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 26,
 "total": 48,
 "titulo": "Arts. 119 a 124",
 "palabras": 481,
-"archivo": "lecturas/p020.json"
+"archivo": "lecturas/p019.json"
 },
 {
-"id": "L193",
+"id": "L190",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 21,
 "total": 41,
 "titulo": "Arts. 67 a 69",
 "palabras": 423,
-"archivo": "lecturas/p020.json"
+"archivo": "lecturas/p019.json"
 },
 {
-"id": "L194",
+"id": "L191",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 27,
@@ -1942,7 +1912,7 @@
 "archivo": "lecturas/p020.json"
 },
 {
-"id": "L195",
+"id": "L192",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 22,
@@ -1952,7 +1922,7 @@
 "archivo": "lecturas/p020.json"
 },
 {
-"id": "L196",
+"id": "L193",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 28,
@@ -1962,7 +1932,7 @@
 "archivo": "lecturas/p020.json"
 },
 {
-"id": "L197",
+"id": "L194",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 23,
@@ -1972,7 +1942,7 @@
 "archivo": "lecturas/p020.json"
 },
 {
-"id": "L198",
+"id": "L195",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 29,
@@ -1982,7 +1952,7 @@
 "archivo": "lecturas/p020.json"
 },
 {
-"id": "L199",
+"id": "L196",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 24,
@@ -1992,7 +1962,7 @@
 "archivo": "lecturas/p020.json"
 },
 {
-"id": "L200",
+"id": "L197",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 30,
@@ -2002,37 +1972,37 @@
 "archivo": "lecturas/p020.json"
 },
 {
-"id": "L201",
+"id": "L198",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 31,
 "total": 48,
 "titulo": "Arts. 145 a 148",
 "palabras": 796,
-"archivo": "lecturas/p021.json"
+"archivo": "lecturas/p020.json"
 },
 {
-"id": "L202",
+"id": "L199",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 25,
 "total": 41,
 "titulo": "Art. 82",
 "palabras": 613,
-"archivo": "lecturas/p021.json"
+"archivo": "lecturas/p020.json"
 },
 {
-"id": "L203",
+"id": "L200",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 32,
 "total": 48,
 "titulo": "Arts. 149 a 151",
 "palabras": 484,
-"archivo": "lecturas/p021.json"
+"archivo": "lecturas/p020.json"
 },
 {
-"id": "L204",
+"id": "L201",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 26,
@@ -2042,7 +2012,7 @@
 "archivo": "lecturas/p021.json"
 },
 {
-"id": "L205",
+"id": "L202",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 33,
@@ -2052,7 +2022,7 @@
 "archivo": "lecturas/p021.json"
 },
 {
-"id": "L206",
+"id": "L203",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 27,
@@ -2062,7 +2032,7 @@
 "archivo": "lecturas/p021.json"
 },
 {
-"id": "L207",
+"id": "L204",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 34,
@@ -2072,7 +2042,7 @@
 "archivo": "lecturas/p021.json"
 },
 {
-"id": "L208",
+"id": "L205",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 28,
@@ -2082,7 +2052,7 @@
 "archivo": "lecturas/p021.json"
 },
 {
-"id": "L209",
+"id": "L206",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 35,
@@ -2092,7 +2062,7 @@
 "archivo": "lecturas/p021.json"
 },
 {
-"id": "L210",
+"id": "L207",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 36,
@@ -2102,37 +2072,37 @@
 "archivo": "lecturas/p021.json"
 },
 {
-"id": "L211",
+"id": "L208",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 29,
 "total": 41,
 "titulo": "Arts. 93 a 95",
 "palabras": 470,
-"archivo": "lecturas/p022.json"
+"archivo": "lecturas/p021.json"
 },
 {
-"id": "L212",
+"id": "L209",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 37,
 "total": 48,
 "titulo": "Arts. 167 a 168",
 "palabras": 555,
-"archivo": "lecturas/p022.json"
+"archivo": "lecturas/p021.json"
 },
 {
-"id": "L213",
+"id": "L210",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 30,
 "total": 41,
 "titulo": "Arts. 96 a 100",
 "palabras": 752,
-"archivo": "lecturas/p022.json"
+"archivo": "lecturas/p021.json"
 },
 {
-"id": "L214",
+"id": "L211",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 38,
@@ -2142,7 +2112,7 @@
 "archivo": "lecturas/p022.json"
 },
 {
-"id": "L215",
+"id": "L212",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 31,
@@ -2152,7 +2122,7 @@
 "archivo": "lecturas/p022.json"
 },
 {
-"id": "L216",
+"id": "L213",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 39,
@@ -2162,7 +2132,7 @@
 "archivo": "lecturas/p022.json"
 },
 {
-"id": "L217",
+"id": "L214",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 32,
@@ -2172,7 +2142,7 @@
 "archivo": "lecturas/p022.json"
 },
 {
-"id": "L218",
+"id": "L215",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 40,
@@ -2182,7 +2152,7 @@
 "archivo": "lecturas/p022.json"
 },
 {
-"id": "L219",
+"id": "L216",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 41,
@@ -2192,7 +2162,7 @@
 "archivo": "lecturas/p022.json"
 },
 {
-"id": "L220",
+"id": "L217",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 33,
@@ -2202,37 +2172,37 @@
 "archivo": "lecturas/p022.json"
 },
 {
-"id": "L221",
+"id": "L218",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 42,
 "total": 48,
 "titulo": "Arts. 193 a 197",
 "palabras": 440,
-"archivo": "lecturas/p023.json"
+"archivo": "lecturas/p022.json"
 },
 {
-"id": "L222",
+"id": "L219",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 34,
 "total": 41,
 "titulo": "Arts. 111 a 112",
 "palabras": 451,
-"archivo": "lecturas/p023.json"
+"archivo": "lecturas/p022.json"
 },
 {
-"id": "L223",
+"id": "L220",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 43,
 "total": 48,
 "titulo": "Arts. 198 a 201",
 "palabras": 426,
-"archivo": "lecturas/p023.json"
+"archivo": "lecturas/p022.json"
 },
 {
-"id": "L224",
+"id": "L221",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 35,
@@ -2242,7 +2212,7 @@
 "archivo": "lecturas/p023.json"
 },
 {
-"id": "L225",
+"id": "L222",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 44,
@@ -2252,7 +2222,7 @@
 "archivo": "lecturas/p023.json"
 },
 {
-"id": "L226",
+"id": "L223",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 36,
@@ -2262,7 +2232,7 @@
 "archivo": "lecturas/p023.json"
 },
 {
-"id": "L227",
+"id": "L224",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 45,
@@ -2272,7 +2242,7 @@
 "archivo": "lecturas/p023.json"
 },
 {
-"id": "L228",
+"id": "L225",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 46,
@@ -2282,7 +2252,7 @@
 "archivo": "lecturas/p023.json"
 },
 {
-"id": "L229",
+"id": "L226",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 37,
@@ -2292,7 +2262,7 @@
 "archivo": "lecturas/p023.json"
 },
 {
-"id": "L230",
+"id": "L227",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 47,
@@ -2302,37 +2272,37 @@
 "archivo": "lecturas/p023.json"
 },
 {
-"id": "L231",
+"id": "L228",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 38,
 "total": 41,
 "titulo": "Arts. 125 a 126",
 "palabras": 527,
-"archivo": "lecturas/p024.json"
+"archivo": "lecturas/p023.json"
 },
 {
-"id": "L232",
+"id": "L229",
 "doc": "ley_115_1994",
 "nombre": "Ley 115 de 1994 (Ley General de Educación)",
 "parte": 48,
 "total": 48,
 "titulo": "Arts. 220 a 222",
 "palabras": 230,
-"archivo": "lecturas/p024.json"
+"archivo": "lecturas/p023.json"
 },
 {
-"id": "L233",
+"id": "L230",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 39,
 "total": 41,
 "titulo": "Arts. 127 a 129",
 "palabras": 705,
-"archivo": "lecturas/p024.json"
+"archivo": "lecturas/p023.json"
 },
 {
-"id": "L234",
+"id": "L231",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 40,
@@ -2342,7 +2312,7 @@
 "archivo": "lecturas/p024.json"
 },
 {
-"id": "L235",
+"id": "L232",
 "doc": "ley_1098_2006",
 "nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
 "parte": 41,

@@ -181,6 +181,7 @@ function casosNuevos(filtroComp) {
 function puntajeItem(id) { const s = S.estado.items[id]; if (!s || !s.vistos) return -1; return s.aciertos / s.vistos; }
 
 const fichaLeida = id => !!S.estado.fichas?.[id];
+const esDiaDistinto = (d = new Date()) => d.getDay() === 3 || d.getDay() === 0;   // miércoles y domingo
 const LECT = {};
 const lecturaLeida = id => !!S.estado.lecturas?.[id];
 const lecturaPendiente = () => (S.banco.plan || []).find(l => !lecturaLeida(l.id));
@@ -220,11 +221,16 @@ function armarCola(tipo, opts = {}) {
       shuffle(itemsDeLectura(L.id)).filter(id => !S.estado.items[id]?.vistos).slice(0, 3).forEach(id => add(id));
     }
   }
-  if (tipo === "reto" && !opts.sinFicha) {
+  const distinto = tipo === "reto" && !opts.sinFicha && esDiaDistinto() && window.PDX?.J;
+  if (distinto) {
+    const g = PDX.elegirJuegoDelDia(hoy());
+    if (g) { cola.push({ juego: { tipo: g.tipo, id: g.id } }); extraN++; }
+  }
+  if (tipo === "reto" && !opts.sinFicha && !distinto) {
     const f = fichaPendiente();
     if (f) { cola.push({ ficha: f.id }); extraN++; (IDX.porFicha[f.id] || []).forEach(id => add(id)); }
   }
-  const n = (opts.n || CFG.preguntasPorReto) + extraN;
+  const n = (opts.n || (distinto ? 6 : CFG.preguntasPorReto)) + extraN;
 
   if (tipo === "reto" || tipo === "duelo") {
     const vencidas = tipo === "duelo" ? cofre().map(x => x.f) : shuffle(familiasVencidas());
@@ -276,7 +282,8 @@ function iniciarSesion(tipo, opts = {}) {
 }
 function prepararPregunta() {
   const q = S.ses.cola[S.ses.i];
-  if (q.ficha || q.lectura) { S.ses.orden = null; S.ses.sel = null; S.ses.respondida = false; return; }
+  if (q.ficha || q.lectura || q.juego) { S.ses.orden = null; S.ses.sel = null; S.ses.respondida = false;
+    if (q.juego) S.ses.G = PDX.nuevoJuego(q.juego.tipo, q.juego.id); return; }
   const it = IDX.items[q.id];
   S.ses.preLeer = S.ses.tipo !== "simulacro" && !q.repaso && !q.rescate && !(S.estado.items[q.id]?.vistos);
   S.ses.orden = shuffle(it.opciones.map(o => o.l)); S.ses.sel = null; S.ses.respondida = false; S.ses.t0 = Date.now();
@@ -509,8 +516,8 @@ function vistaInicio() {
   ${!standalone && /iP(hone|ad)/.test(navigator.userAgent) ? `<div class="card flat small" style="margin-bottom:12px">📲 <b>Instálala:</b> toca <b>Compartir</b> en Safari y luego <b>Agregar a inicio</b>. Así se abre como app, sin barras.</div>` : ""}
   <section class="hero">
     <div class="row between"><div><div class="small" style="opacity:.9">Reto de hoy · ${fechaLarga(hoy())}</div>
-      <div class="big">${hecho ? "¡Cumplido! ✓" : `${lecturaPendiente() ? "Lectura + " : ""}${CFG.preguntasPorReto} preguntas`}</div>
-      <div class="small" style="opacity:.92">${hecho ? "Tu racha está a salvo. Puedes seguir practicando." : venc ? `Incluye ${Math.min(venc, CFG.maxRepasoPorReto)} de repaso: misma competencia, otro contexto` : `Unos 15 minutos · lees el documento oficial y luego respondes`}</div></div>
+      <div class="big">${hecho ? "¡Cumplido! ✓" : esDiaDistinto() ? "🎲 Reto distinto" : `${lecturaPendiente() ? "Lectura + " : ""}${CFG.preguntasPorReto} preguntas`}</div>
+      <div class="small" style="opacity:.92">${hecho ? "Tu racha está a salvo. Puedes seguir practicando." : venc ? `Incluye ${Math.min(venc, CFG.maxRepasoPorReto)} de repaso: misma competencia, otro contexto` : (esDiaDistinto() ? "Lectura + un juego + 6 preguntas · unos 15 minutos" : `Unos 15 minutos · lees el documento oficial y luego respondes`)}</div></div>
       <div class="flame">${hecho ? "🏅" : "🔥"}</div></div>
     <div class="week">${semanaHTML()}</div>
     <button class="btn" data-a="reto">${hecho ? "Practicar un reto más" : "Empezar el reto de hoy"}</button>
@@ -531,6 +538,10 @@ function vistaInicio() {
     <div class="bar amber mt"><i style="width:${prep}%"></i></div>
     <p class="tiny muted mt">Combina tu precisión y cuánto del banco has trabajado. La prueba eliminatoria exige 60/100.</p>
     <button class="btn ghost" data-v="progreso">Ver progreso por componente →</button></div>
+
+  <div class="card mt"><div class="row"><div style="font-size:30px">🗺️</div><div style="flex:1"><h3>Mapas, esquemas y juegos</h3>
+     <p class="small muted">Los documentos en mapas mentales y esquemas visuales, juegos de repaso (relacionar, ordenar, clasificar, sopa de letras) y lectura en voz alta.</p></div></div>
+     <button class="btn violet mt" data-a="abrirMapas">Explorar</button></div>
 
   <div class="card mt"><div class="row"><div style="font-size:30px">📝</div><div style="flex:1"><h3>Cuaderno de estudio</h3>
      <p class="small muted">Para sentarte con calma: lee los documentos completos, guarda conceptos con tus palabras y repásalos. ${S.estado.cuaderno.conceptos.length ? `Llevas ${S.estado.cuaderno.conceptos.length} ${S.estado.cuaderno.conceptos.length === 1 ? "concepto" : "conceptos"}.` : ""}</p></div></div>
@@ -561,6 +572,7 @@ function vistaFicha() {
   <div class="review-banner">📘 Estudia y responde: lee con calma, luego vienen ${nPreg} preguntas sobre esta ficha${s.tipo === "estudio" ? " y casos tipo examen" : ""}.</div>
   <div class="chips" style="margin-bottom:10px"><span class="tag amber">${comp.icono} ${esc(comp.nombre)}</span><span class="tag blue">${esc(F.nombre)}</span></div>
   <h2>${esc(f.titulo)}</h2>
+  <div class="row mt">${PDX.Voz.boton(f.lectura + " " + f.puntos.join(" "), "fic-" + f.id, "Escuchar la ficha")}</div>
   <div class="lectura">${esc(f.lectura)}</div>
   <div class="card flat mt"><b>Ideas clave</b><ul class="small">${f.puntos.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>
   ${citasHTML(f.citas, "📜 Textual de los documentos oficiales")}
@@ -575,6 +587,7 @@ function vistaLectura() {
   <div class="review-banner lect">📖 Lectura del día · ${pi.leidas + (lecturaLeida(q.lectura) ? 0 : 1)} de ${pi.total} del plan · unos ${Math.max(2, Math.round(palabras / 170))} min${nPreg ? ` · luego ${nPreg} ${nPreg === 1 ? "pregunta" : "preguntas"} sobre este texto` : ""}</div>
   <div class="chips" style="margin-bottom:10px"><span class="tag blue">${esc(L.nombre)}</span><span class="tag">Parte ${L.parte} de ${L.total}</span></div>
   <h2>${esc(L.titulo)}</h2>
+  <div class="row mt">${PDX.Voz.boton(L.parrafos.join(" "), "lec-" + L.id, "Escuchar la lectura")}</div>
   <div class="lectura doc">${L.parrafos.map(p => `<p>${esc(p)}</p>`).join("")}</div>
   <p class="tiny muted mt">Texto oficial, tal como aparece en el documento. Léelo completo: las preguntas de hoy se responden con lo que dice aquí.</p>
   <div class="sticky-bottom"><button class="btn" data-a="leidoL">Ya la leí: ¡a practicar!</button></div>`;
@@ -582,6 +595,7 @@ function vistaLectura() {
 function preLecturaHTML(it, abierta) {
   const c = S.banco.contextos?.[it.id]; if (!c) return "";
   return `<details class="prelee" ${abierta ? "open" : ""}><summary><span>📖 ${abierta ? "Antes de responder, lee esto" : "Releer el documento"}</span><span class="muted tiny">${esc(c.nombre.split(" (")[0])}</span></summary>
+    <div class="row">${PDX.Voz.boton(c.parrafos.join(" "), "pre-" + it.id)}</div>
     <div class="txt">${c.parrafos.map(p => `<p>${esc(p)}</p>`).join("")}</div>
     <div class="tiny muted">${esc(c.nombre)} · ${esc(c.titulo)}</div></details>`;
 }
@@ -589,6 +603,10 @@ function vistaPregunta() {
   const s = S.ses, q = s.cola[s.i];
   if (q.ficha) return vistaFicha();
   if (q.lectura) return vistaLectura();
+  if (q.juego) return `<div class="qhead"><button class="icon-btn" data-a="salir" aria-label="Salir">✕</button>
+    <div class="bar"><i style="width:${(s.i / s.cola.length) * 100}%"></i></div><span class="tiny muted">${s.i + 1}/${s.cola.length}</span></div>
+    <div class="review-banner">🎲 Hoy el reto es distinto: un juego y luego 6 preguntas</div>${S.ses.G ? PDX.juegoHTML(S.ses.G, true) : "<p>No se pudo cargar el juego.</p>"}
+    ${S.ses.G && !S.ses.G.fin ? `<button class="btn ghost mt" data-a="jFin">Saltar el juego</button>` : ""}`;
   const it = IDX.items[q.id], caso = IDX.casos[it.caso], comp = IDX.comps[it.comp];
   const sim = s.tipo === "simulacro";
   const pq = s.i > 0 ? s.cola[s.i - 1] : null;
@@ -618,6 +636,14 @@ function vistaPregunta() {
       <div class="just">${just}</div>
       ${citasHTML(it.citas)}
       <div class="tip">💡 <b>Clave CNSC:</b> ${esc(it.consejo)}</div>
+      ${(() => { const F = S.banco.familias[it.familia], Lc = F.leccion, af = (S.banco.afirmaciones || []).find(x => x.id === F.afirmacion);
+        const texto = `${F.nombre}. ${Lc.idea} ${Lc.claves.join(" ")} Cuidado: ${Lc.trampa}`;
+        return `<details class="entiende" open><summary>📘 Entiende el tema: ${esc(F.nombre)}</summary>
+          <div class="row mt">${PDX.Voz.boton(texto, "ent-" + it.id)}</div>
+          <p>${esc(Lc.idea)}</p><ul class="small">${Lc.claves.map(c => `<li>${esc(c)}</li>`).join("")}</ul>
+          <p class="small"><b>⚠️ La trampa típica:</b> ${esc(Lc.trampa)}</p>
+          ${af ? `<p class="tiny muted">Lo que evalúa la CNSC aquí: <b>${esc(af.nombre)}</b> — ${esc(af.texto)} Evidencia: ${esc(F.evidencia)}</p>` : ""}
+          <p class="tiny muted">📚 ${esc(Lc.fuente)}</p></details>`; })()}
       <div class="src">📚 ${esc(it.fuente)}</div>
       <button class="linkbtn" data-a="reportar">🚩 ¿Algo raro en esta pregunta? Repórtala</button>
     </div>`;
@@ -939,7 +965,8 @@ function render() {
   clearInterval(timerInt); aplicarTema();
   const v = !S.clave ? vistaLogin() : !S.estado.perfil.nombre ? vistaNombre() : ({
     inicio: vistaInicio, pregunta: vistaPregunta, resumen: vistaResumen, resumenSimulacro: vistaResumenSimulacro,
-    cofre: vistaCofre, biblioteca: vistaBiblioteca, cuaderno: vistaCuaderno, docs: vistaDocs, doc: vistaDoc, leer: vistaLeer, conceptos: vistaConceptos, flash: vistaFlash, insignias: vistaInsignias, progreso: vistaProgreso, ajustes: vistaAjustes
+    cofre: vistaCofre, biblioteca: vistaBiblioteca, cuaderno: vistaCuaderno, mapas: () => PDX.vistaMapas(), mapa: () => PDX.vistaMapa(), esquema: () => PDX.vistaEsquema(),
+    juego: () => `<div class="top"><button class="icon-btn" data-a="jSalir">‹</button><h2>Juego</h2><span style="width:44px"></span></div>${CU.G ? PDX.juegoHTML(CU.G, false) : ""}`, docs: vistaDocs, doc: vistaDoc, leer: vistaLeer, conceptos: vistaConceptos, flash: vistaFlash, insignias: vistaInsignias, progreso: vistaProgreso, ajustes: vistaAjustes
   }[S.vista] || vistaInicio)();
   $app.innerHTML = v;
   if (S.vista === "pregunta" && S.ses?.fin) {
@@ -964,7 +991,7 @@ $app.addEventListener("click", async e => {
     } catch (err) { b.disabled = false; b.textContent = "Entrar"; toast(err.message === "clave_invalida" ? "Clave incorrecta" : "Sin conexión. Intenta de nuevo."); }
   }
   else if (a === "guardarNombre") { const n = document.getElementById("nombre").value.trim(); if (!n) return; S.estado.perfil.nombre = n; S.estado.perfil.inicio ||= hoy(); guardarLocal(); toast("Guardado"); ir("inicio"); }
-  else if (a === "reto") { b.disabled = true; const L = lecturaPendiente(); if (L) await asegurarLectura(L.id); iniciarSesion("reto"); }
+  else if (a === "reto") { b.disabled = true; const L = lecturaPendiente(); if (L) await asegurarLectura(L.id); if (esDiaDistinto()) await PDX.cargar(); iniciarSesion("reto"); }
   else if (a === "duelo") iniciarSesion("duelo", { n: 10 });
   else if (a === "modulo") iniciarSesion("modulo", { comp: b.dataset.c, n: 6, sinFicha: true });
   else if (a === "simulacro") modalSimulacro();
@@ -986,6 +1013,17 @@ $app.addEventListener("click", async e => {
     m.querySelector("[data-m=seguir]").onclick = cerrarModal;
     m.querySelector("[data-m=salir]").onclick = () => { cerrarModal(); if (sim && S.ses.res.length) terminarSesion(); else { S.ses = null; ir("inicio"); } };
   }
+  else if (a === "voz") { PDX.Voz.hablar(b.dataset.txt, b.dataset.id); }
+  else if (a === "abrirMapas") { b.disabled = true; await PDX.cargar(); ir("mapas"); }
+  else if (a === "verMapa") { PDX.V.mapa = b.dataset.d; PDX.V.abiertos = new Set(); ir("mapa"); }
+  else if (a === "verEsquema") { PDX.V.esquema = b.dataset.id; ir("esquema"); }
+  else if (a === "mmToggle") { const r = b.dataset.r, A = PDX.V.abiertos; A.has(r) ? A.delete(r) : A.add(r); render(); }
+  else if (a === "mmTodo") { const m = PDX.MAPAS.find(x => x.doc === PDX.V.mapa); PDX.V.abiertos = new Set(PDX.todasLasRutas(m.mapa, null, [])); render(); }
+  else if (a === "mmNada") { PDX.V.abiertos = new Set(); render(); }
+  else if (a === "jugar") { await PDX.cargar(); CU.G = PDX.nuevoJuego(b.dataset.tipo, b.dataset.id); ir("juego"); }
+  else if (a === "jSalir") { CU.G = null; ir("mapas"); }
+  else if (a === "jFin") { S.ses.G = null; siguiente(); }
+  else if (/^j[A-Z]/.test(a)) { const G = S.vista === "juego" ? CU.G : S.ses?.G; if (G) { PDX.juegoAccion(a, b, G); render(); } }
   else if (a === "abrirDoc") { CU.doc = b.dataset.d; ir("doc"); }
   else if (a === "leerParte") { CU.lectura = b.dataset.l; CU.sel = null; CU.doc = (S.banco.plan.find(l => l.id === CU.lectura) || {}).doc; await asegurarLectura(CU.lectura); ir("leer"); }
   else if (a === "volverDoc") { ir("doc"); }
@@ -1028,6 +1066,13 @@ function normalizar() {
   if (!E.perfil.inicio && E.perfil.nombre) E.perfil.inicio = (E.perfil.dias[0] || hoy());
 }
 
+window.PD = {
+  toast, sonar, render: () => render(),
+  premiar(xp, G) { const P = S.estado.perfil; P.xp += xp; if (S.ses && S.vista === "pregunta") S.ses.xp += xp;
+    else { const r = { fecha: hoy(), tipo: "juego", total: 1, ok: G.errores ? 0 : 1, xp, comp: null }; S.estado.sesiones.push(r);
+      const ob = outbox(); ob.sesiones.push({ tipo: "juego", total: 1, correctas: G.errores ? 0 : 1, xp, detalle: { juego: G.id, errores: G.errores } }); setOutbox(ob); }
+    confeti(80); sonar("fin"); guardarLocal(); }
+};
 /* ---------- arranque ---------- */
 (async function init() {
   try {

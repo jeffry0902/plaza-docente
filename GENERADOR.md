@@ -6,7 +6,9 @@ Reglas que sigue la tarea programada que agrega preguntas cada día. Si algo de 
 - `python3 tools/fragmentar.py` parte los documentos en ~235 lecturas cortas (3-4 min) y las ordena: 50 % Guía 30 y Orientaciones Curriculares (prioridad 1), 30 % Ley 1620 + Decreto 1965 y Decreto 1421 (prioridad 2), 20 % el resto (Decreto 1290/1075, Ley 115, Decreto 1278, Res. 3842, Ley 1098).
 - El reto diario abre con la siguiente lectura del plan y luego hace las preguntas cuyas citas están en ese texto. Cada pregunta tipo caso muestra antes "Antes de responder, lee esto" (el pasaje exacto) y después la cita.
 - Por eso, **cada día se escriben preguntas para las próximas lecturas de su plan**: lee `estado.datos.lecturas` de la cuenta 'Aspirante' en Supabase, identifica las siguientes 5 lecturas sin leer en `data/lecturas/indice.json` y garantiza que cada una tenga al menos 4 ítems con citas textuales tomadas de ese mismo texto.
-- Después de agregar el lote, vuelve a correr `python3 tools/fragmentar.py` (actualiza `data/contextos.json`).
+- Después de agregar el lote, vuelve a correr `python3 tools/fragmentar.py && python3 tools/mapas.py && python3 tools/juegos.py` (actualiza contextos, mapas y juegos; los juegos y esquemas solo usan texto literal verificado).
+- Cada familia nueva necesita su `leccion` completa (idea, claves, trampa, fuente): es el recuadro "📘 Entiende el tema" que ella ve después de cada pregunta.
+- Si agregas juegos nuevos en `tools/juegos.py` (emparejar, ordenar, clasificar, sopa), los textos deben salir con `frase()`/`literal()` para que se verifiquen contra la fuente.
 
 ## 1. Qué se genera cada día (~50 ítems)
 - **3 fichas nuevas** (Estudia y responde) con 2 preguntas de conocimiento cada una → 6 ítems.
