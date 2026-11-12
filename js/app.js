@@ -64,7 +64,7 @@ const S = { banco: null, estado: null, clave: null, vista: "inicio", ses: null, 
 const estadoInicial = () => ({
   v: 1, t: 0,
   perfil: { nombre: "", inicio: null, xp: 0, racha: 0, mejorRacha: 0, ultimoDia: null, dias: [], insignias: {}, rescates: 0, dueloSemana: null, respondidas: 0 },
-  items: {}, familias: {}, fichas: {}, lecturas: {}, sesiones: [], simulacros: [], retoHoy: null,
+  items: {}, familias: {}, fichas: {}, lecturas: {}, cuaderno: { notas: {}, conceptos: [] }, sesiones: [], simulacros: [], retoHoy: null,
   ajustes: { sonido: true, avisoSimulacro: null, tema: "claro" }
 });
 const INTERVALOS = [0, 1, 3, 7, 14, 30]; // días según la caja de repaso
@@ -510,7 +510,7 @@ function vistaInicio() {
   <section class="hero">
     <div class="row between"><div><div class="small" style="opacity:.9">Reto de hoy · ${fechaLarga(hoy())}</div>
       <div class="big">${hecho ? "¡Cumplido! ✓" : `${lecturaPendiente() ? "Lectura + " : ""}${CFG.preguntasPorReto} preguntas`}</div>
-      <div class="small" style="opacity:.92">${hecho ? "Tu racha está a salvo. Puedes seguir practicando." : venc ? `Incluye ${Math.min(venc, CFG.maxRepasoPorReto)} de repaso: misma competencia, otro contexto` : `Unos 20 minutos · lees el documento oficial y luego respondes`}</div></div>
+      <div class="small" style="opacity:.92">${hecho ? "Tu racha está a salvo. Puedes seguir practicando." : venc ? `Incluye ${Math.min(venc, CFG.maxRepasoPorReto)} de repaso: misma competencia, otro contexto` : `Unos 15 minutos · lees el documento oficial y luego respondes`}</div></div>
       <div class="flame">${hecho ? "🏅" : "🔥"}</div></div>
     <div class="week">${semanaHTML()}</div>
     <button class="btn" data-a="reto">${hecho ? "Practicar un reto más" : "Empezar el reto de hoy"}</button>
@@ -531,6 +531,10 @@ function vistaInicio() {
     <div class="bar amber mt"><i style="width:${prep}%"></i></div>
     <p class="tiny muted mt">Combina tu precisión y cuánto del banco has trabajado. La prueba eliminatoria exige 60/100.</p>
     <button class="btn ghost" data-v="progreso">Ver progreso por componente →</button></div>
+
+  <div class="card mt"><div class="row"><div style="font-size:30px">📝</div><div style="flex:1"><h3>Cuaderno de estudio</h3>
+     <p class="small muted">Para sentarte con calma: lee los documentos completos, guarda conceptos con tus palabras y repásalos. ${S.estado.cuaderno.conceptos.length ? `Llevas ${S.estado.cuaderno.conceptos.length} ${S.estado.cuaderno.conceptos.length === 1 ? "concepto" : "conceptos"}.` : ""}</p></div></div>
+     <button class="btn blue mt" data-v="cuaderno">Abrir cuaderno</button></div>
 
   <div class="card mt"><div class="row"><div style="font-size:30px">📚</div><div style="flex:1"><h3>Biblioteca: estudia y responde</h3>
      <p class="small muted">${(S.banco.fichas || []).filter(f => fichaLeida(f.id)).length} de ${(S.banco.fichas || []).length} fichas estudiadas. Cada ficha resume un tema con el texto oficial y te pregunta enseguida.</p></div></div>
@@ -686,6 +690,104 @@ function vistaResumenSimulacro() {
     ${s.nuevas?.length ? `<div class="card"><h3>Nuevas insignias</h3><div class="badge-grid mt">${s.nuevas.map(b => `<div class="badge on"><div class="e">${b.e}</div><b>${esc(b.n)}</b></div>`).join("")}</div></div>` : ""}
     <button class="btn" data-v="inicio">Volver al inicio</button></div>`;
 }
+/* ---------- cuaderno de estudio ---------- */
+const CU = { doc: null, lectura: null, sel: null, q: "", flash: null };
+const docsDelPlan = () => { const m = {}; (S.banco.plan || []).forEach(l => (m[l.doc] ||= { doc: l.doc, nombre: l.nombre, partes: [] }).partes.push(l)); return Object.values(m); };
+const conceptos = () => S.estado.cuaderno.conceptos;
+const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+function vistaCuaderno() {
+  const c = conceptos(), notas = Object.values(S.estado.cuaderno.notas).filter(x => x && x.trim()).length;
+  return `<div class="top"><button class="icon-btn" data-v="inicio">‹</button><h2>Cuaderno de estudio</h2><span style="width:44px"></span></div>
+  <p class="muted small">Esta sección es para estudiar sentada y con calma. El reto diario sigue siendo corto, para hacerlo en cualquier parte.</p>
+  <button class="node" data-v="docs"><div style="font-size:34px">📚</div><div class="meta"><b>Leer los documentos completos</b><span class="tiny muted">Parte por parte. Toca un párrafo para convertirlo en concepto y escribe tus notas al final.</span></div><span class="muted">›</span></button>
+  <button class="node" data-v="conceptos"><div style="font-size:34px">🧠</div><div class="meta"><b>Mis conceptos (${c.length})</b><span class="tiny muted">Tu glosario: el concepto, tu definición y el texto oficial de donde salió.</span></div><span class="muted">›</span></button>
+  <button class="node" data-a="flashIni" ${c.length ? "" : "disabled style='opacity:.5'"}><div style="font-size:34px">🔁</div><div class="meta"><b>Repasar mis conceptos</b><span class="tiny muted">${c.length ? "Tarjetas: ves el concepto, lo explicas en voz alta y luego compruebas." : "Aparece cuando guardes tu primer concepto."}</span></div><span class="muted">›</span></button>
+  <div class="card mt"><div class="row between"><span class="small"><b>${c.length}</b> conceptos · <b>${notas}</b> lecturas con notas</span>
+    <button class="chip" data-a="exportarCuaderno" ${c.length || notas ? "" : "disabled"}>⬇️ Descargar</button></div>
+    <p class="tiny muted">Descarga tu cuaderno como archivo de texto para imprimirlo o pasarlo a Word. Todo se guarda también en la nube con tu avance.</p></div>`;
+}
+function vistaDocs() {
+  return `<div class="top"><button class="icon-btn" data-v="cuaderno">‹</button><h2>Documentos</h2><span style="width:44px"></span></div>
+  <p class="muted small">Están en el orden de prioridad para la prueba. Las partes que leas aquí también cuentan en tu plan de lectura.</p>
+  ${docsDelPlan().map(d => { const ok = d.partes.filter(l => lecturaLeida(l.id)).length, n = Math.round(ok / d.partes.length * 100);
+    return `<button class="node" data-a="abrirDoc" data-d="${d.doc}"><div class="ring" style="--p:${n}"><span style="font-size:14px;font-weight:900">${n}%</span></div>
+      <div class="meta"><b>${esc(d.nombre)}</b><span class="tiny muted">${ok} de ${d.partes.length} partes leídas</span></div><span class="muted">›</span></button>`; }).join("")}`;
+}
+function vistaDoc() {
+  const d = docsDelPlan().find(x => x.doc === CU.doc); if (!d) return vistaDocs();
+  return `<div class="top"><button class="icon-btn" data-v="docs">‹</button><h2 style="font-size:19px">${esc(d.nombre)}</h2><span style="width:44px"></span></div>
+  <div class="card list">${d.partes.map(l => { const nota = (S.estado.cuaderno.notas[l.id] || "").trim(), nc = conceptos().filter(c => c.lectura === l.id).length;
+    return `<button class="row between ficha-btn" data-a="leerParte" data-l="${l.id}"><span>${lecturaLeida(l.id) ? "✅" : "📄"} Parte ${l.parte} · ${esc(l.titulo)}${nota ? " · 📝" : ""}${nc ? ` · 🧠${nc}` : ""}</span><span class="muted">›</span></button>`; }).join("")}</div>`;
+}
+function vistaLeer() {
+  const L = LECT[CU.lectura]; if (!L) return `<p class="muted">Cargando…</p>`;
+  const d = docsDelPlan().find(x => x.doc === L.doc), k = d.partes.findIndex(x => x.id === L.id), ant = d.partes[k - 1], sig = d.partes[k + 1];
+  const marcados = new Set(conceptos().filter(c => c.lectura === L.id).map(c => c.parrafo));
+  return `<div class="top"><button class="icon-btn" data-a="volverDoc">‹</button><div class="center"><div class="tiny muted">${esc(L.nombre)}</div><b>Parte ${L.parte} de ${L.total}</b></div><span style="width:44px"></span></div>
+  <h2>${esc(L.titulo)}</h2>
+  <p class="tiny muted">Toca un párrafo para guardarlo como concepto en tu cuaderno.</p>
+  <div class="lectura doc leer">${L.parrafos.map((p, i) => `<p data-a="parr" data-k="${i}" class="${CU.sel === i ? "selp" : ""} ${marcados.has(i) ? "marcado" : ""}">${esc(p)}</p>
+     ${CU.sel === i ? `<div class="row wrap parr-acc"><button class="btn blue" style="width:auto;min-height:44px" data-a="nuevoConcepto" data-k="${i}">🧠 Crear concepto con este párrafo</button><button class="chip" data-a="parr" data-k="${i}">Cancelar</button></div>` : ""}`).join("")}</div>
+  <div class="card mt"><label class="lab" for="notaL">📝 Mis notas de esta parte</label>
+    <textarea id="notaL" class="input" rows="5" data-i="nota" placeholder="Ideas clave, dudas, ejemplos para el aula…">${esc(S.estado.cuaderno.notas[L.id] || "")}</textarea>
+    <p class="tiny muted">Se guarda solo mientras escribes.</p></div>
+  <button class="btn ${lecturaLeida(L.id) ? "sec" : ""} mt" data-a="marcarLeida">${lecturaLeida(L.id) ? "✓ Leída (tocar para desmarcar)" : "Marcar como leída"}</button>
+  <div class="row mt">${ant ? `<button class="btn sec" data-a="leerParte" data-l="${ant.id}">‹ Anterior</button>` : ""}${sig ? `<button class="btn sec" data-a="leerParte" data-l="${sig.id}">Siguiente ›</button>` : ""}</div>`;
+}
+function vistaConceptos() {
+  const q = CU.q.trim().toLowerCase(), lista = conceptos().slice().sort((a, b) => a.termino.localeCompare(b.termino, "es"))
+    .filter(c => !q || (c.termino + " " + c.def + " " + (c.cita || "")).toLowerCase().includes(q));
+  return `<div class="top"><button class="icon-btn" data-v="cuaderno">‹</button><h2>Mis conceptos</h2><button class="icon-btn" data-a="nuevoConcepto" aria-label="Nuevo concepto">＋</button></div>
+  <input class="input" data-i="buscar" placeholder="🔎 Buscar en mis conceptos" value="${esc(CU.q)}">
+  ${conceptos().length ? "" : `<div class="card mt center"><div style="font-size:44px">🧠</div><p>Aún no tienes conceptos.</p><p class="small muted">Abre un documento, toca un párrafo y guárdalo con tu propia definición. O toca ＋ para escribir uno desde cero.</p><button class="btn blue mt" data-v="docs">Ir a los documentos</button></div>`}
+  <div class="mt">${lista.map(c => `<div class="card mt"><div class="row between"><h3>${esc(c.termino)}</h3><div class="row"><button class="chip" data-a="editConcepto" data-id="${c.id}">✏️</button><button class="chip" data-a="borrarConcepto" data-id="${c.id}">🗑️</button></div></div>
+    ${c.def ? `<p>${esc(c.def)}</p>` : `<p class="small muted">Sin definición propia todavía.</p>`}
+    ${c.cita ? `<details><summary class="tiny muted">📜 Texto oficial · ${esc(c.fuente || "")}</summary><blockquote class="citaC">${esc(c.cita)}</blockquote></details>` : c.fuente ? `<p class="tiny muted">${esc(c.fuente)}</p>` : ""}</div>`).join("")}</div>`;
+}
+function vistaFlash() {
+  const F = CU.flash, c = F && conceptos().find(x => x.id === F.cola[F.i]);
+  if (!c) return `<div class="center stack" style="padding-top:8vh"><div style="font-size:60px" class="pop">🎉</div><h1>Repaso terminado</h1>
+    <p class="muted">${F ? `${F.ok} de ${F.cola.length} los sabías.` : ""}</p><button class="btn" data-v="cuaderno">Volver al cuaderno</button></div>`;
+  return `<div class="qhead"><button class="icon-btn" data-v="cuaderno">✕</button><div class="bar"><i style="width:${F.i / F.cola.length * 100}%"></i></div><span class="tiny muted">${F.i + 1}/${F.cola.length}</span></div>
+  <div class="card center flashcard" data-a="voltear"><div class="tiny muted">${F.vuelta ? "Tu definición" : "¿Qué significa?"}</div>
+    <h1 class="mt">${esc(c.termino)}</h1>
+    ${F.vuelta ? `<p class="mt" style="text-align:left">${esc(c.def || "—")}</p>${c.cita ? `<blockquote class="citaC" style="text-align:left">${esc(c.cita)}</blockquote><p class="tiny muted">${esc(c.fuente || "")}</p>` : ""}` : `<p class="small muted mt">Explícalo en voz alta y luego toca la tarjeta.</p>`}</div>
+  ${F.vuelta ? `<div class="row mt"><button class="btn amber" data-a="flashRes" data-ok="0">Repasar otra vez</button><button class="btn" data-a="flashRes" data-ok="1">Lo sabía</button></div>` : `<button class="btn mt" data-a="voltear">Ver respuesta</button>`}`;
+}
+function modalConcepto(c) {
+  const L = c.lectura ? LECT[c.lectura] : null;
+  const m = modal(`<h2>${c.id ? "Editar concepto" : "Nuevo concepto"}</h2>
+    <label class="lab" for="cT">Concepto</label><input id="cT" class="input" value="${esc(c.termino || "")}" placeholder="Ej.: Ajuste razonable">
+    <label class="lab" for="cD">Mi definición (con mis palabras)</label><textarea id="cD" class="input" rows="4" placeholder="Explícalo como se lo dirías a un compañero">${esc(c.def || "")}</textarea>
+    ${c.cita ? `<label class="lab">Texto oficial</label><blockquote class="citaC">${esc(c.cita)}</blockquote><p class="tiny muted">${esc(c.fuente || (L ? L.nombre + " · " + L.titulo : ""))}</p>` : ""}
+    <button class="btn mt" data-m="ok">Guardar en mi cuaderno</button><button class="btn ghost" data-m="no">Cancelar</button>`);
+  setTimeout(() => m.querySelector(c.termino ? "#cD" : "#cT")?.focus(), 250);
+  m.querySelector("[data-m=no]").onclick = cerrarModal;
+  m.querySelector("[data-m=ok]").onclick = () => {
+    const t = m.querySelector("#cT").value.trim(); if (!t) { toast("Escribe el nombre del concepto"); return; }
+    const lista = S.estado.cuaderno.conceptos, d = m.querySelector("#cD").value.trim();
+    if (c.id) Object.assign(lista.find(x => x.id === c.id), { termino: t, def: d, t: Date.now() });
+    else lista.push({ id: uid(), termino: t, def: d, cita: c.cita || "", fuente: c.fuente || "", lectura: c.lectura || null, parrafo: c.parrafo ?? null, t: Date.now() });
+    CU.sel = null; guardarLocal(); cerrarModal(); toast("Guardado en tu cuaderno 🧠"); render();
+  };
+}
+function exportarCuaderno() {
+  const C = S.estado.cuaderno, plan = S.banco.plan || [];
+  let md = `# Mi cuaderno de estudio · Plaza Docente\n\nExportado el ${fechaLarga(hoy())}\n\n## Conceptos\n\n`;
+  C.conceptos.slice().sort((a, b) => a.termino.localeCompare(b.termino, "es")).forEach(c => {
+    md += `### ${c.termino}\n${c.def || ""}\n${c.cita ? `\n> ${c.cita}\n> — ${c.fuente || ""}\n` : ""}\n`; });
+  const notas = plan.filter(l => (C.notas[l.id] || "").trim());
+  if (notas.length) { md += `## Notas de lectura\n\n`; notas.forEach(l => md += `### ${l.nombre} · parte ${l.parte}: ${l.titulo}\n${C.notas[l.id].trim()}\n\n`); }
+  const blob = new Blob([md], { type: "text/plain;charset=utf-8" }), url = URL.createObjectURL(blob), a = document.createElement("a");
+  a.href = url; a.download = `mi-cuaderno-${hoy()}.txt`; a.click(); setTimeout(() => URL.revokeObjectURL(url), 2000);
+}
+let notaTimer = null;
+$app.addEventListener("input", e => {
+  const i = e.target.dataset?.i;
+  if (i === "nota" && CU.lectura) { S.estado.cuaderno.notas[CU.lectura] = e.target.value; clearTimeout(notaTimer); notaTimer = setTimeout(guardarLocal, 800); }
+  else if (i === "buscar") { CU.q = e.target.value; const pos = e.target.selectionStart; render(); const el = document.querySelector("[data-i=buscar]"); el.focus(); el.setSelectionRange(pos, pos); }
+});
+
 function vistaBiblioteca() {
   const fs = S.banco.fichas || [];
   return `<div class="top"><button class="icon-btn" data-v="inicio">‹</button><h2>Biblioteca</h2><span style="width:44px"></span></div>
@@ -836,7 +938,7 @@ function render() {
   clearInterval(timerInt); aplicarTema();
   const v = !S.clave ? vistaLogin() : !S.estado.perfil.nombre ? vistaNombre() : ({
     inicio: vistaInicio, pregunta: vistaPregunta, resumen: vistaResumen, resumenSimulacro: vistaResumenSimulacro,
-    cofre: vistaCofre, biblioteca: vistaBiblioteca, insignias: vistaInsignias, progreso: vistaProgreso, ajustes: vistaAjustes
+    cofre: vistaCofre, biblioteca: vistaBiblioteca, cuaderno: vistaCuaderno, docs: vistaDocs, doc: vistaDoc, leer: vistaLeer, conceptos: vistaConceptos, flash: vistaFlash, insignias: vistaInsignias, progreso: vistaProgreso, ajustes: vistaAjustes
   }[S.vista] || vistaInicio)();
   $app.innerHTML = v;
   if (S.vista === "pregunta" && S.ses?.fin) {
@@ -883,6 +985,25 @@ $app.addEventListener("click", async e => {
     m.querySelector("[data-m=seguir]").onclick = cerrarModal;
     m.querySelector("[data-m=salir]").onclick = () => { cerrarModal(); if (sim && S.ses.res.length) terminarSesion(); else { S.ses = null; ir("inicio"); } };
   }
+  else if (a === "abrirDoc") { CU.doc = b.dataset.d; ir("doc"); }
+  else if (a === "leerParte") { CU.lectura = b.dataset.l; CU.sel = null; CU.doc = (S.banco.plan.find(l => l.id === CU.lectura) || {}).doc; await asegurarLectura(CU.lectura); ir("leer"); }
+  else if (a === "volverDoc") { ir("doc"); }
+  else if (a === "parr") { const k = +b.dataset.k; CU.sel = CU.sel === k ? null : k; render(); }
+  else if (a === "nuevoConcepto") {
+    if (b.dataset.k !== undefined && CU.lectura) { const L = LECT[CU.lectura], k = +b.dataset.k;
+      modalConcepto({ cita: L.parrafos[k], fuente: `${L.nombre} · parte ${L.parte}: ${L.titulo}`, lectura: L.id, parrafo: k }); }
+    else modalConcepto({});
+  }
+  else if (a === "editConcepto") modalConcepto(conceptos().find(c => c.id === b.dataset.id));
+  else if (a === "borrarConcepto") { const c = conceptos().find(x => x.id === b.dataset.id);
+    const m = modal(`<h2>¿Borrar «${esc(c.termino)}»?</h2><p class="small muted">Se quitará de tu cuaderno.</p><button class="btn amber mt" data-m="si">Sí, borrar</button><button class="btn ghost" data-m="no">Cancelar</button>`);
+    m.querySelector("[data-m=no]").onclick = cerrarModal;
+    m.querySelector("[data-m=si]").onclick = () => { S.estado.cuaderno.conceptos = conceptos().filter(x => x.id !== c.id); guardarLocal(); cerrarModal(); render(); }; }
+  else if (a === "marcarLeida") { const L = CU.lectura; if (lecturaLeida(L)) delete S.estado.lecturas[L]; else S.estado.lecturas[L] = hoy(); guardarLocal(); render(); }
+  else if (a === "flashIni") { if (!conceptos().length) return; CU.flash = { cola: shuffle(conceptos().map(c => c.id)), i: 0, ok: 0, vuelta: false }; ir("flash"); }
+  else if (a === "voltear") { if (CU.flash) { CU.flash.vuelta = true; render(); } }
+  else if (a === "flashRes") { const F = CU.flash; if (b.dataset.ok === "1") F.ok++; else F.cola.push(F.cola[F.i]); F.i++; F.vuelta = false; if (F.cola.length > 60) F.cola.length = 60; render(); }
+  else if (a === "exportarCuaderno") exportarCuaderno();
   else if (a === "tema") { S.estado.ajustes.tema = b.dataset.t; guardarLocal(); render(); }
   else if (a === "sonido") { S.estado.ajustes.sonido = !S.estado.ajustes.sonido; guardarLocal(); render(); }
   else if (a === "syncAhora") { S.sync = { ok: true, msg: "Guardando…" }; pintarSync(); await sincronizar(); toast(S.sync.ok ? "Guardado en la nube" : S.sync.msg); }
@@ -902,6 +1023,7 @@ function normalizar() {
   const base = estadoInicial(), E = S.estado;
   for (const k of Object.keys(base)) if (E[k] === undefined) E[k] = base[k];
   E.perfil = { ...base.perfil, ...E.perfil }; E.ajustes = { ...base.ajustes, ...E.ajustes };
+  E.cuaderno = { notas: {}, conceptos: [], ...(E.cuaderno || {}) };
   if (!E.perfil.inicio && E.perfil.nombre) E.perfil.inicio = (E.perfil.dias[0] || hoy());
 }
 

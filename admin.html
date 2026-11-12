@@ -194,7 +194,7 @@ function render() {
     <div class="card kpi"><div class="l">Días activos (30 días)</div><div class="v">${A.s30.dias}<span class="small muted"> / 30</span></div><div class="tiny muted">${Math.round(A.s7.min)} min estudiados esta semana</div></div>
     <div class="card kpi"><div class="l">Preparación estimada</div><div class="v">${A.prep} %</div><div class="tiny muted">precisión × cobertura del banco (igual que en su app)</div></div>
     <div class="card kpi"><div class="l">Plan de lectura</div><div class="v">${TOT.plan.filter(l => (A.E.lecturas || {})[l.id]).length}<span class="small muted"> / ${TOT.plan.length}</span></div><div class="tiny muted">${(() => { const sig = TOT.plan.find(l => !(A.E.lecturas || {})[l.id]); return sig ? "Sigue: " + esc(sig.nombre.split(" (")[0]) + " · " + esc(sig.titulo) : "¡Plan completo!"; })()}</div></div>
-    <div class="card kpi"><div class="l">Fichas estudiadas</div><div class="v">${A.fichasLeidas}<span class="small muted"> / ${TOT.fichas}</span></div><div class="tiny muted">biblioteca "Estudia y responde"</div></div>
+    <div class="card kpi"><div class="l">Fichas estudiadas</div><div class="v">${A.fichasLeidas}<span class="small muted"> / ${TOT.fichas}</span></div><div class="tiny muted">biblioteca · ${(A.E.cuaderno?.conceptos || []).length} conceptos en su cuaderno</div></div>
     <div class="card kpi"><div class="l">Nivel y XP</div><div class="v">${Math.floor(Math.sqrt((A.Pf.xp || 0) / 50)) + 1}</div><div class="tiny muted">${(A.Pf.xp || 0).toLocaleString("es-CO")} XP · ${Object.keys(A.Pf.insignias || {}).length} insignias</div></div>
   </div>
 

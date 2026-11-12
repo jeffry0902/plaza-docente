@@ -207,3 +207,12 @@ label.lab{display:block; font-weight:800; margin:12px 0 6px; color:var(--ink-str
 details summary{cursor:pointer}
 
 html.oscuro{color-scheme:dark}
+
+/* Cuaderno */
+.leer p{border-radius:10px; padding:4px 6px; margin:0 -6px .8em; cursor:pointer; transition:background .15s}
+.leer p.selp{background:var(--blue-soft); outline:2px solid var(--blue)}
+.leer p.marcado{border-left:4px solid var(--yellow); padding-left:10px}
+.parr-acc{margin:-.4em 0 1em; gap:8px}
+.citaC{margin:8px 0 0; padding:8px 12px; border-left:4px solid var(--pri); background:var(--pri-soft); border-radius:10px; font-size:15px}
+.flashcard{min-height:260px; display:flex; flex-direction:column; justify-content:center; cursor:pointer}
+.chip[disabled]{opacity:.45}
