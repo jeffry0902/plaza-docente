@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Plaza Docente//Simulacro mensual//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Bogota
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:-05
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:plaza-docente-simulacro-mensual@plazadocente
+DTSTAMP:20261112T120000Z
+DTSTART;TZID=America/Bogota:20261205T080000
+DTEND;TZID=America/Bogota:20261205T093000
+RRULE:FREQ=MONTHLY;BYDAY=1SA;UNTIL=20271231T235959Z
+SUMMARY:⏱️ Simulacro del mes - Plaza Docente
+DESCRIPTION:Presenta el simulacro mensual en la app Plaza Docente: 30 preguntas en 90 minutos\, sin interrupciones\, con lápiz y papel.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana es tu simulacro del mes. Reserva 90 minutos desde las 8:00 a. m.
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:En una hora empieza tu simulacro del mes.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

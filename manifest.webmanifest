@@ -1,0 +1,17 @@
+{
+  "name": "Plaza Docente",
+  "short_name": "Plaza Docente",
+  "description": "Tu dosis diaria para la plaza docente: entrenamiento CNSC en Tecnología e Informática.",
+  "lang": "es-CO",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF7F0",
+  "theme_color": "#0E7C66",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
