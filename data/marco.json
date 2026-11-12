@@ -1,0 +1,752 @@
+{
+ "version": "mbe-1",
+ "actualizado": "2026-11-12",
+ "componentes": [
+  {
+   "id": "DIS",
+   "nombre": "Tecnología e Informática",
+   "oficial": "Conocimientos disciplinares de la formación requerida para el empleo",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "💻",
+   "descripcion": "Los cuatro componentes del área (Orientaciones Curriculares MEN y Guía 30): naturaleza y evolución, uso y apropiación, solución de problemas y tecnología-informática-sociedad."
+  },
+  {
+   "id": "PED",
+   "nombre": "Pedagogía y evaluación",
+   "oficial": "Competencias pedagógicas para evaluar, formar y enseñar",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "🧑‍🏫",
+   "descripcion": "Planeación, didáctica, evaluación formativa (Decreto 1290 compilado en el 1075), currículo y educación inclusiva."
+  },
+  {
+   "id": "NOR",
+   "nombre": "Normativa y convivencia",
+   "oficial": "Competencias pedagógicas para formar (marco legal)",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "⚖️",
+   "descripcion": "Ley 115, Decreto 1278, Ley 1620 y Decreto 1965 (Ruta de Atención Integral), Ley 1098 y gobierno escolar."
+  },
+  {
+   "id": "LC",
+   "nombre": "Lectura crítica",
+   "oficial": "Lectura crítica",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "📖",
+   "descripcion": "Identificar contenidos locales, comprender cómo se articulan las partes de un texto y reflexionar para evaluar su contenido (marco ICFES)."
+  },
+  {
+   "id": "RC",
+   "nombre": "Razonamiento cuantitativo",
+   "oficial": "Razonamiento cuantitativo",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "📊",
+   "descripcion": "Interpretación y representación, formulación y ejecución, y argumentación con datos de contextos escolares."
+  },
+  {
+   "id": "CB",
+   "nombre": "Competencias blandas",
+   "oficial": "Valoración de competencias blandas: liderazgo, ética, trabajo en equipo y ciudadanía",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "🤝",
+   "descripcion": "Componente nuevo del Anexo Técnico 2026: liderazgo, ética, trabajo en equipo y ciudadanía."
+  },
+  {
+   "id": "PSI",
+   "nombre": "Psicotécnica",
+   "oficial": "Prueba Psicotécnica (competencias comportamentales Res. 3842 de 2022)",
+   "prueba": "Psicotécnica (clasificatoria)",
+   "icono": "🧭",
+   "descripcion": "Liderazgo, comunicación y relaciones interpersonales, trabajo en equipo, negociación y mediación, compromiso social e institucional, iniciativa y orientación al logro."
+  }
+ ],
+ "afirmaciones": [
+  {
+   "id": "DIS-A1",
+   "componente": "DIS",
+   "nombre": "Naturaleza y evolución",
+   "texto": "Comprende los conceptos fundamentales de la tecnología y la informática (artefacto, proceso, sistema, innovación, información) y su evolución."
+  },
+  {
+   "id": "DIS-A2",
+   "componente": "DIS",
+   "nombre": "Apropiación y uso",
+   "texto": "Orienta la utilización adecuada, segura, pertinente y crítica de la tecnología y la informática."
+  },
+  {
+   "id": "DIS-A3",
+   "componente": "DIS",
+   "nombre": "Solución de problemas",
+   "texto": "Orienta estrategias para identificar, formular y resolver problemas con tecnología: algoritmos, diseño y detección de fallas."
+  },
+  {
+   "id": "DIS-A4",
+   "componente": "DIS",
+   "nombre": "Tecnología y sociedad",
+   "texto": "Promueve la valoración crítica, ética y responsable de los impactos de la tecnología en la sociedad y el ambiente."
+  },
+  {
+   "id": "DIS-A5",
+   "componente": "DIS",
+   "nombre": "Didáctica del área",
+   "texto": "Selecciona estrategias didácticas propias del área y organiza el currículo por componentes y grupos de grados."
+  },
+  {
+   "id": "PED-A1",
+   "componente": "PED",
+   "nombre": "Evaluar",
+   "texto": "Evalúa con enfoque formativo, conforme al Sistema Institucional de Evaluación de los Estudiantes."
+  },
+  {
+   "id": "PED-A2",
+   "componente": "PED",
+   "nombre": "Enseñar",
+   "texto": "Planea y desarrolla la enseñanza según el currículo, el PEI y las competencias del docente."
+  },
+  {
+   "id": "PED-A3",
+   "componente": "PED",
+   "nombre": "Formar en la diversidad",
+   "texto": "Garantiza la educación inclusiva con DUA, PIAR y ajustes razonables."
+  },
+  {
+   "id": "NOR-A1",
+   "componente": "NOR",
+   "nombre": "Convivencia y protección",
+   "texto": "Actúa ante situaciones de convivencia según la Ley 1620, el Decreto 1965 y la protección integral de la Ley 1098."
+  },
+  {
+   "id": "NOR-A2",
+   "componente": "NOR",
+   "nombre": "Organización escolar y carrera",
+   "texto": "Conoce el gobierno escolar, el PEI y el Estatuto de Profesionalización Docente."
+  },
+  {
+   "id": "LC-A",
+   "componente": "LC",
+   "nombre": "Lectura crítica",
+   "texto": "Comprende, interpreta y evalúa textos pedagógicos y normativos."
+  },
+  {
+   "id": "RC-A",
+   "componente": "RC",
+   "nombre": "Razonamiento cuantitativo",
+   "texto": "Interpreta, formula y argumenta con información cuantitativa en contextos escolares."
+  },
+  {
+   "id": "CB-A",
+   "componente": "CB",
+   "nombre": "Competencias blandas",
+   "texto": "Actúa con ética, ciudadanía y trabajo en equipo en situaciones de la vida escolar."
+  },
+  {
+   "id": "PSI-A",
+   "componente": "PSI",
+   "nombre": "Psicotécnica",
+   "texto": "Demuestra las competencias comportamentales del docente (Res. 3842 de 2022)."
+  }
+ ],
+ "familias": {
+  "DIS-SIST": {
+   "componente": "DIS",
+   "nombre": "Sistemas tecnológicos y realimentación",
+   "leccion": {
+    "idea": "Un sistema tecnológico tiene entradas, procesos, salidas y, en los sistemas automáticos, realimentación: información de la salida que vuelve al controlador para corregir el funcionamiento.",
+    "claves": [
+     "Sensor = mide (entrada / realimentación).",
+     "Controlador = compara con un valor de referencia y decide.",
+     "Actuador (motor, válvula) = ejecuta la orden; no decide.",
+     "Lazo cerrado = hay realimentación; lazo abierto = no la hay."
+    ],
+    "trampa": "Confundir el elemento que ejecuta (actuador) con el que decide (controlador).",
+    "fuente": "Guía 30 MEN (6°-7° y 10°-11°: rol de la realimentación); Orientaciones Curriculares T&I, 3.3.1.1."
+   },
+   "afirmacion": "DIS-A1",
+   "evidencia": "Explica el funcionamiento de sistemas tecnológicos y el papel de la realimentación."
+  },
+  "DIS-DIDAC": {
+   "componente": "DIS",
+   "nombre": "Estrategias didácticas del área",
+   "leccion": {
+    "idea": "Las Orientaciones Curriculares del MEN nombran estrategias didácticas propias del área, y la CNSC pregunta por la acción que caracteriza a cada una.",
+    "claves": [
+     "Análisis de productos: se parte de un producto terminado y se descompone en partes para preguntarse por función, materiales y decisiones de diseño.",
+     "Diseño y rediseño: se parte de un problema o se mejora un producto existente.",
+     "Construcción-fabricación: se pasa de las ideas a modelos, prototipos o programas.",
+     "Pensamiento computacional desconectado: juegos y retos con reglas cuando no hay computadores.",
+     "Enfoque CTS: reflexión crítica sobre impactos sociales, éticos y ambientales."
+    ],
+    "trampa": "Elegir la opción más llamativa (construir algo nuevo) cuando el enunciado pide una estrategia específica.",
+    "fuente": "Orientaciones Curriculares T&I (MEN), 4.2.1 a 4.2.4 y 4.3.3."
+   },
+   "afirmacion": "DIS-A5",
+   "evidencia": "Elige la estrategia didáctica del área adecuada para un propósito de aprendizaje."
+  },
+  "DIS-CTS": {
+   "componente": "DIS",
+   "nombre": "Tecnología, informática y sociedad",
+   "leccion": {
+    "idea": "Este componente forma en lo ético, lo político y lo crítico: valorar impactos sociales, ambientales y culturales, y participar en decisiones sobre la tecnología.",
+    "claves": [
+     "Palabras clave: impacto, uso racional, ética, derechos de autor, participación, comunidad.",
+     "Si la opción solo habla de operar o mantener un artefacto, pertenece a 'uso y apropiación'.",
+     "Si la opción habla de diseñar o reparar, pertenece a 'solución de problemas'."
+    ],
+    "trampa": "Confundir el componente social con el de uso técnico del artefacto.",
+    "fuente": "Orientaciones Curriculares T&I, 3.3.1.4; Guía 30 (componente Tecnología y sociedad)."
+   },
+   "afirmacion": "DIS-A4",
+   "evidencia": "Promueve la reflexión ética y la valoración de impactos de la tecnología."
+  },
+  "DIS-ALGO": {
+   "componente": "DIS",
+   "nombre": "Algoritmos y pensamiento computacional",
+   "leccion": {
+    "idea": "Para resolver un algoritmo sin computador se hace una prueba de escritorio: una tabla con una fila por paso y una columna por variable.",
+    "claves": [
+     "Un contador suma una cantidad fija (contador ← contador + 1).",
+     "Un acumulador suma valores que cambian (total ← total + algo).",
+     "Lee el orden de las instrucciones: primero se actualiza el contador y luego se usa en el acumulador.",
+     "El resultado final es lo que se muestra después del ciclo, no el último valor sumado."
+    ],
+    "trampa": "Confundir el último valor sumado con el total acumulado.",
+    "fuente": "Orientaciones Curriculares T&I, 4.3.3 (programación y pensamiento computacional)."
+   },
+   "afirmacion": "DIS-A3",
+   "evidencia": "Orienta el pensamiento computacional y la programación, con o sin computadores."
+  },
+  "DIS-FALLAS": {
+   "componente": "DIS",
+   "nombre": "Detección de fallas (prueba y descarte)",
+   "leccion": {
+    "idea": "En el componente de solución de problemas, el docente no corrige por el estudiante: lo orienta a formular hipótesis y a probar por partes hasta ubicar la falla.",
+    "claves": [
+     "Prueba y descarte: probar cada parte por separado y descartar lo que funciona.",
+     "Documentar resultados antes de cambiar el diseño.",
+     "Desarrolla autonomía; copiar o rehacer todo no desarrolla la competencia."
+    ],
+    "trampa": "Elegir la opción en la que el docente resuelve el problema 'para ganar tiempo'.",
+    "fuente": "Guía 30 (6°-7°, 8°-9° y 10°-11°: detecto fallas siguiendo procedimientos de prueba y descarte)."
+   },
+   "afirmacion": "DIS-A3",
+   "evidencia": "Orienta la detección de fallas según el grupo de grados (prueba y descarte, hipótesis)."
+  },
+  "DIS-DATOS": {
+   "componente": "DIS",
+   "nombre": "Representación de la información (binario)",
+   "leccion": {
+    "idea": "Cada bit tiene 2 estados; con n bits hay 2 elevado a n combinaciones posibles.",
+    "claves": [
+     "1 bit → 2; 4 bits → 16; 8 bits (1 byte) → 256.",
+     "Las combinaciones se multiplican, no se suman.",
+     "Con 256 valores (0 a 255) se codifican los caracteres de tablas como ASCII extendido."
+    ],
+    "trampa": "Multiplicar 8 × 2 o 8 × 8 en lugar de calcular la potencia.",
+    "fuente": "Guía 30 (8°-9°: describo el sistema binario utilizado en la tecnología digital)."
+   },
+   "afirmacion": "DIS-A1",
+   "evidencia": "Relaciona la informática con las TIC y la representación digital de la información."
+  },
+  "DIS-SEG": {
+   "componente": "DIS",
+   "nombre": "Seguridad y ciudadanía digital",
+   "leccion": {
+    "idea": "La CNSC premia la acción que forma al estudiante para el uso responsable y autónomo, no la que solo prohíbe o controla.",
+    "claves": [
+     "Formar > prohibir: talleres, análisis de casos, construcción de criterios.",
+     "Contraseñas robustas, distintas por servicio y personales.",
+     "Protección de datos personales de los estudiantes (Ley 1581 de 2012)."
+    ],
+    "trampa": "Elegir el bloqueo o control externo porque 'resuelve rápido' el problema.",
+    "fuente": "Guía 30 (8°-9°: utilizo responsable y autónomamente las TIC); Orientaciones Curriculares T&I, 3.3.1.2."
+   },
+   "afirmacion": "DIS-A2",
+   "evidencia": "Orienta el uso seguro, responsable y autónomo de herramientas y de las TIC."
+  },
+  "DIS-DISENO": {
+   "componente": "DIS",
+   "nombre": "Diseño: especificaciones y restricciones",
+   "leccion": {
+    "idea": "Un problema de diseño tiene especificaciones (lo que la solución debe lograr) y restricciones (los límites dentro de los que debe lograrlo).",
+    "claves": [
+     "Especificación: llevar 500 g, recorrer 2 m (función o desempeño).",
+     "Restricción: materiales permitidos, tamaño máximo, tiempo y costo.",
+     "No hay soluciones perfectas: se comparan alternativas según criterios y su peso."
+    ],
+    "trampa": "Llamar 'especificación' a cualquier condición del enunciado.",
+    "fuente": "Guía 30 (10°-11°: identifico las condiciones, especificaciones y restricciones de diseño)."
+   },
+   "afirmacion": "DIS-A3",
+   "evidencia": "Reconoce especificaciones, restricciones y alternativas en el proceso de diseño."
+  },
+  "PED-EVAL": {
+   "componente": "PED",
+   "nombre": "Evaluación formativa",
+   "leccion": {
+    "idea": "La evaluación sirve para reorientar el proceso y apoyar al estudiante, no solo para calificar el producto final.",
+    "claves": [
+     "Criterios conocidos desde el inicio (rúbricas).",
+     "Retroalimentación oportuna durante el periodo.",
+     "Valora el proceso: diseño, pruebas, mejoras y argumentación.",
+     "En inclusión: mismos objetivos y ajustes en medios e instrumentos según el PIAR."
+    ],
+    "trampa": "Elegir la opción que mide solo el resultado final o un examen escrito desligado de la actividad.",
+    "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.3 (Decreto 1290, art. 3); Res. 3842 de 2022, función general 12."
+   },
+   "afirmacion": "PED-A1",
+   "evidencia": "Evaluación formativa"
+  },
+  "PED-EVAL-NORM": {
+   "componente": "PED",
+   "nombre": "Sistema Institucional de Evaluación (SIEE)",
+   "leccion": {
+    "idea": "El SIEE de cada institución define criterios, escala, actividades de apoyo e instancias de reclamación. El docente actúa siempre dentro de él.",
+    "claves": [
+     "El SIEE debe incluir acciones de seguimiento y estrategias de apoyo durante el año (art. 2.3.3.3.3.4).",
+     "Debe incluir instancias, procedimientos y mecanismos de reclamación (num. 10).",
+     "El consejo directivo es instancia para decidir reclamaciones (art. 2.3.3.3.3.11, num. 7), no el primer paso.",
+     "El estudiante tiene derecho a conocer los criterios desde el inicio del año (art. 2.3.3.3.3.12)."
+    ],
+    "trampa": "Cambiar la nota para evitar el conflicto o saltarse las instancias y acudir directo al rector.",
+    "fuente": "Decreto 1075 de 2015, arts. 2.3.3.3.3.3 a 2.3.3.3.3.12 (Decreto 1290 de 2009)."
+   },
+   "afirmacion": "PED-A1",
+   "evidencia": "Sistema Institucional de Evaluación (SIEE)"
+  },
+  "PED-INCL": {
+   "componente": "PED",
+   "nombre": "Educación inclusiva: PIAR y DUA",
+   "leccion": {
+    "idea": "El Decreto 1421 de 2017 pide primero un diseño para todos (DUA) y, como complemento, ajustes individuales (PIAR).",
+    "claves": [
+     "El PIAR lo lideran los docentes de aula con el docente de apoyo, la familia y el estudiante.",
+     "Se elabora en el primer trimestre y se actualiza cada año.",
+     "Los ajustes razonables no dependen de un diagnóstico médico, sino de las barreras.",
+     "DUA: varias formas de presentar la información, de participar y de demostrar lo aprendido para todo el grupo."
+    ],
+    "trampa": "Delegar todo en el docente de apoyo o hacer una actividad separada solo para el estudiante.",
+    "fuente": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.5 y definiciones (Decreto 1421 de 2017)."
+   },
+   "afirmacion": "PED-A3",
+   "evidencia": "Educación inclusiva: PIAR y DUA"
+  },
+  "PED-ENSENAR": {
+   "componente": "PED",
+   "nombre": "Enseñar: ABP y mediación",
+   "leccion": {
+    "idea": "En los casos de enseñanza, la respuesta correcta suele partir del contexto y de las necesidades reales de los estudiantes, con el docente como mediador.",
+    "claves": [
+     "Aprendizaje basado en proyectos: el problema surge del contexto del estudiante.",
+     "Andamiaje: apoyos graduales que se retiran cuando el estudiante gana autonomía.",
+     "Equipos heterogéneos con roles definidos (aprendizaje cooperativo)."
+    ],
+    "trampa": "Elegir la opción de 'primero toda la teoría y al final el proyecto'.",
+    "fuente": "Res. 3842 de 2022, funciones generales 6, 7 y 10; Orientaciones Curriculares T&I, 4.3.2 (STEM+)."
+   },
+   "afirmacion": "PED-A2",
+   "evidencia": "Enseñar: ABP y mediación"
+  },
+  "PED-CURR": {
+   "componente": "PED",
+   "nombre": "Currículo, plan de área y transversalidad",
+   "leccion": {
+    "idea": "El plan de área se construye desde los referentes del MEN y se articula con el PEI y el contexto. Los proyectos transversales no exigen asignatura propia.",
+    "claves": [
+     "Ley 115, art. 73: el PEI responde a las necesidades de los estudiantes y la comunidad.",
+     "Ley 115, arts. 78 y 79: plan de estudios según lineamientos del MEN y el PEI.",
+     "Ley 115, art. 14, parágrafo: los temas transversales no exigen asignatura específica.",
+     "Guía 30: los computadores no son sinónimo de educación en tecnología."
+    ],
+    "trampa": "Reducir el área a ofimática o reemplazar el plan por un texto escolar.",
+    "fuente": "Ley 115 de 1994, arts. 14, 73, 77, 78 y 79; Orientaciones Curriculares T&I."
+   },
+   "afirmacion": "PED-A2",
+   "evidencia": "Currículo, plan de área y transversalidad"
+  },
+  "NOR-CONV-TIPO": {
+   "componente": "NOR",
+   "nombre": "Clasificación de situaciones de convivencia",
+   "leccion": {
+    "idea": "El Decreto 1965 de 2013, art. 40, clasifica las situaciones en tres tipos.",
+    "claves": [
+     "Tipo I: conflictos manejados inadecuadamente y situaciones esporádicas, sin daño al cuerpo ni a la salud.",
+     "Tipo II: agresión escolar, acoso o ciberacoso que no son delito y que son repetidos o sistemáticos, o causan daño sin incapacidad.",
+     "Tipo III: presuntos delitos, en especial contra la libertad, integridad y formación sexual."
+    ],
+    "trampa": "Clasificar por el lugar (virtual o presencial) en lugar de por la gravedad y la repetición.",
+    "fuente": "Decreto 1965 de 2013, arts. 39 y 40."
+   },
+   "afirmacion": "NOR-A1",
+   "evidencia": "Clasificación de situaciones de convivencia"
+  },
+  "NOR-CONV-RUTA": {
+   "componente": "NOR",
+   "nombre": "Protocolos de la Ruta de Atención Integral",
+   "leccion": {
+    "idea": "El docente no resuelve solo las situaciones II y III: activa el protocolo del manual de convivencia.",
+    "claves": [
+     "Tipo I: reunir a las partes y mediar pedagógicamente (art. 42).",
+     "Tipo II: atención en salud si hay daño, protección, informar a los padres, acciones restaurativas y comité escolar (art. 43).",
+     "Tipo III: el presidente del comité informa de inmediato a la Policía; se protege a la víctima (art. 44).",
+     "Nunca se guarda el secreto ni se investiga por cuenta propia."
+    ],
+    "trampa": "Mediar entre víctima y agresor en casos de acoso, o 'reunir pruebas' antes de informar.",
+    "fuente": "Decreto 1965 de 2013, arts. 42, 43 y 44; Ley 1620 de 2013."
+   },
+   "afirmacion": "NOR-A1",
+   "evidencia": "Protocolos de la Ruta de Atención Integral"
+  },
+  "NOR-DERECHOS": {
+   "componente": "NOR",
+   "nombre": "Derechos de niños, niñas y adolescentes",
+   "leccion": {
+    "idea": "Toda actuación protege el interés superior del menor, su intimidad y su derecho a no ser revictimizado.",
+    "claves": [
+     "No revictimización: evitar que repita su relato a muchas personas.",
+     "Confidencialidad: la información solo la conocen quienes intervienen en la atención.",
+     "Prevalencia de los derechos y corresponsabilidad (Ley 1098, arts. 7 a 13)."
+    ],
+    "trampa": "Compartir la información 'para que todos estén atentos' o exigir declaraciones escritas al estudiante.",
+    "fuente": "Decreto 1965 de 2013, arts. 35 y 41; Ley 1098 de 2006."
+   },
+   "afirmacion": "NOR-A1",
+   "evidencia": "Derechos de niños, niñas y adolescentes"
+  },
+  "NOR-FORMAR": {
+   "componente": "NOR",
+   "nombre": "Formar en ciudadanía desde el área",
+   "leccion": {
+    "idea": "La prevención se hace con proyectos pedagógicos que desarrollan competencias ciudadanas de forma transversal, no con miedo ni con control externo.",
+    "claves": [
+     "Proyectos en los que los estudiantes analizan, deciden y actúan.",
+     "Ciudadanía digital: impacto de lo que se publica, empatía, uso responsable.",
+     "El comité de convivencia promueve que esto se haga en todas las áreas (Decreto 1965, art. 36)."
+    ],
+    "trampa": "Elegir la opción que asusta con sanciones o delega el control a los padres.",
+    "fuente": "Decreto 1965 de 2013, art. 36; Ley 1620 de 2013."
+   },
+   "afirmacion": "NOR-A1",
+   "evidencia": "Formar en ciudadanía desde el área"
+  },
+  "NOR-ORG": {
+   "componente": "NOR",
+   "nombre": "Gobierno escolar",
+   "leccion": {
+    "idea": "Cada órgano del gobierno escolar tiene funciones precisas en la Ley 115.",
+    "claves": [
+     "Consejo académico (art. 145): estudio, modificación y ajuste del currículo y organización del plan de estudios.",
+     "Consejo directivo (art. 144): decisiones de funcionamiento, reglamento, reclamaciones y participación en el PEI.",
+     "Rector: preside ambos consejos."
+    ],
+    "trampa": "Llevar los asuntos curriculares al consejo directivo o a la asamblea de padres.",
+    "fuente": "Ley 115 de 1994, arts. 142, 144 y 145."
+   },
+   "afirmacion": "NOR-A2",
+   "evidencia": "Gobierno escolar"
+  },
+  "NOR-ESTATUTO": {
+   "componente": "NOR",
+   "nombre": "Estatuto docente (Decreto 1278)",
+   "leccion": {
+    "idea": "El periodo de prueba se evalúa al terminar el año académico, si el docente sirvió al menos cuatro meses ese año.",
+    "claves": [
+     "Menos de 4 meses: espera al año académico siguiente.",
+     "60 % o más: satisfactorio; se inscribe en el escalafón.",
+     "Menos de 60 %: el docente es retirado del servicio."
+    ],
+    "trampa": "Creer que ganar el concurso da inscripción automática en el escalafón.",
+    "fuente": "Decreto Ley 1278 de 2002, art. 31; Anexo Técnico 2026, numeral 8."
+   },
+   "afirmacion": "NOR-A2",
+   "evidencia": "Estatuto docente (Decreto 1278)"
+  },
+  "LC-LIT": {
+   "componente": "LC",
+   "nombre": "Identificar contenidos locales",
+   "leccion": {
+    "idea": "Se pregunta por lo que el texto dice: ubica la frase exacta y desconfía de las opciones que agregan o cambian información.",
+    "claves": [
+     "Vuelve al texto antes de responder.",
+     "Una opción puede ser verdadera en el texto y aun así no responder a lo que se pregunta.",
+     "Cuidado con los cuantificadores: siempre, nunca, todos."
+    ],
+    "trampa": "Elegir una idea que aparece en el texto pero que responde a otra pregunta.",
+    "fuente": "ICFES, Marco de referencia de Lectura Crítica (citado en la Guía CNSC 2022)."
+   },
+   "afirmacion": "LC-A",
+   "evidencia": "Identificar contenidos locales"
+  },
+  "LC-INF": {
+   "componente": "LC",
+   "nombre": "Comprender cómo se articulan las partes",
+   "leccion": {
+    "idea": "Se pregunta por la función de una parte del texto (un ejemplo, una expresión, un conector) dentro del argumento.",
+    "claves": [
+     "Los ejemplos suelen apoyar una tesis mediante analogía.",
+     "'Necesaria pero no suficiente' = indispensable, pero no basta por sí sola.",
+     "Descarta las opciones que exageran (siempre, demostrar)."
+    ],
+    "trampa": "Elegir una lectura exagerada del ejemplo.",
+    "fuente": "ICFES, Marco de referencia de Lectura Crítica."
+   },
+   "afirmacion": "LC-A",
+   "evidencia": "Comprender cómo se articulan las partes"
+  },
+  "LC-CRIT": {
+   "componente": "LC",
+   "nombre": "Reflexionar y evaluar el contenido",
+   "leccion": {
+    "idea": "Se pregunta por lo que el autor supone, concluye o lo que debilitaría su argumento.",
+    "claves": [
+     "Inferir: lo que se sigue del texto sin estar escrito literalmente.",
+     "Para debilitar un argumento, se ataca la premisa de la que depende la conclusión.",
+     "Las opciones que contradicen la tesis del autor no son inferencias válidas."
+    ],
+    "trampa": "Tomar una frase de forma literal o elegir algo coherente que no afecta el argumento.",
+    "fuente": "ICFES, Marco de referencia de Lectura Crítica."
+   },
+   "afirmacion": "LC-A",
+   "evidencia": "Reflexionar y evaluar el contenido"
+  },
+  "RC-INT": {
+   "componente": "RC",
+   "nombre": "Interpretación y representación",
+   "leccion": {
+    "idea": "Para comparar grupos de distinto tamaño se usan proporciones, no cantidades absolutas.",
+    "claves": [
+     "Porcentaje = parte ÷ total × 100.",
+     "Los grupos más grandes pueden tener más aprobados y menor porcentaje.",
+     "Lee con cuidado qué se pide: cantidad, porcentaje o diferencia."
+    ],
+    "trampa": "Comparar cantidades absolutas entre grupos de tamaño distinto.",
+    "fuente": "ICFES, Módulo de Razonamiento Cuantitativo (citado en la Guía CNSC 2022)."
+   },
+   "afirmacion": "RC-A",
+   "evidencia": "Interpretación y representación"
+  },
+  "RC-FORM": {
+   "componente": "RC",
+   "nombre": "Formulación y ejecución",
+   "leccion": {
+    "idea": "Plantea el procedimiento antes de calcular y verifica que la respuesta tenga sentido en el contexto.",
+    "claves": [
+     "El porcentaje global se calcula con los totales, no promediando porcentajes.",
+     "Primero calcula la cantidad (20 % de 30 = 6) y después el costo.",
+     "Revisa unidades y redondeos (no hay medio computador)."
+    ],
+    "trampa": "Promediar porcentajes de grupos de distinto tamaño.",
+    "fuente": "ICFES, Módulo de Razonamiento Cuantitativo."
+   },
+   "afirmacion": "RC-A",
+   "evidencia": "Formulación y ejecución"
+  },
+  "RC-ARG": {
+   "componente": "RC",
+   "nombre": "Argumentación",
+   "leccion": {
+    "idea": "Se evalúa si una afirmación basada en datos es válida y por qué.",
+    "claves": [
+     "Verifica la afirmación con los datos, no con la intuición.",
+     "Una opción puede tener un cálculo correcto que no tiene que ver con lo afirmado.",
+     "Valida tanto la conclusión (sí/no) como la razón."
+    ],
+    "trampa": "Elegir una razón verdadera pero irrelevante para la afirmación.",
+    "fuente": "ICFES, Módulo de Razonamiento Cuantitativo."
+   },
+   "afirmacion": "RC-A",
+   "evidencia": "Argumentación"
+  },
+  "CB-ETICA": {
+   "componente": "CB",
+   "nombre": "Ética profesional",
+   "leccion": {
+    "idea": "Lo ético está entre los extremos: usar referentes reconociendo la autoría y adaptándolos al contexto propio.",
+    "claves": [
+     "Citar siempre las fuentes.",
+     "Adaptar al PEI y a la población de la institución.",
+     "Ni copiar ni rechazar por completo los referentes externos."
+    ],
+    "trampa": "Copiar 'porque es público' o rechazar cualquier referente 'para ser original'.",
+    "fuente": "Anexo Técnico 2026, numeral 2.1 (competencias blandas: ética)."
+   },
+   "afirmacion": "CB-A",
+   "evidencia": "Ética profesional"
+  },
+  "CB-EQUIPO": {
+   "componente": "CB",
+   "nombre": "Trabajo en equipo",
+   "leccion": {
+    "idea": "Quien orienta un equipo distribuye responsabilidades según fortalezas, con acuerdos y seguimiento.",
+    "claves": [
+     "Roles claros + fechas + revisión conjunta.",
+     "No asumir todo el trabajo solo ni escalar la queja de inmediato.",
+     "Reconocer los aportes de cada integrante."
+    ],
+    "trampa": "Hacer todo uno mismo 'para cumplir' o acusar primero ante el superior.",
+    "fuente": "Anexo Técnico 2026, numeral 2.1; Res. 3842 de 2022 (trabajo en equipo)."
+   },
+   "afirmacion": "CB-A",
+   "evidencia": "Trabajo en equipo"
+  },
+  "CB-CIUD": {
+   "componente": "CB",
+   "nombre": "Ciudadanía y participación",
+   "leccion": {
+    "idea": "Las decisiones que afectan a la comunidad educativa se construyen con su participación antes de aprobarse.",
+    "claves": [
+     "Ley 115, art. 6: la comunidad educativa participa en el diseño, ejecución y evaluación del PEI.",
+     "Consultar antes de aprobar, no solo divulgar después.",
+     "Las instancias del gobierno escolar formalizan lo construido."
+    ],
+    "trampa": "Confundir divulgar con participar.",
+    "fuente": "Ley 115 de 1994, arts. 6 y 142; Anexo Técnico 2026, numeral 2.1."
+   },
+   "afirmacion": "CB-A",
+   "evidencia": "Ciudadanía y participación"
+  },
+  "PSI-INIC": {
+   "componente": "PSI",
+   "nombre": "Iniciativa",
+   "leccion": {
+    "idea": "Anticiparse a los problemas y proponer alternativas con los recursos disponibles, sin esperar a que otros resuelvan.",
+    "claves": [
+     "Actuar con autonomía y recursividad.",
+     "Proponer soluciones por los canales institucionales.",
+     "Descartar las opciones pasivas (esperar) y las que trasladan el problema a otros."
+    ],
+    "trampa": "Esperar a que llegue el presupuesto o pasar el problema a las familias.",
+    "fuente": "Res. 3842 de 2022 y Guía 31 MEN (definición de Iniciativa citada en la Guía CNSC 2022)."
+   },
+   "afirmacion": "PSI-A",
+   "evidencia": "Iniciativa"
+  },
+  "PSI-COMRI": {
+   "componente": "PSI",
+   "nombre": "Comunicación y relaciones interpersonales",
+   "leccion": {
+    "idea": "Escuchar con empatía, explicar con claridad y respeto, y mantener la confianza.",
+    "claves": [
+     "Escucha activa antes de responder.",
+     "Explicar la situación y las alternativas.",
+     "Evitar respuestas evasivas o que aplazan el diálogo."
+    ],
+    "trampa": "Remitir a otra instancia sin escuchar ('eso no es mi responsabilidad').",
+    "fuente": "Guía 31 MEN (definición citada en la Guía CNSC 2022, ejemplo 5)."
+   },
+   "afirmacion": "PSI-A",
+   "evidencia": "Comunicación y relaciones interpersonales"
+  },
+  "PSI-COMP": {
+   "componente": "PSI",
+   "nombre": "Compromiso social e institucional",
+   "leccion": {
+    "idea": "Asumir responsabilidades con ética y profesionalismo, poniendo los intereses institucionales por delante de los personales.",
+    "claves": [
+     "Proponer soluciones que beneficien a la comunidad.",
+     "Articular las acciones con los planes de la institución.",
+     "Descartar la queja sin propuesta y la salida individual."
+    ],
+    "trampa": "Quejarse formalmente o pedir el traslado.",
+    "fuente": "Guía 31 MEN (definición citada en la Guía CNSC 2022, ejemplo 2)."
+   },
+   "afirmacion": "PSI-A",
+   "evidencia": "Compromiso social e institucional"
+  },
+  "PSI-NEGM": {
+   "componente": "PSI",
+   "nombre": "Negociación y mediación",
+   "leccion": {
+    "idea": "Ante un conflicto, se facilita que las partes expongan sus intereses y construyan un acuerdo.",
+    "claves": [
+     "Escuchar a ambas partes.",
+     "Buscar soluciones gana-gana (compartir roles).",
+     "No imponer ni dejar que el conflicto se resuelva solo."
+    ],
+    "trampa": "Imponer una decisión por mérito académico o por votación inmediata.",
+    "fuente": "Res. 3842 de 2022 (competencias comportamentales)."
+   },
+   "afirmacion": "PSI-A",
+   "evidencia": "Negociación y mediación"
+  },
+  "PSI-LOGRO": {
+   "componente": "PSI",
+   "nombre": "Orientación al logro",
+   "leccion": {
+    "idea": "Ante resultados bajos, se analizan las causas, se ajustan las estrategias y se fijan metas con seguimiento.",
+    "claves": [
+     "Analizar → ajustar → definir metas → hacer seguimiento.",
+     "Asumir la responsabilidad de la propia práctica.",
+     "Descartar las opciones que culpan al grupo."
+    ],
+    "trampa": "Atribuir los resultados al bajo compromiso de los estudiantes.",
+    "fuente": "Res. 3842 de 2022 (competencias comportamentales)."
+   },
+   "afirmacion": "PSI-A",
+   "evidencia": "Orientación al logro"
+  },
+  "PSI-LID": {
+   "componente": "PSI",
+   "nombre": "Liderazgo",
+   "leccion": {
+    "idea": "El liderazgo pedagógico motiva una meta común, acompaña y reconoce; no impone ni se desentiende.",
+    "claves": [
+     "Construir la meta con el grupo.",
+     "Acompañar la organización.",
+     "Reconocer los aportes."
+    ],
+    "trampa": "Hacerlo todo uno mismo o delegarlo todo sin acompañar.",
+    "fuente": "Res. 3842 de 2022 (competencias comportamentales)."
+   },
+   "afirmacion": "PSI-A",
+   "evidencia": "Liderazgo"
+  },
+  "DIS-CONC": {
+   "componente": "DIS",
+   "nombre": "Artefactos, procesos y sistemas",
+   "leccion": {
+    "idea": "La Guía 30 organiza los productos de la tecnología en artefactos (objetos), procesos (secuencias que transforman recursos) y sistemas (elementos relacionados con un objetivo común).",
+    "claves": [
+     "Artefacto = dispositivo o herramienta.",
+     "Proceso = fases sucesivas de operaciones.",
+     "Sistema = elementos ligados que logran juntos un objetivo."
+    ],
+    "trampa": "Llamar «sistema» a cualquier actividad con etapas: eso es un proceso.",
+    "fuente": "Guía 30 MEN (2008), p. 6-7."
+   },
+   "afirmacion": "DIS-A1",
+   "evidencia": "Distingue artefactos, procesos y sistemas en situaciones cotidianas y escolares."
+  },
+  "DIS-INNOV": {
+   "componente": "DIS",
+   "nombre": "Técnica, tecnología, ciencia e innovación",
+   "leccion": {
+    "idea": "Técnica es saber hacer; tecnología agrega el porqué. La ciencia busca entender el mundo; la tecnología lo modifica. Invención crea, innovación mejora, descubrimiento halla lo que existía.",
+    "claves": [
+     "Invención = no existía.",
+     "Innovación = mejora de lo existente.",
+     "Descubrimiento = fenómeno oculto o desconocido."
+    ],
+    "trampa": "Llamar invención a una mejora de un artefacto existente.",
+    "fuente": "Guía 30 MEN (2008), p. 7-8."
+   },
+   "afirmacion": "DIS-A1",
+   "evidencia": "Diferencia técnica, tecnología y ciencia, y reconoce invención, innovación y descubrimiento."
+  },
+  "DIS-COMP": {
+   "componente": "DIS",
+   "nombre": "Componentes del área y grupos de grados",
+   "leccion": {
+    "idea": "El área se organiza en cuatro componentes: naturaleza y evolución, apropiación y uso, solución de problemas y tecnología y sociedad, en cinco grupos de grados.",
+    "claves": [
+     "Conceptos e historia → naturaleza y evolución.",
+     "Uso seguro → apropiación y uso.",
+     "Fallas y diseño → solución de problemas.",
+     "Impactos y ética → tecnología y sociedad."
+    ],
+    "trampa": "Ubicar «ensamblar y desarmar» en apropiación y uso: la guía lo pone en solución de problemas.",
+    "fuente": "Guía 30 MEN (2008), p. 13-17."
+   },
+   "afirmacion": "DIS-A5",
+   "evidencia": "Ubica desempeños en los cuatro componentes del área y en los grupos de grados."
+  }
+ }
+}

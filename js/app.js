@@ -64,7 +64,7 @@ const S = { banco: null, estado: null, clave: null, vista: "inicio", ses: null, 
 const estadoInicial = () => ({
   v: 1, t: 0,
   perfil: { nombre: "", inicio: null, xp: 0, racha: 0, mejorRacha: 0, ultimoDia: null, dias: [], insignias: {}, rescates: 0, dueloSemana: null, respondidas: 0 },
-  items: {}, familias: {}, sesiones: [], simulacros: [], retoHoy: null,
+  items: {}, familias: {}, fichas: {}, sesiones: [], simulacros: [], retoHoy: null,
   ajustes: { sonido: true, avisoSimulacro: null }
 });
 const INTERVALOS = [0, 1, 3, 7, 14, 30]; // días según la caja de repaso
@@ -75,7 +75,7 @@ function guardarLocal() {
   localStorage.setItem(K.estado, JSON.stringify(S.estado));
   programarSync();
 }
-const outbox = () => { try { return JSON.parse(localStorage.getItem(K.outbox)) || { intentos: [], sesiones: [] }; } catch { return { intentos: [], sesiones: [] }; } };
+const outbox = () => { let o; try { o = JSON.parse(localStorage.getItem(K.outbox)); } catch {} o ||= {}; o.intentos ||= []; o.sesiones ||= []; o.reportes ||= []; return o; };
 const setOutbox = o => localStorage.setItem(K.outbox, JSON.stringify(o));
 
 /* ---------- Supabase ---------- */
@@ -102,6 +102,11 @@ async function sincronizar() {
       await rpc("pd_guardar", { p_clave: S.clave, p_datos: S.estado, p_intentos: ints, p_sesion: ses });
       ob = outbox(); ob.intentos.splice(0, ints.length); if (ses) ob.sesiones.shift(); setOutbox(ob);
     } while (ob.sesiones.length || ob.intentos.length);
+    while (ob.reportes.length) {
+      const rp = ob.reportes[0];
+      await rpc("pd_reportar", { p_clave: S.clave, p_item: rp.item, p_motivo: rp.motivo, p_nota: rp.nota || "", p_lote: rp.lote || "" });
+      ob = outbox(); ob.reportes.shift(); setOutbox(ob);
+    }
     S.sync = { ok: true, msg: "Guardado en la nube " + new Date().toLocaleTimeString("es-CO", { hour: "2-digit", minute: "2-digit" }) };
   } catch (e) {
     S.sync = { ok: false, msg: e.message === "clave_invalida" ? "Clave no válida" : "Sin conexión: se guardará al reconectar" };
@@ -115,22 +120,31 @@ document.addEventListener("visibilitychange", () => { if (document.visibilitySta
 /* ---------- banco ---------- */
 let IDX = null;
 function indexar(b) {
-  const items = {}, casos = {}, porFam = {}, porComp = {}, porCaso = {};
+  const items = {}, casos = {}, porFam = {}, porComp = {}, porCaso = {}, porFicha = {}, fichas = {};
   b.casos.forEach(c => casos[c.id] = c);
+  (b.fichas || []).forEach(f => fichas[f.id] = f);
   b.items.forEach(it => {
-    it.comp = b.familias[it.familia].componente;
+    if (!b.familias[it.familia]) return;
+    it.comp = b.familias[it.familia].componente; it.tipo ||= "caso";
     items[it.id] = it;
     (porFam[it.familia] ||= []).push(it.id);
     (porComp[it.comp] ||= []).push(it.id);
-    (porCaso[it.caso] ||= []).push(it.id);
+    if (it.tipo === "conocimiento") (porFicha[it.ficha] ||= []).push(it.id);
+    else (porCaso[it.caso] ||= []).push(it.id);
   });
   const comps = {}; b.componentes.forEach(c => comps[c.id] = c);
-  IDX = { items, casos, porFam, porComp, porCaso, comps };
+  IDX = { items, casos, porFam, porComp, porCaso, porFicha, fichas, comps };
 }
 async function cargarBanco() {
   try {
-    const r = await fetch(CFG.bancoUrl, { cache: "no-cache" });
-    const b = await r.json(); localStorage.setItem(K.banco, JSON.stringify(b)); return b;
+    const get = u => fetch(u, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(u); return r.json(); });
+    const [marco, indice] = await Promise.all([get(CFG.marcoUrl), get(CFG.indiceUrl)]);
+    const lotes = await Promise.all(indice.lotes.map(l => get("data/" + l)));
+    const retirados = new Set(indice.retirados || []);
+    const b = { version: marco.version, actualizado: lotes.length ? lotes[lotes.length - 1].fecha : marco.actualizado, lotes: lotes.length,
+      componentes: marco.componentes, afirmaciones: marco.afirmaciones, familias: marco.familias, casos: [], fichas: [], items: [] };
+    lotes.forEach(l => { b.casos.push(...(l.casos || [])); b.fichas.push(...(l.fichas || [])); b.items.push(...(l.items || []).filter(it => !retirados.has(it.id))); });
+    localStorage.setItem(K.banco, JSON.stringify(b)); return b;
   } catch { const c = localStorage.getItem(K.banco); if (c) return JSON.parse(c); throw new Error("No se pudo cargar el banco de preguntas."); }
 }
 
@@ -164,9 +178,28 @@ function casosNuevos(filtroComp) {
 }
 function puntajeItem(id) { const s = S.estado.items[id]; if (!s || !s.vistos) return -1; return s.aciertos / s.vistos; }
 
+const fichaLeida = id => !!S.estado.fichas?.[id];
+function fichaPendiente(comp) {
+  return (S.banco.fichas || []).find(f => !fichaLeida(f.id) && (!comp || S.banco.familias[f.familia].componente === comp));
+}
 function armarCola(tipo, opts = {}) {
-  const n = opts.n || CFG.preguntasPorReto, cola = [], usados = new Set();
+  const cola = [], usados = new Set();
   const add = (id, extra = {}) => { if (id && !usados.has(id)) { usados.add(id); cola.push({ id, ...extra }); } };
+  if (tipo === "estudio") {
+    const f = IDX.fichas[opts.ficha]; if (!f) return cola;
+    cola.push({ ficha: f.id });
+    (IDX.porFicha[f.id] || []).forEach(id => add(id));
+    const casosFam = shuffle((IDX.porFam[f.familia] || []).filter(id => IDX.items[id].tipo === "caso"))
+      .sort((a, b) => (S.estado.items[a]?.vistos ? 1 : 0) - (S.estado.items[b]?.vistos ? 1 : 0));
+    casosFam.slice(0, 2).forEach(id => add(id));
+    return cola;
+  }
+  let extraN = 0;
+  if (tipo === "reto" && !opts.sinFicha) {
+    const f = fichaPendiente();
+    if (f) { cola.push({ ficha: f.id }); extraN = 1; (IDX.porFicha[f.id] || []).forEach(id => add(id)); }
+  }
+  const n = (opts.n || CFG.preguntasPorReto) + extraN;
 
   if (tipo === "reto" || tipo === "duelo") {
     const vencidas = tipo === "duelo" ? cofre().map(x => x.f) : shuffle(familiasVencidas());
@@ -186,7 +219,7 @@ function armarCola(tipo, opts = {}) {
   }
   // si ya vio todo: refuerza lo de menor desempeño, agrupando por caso
   if (cola.length < n) {
-    let pool = Object.keys(IDX.items).filter(id => !usados.has(id) && (!opts.comp || IDX.items[id].comp === opts.comp));
+    let pool = Object.keys(IDX.items).filter(id => IDX.items[id].tipo === "caso" && !usados.has(id) && (!opts.comp || IDX.items[id].comp === opts.comp));
     pool = shuffle(pool).sort((a, b) => puntajeItem(a) - puntajeItem(b) || (S.estado.items[a]?.ultimo || 0) - (S.estado.items[b]?.ultimo || 0));
     for (const id of pool) {
       if (cola.length >= n) break;
@@ -217,7 +250,9 @@ function iniciarSesion(tipo, opts = {}) {
   prepararPregunta(); ir("pregunta");
 }
 function prepararPregunta() {
-  const q = S.ses.cola[S.ses.i]; const it = IDX.items[q.id];
+  const q = S.ses.cola[S.ses.i];
+  if (q.ficha) { S.ses.orden = null; S.ses.sel = null; S.ses.respondida = false; return; }
+  const it = IDX.items[q.id];
   S.ses.orden = shuffle(it.opciones.map(o => o.l)); S.ses.sel = null; S.ses.respondida = false; S.ses.t0 = Date.now();
 }
 const letraVisible = (orig) => "ABC"[S.ses.orden.indexOf(orig)];
@@ -448,7 +483,7 @@ function vistaInicio() {
   ${!standalone && /iP(hone|ad)/.test(navigator.userAgent) ? `<div class="card flat small" style="margin-bottom:12px">📲 <b>Instálala:</b> toca <b>Compartir</b> en Safari y luego <b>Agregar a inicio</b>. Así se abre como app, sin barras.</div>` : ""}
   <section class="hero">
     <div class="row between"><div><div class="small" style="opacity:.9">Reto de hoy · ${fechaLarga(hoy())}</div>
-      <div class="big">${hecho ? "¡Cumplido! ✓" : "10 preguntas"}</div>
+      <div class="big">${hecho ? "¡Cumplido! ✓" : fichaPendiente() ? "1 ficha + 10 preguntas" : "10 preguntas"}</div>
       <div class="small" style="opacity:.92">${hecho ? "Tu racha está a salvo. Puedes seguir practicando." : venc ? `Incluye ${Math.min(venc, CFG.maxRepasoPorReto)} de repaso: misma competencia, otro contexto` : "Unos 10 minutos · casos tipo CNSC"}</div></div>
       <div class="flame">${hecho ? "🏅" : "🔥"}</div></div>
     <div class="week">${semanaHTML()}</div>
@@ -471,6 +506,10 @@ function vistaInicio() {
     <p class="tiny muted mt">Combina tu precisión y cuánto del banco has trabajado. La prueba eliminatoria exige 60/100.</p>
     <button class="btn ghost" data-v="progreso">Ver progreso por componente →</button></div>
 
+  <div class="card mt"><div class="row"><div style="font-size:30px">📚</div><div style="flex:1"><h3>Biblioteca: estudia y responde</h3>
+     <p class="small muted">${(S.banco.fichas || []).filter(f => fichaLeida(f.id)).length} de ${(S.banco.fichas || []).length} fichas estudiadas. Cada ficha resume un tema con el texto oficial y te pregunta enseguida.</p></div></div>
+     <button class="btn sec mt" data-v="biblioteca">Abrir biblioteca</button></div>
+
   <h2 class="mt2">Mapa de estudio</h2>
   <p class="small muted">Todos los módulos están abiertos. Toca uno para practicarlo.</p>
   <div class="map">${S.banco.componentes.map(c => { const st = statsComp(c.id);
@@ -479,10 +518,31 @@ function vistaInicio() {
   <p class="sync center mt" data-sync>${syncHTML()}</p>`;
 }
 
+function citasHTML(citas, titulo = "📜 Lo que dice el documento oficial") {
+  if (!citas?.length) return "";
+  return `<div class="cita"><b>${titulo}</b>${citas.map(c => `<blockquote>«${esc(c.texto)}»<cite>${esc(DOCS[c.doc] || c.doc)}${c.ubicacion ? " · " + esc(c.ubicacion) : ""}</cite></blockquote>`).join("")}</div>`;
+}
+function vistaFicha() {
+  const s = S.ses, q = s.cola[s.i], f = IDX.fichas[q.ficha], F = S.banco.familias[f.familia], comp = IDX.comps[F.componente];
+  const nPreg = (IDX.porFicha[f.id] || []).length;
+  return `
+  <div class="qhead"><button class="icon-btn" data-a="salir" aria-label="Salir">✕</button>
+    <div class="bar"><i style="width:${(s.i / s.cola.length) * 100}%"></i></div><span class="tiny muted">${s.i + 1}/${s.cola.length}</span></div>
+  <div class="review-banner">📘 Estudia y responde: lee con calma, luego vienen ${nPreg} preguntas sobre esta ficha${s.tipo === "estudio" ? " y casos tipo examen" : ""}.</div>
+  <div class="chips" style="margin-bottom:10px"><span class="tag amber">${comp.icono} ${esc(comp.nombre)}</span><span class="tag blue">${esc(F.nombre)}</span></div>
+  <h2>${esc(f.titulo)}</h2>
+  <div class="lectura">${esc(f.lectura)}</div>
+  <div class="card flat mt"><b>Ideas clave</b><ul class="small">${f.puntos.map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>
+  ${citasHTML(f.citas, "📜 Textual de los documentos oficiales")}
+  <div class="sticky-bottom"><button class="btn" data-a="leido">Ya lo leí: ¡a practicar!</button></div>`;
+}
 function vistaPregunta() {
-  const s = S.ses, q = s.cola[s.i], it = IDX.items[q.id], caso = IDX.casos[it.caso], comp = IDX.comps[it.comp];
+  const s = S.ses, q = s.cola[s.i];
+  if (q.ficha) return vistaFicha();
+  const it = IDX.items[q.id], caso = IDX.casos[it.caso], comp = IDX.comps[it.comp];
   const sim = s.tipo === "simulacro";
-  const prev = s.i > 0 ? IDX.items[s.cola[s.i - 1].id].caso : null;
+  const pq = s.i > 0 ? s.cola[s.i - 1] : null;
+  const prev = pq?.id ? IDX.items[pq.id].caso : null;
   const abierto = prev !== it.caso || s.respondida === false;
   const res = s.respondida ? s.res[s.res.length - 1] : null;
   const vidas = sim ? "" : `<span class="chip heart" aria-label="${s.vidas} vidas">${s.vidas ? "❤️".repeat(s.vidas) : "💔"}</span>`;
@@ -504,11 +564,13 @@ function vistaPregunta() {
       <h3>${res.ok ? pick(["¡Exacto!", "¡Muy bien!", "¡Así se hace!", "¡Correcto!"]) + ` +${s.ultimoXp} XP` : `La respuesta era la ${letraVisible(it.clave)}`}</h3>
       ${res.ok ? "" : `<p class="small">Esta competencia queda en tu cofre: te la volveré a presentar en otro contexto hasta que la domines.</p>`}
       <div class="just">${just}</div>
+      ${citasHTML(it.citas)}
       <div class="tip">💡 <b>Clave CNSC:</b> ${esc(it.consejo)}</div>
       <div class="src">📚 ${esc(it.fuente)}</div>
+      <button class="linkbtn" data-a="reportar">🚩 ¿Algo raro en esta pregunta? Repórtala</button>
     </div>`;
   }
-  const tablaHTML = caso.tabla ? `<table class="t"><tr>${caso.tabla.encabezado.map(h => `<th>${esc(h)}</th>`).join("")}</tr>${caso.tabla.filas.map(f => `<tr>${f.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</table>` : "";
+  const tablaHTML = caso?.tabla ? `<table class="t"><tr>${caso.tabla.encabezado.map(h => `<th>${esc(h)}</th>`).join("")}</tr>${caso.tabla.filas.map(f => `<tr>${f.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</table>` : "";
   return `
   <div class="qhead"><button class="icon-btn" data-a="salir" aria-label="Salir">✕</button>
     <div class="bar"><i style="width:${(s.i / s.cola.length) * 100}%"></i></div>
@@ -519,11 +581,12 @@ function vistaPregunta() {
     <span class="tag amber">${comp.icono} ${esc(comp.oficial)}</span>
     <span class="tag blue">${esc(it.competencia)}</span>
   </div>
-  <details class="case" ${abierto ? "open" : ""}><summary><span>📄 Caso: ${esc(caso.titulo)}</span><span class="muted tiny">ver/ocultar</span></summary>
+  ${caso ? `<details class="case" ${abierto ? "open" : ""}><summary><span>📄 Caso: ${esc(caso.titulo)}</span><span class="muted tiny">ver/ocultar</span></summary>
     <div class="txt">${esc(caso.texto)}</div>
     ${caso.lectura ? `<blockquote>${esc(caso.lectura)}</blockquote>` : ""}
     ${caso.codigo ? `<pre>${esc(caso.codigo)}</pre>` : ""}${tablaHTML}
-  </details>
+  </details>` : `<details class="case"><summary><span>📘 Pregunta de conocimiento · ${esc(IDX.fichas[it.ficha]?.titulo || "")}</span><span class="muted tiny">releer ficha</span></summary>
+    <div class="txt">${esc(IDX.fichas[it.ficha]?.lectura || "")}</div></details>`}
   <div class="enun">${esc(it.enunciado)}…</div>
   ${opciones}
   ${fb}
@@ -546,7 +609,7 @@ function vistaResumen() {
   const prep = preparacion();
   return `<div class="center stack" style="padding-top:4vh">
     <div style="font-size:64px" class="pop">${p >= 80 ? "🏆" : p >= 50 ? "💪" : "🌱"}</div>
-    <h1>${s.tipo === "duelo" ? "Duelo terminado" : "¡Reto terminado!"}</h1>
+    <h1>${s.tipo === "duelo" ? "Duelo terminado" : s.tipo === "estudio" ? "¡Ficha estudiada!" : s.tipo === "modulo" ? "Práctica terminada" : "¡Reto terminado!"}</h1>
     <div class="score">${p}%</div><p class="muted">${ok} de ${tot} correctas · +${s.xp} XP${s.bonus ? ` (incluye bono de ${s.bonus})` : ""}</p>
     <div class="chips" style="justify-content:center"><span class="chip fire">🔥 Racha: ${rachaVisible()} ${rachaVisible() === 1 ? "día" : "días"}</span><span class="chip xp">⭐ ${S.estado.perfil.xp} XP</span></div>
     <div class="card" style="text-align:left"><p>${S.estado.perfil.nombre ? esc(S.estado.perfil.nombre) + ", " + esc(msj.charAt(0).toLowerCase() + msj.slice(1)) : esc(msj)}</p>
@@ -572,6 +635,13 @@ function vistaResumenSimulacro() {
         return `<details><summary class="small"><b>${esc(IDX.casos[it.caso].titulo)}:</b> ${esc(it.enunciado)}…</summary><p class="small"><b>Correcta:</b> ${esc(o.t)}</p><p class="small muted">${esc(o.j)}</p><p class="tiny">💡 ${esc(it.consejo)}</p></details>`; }).join("")}</div></div>` : ""}
     ${s.nuevas?.length ? `<div class="card"><h3>Nuevas insignias</h3><div class="badge-grid mt">${s.nuevas.map(b => `<div class="badge on"><div class="e">${b.e}</div><b>${esc(b.n)}</b></div>`).join("")}</div></div>` : ""}
     <button class="btn" data-v="inicio">Volver al inicio</button></div>`;
+}
+function vistaBiblioteca() {
+  const fs = S.banco.fichas || [];
+  return `<div class="top"><button class="icon-btn" data-v="inicio">‹</button><h2>Biblioteca</h2><span style="width:44px"></span></div>
+  <p class="muted small">Cada ficha explica un tema con tus propias palabras, muestra el texto oficial y luego te pregunta. El reto diario incluye la siguiente ficha pendiente.</p>
+  ${S.banco.componentes.map(c => { const lista = fs.filter(f => S.banco.familias[f.familia].componente === c.id); if (!lista.length) return "";
+    return `<h3 class="mt2">${c.icono} ${esc(c.nombre)}</h3><div class="card list">${lista.map(f => `<button class="row between ficha-btn" data-a="estudiar" data-f="${f.id}"><span>${fichaLeida(f.id) ? "✅" : "📘"} ${esc(f.titulo)}</span><span class="muted">›</span></button>`).join("")}</div>`; }).join("")}`;
 }
 function vistaCofre() {
   const c = cofre().sort((a, b) => (a.proxima || "").localeCompare(b.proxima || ""));
@@ -613,7 +683,7 @@ function vistaAjustes() {
     <button class="btn sec" data-a="syncAhora">☁️ Guardar en la nube ahora</button>
     <button class="btn sec" data-a="exportar">⬇️ Descargar copia de mi avance</button>
     <button class="btn sec" data-a="ics">📅 Recordatorios de simulacros</button></div>
-  <div class="card mt stack"><p class="small muted">Banco: ${esc(S.banco.version)} (${esc(S.banco.actualizado)}) · ${Object.keys(IDX.items).length} preguntas</p>
+  <div class="card mt stack"><p class="small muted">Banco: ${esc(S.banco.version)} · actualizado ${esc(S.banco.actualizado)} · ${S.banco.lotes || 1} lote(s) · ${Object.keys(IDX.items).length} preguntas · ${(S.banco.fichas || []).length} fichas</p>
     <button class="btn ghost" data-a="salirCuenta">Cerrar sesión en este celular</button></div>`;
 }
 
@@ -636,6 +706,26 @@ function modalLeccion(fam, onPracticar) {
     <button class="btn ghost" data-m="cerrar">${onPracticar ? "Ahora no" : "Cerrar"}</button>`);
   m.querySelector("[data-m=cerrar]").onclick = cerrarModal;
   if (onPracticar) m.querySelector("[data-m=practicar]").onclick = onPracticar;
+}
+const DOCS = {
+  guia30_mineducacion_2008: "Guía 30 MEN (2008)", orientaciones_tecnologia_2022: "Orientaciones Curriculares Tecnología e Informática (MEN, 2022)",
+  decreto_1075_2015: "Decreto 1075 de 2015", decreto_1421_2017: "Decreto 1421 de 2017", decreto_1965_2013: "Decreto 1965 de 2013",
+  ley_1620_2013: "Ley 1620 de 2013", ley_115_1994: "Ley 115 de 1994", ley_1098_2006: "Ley 1098 de 2006", decreto_1278_2002: "Decreto 1278 de 2002",
+  resolucion_3842_2022_ocr: "Resolución 3842 de 2022 (MEN)", anexo_tecnico_2026: "Anexo Técnico CNSC 2026", acuerdo_314_2026_yopal: "Acuerdo 314 de 2026 (Yopal)",
+  guia_orientacion_cnsc_2022: "Guía de orientación al aspirante CNSC 2022"
+};
+function modalReporte() {
+  const s = S.ses, it = IDX.items[s.cola[s.i].id];
+  const motivos = ["La respuesta correcta me parece equivocada", "El dato normativo no coincide con la norma", "La pregunta es confusa o tiene dos respuestas", "Error de redacción u ortografía", "Otro"];
+  const m = modal(`<h2>🚩 Reportar pregunta ${esc(it.id)}</h2><p class="small muted">Se revisará contra el documento oficial. Si hay error, la pregunta se corrige o se retira del banco.</p>
+    <div class="stack mt">${motivos.map((x, k) => `<label class="radio"><input type="radio" name="mot" value="${esc(x)}" ${k === 0 ? "checked" : ""}> ${esc(x)}</label>`).join("")}</div>
+    <textarea id="nota" class="input mt" rows="3" placeholder="¿Qué notaste? (opcional)"></textarea>
+    <button class="btn mt" data-m="enviar">Enviar reporte</button><button class="btn ghost" data-m="cerrar">Cancelar</button>`);
+  m.querySelector("[data-m=cerrar]").onclick = cerrarModal;
+  m.querySelector("[data-m=enviar]").onclick = () => {
+    const ob = outbox(); ob.reportes.push({ item: it.id, motivo: m.querySelector("input[name=mot]:checked").value, nota: m.querySelector("#nota").value.trim(), lote: S.banco.actualizado, t: new Date().toISOString() });
+    setOutbox(ob); cerrarModal(); toast("Gracias. Reporte guardado."); programarSync(200);
+  };
 }
 function modalSinVidas() {
   const s = S.ses, it = IDX.items[s.cola[s.i].id];
@@ -678,7 +768,7 @@ function render() {
   clearInterval(timerInt);
   const v = !S.clave ? vistaLogin() : !S.estado.perfil.nombre ? vistaNombre() : ({
     inicio: vistaInicio, pregunta: vistaPregunta, resumen: vistaResumen, resumenSimulacro: vistaResumenSimulacro,
-    cofre: vistaCofre, insignias: vistaInsignias, progreso: vistaProgreso, ajustes: vistaAjustes
+    cofre: vistaCofre, biblioteca: vistaBiblioteca, insignias: vistaInsignias, progreso: vistaProgreso, ajustes: vistaAjustes
   }[S.vista] || vistaInicio)();
   $app.innerHTML = v;
   if (S.vista === "pregunta" && S.ses?.fin) {
@@ -705,7 +795,7 @@ $app.addEventListener("click", async e => {
   else if (a === "guardarNombre") { const n = document.getElementById("nombre").value.trim(); if (!n) return; S.estado.perfil.nombre = n; S.estado.perfil.inicio ||= hoy(); guardarLocal(); toast("Guardado"); ir("inicio"); }
   else if (a === "reto") iniciarSesion("reto");
   else if (a === "duelo") iniciarSesion("duelo", { n: 10 });
-  else if (a === "modulo") iniciarSesion("modulo", { comp: b.dataset.c, n: 6 });
+  else if (a === "modulo") iniciarSesion("modulo", { comp: b.dataset.c, n: 6, sinFicha: true });
   else if (a === "simulacro") modalSimulacro();
   else if (a === "ics") descargarICS();
   else if (a === "sel") { if (S.ses.respondida) return; S.ses.sel = b.dataset.l; render(); }
@@ -713,9 +803,12 @@ $app.addEventListener("click", async e => {
   else if (a === "siguiente") { if (S.ses.tipo !== "simulacro" && S.ses.vidas === 0 && !S.ses.avisoVidas && !S.ses.res[S.ses.res.length - 1].ok) { S.ses.avisoVidas = true; modalSinVidas(); } else siguiente(); }
   else if (a === "rescate") abrirRescate();
   else if (a === "verLeccion") modalLeccion(b.dataset.f, null);
+  else if (a === "estudiar") iniciarSesion("estudio", { ficha: b.dataset.f });
+  else if (a === "leido") { const q = S.ses.cola[S.ses.i]; (S.estado.fichas ||= {})[q.ficha] = hoy(); guardarLocal(); siguiente(); }
+  else if (a === "reportar") modalReporte();
   else if (a === "salir") {
     const sim = S.ses?.tipo === "simulacro";
-    const m = modal(`<h2>¿Salir ${sim ? "del simulacro" : "del reto"}?</h2><p class="small">${sim ? "Si sales ahora, se calificará lo que alcanzaste a responder." : "Lo que respondiste ya quedó guardado, pero el reto no contará para tu racha."}</p>
+    const m = modal(`<h2>¿Salir ${sim ? "del simulacro" : S.ses?.tipo === "reto" ? "del reto" : "de la práctica"}?</h2><p class="small">${sim ? "Si sales ahora, se calificará lo que alcanzaste a responder." : "Lo que respondiste ya quedó guardado, pero el reto no contará para tu racha."}</p>
       <button class="btn mt" data-m="seguir">Seguir respondiendo</button><button class="btn ghost" data-m="salir">${sim ? "Terminar y calificar" : "Salir"}</button>`);
     m.querySelector("[data-m=seguir]").onclick = cerrarModal;
     m.querySelector("[data-m=salir]").onclick = () => { cerrarModal(); if (sim && S.ses.res.length) terminarSesion(); else { S.ses = null; ir("inicio"); } };
@@ -753,7 +846,7 @@ function normalizar() {
       // trae la versión más reciente de la nube (p. ej., si usó otro dispositivo)
       rpc("pd_cargar", { p_clave: S.clave }).then(r => {
         if (r?.datos?.v && (r.datos.t || 0) > (S.estado.t || 0) && S.vista === "inicio") { S.estado = r.datos; normalizar(); localStorage.setItem(K.estado, JSON.stringify(S.estado)); render(); }
-        S.sync = { ok: true, msg: "Sincronizado" }; pintarSync(); if (outbox().intentos.length || outbox().sesiones.length) programarSync(300);
+        S.sync = { ok: true, msg: "Sincronizado" }; pintarSync(); if (outbox().intentos.length || outbox().sesiones.length || outbox().reportes.length) programarSync(300);
       }).catch(() => { S.sync = { ok: false, msg: "Sin conexión: tu avance se guarda en el celular" }; pintarSync(); });
       setTimeout(avisoSimulacro, 800);
     } else render();

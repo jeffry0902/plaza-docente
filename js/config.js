@@ -3,7 +3,8 @@
 window.PLAZA_CONFIG = {
   supabaseUrl: "https://zydxazpkuaevzkkxmhnb.supabase.co",
   supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp5ZHhhenBrdWFldnpra3htaG5iIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ0ODg3NDcsImV4cCI6MjExMDA2NDc0N30.XeIUWoM14X2EXC-hd7o5VtGYzg-pV-4Vy5KN4xW2bwo",
-  bancoUrl: "data/banco.json",
+  marcoUrl: "data/marco.json",
+  indiceUrl: "data/indice.json",
   preguntasPorReto: 10,
   maxRepasoPorReto: 4,
   vidas: 5,
