@@ -493,10 +493,83 @@ function vistaNombre() {
     <button class="btn" data-a="guardarNombre">Comenzar</button></div></div>`;
 }
 function semanaHTML() {
-  const d = hoy(), P = S.estado.perfil; let h = "";
-  for (let k = 6; k >= 0; k--) { const f = masDias(d, -k), dt = new Date(f + "T12:00:00");
-    h += `<div class="d ${P.dias.includes(f) ? "on" : ""} ${k === 0 ? "hoy" : ""}">${DIAS[dt.getDay()]}<b>${P.dias.includes(f) ? "🔥" : dt.getDate()}</b></div>`; }
+  const d = hoy(), P = S.estado.perfil, ini = P.inicio || d;
+  const semana = Math.max(0, Math.floor(difDias(ini, d) / 7)), desde = masDias(ini, semana * 7); let h = "";
+  for (let k = 0; k < 7; k++) { const f = masDias(desde, k), dt = new Date(f + "T12:00:00"), fut = f > d;
+    h += `<div class="d ${P.dias.includes(f) ? "on" : ""} ${f === d ? "hoy" : ""} ${fut ? "fut" : ""}">${DIAS[dt.getDay()]}<b>${P.dias.includes(f) ? "🔥" : dt.getDate()}</b></div>`; }
   return h;
+}
+function simAviso(sim) {
+  // punto rojo: el día del simulacro, la semana del simulacro, o si no lo ha visto esta semana
+  return sim.disponible || sim.dias <= 7 || S.estado.ajustes.simVisto !== semanaISO();
+}
+function modalInfoSim() {
+  const sim = simulacroInfo(); S.estado.ajustes.simVisto = semanaISO(); guardarLocal();
+  const hechos = S.estado.simulacros.slice(-3);
+  const m = modal(`<div class="center"><div style="font-size:52px">⏱️</div><h2>${sim.disponible ? "¡Hoy es tu simulacro!" : "Próximo simulacro"}</h2>
+    <p class="score" style="font-size:30px;color:var(--violet)">${sim.disponible ? "Disponible hoy" : `${fechaLarga(sim.fecha)}`}</p>
+    ${sim.disponible ? "" : `<p><b>Faltan ${sim.dias} ${sim.dias === 1 ? "día" : "días"}.</b></p>`}</div>
+    <ul class="small"><li>Cada primer sábado del mes desde las 8:00 a. m., como el examen real.</li><li>${CFG.simulacroPreguntas} preguntas en ${CFG.simulacroPreguntas * CFG.minutosPorPregunta} minutos, sin retroalimentación hasta el final.</li><li>Reserva un espacio tranquilo, con lápiz y papel.</li></ul>
+    ${hechos.length ? `<p class="small"><b>Tus últimos simulacros:</b> ${hechos.map(x => `${fechaLarga(x.fecha)}: ${x.puntaje.toLocaleString("es-CO", { maximumFractionDigits: 2 })}`).join(" · ")}</p>` : ""}
+    ${sim.disponible ? `<button class="btn violet mt" data-m="ir">Presentar simulacro</button>` : ""}
+    <button class="btn sec mt" data-m="ics">📅 Agregar recordatorios al calendario</button><button class="btn ghost" data-m="cerrar">Cerrar</button>`);
+  m.querySelector("[data-m=cerrar]").onclick = () => { cerrarModal(); render(); };
+  m.querySelector("[data-m=ics]").onclick = descargarICS;
+  m.querySelector("[data-m=ir]")?.addEventListener("click", () => { cerrarModal(); modalSimulacro(); });
+}
+
+/* ---------- historial (calendario completo) ---------- */
+const CAL = { mes: null, dia: null };
+function actividadDe(f) {
+  const E = S.estado, ses = E.sesiones.filter(x => x.fecha === f);
+  const lect = Object.entries(E.lecturas || {}).filter(([, d]) => d === f).map(([id]) => (S.banco.plan || []).find(l => l.id === id)).filter(Boolean);
+  const fich = Object.entries(E.fichas || {}).filter(([, d]) => d === f).map(([id]) => IDX.fichas[id]).filter(Boolean);
+  const conc = (E.cuaderno?.conceptos || []).filter(c => c.t && fechaISO(new Date(c.t)) === f);
+  const sims = E.simulacros.filter(x => x.fecha === f);
+  const n = ses.reduce((a, x) => a + (x.tipo === "juego" ? 0 : x.total), 0), ok = ses.reduce((a, x) => a + (x.tipo === "juego" ? 0 : x.ok), 0);
+  const xp = ses.reduce((a, x) => a + (x.xp || 0), 0);
+  return { ses, lect, fich, conc, sims, n, ok, xp, reto: E.perfil.dias.includes(f) };
+}
+function vistaHistorial() {
+  const P = S.estado.perfil, d = hoy(), ini = P.inicio || d;
+  const mesIni = ini.slice(0, 7), mesHoy = d.slice(0, 7); CAL.mes ||= mesHoy;
+  const [y, m] = CAL.mes.split("-").map(Number), primero = `${CAL.mes}-01`, offset = (new Date(primero + "T12:00:00").getDay() + 6) % 7;
+  const diasMes = new Date(y, m, 0).getDate();
+  const tot = S.estado.sesiones.filter(x => x.tipo !== "juego"), n = tot.reduce((a, x) => a + x.total, 0), ok = tot.reduce((a, x) => a + x.ok, 0);
+  const activos = new Set(S.estado.sesiones.map(x => x.fecha)).size, pi = planInfo();
+  let celdas = "";
+  for (let k = 0; k < offset; k++) celdas += `<span></span>`;
+  for (let dd = 1; dd <= diasMes; dd++) {
+    const f = `${CAL.mes}-${pad(dd)}`, A = actividadDe(f), fut = f > d, antes = f < ini;
+    const nivel = A.n === 0 ? 0 : A.n < 6 ? 1 : A.n < 12 ? 2 : 3, sim = primerSabado(y, m - 1) === f;
+    celdas += `<button class="cal-d n${nivel} ${A.reto ? "reto" : ""} ${f === d ? "hoy" : ""} ${fut || antes ? "fut" : ""} ${CAL.dia === f ? "sel" : ""}" data-a="calDia" data-f="${f}" ${antes ? "disabled" : ""}>
+      <span>${dd}</span>${A.reto ? "<i>🔥</i>" : sim ? "<i>⏱️</i>" : A.lect.length || A.conc.length ? "<i>•</i>" : ""}</button>`;
+  }
+  const det = CAL.dia ? (() => { const A = actividadDe(CAL.dia);
+    const vacio = !A.ses.length && !A.lect.length && !A.fich.length && !A.conc.length && !A.sims.length;
+    return `<div class="card mt"><h3>${fechaLarga(CAL.dia)}</h3>${vacio ? `<p class="small muted">${CAL.dia > d ? "Día por venir." : "Sin actividad este día."}</p>` : `
+      <div class="row wrap mt">${A.reto ? `<span class="chip fire">🔥 Reto cumplido</span>` : ""}${A.n ? `<span class="chip">${A.ok}/${A.n} correctas · ${Math.round(A.ok / A.n * 100)} %</span>` : ""}${A.xp ? `<span class="chip xp">⭐ ${A.xp} XP</span>` : ""}</div>
+      ${A.ses.length ? `<div class="list mt">${A.ses.map(x => `<div class="row between small"><span>${{ reto: "🔥 Reto diario", duelo: "⚔️ Duelo", modulo: "🗺️ Práctica por módulo", estudio: "📘 Ficha de estudio", lectura: "📖 Lectura adelantada", simulacro: "⏱️ Simulacro", juego: "🎮 Juego" }[x.tipo] || x.tipo}</span><b>${x.tipo === "juego" ? `+${x.xp} XP` : `${x.ok}/${x.total}`}</b></div>`).join("")}</div>` : ""}
+      ${A.sims.length ? `<p class="small mt">⏱️ Simulacro: <b>${A.sims.map(x => x.puntaje.toLocaleString("es-CO", { maximumFractionDigits: 2 })).join(", ")}</b></p>` : ""}
+      ${A.lect.length ? `<p class="small mt"><b>📖 Leyó:</b> ${A.lect.map(l => `${esc(l.nombre.split(" (")[0])}, parte ${l.parte}`).join(" · ")}</p>` : ""}
+      ${A.fich.length ? `<p class="small"><b>📘 Fichas:</b> ${A.fich.map(f => esc(f.titulo)).join(" · ")}</p>` : ""}
+      ${A.conc.length ? `<p class="small"><b>🧠 Conceptos nuevos:</b> ${A.conc.map(c => esc(c.termino)).join(" · ")}</p>` : ""}`}</div>`; })() : `<p class="tiny muted mt">Toca un día para ver qué hiciste.</p>`;
+  return `<div class="top"><button class="icon-btn" data-v="inicio">‹</button><h2>Mi historial</h2><span style="width:44px"></span></div>
+  <div class="grid-kpi">
+    <div class="card kpi"><b>🔥 ${rachaVisible()}</b><span>Racha actual</span></div>
+    <div class="card kpi"><b>🏅 ${P.mejorRacha}</b><span>Mejor racha</span></div>
+    <div class="card kpi"><b>📅 ${activos}</b><span>Días activos</span></div>
+    <div class="card kpi"><b>🎯 ${n ? Math.round(ok / n * 100) + " %" : "—"}</b><span>Acierto total</span></div>
+    <div class="card kpi"><b>✍️ ${P.respondidas}</b><span>Preguntas</span></div>
+    <div class="card kpi"><b>📖 ${pi.leidas}/${pi.total}</b><span>Lecturas</span></div>
+  </div>
+  <div class="card mt"><div class="row between"><button class="icon-btn" data-a="calMes" data-m="-1" ${CAL.mes <= mesIni ? "disabled" : ""}>‹</button>
+    <h3>${MESES[m - 1].charAt(0).toUpperCase() + MESES[m - 1].slice(1)} ${y}</h3>
+    <button class="icon-btn" data-a="calMes" data-m="1" ${CAL.mes >= mesHoy ? "disabled" : ""}>›</button></div>
+    <div class="cal mt">${["L", "M", "X", "J", "V", "S", "D"].map(x => `<span class="cal-h">${x}</span>`).join("")}${celdas}</div>
+    <div class="legend tiny muted mt"><span>🔥 reto cumplido</span><span>⏱️ simulacro</span><span>• lectura o conceptos</span><span class="sw n1"></span><span class="sw n2"></span><span class="sw n3"></span><span>más preguntas</span></div></div>
+  ${det}
+  <p class="tiny muted center mt">Empezaste el ${fechaLarga(ini)}.</p>`;
 }
 function vistaInicio() {
   const P = S.estado.perfil, r = rachaVisible(), lv = nivel(P.xp), hecho = S.estado.retoHoy === hoy();
@@ -507,7 +580,7 @@ function vistaInicio() {
   const saludo = new Date().getHours() < 12 ? "Buenos días" : new Date().getHours() < 19 ? "Buenas tardes" : "Buenas noches";
   return `
   <div class="top"><div><div class="muted small">${saludo},</div><h1>${esc(P.nombre || "aspirante")}</h1></div>
-    <div class="row"><button class="icon-btn" data-v="insignias" aria-label="Insignias">🏆</button><button class="icon-btn" data-v="ajustes" aria-label="Ajustes">⚙️</button></div></div>
+    <div class="row"><button class="icon-btn badge-btn" data-a="infoSim" aria-label="Próximo simulacro">⏱️${simAviso(sim) ? `<span class="noti">${sim.disponible ? "!" : sim.dias}</span>` : ""}</button><button class="icon-btn" data-v="insignias" aria-label="Insignias">🏆</button><button class="icon-btn" data-v="ajustes" aria-label="Ajustes">⚙️</button></div></div>
   <div class="chips" style="margin-bottom:14px">
     <span class="chip fire">🔥 ${r} ${r === 1 ? "día" : "días"}</span>
     <span class="chip xp">⭐ ${P.xp} XP · Nivel ${lv.n}</span>
@@ -519,16 +592,14 @@ function vistaInicio() {
       <div class="big">${hecho ? "¡Cumplido! ✓" : esDiaDistinto() ? "🎲 Reto distinto" : `${lecturaPendiente() ? "Lectura + " : ""}${CFG.preguntasPorReto} preguntas`}</div>
       <div class="small" style="opacity:.92">${hecho ? "Tu racha está a salvo. Puedes seguir practicando." : venc ? `Incluye ${Math.min(venc, CFG.maxRepasoPorReto)} de repaso: misma competencia, otro contexto` : (esDiaDistinto() ? "Lectura + un juego + 6 preguntas · unos 15 minutos" : `Unos 15 minutos · lees el documento oficial y luego respondes`)}</div></div>
       <div class="flame">${hecho ? "🏅" : "🔥"}</div></div>
-    <div class="week">${semanaHTML()}</div>
+    <button class="week" data-v="historial" aria-label="Abrir mi historial">${semanaHTML()}</button>
+    <div class="tiny" style="opacity:.9;text-align:center;margin-top:4px">Toca la semana para ver tu historial completo</div>
     <button class="btn" data-a="reto">${hecho ? "Practicar un reto más" : "Empezar el reto de hoy"}</button>
   </section>
 
-  ${sim.disponible ? `<div class="card mt" style="border:2px solid var(--violet)"><div class="row"><div style="font-size:34px">⏱️</div><div><h3>Simulacro del mes disponible</h3>
+  ${sim.disponible ? `<div class="card mt" style="border:2px solid var(--violet)"><div class="row"><div style="font-size:34px">⏱️</div><div><h3>Hoy es tu simulacro del mes</h3>
      <p class="small muted">${CFG.simulacroPreguntas} preguntas · ${CFG.simulacroPreguntas * CFG.minutosPorPregunta} minutos · sin retroalimentación hasta el final, como el examen.</p></div></div>
-     <button class="btn violet mt" data-a="simulacro">Presentar simulacro</button></div>`
-   : `<div class="card mt"><div class="row"><div style="font-size:30px">🗓️</div><div style="flex:1"><h3>Próximo simulacro: ${fechaLarga(sim.fecha)}</h3>
-     <p class="small muted">${sim.dias <= 7 ? `Faltan ${sim.dias} ${sim.dias === 1 ? "día" : "días"}. Reserva ${CFG.simulacroPreguntas * CFG.minutosPorPregunta} minutos sin interrupciones desde las 8:00 a. m.` : "Cada primer sábado del mes, a las 8:00 a. m., como el examen real."}</p></div></div>
-     <button class="btn sec mt" data-a="ics">📅 Agregar recordatorios al calendario</button></div>`}
+     <button class="btn violet mt" data-a="simulacro">Presentar simulacro</button></div>` : ""}
 
   ${dueloOk ? `<div class="card mt"><div class="row"><div style="font-size:30px">⚔️</div><div style="flex:1"><h3>Duelo contra tus errores</h3>
      <p class="small muted">${cof} ${cof === 1 ? "competencia" : "competencias"} en tu cofre. Enfréntalas con casos nuevos.</p></div></div>
@@ -965,7 +1036,7 @@ function render() {
   clearInterval(timerInt); aplicarTema();
   const v = !S.clave ? vistaLogin() : !S.estado.perfil.nombre ? vistaNombre() : ({
     inicio: vistaInicio, pregunta: vistaPregunta, resumen: vistaResumen, resumenSimulacro: vistaResumenSimulacro,
-    cofre: vistaCofre, biblioteca: vistaBiblioteca, cuaderno: vistaCuaderno, mapas: () => PDX.vistaMapas(), mapa: () => PDX.vistaMapa(), esquema: () => PDX.vistaEsquema(),
+    cofre: vistaCofre, biblioteca: vistaBiblioteca, cuaderno: vistaCuaderno, historial: vistaHistorial, mapas: () => PDX.vistaMapas(), mapa: () => PDX.vistaMapa(), esquema: () => PDX.vistaEsquema(),
     juego: () => `<div class="top"><button class="icon-btn" data-a="jSalir">‹</button><h2>Juego</h2><span style="width:44px"></span></div>${CU.G ? PDX.juegoHTML(CU.G, false) : ""}`, docs: vistaDocs, doc: vistaDoc, leer: vistaLeer, conceptos: vistaConceptos, flash: vistaFlash, insignias: vistaInsignias, progreso: vistaProgreso, ajustes: vistaAjustes
   }[S.vista] || vistaInicio)();
   $app.innerHTML = v;
@@ -1013,6 +1084,9 @@ $app.addEventListener("click", async e => {
     m.querySelector("[data-m=seguir]").onclick = cerrarModal;
     m.querySelector("[data-m=salir]").onclick = () => { cerrarModal(); if (sim && S.ses.res.length) terminarSesion(); else { S.ses = null; ir("inicio"); } };
   }
+  else if (a === "infoSim") modalInfoSim();
+  else if (a === "calDia") { CAL.dia = CAL.dia === b.dataset.f ? null : b.dataset.f; render(); }
+  else if (a === "calMes") { const [y, m] = CAL.mes.split("-").map(Number), d = new Date(y, m - 1 + (+b.dataset.m), 1); CAL.mes = `${d.getFullYear()}-${pad(d.getMonth() + 1)}`; CAL.dia = null; render(); }
   else if (a === "voz") { PDX.Voz.hablar(b.dataset.txt, b.dataset.id); }
   else if (a === "abrirMapas") { b.disabled = true; await PDX.cargar(); ir("mapas"); }
   else if (a === "verMapa") { PDX.V.mapa = b.dataset.d; PDX.V.abiertos = new Set(); ir("mapa"); }
