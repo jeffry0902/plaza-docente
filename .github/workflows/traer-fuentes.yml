@@ -11,7 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Ley 1620 de 2013 (texto vigente, Secretaría del Senado)
-        run: python3 tools/traer_ley.py "http://www.secretariasenado.gov.co/senado/basedoc/ley_1620_2013.html" fuentes/ley_1620_2013.txt "LEY 1620 DE 2013 (marzo 15). Texto vigente tomado de la Secretaría General del Senado: http://www.secretariasenado.gov.co/senado/basedoc/ley_1620_2013.html"
+        run: |
+          python3 tools/traer_ley.py "http://www.secretariasenado.gov.co/senado/basedoc/ley_1620_2013.html" fuentes/ley_1620_2013.txt "LEY 1620 DE 2013 (marzo 15). Texto vigente tomado de la Secretaria General del Senado - http://www.secretariasenado.gov.co/senado/basedoc/ley_1620_2013.html"
       - name: Guardar
         run: |
           git config user.name "github-actions"; git config user.email "actions@github.com"
