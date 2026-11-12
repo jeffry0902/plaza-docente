@@ -1,0 +1,18 @@
+name: Traer normas oficiales
+on:
+  workflow_dispatch:
+  push:
+    paths: [".github/workflows/traer-fuentes.yml", "tools/traer_ley.py"]
+permissions:
+  contents: write
+jobs:
+  traer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ley 1620 de 2013 (texto vigente, Secretaría del Senado)
+        run: python3 tools/traer_ley.py "http://www.secretariasenado.gov.co/senado/basedoc/ley_1620_2013.html" fuentes/ley_1620_2013.txt "LEY 1620 DE 2013 (marzo 15). Texto vigente tomado de la Secretaría General del Senado: http://www.secretariasenado.gov.co/senado/basedoc/ley_1620_2013.html"
+      - name: Guardar
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add fuentes && (git diff --cached --quiet || (git commit -m "Ley 1620 de 2013: texto oficial vigente" && git push))
