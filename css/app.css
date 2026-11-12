@@ -312,3 +312,17 @@ html.oscuro .cal-d.n1{background:#1E3A12} html.oscuro .cal-d.n2{background:#2F6A
 .legend{display:flex; flex-wrap:wrap; gap:8px; align-items:center}
 .legend .sw{width:12px; height:12px; border-radius:3px; display:inline-block}
 .legend .sw.n1{background:#E5F8D3} .legend .sw.n2{background:#B8EC8A} .legend .sw.n3{background:var(--pri)}
+
+/* Mapas mentales (markmap) y diagramas (mermaid) */
+.mmwrap{height:70vh; min-height:420px; border-radius:18px; border:2px solid var(--line); background:var(--card); overflow:hidden; touch-action:none}
+#mmsvg{width:100%; height:100%}
+.markmap{--markmap-font:600 15px/1.35 Nunito, -apple-system, sans-serif; --markmap-text-color:var(--ink-strong); --markmap-circle-open-bg:var(--card)}
+.markmap-foreign{cursor:pointer}
+.mm-def{font-weight:600; font-size:13px; color:var(--muted)}
+.mm-leer{font-size:13px}
+.diag{overflow-x:auto; padding:12px}
+.diag svg{max-width:100%; height:auto; display:block; margin:0 auto}
+.diag .nodeLabel small{font-weight:600; opacity:.85}
+.diag.mind svg{min-width:760px; max-width:none}
+.markmap-node[data-depth="1"] .markmap-foreign div{font-weight:900; font-size:17px}
+.mmwrap{height:62vh}

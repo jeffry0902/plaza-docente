@@ -39,6 +39,23 @@ async function cargar() {
   catch { PD.toast("Sin conexión: los mapas y juegos se cargarán con internet."); }
 }
 
+/* ---------- librerías gráficas (se cargan solo cuando se necesitan) ---------- */
+const _scripts = {};
+function cargarScript(src) { return _scripts[src] ||= new Promise((ok, mal) => { const s = document.createElement("script"); s.src = src; s.onload = ok; s.onerror = mal; document.head.appendChild(s); }); }
+async function libsMapa() { await cargarScript("js/vendor/d3.min.js"); await cargarScript("js/vendor/markmap-view.js"); }
+async function libsMermaid() {
+  await cargarScript("js/vendor/mermaid.min.js");
+  if (!libsMermaid.ok) {
+    const osc = document.documentElement.classList.contains("oscuro");
+    mermaid.initialize({ startOnLoad: false, securityLevel: "strict", theme: "base",
+      themeVariables: { fontFamily: "Nunito, -apple-system, sans-serif", fontSize: "15px", primaryColor: osc ? "#1E3A12" : "#D7FFB8", primaryBorderColor: "#58CC02",
+        primaryTextColor: osc ? "#F1F7FB" : "#3C3C3C", lineColor: osc ? "#52656D" : "#AFAFAF", secondaryColor: "#DDF4FF", tertiaryColor: "#FFF0D5", edgeLabelBackground: osc ? "#131F24" : "#FFFFFF" },
+      flowchart: { curve: "basis", htmlLabels: true, padding: 14, nodeSpacing: 30, rankSpacing: 42, useMaxWidth: true },
+      mindmap: { padding: 14, useMaxWidth: true } });
+    libsMermaid.ok = true;
+  }
+}
+
 /* ---------- mapas mentales ---------- */
 const V = { mapa: null, esquema: null, abiertos: new Set() };
 function vistaMapas() {
@@ -46,7 +63,7 @@ function vistaMapas() {
   return `<div class="top"><button class="icon-btn" data-v="inicio">‹</button><h2>Mapas y juegos</h2><span style="width:44px"></span></div>
   <p class="muted small">Aprende de otra forma: esquemas visuales, mapas de cada documento, juegos de repaso y lectura en voz alta.</p>
   <h3 class="mt2">🧩 Esquemas visuales</h3>
-  ${es.map((e, k) => `<button class="node" data-a="verEsquema" data-id="${e.id}"><div class="ico" style="background:${COLORES[k % 8]}">${["🛤️", "🌈", "🗂️", "⚙️"][k] || "📌"}</div><div class="meta"><b>${esc(e.titulo)}</b><span class="tiny muted">${esc(e.fuente)}</span></div><span class="muted">›</span></button>`).join("")}
+  ${es.map((e, k) => `<button class="node" data-a="verEsquema" data-id="${e.id}"><div class="ico" style="background:${COLORES[k % 8]}">${["🛤️", "🌈", "🗂️", "⚙️", "🏛️"][k] || "📌"}</div><div class="meta"><b>${esc(e.titulo)}</b><span class="tiny muted">${esc(e.fuente)}</span></div><span class="muted">›</span></button>`).join("")}
   <h3 class="mt2">🗺️ Mapa de cada documento</h3>
   <p class="tiny muted">Cómo está organizado cada documento: títulos, capítulos y artículos. Toca una rama para abrirla y 📖 para leer esa parte.</p>
   ${lista.map((m, k) => `<button class="node" data-a="verMapa" data-d="${m.doc}"><div class="ico" style="background:${COLORES[k % 8]}">🗺️</div><div class="meta"><b>${esc(m.nombre)}</b></div><span class="muted">›</span></button>`).join("")}
@@ -59,25 +76,150 @@ function juegosLista() {
   if (!J) return [];
   return ["emparejar", "ordenar", "clasificar", "sopa"].flatMap(t => (J[t] || []).map(x => ({ tipo: t, id: x.id, titulo: x.titulo, fuente: x.fuente, ...TIPOS[t] })));
 }
-function nodoHTML(n, ruta, prof, color) {
-  const id = ruta, hijos = n.h || [], abierto = V.abiertos.has(id) || prof === 0;
-  const c = prof <= 1 ? color : color;
-  const leer = n.l ? `<button class="mini" data-a="leerParte" data-l="${n.l}">📖</button>` : "";
-  const desc = n.d ? `<div class="mm-d">${esc(n.d)}</div>` : "";
-  if (!hijos.length) return `<div class="mm-hoja" style="--c:${c}"><span>${esc(n.t)}</span>${leer}${desc}</div>`;
-  return `<div class="mm-rama ${abierto ? "abierta" : ""}" style="--c:${c}">
-    <div class="mm-t" data-a="mmToggle" data-r="${id}"><span class="mm-flecha">${abierto ? "▾" : "▸"}</span><span>${esc(n.t)}</span><span class="mm-n">${hijos.length}</span>${leer}</div>
-    ${desc}${abierto ? `<div class="mm-hijos">${hijos.map((h, k) => nodoHTML(h, id + "." + k, prof + 1, prof === 0 ? COLORES[k % 8] : c)).join("")}</div>` : ""}</div>`;
+function aMarkmap(n, prof = 0) {
+  const hijos = (n.h || []).map(h => aMarkmap(h, prof + 1));
+  if (n.d) hijos.unshift({ content: `<span class="mm-def">${esc(n.d.length > 160 ? n.d.slice(0, 157) + "…" : n.d)}</span>`, children: [], payload: {} });
+  const titulo = esc(n.t.length > 70 ? n.t.slice(0, 67) + "…" : n.t);
+  return { content: titulo + (n.l ? ` <span class="mm-leer">📖</span>` : ""), children: hijos, payload: { l: n.l || null } };
 }
+let MM = null;
 function vistaMapa() {
   const m = (MAPAS || []).find(x => x.doc === V.mapa); if (!m) return vistaMapas();
   return `<div class="top"><button class="icon-btn" data-v="mapas">‹</button><h2 style="font-size:19px">${esc(m.nombre)}</h2><span style="width:44px"></span></div>
-  <div class="row wrap"><button class="chip" data-a="mmTodo">Abrir todo</button><button class="chip" data-a="mmNada">Cerrar todo</button></div>
-  <div class="mm mt"><div class="mm-raiz">${esc(m.mapa.t)}</div>${(m.mapa.h || []).map((h, k) => nodoHTML(h, "r" + k, 1, COLORES[k % 8])).join("")}</div>`;
+  <p class="tiny muted">Toca una idea para abrir o cerrar sus ramas. Si tiene 📖, tócala de nuevo para leer esa parte. Pellizca para acercar.</p>
+  <div class="row wrap"><button class="chip" data-a="mmNivel" data-n="2">Lo principal</button><button class="chip" data-a="mmNivel" data-n="3">Más detalle</button><button class="chip" data-a="mmNivel" data-n="9">Todo</button><button class="chip" data-a="mmFit">⤢ Centrar</button></div>
+  <div class="mmwrap mt"><svg id="mmsvg"></svg></div>`;
+}
+async function pintarMapa(nivel = 2) {
+  const m = (MAPAS || []).find(x => x.doc === V.mapa), svg = document.getElementById("mmsvg"); if (!m || !svg) return;
+  await libsMapa();
+  svg.innerHTML = "";
+  const datos = aMarkmap(m.mapa);
+  MM = markmap.Markmap.create(svg, { initialExpandLevel: nivel, duration: 300, maxWidth: 260, spacingVertical: 8, spacingHorizontal: 70, paddingX: 10,
+    color: (node) => COLORES[(String(node.state?.path || "").split(".")[1] || 0) % COLORES.length] }, datos);
+  let ultimo = null;
+  svg.onclick = e => {
+    const g = e.target.closest("g.markmap-node"); if (!g || e.target.tagName === "circle") return;
+    const d = d3.select(g).datum();
+    if (d.children?.length) { MM.toggleNode(d); ultimo = d; }
+    else if (d.payload?.l) PD.abrirLectura(d.payload.l);
+    if (d.children?.length && d.payload?.l && ultimo === d && d.payload.fold === 0 && e.detail === 2) PD.abrirLectura(d.payload.l);
+  };
 }
 function todasLasRutas(n, ruta, out) { (n.h || []).forEach((h, k) => { const r = ruta === null ? "r" + k : ruta + "." + k; if ((h.h || []).length) { out.push(r); todasLasRutas(h, r, out); } }); return out; }
 
 /* ---------- esquemas ---------- */
+const DIAG = {
+  "X-ruta": [
+`flowchart LR
+  P1(["1 · Promoción<br/><small>competencias y derechos;<br/>clima escolar</small>"]):::verde --> P2(["2 · Prevención<br/><small>formación continua; incide<br/>en las causas</small>"]):::azul --> P3(["3 · Atención<br/><small>asistir de manera inmediata,<br/>pertinente, ética e integral</small>"]):::naranja --> P4(["4 · Seguimiento<br/><small>reporte oportuno al Sistema<br/>de Información Unificado</small>"]):::morado`,
+`flowchart TD
+  A(["Situación que afecta<br/>la convivencia escolar"]):::gris --> B{"¿Es un presunto delito?"}:::gris
+  B -- Sí --> T3["<b>Tipo III</b><br/><small>presuntos delitos</small>"]:::rojo
+  B -- No --> C{"¿Es repetida o sistemática,<br/>o causa daño al cuerpo o a la salud<br/>sin incapacidad?"}:::gris
+  C -- Sí --> T2["<b>Tipo II</b><br/><small>agresión, acoso o ciberacoso<br/>que no es delito</small>"]:::naranja
+  C -- No --> T1["<b>Tipo I</b><br/><small>conflicto mal manejado o esporádico,<br/>sin daño al cuerpo ni a la salud</small>"]:::verde
+  T1 --> a1["1 · Reunir a las partes<br/>y mediar pedagógicamente"]:::verde --> a2["2 · Fijar una solución imparcial,<br/>equitativa y justa"]:::verde --> a3["3 · Seguimiento del caso<br/>y de los compromisos"]:::verde
+  T2 --> b1["1 · Si hay daño: atención<br/>inmediata en salud"]:::naranja --> b2["2 · Proteger a los involucrados"]:::naranja --> b3["3 · Informar de inmediato<br/>a padres o acudientes"]:::naranja --> b4["4 · Espacios para exponer<br/>lo ocurrido"]:::naranja --> b5["5 · Si no es tipo III: acciones<br/>restaurativas y consecuencias"]:::naranja --> b6["6 · Si es tipo III:<br/>aplicar ese protocolo"]:::naranja --> b7["7 · El presidente informa<br/>al Comité, que hace seguimiento"]:::naranja --> b8["8 · Acta de lo ocurrido<br/>y lo decidido"]:::naranja --> b9["9 · Reporte al Sistema<br/>de Información Unificado"]:::naranja
+  T3 --> c1["1 · Si hay daño: atención<br/>inmediata en salud"]:::rojo --> c2["2 · Informar de inmediato<br/>a padres o acudientes"]:::rojo --> c3["3 · El presidente del Comité informa<br/>a la <b>Policía Nacional</b>"]:::rojo --> c4["4 · Citar al Comité<br/>Escolar de Convivencia"]:::rojo --> c5["5 · Informar los hechos<br/>guardando reserva"]:::rojo --> c6["6 · Medidas de protección<br/>para los involucrados"]:::rojo --> c7["7 · Reporte al Sistema<br/>de Información Unificado"]:::rojo --> c8["8 · Seguimiento del Comité,<br/>la autoridad y el comité municipal"]:::rojo`],
+  "X-inclusion": [
+`flowchart TD
+  E(["<b>Educación inclusiva</b><br/><small>proceso permanente que reconoce, valora<br/>y responde a la diversidad</small>"]):::verde --> D(["<b>DUA</b> · Diseño Universal del Aprendizaje<br/><small>diseñar desde el inicio para todos:<br/>objetivos, métodos, materiales, apoyos y evaluación</small>"]):::azul
+  D --> C(["<b>Currículo flexible</b><br/><small>mismos objetivos generales,<br/>diferentes oportunidades de acceder a ellos</small>"]):::azul
+  C --> A(["<b>Ajustes razonables</b><br/><small>según las barreras,<br/>no según un diagnóstico médico</small>"]):::naranja
+  A --> P(["<b>PIAR</b> · Plan Individual de Ajustes Razonables<br/><small>lo lideran docentes de aula con el docente de apoyo,<br/>la familia y el estudiante · primer trimestre</small>"]):::morado`],
+  "X-conceptos": [
+`mindmap
+  root((Tecnología))
+    Productos
+      Artefactos
+        dispositivos, herramientas, máquinas
+      Procesos
+        fases sucesivas que transforman recursos
+      Sistemas
+        elementos ligados con un objetivo común
+    Cambio tecnológico
+      Innovación
+        mejorar lo que ya existe
+      Invención
+        algo nuevo, inexistente
+      Descubrimiento
+        hallar lo oculto o desconocido
+    Relaciones
+      Técnica
+        saber hacer
+      Ciencia
+        entender el mundo natural
+      Informática
+        parte de las TIC
+      Ética
+        privacidad, autoría, acceso equitativo`],
+  "X-guia30": [
+`mindmap
+  root((Guía 30))
+    Naturaleza y evolución
+      conceptos fundamentales
+      relación con otras disciplinas
+      evolución en la historia y la cultura
+    Apropiación y uso
+      uso adecuado, pertinente y crítico
+      artefactos, productos, procesos y sistemas
+    Solución de problemas
+      detectar fallas y necesidades
+      diseñar y evaluar
+      complejidad creciente por grados
+    Tecnología y sociedad
+      actitudes
+      valoración social
+      participación social y ética
+    5 grupos de grados
+      1° a 3°
+      4° a 5°
+      6° a 7°
+      8° a 9°
+      10° a 11°`],
+  "X-gobierno": [
+`mindmap
+  root((Gobierno escolar))
+    Rector
+      preside el consejo directivo y el académico
+    Consejo directivo
+      el rector, quien lo preside
+      2 representantes de los docentes
+      2 representantes de los padres
+      1 estudiante del último grado
+      1 representante de los exalumnos
+      1 del sector productivo
+    Consejo académico
+      directivos docentes
+      1 docente por cada área o grado
+      currículo, plan de estudio y evaluación
+    Comité escolar de convivencia
+      rector, quien lo preside
+      personero estudiantil
+      docente con función de orientación
+      coordinador
+      presidente del consejo de padres
+      presidente del consejo de estudiantes
+      1 docente que lidere convivencia`]
+};
+const CLASES = `
+  classDef verde fill:#D7FFB8,stroke:#58CC02,stroke-width:3px,color:#2B2B2B
+  classDef azul fill:#DDF4FF,stroke:#1CB0F6,stroke-width:3px,color:#2B2B2B
+  classDef naranja fill:#FFF0D5,stroke:#FF9600,stroke-width:3px,color:#2B2B2B
+  classDef rojo fill:#FFDFE0,stroke:#FF4B4B,stroke-width:3px,color:#2B2B2B
+  classDef morado fill:#F4E5FF,stroke:#CE82FF,stroke-width:3px,color:#2B2B2B
+  classDef gris fill:#FFFFFF,stroke:#AFAFAF,stroke-width:2px,color:#2B2B2B`;
+async function pintarEsquema() {
+  const cont = document.querySelectorAll(".diag[data-k]"); if (!cont.length) return;
+  await libsMermaid();
+  const defs = DIAG[V.esquema] || [];
+  for (const el of cont) {
+    const k = +el.dataset.k, def = defs[k]; if (!def) continue;
+    try { const { svg } = await mermaid.render(`dg-${V.esquema}-${k}-${Date.now()}`, def.startsWith("flowchart") ? def + CLASES : def); el.innerHTML = svg; }
+    catch (err) { el.innerHTML = `<p class="small muted">No se pudo dibujar el diagrama.</p>`; console.error(err); }
+  }
+}
 function vistaEsquema() {
   const e = (J?.esquemas || []).find(x => x.id === V.esquema); if (!e) return vistaMapas();
   const todo = e.tipo === "ruta" ? [...e.componentes, ...e.situaciones].map(x => x.t + ". " + x.d).join(" ") : (e.pasos || e.componentes || []).map(x => x.t + ". " + x.d).join(" ");
@@ -90,15 +232,20 @@ function vistaEsquema() {
       <h3 class="mt2">Formas de agresión escolar</h3><div class="chips-g">${e.agresiones.map((a, k) => `<details class="pastilla" style="--c:${COLORES[k]}"><summary>${esc(a.t)}</summary><p class="small">${esc(a.d)}</p></details>`).join("")}</div>`;
   } else if (e.tipo === "flujo") {
     cuerpo = `<div class="flujo-v">${e.pasos.map((p, k) => `<div class="paso" style="--c:${COLORES[k % 8]}"><b>${esc(p.t)}</b><p>${esc(p.d)}</p></div>`).join('<div class="flecha v">⬇</div>')}</div>`;
+  } else if (e.tipo === "lista") {
+    cuerpo = e.grupos.map((g, k) => `<div class="paso mt" style="--c:${COLORES[k % 8]}"><b>${esc(g.t)}</b><ul class="small">${g.items.map(x => `<li>${esc(x)}</li>`).join("")}</ul><p class="tiny muted">${esc(g.f)}</p></div>`).join("");
   } else if (e.tipo === "matriz") {
     cuerpo = `<div class="chips-g">${e.componentes.map((c, k) => `<details class="pastilla" style="--c:${COLORES[k]}"><summary>${esc(c.t)}</summary><p class="small">${esc(c.d)}</p></details>`).join("")}</div>
       <div class="matriz mt"><table><tr><th>Grados</th>${e.componentes.map((c, k) => `<th style="background:${COLORES[k]}">${esc(c.t)}</th>`).join("")}</tr>
       ${e.grupos.map(g => `<tr><th>${esc(g.t)}</th>${g.celdas.map(x => `<td>${esc(x)}</td>`).join("")}</tr>`).join("")}</table></div>
       <p class="tiny muted">Desliza la tabla hacia los lados. Cada celda es la competencia que la Guía 30 define para ese grupo de grados y componente.</p>`;
   }
+  const diags = (DIAG[e.id] || []).map((d, k) => `<div class="diag card mt ${d.startsWith("mindmap") ? "mind" : ""}" data-k="${k}"><p class="small muted center">Dibujando el esquema…</p></div>${d.startsWith("mindmap") ? `<p class="tiny muted center">Desliza hacia los lados para ver todo el mapa.</p>` : ""}`).join("");
   return `<div class="top"><button class="icon-btn" data-v="mapas">‹</button><h2 style="font-size:19px">${esc(e.titulo)}</h2><span style="width:44px"></span></div>
   <div class="row wrap"><span class="tag">${esc(e.fuente)}</span>${Voz.boton(todo, "esq-" + e.id, "Escuchar el esquema")}</div>
-  <div class="esquema mt">${cuerpo}</div><p class="tiny muted mt">Todos los textos son literales del documento oficial.</p>`;
+  ${diags}
+  <details class="card mt" ${diags ? "" : "open"}><summary><b>📜 Ver el texto oficial completo</b></summary><div class="esquema mt">${cuerpo}</div>
+  <p class="tiny muted mt">Estos textos son literales del documento oficial. Los rótulos cortos del diagrama los resumen.</p></details>`;
 }
 
 /* ---------- juegos ---------- */
@@ -192,5 +339,9 @@ function elegirJuegoDelDia(fecha) {
   const deTipo = lista.filter(g => g.tipo === t); return deTipo[Math.floor(n / tipos.length) % deTipo.length];
 }
 
-window.PDX = { Voz, cargar, vistaMapas, vistaMapa, vistaEsquema, juegoHTML, juegoAccion, nuevoJuego, elegirJuegoDelDia, V, todasLasRutas, get MAPAS() { return MAPAS; }, get J() { return J; } };
+function postRender(vista) {
+  if (vista === "mapa") pintarMapa(V.nivel || (V.mapa && V.mapa.startsWith("guia30") ? 3 : 2));
+  if (vista === "esquema") pintarEsquema();
+}
+window.PDX = { postRender, pintarMapa, get MM() { return MM; }, Voz, cargar, vistaMapas, vistaMapa, vistaEsquema, juegoHTML, juegoAccion, nuevoJuego, elegirJuegoDelDia, V, todasLasRutas, get MAPAS() { return MAPAS; }, get J() { return J; } };
 })();

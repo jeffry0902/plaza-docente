@@ -135,6 +135,23 @@ esquemas = [
   "pasos": [{"t": p["a"], "d": p["b"]} for p in emparejar[4]["pares"]]},
 ]
 
+gob = [
+ {"t": "Gobierno escolar (Ley 115, art. 142)", "f": "Ley 115 de 1994, art. 142", "items": [literal(L115, "Cada establecimiento educativo del Estado tendrá un gobierno escolar conformado por el rector, el Consejo Directivo y el Consejo Académico.")]},
+ {"t": "Consejo directivo (Ley 115, art. 143)", "f": "Ley 115 de 1994, art. 143", "items": [literal(L115, x) for x in [
+   "El rector del establecimiento educativo, quien lo convocará y presidirá", "Dos representantes de los docentes de la institución",
+   "Dos representantes de los padres de familia", "Un representante de los estudiantes que debe estar cursando el último grado de educación que ofrezca la institución",
+   "Un representante de los ex alumnos de la institución", "Un representante de los sectores productivos del área de influencia del sector productivo"]]},
+ {"t": "Consejo académico (Ley 115, art. 145)", "f": "Ley 115 de 1994, art. 145", "items": [literal(L115, x) for x in [
+   "estará integrado por los directivos docentes y un docente por cada área o grado que ofrezca la respectiva institución",
+   "El estudio, modificación y ajustes al currículo", "La organización del plan de estudio", "La evaluación anual e institucional"]]},
+ {"t": "Comité escolar de convivencia (Ley 1620, art. 12)", "f": "Ley 1620 de 2013, art. 12", "items": [literal(L20, x) for x in [
+   "El rector del establecimiento educativo, quien preside el comité", "El personero estudiantil", "El docente con función de orientación",
+   "El coordinador cuando exista este cargo", "El presidente del consejo de padres de familia", "El presidente del consejo de estudiantes",
+   "Un (1) docente que lidere procesos o estrategias de convivencia escolar."]]},
+]
+esquemas.append({"id": "X-gobierno", "titulo": "Gobierno escolar y comité de convivencia", "tipo": "lista", "fuente": "Ley 115 de 1994 y Ley 1620 de 2013", "grupos": gob,
+                 "pasos": [{"t": g["t"], "d": "; ".join(g["items"])} for g in gob]})
+
 out = {"version": 1, "emparejar": emparejar, "ordenar": ordenar, "clasificar": clasificar, "sopa": sopa, "esquemas": esquemas}
 json.dump(out, open(os.path.join(RAIZ, "data", "juegos.json"), "w", encoding="utf-8"), ensure_ascii=False)
 print(f"emparejar {len(emparejar)} · ordenar {len(ordenar)} ({[len(o['pasos']) for o in ordenar]}) · clasificar {len(clasificar)} · sopa {len(sopa)} · esquemas {len(esquemas)}")

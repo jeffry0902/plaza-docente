@@ -1040,6 +1040,7 @@ function render() {
     juego: () => `<div class="top"><button class="icon-btn" data-a="jSalir">‹</button><h2>Juego</h2><span style="width:44px"></span></div>${CU.G ? PDX.juegoHTML(CU.G, false) : ""}`, docs: vistaDocs, doc: vistaDoc, leer: vistaLeer, conceptos: vistaConceptos, flash: vistaFlash, insignias: vistaInsignias, progreso: vistaProgreso, ajustes: vistaAjustes
   }[S.vista] || vistaInicio)();
   $app.innerHTML = v;
+  window.PDX?.postRender?.(S.vista);
   if (S.vista === "pregunta" && S.ses?.fin) {
     const tick = () => { const el = document.querySelector("[data-timer]"); if (!el) return;
       const ms = S.ses.fin - Date.now(); if (ms <= 0) { clearInterval(timerInt); toast("Se acabó el tiempo"); terminarSesion(); return; }
@@ -1089,11 +1090,10 @@ $app.addEventListener("click", async e => {
   else if (a === "calMes") { const [y, m] = CAL.mes.split("-").map(Number), d = new Date(y, m - 1 + (+b.dataset.m), 1); CAL.mes = `${d.getFullYear()}-${pad(d.getMonth() + 1)}`; CAL.dia = null; render(); }
   else if (a === "voz") { PDX.Voz.hablar(b.dataset.txt, b.dataset.id); }
   else if (a === "abrirMapas") { b.disabled = true; await PDX.cargar(); ir("mapas"); }
-  else if (a === "verMapa") { PDX.V.mapa = b.dataset.d; PDX.V.abiertos = new Set(); ir("mapa"); }
+  else if (a === "verMapa") { PDX.V.mapa = b.dataset.d; PDX.V.nivel = null; ir("mapa"); }
   else if (a === "verEsquema") { PDX.V.esquema = b.dataset.id; ir("esquema"); }
-  else if (a === "mmToggle") { const r = b.dataset.r, A = PDX.V.abiertos; A.has(r) ? A.delete(r) : A.add(r); render(); }
-  else if (a === "mmTodo") { const m = PDX.MAPAS.find(x => x.doc === PDX.V.mapa); PDX.V.abiertos = new Set(PDX.todasLasRutas(m.mapa, null, [])); render(); }
-  else if (a === "mmNada") { PDX.V.abiertos = new Set(); render(); }
+  else if (a === "mmNivel") { PDX.V.nivel = +b.dataset.n; PDX.pintarMapa(PDX.V.nivel); }
+  else if (a === "mmFit") { PDX.MM?.fit(); }
   else if (a === "jugar") { await PDX.cargar(); CU.G = PDX.nuevoJuego(b.dataset.tipo, b.dataset.id); ir("juego"); }
   else if (a === "jSalir") { CU.G = null; ir("mapas"); }
   else if (a === "jFin") { S.ses.G = null; siguiente(); }
@@ -1142,6 +1142,7 @@ function normalizar() {
 
 window.PD = {
   toast, sonar, render: () => render(),
+  async abrirLectura(id) { CU.lectura = id; CU.sel = null; CU.doc = (S.banco.plan.find(l => l.id === id) || {}).doc; await asegurarLectura(id); ir("leer"); },
   premiar(xp, G) { const P = S.estado.perfil; P.xp += xp; if (S.ses && S.vista === "pregunta") S.ses.xp += xp;
     else { const r = { fecha: hoy(), tipo: "juego", total: 1, ok: G.errores ? 0 : 1, xp, comp: null }; S.estado.sesiones.push(r);
       const ob = outbox(); ob.sesiones.push({ tipo: "juego", total: 1, correctas: G.errores ? 0 : 1, xp, detalle: { juego: G.id, errores: G.errores } }); setOutbox(ob); }
