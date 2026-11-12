@@ -44,7 +44,7 @@ details summary{cursor:pointer;color:var(--muted);font-size:13px;margin-top:8px}
 <body>
 <main id="app"><p class="muted">Cargando…</p></main>
 <div class="tip" id="tip"></div>
-<script src="js/config.js?v=2"></script>
+<script src="js/config.js?v=3"></script>
 <script>
 (() => {
 "use strict";
@@ -76,11 +76,11 @@ function login(msg) {
   document.getElementById("go").onclick = go; document.getElementById("k").onkeydown = e => e.key === "Enter" && go();
 }
 async function cargar(h) {
-  const [d, m, ind] = await Promise.all([rpc("pd_admin", { p_clave: h }), get("data/marco.json"), get("data/indice.json")]);
+  const [d, m, ind, plan] = await Promise.all([rpc("pd_admin", { p_clave: h }), get("data/marco.json"), get("data/indice.json"), get("data/lecturas/indice.json").catch(() => ({ lecturas: [] }))]);
   const lotes = await Promise.all(ind.lotes.map(l => get("data/" + l)));
   const ret = new Set(ind.retirados || []); TOT = { porComp: {}, items: 0, fichas: 0, porFam: {} };
   lotes.forEach(l => { (l.items || []).filter(i => !ret.has(i.id)).forEach(i => { const c = m.familias[i.familia]?.componente; if (!c) return; TOT.items++; TOT.porComp[c] = (TOT.porComp[c] || 0) + 1; TOT.porFam[i.familia] = (TOT.porFam[i.familia] || 0) + 1; }); TOT.fichas += (l.fichas || []).length; });
-  TOT.fichasLista = lotes.flatMap(l => l.fichas || []);
+  TOT.fichasLista = lotes.flatMap(l => l.fichas || []); TOT.plan = plan.lecturas || [];
   D = d; M = m;
   const alumnas = D.cuentas.filter(c => !c.admin);
   sel = sel || (alumnas[0] || D.cuentas[0])?.id;
@@ -193,6 +193,7 @@ function render() {
     <div class="card kpi"><div class="l">Acierto total</div><div class="v">${P(pg)}</div><div class="tiny muted">${A.tot.n} respuestas · meta del examen: 60</div></div>
     <div class="card kpi"><div class="l">Días activos (30 días)</div><div class="v">${A.s30.dias}<span class="small muted"> / 30</span></div><div class="tiny muted">${Math.round(A.s7.min)} min estudiados esta semana</div></div>
     <div class="card kpi"><div class="l">Preparación estimada</div><div class="v">${A.prep} %</div><div class="tiny muted">precisión × cobertura del banco (igual que en su app)</div></div>
+    <div class="card kpi"><div class="l">Plan de lectura</div><div class="v">${TOT.plan.filter(l => (A.E.lecturas || {})[l.id]).length}<span class="small muted"> / ${TOT.plan.length}</span></div><div class="tiny muted">${(() => { const sig = TOT.plan.find(l => !(A.E.lecturas || {})[l.id]); return sig ? "Sigue: " + esc(sig.nombre.split(" (")[0]) + " · " + esc(sig.titulo) : "¡Plan completo!"; })()}</div></div>
     <div class="card kpi"><div class="l">Fichas estudiadas</div><div class="v">${A.fichasLeidas}<span class="small muted"> / ${TOT.fichas}</span></div><div class="tiny muted">biblioteca "Estudia y responde"</div></div>
     <div class="card kpi"><div class="l">Nivel y XP</div><div class="v">${Math.floor(Math.sqrt((A.Pf.xp || 0) / 50)) + 1}</div><div class="tiny muted">${(A.Pf.xp || 0).toLocaleString("es-CO")} XP · ${Object.keys(A.Pf.insignias || {}).length} insignias</div></div>
   </div>
@@ -218,7 +219,7 @@ function render() {
 
   <div class="grid g2 mt">
     <div class="card"><h2>Simulacros mensuales</h2>${sims.length ? `<table><thead><tr><th>Fecha</th><th class="n">Puntaje</th><th>Resultado</th></tr></thead><tbody>${sims.map(s => `<tr><td>${corta(s.fecha)}</td><td class="n"><b>${(+s.puntaje).toLocaleString("es-CO", { maximumFractionDigits: 2 })}</b></td><td>${s.puntaje >= 60 ? '<span class="tag">✓ aprueba (≥ 60)</span>' : '<span class="tag b">bajo 60</span>'}</td></tr>`).join("")}</tbody></table>` : `<p class="muted small">Aún no presenta simulacros. El primero se habilita el primer sábado de diciembre (${"5 dic"}).</p>`}</div>
-    <div class="card"><h2>Últimas sesiones</h2>${c.sesiones.length ? `<table><thead><tr><th>Cuándo</th><th>Tipo</th><th class="n">Correctas</th></tr></thead><tbody>${c.sesiones.slice(0, 10).map(s => `<tr><td>${new Date(s.creado).toLocaleString("es-CO", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" })}</td><td>${{ reto: "Reto diario", duelo: "Duelo", modulo: "Módulo", simulacro: "Simulacro", estudio: "Ficha de estudio" }[s.tipo] || esc(s.tipo)}</td><td class="n">${s.ok}/${s.total}</td></tr>`).join("")}</tbody></table>` : `<p class="muted small">Sin sesiones todavía.</p>`}</div>
+    <div class="card"><h2>Últimas sesiones</h2>${c.sesiones.length ? `<table><thead><tr><th>Cuándo</th><th>Tipo</th><th class="n">Correctas</th></tr></thead><tbody>${c.sesiones.slice(0, 10).map(s => `<tr><td>${new Date(s.creado).toLocaleString("es-CO", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" })}</td><td>${{ reto: "Reto diario", duelo: "Duelo", modulo: "Módulo", simulacro: "Simulacro", estudio: "Ficha de estudio", lectura: "Lectura adelantada" }[s.tipo] || esc(s.tipo)}</td><td class="n">${s.ok}/${s.total}</td></tr>`).join("")}</tbody></table>` : `<p class="muted small">Sin sesiones todavía.</p>`}</div>
   </div>
 
   <div class="card mt"><h2>💬 Mensaje sugerido para motivarla</h2><div class="msg" id="msg">${esc(msg)}</div>

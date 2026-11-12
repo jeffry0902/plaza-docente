@@ -64,7 +64,7 @@ const S = { banco: null, estado: null, clave: null, vista: "inicio", ses: null, 
 const estadoInicial = () => ({
   v: 1, t: 0,
   perfil: { nombre: "", inicio: null, xp: 0, racha: 0, mejorRacha: 0, ultimoDia: null, dias: [], insignias: {}, rescates: 0, dueloSemana: null, respondidas: 0 },
-  items: {}, familias: {}, fichas: {}, sesiones: [], simulacros: [], retoHoy: null,
+  items: {}, familias: {}, fichas: {}, lecturas: {}, sesiones: [], simulacros: [], retoHoy: null,
   ajustes: { sonido: true, avisoSimulacro: null }
 });
 const INTERVALOS = [0, 1, 3, 7, 14, 30]; // días según la caja de repaso
@@ -143,6 +143,8 @@ async function cargarBanco() {
     const retirados = new Set(indice.retirados || []);
     const b = { version: marco.version, actualizado: lotes.length ? lotes[lotes.length - 1].fecha : marco.actualizado, lotes: lotes.length,
       componentes: marco.componentes, afirmaciones: marco.afirmaciones, familias: marco.familias, casos: [], fichas: [], items: [] };
+    const [ctx, plan] = await Promise.all([get("data/contextos.json").catch(() => ({})), get("data/lecturas/indice.json").catch(() => ({ lecturas: [] }))]);
+    b.contextos = ctx; b.plan = plan.lecturas || [];
     lotes.forEach(l => { b.casos.push(...(l.casos || [])); b.fichas.push(...(l.fichas || [])); b.items.push(...(l.items || []).filter(it => !retirados.has(it.id))); });
     localStorage.setItem(K.banco, JSON.stringify(b)); return b;
   } catch { const c = localStorage.getItem(K.banco); if (c) return JSON.parse(c); throw new Error("No se pudo cargar el banco de preguntas."); }
@@ -179,6 +181,16 @@ function casosNuevos(filtroComp) {
 function puntajeItem(id) { const s = S.estado.items[id]; if (!s || !s.vistos) return -1; return s.aciertos / s.vistos; }
 
 const fichaLeida = id => !!S.estado.fichas?.[id];
+const LECT = {};
+const lecturaLeida = id => !!S.estado.lecturas?.[id];
+const lecturaPendiente = () => (S.banco.plan || []).find(l => !lecturaLeida(l.id));
+const planInfo = () => { const pl = S.banco.plan || []; return { total: pl.length, leidas: pl.filter(l => lecturaLeida(l.id)).length }; };
+async function asegurarLectura(id) {
+  if (!id || LECT[id]) return;
+  const meta = (S.banco.plan || []).find(l => l.id === id); if (!meta) return;
+  try { const r = await fetch("data/" + meta.archivo, { cache: "no-cache" }); (await r.json()).forEach(l => LECT[l.id] = l); } catch { toast("Sin conexión: la lectura se cargará cuando vuelva la red."); }
+}
+const itemsDeLectura = id => Object.entries(S.banco.contextos || {}).filter(([iid, c]) => c.lectura === id && IDX.items[iid]).map(([iid]) => iid);
 function fichaPendiente(comp) {
   return (S.banco.fichas || []).find(f => !fichaLeida(f.id) && (!comp || S.banco.familias[f.familia].componente === comp));
 }
@@ -194,10 +206,23 @@ function armarCola(tipo, opts = {}) {
     casosFam.slice(0, 2).forEach(id => add(id));
     return cola;
   }
+  if (tipo === "lectura") {
+    if (!LECT[opts.lectura]) return cola;
+    cola.push({ lectura: opts.lectura });
+    shuffle(itemsDeLectura(opts.lectura)).sort((a, b) => (S.estado.items[a]?.vistos ? 1 : 0) - (S.estado.items[b]?.vistos ? 1 : 0)).slice(0, 4).forEach(id => add(id));
+    return cola;
+  }
   let extraN = 0;
   if (tipo === "reto" && !opts.sinFicha) {
+    const L = lecturaPendiente();
+    if (L && LECT[L.id]) {
+      cola.push({ lectura: L.id }); extraN++;
+      shuffle(itemsDeLectura(L.id)).filter(id => !S.estado.items[id]?.vistos).slice(0, 3).forEach(id => add(id));
+    }
+  }
+  if (tipo === "reto" && !opts.sinFicha) {
     const f = fichaPendiente();
-    if (f) { cola.push({ ficha: f.id }); extraN = 1; (IDX.porFicha[f.id] || []).forEach(id => add(id)); }
+    if (f) { cola.push({ ficha: f.id }); extraN++; (IDX.porFicha[f.id] || []).forEach(id => add(id)); }
   }
   const n = (opts.n || CFG.preguntasPorReto) + extraN;
 
@@ -251,8 +276,9 @@ function iniciarSesion(tipo, opts = {}) {
 }
 function prepararPregunta() {
   const q = S.ses.cola[S.ses.i];
-  if (q.ficha) { S.ses.orden = null; S.ses.sel = null; S.ses.respondida = false; return; }
+  if (q.ficha || q.lectura) { S.ses.orden = null; S.ses.sel = null; S.ses.respondida = false; return; }
   const it = IDX.items[q.id];
+  S.ses.preLeer = S.ses.tipo !== "simulacro" && !q.repaso && !q.rescate && !(S.estado.items[q.id]?.vistos);
   S.ses.orden = shuffle(it.opciones.map(o => o.l)); S.ses.sel = null; S.ses.respondida = false; S.ses.t0 = Date.now();
 }
 const letraVisible = (orig) => "ABC"[S.ses.orden.indexOf(orig)];
@@ -483,8 +509,8 @@ function vistaInicio() {
   ${!standalone && /iP(hone|ad)/.test(navigator.userAgent) ? `<div class="card flat small" style="margin-bottom:12px">📲 <b>Instálala:</b> toca <b>Compartir</b> en Safari y luego <b>Agregar a inicio</b>. Así se abre como app, sin barras.</div>` : ""}
   <section class="hero">
     <div class="row between"><div><div class="small" style="opacity:.9">Reto de hoy · ${fechaLarga(hoy())}</div>
-      <div class="big">${hecho ? "¡Cumplido! ✓" : fichaPendiente() ? "1 ficha + 10 preguntas" : "10 preguntas"}</div>
-      <div class="small" style="opacity:.92">${hecho ? "Tu racha está a salvo. Puedes seguir practicando." : venc ? `Incluye ${Math.min(venc, CFG.maxRepasoPorReto)} de repaso: misma competencia, otro contexto` : "Unos 10 minutos · casos tipo CNSC"}</div></div>
+      <div class="big">${hecho ? "¡Cumplido! ✓" : `${lecturaPendiente() ? "Lectura + " : ""}${CFG.preguntasPorReto} preguntas`}</div>
+      <div class="small" style="opacity:.92">${hecho ? "Tu racha está a salvo. Puedes seguir practicando." : venc ? `Incluye ${Math.min(venc, CFG.maxRepasoPorReto)} de repaso: misma competencia, otro contexto` : `Unos 20 minutos · lees el documento oficial y luego respondes`}</div></div>
       <div class="flame">${hecho ? "🏅" : "🔥"}</div></div>
     <div class="week">${semanaHTML()}</div>
     <button class="btn" data-a="reto">${hecho ? "Practicar un reto más" : "Empezar el reto de hoy"}</button>
@@ -536,13 +562,34 @@ function vistaFicha() {
   ${citasHTML(f.citas, "📜 Textual de los documentos oficiales")}
   <div class="sticky-bottom"><button class="btn" data-a="leido">Ya lo leí: ¡a practicar!</button></div>`;
 }
+function vistaLectura() {
+  const s = S.ses, q = s.cola[s.i], L = LECT[q.lectura], pi = planInfo(), palabras = L.parrafos.join(" ").split(/\s+/).length;
+  const nPreg = s.cola.slice(s.i + 1).filter(c => c.id && S.banco.contextos?.[c.id]?.lectura === q.lectura).length;
+  return `
+  <div class="qhead"><button class="icon-btn" data-a="salir" aria-label="Salir">✕</button>
+    <div class="bar"><i style="width:${(s.i / s.cola.length) * 100}%"></i></div><span class="tiny muted">${s.i + 1}/${s.cola.length}</span></div>
+  <div class="review-banner lect">📖 Lectura del día · ${pi.leidas + (lecturaLeida(q.lectura) ? 0 : 1)} de ${pi.total} del plan · unos ${Math.max(2, Math.round(palabras / 170))} min${nPreg ? ` · luego ${nPreg} ${nPreg === 1 ? "pregunta" : "preguntas"} sobre este texto` : ""}</div>
+  <div class="chips" style="margin-bottom:10px"><span class="tag blue">${esc(L.nombre)}</span><span class="tag">Parte ${L.parte} de ${L.total}</span></div>
+  <h2>${esc(L.titulo)}</h2>
+  <div class="lectura doc">${L.parrafos.map(p => `<p>${esc(p)}</p>`).join("")}</div>
+  <p class="tiny muted mt">Texto oficial, tal como aparece en el documento. Léelo completo: las preguntas de hoy se responden con lo que dice aquí.</p>
+  <div class="sticky-bottom"><button class="btn" data-a="leidoL">Ya la leí: ¡a practicar!</button></div>`;
+}
+function preLecturaHTML(it, abierta) {
+  const c = S.banco.contextos?.[it.id]; if (!c) return "";
+  return `<details class="prelee" ${abierta ? "open" : ""}><summary><span>📖 ${abierta ? "Antes de responder, lee esto" : "Releer el documento"}</span><span class="muted tiny">${esc(c.nombre.split(" (")[0])}</span></summary>
+    <div class="txt">${c.parrafos.map(p => `<p>${esc(p)}</p>`).join("")}</div>
+    <div class="tiny muted">${esc(c.nombre)} · ${esc(c.titulo)}</div></details>`;
+}
 function vistaPregunta() {
   const s = S.ses, q = s.cola[s.i];
   if (q.ficha) return vistaFicha();
+  if (q.lectura) return vistaLectura();
   const it = IDX.items[q.id], caso = IDX.casos[it.caso], comp = IDX.comps[it.comp];
   const sim = s.tipo === "simulacro";
   const pq = s.i > 0 ? s.cola[s.i - 1] : null;
   const prev = pq?.id ? IDX.items[pq.id].caso : null;
+  const pre = it.tipo === "caso" && !sim ? preLecturaHTML(it, s.preLeer && !s.respondida) : "";
   const abierto = prev !== it.caso || s.respondida === false;
   const res = s.respondida ? s.res[s.res.length - 1] : null;
   const vidas = sim ? "" : `<span class="chip heart" aria-label="${s.vidas} vidas">${s.vidas ? "❤️".repeat(s.vidas) : "💔"}</span>`;
@@ -581,6 +628,7 @@ function vistaPregunta() {
     <span class="tag amber">${comp.icono} ${esc(comp.oficial)}</span>
     <span class="tag blue">${esc(it.competencia)}</span>
   </div>
+  ${pre}
   ${caso ? `<details class="case" ${abierto ? "open" : ""}><summary><span>📄 Caso: ${esc(caso.titulo)}</span><span class="muted tiny">ver/ocultar</span></summary>
     <div class="txt">${esc(caso.texto)}</div>
     ${caso.lectura ? `<blockquote>${esc(caso.lectura)}</blockquote>` : ""}
@@ -603,13 +651,15 @@ const MENSAJES = {
   bajo: ["Hoy fue un día de aprendizaje intenso. Lee las justificaciones: ahí está la lógica de la CNSC.", "Los errores aquí son gratis; en el examen no. Hoy ganaste mucho.", "Tranquila: tu cofre guardó estas competencias y las vamos a entrenar juntas."]
 };
 function vistaResumen() {
+  if (!S.ses.res.length) return `<div class="center stack" style="padding-top:8vh"><div style="font-size:64px" class="pop">📖</div><h1>¡Lectura registrada!</h1>
+    <p class="muted">Llevas ${planInfo().leidas} de ${planInfo().total} lecturas del plan.</p><button class="btn" data-v="biblioteca">Volver a la biblioteca</button><button class="btn ghost" data-v="inicio">Ir al inicio</button></div>`;
   const s = S.ses, ok = s.res.filter(r => r.ok).length, tot = s.res.length, p = Math.round(ok / Math.max(1, tot) * 100);
   const msj = pick(p >= 80 ? MENSAJES.alto : p >= 50 ? MENSAJES.medio : MENSAJES.bajo);
   const fallas = s.res.filter(r => !r.ok).map(r => S.banco.familias[IDX.items[r.id].familia].nombre);
   const prep = preparacion();
   return `<div class="center stack" style="padding-top:4vh">
     <div style="font-size:64px" class="pop">${p >= 80 ? "🏆" : p >= 50 ? "💪" : "🌱"}</div>
-    <h1>${s.tipo === "duelo" ? "Duelo terminado" : s.tipo === "estudio" ? "¡Ficha estudiada!" : s.tipo === "modulo" ? "Práctica terminada" : "¡Reto terminado!"}</h1>
+    <h1>${s.tipo === "duelo" ? "Duelo terminado" : s.tipo === "estudio" ? "¡Ficha estudiada!" : s.tipo === "lectura" ? "¡Lectura y práctica listas!" : s.tipo === "modulo" ? "Práctica terminada" : "¡Reto terminado!"}</h1>
     <div class="score">${p}%</div><p class="muted">${ok} de ${tot} correctas · +${s.xp} XP${s.bonus ? ` (incluye bono de ${s.bonus})` : ""}</p>
     <div class="chips" style="justify-content:center"><span class="chip fire">🔥 Racha: ${rachaVisible()} ${rachaVisible() === 1 ? "día" : "días"}</span><span class="chip xp">⭐ ${S.estado.perfil.xp} XP</span></div>
     <div class="card" style="text-align:left"><p>${S.estado.perfil.nombre ? esc(S.estado.perfil.nombre) + ", " + esc(msj.charAt(0).toLowerCase() + msj.slice(1)) : esc(msj)}</p>
@@ -639,7 +689,17 @@ function vistaResumenSimulacro() {
 function vistaBiblioteca() {
   const fs = S.banco.fichas || [];
   return `<div class="top"><button class="icon-btn" data-v="inicio">‹</button><h2>Biblioteca</h2><span style="width:44px"></span></div>
-  <p class="muted small">Cada ficha explica un tema con tus propias palabras, muestra el texto oficial y luego te pregunta. El reto diario incluye la siguiente ficha pendiente.</p>
+  ${(() => { const pi = planInfo(), sig = lecturaPendiente(), pct = Math.round(pi.leidas / Math.max(1, pi.total) * 100);
+    const prox = (S.banco.plan || []).filter(l => !lecturaLeida(l.id)).slice(0, 4);
+    const porDoc = {}; (S.banco.plan || []).forEach(l => { const d = porDoc[l.nombre] ||= { n: 0, ok: 0 }; d.n++; if (lecturaLeida(l.id)) d.ok++; });
+    return `<div class="card"><div class="row between"><h3>📖 Plan de lectura de los documentos oficiales</h3><b>${pi.leidas}/${pi.total}</b></div>
+      <div class="bar mt"><i style="width:${pct}%"></i></div>
+      <p class="tiny muted mt">Una lectura corta por día dentro del reto (unos 3 a 4 minutos). Así lees todos los documentos antes de la prueba, empezando por la Guía 30 y las Orientaciones Curriculares.</p>
+      ${sig ? `<div class="list mt">${prox.map((l, k) => `<button class="row between ficha-btn" data-a="leerPlan" data-l="${l.id}"><span>${k === 0 ? "▶️" : "📄"} <b>${esc(l.nombre.split(" (")[0])}</b> · ${esc(l.titulo)}</span><span class="muted">›</span></button>`).join("")}</div>
+        <p class="tiny muted">¿Te quedó tiempo? Toca la siguiente para adelantar lectura.</p>` : `<p class="small">🎉 ¡Leíste todo el plan!</p>`}
+      <details><summary class="small">Avance por documento</summary><table class="t small">${Object.entries(porDoc).map(([n, d]) => `<tr><td>${esc(n)}</td><td style="text-align:right">${d.ok}/${d.n}</td></tr>`).join("")}</table></details></div>
+    <h3 class="mt2">📘 Fichas: estudia y responde</h3>`; })()}
+  <p class="muted small">Cada ficha explica un tema con palabras sencillas, muestra el texto oficial y luego te pregunta.</p>
   ${S.banco.componentes.map(c => { const lista = fs.filter(f => S.banco.familias[f.familia].componente === c.id); if (!lista.length) return "";
     return `<h3 class="mt2">${c.icono} ${esc(c.nombre)}</h3><div class="card list">${lista.map(f => `<button class="row between ficha-btn" data-a="estudiar" data-f="${f.id}"><span>${fichaLeida(f.id) ? "✅" : "📘"} ${esc(f.titulo)}</span><span class="muted">›</span></button>`).join("")}</div>`; }).join("")}`;
 }
@@ -793,7 +853,7 @@ $app.addEventListener("click", async e => {
     } catch (err) { b.disabled = false; b.textContent = "Entrar"; toast(err.message === "clave_invalida" ? "Clave incorrecta" : "Sin conexión. Intenta de nuevo."); }
   }
   else if (a === "guardarNombre") { const n = document.getElementById("nombre").value.trim(); if (!n) return; S.estado.perfil.nombre = n; S.estado.perfil.inicio ||= hoy(); guardarLocal(); toast("Guardado"); ir("inicio"); }
-  else if (a === "reto") iniciarSesion("reto");
+  else if (a === "reto") { b.disabled = true; const L = lecturaPendiente(); if (L) await asegurarLectura(L.id); iniciarSesion("reto"); }
   else if (a === "duelo") iniciarSesion("duelo", { n: 10 });
   else if (a === "modulo") iniciarSesion("modulo", { comp: b.dataset.c, n: 6, sinFicha: true });
   else if (a === "simulacro") modalSimulacro();
@@ -804,6 +864,8 @@ $app.addEventListener("click", async e => {
   else if (a === "rescate") abrirRescate();
   else if (a === "verLeccion") modalLeccion(b.dataset.f, null);
   else if (a === "estudiar") iniciarSesion("estudio", { ficha: b.dataset.f });
+  else if (a === "leidoL") { const q = S.ses.cola[S.ses.i]; (S.estado.lecturas ||= {})[q.lectura] = hoy(); guardarLocal(); siguiente(); }
+  else if (a === "leerPlan") { b.disabled = true; await asegurarLectura(b.dataset.l); iniciarSesion("lectura", { lectura: b.dataset.l }); }
   else if (a === "leido") { const q = S.ses.cola[S.ses.i]; (S.estado.fichas ||= {})[q.ficha] = hoy(); guardarLocal(); siguiente(); }
   else if (a === "reportar") modalReporte();
   else if (a === "salir") {

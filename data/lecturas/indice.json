@@ -1,0 +1,2355 @@
+{
+"version": 1,
+"lecturas": [
+{
+"id": "L001",
+"doc": "guia30_mineducacion_2008",
+"nombre": "Guía 30 MEN (2008)",
+"parte": 1,
+"total": 13,
+"titulo": "Presentación",
+"palabras": 509,
+"archivo": "lecturas/p001.json"
+},
+{
+"id": "L002",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 1,
+"total": 19,
+"titulo": "Arts. 1 a 2",
+"palabras": 475,
+"archivo": "lecturas/p001.json"
+},
+{
+"id": "L003",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1290 de 2009 · evaluación (compilado en el Decreto 1075)",
+"parte": 1,
+"total": 5,
+"titulo": "Arts. 2.3.3.3.3.1 a 2.3.3.3.3.3",
+"palabras": 515,
+"archivo": "lecturas/p001.json"
+},
+{
+"id": "L004",
+"doc": "guia30_mineducacion_2008",
+"nombre": "Guía 30 MEN (2008)",
+"parte": 2,
+"total": 13,
+"titulo": "La tecnología: conceptos básicos",
+"palabras": 448,
+"archivo": "lecturas/p001.json"
+},
+{
+"id": "L005",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 1,
+"total": 20,
+"titulo": "Arts. 1 a 5",
+"palabras": 626,
+"archivo": "lecturas/p001.json"
+},
+{
+"id": "L006",
+"doc": "guia30_mineducacion_2008",
+"nombre": "Guía 30 MEN (2008)",
+"parte": 3,
+"total": 13,
+"titulo": "La tecnología: múltiples relaciones y posibilidades",
+"palabras": 753,
+"archivo": "lecturas/p001.json"
+},
+{
+"id": "L007",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 1,
+"total": 48,
+"titulo": "Arts. 1 a 4",
+"palabras": 424,
+"archivo": "lecturas/p001.json"
+},
+{
+"id": "L008",
+"doc": "guia30_mineducacion_2008",
+"nombre": "Guía 30 MEN (2008)",
+"parte": 4,
+"total": 13,
+"titulo": "Parte 4",
+"palabras": 507,
+"archivo": "lecturas/p001.json"
+},
+{
+"id": "L009",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 1,
+"total": 14,
+"titulo": "Arts. 1 a 2.3.3.5.1.4",
+"palabras": 754,
+"archivo": "lecturas/p001.json"
+},
+{
+"id": "L010",
+"doc": "guia30_mineducacion_2008",
+"nombre": "Guía 30 MEN (2008)",
+"parte": 5,
+"total": 13,
+"titulo": "La alfabetización en tecnología",
+"palabras": 784,
+"archivo": "lecturas/p001.json"
+},
+{
+"id": "L011",
+"doc": "guia30_mineducacion_2008",
+"nombre": "Guía 30 MEN (2008)",
+"parte": 6,
+"total": 13,
+"titulo": "Componente 1",
+"palabras": 530,
+"archivo": "lecturas/p002.json"
+},
+{
+"id": "L012",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 2,
+"total": 19,
+"titulo": "Arts. 3 a 4",
+"palabras": 567,
+"archivo": "lecturas/p002.json"
+},
+{
+"id": "L013",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 1,
+"total": 17,
+"titulo": "Arts. 1 a 5",
+"palabras": 484,
+"archivo": "lecturas/p002.json"
+},
+{
+"id": "L014",
+"doc": "guia30_mineducacion_2008",
+"nombre": "Guía 30 MEN (2008)",
+"parte": 7,
+"total": 13,
+"titulo": "Tecnología y sociedad",
+"palabras": 664,
+"archivo": "lecturas/p002.json"
+},
+{
+"id": "L015",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 2,
+"total": 20,
+"titulo": "Arts. 6 a 8",
+"palabras": 441,
+"archivo": "lecturas/p002.json"
+},
+{
+"id": "L016",
+"doc": "guia30_mineducacion_2008",
+"nombre": "Guía 30 MEN (2008)",
+"parte": 8,
+"total": 13,
+"titulo": "TECNOLOGÍA Solución de problemas con tecnología",
+"palabras": 585,
+"archivo": "lecturas/p002.json"
+},
+{
+"id": "L017",
+"doc": "resolucion_3842_2022_ocr",
+"nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
+"parte": 1,
+"total": 9,
+"titulo": "Presentación",
+"palabras": 750,
+"archivo": "lecturas/p002.json"
+},
+{
+"id": "L018",
+"doc": "guia30_mineducacion_2008",
+"nombre": "Guía 30 MEN (2008)",
+"parte": 9,
+"total": 13,
+"titulo": "TECNOLOGÍA Solución de problemas con tecnología",
+"palabras": 724,
+"archivo": "lecturas/p002.json"
+},
+{
+"id": "L019",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 2,
+"total": 14,
+"titulo": "Parte 2",
+"palabras": 647,
+"archivo": "lecturas/p002.json"
+},
+{
+"id": "L020",
+"doc": "guia30_mineducacion_2008",
+"nombre": "Guía 30 MEN (2008)",
+"parte": 10,
+"total": 13,
+"titulo": "TECNOLOGÍA Solución de problemas con tecnología",
+"palabras": 789,
+"archivo": "lecturas/p002.json"
+},
+{
+"id": "L021",
+"doc": "guia30_mineducacion_2008",
+"nombre": "Guía 30 MEN (2008)",
+"parte": 11,
+"total": 13,
+"titulo": "TECNOLOGÍA Solución de problemas con tecnología",
+"palabras": 457,
+"archivo": "lecturas/p003.json"
+},
+{
+"id": "L022",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 3,
+"total": 19,
+"titulo": "Arts. 5 a 6",
+"palabras": 503,
+"archivo": "lecturas/p003.json"
+},
+{
+"id": "L023",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 1,
+"total": 41,
+"titulo": "Arts. 1 a 2",
+"palabras": 430,
+"archivo": "lecturas/p003.json"
+},
+{
+"id": "L024",
+"doc": "guia30_mineducacion_2008",
+"nombre": "Guía 30 MEN (2008)",
+"parte": 12,
+"total": 13,
+"titulo": "Décimo a Undécimo Naturaleza y evolución de la tecnología",
+"palabras": 755,
+"archivo": "lecturas/p003.json"
+},
+{
+"id": "L025",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 3,
+"total": 20,
+"titulo": "Arts. 9 a 11",
+"palabras": 444,
+"archivo": "lecturas/p003.json"
+},
+{
+"id": "L026",
+"doc": "guia30_mineducacion_2008",
+"nombre": "Guía 30 MEN (2008)",
+"parte": 13,
+"total": 13,
+"titulo": "Sugerencias para trabajar estas orientaciones en las instituciones",
+"palabras": 720,
+"archivo": "lecturas/p003.json"
+},
+{
+"id": "L027",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 2,
+"total": 48,
+"titulo": "Art. 5",
+"palabras": 497,
+"archivo": "lecturas/p003.json"
+},
+{
+"id": "L028",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 1,
+"total": 49,
+"titulo": "Presentación",
+"palabras": 440,
+"archivo": "lecturas/p003.json"
+},
+{
+"id": "L029",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 3,
+"total": 14,
+"titulo": "Arts. 2.3.3.5.2.2.1 a 11",
+"palabras": 754,
+"archivo": "lecturas/p003.json"
+},
+{
+"id": "L030",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 2,
+"total": 49,
+"titulo": "Cordialmente, María Victoria Angulo González Ministra de Educación Nacional",
+"palabras": 809,
+"archivo": "lecturas/p003.json"
+},
+{
+"id": "L031",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 4,
+"total": 19,
+"titulo": "Arts. 7 a 8",
+"palabras": 761,
+"archivo": "lecturas/p004.json"
+},
+{
+"id": "L032",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 3,
+"total": 49,
+"titulo": "Parte 3",
+"palabras": 774,
+"archivo": "lecturas/p004.json"
+},
+{
+"id": "L033",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 2,
+"total": 17,
+"titulo": "Arts. 6 a 8",
+"palabras": 455,
+"archivo": "lecturas/p004.json"
+},
+{
+"id": "L034",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 4,
+"total": 49,
+"titulo": "Parte 4",
+"palabras": 752,
+"archivo": "lecturas/p004.json"
+},
+{
+"id": "L035",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 4,
+"total": 20,
+"titulo": "Arts. 12 a 15",
+"palabras": 453,
+"archivo": "lecturas/p004.json"
+},
+{
+"id": "L036",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 5,
+"total": 49,
+"titulo": "Parte 5",
+"palabras": 755,
+"archivo": "lecturas/p004.json"
+},
+{
+"id": "L037",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 2,
+"total": 41,
+"titulo": "Arts. 3 a 7",
+"palabras": 456,
+"archivo": "lecturas/p004.json"
+},
+{
+"id": "L038",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 6,
+"total": 49,
+"titulo": "Parte 6",
+"palabras": 776,
+"archivo": "lecturas/p004.json"
+},
+{
+"id": "L039",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 4,
+"total": 14,
+"titulo": "Parte 4",
+"palabras": 775,
+"archivo": "lecturas/p004.json"
+},
+{
+"id": "L040",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 7,
+"total": 49,
+"titulo": "Parte 7",
+"palabras": 794,
+"archivo": "lecturas/p004.json"
+},
+{
+"id": "L041",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 8,
+"total": 49,
+"titulo": "Parte 8",
+"palabras": 772,
+"archivo": "lecturas/p005.json"
+},
+{
+"id": "L042",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 5,
+"total": 19,
+"titulo": "Art. 9",
+"palabras": 677,
+"archivo": "lecturas/p005.json"
+},
+{
+"id": "L043",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1290 de 2009 · evaluación (compilado en el Decreto 1075)",
+"parte": 2,
+"total": 5,
+"titulo": "Arts. 2.3.3.3.3.4 a 2.3.3.3.3.6",
+"palabras": 501,
+"archivo": "lecturas/p005.json"
+},
+{
+"id": "L044",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 9,
+"total": 49,
+"titulo": "Fuente elaboración propia",
+"palabras": 779,
+"archivo": "lecturas/p005.json"
+},
+{
+"id": "L045",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 5,
+"total": 20,
+"titulo": "Arts. 16 a 18",
+"palabras": 526,
+"archivo": "lecturas/p005.json"
+},
+{
+"id": "L046",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 10,
+"total": 49,
+"titulo": "Parte 10",
+"palabras": 764,
+"archivo": "lecturas/p005.json"
+},
+{
+"id": "L047",
+"doc": "resolucion_3842_2022_ocr",
+"nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
+"parte": 2,
+"total": 9,
+"titulo": "Hoja N*. 18 ResoLuciÓN NÚMERODO3842 18 MAR 2022",
+"palabras": 758,
+"archivo": "lecturas/p005.json"
+},
+{
+"id": "L048",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 11,
+"total": 49,
+"titulo": "Parte 11",
+"palabras": 755,
+"archivo": "lecturas/p005.json"
+},
+{
+"id": "L049",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 5,
+"total": 14,
+"titulo": "Parte 5",
+"palabras": 582,
+"archivo": "lecturas/p005.json"
+},
+{
+"id": "L050",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 12,
+"total": 49,
+"titulo": "Parte 12",
+"palabras": 760,
+"archivo": "lecturas/p005.json"
+},
+{
+"id": "L051",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 13,
+"total": 49,
+"titulo": "Parte 13",
+"palabras": 801,
+"archivo": "lecturas/p006.json"
+},
+{
+"id": "L052",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 3,
+"total": 48,
+"titulo": "Arts. 6 a 9",
+"palabras": 422,
+"archivo": "lecturas/p006.json"
+},
+{
+"id": "L053",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 6,
+"total": 19,
+"titulo": "Art. 10",
+"palabras": 435,
+"archivo": "lecturas/p006.json"
+},
+{
+"id": "L054",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 14,
+"total": 49,
+"titulo": "Parte 14",
+"palabras": 763,
+"archivo": "lecturas/p006.json"
+},
+{
+"id": "L055",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 6,
+"total": 20,
+"titulo": "Arts. 19 a 22",
+"palabras": 577,
+"archivo": "lecturas/p006.json"
+},
+{
+"id": "L056",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 15,
+"total": 49,
+"titulo": "Fuente elaboración propia",
+"palabras": 758,
+"archivo": "lecturas/p006.json"
+},
+{
+"id": "L057",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 3,
+"total": 17,
+"titulo": "Arts. 9 a 11",
+"palabras": 506,
+"archivo": "lecturas/p006.json"
+},
+{
+"id": "L058",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 16,
+"total": 49,
+"titulo": "Parte 16",
+"palabras": 834,
+"archivo": "lecturas/p006.json"
+},
+{
+"id": "L059",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 6,
+"total": 14,
+"titulo": "Art. 2.3.3.5.2.3.2",
+"palabras": 676,
+"archivo": "lecturas/p006.json"
+},
+{
+"id": "L060",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 17,
+"total": 49,
+"titulo": "Parte 17",
+"palabras": 802,
+"archivo": "lecturas/p006.json"
+},
+{
+"id": "L061",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 18,
+"total": 49,
+"titulo": "Parte 18",
+"palabras": 770,
+"archivo": "lecturas/p007.json"
+},
+{
+"id": "L062",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 3,
+"total": 41,
+"titulo": "Arts. 8 a 11",
+"palabras": 421,
+"archivo": "lecturas/p007.json"
+},
+{
+"id": "L063",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 7,
+"total": 19,
+"titulo": "Arts. 11 a 13",
+"palabras": 595,
+"archivo": "lecturas/p007.json"
+},
+{
+"id": "L064",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 19,
+"total": 49,
+"titulo": "Parte 19",
+"palabras": 759,
+"archivo": "lecturas/p007.json"
+},
+{
+"id": "L065",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 7,
+"total": 20,
+"titulo": "Arts. 23 a 27",
+"palabras": 498,
+"archivo": "lecturas/p007.json"
+},
+{
+"id": "L066",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 20,
+"total": 49,
+"titulo": "Parte 20",
+"palabras": 824,
+"archivo": "lecturas/p007.json"
+},
+{
+"id": "L067",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 4,
+"total": 48,
+"titulo": "Arts. 10 a 14",
+"palabras": 646,
+"archivo": "lecturas/p007.json"
+},
+{
+"id": "L068",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 21,
+"total": 49,
+"titulo": "Parte 21",
+"palabras": 694,
+"archivo": "lecturas/p007.json"
+},
+{
+"id": "L069",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 7,
+"total": 14,
+"titulo": "Arts. 2.3.3.5.2.3.3 a 2.3.3.5.2.3.4",
+"palabras": 470,
+"archivo": "lecturas/p007.json"
+},
+{
+"id": "L070",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 22,
+"total": 49,
+"titulo": "EVIDENCIAS DE APRENDIZAJE",
+"palabras": 545,
+"archivo": "lecturas/p007.json"
+},
+{
+"id": "L071",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 23,
+"total": 49,
+"titulo": "EVIDENCIAS DE APRENDIZAJE",
+"palabras": 768,
+"archivo": "lecturas/p008.json"
+},
+{
+"id": "L072",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1290 de 2009 · evaluación (compilado en el Decreto 1075)",
+"parte": 3,
+"total": 5,
+"titulo": "Arts. 2.3.3.3.3.7 a 2.3.3.3.3.10",
+"palabras": 550,
+"archivo": "lecturas/p008.json"
+},
+{
+"id": "L073",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 8,
+"total": 19,
+"titulo": "Arts. 14 a 15",
+"palabras": 670,
+"archivo": "lecturas/p008.json"
+},
+{
+"id": "L074",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 24,
+"total": 49,
+"titulo": "Parte 24",
+"palabras": 712,
+"archivo": "lecturas/p008.json"
+},
+{
+"id": "L075",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 8,
+"total": 20,
+"titulo": "Arts. 28 a 29",
+"palabras": 622,
+"archivo": "lecturas/p008.json"
+},
+{
+"id": "L076",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 25,
+"total": 49,
+"titulo": "EVIDENCIAS DE APRENDIZAJE",
+"palabras": 758,
+"archivo": "lecturas/p008.json"
+},
+{
+"id": "L077",
+"doc": "resolucion_3842_2022_ocr",
+"nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
+"parte": 3,
+"total": 9,
+"titulo": "Hoja N*. 20 RESOLUCIÓN número 003842 18 MAR 2022",
+"palabras": 495,
+"archivo": "lecturas/p008.json"
+},
+{
+"id": "L078",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 26,
+"total": 49,
+"titulo": "Competencias y evidencias de aprendizaje para los grados cuarto a quinto",
+"palabras": 759,
+"archivo": "lecturas/p008.json"
+},
+{
+"id": "L079",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 8,
+"total": 14,
+"titulo": "Art. 2.3.3.5.2.3.5",
+"palabras": 533,
+"archivo": "lecturas/p008.json"
+},
+{
+"id": "L080",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 27,
+"total": 49,
+"titulo": "EVIDENCIAS DE APRENDIZAJE",
+"palabras": 751,
+"archivo": "lecturas/p008.json"
+},
+{
+"id": "L081",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 28,
+"total": 49,
+"titulo": "Parte 28",
+"palabras": 471,
+"archivo": "lecturas/p009.json"
+},
+{
+"id": "L082",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 9,
+"total": 19,
+"titulo": "Art. 16",
+"palabras": 437,
+"archivo": "lecturas/p009.json"
+},
+{
+"id": "L083",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 4,
+"total": 17,
+"titulo": "Arts. 12 a 13",
+"palabras": 422,
+"archivo": "lecturas/p009.json"
+},
+{
+"id": "L084",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 29,
+"total": 49,
+"titulo": "EVIDENCIAS DE APRENDIZAJE",
+"palabras": 807,
+"archivo": "lecturas/p009.json"
+},
+{
+"id": "L085",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 9,
+"total": 20,
+"titulo": "Arts. 31 a 33",
+"palabras": 558,
+"archivo": "lecturas/p009.json"
+},
+{
+"id": "L086",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 30,
+"total": 49,
+"titulo": "Parte 30",
+"palabras": 774,
+"archivo": "lecturas/p009.json"
+},
+{
+"id": "L087",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 4,
+"total": 41,
+"titulo": "Arts. 12 a 16",
+"palabras": 485,
+"archivo": "lecturas/p009.json"
+},
+{
+"id": "L088",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 31,
+"total": 49,
+"titulo": "Parte 31",
+"palabras": 778,
+"archivo": "lecturas/p009.json"
+},
+{
+"id": "L089",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 9,
+"total": 14,
+"titulo": "Arts. 2.3.3.5.2.3.6 a 2.3.3.5.2.3.8",
+"palabras": 467,
+"archivo": "lecturas/p009.json"
+},
+{
+"id": "L090",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 32,
+"total": 49,
+"titulo": "Parte 32",
+"palabras": 823,
+"archivo": "lecturas/p009.json"
+},
+{
+"id": "L091",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 10,
+"total": 19,
+"titulo": "Art. 17",
+"palabras": 450,
+"archivo": "lecturas/p010.json"
+},
+{
+"id": "L092",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 33,
+"total": 49,
+"titulo": "Parte 33",
+"palabras": 844,
+"archivo": "lecturas/p010.json"
+},
+{
+"id": "L093",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 5,
+"total": 48,
+"titulo": "Arts. 15 a 18",
+"palabras": 465,
+"archivo": "lecturas/p010.json"
+},
+{
+"id": "L094",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 34,
+"total": 49,
+"titulo": "Parte 34",
+"palabras": 838,
+"archivo": "lecturas/p010.json"
+},
+{
+"id": "L095",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 10,
+"total": 20,
+"titulo": "Arts. 34 a 36",
+"palabras": 762,
+"archivo": "lecturas/p010.json"
+},
+{
+"id": "L096",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 35,
+"total": 49,
+"titulo": "Parte 35",
+"palabras": 766,
+"archivo": "lecturas/p010.json"
+},
+{
+"id": "L097",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1290 de 2009 · evaluación (compilado en el Decreto 1075)",
+"parte": 4,
+"total": 5,
+"titulo": "Arts. 2.3.3.3.3.11 a 2.3.3.3.3.12",
+"palabras": 423,
+"archivo": "lecturas/p010.json"
+},
+{
+"id": "L098",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 36,
+"total": 49,
+"titulo": "Parte 36",
+"palabras": 848,
+"archivo": "lecturas/p010.json"
+},
+{
+"id": "L099",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 10,
+"total": 14,
+"titulo": "Arts. 2.3.3.5.2.3.9 a 2.3.3.5.2.3.12",
+"palabras": 591,
+"archivo": "lecturas/p010.json"
+},
+{
+"id": "L100",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 37,
+"total": 49,
+"titulo": "Parte 37",
+"palabras": 768,
+"archivo": "lecturas/p010.json"
+},
+{
+"id": "L101",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 11,
+"total": 19,
+"titulo": "Arts. 18 a 19",
+"palabras": 437,
+"archivo": "lecturas/p011.json"
+},
+{
+"id": "L102",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 38,
+"total": 49,
+"titulo": "Parte 38",
+"palabras": 761,
+"archivo": "lecturas/p011.json"
+},
+{
+"id": "L103",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 6,
+"total": 48,
+"titulo": "Arts. 19 a 21",
+"palabras": 599,
+"archivo": "lecturas/p011.json"
+},
+{
+"id": "L104",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 39,
+"total": 49,
+"titulo": "Parte 39",
+"palabras": 761,
+"archivo": "lecturas/p011.json"
+},
+{
+"id": "L105",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 11,
+"total": 20,
+"titulo": "Art. 21",
+"palabras": 479,
+"archivo": "lecturas/p011.json"
+},
+{
+"id": "L106",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 40,
+"total": 49,
+"titulo": "Parte 40",
+"palabras": 682,
+"archivo": "lecturas/p011.json"
+},
+{
+"id": "L107",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 5,
+"total": 17,
+"titulo": "Arts. 14 a 19",
+"palabras": 478,
+"archivo": "lecturas/p011.json"
+},
+{
+"id": "L108",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 41,
+"total": 49,
+"titulo": "Fuente elaboración propia",
+"palabras": 750,
+"archivo": "lecturas/p011.json"
+},
+{
+"id": "L109",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 11,
+"total": 14,
+"titulo": "Arts. 2.3.3.5.2.3.13 a 2",
+"palabras": 767,
+"archivo": "lecturas/p011.json"
+},
+{
+"id": "L110",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 42,
+"total": 49,
+"titulo": "Parte 42",
+"palabras": 769,
+"archivo": "lecturas/p011.json"
+},
+{
+"id": "L111",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 12,
+"total": 19,
+"titulo": "Arts. 20 a 21",
+"palabras": 756,
+"archivo": "lecturas/p012.json"
+},
+{
+"id": "L112",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 43,
+"total": 49,
+"titulo": "Parte 43",
+"palabras": 777,
+"archivo": "lecturas/p012.json"
+},
+{
+"id": "L113",
+"doc": "resolucion_3842_2022_ocr",
+"nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
+"parte": 4,
+"total": 9,
+"titulo": "Normalista superior",
+"palabras": 477,
+"archivo": "lecturas/p012.json"
+},
+{
+"id": "L114",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 44,
+"total": 49,
+"titulo": "Parte 44",
+"palabras": 620,
+"archivo": "lecturas/p012.json"
+},
+{
+"id": "L115",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 12,
+"total": 20,
+"titulo": "Arts. 37 a 38",
+"palabras": 494,
+"archivo": "lecturas/p012.json"
+},
+{
+"id": "L116",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 45,
+"total": 49,
+"titulo": "Estrategias didácticas Qué evaluar Construcción",
+"palabras": 750,
+"archivo": "lecturas/p012.json"
+},
+{
+"id": "L117",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 5,
+"total": 41,
+"titulo": "Arts. 17 a 20",
+"palabras": 720,
+"archivo": "lecturas/p012.json"
+},
+{
+"id": "L118",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 46,
+"total": 49,
+"titulo": "Parte 46",
+"palabras": 773,
+"archivo": "lecturas/p012.json"
+},
+{
+"id": "L119",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 12,
+"total": 14,
+"titulo": "Arts. 3 a 5",
+"palabras": 761,
+"archivo": "lecturas/p012.json"
+},
+{
+"id": "L120",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 47,
+"total": 49,
+"titulo": "Parte 47",
+"palabras": 784,
+"archivo": "lecturas/p012.json"
+},
+{
+"id": "L121",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 13,
+"total": 19,
+"titulo": "Arts. 22 a 23",
+"palabras": 813,
+"archivo": "lecturas/p013.json"
+},
+{
+"id": "L122",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 48,
+"total": 49,
+"titulo": "Parte 48",
+"palabras": 803,
+"archivo": "lecturas/p013.json"
+},
+{
+"id": "L123",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 7,
+"total": 48,
+"titulo": "Art. 22",
+"palabras": 450,
+"archivo": "lecturas/p013.json"
+},
+{
+"id": "L124",
+"doc": "orientaciones_tecnologia_2022",
+"nombre": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022)",
+"parte": 49,
+"total": 49,
+"titulo": "Parte 49",
+"palabras": 369,
+"archivo": "lecturas/p013.json"
+},
+{
+"id": "L125",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 13,
+"total": 20,
+"titulo": "Art. 39",
+"palabras": 693,
+"archivo": "lecturas/p013.json"
+},
+{
+"id": "L126",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 6,
+"total": 17,
+"titulo": "Arts. 20 a 22",
+"palabras": 446,
+"archivo": "lecturas/p013.json"
+},
+{
+"id": "L127",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 13,
+"total": 14,
+"titulo": "Arts. 6 a 2.5.3.3.3.1",
+"palabras": 586,
+"archivo": "lecturas/p013.json"
+},
+{
+"id": "L128",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 14,
+"total": 19,
+"titulo": "Arts. 24 a 26",
+"palabras": 485,
+"archivo": "lecturas/p013.json"
+},
+{
+"id": "L129",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 6,
+"total": 41,
+"titulo": "Arts. 21 a 26",
+"palabras": 431,
+"archivo": "lecturas/p013.json"
+},
+{
+"id": "L130",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 14,
+"total": 20,
+"titulo": "Arts. 40 a 41",
+"palabras": 671,
+"archivo": "lecturas/p013.json"
+},
+{
+"id": "L131",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1290 de 2009 · evaluación (compilado en el Decreto 1075)",
+"parte": 5,
+"total": 5,
+"titulo": "Arts. 2.3.3.3.3.13 a 2.3.3.3.3.17",
+"palabras": 361,
+"archivo": "lecturas/p014.json"
+},
+{
+"id": "L132",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 14,
+"total": 14,
+"titulo": "Arts. 8 a 11",
+"palabras": 319,
+"archivo": "lecturas/p014.json"
+},
+{
+"id": "L133",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 15,
+"total": 19,
+"titulo": "Arts. 27 a 28",
+"palabras": 506,
+"archivo": "lecturas/p014.json"
+},
+{
+"id": "L134",
+"doc": "resolucion_3842_2022_ocr",
+"nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
+"parte": 5,
+"total": 9,
+"titulo": "Licenciatura en lenguas modernas español (solo, con otra opción o con",
+"palabras": 544,
+"archivo": "lecturas/p014.json"
+},
+{
+"id": "L135",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 15,
+"total": 20,
+"titulo": "Arts. 42 a 43",
+"palabras": 758,
+"archivo": "lecturas/p014.json"
+},
+{
+"id": "L136",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 8,
+"total": 48,
+"titulo": "Arts. 23 a 26",
+"palabras": 441,
+"archivo": "lecturas/p014.json"
+},
+{
+"id": "L137",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 16,
+"total": 19,
+"titulo": "Arts. 29 a 30",
+"palabras": 565,
+"archivo": "lecturas/p014.json"
+},
+{
+"id": "L138",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 16,
+"total": 20,
+"titulo": "Art. 44",
+"palabras": 591,
+"archivo": "lecturas/p014.json"
+},
+{
+"id": "L139",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 7,
+"total": 17,
+"titulo": "Arts. 23 a 25",
+"palabras": 566,
+"archivo": "lecturas/p014.json"
+},
+{
+"id": "L140",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 17,
+"total": 19,
+"titulo": "Arts. 31 a 32",
+"palabras": 741,
+"archivo": "lecturas/p014.json"
+},
+{
+"id": "L141",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 7,
+"total": 41,
+"titulo": "Arts. 27 a 29",
+"palabras": 536,
+"archivo": "lecturas/p015.json"
+},
+{
+"id": "L142",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 17,
+"total": 20,
+"titulo": "Art. 45",
+"palabras": 618,
+"archivo": "lecturas/p015.json"
+},
+{
+"id": "L143",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 9,
+"total": 48,
+"titulo": "Arts. 27 a 31",
+"palabras": 443,
+"archivo": "lecturas/p015.json"
+},
+{
+"id": "L144",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 18,
+"total": 19,
+"titulo": "Arts. 33 a 36",
+"palabras": 464,
+"archivo": "lecturas/p015.json"
+},
+{
+"id": "L145",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 18,
+"total": 20,
+"titulo": "Arts. 46 a 49",
+"palabras": 524,
+"archivo": "lecturas/p015.json"
+},
+{
+"id": "L146",
+"doc": "resolucion_3842_2022_ocr",
+"nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
+"parte": 6,
+"total": 9,
+"titulo": "Licenciatura en Educación",
+"palabras": 435,
+"archivo": "lecturas/p015.json"
+},
+{
+"id": "L147",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 19,
+"total": 19,
+"titulo": "Arts. 37 a 40",
+"palabras": 357,
+"archivo": "lecturas/p015.json"
+},
+{
+"id": "L148",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 8,
+"total": 17,
+"titulo": "Arts. 26 a 29",
+"palabras": 508,
+"archivo": "lecturas/p015.json"
+},
+{
+"id": "L149",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 19,
+"total": 20,
+"titulo": "Arts. 50 a 51",
+"palabras": 456,
+"archivo": "lecturas/p015.json"
+},
+{
+"id": "L150",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 20,
+"total": 20,
+"titulo": "Arts. 39 a 55",
+"palabras": 337,
+"archivo": "lecturas/p015.json"
+},
+{
+"id": "L151",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 8,
+"total": 41,
+"titulo": "Arts. 30 a 32",
+"palabras": 429,
+"archivo": "lecturas/p016.json"
+},
+{
+"id": "L152",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 10,
+"total": 48,
+"titulo": "Arts. 32 a 37",
+"palabras": 462,
+"archivo": "lecturas/p016.json"
+},
+{
+"id": "L153",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 11,
+"total": 48,
+"titulo": "Arts. 38 a 45",
+"palabras": 592,
+"archivo": "lecturas/p016.json"
+},
+{
+"id": "L154",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 9,
+"total": 17,
+"titulo": "Arts. 30 a 32",
+"palabras": 459,
+"archivo": "lecturas/p016.json"
+},
+{
+"id": "L155",
+"doc": "resolucion_3842_2022_ocr",
+"nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
+"parte": 7,
+"total": 9,
+"titulo": "Licenciatura en Educación",
+"palabras": 466,
+"archivo": "lecturas/p016.json"
+},
+{
+"id": "L156",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 9,
+"total": 41,
+"titulo": "Arts. 33 a 36",
+"palabras": 782,
+"archivo": "lecturas/p016.json"
+},
+{
+"id": "L157",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 12,
+"total": 48,
+"titulo": "Arts. 46 a 49",
+"palabras": 464,
+"archivo": "lecturas/p016.json"
+},
+{
+"id": "L158",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 10,
+"total": 17,
+"titulo": "Arts. 33 a 35",
+"palabras": 440,
+"archivo": "lecturas/p016.json"
+},
+{
+"id": "L159",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 10,
+"total": 41,
+"titulo": "Arts. 37 a 39",
+"palabras": 637,
+"archivo": "lecturas/p016.json"
+},
+{
+"id": "L160",
+"doc": "resolucion_3842_2022_ocr",
+"nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
+"parte": 8,
+"total": 9,
+"titulo": "Licenciatura en Ciencias de la Educación",
+"palabras": 501,
+"archivo": "lecturas/p016.json"
+},
+{
+"id": "L161",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 13,
+"total": 48,
+"titulo": "Arts. 50 a 55",
+"palabras": 497,
+"archivo": "lecturas/p017.json"
+},
+{
+"id": "L162",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 11,
+"total": 17,
+"titulo": "Arts. 36 a 38",
+"palabras": 495,
+"archivo": "lecturas/p017.json"
+},
+{
+"id": "L163",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 11,
+"total": 41,
+"titulo": "Arts. 40 a 41",
+"palabras": 760,
+"archivo": "lecturas/p017.json"
+},
+{
+"id": "L164",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 14,
+"total": 48,
+"titulo": "Arts. 56 a 62",
+"palabras": 431,
+"archivo": "lecturas/p017.json"
+},
+{
+"id": "L165",
+"doc": "resolucion_3842_2022_ocr",
+"nombre": "Resolución 3842 de 2022 (funciones y competencias del docente)",
+"parte": 9,
+"total": 9,
+"titulo": "Licenciatura en pedagogía y didáctica de la educación física, recreación y depor",
+"palabras": 529,
+"archivo": "lecturas/p017.json"
+},
+{
+"id": "L166",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 12,
+"total": 17,
+"titulo": "Arts. 39 a 42",
+"palabras": 731,
+"archivo": "lecturas/p017.json"
+},
+{
+"id": "L167",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 12,
+"total": 41,
+"titulo": "Instituto Colombiano de Bienestar Familiar",
+"palabras": 764,
+"archivo": "lecturas/p017.json"
+},
+{
+"id": "L168",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 15,
+"total": 48,
+"titulo": "Arts. 63 a 69",
+"palabras": 485,
+"archivo": "lecturas/p017.json"
+},
+{
+"id": "L169",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 16,
+"total": 48,
+"titulo": "Arts. 70 a 73",
+"palabras": 446,
+"archivo": "lecturas/p017.json"
+},
+{
+"id": "L170",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 13,
+"total": 17,
+"titulo": "Arts. 43 a 46",
+"palabras": 433,
+"archivo": "lecturas/p017.json"
+},
+{
+"id": "L171",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 13,
+"total": 41,
+"titulo": "Arts. 42 a 43",
+"palabras": 450,
+"archivo": "lecturas/p018.json"
+},
+{
+"id": "L172",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 17,
+"total": 48,
+"titulo": "Arts. 74 a 78",
+"palabras": 537,
+"archivo": "lecturas/p018.json"
+},
+{
+"id": "L173",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 14,
+"total": 17,
+"titulo": "Arts. 47 a 53",
+"palabras": 569,
+"archivo": "lecturas/p018.json"
+},
+{
+"id": "L174",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 14,
+"total": 41,
+"titulo": "Arts. 44 a 46",
+"palabras": 797,
+"archivo": "lecturas/p018.json"
+},
+{
+"id": "L175",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 18,
+"total": 48,
+"titulo": "Arts. 79 a 82",
+"palabras": 533,
+"archivo": "lecturas/p018.json"
+},
+{
+"id": "L176",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 15,
+"total": 17,
+"titulo": "Arts. 54 a 57",
+"palabras": 469,
+"archivo": "lecturas/p018.json"
+},
+{
+"id": "L177",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 15,
+"total": 41,
+"titulo": "Art. 47",
+"palabras": 449,
+"archivo": "lecturas/p018.json"
+},
+{
+"id": "L178",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 19,
+"total": 48,
+"titulo": "Arts. 83 a 86",
+"palabras": 471,
+"archivo": "lecturas/p018.json"
+},
+{
+"id": "L179",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 16,
+"total": 17,
+"titulo": "Arts. 58 a 63",
+"palabras": 575,
+"archivo": "lecturas/p018.json"
+},
+{
+"id": "L180",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 16,
+"total": 41,
+"titulo": "Arts. 48 a 52",
+"palabras": 576,
+"archivo": "lecturas/p018.json"
+},
+{
+"id": "L181",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 20,
+"total": 48,
+"titulo": "Arts. 87 a 93",
+"palabras": 453,
+"archivo": "lecturas/p019.json"
+},
+{
+"id": "L182",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 21,
+"total": 48,
+"titulo": "Arts. 94 a 99",
+"palabras": 485,
+"archivo": "lecturas/p019.json"
+},
+{
+"id": "L183",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 17,
+"total": 17,
+"titulo": "Arts. 64 a 69",
+"palabras": 501,
+"archivo": "lecturas/p019.json"
+},
+{
+"id": "L184",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 17,
+"total": 41,
+"titulo": "Arts. 53 a 56",
+"palabras": 525,
+"archivo": "lecturas/p019.json"
+},
+{
+"id": "L185",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 22,
+"total": 48,
+"titulo": "Arts. 100 a 105",
+"palabras": 669,
+"archivo": "lecturas/p019.json"
+},
+{
+"id": "L186",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 18,
+"total": 41,
+"titulo": "Arts. 57 a 59",
+"palabras": 462,
+"archivo": "lecturas/p019.json"
+},
+{
+"id": "L187",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 23,
+"total": 48,
+"titulo": "Arts. 6 a 110",
+"palabras": 430,
+"archivo": "lecturas/p019.json"
+},
+{
+"id": "L188",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 19,
+"total": 41,
+"titulo": "Arts. 60 a 64",
+"palabras": 500,
+"archivo": "lecturas/p019.json"
+},
+{
+"id": "L189",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 24,
+"total": 48,
+"titulo": "Arts. 111 a 114",
+"palabras": 448,
+"archivo": "lecturas/p019.json"
+},
+{
+"id": "L190",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 20,
+"total": 41,
+"titulo": "Arts. 65 a 66",
+"palabras": 441,
+"archivo": "lecturas/p019.json"
+},
+{
+"id": "L191",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 25,
+"total": 48,
+"titulo": "Arts. 115 a 118",
+"palabras": 503,
+"archivo": "lecturas/p020.json"
+},
+{
+"id": "L192",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 26,
+"total": 48,
+"titulo": "Arts. 119 a 124",
+"palabras": 481,
+"archivo": "lecturas/p020.json"
+},
+{
+"id": "L193",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 21,
+"total": 41,
+"titulo": "Arts. 67 a 69",
+"palabras": 423,
+"archivo": "lecturas/p020.json"
+},
+{
+"id": "L194",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 27,
+"total": 48,
+"titulo": "Arts. 125 a 131",
+"palabras": 493,
+"archivo": "lecturas/p020.json"
+},
+{
+"id": "L195",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 22,
+"total": 41,
+"titulo": "Arts. 70 a 73",
+"palabras": 432,
+"archivo": "lecturas/p020.json"
+},
+{
+"id": "L196",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 28,
+"total": 48,
+"titulo": "Arts. 132 a 138",
+"palabras": 573,
+"archivo": "lecturas/p020.json"
+},
+{
+"id": "L197",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 23,
+"total": 41,
+"titulo": "Arts. 70 a 75",
+"palabras": 586,
+"archivo": "lecturas/p020.json"
+},
+{
+"id": "L198",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 29,
+"total": 48,
+"titulo": "Arts. 139 a 142",
+"palabras": 438,
+"archivo": "lecturas/p020.json"
+},
+{
+"id": "L199",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 24,
+"total": 41,
+"titulo": "Arts. 76 a 81",
+"palabras": 624,
+"archivo": "lecturas/p020.json"
+},
+{
+"id": "L200",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 30,
+"total": 48,
+"titulo": "Arts. 143 a 144",
+"palabras": 451,
+"archivo": "lecturas/p020.json"
+},
+{
+"id": "L201",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 31,
+"total": 48,
+"titulo": "Arts. 145 a 148",
+"palabras": 796,
+"archivo": "lecturas/p021.json"
+},
+{
+"id": "L202",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 25,
+"total": 41,
+"titulo": "Art. 82",
+"palabras": 613,
+"archivo": "lecturas/p021.json"
+},
+{
+"id": "L203",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 32,
+"total": 48,
+"titulo": "Arts. 149 a 151",
+"palabras": 484,
+"archivo": "lecturas/p021.json"
+},
+{
+"id": "L204",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 26,
+"total": 41,
+"titulo": "Arts. 83 a 86",
+"palabras": 592,
+"archivo": "lecturas/p021.json"
+},
+{
+"id": "L205",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 33,
+"total": 48,
+"titulo": "Arts. 152 a 156",
+"palabras": 612,
+"archivo": "lecturas/p021.json"
+},
+{
+"id": "L206",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 27,
+"total": 41,
+"titulo": "Arts. 87 a 89",
+"palabras": 774,
+"archivo": "lecturas/p021.json"
+},
+{
+"id": "L207",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 34,
+"total": 48,
+"titulo": "Arts. 157 a 158",
+"palabras": 497,
+"archivo": "lecturas/p021.json"
+},
+{
+"id": "L208",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 28,
+"total": 41,
+"titulo": "Arts. 90 a 92",
+"palabras": 543,
+"archivo": "lecturas/p021.json"
+},
+{
+"id": "L209",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 35,
+"total": 48,
+"titulo": "Arts. 159 a 161",
+"palabras": 548,
+"archivo": "lecturas/p021.json"
+},
+{
+"id": "L210",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 36,
+"total": 48,
+"titulo": "Arts. 162 a 166",
+"palabras": 672,
+"archivo": "lecturas/p021.json"
+},
+{
+"id": "L211",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 29,
+"total": 41,
+"titulo": "Arts. 93 a 95",
+"palabras": 470,
+"archivo": "lecturas/p022.json"
+},
+{
+"id": "L212",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 37,
+"total": 48,
+"titulo": "Arts. 167 a 168",
+"palabras": 555,
+"archivo": "lecturas/p022.json"
+},
+{
+"id": "L213",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 30,
+"total": 41,
+"titulo": "Arts. 96 a 100",
+"palabras": 752,
+"archivo": "lecturas/p022.json"
+},
+{
+"id": "L214",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 38,
+"total": 48,
+"titulo": "Arts. 169 a 174",
+"palabras": 427,
+"archivo": "lecturas/p022.json"
+},
+{
+"id": "L215",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 31,
+"total": 41,
+"titulo": "Arts. 101 a 102",
+"palabras": 438,
+"archivo": "lecturas/p022.json"
+},
+{
+"id": "L216",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 39,
+"total": 48,
+"titulo": "Arts. 175 a 179",
+"palabras": 536,
+"archivo": "lecturas/p022.json"
+},
+{
+"id": "L217",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 32,
+"total": 41,
+"titulo": "Arts. 103 a 107",
+"palabras": 671,
+"archivo": "lecturas/p022.json"
+},
+{
+"id": "L218",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 40,
+"total": 48,
+"titulo": "Arts. 180 a 185",
+"palabras": 591,
+"archivo": "lecturas/p022.json"
+},
+{
+"id": "L219",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 41,
+"total": 48,
+"titulo": "Arts. 186 a 192",
+"palabras": 420,
+"archivo": "lecturas/p022.json"
+},
+{
+"id": "L220",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 33,
+"total": 41,
+"titulo": "Arts. 108 a 110",
+"palabras": 609,
+"archivo": "lecturas/p022.json"
+},
+{
+"id": "L221",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 42,
+"total": 48,
+"titulo": "Arts. 193 a 197",
+"palabras": 440,
+"archivo": "lecturas/p023.json"
+},
+{
+"id": "L222",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 34,
+"total": 41,
+"titulo": "Arts. 111 a 112",
+"palabras": 451,
+"archivo": "lecturas/p023.json"
+},
+{
+"id": "L223",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 43,
+"total": 48,
+"titulo": "Arts. 198 a 201",
+"palabras": 426,
+"archivo": "lecturas/p023.json"
+},
+{
+"id": "L224",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 35,
+"total": 41,
+"titulo": "Arts. 113 a 115",
+"palabras": 433,
+"archivo": "lecturas/p023.json"
+},
+{
+"id": "L225",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 44,
+"total": 48,
+"titulo": "Art. 202",
+"palabras": 462,
+"archivo": "lecturas/p023.json"
+},
+{
+"id": "L226",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 36,
+"total": 41,
+"titulo": "Arts. 116 a 119",
+"palabras": 429,
+"archivo": "lecturas/p023.json"
+},
+{
+"id": "L227",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 45,
+"total": 48,
+"titulo": "Arts. 203 a 207",
+"palabras": 484,
+"archivo": "lecturas/p023.json"
+},
+{
+"id": "L228",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 46,
+"total": 48,
+"titulo": "Arts. 208 a 213",
+"palabras": 553,
+"archivo": "lecturas/p023.json"
+},
+{
+"id": "L229",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 37,
+"total": 41,
+"titulo": "Arts. 120 a 124",
+"palabras": 636,
+"archivo": "lecturas/p023.json"
+},
+{
+"id": "L230",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 47,
+"total": 48,
+"titulo": "Arts. 214 a 219",
+"palabras": 474,
+"archivo": "lecturas/p023.json"
+},
+{
+"id": "L231",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 38,
+"total": 41,
+"titulo": "Arts. 125 a 126",
+"palabras": 527,
+"archivo": "lecturas/p024.json"
+},
+{
+"id": "L232",
+"doc": "ley_115_1994",
+"nombre": "Ley 115 de 1994 (Ley General de Educación)",
+"parte": 48,
+"total": 48,
+"titulo": "Arts. 220 a 222",
+"palabras": 230,
+"archivo": "lecturas/p024.json"
+},
+{
+"id": "L233",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 39,
+"total": 41,
+"titulo": "Arts. 127 a 129",
+"palabras": 705,
+"archivo": "lecturas/p024.json"
+},
+{
+"id": "L234",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 40,
+"total": 41,
+"titulo": "Arts. 130 a 133",
+"palabras": 472,
+"archivo": "lecturas/p024.json"
+},
+{
+"id": "L235",
+"doc": "ley_1098_2006",
+"nombre": "Ley 1098 de 2006 (Código de Infancia y Adolescencia)",
+"parte": 41,
+"total": 41,
+"titulo": "Arts. 134 a 138",
+"palabras": 266,
+"archivo": "lecturas/p024.json"
+}
+]
+}
