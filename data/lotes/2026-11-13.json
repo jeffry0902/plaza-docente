@@ -1,0 +1,2053 @@
+{
+ "id": "2026-11-13",
+ "fecha": "2026-11-13",
+ "casos": [
+  {
+   "id": "C18",
+   "titulo": "El grupo de chat de séptimo",
+   "texto": "Una docente de Tecnología e Informática revisa con su grupo de grado séptimo las normas de uso del grupo de mensajería del curso. Una estudiante le cuenta en privado que, desde hace tres semanas, dos compañeros publican casi a diario montajes con su foto y apodos burlones, y que otros miembros del grupo reaccionan con risas. La estudiante dice que ya no quiere venir al colegio. Los dos compañeros son líderes del curso y la estudiante es nueva en la institución."
+  },
+  {
+   "id": "C19",
+   "titulo": "Un empujón en la fila de la sala",
+   "texto": "En la fila para entrar a la sala de informática, dos estudiantes de grado octavo discuten porque ambos quieren el mismo computador. Uno empuja al otro, se insultan y el docente interviene de inmediato. Nadie resulta lastimado. Es la primera vez que estos estudiantes tienen un problema entre ellos y, según el director de grupo, se llevan bien el resto del tiempo."
+  },
+  {
+   "id": "C20",
+   "titulo": "Ciudadanía en la clase de robótica",
+   "texto": "Un docente de Tecnología e Informática de grado noveno quiere que el proyecto de robótica del semestre también contribuya a la formación ciudadana que promueve la Ley 1620 de 2013. Sus estudiantes trabajan en equipos de cuatro, pero en las últimas clases las decisiones las toma siempre el mismo estudiante en cada equipo y los demás se limitan a ejecutar lo que este ordena."
+  },
+  {
+   "id": "C21",
+   "titulo": "La prueba diagnóstica de grado décimo",
+   "texto": "Al iniciar el año, una docente de Tecnología e Informática aplica a grado décimo una prueba diagnóstica con ejercicios de algoritmos y uso de hojas de cálculo. Los resultados son muy dispares: un grupo de estudiantes ya programa en Python, otros nunca han usado un computador fuera del colegio y un estudiante con discapacidad visual usa un lector de pantalla. El coordinador le pregunta para qué le van a servir esos resultados si todavía no son una nota."
+  },
+  {
+   "id": "C22",
+   "titulo": "Ana Lucía y el examen de Estado",
+   "texto": "Ana Lucía, estudiante de grado once con discapacidad auditiva, se comunica en Lengua de Señas Colombiana y tiene PIAR desde grado noveno. Su docente de Tecnología e Informática, que también es su director de grupo, se entera de que la familia está preocupada porque cree que en el examen de Estado no habrá ningún apoyo para ella y que debe presentar la prueba en las mismas condiciones que sus compañeros."
+  },
+  {
+   "id": "C23",
+   "titulo": "«En la vereda no hay tecnología»",
+   "texto": "En una sede rural de Yopal, un docente de Tecnología e Informática pregunta a sus estudiantes de grado sexto qué tecnología hay en su vereda. Un estudiante responde: «Aquí no hay tecnología, profe, porque no tenemos computadores ni internet». Varios compañeros están de acuerdo. En la vereda funcionan un trapiche panelero, un sistema de riego por gravedad, una junta de acción comunal que organiza los turnos del agua y una emisora comunitaria."
+  },
+  {
+   "id": "C24",
+   "titulo": "Texto: el Decreto 1965 de 2013",
+   "texto": "En una jornada de inducción para docentes nuevos, la coordinadora entrega el siguiente fragmento del Decreto 1965 de 2013 y pide analizarlo antes de revisar el manual de convivencia de la institución:",
+   "lectura": "«Artículo 1. Objeto. El presente Decreto reglamenta el funcionamiento del Sistema Nacional de Convivencia Escolar y Formación para el ejercicio de los Derechos Humanos, la educación para la sexualidad y la prevención y mitigación de la violencia escolar; sus herramientas; los lineamientos generales bajo los cuales se deben ajustar los manuales de convivencia de los establecimientos educativos, de acuerdo con lo ordenado en la Ley 1620 de 2013 y otros aspectos relacionados con incentivos y la participación de las entidades del orden Nacional y Territorial, establecimientos educativos, la familia y la sociedad dentro del Sistema Nacional de Convivencia Escolar.\n\nArtículo 2. Ámbito de aplicación. El presente Decreto se aplicará en todos los establecimientos educativos oficiales y no oficiales de educación preescolar, básica y media del territorio nacional y demás instancias que conforman el Sistema Nacional de Convivencia Escolar y formación para los Derechos Humanos, la educación para la sexualidad y la prevención y mitigación de la violencia escolar, también a la familia, la sociedad y a los demás actores que participan en la Ruta de Atención Integral.\n\nArtículo 4. Secretaría Técnica. El Comité Nacional de Convivencia Escolar tendrá una Secretaría Técnica, que será ejercida por el Director (a) de la Dirección de Calidad del Viceministerio de Educación Preescolar, Básica y Media, o su delegado (a).»\n(Decreto 1965 de 2013, artículos 1, 2 y 4. Texto oficial.)"
+  },
+  {
+   "id": "C25",
+   "titulo": "La persiana que se cierra sola",
+   "texto": "Un docente de grado octavo propone a sus estudiantes programar una tarjeta electrónica para que una persiana de la sala de informática se cierre automáticamente al mediodía, cuando el sol da de frente en las pantallas. Durante la planeación, discute con una colega de Matemáticas sobre qué debe ser el centro de la clase: el computador, el programa o el uso de la persiana como medio para comunicar órdenes."
+  },
+  {
+   "id": "C26",
+   "titulo": "Ofimática para todo el colegio",
+   "texto": "En la reunión de planeación institucional, el rector propone que, como los estudiantes deben aprender a usar procesadores de texto, presentaciones y correo electrónico, esa enseñanza quede a cargo exclusivamente del área de Tecnología e Informática, y que las demás áreas «no pierdan tiempo» con eso. La docente de Tecnología e Informática debe dar su concepto con base en las Orientaciones Curriculares del MEN."
+  },
+  {
+   "id": "C28",
+   "titulo": "El comedero de la mascota del salón",
+   "texto": "En grado séptimo, una estudiante cuenta que en vacaciones nadie alimentó al conejo del salón. A partir de esa inquietud, los estudiantes deciden ellos mismos qué problema quieren resolver, todavía no saben qué condiciones ni restricciones tendrá la solución y conocen muy poco de mecanismos y programación. El docente de Tecnología e Informática quiere usar la estrategia de diseño y rediseño de las Orientaciones Curriculares."
+  },
+  {
+   "id": "C29",
+   "titulo": "El debate de los celulares en casa",
+   "texto": "Una docente de grado noveno nota que muchos estudiantes comentan que en sus casas ya casi no conversan porque cada miembro de la familia está con su propio celular o tableta. Quiere aprovechar esta inquietud en la clase de Tecnología e Informática para desarrollar el pensamiento crítico y la toma de posición de los estudiantes."
+  },
+  {
+   "id": "C30",
+   "titulo": "Cinco tabletas para la sede rural",
+   "texto": "Una sede rural que durante dos años trabajó pensamiento computacional solo con juegos de reglas, tarjetas y actividades desconectadas recibe en donación cinco tabletas para un grupo de 25 estudiantes. Un docente propone devolverlas «porque con las actividades desconectadas ya se logra todo lo que pide el área», mientras otro propone abandonar por completo las actividades desconectadas."
+  },
+  {
+   "id": "C31",
+   "titulo": "Sin internet en la sala de décimo",
+   "texto": "Los computadores de la sala de informática de grado décimo dejaron de conectarse a internet, aunque la red inalámbrica del colegio funciona en los celulares. El docente decide convertir la situación en una actividad de aprendizaje para el componente de solución de problemas, siguiendo los desempeños de la Guía 30 para el grupo de grados décimo a undécimo."
+  },
+  {
+   "id": "C32",
+   "titulo": "El cautín en el laboratorio",
+   "texto": "En grado once, los estudiantes deben soldar con cautín los componentes de un circuito para su proyecto de domótica. El primer día, varios estudiantes trabajan sin gafas, con el cautín encendido sobre la mesa y sin soporte. El docente de Tecnología e Informática debe intervenir de forma coherente con la Guía 30."
+  },
+  {
+   "id": "C33",
+   "titulo": "Programas «gratis» para el proyecto",
+   "texto": "Para su proyecto de diseño, un grupo de grado once propone descargar una versión pirata de un programa de modelado 3D que cuesta mucho dinero, y luego copiarla en todos los computadores de la sala. Argumentan que «todo el mundo lo hace» y que «a la empresa no le afecta». El docente quiere aprovechar la situación para el componente de tecnología y sociedad."
+  },
+  {
+   "id": "C34",
+   "titulo": "La chatarra electrónica del colegio",
+   "texto": "El colegio tiene en una bodega veinte computadores dañados, monitores y baterías acumulados durante años. La docente de Tecnología e Informática organiza con grado once una unidad en la que los estudiantes investigan qué hacer con esos equipos, evalúan los efectos de botarlos con la basura común y proponen a la comunidad una decisión responsable."
+  },
+  {
+   "id": "C35",
+   "titulo": "El timbre y el tanque del colegio",
+   "texto": "Un docente de grado noveno usa dos sistemas automáticos del colegio para trabajar el concepto de control. El primero es el timbre, programado para sonar a horas fijas: suena aunque ese día no haya clases. El segundo es el tanque elevado de agua: un flotador sube con el nivel del agua y, cuando el tanque está lleno, cierra la válvula de entrada; cuando el nivel baja, la válvula se abre de nuevo."
+  },
+  {
+   "id": "C36",
+   "titulo": "Los códigos de la biblioteca",
+   "texto": "Un grupo de grado noveno quiere crear un sistema de préstamo de libros para la biblioteca escolar con tarjetas que se leen con sensores de luz: cada posición de la tarjeta puede estar perforada (1) o sin perforar (0). La biblioteca tiene 30 categorías de libros y cada categoría debe tener un código distinto. El docente aprovecha el proyecto para trabajar la representación digital de la información."
+  },
+  {
+   "id": "C37",
+   "titulo": "El acueducto veredal",
+   "texto": "Un docente de grado sexto lleva a sus estudiantes a visitar el acueducto veredal: observan la bocatoma, el desarenador, el tanque de almacenamiento, la red de tubos que llega a las casas, los medidores, el fontanero que hace mantenimiento y la junta que cobra la tarifa y registra el consumo. De vuelta en el aula, los estudiantes discuten cómo clasificar lo que vieron."
+  },
+  {
+   "id": "C38",
+   "titulo": "Un estudiante ciego en la clase de diseño",
+   "texto": "A grado octavo llega Tomás, un estudiante ciego que lee en braille y usa un lector de pantalla. La docente de Tecnología e Informática planea una unidad de diseño de empaques. Antes de conocer a Tomás ya había decidido presentar los contenidos en varios formatos (texto, audio, objetos manipulables) y permitir que cada estudiante muestre su diseño de la forma que prefiera. Al iniciar la unidad, observa que Tomás todavía no puede participar en la elaboración de los planos porque el software de dibujo no es compatible con su lector de pantalla."
+  },
+  {
+   "id": "C39",
+   "titulo": "El PIAR de Mariana",
+   "texto": "La institución terminó de diseñar el PIAR de Mariana, estudiante de grado sexto con discapacidad intelectual. En la reunión de cierre están el coordinador, la docente de apoyo, la madre de Mariana y los docentes de las áreas. La docente de Tecnología e Informática pregunta qué sigue y quiénes deben firmar el documento que formaliza los compromisos."
+  },
+  {
+   "id": "C40",
+   "titulo": "Llega Julián a mitad de año",
+   "texto": "En julio, Julián, estudiante con discapacidad física, se traslada desde otro municipio a grado noveno. Su institución anterior tenía un PIAR elaborado en febrero. El docente de Tecnología e Informática, que es director de grupo de noveno, pregunta qué debe pasar con el PIAR y con la historia escolar de Julián."
+  },
+  {
+   "id": "C41",
+   "titulo": "El informe de fin de año de Camilo",
+   "texto": "Camilo, estudiante de grado séptimo con discapacidad, tiene en su PIAR ajustes particulares en la evaluación de Tecnología e Informática: presenta las evidencias de aprendizaje de forma oral y con apoyos gráficos. Termina el año escolar y la familia pregunta qué informe recibirá Camilo además del boletín."
+  },
+  {
+   "id": "C42",
+   "titulo": "La promoción de Sofía",
+   "texto": "Al finalizar el año, la comisión de evaluación y promoción analiza el caso de Sofía, estudiante de grado octavo con discapacidad, que no alcanzó los desempeños mínimos en varias áreas pese a los ajustes de su PIAR. Un docente sugiere que, si no es promovida, se recomiende a la familia buscarle otro colegio «más especializado»."
+  },
+  {
+   "id": "C43",
+   "titulo": "Rúbrica para la clase de Scratch",
+   "texto": "Un docente de grado sexto evalúa los videojuegos que sus estudiantes programan en Scratch. Hasta ahora califica solo si el juego funciona el día de la entrega. Algunos estudiantes, que trabajaron con constancia, depuraron errores y explicaron bien su algoritmo, obtienen notas bajas porque el juego falló en la presentación. El docente quiere ajustar su evaluación según las Orientaciones Curriculares."
+  },
+  {
+   "id": "C44",
+   "titulo": "La lámpara de material reciclado",
+   "texto": "En grado noveno, dos equipos presentan lámparas fabricadas con material reciclado. La del equipo 1 tiene acabados impecables, pero el equipo no sabe explicar por qué eligió esos materiales ni cómo funciona el circuito. La del equipo 2 es poco estética, pero sus integrantes argumentan cada decisión de diseño y demuestran cómo resolvieron un problema de sobrecalentamiento."
+  },
+  {
+   "id": "C45",
+   "titulo": "Los registros de autoevaluación",
+   "texto": "Una docente de grado octavo pide a sus estudiantes que, al final de cada clase, escriban en una bitácora qué aprendieron, qué dudas tienen y cómo se sintieron trabajando en equipo. Un colega le dice que eso no sirve porque «no se puede poner nota a cómo se sintieron»."
+  },
+  {
+   "id": "C46",
+   "titulo": "Hojas de cálculo con aula invertida",
+   "texto": "Un docente de grado décimo tiene solo dos horas semanales de clase y quiere dedicar más tiempo a que los estudiantes resuelvan problemas con funciones de hoja de cálculo acompañados por él. Decide aplicar la estrategia de aula invertida descrita en las Orientaciones Curriculares."
+  },
+  {
+   "id": "C47",
+   "titulo": "Un proyecto STEM+ sobre el agua",
+   "texto": "Los docentes de Tecnología e Informática, Ciencias Naturales y Matemáticas de grado noveno acuerdan desarrollar un proyecto STEM+ sobre la escasez de agua en el barrio durante la temporada seca. Deben decidir con qué paso iniciar el proyecto."
+  },
+  {
+   "id": "C48",
+   "titulo": "Resultados de la prueba de pensamiento computacional",
+   "texto": "La docente de Tecnología e Informática aplicó una prueba de pensamiento computacional a grado séptimo. Los resultados fueron:\n• 7-1: 40 estudiantes, 30 aprobaron.\n• 7-2: 20 estudiantes, 18 aprobaron.\n• 7-3: 30 estudiantes, 15 aprobaron."
+  },
+  {
+   "id": "C49",
+   "titulo": "El proyecto que no era de ellos",
+   "texto": "Usted es docente de Tecnología e Informática y coordina el equipo que presentará un proyecto de la institución en la feria departamental de ciencia y tecnología. A dos días de la feria, descubre que el prototipo que los estudiantes van a mostrar fue comprado ya armado por el padre de uno de ellos, aunque el informe dice que lo construyeron en el colegio. Además, dos docentes del equipo dejaron de asistir a las reuniones porque no están de acuerdo con la forma en que se reparten las tareas."
+  },
+  {
+   "id": "C50",
+   "titulo": "La comisión que no avanza",
+   "texto": "Usted es docente de Tecnología e Informática y hace parte de la comisión que debe actualizar el plan de área. La comisión lleva cuatro reuniones sin avances porque dos colegas discuten cada propuesta y los demás no opinan. El rector pide entregar la propuesta en un mes."
+  }
+ ],
+ "fichas": [
+  {
+   "id": "F22",
+   "familia": "NOR-CONV-TIPO",
+   "titulo": "Acoso escolar y ciberacoso según la Ley 1620",
+   "lectura": "La Ley 1620 de 2013 define en su artículo 2 qué es acoso escolar (bullying) y qué es ciberacoso. El acoso no es cualquier pelea: es una conducta negativa, intencional, metódica y sistemática, que se repite o se mantiene en el tiempo, y en la que hay una relación de poder asimétrica entre quien agrede y quien es agredido. La ley aclara que también puede darse de docentes contra estudiantes o de estudiantes contra docentes. El ciberacoso es la intimidación con uso deliberado de tecnologías de información (internet, redes sociales, telefonía móvil, videojuegos en línea) para ejercer maltrato psicológico y continuado. Para un docente de Tecnología e Informática esto es clave: muchas situaciones de convivencia hoy ocurren en los grupos de chat y redes del curso.",
+   "puntos": [
+    "Acoso = intencional + metódico y sistemático + reiterado o prolongado + relación de poder asimétrica.",
+    "Puede ocurrir entre pares, de docentes contra estudiantes o de estudiantes contra docentes.",
+    "Ciberacoso = intimidación con uso deliberado de tecnologías de información para maltrato psicológico y continuado.",
+    "Trampa CNSC: llamar «bullying» a un episodio aislado; sin reiteración ni asimetría de poder no es acoso."
+   ],
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Conducta negativa, intencional metódica y sistemática de agresión, intimidación, humillación, ridiculización, difamación, coacción, aislamiento deliberado, amenaza o incitación a la violencia",
+     "ubicacion": "Ley 1620 de 2013, art. 2"
+    },
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Forma de intimidación con uso deliberado de tecnologías de información (internet, redes sociales virtuales, telefonía móvil y videojuegos online) para ejercer maltrato psicológico y continuado.",
+     "ubicacion": "Ley 1620 de 2013, art. 2"
+    }
+   ]
+  },
+  {
+   "id": "F23",
+   "familia": "PED-EVAL-NORM",
+   "titulo": "Ámbitos y propósitos de la evaluación (Decreto 1290)",
+   "lectura": "El Decreto 1290 de 2009, compilado en el Decreto 1075 de 2015, distingue tres ámbitos de evaluación de los estudiantes: internacional (pruebas que comparan con estándares internacionales), nacional (pruebas censales del MEN y el ICFES, incluidos los exámenes de Estado) e institucional (la que hace cada establecimiento). La evaluación institucional es un proceso permanente y objetivo para valorar el nivel de desempeño. Sus propósitos son cinco: identificar características, intereses, ritmos y estilos de aprendizaje; proporcionar información para consolidar o reorientar los procesos educativos; implementar estrategias de apoyo para estudiantes con debilidades y con desempeños superiores; determinar la promoción; y aportar al plan de mejoramiento institucional. Para estudiantes con discapacidad, el ICFES debe hacer una adaptación equiparable de la prueba y garantizar ajustes razonables.",
+   "puntos": [
+    "Tres ámbitos: internacional, nacional (MEN-ICFES) e institucional.",
+    "Institucional = proceso permanente y objetivo para valorar el nivel de desempeño.",
+    "Cinco propósitos: identificar características y ritmos, reorientar procesos, apoyar debilidades y desempeños superiores, promoción, plan de mejoramiento.",
+    "Trampa CNSC: creer que la evaluación sirve solo para poner nota o para promover."
+   ],
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "La evaluación del aprendizaje de los estudiantes realizada en los establecimientos de educación básica y media es el proceso permanente y objetivo para valorar el nivel de desempeño de los estudiantes",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.3.3.1"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Identificar las características personales, intereses, ritmos de desarrollo y estilos de aprendizaje del estudiante para valorar sus avances.",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.3.3.3"
+    }
+   ]
+  },
+  {
+   "id": "F24",
+   "familia": "DIS-CONC",
+   "titulo": "La tecnología es más que computadores",
+   "lectura": "La Guía 30 del MEN propone una definición amplia de tecnología: es una actividad humana que busca resolver problemas y satisfacer necesidades, transformando el entorno con el uso racional, crítico y creativo de recursos y conocimientos. Advierte que la mayoría de la gente asocia la tecnología solo con artefactos como computadores, pero que es mucho más que sus productos tangibles: incluye el conocimiento y los procesos para crearlos y operarlos, los artefactos intangibles (como las organizaciones o los programas de computador), las personas y la infraestructura. Los procesos tecnológicos involucran diseño, planificación, logística, manufactura, mantenimiento, evaluación, calidad y control, y se dan desde la confección de ropa hasta la industria petroquímica.",
+   "puntos": [
+    "Tecnología = actividad humana que resuelve problemas y satisface necesidades transformando el entorno.",
+    "Es mucho más que productos tangibles: incluye conocimiento, procesos, personas e infraestructura.",
+    "También son tecnología los intangibles: las organizaciones y los programas de computador.",
+    "Trampa CNSC: reducir la tecnología a computadores y dispositivos electrónicos (la «concepción popular»)."
+   ],
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "la tecnología es mucho más que sus productos tangibles",
+     "ubicacion": "Guía 30, p. 5"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "La tecnología incluye, tanto los artefactos tangibles del entorno artificial diseñados por los humanos e intangibles como las organizaciones o los programas de computador.",
+     "ubicacion": "Guía 30, p. 5"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "K043",
+   "tipo": "conocimiento",
+   "ficha": "F22",
+   "familia": "NOR-CONV-TIPO",
+   "competencia": "Convivencia escolar",
+   "dificultad": 2,
+   "enunciado": "Según la Ley 1620 de 2013, para que una conducta entre estudiantes se considere acoso escolar debe presentarse",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "de forma intencional, aunque ocurra una sola vez, siempre que cause daño físico visible a la persona que la recibe.",
+     "j": "Es incorrecta. Un episodio único no configura acoso según la ley, aunque sea intencional. Además, el acoso puede ser psicológico o verbal sin daño físico visible; el daño al cuerpo no es un requisito de la definición."
+    },
+    {
+     "l": "B",
+     "t": "de forma reiterada o prolongada en el tiempo, dentro de una relación de poder asimétrica entre los pares.",
+     "j": "Es correcta. La definición del artículo 2 exige que la conducta sea intencional, metódica y sistemática, que se repita o se prolongue en el tiempo y que exista una relación de poder asimétrica. Esos rasgos la distinguen de un conflicto ocasional."
+    },
+    {
+     "l": "C",
+     "t": "de forma reiterada entre estudiantes del mismo curso, siempre que la víctima haya presentado una queja escrita.",
+     "j": "Es incorrecta. La ley no exige que los involucrados sean del mismo curso ni que exista una queja escrita para que la conducta sea acoso. La queja activa la ruta, pero no define la naturaleza de la situación."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave del enunciado es «considere acoso escolar». La Ley 1620 de 2013, artículo 2, define el acoso como una conducta negativa, intencional, metódica y sistemática, ejercida por uno o varios pares con quienes la víctima tiene una relación de poder asimétrica y que se presenta de forma reiterada o a lo largo de un tiempo. Por eso la CNSC suele poner casos de peleas aisladas para ver si el aspirante las confunde con bullying. Recuerde: sin reiteración y sin asimetría de poder no hay acoso, aunque la situación deba atenderse como conflicto.",
+   "fuente": "Ley 1620 de 2013, art. 2 (definición de acoso escolar).",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "con quienes mantiene una relación de poder asimétrica, que se presenta de forma reiterada o a lo largo de un tiempo determinado"
+    }
+   ]
+  },
+  {
+   "id": "K044",
+   "tipo": "conocimiento",
+   "ficha": "F22",
+   "familia": "NOR-CONV-TIPO",
+   "competencia": "Convivencia escolar",
+   "dificultad": 1,
+   "enunciado": "De acuerdo con la Ley 1620 de 2013, el acoso escolar puede presentarse",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "únicamente entre estudiantes, porque la ley regula solo las relaciones entre pares dentro del establecimiento educativo.",
+     "j": "Es incorrecta. Es un error frecuente pensar que el acoso es solo entre pares. La ley señala de forma explícita que también puede darse entre docentes y estudiantes, en ambos sentidos."
+    },
+    {
+     "l": "B",
+     "t": "entre estudiantes o de docentes contra estudiantes, pero nunca de estudiantes contra docentes, por la diferencia de autoridad.",
+     "j": "Es incorrecta. La ley incluye de manera expresa el acoso de estudiantes contra docentes; la diferencia de autoridad formal no impide que exista una relación de poder asimétrica en la práctica."
+    },
+    {
+     "l": "C",
+     "t": "entre estudiantes, de docentes contra estudiantes o de estudiantes contra docentes, ante la indiferencia o complicidad del entorno.",
+     "j": "Es correcta. El artículo 2 de la Ley 1620 amplía expresamente la definición: además del acoso entre pares, puede ocurrir por parte de docentes contra estudiantes o de estudiantes contra docentes."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La Ley 1620 de 2013, después de definir el acoso entre pares, agrega: «También puede ocurrir por parte de docentes contra estudiantes, o por parte de estudiantes contra docentes, ante la indiferencia o complicidad de su entorno». La CNSC puede plantear un caso en el que un docente ridiculiza de manera sistemática a un estudiante para ver si el aspirante reconoce que eso también es acoso escolar y activa la ruta. La lógica que debe recordar: la ley mira la conducta y la relación de poder, no solo el rol de quienes participan.",
+   "fuente": "Ley 1620 de 2013, art. 2.",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "También puede ocurrir por parte de docentes contra estudiantes, o por parte de estudiantes contra docentes, ante la indiferencia o complicidad de su entorno."
+    }
+   ]
+  },
+  {
+   "id": "K045",
+   "tipo": "conocimiento",
+   "ficha": "F23",
+   "familia": "PED-EVAL-NORM",
+   "competencia": "Evaluación del aprendizaje (marco normativo)",
+   "dificultad": 2,
+   "enunciado": "Según el Decreto 1075 de 2015 (Decreto 1290 de 2009), las pruebas censales que realizan el Ministerio de Educación y el ICFES para monitorear la calidad de la educación corresponden al ámbito de evaluación",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "nacional, que se fundamenta en los estándares básicos y que incluye los exámenes de Estado del grado once.",
+     "j": "Es correcta. El numeral 2 del artículo 2.3.3.3.3.1 ubica en el ámbito nacional las pruebas censales del MEN y el ICFES, fundamentadas en los estándares básicos, y los exámenes de Estado de grado once."
+    },
+    {
+     "l": "B",
+     "t": "institucional, porque las pruebas se aplican dentro de cada establecimiento educativo a todos sus estudiantes.",
+     "j": "Es incorrecta. Que la prueba se aplique físicamente en el colegio no la vuelve institucional. El ámbito institucional es la evaluación que realiza el propio establecimiento como proceso permanente y objetivo."
+    },
+    {
+     "l": "C",
+     "t": "internacional, porque sus resultados permiten comparar la calidad de la educación del país con la de otros países.",
+     "j": "Es incorrecta. El ámbito internacional corresponde a la participación en pruebas que comparan con estándares internacionales. Las pruebas censales del MEN y el ICFES pertenecen al ámbito nacional."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 2.3.3.3.3.1 del Decreto 1075 de 2015 distingue tres ámbitos: internacional, nacional e institucional. En el nacional, el MEN y el ICFES realizan pruebas censales con el fin de monitorear la calidad de la educación con fundamento en los estándares básicos; los exámenes de Estado de grado once, además, permiten el acceso a la educación superior. La clave está en quién la realiza y con qué fin: si la hace el MEN o el ICFES para monitorear la calidad del sistema, es nacional, aunque se presente en las aulas del colegio.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.1 (Decreto 1290 de 2009, art. 1).",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "realizarán pruebas censales con el fin de monitorear la calidad de la educación en los establecimientos educativos con fundamento en los estándares básicos"
+    }
+   ]
+  },
+  {
+   "id": "K046",
+   "tipo": "conocimiento",
+   "ficha": "F23",
+   "familia": "PED-EVAL-NORM",
+   "competencia": "Evaluación del aprendizaje (marco normativo)",
+   "dificultad": 2,
+   "enunciado": "Según el Decreto 1075 de 2015, uno de los propósitos de la evaluación institucional de los estudiantes es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "clasificar a los estudiantes por niveles de desempeño para conformar grupos homogéneos al iniciar el siguiente año escolar.",
+     "j": "Es incorrecta. Conformar grupos homogéneos no figura entre los propósitos de la norma. La evaluación identifica ritmos y estilos para valorar avances y reorientar procesos, no para segregar."
+    },
+    {
+     "l": "B",
+     "t": "suministrar información para implementar estrategias pedagógicas de apoyo solo a los estudiantes que presentan debilidades.",
+     "j": "Es incorrecta. Es una verdad a medias: la norma menciona a los estudiantes con debilidades, pero también a los de desempeños superiores, que igualmente requieren estrategias pedagógicas."
+    },
+    {
+     "l": "C",
+     "t": "suministrar información para apoyar con estrategias pedagógicas a estudiantes con debilidades y desempeños superiores.",
+     "j": "Es correcta. El numeral 3 del artículo 2.3.3.3.3.3 incluye ese propósito de forma literal: la evaluación sirve para apoyar tanto a quienes presentan debilidades como a quienes muestran desempeños superiores."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El artículo 2.3.3.3.3.3 del Decreto 1075 de 2015 enumera cinco propósitos de la evaluación institucional. El tercero dice: «Suministrar información que permita implementar estrategias pedagógicas para apoyar a los estudiantes que presenten debilidades y desempeños superiores en su proceso formativo». La CNSC suele construir distractores que recortan la norma, por ejemplo mencionando solo a quienes tienen dificultades. Lea completa cada opción y compare con el texto: la evaluación formativa atiende a todos los estudiantes, incluidos los que avanzan más rápido.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.3, num. 3.",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Suministrar información que permita implementar estrategias pedagógicas para apoyar a los estudiantes que presenten debilidades y desempeños superiores en su proceso formativo."
+    }
+   ]
+  },
+  {
+   "id": "K047",
+   "tipo": "conocimiento",
+   "ficha": "F24",
+   "familia": "DIS-CONC",
+   "competencia": "Naturaleza y evolución",
+   "dificultad": 2,
+   "enunciado": "Según la Guía 30 del MEN, un programa de computador y la organización de una cooperativa de transporte tienen en común que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "son productos de la ciencia y no de la tecnología, porque ninguno de los dos transforma materiales ni produce objetos físicos.",
+     "j": "Es incorrecta. La Guía 30 no exige que la tecnología produzca objetos físicos; justamente advierte contra reducirla a productos tangibles. Además, la ciencia busca entender el mundo, no organizar servicios."
+    },
+    {
+     "l": "B",
+     "t": "son productos tecnológicos intangibles, pues la tecnología incluye artefactos como los programas y las organizaciones.",
+     "j": "Es correcta. La Guía 30 afirma que la tecnología incluye artefactos tangibles e intangibles «como las organizaciones o los programas de computador». Ambos ejemplos son tecnología aunque no sean objetos físicos."
+    },
+    {
+     "l": "C",
+     "t": "son servicios que usan tecnología, pero no son tecnología en sí mismos, porque esta se limita a los artefactos físicos.",
+     "j": "Es incorrecta. Limitar la tecnología a artefactos físicos es la «concepción popular más común y restringida» que la Guía 30 propone superar con su definición amplia."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La Guía 30 sostiene que la tecnología es mucho más que sus productos tangibles y que incluye «tanto los artefactos tangibles del entorno artificial diseñados por los humanos e intangibles como las organizaciones o los programas de computador». La pregunta pone dos ejemplos intangibles para comprobar si usted mantiene la concepción restringida que asocia la tecnología solo con aparatos. En la CNSC, cuando una opción reduce la tecnología a computadores o a objetos físicos, casi siempre es la trampa, porque contradice la definición amplia del MEN.",
+   "fuente": "Guía 30 MEN, «La tecnología: conceptos básicos».",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "La tecnología incluye, tanto los artefactos tangibles del entorno artificial diseñados por los humanos e intangibles como las organizaciones o los programas de computador."
+    }
+   ]
+  },
+  {
+   "id": "K048",
+   "tipo": "conocimiento",
+   "ficha": "F24",
+   "familia": "DIS-CONC",
+   "competencia": "Naturaleza y evolución",
+   "dificultad": 3,
+   "enunciado": "En una fábrica de bocadillos se planifica la compra de guayaba, se controla la temperatura de cocción, se hace mantenimiento a las pailas y se verifica la calidad de cada lote. Según la Guía 30, estas actividades muestran que los procesos tecnológicos",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "involucran decisiones de diseño, planificación, logística, manufactura, mantenimiento, evaluación, calidad y control.",
+     "j": "Es correcta. La Guía 30 explica que los procesos tecnológicos contemplan decisiones sobre propósitos, recursos y procedimientos e «involucran actividades de diseño, planificación, logística, manufactura, mantenimiento, metrología, evaluación, calidad y control»."
+    },
+    {
+     "l": "B",
+     "t": "se limitan a las operaciones de transformación física de la materia prima en el producto final que se vende.",
+     "j": "Es incorrecta. Reducir el proceso a la transformación física deja por fuera la planificación, el mantenimiento y el control de calidad, que la Guía 30 incluye expresamente dentro de los procesos tecnológicos."
+    },
+    {
+     "l": "C",
+     "t": "corresponden a la técnica artesanal y no a la tecnología, porque se basan en un saber hacer tradicional sin computadores.",
+     "j": "Es incorrecta. Que un proceso no use computadores no lo saca de la tecnología. La Guía 30 ilustra los procesos con ejemplos tan diversos como la confección de prendas y la industria petroquímica."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El caso describe compras, control de temperatura, mantenimiento y control de calidad. La Guía 30 dice que los procesos tecnológicos «involucran actividades de diseño, planificación, logística, manufactura, mantenimiento, metrología, evaluación, calidad y control». La pregunta es de nivel 3 porque hay que reconocer, dentro de una situación concreta, varias de esas actividades y descartar dos ideas tentadoras: que el proceso es solo transformar materia prima y que lo tradicional no es tecnología. Lógica para recordar: un proceso tecnológico abarca todo lo necesario para obtener el producto o servicio, no solo la fabricación.",
+   "fuente": "Guía 30 MEN, «La tecnología: conceptos básicos».",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "involucran actividades de diseño, planificación, logística, manufactura, mantenimiento, metrología, evaluación, calidad y control"
+    }
+   ]
+  },
+  {
+   "id": "Q052",
+   "tipo": "caso",
+   "caso": "C18",
+   "familia": "NOR-CONV-TIPO",
+   "competencia": "Convivencia escolar",
+   "dificultad": 3,
+   "enunciado": "De acuerdo con la Ley 1620 de 2013, la situación que relata la estudiante debe entenderse como",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "un conflicto manejado inadecuadamente, porque las publicaciones son bromas entre compañeros que no causan daño al cuerpo.",
+     "j": "Es incorrecta. La ausencia de daño físico no convierte la situación en un conflicto simple. Hay reiteración, intención de humillar y afectación emocional, rasgos que la ley asocia al ciberacoso."
+    },
+    {
+     "l": "B",
+     "t": "ciberacoso escolar, porque hay intimidación deliberada por medios tecnológicos con maltrato psicológico y continuado.",
+     "j": "Es correcta. Los montajes y apodos se publican casi a diario desde hace tres semanas en un grupo de mensajería, con intención de humillar y con desequilibrio de poder: cumple la definición legal de ciberacoso."
+    },
+    {
+     "l": "C",
+     "t": "una agresión verbal esporádica, porque las burlas se hacen con palabras y apodos, aunque sea por medios electrónicos.",
+     "j": "Es incorrecta. Sería agresión esporádica si ocurriera una vez. Aquí la conducta es continuada durante tres semanas y se ejerce a través de tecnologías de información, lo que la ubica como ciberacoso."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave es «entenderse como». La Ley 1620 define el ciberacoso escolar como «forma de intimidación con uso deliberado de tecnologías de información (internet, redes sociales virtuales, telefonía móvil y videojuegos online) para ejercer maltrato psicológico y continuado». El caso reúne todos los elementos: medio electrónico, intención, repetición casi diaria durante semanas, afectación emocional y una relación asimétrica (líderes frente a una estudiante nueva). La CNSC espera que el docente nombre bien la situación, porque de esa clasificación depende el protocolo que se activa después.",
+   "fuente": "Ley 1620 de 2013, art. 2 (ciberacoso escolar).",
+   "consejo": "Busca en el caso los rasgos de la definición: medio, intención, repetición y relación de poder.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Forma de intimidación con uso deliberado de tecnologías de información (internet, redes sociales virtuales, telefonía móvil y videojuegos online) para ejercer maltrato psicológico y continuado."
+    }
+   ]
+  },
+  {
+   "id": "Q053",
+   "tipo": "caso",
+   "caso": "C18",
+   "familia": "NOR-CONV-RUTA",
+   "competencia": "Convivencia escolar",
+   "dificultad": 3,
+   "enunciado": "Como la intimidación se hace a través del grupo de mensajería del curso, la docente cumple su responsabilidad según la Ley 1620 de 2013 si",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "reporta la situación al comité de convivencia para que se active el protocolo y hace seguimiento al caso de la estudiante.",
+     "j": "Es correcta. La Ley 1620, artículo 19, dice que si la intimidación se hace a través de medios electrónicos el docente igualmente deberá reportar al comité de convivencia para activar el protocolo respectivo, además de hacer seguimiento."
+    },
+    {
+     "l": "B",
+     "t": "pide a los padres de los dos estudiantes que revisen los celulares de sus hijos y borren las publicaciones del grupo.",
+     "j": "Es incorrecta. Informar a las familias hace parte del protocolo, pero delegar en ellas la solución y borrar el contenido no reemplaza el reporte al comité ni garantiza la protección de la estudiante."
+    },
+    {
+     "l": "C",
+     "t": "elimina el grupo de mensajería del curso y crea uno nuevo en el que solo ella pueda publicar mensajes e información.",
+     "j": "Es incorrecta. Cerrar el grupo puede parecer razonable, pero deja la situación sin reportar ni atender y no repara el daño. Además, el acoso puede seguir por otros canales."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El enunciado pide la responsabilidad del docente. El artículo 19 de la Ley 1620 establece que los docentes deben identificar, reportar y hacer seguimiento a los casos de acoso, y agrega: «Si la situación de intimidación de la que tienen conocimiento se hace a través de medios electrónicos, igualmente deberá reportar al comité de convivencia para activar el protocolo respectivo». La CNSC premia el debido proceso institucional: el docente no resuelve solo ni delega en la familia, sino que activa la instancia competente y acompaña el caso. Las medidas tecnológicas aisladas no sustituyen la ruta.",
+   "fuente": "Ley 1620 de 2013, art. 19, num. 1.",
+   "consejo": "Si la agresión es por medios electrónicos, la respuesta sigue siendo la ruta: reportar al comité y hacer seguimiento.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Si la situación de intimidación de la que tienen conocimiento se hace a través de medios electrónicos, igualmente deberá reportar al comité de convivencia para activar el protocolo respectivo."
+    }
+   ]
+  },
+  {
+   "id": "Q054",
+   "tipo": "caso",
+   "caso": "C19",
+   "familia": "NOR-CONV-TIPO",
+   "competencia": "Convivencia escolar",
+   "dificultad": 3,
+   "enunciado": "Un compañero de la docente afirma que se trata de un caso de acoso escolar. Según la Ley 1620 de 2013, esa afirmación es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "adecuada, porque hubo contacto físico e insultos en un espacio escolar y eso basta para hablar de acoso escolar.",
+     "j": "Es incorrecta. El contacto físico y los insultos describen una agresión o un conflicto, pero no bastan para hablar de acoso: la ley pide reiteración y asimetría de poder, que aquí no aparecen."
+    },
+    {
+     "l": "B",
+     "t": "adecuada, porque toda conducta intencional de un estudiante que busca afectar a otro dentro del colegio es acoso.",
+     "j": "Es incorrecta. Esa es casi la definición de agresión escolar del Decreto 1965, no la de acoso. La intención es un requisito, pero la ley añade la reiteración y la relación de poder asimétrica."
+    },
+    {
+     "l": "C",
+     "t": "inadecuada, porque falta la reiteración en el tiempo y la relación de poder asimétrica que exige la definición de acoso.",
+     "j": "Es correcta. La definición legal exige conducta sistemática, reiterada o prolongada y una relación de poder asimétrica. Es la primera vez y entre pares que se llevan bien: no hay acoso, aunque sí un conflicto que atender."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La CNSC suele plantear peleas aisladas para comprobar si el aspirante distingue conflicto, agresión y acoso. La Ley 1620 define el acoso como una conducta intencional, metódica y sistemática, ejercida por pares «con quienes mantiene una relación de poder asimétrica, que se presenta de forma reiterada o a lo largo de un tiempo determinado». En el caso, es la primera vez, no hay lesiones y los estudiantes se llevan bien. Calificarlo de acoso sería un error que llevaría a aplicar un protocolo desproporcionado; lo pertinente es atenderlo como un conflicto con mediación pedagógica.",
+   "fuente": "Ley 1620 de 2013, art. 2; Decreto 1965 de 2013, art. 39.",
+   "consejo": "Antes de decir «bullying», verifica dos cosas: ¿se repite? ¿hay desequilibrio de poder?",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "con quienes mantiene una relación de poder asimétrica, que se presenta de forma reiterada o a lo largo de un tiempo determinado"
+    }
+   ]
+  },
+  {
+   "id": "Q055",
+   "tipo": "caso",
+   "caso": "C20",
+   "familia": "NOR-FORMAR",
+   "competencia": "Formación ciudadana",
+   "dificultad": 2,
+   "enunciado": "Para que el proyecto aporte al desarrollo de competencias ciudadanas tal como las define la Ley 1620 de 2013, el docente debe",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "nombrar en cada equipo un líder fijo durante todo el semestre, para que las decisiones se tomen con mayor rapidez y orden.",
+     "j": "Es incorrecta. Fijar un líder puede agilizar el trabajo, pero refuerza justamente el problema descrito: unos deciden y otros obedecen, sin participación ni deliberación de todos."
+    },
+    {
+     "l": "B",
+     "t": "dedicar una clase a explicar el concepto de democracia y luego continuar el proyecto de robótica con la misma organización.",
+     "j": "Es incorrecta. Explicar el concepto aporta conocimiento, pero la ley habla de habilidades emocionales y comunicativas articuladas en la acción; sin cambiar la dinámica del equipo no se desarrollan."
+    },
+    {
+     "l": "C",
+     "t": "promover que cada equipo argumente, escuche y decida en conjunto para actuar de forma constructiva y democrática.",
+     "j": "Es correcta. La ley define las competencias ciudadanas como conocimientos y habilidades cognitivas, emocionales y comunicativas articuladas para actuar de manera constructiva en una sociedad democrática; la decisión colectiva las pone en juego."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El artículo 2 de la Ley 1620 define las competencias ciudadanas como «el conjunto de conocimientos y de habilidades cognitivas, emocionales y comunicativas que, articulados entre sí, hacen posible que el ciudadano actúe de manera constructiva en una sociedad democrática». La palabra clave es «articulados»: no basta con saber qué es la democracia, hay que practicarla. Por eso la opción correcta transforma la forma en que los equipos deciden. En la CNSC, la formación ciudadana desde el área se demuestra en las dinámicas del aula, no en una clase teórica aislada.",
+   "fuente": "Ley 1620 de 2013, art. 2 (competencias ciudadanas).",
+   "consejo": "Cuando el enunciado diga «competencias», busca la opción que las ponga en práctica, no la que solo las explique.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "conjunto de conocimientos y de habilidades cognitivas, emocionales y comunicativas que, articulados entre sí, hacen posible que el ciudadano actúe de manera constructiva en una sociedad democrática"
+    }
+   ]
+  },
+  {
+   "id": "Q056",
+   "tipo": "caso",
+   "caso": "C21",
+   "familia": "PED-EVAL-NORM",
+   "competencia": "Evaluación del aprendizaje (marco normativo)",
+   "dificultad": 2,
+   "enunciado": "Frente a la pregunta del coordinador, la docente puede sustentar el uso de la prueba diagnóstica en que uno de los propósitos de la evaluación institucional es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "identificar las características, intereses, ritmos de desarrollo y estilos de aprendizaje para valorar sus avances.",
+     "j": "Es correcta. Es el primer propósito del artículo 2.3.3.3.3.3 del Decreto 1075 de 2015. Un diagnóstico que revela niveles y necesidades diversas cumple exactamente esa finalidad, aunque todavía no produzca una nota."
+    },
+    {
+     "l": "B",
+     "t": "determinar la promoción de los estudiantes desde el inicio del año, según el nivel con el que llegan al grado décimo.",
+     "j": "Es incorrecta. La promoción es un propósito de la evaluación, pero se decide al final del proceso y según el SIEE, no con una prueba diagnóstica aplicada el primer día de clases."
+    },
+    {
+     "l": "C",
+     "t": "aportar información al ICFES sobre el nivel de la institución para preparar a los estudiantes para el examen de Estado.",
+     "j": "Es incorrecta. La prueba diagnóstica es parte de la evaluación institucional; el monitoreo del ICFES corresponde al ámbito nacional. Confundir los ámbitos es una trampa típica de la CNSC."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El coordinador cree que solo sirve lo que produce nota. El artículo 2.3.3.3.3.3 del Decreto 1075 de 2015 establece como primer propósito de la evaluación institucional «Identificar las características personales, intereses, ritmos de desarrollo y estilos de aprendizaje del estudiante para valorar sus avances». Un diagnóstico que muestra estudiantes que ya programan, otros sin experiencia y uno que usa lector de pantalla es justamente esa información. La lógica de la CNSC: la evaluación es formativa y permanente; sirve para planear y ajustar la enseñanza, no solo para calificar.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.3, num. 1 (Decreto 1290 de 2009, art. 3).",
+   "consejo": "Si el caso habla de diagnóstico, relaciónalo con identificar ritmos y estilos, no con promoción.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Identificar las características personales, intereses, ritmos de desarrollo y estilos de aprendizaje del estudiante para valorar sus avances."
+    }
+   ]
+  },
+  {
+   "id": "Q057",
+   "tipo": "caso",
+   "caso": "C22",
+   "familia": "PED-INCL",
+   "competencia": "Educación inclusiva",
+   "dificultad": 3,
+   "enunciado": "Para orientar a la familia de Ana Lucía conforme al Decreto 1075 de 2015, el docente debe explicar que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el colegio debe elaborar y aplicar una prueba propia adaptada que reemplace el examen de Estado para la estudiante.",
+     "j": "Es incorrecta. El establecimiento no reemplaza el examen de Estado. La adaptación equiparable de la prueba es responsabilidad del ICFES; al colegio le corresponde reportar la situación de la estudiante."
+    },
+    {
+     "l": "B",
+     "t": "el ICFES debe confirmar con ella la adaptación que requiere, según el reporte que haga el establecimiento educativo.",
+     "j": "Es correcta. La norma obliga al ICFES a confirmar con el estudiante la adaptación de acuerdo con el reporte de los establecimientos y a garantizar ajustes razonables, como intérpretes de Lengua de Señas Colombiana."
+    },
+    {
+     "l": "C",
+     "t": "la estudiante recibirá los apoyos solo si presenta un certificado médico reciente el mismo día de la prueba.",
+     "j": "Es incorrecta. La norma no condiciona los ajustes a un certificado presentado el día del examen; habla del tipo de discapacidad reportada al momento de la inscripción y del reporte del establecimiento."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El ámbito nacional del Decreto 1075 de 2015 (artículo 2.3.3.3.3.1) establece que el ICFES realizará una adaptación equiparable de la prueba para estudiantes con discapacidad y deberá «Confirmar con el estudiante el tipo de adaptación que requiere para la prueba, de acuerdo con el reporte realizado por los establecimientos educativos». La misma norma menciona los intérpretes de la Lengua de Señas Colombiana como apoyo. La pregunta es de nivel 3 porque exige distinguir qué hace el ICFES y qué hace el colegio: el colegio reporta; el ICFES adapta y garantiza los ajustes.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.1, num. 2, lit. b.",
+   "consejo": "Distingue responsabilidades: el colegio reporta, el ICFES adapta la prueba y garantiza los ajustes.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Confirmar con el estudiante el tipo de adaptación que requiere para la prueba, de acuerdo con el reporte realizado por los establecimientos educativos"
+    }
+   ]
+  },
+  {
+   "id": "Q058",
+   "tipo": "caso",
+   "caso": "C23",
+   "familia": "DIS-CONC",
+   "competencia": "Naturaleza y evolución",
+   "dificultad": 3,
+   "enunciado": "Para transformar la idea de los estudiantes de manera coherente con la Guía 30, la intervención más pertinente del docente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "explicarles que la tecnología llegará a la vereda cuando la sede tenga computadores e internet, y gestionar esa dotación.",
+     "j": "Es incorrecta. Gestionar dotación es valioso, pero la explicación confirma la concepción restringida que asocia la tecnología con computadores, que es precisamente la idea que la Guía 30 busca superar."
+    },
+    {
+     "l": "B",
+     "t": "analizar con ellos el trapiche, el riego y los turnos del agua como tecnología que resuelve necesidades de la vereda.",
+     "j": "Es correcta. La Guía 30 define la tecnología como actividad humana que resuelve problemas y satisface necesidades, y aclara que es mucho más que sus productos tangibles; los ejemplos de la vereda lo muestran."
+    },
+    {
+     "l": "C",
+     "t": "mostrarles videos de robots y fábricas modernas para que reconozcan cómo es la tecnología actual en las grandes ciudades.",
+     "j": "Es incorrecta. Los videos amplían referentes, pero refuerzan que la tecnología está lejos de su entorno y no conectan con lo que ya existe en la vereda, como el trapiche o la emisora."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La idea del estudiante corresponde a lo que la Guía 30 llama la concepción popular, en la que «la tecnología está asociada casi por completo con computadores y otros dispositivos electrónicos». La Guía propone una definición amplia: la tecnología resuelve problemas y satisface necesidades, y «es mucho más que sus productos tangibles», pues incluye procesos, conocimientos y organizaciones. El trapiche (artefacto y proceso), el riego (sistema) y la junta que organiza turnos (organización) son tecnología. La CNSC valora partir del contexto del estudiante para construir el concepto.",
+   "fuente": "Guía 30 MEN, «La tecnología: conceptos básicos».",
+   "consejo": "Desconfía de las opciones que equiparan tecnología con computadores: contradicen la definición del MEN.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Esta definición amplia difiere de la concepción popular más común y restringida, en la cual la tecnología está asociada casi por completo con computadores y otros dispositivos electrónicos"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "la tecnología es mucho más que sus productos tangibles"
+    }
+   ]
+  },
+  {
+   "id": "Q059",
+   "tipo": "caso",
+   "caso": "C23",
+   "familia": "DIS-CONC",
+   "competencia": "Naturaleza y evolución",
+   "dificultad": 2,
+   "enunciado": "Al analizar la emisora comunitaria, el docente quiere que los estudiantes reconozcan que la tecnología también involucra",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "a las personas, la infraestructura y los procesos necesarios para diseñar, operar y reparar los artefactos de la emisora.",
+     "j": "Es correcta. La Guía 30 dice que la tecnología también involucra a las personas, la infraestructura y los procesos requeridos para diseñar, manufacturar, operar y reparar los artefactos; la emisora lo ilustra."
+    },
+    {
+     "l": "B",
+     "t": "solo los equipos de transmisión, porque son los artefactos tangibles que permiten que la señal llegue a la vereda.",
+     "j": "Es incorrecta. Quedarse en los equipos es la mirada restringida. La Guía 30 insiste en que la tecnología no se limita a sus productos tangibles, sino que incluye a quienes la operan y mantienen."
+    },
+    {
+     "l": "C",
+     "t": "los contenidos de los programas que emite, porque la información es el producto principal de toda tecnología.",
+     "j": "Es incorrecta. Los contenidos son información que circula por la emisora, pero la Guía 30 no define la tecnología por la información que transmite, sino por artefactos, procesos, personas e infraestructura."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La Guía 30 afirma que la tecnología incluye artefactos tangibles e intangibles y que «También involucra a las personas, la infraestructura y los procesos requeridos para diseñar, manufacturar, operar y reparar los artefactos». En la emisora no solo hay equipos: hay locutores y técnicos, antenas y procesos de operación y reparación. La pregunta evalúa si usted aplica la definición amplia a un ejemplo concreto. La lógica para recordar: cuando la CNSC pregunta qué «involucra» la tecnología, la respuesta más completa según la Guía incluye a las personas y los procesos, no solo los aparatos.",
+   "fuente": "Guía 30 MEN, «La tecnología: conceptos básicos».",
+   "consejo": "Relaciona cada elemento del caso con lo que la Guía 30 incluye en la tecnología: artefactos, procesos, personas, infraestructura.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "También involucra a las personas, la infraestructura y los procesos requeridos para diseñar, manufacturar, operar y reparar los artefactos."
+    }
+   ]
+  },
+  {
+   "id": "Q060",
+   "tipo": "caso",
+   "caso": "C24",
+   "familia": "LC-LIT",
+   "competencia": "Identificar y entender los contenidos locales",
+   "dificultad": 2,
+   "enunciado": "Según el artículo 2 del fragmento, el Decreto 1965 de 2013 se aplica",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "solo en los establecimientos educativos oficiales, porque son los que hacen parte del Sistema Nacional de Convivencia Escolar.",
+     "j": "Es incorrecta. El texto incluye expresamente a los establecimientos no oficiales. Restringirlo a los oficiales es un error de lectura literal que la CNSC usa con frecuencia como distractor."
+    },
+    {
+     "l": "B",
+     "t": "en los establecimientos oficiales y no oficiales, pero no a las familias, que se rigen por el Código de Infancia y Adolescencia.",
+     "j": "Es incorrecta. El artículo 2 menciona de manera explícita a la familia y a la sociedad. Que otras normas también regulen a la familia no la excluye del ámbito de este decreto."
+    },
+    {
+     "l": "C",
+     "t": "en los establecimientos oficiales y no oficiales, y también a la familia, la sociedad y los actores de la ruta.",
+     "j": "Es correcta. El artículo 2 lo dice de forma literal: se aplica en todos los establecimientos oficiales y no oficiales de preescolar, básica y media y, también, a la familia, la sociedad y los demás actores de la ruta."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Esta es una pregunta de lectura literal: la respuesta está en el texto. El artículo 2 dice que el decreto «se aplicará en todos los establecimientos educativos oficiales y no oficiales de educación preescolar, básica y media del territorio nacional» y añade «también a la familia, la sociedad y a los demás actores que participan en la Ruta de Atención Integral». Los distractores recortan el texto (solo oficiales) o agregan una exclusión que no aparece (las familias). En lectura crítica de normas, compare palabra por palabra el alcance que dice la opción con el que dice el texto.",
+   "fuente": "ICFES, Lectura Crítica: identificar y entender los contenidos locales. Decreto 1965 de 2013, art. 2.",
+   "consejo": "En preguntas literales, la opción correcta no recorta ni agrega nada al texto.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "El presente Decreto se aplicará en todos los establecimientos educativos oficiales y no oficiales de educación preescolar, básica y media del territorio nacional"
+    }
+   ]
+  },
+  {
+   "id": "Q061",
+   "tipo": "caso",
+   "caso": "C24",
+   "familia": "LC-INF",
+   "competencia": "Comprender cómo se articulan las partes de un texto",
+   "dificultad": 3,
+   "enunciado": "En la relación entre los artículos 1 y 2 del fragmento, el artículo 2 cumple la función de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "enumerar las herramientas del sistema que el artículo 1 menciona de forma general sin explicar en qué consisten.",
+     "j": "Es incorrecta. El artículo 1 menciona las herramientas del sistema, pero el artículo 2 no las enumera ni las explica; se ocupa del ámbito de aplicación, como lo indica su propio título."
+    },
+    {
+     "l": "B",
+     "t": "precisar a quiénes y en qué instituciones se aplica lo que el artículo 1 establece como objeto del decreto.",
+     "j": "Es correcta. El artículo 1 dice qué reglamenta el decreto (su objeto) y el artículo 2 delimita su alcance: en qué establecimientos y a qué actores se aplica. Uno define el qué y el otro el dónde y a quiénes."
+    },
+    {
+     "l": "C",
+     "t": "contradecir el artículo 1, porque amplía a la familia y la sociedad un decreto que solo regula los manuales de convivencia.",
+     "j": "Es incorrecta. No hay contradicción: el artículo 1 ya menciona la participación de la familia y la sociedad dentro del sistema, y no se limita a los manuales de convivencia."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Esta pregunta evalúa cómo se articulan las partes de un texto. En las normas, los primeros artículos suelen cumplir funciones distintas: el objeto (artículo 1) indica qué se regula, y el ámbito de aplicación (artículo 2) indica a quién y dónde se aplica. El artículo 1 dice que el decreto reglamenta el sistema, sus herramientas y los lineamientos de los manuales de convivencia; el artículo 2 dice que se aplica en establecimientos oficiales y no oficiales y a la familia y la sociedad. Para responder, identifique la función de cada parte, no solo su contenido.",
+   "fuente": "ICFES, Lectura Crítica: comprender cómo se articulan las partes de un texto. Decreto 1965 de 2013, arts. 1 y 2.",
+   "consejo": "Pregúntate para qué está cada parte del texto: definir, delimitar, ejemplificar o contradecir.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Ámbito de aplicación. El presente Decreto se aplicará en todos los establecimientos educativos oficiales y no oficiales"
+    }
+   ]
+  },
+  {
+   "id": "Q062",
+   "tipo": "caso",
+   "caso": "C24",
+   "familia": "LC-CRIT",
+   "competencia": "Reflexionar a partir de un texto y evaluar su contenido",
+   "dificultad": 3,
+   "enunciado": "A partir del fragmento, un docente concluye: «Como el Decreto 1965 trata del Comité Nacional, a nosotros en el colegio no nos obliga a revisar nada». Esta conclusión es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "válida, porque el artículo 4 muestra que las funciones del decreto recaen en la Secretaría Técnica del Comité Nacional.",
+     "j": "Es incorrecta. El artículo 4 trata solo de quién ejerce la Secretaría Técnica del Comité Nacional. Generalizar a partir de un artículo y desconocer el objeto completo es un error de razonamiento."
+    },
+    {
+     "l": "B",
+     "t": "válida solo para los colegios no oficiales, porque los oficiales dependen directamente del Ministerio de Educación Nacional.",
+     "j": "Es incorrecta. El artículo 2 incluye a todos los establecimientos oficiales y no oficiales, sin distinguir. La opción introduce una distinción que el texto no hace y que contradice su alcance."
+    },
+    {
+     "l": "C",
+     "t": "inválida, porque el artículo 1 incluye los lineamientos para ajustar los manuales de convivencia de los colegios.",
+     "j": "Es correcta. El artículo 1 señala entre el objeto del decreto «los lineamientos generales bajo los cuales se deben ajustar los manuales de convivencia de los establecimientos educativos», lo que sí obliga al colegio."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La pregunta pide evaluar un argumento. El docente generaliza a partir de los artículos sobre el Comité Nacional y concluye que el decreto no obliga al colegio. Pero el artículo 1 establece que el decreto reglamenta «los lineamientos generales bajo los cuales se deben ajustar los manuales de convivencia de los establecimientos educativos», y el artículo 2 lo aplica a todos los establecimientos. Una conclusión es inválida cuando ignora información del propio texto que la contradice. En la CNSC, desconfíe de las conclusiones que toman una parte del texto como si fuera el todo.",
+   "fuente": "ICFES, Lectura Crítica: reflexionar y evaluar. Decreto 1965 de 2013, arts. 1, 2 y 4.",
+   "consejo": "Para evaluar una conclusión, busca en el texto la información que la contradice.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "los lineamientos generales bajo los cuales se deben ajustar los manuales de convivencia de los establecimientos educativos"
+    }
+   ]
+  },
+  {
+   "id": "Q063",
+   "tipo": "caso",
+   "caso": "C26",
+   "familia": "NOR-ORG",
+   "competencia": "Organización escolar",
+   "dificultad": 2,
+   "enunciado": "Otro tema de la reunión es el manual de convivencia. Según el Decreto 1965 de 2013, la institución debe ajustar su manual de convivencia",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "a los lineamientos generales que fija el Decreto 1965, de acuerdo con lo ordenado por la Ley 1620 de 2013.",
+     "j": "Es correcta. El artículo 1 del Decreto 1965 incluye en su objeto los lineamientos generales bajo los cuales se deben ajustar los manuales de convivencia, de acuerdo con la Ley 1620 de 2013."
+    },
+    {
+     "l": "B",
+     "t": "solo cuando la Secretaría de Educación lo ordene mediante una visita de inspección y vigilancia a la institución.",
+     "j": "Es incorrecta. El ajuste del manual no depende de una visita de inspección: es un mandato general del decreto para todos los establecimientos, que deben acogerse a sus lineamientos."
+    },
+    {
+     "l": "C",
+     "t": "a los acuerdos que defina libremente cada curso con su director de grupo, sin necesidad de lineamientos externos.",
+     "j": "Es incorrecta. La participación de los cursos es valiosa, pero la norma establece lineamientos generales a los que el manual debe ajustarse; la autonomía institucional opera dentro de esos lineamientos."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 1 del Decreto 1965 de 2013 dice que el decreto reglamenta, entre otros aspectos, «los lineamientos generales bajo los cuales se deben ajustar los manuales de convivencia de los establecimientos educativos, de acuerdo con lo ordenado en la Ley 1620 de 2013». Es decir, los manuales no se construyen solo por acuerdo interno ni esperan una orden de inspección: deben ajustarse a esos lineamientos. La CNSC evalúa que el docente reconozca la jerarquía normativa: la autonomía escolar existe, pero dentro de lo que fijan la ley y sus decretos reglamentarios.",
+   "fuente": "Decreto 1965 de 2013, art. 1.",
+   "consejo": "Autonomía institucional sí, pero dentro de la ley y sus decretos reglamentarios.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "los lineamientos generales bajo los cuales se deben ajustar los manuales de convivencia de los establecimientos educativos, de acuerdo con lo ordenado en la Ley 1620 de 2013"
+    }
+   ]
+  },
+  {
+   "id": "Q064",
+   "tipo": "caso",
+   "caso": "C18",
+   "familia": "NOR-CONV-RUTA",
+   "competencia": "Convivencia escolar",
+   "dificultad": 2,
+   "enunciado": "Los padres de uno de los estudiantes que publican los montajes afirman que la familia no tiene ninguna responsabilidad en lo que pasa en el colegio. Según el Decreto 1965 de 2013, la docente puede explicarles que el decreto se aplica también",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "a las familias solo cuando la situación se clasifica como tipo III y la Policía de Infancia y Adolescencia interviene.",
+     "j": "Es incorrecta. La norma no condiciona la aplicación a las familias a que la situación sea tipo III. La familia es actor del sistema y de la ruta en todos los casos, no solo en los más graves."
+    },
+    {
+     "l": "B",
+     "t": "a las familias que hayan firmado el manual de convivencia al momento de la matrícula en la institución educativa.",
+     "j": "Es incorrecta. La firma del manual no es la fuente del deber de la familia. El decreto la incluye en su ámbito de aplicación de manera general, firme o no un documento institucional."
+    },
+    {
+     "l": "C",
+     "t": "a la familia, la sociedad y los demás actores que participan en la Ruta de Atención Integral.",
+     "j": "Es correcta. El artículo 2 del Decreto 1965 de 2013 extiende su aplicación, además de los establecimientos, a la familia, la sociedad y los demás actores que participan en la Ruta de Atención Integral."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El artículo 2 del Decreto 1965 de 2013 dice que el decreto se aplicará en todos los establecimientos educativos «también a la familia, la sociedad y a los demás actores que participan en la Ruta de Atención Integral». Esto concuerda con el principio de corresponsabilidad de la Ley 1620. Los distractores condicionan la responsabilidad de la familia a algo que la norma no exige (que sea tipo III o que haya firmado el manual). La CNSC busca que el docente explique a las familias su papel con base en la norma, con respeto y sin discutir desde la opinión personal.",
+   "fuente": "Decreto 1965 de 2013, art. 2.",
+   "consejo": "Cuando una opción agrega una condición que la norma no menciona, probablemente es un distractor.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "también a la familia, la sociedad y a los demás actores que participan en la Ruta de Atención Integral"
+    }
+   ]
+  },
+  {
+   "id": "Q065",
+   "tipo": "caso",
+   "caso": "C36",
+   "familia": "DIS-DATOS",
+   "competencia": "Naturaleza y evolución",
+   "dificultad": 2,
+   "enunciado": "Al presentar el proyecto, el docente quiere que los estudiantes comprendan qué es la informática según la Guía 30. La explicación más precisa es que la informática",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "es el conjunto de conocimientos científicos y tecnológicos para acceder, buscar y manejar información con procesadores.",
+     "j": "Es correcta. Es la definición textual de la Guía 30. Encaja con el proyecto: las tarjetas, los sensores y el procesador permiten acceder a la información de los libros y manejarla."
+    },
+    {
+     "l": "B",
+     "t": "es el conjunto de equipos y programas de la sala de informática con los que los estudiantes aprenden a usar el computador y la internet.",
+     "j": "Es incorrecta. Confunde la informática con los equipos y programas. La Guía 30 la define como un conjunto de conocimientos, y las Orientaciones aclaran que no se centra en el computador."
+    },
+    {
+     "l": "C",
+     "t": "es el conjunto de medios de comunicación, como la radio, la televisión y el teléfono, que permiten transmitir mensajes a distancia.",
+     "j": "Es incorrecta. Esos medios son manifestaciones de las TIC, que según la Guía 30 son un campo más amplio del que la informática hace parte. Toma el todo por la parte."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La Guía 30, en el apartado «Tecnología e informática», dice que «La informática se refiere al conjunto de conocimientos científicos y tecnológicos que hacen posible el acceso, la búsqueda y el manejo de la información por medio de procesadores», y que hace parte de un campo más amplio, las TIC. La CNSC suele confundir tres ideas: informática como equipos, informática como TIC y informática como conocimiento. La palabra clave es «conocimientos»: la informática no es el computador, sino el saber que permite procesar información con él. En el proyecto, ese saber se ve al codificar las categorías.",
+   "fuente": "Guía 30 MEN, «Tecnología e informática».",
+   "consejo": "Informática = conocimientos para manejar información con procesadores; TIC = campo más amplio que la incluye.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "La informática se refiere al conjunto de conocimientos científicos y tecnológicos que hacen posible el acceso, la búsqueda y el manejo de la información por medio de procesadores."
+    }
+   ]
+  },
+  {
+   "id": "Q066",
+   "tipo": "caso",
+   "caso": "C37",
+   "familia": "DIS-CONC",
+   "competencia": "Naturaleza y evolución",
+   "dificultad": 3,
+   "enunciado": "Para clasificar el acueducto veredal según la Guía 30, el docente debe orientar a los estudiantes a concluir que es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "un artefacto, porque está formado por objetos físicos como tubos, tanques y medidores que se pueden ver y tocar en la visita.",
+     "j": "Es incorrecta. Los tubos y medidores son artefactos, pero el acueducto completo los integra con procesos, personas y reglas. Clasificar el todo por sus partes es el error que la pregunta busca detectar."
+    },
+    {
+     "l": "B",
+     "t": "un sistema tecnológico, porque reúne componentes, procesos, personas y flujos que funcionan ligados para lograr un objetivo común.",
+     "j": "Es correcta. La Guía 30 define los sistemas como elementos ligados por relaciones estructurales o funcionales para lograr colectivamente un objetivo, con componentes, procesos e interacciones, como en el acueducto."
+    },
+    {
+     "l": "C",
+     "t": "un proceso, porque el agua pasa por etapas sucesivas desde la bocatoma hasta las casas y en cada etapa cambia su estado.",
+     "j": "Es incorrecta. Hay un proceso de tratamiento y conducción, pero el acueducto incluye además infraestructura, personas y organización que interactúan. El proceso es una parte del sistema, no el todo."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La Guía 30 define los sistemas como «conjuntos o grupos de elementos ligados entre sí por relaciones estructurales o funcionales, diseñados para lograr colectivamente un objetivo» y añade que los sistemas tecnológicos involucran «componentes, procesos, relaciones, interacciones y flujos de energía e información». El acueducto tiene artefactos (tubos, medidores), procesos (desarenado, almacenamiento), personas (fontanero, junta) y flujos de agua e información (lecturas de consumo). Es nivel 3 porque las tres opciones mencionan algo cierto del caso; solo una clasifica el conjunto. Pregunte siempre: ¿me piden la parte o el todo?",
+   "fuente": "Guía 30 MEN, «La tecnología: múltiples relaciones y posibilidades».",
+   "consejo": "Cuando aparecen artefactos, procesos y personas interactuando para un fin común, piensa en sistema.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "los sistemas tecnológicos involucran componentes, procesos, relaciones, interacciones y flujos de energía e información"
+    }
+   ]
+  },
+  {
+   "id": "Q067",
+   "tipo": "caso",
+   "caso": "C25",
+   "familia": "DIS-DATOS",
+   "competencia": "Naturaleza y evolución",
+   "dificultad": 3,
+   "enunciado": "Si el docente quiere centrar la clase en el componente informático, según las Orientaciones Curriculares debe tomar como eje de la enseñanza",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el funcionamiento interno del computador y sus periféricos, para que los estudiantes entiendan cómo recibe la información del medio.",
+     "j": "Es incorrecta. Estudiar cómo el computador adquiere la información es otro modo de interacción, en el que las TIC se vuelven objeto de estudio. Es válido, pero no es el eje del componente informático."
+    },
+    {
+     "l": "B",
+     "t": "el lenguaje y el programa algorítmico que controla la persiana, y usar el computador y la persiana como medios didácticos.",
+     "j": "Es correcta. Las Orientaciones dicen que el docente centrado en el componente informático toma como eje el lenguaje y el programa algorítmico, y reconoce el producto tecnológico y las TIC como medio didáctico."
+    },
+    {
+     "l": "C",
+     "t": "la persiana como producto tecnológico terminado, para analizar sus materiales, su forma y el mecanismo que la hace abrir y cerrar.",
+     "j": "Es incorrecta. Analizar la persiana como producto corresponde a la estrategia de análisis de productos tecnológicos. Es una buena actividad, pero desplaza el eje desde el programa hacia el artefacto."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares (2.2) usan justamente el ejemplo de un programa que controla una persiana y explican: «El docente que se centra en el componente informático tomará como eje de la enseñanza el lenguaje y el programa algorítmico, más que el producto tecnológico y las TIC». Las otras dos opciones describen formas válidas de trabajar el mismo montaje, pero con otro foco: las TIC como objeto de estudio o el análisis del artefacto. La pregunta es de nivel 3 porque las tres acciones son pedagógicamente razonables; la clave es la condición «centrar la clase en el componente informático».",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 2.2.",
+   "consejo": "Cuando dos o tres opciones son buenas prácticas, la condición del enunciado decide cuál es la correcta.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "El docente que se centra en el componente informático tomará como eje de la enseñanza el lenguaje y el programa algorítmico, más que el producto tecnológico y las TIC"
+    }
+   ]
+  },
+  {
+   "id": "Q068",
+   "tipo": "caso",
+   "caso": "C26",
+   "familia": "DIS-DATOS",
+   "competencia": "Uso y apropiación de la tecnología y la informática",
+   "dificultad": 3,
+   "enunciado": "El concepto de la docente es coherente con las Orientaciones Curriculares si señala que la alfabetización en TIC",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "es una tarea transversal y obligatoria para todas las áreas, no exclusiva ni excluyente de Tecnología e Informática.",
+     "j": "Es correcta. Las Orientaciones afirman que la alfabetización en TIC es tarea transversal y obligatoria para todas las áreas y que no es exclusiva ni excluyente de T&I; además, las TIC no son el objeto de formación del área."
+    },
+    {
+     "l": "B",
+     "t": "es el objeto principal de formación del área de Tecnología e Informática, por lo que conviene asignarla solo a esa área.",
+     "j": "Es incorrecta. Las Orientaciones aclaran que, aunque es necesario saber de TIC, ese no es el objeto de la formación del área. Asignarle toda la alfabetización desdibuja su propósito."
+    },
+    {
+     "l": "C",
+     "t": "debe trasladarse por completo a las demás áreas, porque el área de Tecnología e Informática no debe ocuparse de las TIC.",
+     "j": "Es incorrecta. El documento dice que la tarea no es exclusiva ni excluyente del área; excluir a Tecnología e Informática también contradice la norma. El error es pasar de un extremo al otro."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Las Orientaciones Curriculares (2.1.3) dicen que la alfabetización en TIC es necesaria en la escuela, pero que «es una tarea transversal y obligatoria para todas las áreas escolares y no es exclusiva ni excluyente del área de tecnología e informática», y que las TIC no son el objeto de formación del área. La propuesta del rector convierte el área en una clase de ofimática para el colegio. La pregunta es de nivel 3 porque hay dos extremos tentadores: asignarle todo al área o sacarla del todo. La clave está en las palabras «exclusiva ni excluyente».",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 2.1.3.",
+   "consejo": "Ojo con los extremos: «solo el área» o «nunca el área». La norma suele estar en el punto medio.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "es una tarea transversal y obligatoria para todas las áreas escolares y no es exclusiva ni excluyente del área de tecnología e informática"
+    }
+   ]
+  },
+  {
+   "id": "Q070",
+   "tipo": "caso",
+   "caso": "C28",
+   "familia": "DIS-DISENO",
+   "competencia": "Solución de problemas",
+   "dificultad": 3,
+   "enunciado": "Según la clasificación de problemas de diseño de las Orientaciones Curriculares, el problema que van a trabajar los estudiantes es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "débilmente estructurado, porque los estudiantes identifican la necesidad y no conocen sus condiciones ni restricciones.",
+     "j": "Es correcta. En los problemas débilmente estructurados no hay definición previa, suele ser el estudiante quien identifica la necesidad, no se conocen condiciones ni restricciones y hay escaso conocimiento de los temas."
+    },
+    {
+     "l": "B",
+     "t": "medianamente estructurado, porque el docente participa en la orientación y los estudiantes conocen parte de los temas a trabajar.",
+     "j": "Es incorrecta. En los medianamente estructurados el problema lo propone el docente con participación de los estudiantes y se conocen parcialmente las condiciones; aquí los estudiantes lo plantean y no las conocen."
+    },
+    {
+     "l": "C",
+     "t": "fuertemente estructurado, porque la necesidad es clara y concreta: alimentar al conejo del salón durante las vacaciones escolares.",
+     "j": "Es incorrecta. Que la necesidad sea concreta no hace el problema fuertemente estructurado. Ese tipo exige definición clara y completa, condiciones conocidas y conocimientos previos, que aquí faltan."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La Tabla 2 de las Orientaciones (4.2.2) clasifica los problemas de diseño. En los débilmente estructurados «No hay definición del problema. Suele ser el propio estudiante quien identifica la necesidad y propone los problemas. No se conocen las condiciones o restricciones del diseño». El caso cumple las tres condiciones: los estudiantes deciden el problema, no conocen restricciones y saben poco de mecanismos. La trampa está en confundir una necesidad concreta con un problema bien definido. Esta clasificación ayuda al docente a decidir cuánto acompañamiento dar: a menor estructura, más apoyo en los procesos de apropiación.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.2, Tabla 2.",
+   "consejo": "Clasifica el problema por quién lo propone y qué se conoce de sus condiciones, no por lo concreta que sea la necesidad.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "No hay definición del problema. Suele ser el propio estudiante quien identifica la necesidad y propone los problemas. No se conocen las condiciones o restricciones del diseño."
+    }
+   ]
+  },
+  {
+   "id": "Q071",
+   "tipo": "caso",
+   "caso": "C28",
+   "familia": "DIS-DISENO",
+   "competencia": "Solución de problemas",
+   "dificultad": 2,
+   "enunciado": "Cuando los estudiantes lleguen al momento de idear soluciones para el comedero, la orientación del docente coherente con las Orientaciones Curriculares es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "pedir que cada equipo elija de inmediato la primera idea viable para no perder tiempo en la construcción del prototipo.",
+     "j": "Es incorrecta. Elegir la primera idea viable salta el momento de ideación y la selección entre alternativas. Las Orientaciones separan idear múltiples soluciones y luego seleccionar la más viable."
+    },
+    {
+     "l": "B",
+     "t": "pedir que cada estudiante genere varias ideas de solución, entre dos y cinco, usando diversos medios de representación.",
+     "j": "Es correcta. Las Orientaciones indican que en el momento de idear se generan múltiples soluciones con diversos medios de representación y sugieren que cada estudiante proponga entre dos y cinco ideas."
+    },
+    {
+     "l": "C",
+     "t": "presentar a los estudiantes un diseño de comedero ya probado para que lo construyan siguiendo las instrucciones del docente.",
+     "j": "Es incorrecta. Entregar un diseño probado corresponde a la construcción-fabricación a partir de diseños; es útil en otros momentos, pero anula la ideación que pide la estrategia de diseño."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "En la estrategia de diseño y rediseño (4.2.2), una vez planteado el problema los estudiantes deben, entre otros pasos, «Idear, de manera individual o en equipo, múltiples soluciones empleando diversos medios de representación gráfica, computacional, escrita, entre otras, se sugiere que cada estudiante pueda generar entre dos a cinco ideas de solución». Luego viene seleccionar la alternativa más viable. La pregunta evalúa si usted respeta la secuencia del proceso de diseño. En la CNSC, las opciones que buscan «ahorrar tiempo» saltándose pasos del proceso suelen ser distractores.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.2.",
+   "consejo": "En diseño, primero se abren alternativas (idear) y después se cierran (seleccionar).",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "se sugiere que cada estudiante pueda generar entre dos a cinco ideas de solución"
+    }
+   ]
+  },
+  {
+   "id": "Q072",
+   "tipo": "caso",
+   "caso": "C29",
+   "familia": "DIS-DIDAC",
+   "competencia": "Didáctica del área",
+   "dificultad": 2,
+   "enunciado": "La estrategia didáctica de las Orientaciones Curriculares más pertinente para el propósito de la docente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el análisis de productos tecnológicos, desarmando un celular para identificar sus partes, materiales y funcionamiento.",
+     "j": "Es incorrecta. El análisis del celular permite comprender el artefacto, pero no se centra en su impacto en la vida familiar ni en la toma de posición, que es lo que busca la docente."
+    },
+    {
+     "l": "B",
+     "t": "la construcción-fabricación, diseñando una aplicación que limite el tiempo de uso del celular en los hogares de los estudiantes.",
+     "j": "Es incorrecta. Construir una aplicación puede ser una solución posterior, pero el propósito declarado es el pensamiento crítico y la toma de posición, propios de la estrategia CTS."
+    },
+    {
+     "l": "C",
+     "t": "el enfoque CTS, partiendo del problema que genera la tecnología en la vida familiar para deliberar y tomar posición argumentada.",
+     "j": "Es correcta. Las Orientaciones proponen iniciar el enfoque CTS desde un problema generado por la tecnología y citan como ejemplo la reducción de la vida familiar por el uso personalizado de celulares y tabletas."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones (4.2.4) describen el enfoque CTS como una reflexión crítica sobre cómo la tecnología impacta la vida individual y social, y señalan que se puede iniciar «partiendo de un problema generado por la tecnología», con el ejemplo de «la reducción de la vida familiar producto del uso personalizado de celulares, tabletas, televisores». Los estudiantes deliberan, buscan información y asumen un posicionamiento crítico argumentado. Las otras estrategias son válidas para otros propósitos. La palabra clave del caso es «pensamiento crítico y toma de posición».",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.4.",
+   "consejo": "Relaciona el propósito con la estrategia: comprender → análisis; reproducir → construcción; tomar posición → CTS.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la reducción de la vida familiar producto del uso personalizado de celulares, tabletas, televisores y otras formas de tecnología personal"
+    }
+   ]
+  },
+  {
+   "id": "Q073",
+   "tipo": "caso",
+   "caso": "C30",
+   "familia": "DIS-ALGO",
+   "competencia": "Solución de problemas",
+   "dificultad": 3,
+   "enunciado": "Frente a las dos propuestas de los docentes, la decisión más coherente con las Orientaciones Curriculares es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "devolver las tabletas, porque el pensamiento computacional sin computadores logra todas las competencias que pide el área.",
+     "j": "Es incorrecta. Es la primera propuesta del caso y contradice el documento: la estrategia desconectada es una alternativa ante la falta de equipos, no un reemplazo de las competencias con computador."
+    },
+    {
+     "l": "B",
+     "t": "abandonar las actividades desconectadas, porque solo tenían sentido mientras la sede no contaba con ningún dispositivo.",
+     "j": "Es incorrecta. Las actividades desconectadas siguen siendo útiles para introducir conceptos como binarios o algoritmos; con cinco tabletas para 25 estudiantes, además, el acceso sigue siendo limitado."
+    },
+    {
+     "l": "C",
+     "t": "usar las tabletas para desarrollar competencias con equipos y mantener las actividades desconectadas como complemento.",
+     "j": "Es correcta. Las Orientaciones dicen que el pensamiento computacional sin computadores no pretende sustituir el desarrollo de competencias con equipos de cómputo; con tabletas disponibles, ambas estrategias se complementan."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones (4.3.3) presentan el pensamiento computacional sin computadores como «alternativa para los establecimientos educativos que no cuentan con infraestructura computacional» o donde el acceso es limitado, y aclaran que «no pretende sustituir el desarrollo de competencias tecnológicas soportadas en el uso de equipos de cómputo». Por eso devolver las tabletas es un error, y abandonar lo desconectado también, porque el acceso sigue siendo limitado. Es nivel 3: hay que leer las dos condiciones del documento (alternativa y no sustituto) y aplicarlas a un contexto con pocos equipos.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.3.3.",
+   "consejo": "Si el caso presenta dos posturas extremas, busca la opción que integra lo que dice la norma de ambas.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "más no pretende sustituir el desarrollo de competencias tecnológicas soportadas en el uso de equipos de cómputo"
+    }
+   ]
+  },
+  {
+   "id": "Q074",
+   "tipo": "caso",
+   "caso": "C31",
+   "familia": "DIS-FALLAS",
+   "competencia": "Solución de problemas",
+   "dificultad": 3,
+   "enunciado": "Según la Guía 30, el desempeño que el docente debe esperar de sus estudiantes de décimo frente a la falla de conexión es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "detecten la falla y la informen de inmediato al coordinador o al técnico, sin manipular los equipos de la sala de informática.",
+     "j": "Es incorrecta. Informar a los adultos es el desempeño esperado en primero a tercero. En décimo se espera un nivel de complejidad mayor: formular hipótesis y proponer estrategias."
+    },
+    {
+     "l": "B",
+     "t": "detecten y describan la falla, formulen hipótesis por prueba y descarte, y propongan estrategias para repararla.",
+     "j": "Es correcta. Es el desempeño de décimo a undécimo: detectar, describir y formular hipótesis sobre fallas en sistemas sencillos mediante prueba y descarte, y proponer estrategias de reparación."
+    },
+    {
+     "l": "C",
+     "t": "reemplacen las tarjetas de red de los computadores afectados, ya que la red inalámbrica funciona bien en los celulares.",
+     "j": "Es incorrecta. Saltar a una solución sin probar hipótesis contradice el proceso de prueba y descarte; además, la falla podría estar en la configuración y no en el hardware."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La Guía 30 gradúa la detección de fallas según el grupo de grados. En primero a tercero: «Detecto fallas simples... e informo a los adultos mis observaciones». En décimo a undécimo: «Detecto, describo y formulo hipótesis sobre fallas en sistemas tecnológicos sencillos (siguiendo un proceso de prueba y descarte) y propongo estrategias para repararlas». El caso da una pista para formular hipótesis: la red funciona en los celulares, lo que permite descartar causas. Es nivel 3 porque exige ubicar el desempeño en el grupo de grados correcto y descartar una solución apresurada.",
+   "fuente": "Guía 30 MEN, Solución de problemas con tecnología, décimo a undécimo.",
+   "consejo": "En fallas, mira el grado: informar (1°-3°), prueba y descarte (6°-9°), hipótesis y estrategias (10°-11°).",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Detecto, describo y formulo hipótesis sobre fallas en sistemas tecnológicos sencillos (siguiendo un proceso de prueba y descarte) y propongo estrategias para repararlas."
+    }
+   ]
+  },
+  {
+   "id": "Q075",
+   "tipo": "caso",
+   "caso": "C32",
+   "familia": "DIS-SEG",
+   "competencia": "Apropiación y uso",
+   "dificultad": 2,
+   "enunciado": "La intervención del docente coherente con el desempeño de la Guía 30 para grado once es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "detener la actividad, exigir gafas y soporte para el cautín, y acordar con ellos las normas de seguridad del taller.",
+     "j": "Es correcta. La Guía 30 espera en décimo y once que los estudiantes actúen según normas de seguridad industrial y usen elementos de protección; el docente debe garantizarlo antes de continuar."
+    },
+    {
+     "l": "B",
+     "t": "permitir que continúen y descontar puntos en la nota final a quienes no usen las gafas de protección durante la práctica.",
+     "j": "Es incorrecta. Sancionar en la nota no previene el accidente: el riesgo sigue presente mientras trabajan. La seguridad se garantiza antes de la práctica, no se califica después."
+    },
+    {
+     "l": "C",
+     "t": "suspender las prácticas de soldadura y reemplazarlas por simulaciones en el computador para evitar cualquier riesgo físico.",
+     "j": "Es incorrecta. Eliminar la práctica evita el riesgo, pero impide desarrollar el desempeño de actuar con normas de seguridad en ambientes de producción, que es lo que pide la Guía 30."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La Guía 30, para décimo a undécimo, plantea el desempeño «Actúo teniendo en cuenta normas de seguridad industrial y utilizo elementos de protección en ambientes de trabajo y de producción». El docente no debe ni tolerar el riesgo ni eliminar la práctica: debe enseñar a trabajar de forma segura. Los dos distractores son tentadores porque uno parece riguroso (sancionar) y otro prudente (suprimir), pero ninguno desarrolla la competencia. Lógica para la CNSC: la seguridad es contenido de aprendizaje y condición previa de la práctica, no un criterio de calificación.",
+   "fuente": "Guía 30 MEN, Apropiación y uso de la tecnología, décimo a undécimo.",
+   "consejo": "La respuesta correcta protege a los estudiantes y, a la vez, desarrolla la competencia.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Actúo teniendo en cuenta normas de seguridad industrial y utilizo elementos de protección en ambientes de trabajo y de producción."
+    }
+   ]
+  },
+  {
+   "id": "Q076",
+   "tipo": "caso",
+   "caso": "C33",
+   "familia": "DIS-CTS",
+   "competencia": "Tecnología y sociedad",
+   "dificultad": 2,
+   "enunciado": "Para trabajar la situación desde el componente de tecnología y sociedad de la Guía 30, el docente debe orientar a los estudiantes a",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "aceptar la propuesta siempre que el programa se use solo con fines educativos dentro del colegio y no se venda a otras personas.",
+     "j": "Es incorrecta. El fin educativo no autoriza a copiar software sin licencia. Aceptarlo contradice la reflexión ética que pide el componente y expone a la institución a una infracción."
+    },
+    {
+     "l": "B",
+     "t": "prohibir la propuesta y explicar que la piratería es delito, sin dedicar más tiempo de la clase a discutir el tema.",
+     "j": "Es incorrecta. La prohibición es necesaria, pero cerrar la discusión desaprovecha el caso para el desempeño de evaluar implicaciones sociales que plantea la Guía 30."
+    },
+    {
+     "l": "C",
+     "t": "evaluar las implicaciones sociales de proteger la propiedad intelectual y buscar alternativas legales para el proyecto.",
+     "j": "Es correcta. La Guía 30 incluye para décimo a undécimo el desempeño de evaluar las implicaciones sociales de la protección a la propiedad intelectual; el caso permite hacerlo y buscar alternativas legales."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La Guía 30 propone para décimo a undécimo: «Evalúo las implicaciones para la sociedad de la protección a la propiedad intelectual en temas como desarrollo y utilización de la tecnología». El caso ofrece la oportunidad de discutir por qué existen los derechos de autor, a quién afecta la piratería y qué alternativas legales hay. Ojo con el distractor de prohibir sin más: es correcto no permitir la copia ilegal, pero el enunciado pide trabajar el componente, es decir, formar criterio. En la CNSC, la mejor respuesta suele combinar la norma con la oportunidad pedagógica.",
+   "fuente": "Guía 30 MEN, Tecnología y sociedad, décimo a undécimo.",
+   "consejo": "Cuando el enunciado dice «trabajar el componente», busca la opción que forma criterio, no solo la que prohíbe.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Evalúo las implicaciones para la sociedad de la protección a la propiedad intelectual en temas como desarrollo y utilización de la tecnología."
+    }
+   ]
+  },
+  {
+   "id": "Q077",
+   "tipo": "caso",
+   "caso": "C34",
+   "familia": "DIS-COMP",
+   "competencia": "Tecnología, informática y sociedad",
+   "dificultad": 3,
+   "enunciado": "La unidad que organiza la docente se ubica principalmente en el componente de las Orientaciones Curriculares denominado",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "Tecnología, Informática y Sociedad, porque forma en decisiones éticas sobre la disposición final de los productos.",
+     "j": "Es correcta. Este componente forma en las dimensiones ética, política y crítica al evaluar, usar, adoptar, innovar y hacer disposición final de los productos tecnológicos para reducir y mitigar sus impactos."
+    },
+    {
+     "l": "B",
+     "t": "Uso y apropiación de la Tecnología y la Informática, porque los estudiantes deben aprender a usar y mantener bien los computadores.",
+     "j": "Es incorrecta. Ese componente se centra en el uso adecuado, pertinente y crítico de los productos. El caso trata de qué hacer con equipos dañados y de sus impactos, no de su uso."
+    },
+    {
+     "l": "C",
+     "t": "Solución de problemas con Tecnología e Informática, porque los estudiantes deben reparar los computadores para volver a usarlos.",
+     "j": "Es incorrecta. La unidad no propone reparar los equipos, sino investigar su disposición final y sus efectos; reparar sería detección de fallas, dentro de solución de problemas."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Las Orientaciones (3.3.1.4) dicen que el componente Tecnología, Informática y Sociedad «se centra en formar a los ciudadanos colombianos en las dimensiones ética, política y crítica de ser y estar en el mundo al evaluar, usar, adoptar, innovar y hacer disposición final de los productos tecnológicos e informáticos como medio necesario para reducir y mitigar sus impactos». La unidad sobre la chatarra electrónica es un ejemplo directo de disposición final y decisión responsable ante la comunidad. Es nivel 3 porque los cuatro componentes se tocan; la clave es identificar el énfasis: impactos y decisión ética.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 3.3.1.4.",
+   "consejo": "Para ubicar un componente, pregunta cuál es el énfasis: conceptos, uso, solución de problemas o impactos.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "hacer disposición final de los productos tecnológicos e informáticos como medio necesario para reducir y mitigar sus impactos"
+    }
+   ]
+  },
+  {
+   "id": "Q078",
+   "tipo": "caso",
+   "caso": "C35",
+   "familia": "DIS-SIST",
+   "competencia": "Naturaleza y evolución",
+   "dificultad": 3,
+   "enunciado": "Para el desempeño de la Guía 30 «Identifico artefactos que contienen sistemas de control con realimentación», el docente debe concluir con los estudiantes que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "solo el timbre tiene control con realimentación, porque está programado electrónicamente y funciona sin que nadie lo active.",
+     "j": "Es incorrecta. Estar programado no implica realimentación. El timbre suena a la hora fija sin verificar si hay clases: es un control en lazo abierto, que no corrige su acción según el resultado."
+    },
+    {
+     "l": "B",
+     "t": "solo el tanque tiene realimentación, porque el flotador mide el resultado (el nivel) y con eso actúa sobre la entrada.",
+     "j": "Es correcta. En el tanque, el flotador detecta el nivel del agua (la salida del sistema) y abre o cierra la válvula según ese valor: eso es realimentación. El timbre no mide nada de lo que produce."
+    },
+    {
+     "l": "C",
+     "t": "ambos tienen control con realimentación, porque los dos funcionan de forma automática sin la intervención de una persona.",
+     "j": "Es incorrecta. Confunde automatización con realimentación. Ambos son automáticos, pero solo el tanque usa información sobre su propio resultado para corregir la acción."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La Guía 30 incluye para octavo y noveno el desempeño «Identifico artefactos que contienen sistemas de control con realimentación». La realimentación existe cuando el sistema mide su propio resultado y usa esa información para ajustar su acción. El flotador mide el nivel (resultado) y cierra o abre la válvula (acción): lazo cerrado. El timbre sigue un programa sin medir nada: lazo abierto, aunque sea automático. El error típico que evalúa la CNSC es creer que todo lo automático o electrónico tiene realimentación. Pregunta guía: ¿el sistema «se entera» de lo que produjo?",
+   "fuente": "Guía 30 MEN, Naturaleza y evolución de la tecnología, octavo a noveno.",
+   "consejo": "Automático no es lo mismo que realimentado: busca si el sistema mide su propio resultado.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Identifico artefactos que contienen sistemas de control con realimentación."
+    }
+   ]
+  },
+  {
+   "id": "Q079",
+   "tipo": "caso",
+   "caso": "C36",
+   "familia": "DIS-DATOS",
+   "competencia": "Naturaleza y evolución",
+   "dificultad": 3,
+   "enunciado": "Para que cada una de las 30 categorías tenga un código binario distinto, el número mínimo de posiciones que debe tener cada tarjeta es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "5, porque con 5 posiciones se forman 32 combinaciones distintas de ceros y unos, suficientes para las 30 categorías.",
+     "j": "Es correcta. Con n posiciones binarias hay 2 elevado a n combinaciones. Con 4 hay 16, que no alcanzan; con 5 hay 32, que sí cubren las 30 categorías. Por eso 5 es el mínimo."
+    },
+    {
+     "l": "B",
+     "t": "4, porque con 4 posiciones se forman combinaciones suficientes si se usan los dos valores en cada una de ellas.",
+     "j": "Es incorrecta. Con 4 posiciones solo hay 2 × 2 × 2 × 2 = 16 combinaciones, y 16 es menor que 30. Faltarían 14 códigos para cubrir todas las categorías de libros."
+    },
+    {
+     "l": "C",
+     "t": "30, porque cada categoría necesita su propia posición perforada para que el sensor la reconozca sin confusiones.",
+     "j": "Es incorrecta. Usar una posición por categoría funciona, pero desperdicia la capacidad del sistema binario, en el que cada posición duplica las combinaciones. No es el número mínimo."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La Guía 30 incluye para octavo y noveno: «Identifico artefactos basados en tecnología digital y describo el sistema binario utilizado en dicha tecnología». Cada posición de la tarjeta es un bit con dos estados. El número de combinaciones con n bits es 2 elevado a n: 2⁴ = 16 no alcanza; 2⁵ = 32 sí. Es nivel 3 porque combina razonamiento matemático y concepto tecnológico. Esta pregunta también muestra cómo integrar Matemáticas con el área: las potencias de dos explican por qué un byte (8 bits) representa 256 valores. Ojo con el distractor que usa una posición por categoría.",
+   "fuente": "Guía 30 MEN, Naturaleza y evolución de la tecnología, octavo a noveno.",
+   "consejo": "Con n bits hay 2ⁿ códigos: busca la menor potencia de 2 que alcance la cantidad pedida.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Identifico artefactos basados en tecnología digital y describo el sistema binario utilizado en dicha tecnología."
+    }
+   ]
+  },
+  {
+   "id": "Q080",
+   "tipo": "caso",
+   "caso": "C37",
+   "familia": "DIS-DIDAC",
+   "competencia": "Didáctica del área",
+   "dificultad": 2,
+   "enunciado": "Si el docente quiere desarrollar la visita con la estrategia de análisis de productos tecnológicos de las Orientaciones Curriculares, la actividad más coherente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "pedir a los estudiantes que construyan una maqueta del acueducto siguiendo un plano entregado por el docente al regresar de la visita.",
+     "j": "Es incorrecta. Construir a partir de un plano corresponde a la estrategia de construcción-fabricación a partir de diseños; puede ser útil después, pero no es el análisis del producto."
+    },
+    {
+     "l": "B",
+     "t": "guiar a los estudiantes a formular preguntas sobre cómo llega el agua a la casa y qué aporta cada parte al sistema.",
+     "j": "Es correcta. Las Orientaciones proponen indagar los productos con preguntas orientadoras que permitan descubrir cómo cada parte contribuye al funcionamiento total, y citan cómo llega el agua a la casa."
+    },
+    {
+     "l": "C",
+     "t": "pedir a los estudiantes que propongan un nuevo acueducto que consuma menos energía y cueste menos que el actual de la vereda.",
+     "j": "Es incorrecta. Proponer un sistema mejorado corresponde a la estrategia de diseño y rediseño. El análisis se centra primero en comprender el producto existente mediante preguntas."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "En la estrategia de análisis de productos tecnológicos (4.2.3), los productos son indagados «a través de preguntas orientadoras, propias o suministradas por el docente, que permiten a niñas, niños y jóvenes descubrir la manera en que cada parte contribuye al funcionamiento total del producto tecnológico». El documento incluye ejemplos como «¿Qué recorrido hace el agua potable para llegar a lavamanos de la casa?» y el análisis de cómo llega el agua a la casa como sistema tecnológico. Recuerde que el éxito de esta estrategia, según las Orientaciones, radica en la profundidad y el rigor de las preguntas.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.3.",
+   "consejo": "Análisis = preguntas sobre un producto existente para comprender cómo funciona cada parte.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "que permiten a niñas, niños y jóvenes descubrir la manera en que cada parte contribuye al funcionamiento total del producto tecnológico"
+    }
+   ]
+  },
+  {
+   "id": "Q081",
+   "tipo": "caso",
+   "caso": "C38",
+   "familia": "PED-INCL",
+   "competencia": "Educación inclusiva",
+   "dificultad": 3,
+   "enunciado": "Frente a la situación de Tomás con el software de dibujo, la decisión de la docente coherente con el Decreto 1421 de 2017 es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "rehacer toda la planeación de la unidad para que todos los estudiantes del curso trabajen sin software de dibujo.",
+     "j": "Es incorrecta. Cambiar todo para todos desconoce que el DUA ya se aplicó y que la barrera es particular. El ajuste razonable responde a necesidades específicas sin eliminar experiencias para los demás."
+    },
+    {
+     "l": "B",
+     "t": "eximir a Tomás de la elaboración de los planos y evaluarlo solo con las demás actividades de la unidad de diseño.",
+     "j": "Es incorrecta. Eximirlo reduce su aprendizaje y participación. Los ajustes razonables buscan que el estudiante se desenvuelva con la máxima autonomía, no que deje de participar en la actividad."
+    },
+    {
+     "l": "C",
+     "t": "mantener lo planeado con DUA y, tras valorar a Tomás, definir un ajuste razonable para la elaboración de los planos.",
+     "j": "Es correcta. El DUA ya está en la planeación; como persiste una barrera específica para Tomás, corresponde un ajuste razonable, que la norma define como lo que se necesita a pesar de incorporar el DUA."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El Decreto 1421 de 2017 define los ajustes razonables como acciones, adaptaciones, apoyos o modificaciones «basadas en necesidades específicas de cada estudiante, que persisten a pesar de que se incorpore el Diseño Universal de los Aprendizajes». La docente ya aplicó DUA (varios formatos y formas de expresión), pero persiste una barrera concreta para Tomás. Esa es exactamente la condición para un ajuste razonable, que debe definirse tras evaluar sus características y registrarse en el PIAR. Es nivel 3 porque exige distinguir DUA (para todos) de ajuste razonable (para una necesidad que persiste).",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.5.1.4 (Decreto 1421 de 2017), num. 4.",
+   "consejo": "Primero DUA para todos; si una barrera persiste para un estudiante, ajuste razonable.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "basadas en necesidades específicas de cada estudiante, que persisten a pesar de que se incorpore el Diseño Universal de los Aprendizajes"
+    }
+   ]
+  },
+  {
+   "id": "Q082",
+   "tipo": "caso",
+   "caso": "C39",
+   "familia": "PED-INCL",
+   "competencia": "Educación inclusiva",
+   "dificultad": 2,
+   "enunciado": "Según el Decreto 1421 de 2017, una vez finalizado el diseño del PIAR, el acta de acuerdo con los compromisos debe ser firmada por",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el acudiente, el directivo de la institución, el docente de apoyo y los docentes a cargo de la estudiante.",
+     "j": "Es correcta. Es la conformación exacta que establece la norma para el acta de acuerdo, y cada firmante recibe una copia para hacer seguimiento a los compromisos adquiridos."
+    },
+    {
+     "l": "B",
+     "t": "el rector, el orientador escolar y el profesional de salud que emitió el diagnóstico de la estudiante.",
+     "j": "Es incorrecta. La norma no exige la firma del profesional de salud ni del orientador. El PIAR no depende de un diagnóstico médico, y los firmantes son quienes asumen compromisos en el aula."
+    },
+    {
+     "l": "C",
+     "t": "el acudiente y el docente de apoyo, porque son los responsables de diseñar el PIAR de la estudiante.",
+     "j": "Es incorrecta. Deja por fuera al directivo y a los docentes a cargo, que también asumen compromisos y deben firmar. Recortar la lista es un distractor frecuente."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 2.3.3.5.2.3.6 del Decreto 1075 de 2015 (Decreto 1421 de 2017) dice que una vez finalizado el diseño del PIAR se elaborará un acta de acuerdo con los compromisos, «la cual deberá ser firmada por el acudiente, el directivo de la institución educativa, el docente de apoyo y los docentes a cargo, quienes tendrán una copia para su seguimiento». El parágrafo agrega que el acta permite a la familia hacer seguimiento y veeduría. Para la CNSC, los docentes de aula no son espectadores del PIAR: firman y se comprometen con los ajustes en su área.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.6 (Decreto 1421 de 2017).",
+   "consejo": "En las listas de responsables, compara la opción con la norma completa: ni sobra ni falta nadie.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "la cual deberá ser firmada por el acudiente, el directivo de la institución educativa, el docente de apoyo y los docentes a cargo, quienes tendrán una copia para su seguimiento"
+    }
+   ]
+  },
+  {
+   "id": "Q083",
+   "tipo": "caso",
+   "caso": "C40",
+   "familia": "PED-INCL",
+   "competencia": "Educación inclusiva",
+   "dificultad": 2,
+   "enunciado": "De acuerdo con el Decreto 1421 de 2017, en el traslado de Julián corresponde que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la institución receptora elabore un PIAR completamente nuevo y archive el anterior, porque cada colegio tiene su propio contexto.",
+     "j": "Es incorrecta. El contexto cambia, pero la norma pide actualizar el PIAR, no descartarlo. Conservar la historia escolar facilita la transición del estudiante entre instituciones."
+    },
+    {
+     "l": "B",
+     "t": "la institución de origen entregue formalmente la historia escolar y la institución receptora actualice el PIAR al nuevo contexto.",
+     "j": "Es correcta. La norma dice que, en un traslado, la institución de origen entrega la historia escolar al directivo de la receptora, y esta debe actualizar el PIAR al nuevo contexto escolar."
+    },
+    {
+     "l": "C",
+     "t": "la institución receptora aplique el PIAR de origen sin cambios hasta terminar el año, para no interrumpir el proceso del estudiante.",
+     "j": "Es incorrecta. Aplicarlo sin cambios desconoce que los apoyos dependen del nuevo entorno escolar. La norma ordena actualizarlo al nuevo contexto, no mantenerlo igual."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El parágrafo 2 del artículo 2.3.3.5.2.3.5 dice que, si un estudiante requiere traslado, la institución de origen, en coordinación con la familia, «deberá entregar formalmente la historia escolar del estudiante al directivo de la institución receptora», y que esta última «deberá actualizar el PIAR al nuevo contexto escolar». Los dos distractores representan errores opuestos: empezar de cero o no cambiar nada. La CNSC valora la continuidad de la trayectoria educativa del estudiante con discapacidad: se conserva lo construido y se ajusta a las nuevas condiciones.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.5, parágrafo 2 (Decreto 1421 de 2017).",
+   "consejo": "En traslados: se entrega la historia escolar y se actualiza el PIAR; ni se borra ni se congela.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Esta última deberá actualizar el PIAR al nuevo contexto escolar"
+    }
+   ]
+  },
+  {
+   "id": "Q084",
+   "tipo": "caso",
+   "caso": "C41",
+   "familia": "PED-INCL",
+   "competencia": "Educación inclusiva",
+   "dificultad": 2,
+   "enunciado": "Según el Decreto 1421 de 2017, al finalizar el año Camilo recibirá, además de los informes que reciben todos los estudiantes,",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "un informe anual de competencias elaborado por el docente de apoyo, que reemplaza el boletín que reciben sus compañeros.",
+     "j": "Es incorrecta. El informe anual no reemplaza el boletín: la norma dice que los estudiantes con discapacidad reciben los mismos informes que los demás y que el informe anual se anexa."
+    },
+    {
+     "l": "B",
+     "t": "un certificado de asistencia, porque los ajustes en la evaluación impiden valorar sus competencias con la escala institucional.",
+     "j": "Es incorrecta. La norma no sustituye la valoración por un certificado de asistencia. Los ajustes en la evaluación permiten valorar las competencias, no las excluyen."
+    },
+    {
+     "l": "C",
+     "t": "un informe anual de competencias elaborado por el docente de aula en coordinación con el docente de apoyo y los demás docentes.",
+     "j": "Es correcta. Como su PIAR tiene ajustes particulares en la evaluación, la norma ordena anexar un informe anual de competencias elaborado por el docente de aula en coordinación con el docente de apoyo."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El artículo 2.3.3.5.2.3.7 dice que los estudiantes con discapacidad «recibirán los mismos informes de seguimiento y retroalimentación» que todos, y que para quienes tienen ajustes particulares en la evaluación «se anexará un informe anual de proceso pedagógico» (preescolar) «o de competencias» (básica y media). Este anexo «será elaborado por el docente de aula en coordinación con el docente de apoyo y demás docentes intervinientes». El distractor más fuerte cambia quién lo elabora y lo presenta como reemplazo. Para la CNSC, el docente de aula es responsable directo de la evaluación del estudiante con discapacidad.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.7 (Decreto 1421 de 2017).",
+   "consejo": "Fíjate en dos detalles: quién elabora el informe y si reemplaza o se anexa al boletín.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Este anexo será elaborado por el docente de aula en coordinación con el docente de apoyo y demás docentes intervinientes"
+    }
+   ]
+  },
+  {
+   "id": "Q085",
+   "tipo": "caso",
+   "caso": "C42",
+   "familia": "PED-EVAL-NORM",
+   "competencia": "Evaluación del aprendizaje (marco normativo)",
+   "dificultad": 3,
+   "enunciado": "Frente a la sugerencia del docente, la comisión actúa conforme al Decreto 1421 de 2017 si",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la promueve automáticamente al grado siguiente, porque los estudiantes con discapacidad no pueden reprobar el año escolar.",
+     "j": "Es incorrecta. La norma no establece promoción automática: la promoción se rige por las mismas disposiciones del SIEE, teniendo en cuenta la flexibilización curricular y la valoración pedagógica."
+    },
+    {
+     "l": "B",
+     "t": "aplica los criterios de promoción del SIEE y, si Sofía no es promovida, recomienda a la familia trasladarla a otra institución.",
+     "j": "Es incorrecta. Recomendar el traslado contradice la obligación de garantizar el cupo para que continúe su proceso formativo y es una forma de exclusión que la educación inclusiva busca eliminar."
+    },
+    {
+     "l": "C",
+     "t": "aplica los criterios de promoción del SIEE considerando la flexibilización curricular y, si Sofía no es promovida, le garantiza el cupo.",
+     "j": "Es correcta. La norma dice que la promoción de estudiantes con discapacidad se rige por las mismas disposiciones, considerando la flexibilización curricular, y que si no se promueve se le debe garantizar el cupo."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El Decreto 1421 de 2017 modificó el artículo 2.3.3.3.3.6 del Decreto 1075: «Cuando un establecimiento educativo determine que un estudiante no puede ser promovido al grado siguiente, debe garantizarle, en todos los casos, el cupo para que continúe con su proceso formativo». Y añade que la promoción de estudiantes con discapacidad se rige por las mismas disposiciones, teniendo en cuenta la flexibilización curricular y la valoración pedagógica. Es nivel 3 porque dos opciones comparten el inicio correcto; la diferencia está en la segunda condición. Recuerde: ni promoción automática ni exclusión.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.6 (modificado por el Decreto 1421 de 2017, art. 3).",
+   "consejo": "Cuando dos opciones empiezan igual, la clave está en la segunda parte: compárala con la norma.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "debe garantizarle, en todos los casos, el cupo para que continúe con su proceso formativo"
+    }
+   ]
+  },
+  {
+   "id": "Q086",
+   "tipo": "caso",
+   "caso": "C43",
+   "familia": "PED-EVAL",
+   "competencia": "Evaluar",
+   "dificultad": 3,
+   "enunciado": "Para evaluar las prácticas de programación de forma coherente con las Orientaciones Curriculares, el docente debe",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "observar con rúbricas o listas de cotejo la secuencia de acciones de cada estudiante, diferenciándola del producto.",
+     "j": "Es correcta. Las Orientaciones piden evaluar las prácticas observando la secuencia de acciones hacia un fin, con rúbricas, listas de cotejo o diseño de algoritmos, y diferenciarlas del producto obtenido."
+    },
+    {
+     "l": "B",
+     "t": "mantener la calificación del producto final, pero dar a los estudiantes una segunda oportunidad para presentar el juego funcionando.",
+     "j": "Es incorrecta. La segunda oportunidad es razonable, pero sigue evaluando solo el producto final. El problema del caso es que el proceso de depuración y explicación no se valora."
+    },
+    {
+     "l": "C",
+     "t": "reemplazar la presentación de los juegos por un examen escrito sobre los bloques de Scratch y los conceptos de programación.",
+     "j": "Es incorrecta. Un examen escrito evalúa saberes declarativos; las Orientaciones advierten que las prácticas deben diferenciarse de los saberes declarados y evaluarse en la acción."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Las Orientaciones Curriculares (5.2.1) explican que la evaluación de las prácticas «implica la observación objetiva de la secuencia de acciones sistemáticas y organizadas que la niña, niño o adolescente realiza para alcanzar un fin», con instrumentos como listas de cotejo, rúbricas o el diseño de algoritmos, y que «hay que diferenciarlas de los saberes declarados o del producto obtenido». El docente del caso solo mira si el juego funciona el día de la entrega. Es nivel 3 porque hay dos distractores razonables: la segunda oportunidad y el examen escrito; ninguno evalúa el proceso.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 5.2.1.",
+   "consejo": "Evaluar prácticas = observar el proceso con instrumentos, no solo el producto ni solo el examen escrito.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Por tanto, hay que diferenciarlas de los saberes declarados o del producto obtenido."
+    }
+   ]
+  },
+  {
+   "id": "Q087",
+   "tipo": "caso",
+   "caso": "C44",
+   "familia": "PED-EVAL",
+   "competencia": "Evaluar",
+   "dificultad": 3,
+   "enunciado": "Al evaluar las dos lámparas según las Orientaciones Curriculares, el docente debe valorar mejor el trabajo del",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "equipo 1, porque los acabados, la estética y la calidad final del producto demuestran el dominio técnico que alcanzó el equipo.",
+     "j": "Es incorrecta. Los acabados son una categoría de análisis, pero el documento advierte que no son el énfasis. Un producto impecable sin saber que lo sustente no evidencia la competencia."
+    },
+    {
+     "l": "B",
+     "t": "equipo 2, porque el énfasis de la evaluación está en el saber y las decisiones que se materializan en el producto, no en sus acabados.",
+     "j": "Es correcta. Las Orientaciones dicen que el énfasis de la evaluación no será el producto, sus acabados, su eficiencia o eficacia, sino la determinación de su materialización, es decir, el saber que hay detrás."
+    },
+    {
+     "l": "C",
+     "t": "dos equipos por igual, porque ambos entregaron una lámpara funcional hecha con material reciclado, que era el producto pedido.",
+     "j": "Es incorrecta. Entregar el producto no basta: evaluar a través del producto significa valorar los argumentos y decisiones de diseño, que en el equipo 1 están ausentes."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones (5.2.2) presentan criterios para evaluar competencias a través del producto tecnológico y concluyen: «el énfasis de la evaluación no será el producto, sus acabados, su eficiencia o eficacia, sino la determinación de su materialización, el saber que hemos velado en su concretización». El equipo 2 argumenta cada decisión y explica cómo resolvió un problema; el equipo 1 no sabe explicar su propio trabajo. Es nivel 3 porque el distractor de los acabados es muy atractivo. Lógica para recordar: en el área, el producto es una evidencia del aprendizaje, no el aprendizaje mismo.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 5.2.2.",
+   "consejo": "El producto es evidencia: lo que se evalúa es el saber y las decisiones que lo hicieron posible.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "el énfasis de la evaluación no será el producto, sus acabados, su eficiencia o eficacia, sino la determinación de su materialización"
+    }
+   ]
+  },
+  {
+   "id": "Q088",
+   "tipo": "caso",
+   "caso": "C45",
+   "familia": "PED-EVAL",
+   "competencia": "Evaluar",
+   "dificultad": 2,
+   "enunciado": "Frente al comentario del colega, la docente puede sustentar el uso de la bitácora en que, según las Orientaciones Curriculares,",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "no todo lo evaluado para emitir el juicio de valor debe ser calificado, y lo socioemocional puede retroalimentarse sin nota.",
+     "j": "Es correcta. Las Orientaciones dicen textualmente «Tenga presente que no todo lo evaluado para emitir el juicio de valor debe ser calificado» y que lo socioemocional no necesariamente se califica, pero sí se retroalimenta."
+    },
+    {
+     "l": "B",
+     "t": "todo lo que se registra en la bitácora debe convertirse en nota, para que los estudiantes la tomen en serio y la diligencien.",
+     "j": "Es incorrecta. Es la postura contraria a la del documento. Convertir todo en nota desconoce que hay aspectos que se evalúan para retroalimentar, sin necesidad de calificarlos."
+    },
+    {
+     "l": "C",
+     "t": "la autoevaluación solo es válida si se aplica al final del periodo y se promedia con las demás notas del área.",
+     "j": "Es incorrecta. La docente usa la bitácora en cada clase, lo que favorece el seguimiento permanente. Reducir la autoevaluación a una nota final la aleja de su función formativa."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Las Orientaciones (5.2.1) recomiendan evaluar con variadas acciones observables y advierten: «Tenga presente que no todo lo evaluado para emitir el juicio de valor debe ser calificado». Más adelante señalan que el tema socioemocional «no necesariamente debe ser calificado, pero si retroalimentado». La bitácora permite a la docente conocer dudas y dinámicas de equipo para ajustar su enseñanza. La CNSC distingue evaluar (recoger información y emitir juicios para mejorar) de calificar (asignar una nota). Un docente que solo valora lo que tiene nota pierde información formativa valiosa.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 5.2.1.",
+   "consejo": "Evaluar no es lo mismo que calificar: hay evidencias que solo sirven para retroalimentar.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Tenga presente que no todo lo evaluado para emitir el juicio de valor debe ser calificado."
+    }
+   ]
+  },
+  {
+   "id": "Q089",
+   "tipo": "caso",
+   "caso": "C46",
+   "familia": "PED-ENSENAR",
+   "competencia": "Enseñar",
+   "dificultad": 2,
+   "enunciado": "Para aplicar el aula invertida como la describen las Orientaciones Curriculares, el docente debe",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "explicar las funciones en clase y dejar como tarea para la casa la resolución de los problemas con la hoja de cálculo.",
+     "j": "Es incorrecta. Es el modelo tradicional que el aula invertida busca intercambiar: la enseñanza directa en clase y la aplicación en casa, sin el acompañamiento del docente."
+    },
+    {
+     "l": "B",
+     "t": "grabar sus clases y reemplazar las sesiones presenciales por videos que los estudiantes ven y resuelven desde su casa.",
+     "j": "Es incorrecta. El aula invertida no elimina la clase presencial: la reorganiza para dedicarla a la socialización, la resolución de dudas y la aplicación acompañada."
+    },
+    {
+     "l": "C",
+     "t": "entregar antes de clase recursos para el trabajo autónomo y usar la clase para resolver dudas y aplicar conceptos.",
+     "j": "Es correcta. Es la secuencia del aula invertida: antes, trabajo autónomo con recursos; durante la clase, resolver dudas y actividades colaborativas; después, profundizar y aplicar."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones (4.4.4) explican que el aula invertida busca intercambiar los roles, «pasando los espacios de enseñanza directa hacia espacios individuales y los espacios de tareas, ejercicios de aplicación a espacios colectivos de socialización y enseñanza». Se desarrolla en tres momentos: antes (trabajo autónomo en casa), durante (resolver dudas, asegurar conceptos, trabajo colaborativo) y después (profundizar y aplicar). El propósito del docente, más tiempo para resolver problemas acompañados, coincide con esa lógica. Los distractores describen el modelo tradicional o una educación solo virtual.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.4.4.",
+   "consejo": "Aula invertida: lo expositivo va a casa y la aplicación acompañada viene al aula.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "pasando los espacios de enseñanza directa hacia espacios individuales y los espacios de tareas, ejercicios de aplicación a espacios colectivos de socialización y enseñanza"
+    }
+   ]
+  },
+  {
+   "id": "Q090",
+   "tipo": "caso",
+   "caso": "C47",
+   "familia": "PED-ENSENAR",
+   "competencia": "Enseñar",
+   "dificultad": 2,
+   "enunciado": "Según los pasos del enfoque STEM+ que presentan las Orientaciones Curriculares, los docentes deben iniciar el proyecto con",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la identificación de las metas de aprendizaje de cada área, para luego buscar un problema que permita alcanzarlas.",
+     "j": "Es incorrecta. Identificar metas es el segundo paso, y debe derivarse del diagnóstico. Partir de las metas de cada área reproduce la fragmentación curricular que STEM+ busca superar."
+    },
+    {
+     "l": "B",
+     "t": "el diagnóstico y reconocimiento de la situación problema inicial sobre la escasez de agua en el barrio.",
+     "j": "Es correcta. El primer paso del enfoque STEM+ en las Orientaciones es el diagnóstico y reconocimiento de la situación problema inicial; luego vienen las metas, las acciones, la implementación y la evaluación."
+    },
+    {
+     "l": "C",
+     "t": "la implementación de un prototipo de recolección de aguas lluvias, para motivar a los estudiantes desde el comienzo.",
+     "j": "Es incorrecta. La implementación interdisciplinar es el cuarto paso. Empezar por la solución sin diagnóstico puede llevar a resolver un problema distinto del que vive el barrio."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones (4.3.2) describen STEM+ como un enfoque que supera la fragmentación curricular mediante proyectos y solución de problemas en contextos reales, con estos pasos: «1) diagnóstico y reconocimiento de la situación problema inicial, 2) identificación de metas, 3) planteamiento de acciones para alcanzar las metas, 4) implementación interdisciplinar para mejorar la situación diagnosticada, y 5) evaluación del nivel de logro alcanzado en el proyecto». La CNSC valora que los proyectos partan del contexto real. Los distractores empiezan por pasos posteriores de la secuencia.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.3.2.",
+   "consejo": "En proyectos, el primer paso casi siempre es diagnosticar la situación real antes de proponer soluciones.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "diagnóstico y reconocimiento de la situación problema inicial"
+    }
+   ]
+  },
+  {
+   "id": "Q091",
+   "tipo": "caso",
+   "caso": "C19",
+   "familia": "NOR-CONV-RUTA",
+   "competencia": "Convivencia escolar",
+   "dificultad": 2,
+   "enunciado": "Según el Decreto 1965 de 2013, el primer paso del protocolo que debe seguir el docente frente a esta situación es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "reunir inmediatamente a las partes y mediar de manera pedagógica para que expongan sus puntos de vista y busquen la reparación.",
+     "j": "Es correcta. Es una situación tipo I (conflicto esporádico sin daño al cuerpo). El primer paso de su protocolo es reunir de inmediato a las partes y mediar pedagógicamente para reparar y reconciliar."
+    },
+    {
+     "l": "B",
+     "t": "remitir el caso al comité escolar de convivencia para que analice la situación y defina las consecuencias para los estudiantes.",
+     "j": "Es incorrecta. Remitir al comité de entrada corresponde a situaciones de mayor gravedad. En tipo I, el manejo inicial es la mediación pedagógica inmediata entre las partes."
+    },
+    {
+     "l": "C",
+     "t": "informar de inmediato a los padres de ambos estudiantes y suspenderlos de la clase de informática hasta que se reúnan.",
+     "j": "Es incorrecta. Informar inmediatamente a los acudientes es un paso del protocolo tipo II. La suspensión, además, no figura en el protocolo tipo I, que privilegia la mediación y la reparación."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El caso describe un conflicto esporádico, sin daños al cuerpo ni a la salud: situación tipo I según el artículo 40 del Decreto 1965. El artículo 42 dice que su protocolo inicia con «Reunir inmediatamente a las partes involucradas en el conflicto y mediar de manera pedagógica para que éstas expongan sus puntos de vista y busquen la reparación de los daños causados». Luego se fija la solución y se hace seguimiento. La CNSC evalúa la proporcionalidad: aplicar a un conflicto menor pasos de un protocolo más grave (comité, suspensión) es tan incorrecto como ignorar una situación grave.",
+   "fuente": "Decreto 1965 de 2013, arts. 40 y 42.",
+   "consejo": "Primero clasifica (tipo I, II o III) y luego elige el primer paso del protocolo de ese tipo.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Reunir inmediatamente a las partes involucradas en el conflicto y mediar de manera pedagógica para que éstas expongan sus puntos de vista"
+    }
+   ]
+  },
+  {
+   "id": "Q092",
+   "tipo": "caso",
+   "caso": "C48",
+   "familia": "RC-FORM",
+   "competencia": "Formulación y ejecución",
+   "dificultad": 3,
+   "enunciado": "El porcentaje de aprobación de todo el grado séptimo es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "71,7 %, porque es el promedio de los porcentajes de los tres cursos.",
+     "j": "Es incorrecta. Promediar 75 %, 90 % y 50 % da 71,7 %, pero ese cálculo da el mismo peso a cursos de 20 y de 40 estudiantes. Con grupos de distinto tamaño, el promedio simple no es válido."
+    },
+    {
+     "l": "B",
+     "t": "63 %, porque aprobaron 63 estudiantes en el total del grado.",
+     "j": "Es incorrecta. Confunde la cantidad de aprobados con el porcentaje. Sesenta y tres es un número de estudiantes; para obtener el porcentaje hay que dividirlo entre el total de evaluados."
+    },
+    {
+     "l": "C",
+     "t": "70 %, porque aprobaron 63 de los 90 estudiantes del grado.",
+     "j": "Es correcta. Se suman los aprobados (30 + 18 + 15 = 63) y los evaluados (40 + 20 + 30 = 90). Luego 63 ÷ 90 = 0,7, es decir, el 70 % del grado aprobó la prueba."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Para el porcentaje de un grupo total, se divide el total de aprobados entre el total de evaluados: (30 + 18 + 15) ÷ (40 + 20 + 30) = 63 ÷ 90 = 70 %. El error más atractivo es promediar los porcentajes de los cursos (75 %, 90 % y 50 %), que da 71,7 %; ese procedimiento solo funciona si los grupos tienen el mismo tamaño. La CNSC usa mucho este tipo de trampa en razonamiento cuantitativo con datos institucionales. Antes de promediar porcentajes, verifique si los grupos son del mismo tamaño; si no lo son, trabaje con las cantidades absolutas.",
+   "fuente": "ICFES, Marco de referencia de Razonamiento Cuantitativo: formulación y ejecución.",
+   "consejo": "No promedies porcentajes de grupos de distinto tamaño: suma cantidades y divide.",
+   "citas": []
+  },
+  {
+   "id": "Q093",
+   "tipo": "caso",
+   "caso": "C48",
+   "familia": "RC-ARG",
+   "competencia": "Argumentación",
+   "dificultad": 2,
+   "enunciado": "Un docente afirma: «El curso 7-1 tuvo mejor desempeño que el 7-2, porque aprobaron 30 estudiantes y no 18». Esta afirmación es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "correcta, porque el número de estudiantes aprobados es mayor en el 7-1, y eso indica directamente un mejor desempeño del curso.",
+     "j": "Es incorrecta. Un número mayor de aprobados puede deberse solo a que el curso es más grande. Para comparar desempeños hay que usar proporciones, no cantidades absolutas."
+    },
+    {
+     "l": "B",
+     "t": "incorrecta, porque compara cantidades de grupos de distinto tamaño; en proporción, el 7-2 tuvo mejor desempeño.",
+     "j": "Es correcta. El 7-1 tiene el doble de estudiantes que el 7-2. En proporción, 18 de 20 es 90 % y 30 de 40 es 75 %: el 7-2 tuvo mejor desempeño relativo."
+    },
+    {
+     "l": "C",
+     "t": "incorrecta, porque el 7-1 y el 7-2 tuvieron el mismo desempeño, ya que en ambos cursos la mayoría de estudiantes aprobó.",
+     "j": "Es incorrecta. Que en ambos aprobara la mayoría no significa que el desempeño sea igual: 90 % y 75 % son proporciones diferentes, y la diferencia es de quince puntos porcentuales."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La afirmación compara cantidades absolutas de grupos de distinto tamaño (40 y 20 estudiantes). Para comparar desempeños se usan proporciones: 7-1 = 30 ÷ 40 = 75 %; 7-2 = 18 ÷ 20 = 90 %. El 7-2 tuvo mejor desempeño relativo. En la competencia de argumentación, la CNSC pide validar o refutar afirmaciones con base en los datos. El distractor de «la mayoría aprobó en ambos» es tentador porque es verdad, pero no responde a la comparación. Siempre pregúntese: ¿la conclusión se sigue de los datos o ignora el tamaño de los grupos?",
+   "fuente": "ICFES, Marco de referencia de Razonamiento Cuantitativo: argumentación.",
+   "consejo": "Para comparar grupos, usa proporciones; las cantidades absolutas engañan si los tamaños son distintos.",
+   "citas": []
+  },
+  {
+   "id": "Q094",
+   "tipo": "caso",
+   "caso": "C49",
+   "familia": "CB-ETICA",
+   "competencia": "Ética",
+   "dificultad": 2,
+   "enunciado": "Frente al prototipo comprado, la actuación ética de usted como coordinador del equipo es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "presentar el prototipo en la feria, porque la idea fue de los estudiantes y el padre solo ayudó a conseguir los materiales.",
+     "j": "Es incorrecta. El caso dice que el prototipo fue comprado ya armado y que el informe afirma lo contrario. Presentarlo así sería engañar al jurado y enseñar a los estudiantes que el fraude es aceptable."
+    },
+    {
+     "l": "B",
+     "t": "hablar con los estudiantes y la familia, explicar por qué no puede presentarse como propio y mostrar lo que sí construyeron.",
+     "j": "Es correcta. Actúa con honestidad y responsabilidad: evita presentar como propio algo que no lo es, y lo hace de forma formativa, dialogando y valorando el trabajo real de los estudiantes."
+    },
+    {
+     "l": "C",
+     "t": "retirar al equipo de la feria sin dar explicaciones, para evitar un conflicto con el padre de familia y con los estudiantes.",
+     "j": "Es incorrecta. Retirar al equipo evita el fraude, pero sin diálogo pierde la oportunidad formativa y deja sin explicar la decisión a los estudiantes y a la familia."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La ética profesional docente implica actuar con honestidad, transparencia y sentido formativo. Presentar un prototipo comprado como si los estudiantes lo hubieran construido es un engaño al jurado y un mal ejemplo. Pero la CNSC no premia solo evitar la falta: valora que el docente convierta la situación en aprendizaje, dialogue con los involucrados y rescate el trabajo auténtico. Por eso la opción de retirarse sin explicaciones, aunque evita el fraude, es inferior. En preguntas de ética, busque la opción que es honesta y, a la vez, pedagógica y respetuosa.",
+   "fuente": "Competencias básicas del docente (ética profesional); Guía de orientación al aspirante CNSC.",
+   "consejo": "En ética, la mejor opción es honesta y además formativa; evitar el problema sin diálogo no basta.",
+   "citas": []
+  },
+  {
+   "id": "Q095",
+   "tipo": "caso",
+   "caso": "C49",
+   "familia": "CB-EQUIPO",
+   "competencia": "Trabajo en equipo",
+   "dificultad": 2,
+   "enunciado": "Frente a los dos docentes que dejaron de asistir a las reuniones, la acción que favorece el trabajo en equipo es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "redistribuir sus tareas entre los demás integrantes para cumplir con la feria y retomar el tema después del evento.",
+     "j": "Es incorrecta. Garantiza el cumplimiento inmediato, pero ignora el desacuerdo que causó la ausencia y recarga a los demás integrantes; el conflicto puede repetirse más adelante."
+    },
+    {
+     "l": "B",
+     "t": "informar al rector que los dos docentes abandonaron el proyecto para que tome las medidas disciplinarias que correspondan.",
+     "j": "Es incorrecta. Escalar el caso de inmediato sin intentar el diálogo convierte una diferencia de trabajo en un asunto disciplinario y deteriora la relación entre compañeros."
+    },
+    {
+     "l": "C",
+     "t": "reunirse con ellos para escuchar sus desacuerdos y acordar con todo el equipo una distribución de tareas más equilibrada.",
+     "j": "Es correcta. Escuchar los desacuerdos y construir acuerdos con todos fortalece el trabajo en equipo y aprovecha los aportes de cada integrante, que es lo que se espera de un coordinador."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El trabajo en equipo implica reconocer las diferencias, escuchar a todos y construir acuerdos. Los docentes se retiraron porque no están de acuerdo con el reparto de tareas: la causa es un desacuerdo que se puede tratar. La opción correcta aborda esa causa y busca un acuerdo colectivo. La redistribución resuelve lo urgente pero no lo importante, y acudir al rector antes de dialogar escala un conflicto que puede resolverse entre pares. En la CNSC, el diálogo directo y los acuerdos suelen ser la primera opción antes de acudir a instancias superiores.",
+   "fuente": "Competencias básicas del docente (trabajo en equipo); Guía de orientación al aspirante CNSC.",
+   "consejo": "Antes de escalar a una instancia superior, la CNSC espera diálogo directo y acuerdos.",
+   "citas": []
+  },
+  {
+   "id": "Q096",
+   "tipo": "caso",
+   "caso": "C50",
+   "familia": "PSI-NEGM",
+   "competencia": "Negociación y mediación",
+   "dificultad": 2,
+   "enunciado": "Para destrabar la comisión, usted",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "propone reglas acordadas: turnos de palabra, criterios para elegir propuestas y un cronograma con tareas para todos.",
+     "j": "Es correcta. Facilita el acuerdo con reglas construidas por el grupo, da voz a quienes no participan y organiza el trabajo hacia la meta. Es la actuación propia de la negociación y mediación."
+    },
+    {
+     "l": "B",
+     "t": "pide al rector que designe a una sola persona para redactar toda la propuesta y que los demás integrantes la revisen al final del mes.",
+     "j": "Es incorrecta. Resuelve el plazo, pero renuncia al trabajo colectivo y no media en el conflicto. Además, las ideas de quienes no opinan quedan por fuera de la propuesta."
+    },
+    {
+     "l": "C",
+     "t": "respalda la propuesta del colega que tenga más experiencia para cerrar rápido la discusión y cumplir con el plazo fijado.",
+     "j": "Es incorrecta. Tomar partido por uno de los colegas que discuten no media el conflicto: lo resuelve imponiendo una postura, y deja sin escuchar a quienes no opinan."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La competencia de negociación y mediación implica facilitar acuerdos entre posiciones distintas, de manera respetuosa y orientada a resultados. En el caso hay dos problemas: dos colegas en conflicto y varios que no participan. La opción correcta atiende ambos, porque propone reglas acordadas, criterios para decidir y responsabilidades para todos. Las otras dos opciones cumplen el plazo, pero lo hacen sin mediar: una centraliza el trabajo y la otra impone una postura. En las preguntas comportamentales de la CNSC, las respuestas que construyen acuerdos suelen superar a las que imponen soluciones.",
+   "fuente": "Res. 3842 de 2022 (competencias comportamentales del docente); Guía de orientación al aspirante CNSC.",
+   "consejo": "Mediar es crear condiciones para el acuerdo, no elegir quién gana.",
+   "citas": []
+  },
+  {
+   "id": "Q097",
+   "tipo": "caso",
+   "caso": "C50",
+   "familia": "PSI-LOGRO",
+   "competencia": "Orientación al logro",
+   "dificultad": 3,
+   "enunciado": "Para asegurar que la comisión entregue a tiempo una propuesta de calidad, usted",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "trabaja por su cuenta en una propuesta completa del plan de área para tenerla lista por si la comisión no termina a tiempo.",
+     "j": "Es incorrecta. Muestra compromiso, pero actúa al margen de la comisión y anticipa su fracaso. El logro esperado es colectivo, y la propuesta individual no recoge los aportes del grupo."
+    },
+    {
+     "l": "B",
+     "t": "pide al rector ampliar el plazo a dos meses, porque una propuesta de calidad necesita más tiempo del que fue asignado.",
+     "j": "Es incorrecta. Pedir más plazo antes de organizar el trabajo evita el reto en lugar de afrontarlo. Podría ser razonable después de intentarlo, pero no es la primera acción orientada al logro."
+    },
+    {
+     "l": "C",
+     "t": "propone metas semanales, revisa con la comisión el avance en cada reunión y ajusta las tareas si alguna se retrasa.",
+     "j": "Es correcta. La orientación al logro se demuestra planificando metas medibles, haciendo seguimiento al avance y corrigiendo a tiempo, sin sacrificar la calidad del producto final."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La orientación al logro implica fijar metas, planear y hacer seguimiento para cumplir con calidad y a tiempo. La opción correcta organiza el trabajo del mes en metas semanales con revisión y ajustes. Es nivel 3 porque los distractores tienen algo valioso: trabajar solo muestra esfuerzo, y pedir plazo cuida la calidad. Pero el primero rompe el trabajo colectivo y el segundo renuncia al reto antes de intentarlo. En las preguntas comportamentales, la CNSC prefiere la acción que afronta la meta con planeación y seguimiento dentro del equipo.",
+   "fuente": "Res. 3842 de 2022 (competencias comportamentales del docente); Guía de orientación al aspirante CNSC.",
+   "consejo": "Orientación al logro = metas claras + seguimiento + ajustes, dentro del equipo.",
+   "citas": []
+  }
+ ]
+}

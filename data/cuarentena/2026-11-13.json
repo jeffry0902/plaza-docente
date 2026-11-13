@@ -1,0 +1,51 @@
+{
+ "id": "2026-11-13",
+ "fecha": "2026-11-13",
+ "casos": [
+  {
+   "id": "C27",
+   "titulo": "La página web del restaurante escolar",
+   "texto": "Un docente de grado décimo proyecta en clase la página web de un restaurante y pide a sus estudiantes que construyan una igual para el restaurante escolar usando el lenguaje de marcado que han estudiado. No entrega instrucciones paso a paso ni planos: los estudiantes deben descubrir, a partir de lo que observan en la página, la información que necesitan para reproducirla."
+  }
+ ],
+ "fichas": [],
+ "items": [
+  {
+   "id": "Q069",
+   "tipo": "caso",
+   "caso": "C27",
+   "familia": "DIS-DIDAC",
+   "competencia": "Didáctica del área",
+   "dificultad": 3,
+   "enunciado": "La actividad que propone el docente corresponde, según las Orientaciones Curriculares, a",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la estrategia de análisis de productos tecnológicos, porque los estudiantes parten de una página web terminada para estudiarla.",
+     "j": "Es incorrecta. En el análisis se parte del producto para descomponerlo y formular preguntas sobre él; aquí la meta es reproducirlo. Partir de un producto terminado no basta para identificar la estrategia."
+    },
+    {
+     "l": "B",
+     "t": "la estrategia de diseño y rediseño, porque los estudiantes deben mejorar una página existente para el restaurante escolar.",
+     "j": "Es incorrecta. El rediseño busca innovar o mejorar un producto existente; el docente no pide mejorar la página, sino construir una igual a partir de lo que observan."
+    },
+    {
+     "l": "C",
+     "t": "la estrategia de construcción-fabricación, en la vía que parte del producto terminado para reproducirlo en uno parecido.",
+     "j": "Es correcta. Las Orientaciones describen esta vía de construcción-fabricación con un ejemplo casi idéntico: el docente muestra una página web y pide que la hagan igual usando el lenguaje de programación estudiado."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones (4.2.1) explican que la construcción-fabricación puede partir de instrucciones, de diseños o del producto terminado. En este último caso, los estudiantes «deberán producir la información ausente» para reproducirlo, y el documento pone como ejemplo cuando el docente «muestra una página web y pide que la hagan igual usando el lenguaje de programación estudiado». El distractor más fuerte es el análisis de productos, que también parte de un producto terminado, pero para descomponerlo y preguntar por él. La diferencia está en la finalidad: reproducir (construcción) frente a comprender (análisis).",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.1.",
+   "consejo": "Identifica la estrategia por su finalidad (reproducir, comprender, mejorar), no por su punto de partida.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "cuando el docente muestra una página web y pide que la hagan igual usando el lenguaje de programación estudiado"
+    }
+   ],
+   "motivo_cuarentena": "Verificación ciega: también se defiende 'análisis de productos tecnológicos' (el caso dice que deben 'descubrir' la información). Reformular para que el propósito de reproducir el producto sea inequívoco."
+  }
+ ]
+}
