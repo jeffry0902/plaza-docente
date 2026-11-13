@@ -10,5 +10,7 @@ window.PLAZA_CONFIG = {
   vidas: 5,
   simulacroPreguntas: 30,
   minutosPorPregunta: 3,
-  horaSimulacro: "08:00"
+  horaSimulacro: "08:00",
+  vapidPublic: "BJsHJbs-oKq4i26aQNEJvVe5IKLRxNhsLHD5_UMyRD81bT05EwqqM0Wr-TqXoiWgukYeGcFy08Xg-rC5jfUK42w",
+  pushUrl: "https://zydxazpkuaevzkkxmhnb.supabase.co/functions/v1/recordatorios"
 };

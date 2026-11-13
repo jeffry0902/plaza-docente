@@ -597,6 +597,9 @@ function vistaInicio() {
     <button class="btn" data-a="reto">${hecho ? "Practicar un reto más" : "Empezar el reto de hoy"}</button>
   </section>
 
+  ${!pushActivo() ? `<div class="card mt" style="border-color:var(--amber)"><div class="row"><div style="font-size:30px">🔔</div><div style="flex:1"><h3>Activa tus recordatorios</h3>
+     <p class="small muted">Como Duolingo: si a las 5:30 p. m. no has hecho el reto, te aviso. Y otra vez en la noche si tu racha está en riesgo.</p></div></div>
+     <button class="btn amber mt" data-a="pushOn">Activar recordatorios</button></div>` : ""}
   ${sim.disponible ? `<div class="card mt" style="border:2px solid var(--violet)"><div class="row"><div style="font-size:34px">⏱️</div><div><h3>Hoy es tu simulacro del mes</h3>
      <p class="small muted">${CFG.simulacroPreguntas} preguntas · ${CFG.simulacroPreguntas * CFG.minutosPorPregunta} minutos · sin retroalimentación hasta el final, como el examen.</p></div></div>
      <button class="btn violet mt" data-a="simulacro">Presentar simulacro</button></div>` : ""}
@@ -609,6 +612,8 @@ function vistaInicio() {
     <div class="bar amber mt"><i style="width:${prep}%"></i></div>
     <p class="tiny muted mt">Combina tu precisión y cuánto del banco has trabajado. La prueba eliminatoria exige 60/100.</p>
     <button class="btn ghost" data-v="progreso">Ver progreso por componente →</button></div>
+
+
 
   <div class="card mt"><div class="row"><div style="font-size:30px">🗺️</div><div style="flex:1"><h3>Mapas, esquemas y juegos</h3>
      <p class="small muted">Los documentos en mapas mentales y esquemas visuales, juegos de repaso (relacionar, ordenar, clasificar, sopa de letras) y lectura en voz alta.</p></div></div>
@@ -938,6 +943,10 @@ function vistaAjustes() {
   return `<div class="top"><button class="icon-btn" data-v="inicio">‹</button><h2>Ajustes</h2><span style="width:44px"></span></div>
   <div class="card stack"><label class="lab" for="nombre">Nombre</label><input id="nombre" class="input" value="${esc(P.nombre)}">
     <button class="btn sec" data-a="guardarNombre">Guardar nombre</button></div>
+  <div class="card mt"><div class="row between"><span>🔔 Recordatorios del reto</span>
+    ${pushActivo() ? `<button class="chip xp" data-a="pushOff">Activados · apagar</button>` : `<button class="chip" data-a="pushOn">Activar</button>`}</div>
+    <p class="tiny muted">Solo si no has hecho el reto: 5:30 p. m., 8:00 p. m. (racha en riesgo) y 9:45 p. m. (última oportunidad).</p>
+    ${pushActivo() ? `<button class="chip mt" data-a="pushPrueba">Enviar notificación de prueba</button>` : ""}</div>
   <div class="card mt"><div class="row between"><span>Apariencia</span><div class="row">${[["claro", "☀️ Claro"], ["oscuro", "🌙 Oscuro"], ["auto", "Auto"]].map(([v, n]) => `<button class="chip ${(S.estado.ajustes.tema || "claro") === v ? "xp" : ""}" data-a="tema" data-t="${v}">${n}</button>`).join("")}</div></div>
     <p class="tiny muted">"Auto" sigue el modo claro u oscuro del celular.</p></div>
   <div class="card mt"><div class="row between"><span>Sonidos</span><button class="chip" data-a="sonido">${S.estado.ajustes.sonido ? "🔊 Activados" : "🔇 Desactivados"}</button></div></div>
@@ -1086,6 +1095,9 @@ $app.addEventListener("click", async e => {
     m.querySelector("[data-m=salir]").onclick = () => { cerrarModal(); if (sim && S.ses.res.length) terminarSesion(); else { S.ses = null; ir("inicio"); } };
   }
   else if (a === "infoSim") modalInfoSim();
+  else if (a === "pushOn") { b.disabled = true; await activarRecordatorios(); render(); }
+  else if (a === "pushOff") desactivarRecordatorios();
+  else if (a === "pushPrueba") { await fetch(CFG.pushUrl, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prueba: true, clave: S.clave }) }).catch(() => {}); toast("Enviada. Debe llegarte en unos segundos."); }
   else if (a === "calDia") { CAL.dia = CAL.dia === b.dataset.f ? null : b.dataset.f; render(); }
   else if (a === "calMes") { const [y, m] = CAL.mes.split("-").map(Number), d = new Date(y, m - 1 + (+b.dataset.m), 1); CAL.mes = `${d.getFullYear()}-${pad(d.getMonth() + 1)}`; CAL.dia = null; render(); }
   else if (a === "voz") { PDX.Voz.hablar(b.dataset.txt, b.dataset.id); }
@@ -1140,6 +1152,48 @@ function normalizar() {
   if (!E.perfil.inicio && E.perfil.nombre) E.perfil.inicio = (E.perfil.dias[0] || hoy());
 }
 
+/* ---------- recordatorios push ---------- */
+const esIOS = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+const instalada = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+const pushSoportado = () => "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
+const pushActivo = () => S.estado?.ajustes?.push === true && "Notification" in window && Notification.permission === "granted";
+function b64aUint8(b64) { const p = "=".repeat((4 - b64.length % 4) % 4), s = atob((b64 + p).replace(/-/g, "+").replace(/_/g, "/")); return Uint8Array.from([...s].map(c => c.charCodeAt(0))); }
+async function suscribirPush() {
+  const reg = await navigator.serviceWorker.ready;
+  let sub = await reg.pushManager.getSubscription();
+  if (!sub) sub = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64aUint8(CFG.vapidPublic) });
+  await rpc("pd_push_guardar", { p_clave: S.clave, p_sub: sub.toJSON(), p_activo: true });
+  return sub;
+}
+async function activarRecordatorios() {
+  if (esIOS && !instalada()) { modalInstalar(); return; }
+  if (!pushSoportado()) { toast("Este navegador no permite notificaciones. Abre la app desde el ícono de inicio."); return; }
+  const perm = await Notification.requestPermission();
+  if (perm !== "granted") { toast("Sin permiso no puedo avisarte. Puedes activarlo en Ajustes del iPhone → Notificaciones → Plaza Docente."); return; }
+  try {
+    await suscribirPush(); S.estado.ajustes.push = true; guardarLocal(); render();
+    await fetch(CFG.pushUrl, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prueba: true, clave: S.clave }) });
+    toast("🔔 ¡Listo! Te llegó una notificación de prueba.");
+  } catch (e) { console.error(e); toast("No se pudo activar ahora. Revisa tu conexión e intenta de nuevo."); }
+}
+async function desactivarRecordatorios() {
+  try { const reg = await navigator.serviceWorker.ready, sub = await reg.pushManager.getSubscription();
+    if (sub) { await rpc("pd_push_guardar", { p_clave: S.clave, p_sub: sub.toJSON(), p_activo: false }); await sub.unsubscribe(); } } catch {}
+  S.estado.ajustes.push = false; guardarLocal(); render(); toast("Recordatorios desactivados");
+}
+function modalInstalar() {
+  const m = modal(`<div class="center"><div style="font-size:52px">📲</div><h2>Primero instala la app en tu iPhone</h2></div>
+    <p class="small">El iPhone solo permite notificaciones a las apps que están en la pantalla de inicio:</p>
+    <ol class="small"><li>Abre esta página en <b>Safari</b>.</li><li>Toca el botón <b>Compartir</b> (el cuadrado con la flecha hacia arriba).</li>
+    <li>Elige <b>Agregar a inicio</b> y luego <b>Agregar</b>.</li><li>Abre Plaza Docente <b>desde el ícono nuevo</b> y vuelve a tocar "Activar recordatorios".</li></ol>
+    <button class="btn mt" data-m="ok">Entendido</button>`);
+  m.querySelector("[data-m=ok]").onclick = cerrarModal;
+}
+async function refrescarPush() {
+  if (!pushActivo() || !pushSoportado()) return;
+  try { await suscribirPush(); } catch {}
+}
+
 window.PD = {
   toast, sonar, render: () => render(),
   async abrirLectura(id) { CU.lectura = id; CU.sel = null; CU.doc = (S.banco.plan.find(l => l.id === id) || {}).doc; await asegurarLectura(id); ir("leer"); },
@@ -1165,6 +1219,6 @@ window.PD = {
       setTimeout(avisoSimulacro, 800);
     } else render();
   } catch (err) { $app.innerHTML = `<div class="card mt2"><h2>Ups</h2><p>${esc(err.message)}</p><button class="btn" onclick="location.reload()">Reintentar</button></div>`; }
-  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").then(() => refrescarPush()).catch(() => {});
 })();
 })();
