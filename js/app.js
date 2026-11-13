@@ -311,7 +311,7 @@ function responder() {
   if (!s.sel || s.respondida) return;
   const ok = s.sel === it.clave, ms = Date.now() - s.t0;
   s.respondida = true;
-  s.res.push({ id: q.id, ok, sel: s.sel, repaso: !!q.repaso, rescate: !!q.rescate });
+  s.res.push({ id: q.id, ok, sel: s.sel, repaso: !!q.repaso, rescate: !!q.rescate, k: s.i, orden: s.orden.slice() });
   registrarRespuesta(q.id, s.sel, ok, s.tipo, ms);
   if (s.tipo === "simulacro") { guardarLocal(); siguiente(); return; }
   let xp = 0;
@@ -643,7 +643,7 @@ function vistaFicha() {
   const s = S.ses, q = s.cola[s.i], f = IDX.fichas[q.ficha], F = S.banco.familias[f.familia], comp = IDX.comps[F.componente];
   const nPreg = (IDX.porFicha[f.id] || []).length;
   return `
-  <div class="qhead"><button class="icon-btn" data-a="salir" aria-label="Salir">✕</button>
+  <div class="qhead"><button class="icon-btn" data-a="salir" aria-label="Salir">✕</button>${btnRevisar()}
     <div class="bar"><i style="width:${(s.i / s.cola.length) * 100}%"></i></div><span class="tiny muted">${s.i + 1}/${s.cola.length}</span></div>
   <div class="review-banner">📘 Estudia y responde: lee con calma, luego vienen ${nPreg} preguntas sobre esta ficha${s.tipo === "estudio" ? " y casos tipo examen" : ""}.</div>
   <div class="chips" style="margin-bottom:10px"><span class="tag amber">${comp.icono} ${esc(comp.nombre)}</span><span class="tag blue">${esc(F.nombre)}</span></div>
@@ -658,7 +658,7 @@ function vistaLectura() {
   const s = S.ses, q = s.cola[s.i], L = LECT[q.lectura], pi = planInfo(), palabras = L.parrafos.join(" ").split(/\s+/).length;
   const nPreg = s.cola.slice(s.i + 1).filter(c => c.id && S.banco.contextos?.[c.id]?.lectura === q.lectura).length;
   return `
-  <div class="qhead"><button class="icon-btn" data-a="salir" aria-label="Salir">✕</button>
+  <div class="qhead"><button class="icon-btn" data-a="salir" aria-label="Salir">✕</button>${btnRevisar()}
     <div class="bar"><i style="width:${(s.i / s.cola.length) * 100}%"></i></div><span class="tiny muted">${s.i + 1}/${s.cola.length}</span></div>
   <div class="review-banner lect">📖 Lectura del día · ${pi.leidas + (lecturaLeida(q.lectura) ? 0 : 1)} de ${pi.total} del plan · unos ${Math.max(2, Math.round(palabras / 170))} min${nPreg ? ` · luego ${nPreg} ${nPreg === 1 ? "pregunta" : "preguntas"} sobre este texto` : ""}</div>
   <div class="chips" style="margin-bottom:10px"><span class="tag blue">${esc(L.nombre)}</span><span class="tag">Parte ${L.parte} de ${L.total}</span></div>
@@ -674,6 +674,44 @@ function preLecturaHTML(it, abierta) {
     <div class="row">${PDX.Voz.boton(c.parrafos.join(" "), "pre-" + it.id)}</div>
     <div class="txt">${c.parrafos.map(p => `<p>${esc(p)}</p>`).join("")}</div>
     <div class="tiny muted">${esc(c.nombre)} · ${esc(c.titulo)}</div></details>`;
+}
+/* ---------- revisar pasos anteriores ---------- */
+const puedeRevisar = () => S.ses && S.ses.tipo !== "simulacro" && S.ses.i > 0;
+const btnRevisar = () => puedeRevisar() ? `<button class="icon-btn" data-a="revAbrir" aria-label="Ver lo anterior" title="Ver lo anterior">‹</button>` : "";
+function vistaRevision() {
+  const s = S.ses, R0 = S.rev, ult = R0.desdeResumen ? s.cola.length - 1 : s.i - 1, j = Math.max(0, Math.min(R0.j, ult)); R0.j = j;
+  const q = s.cola[j];
+  const guard = { i: s.i, orden: s.orden, sel: s.sel, respondida: s.respondida, preLeer: s.preLeer, res: s.res, ultimoXp: s.ultimoXp, vidas: s.vidas };
+  let html = "";
+  try {
+    s.i = j;
+    if (q.lectura) html = LECT[q.lectura] ? vistaLectura() : `<p class="muted">Lectura no disponible sin conexión.</p>`;
+    else if (q.ficha) html = vistaFicha();
+    else if (q.juego) html = `<div class="card center"><div style="font-size:44px">🎮</div><h3>Juego del día</h3><p class="small muted">Este paso fue un juego. Puedes volver a jugarlo en Mapas y juegos.</p></div>`;
+    else {
+      const idx = s.res.findIndex(r => r.k === j && r.id === q.id);
+      const r = s.res[idx];
+      if (!r) html = `<p class="muted">Esta pregunta no se respondió.</p>`;
+      else {
+        s.orden = r.orden || IDX.items[q.id].opciones.map(o => o.l); s.sel = r.sel; s.respondida = true; s.preLeer = false;
+        s.res = s.res.slice(0, idx + 1); s.ultimoXp = r.ok ? (q.repaso || q.rescate ? 15 : 10) : 0;
+        html = vistaPregunta();
+      }
+    }
+  } finally { Object.assign(s, guard); }
+  const tmp = document.createElement("div"); tmp.innerHTML = html;
+  tmp.querySelectorAll(".qhead, .sticky-bottom, .linkbtn[data-a=reportar]").forEach(e => e.remove());
+  tmp.querySelectorAll(".pop").forEach(e => e.classList.remove("pop"));
+  html = tmp.innerHTML;
+  const total = ult + 1;
+  return `<div class="qhead rev"><button class="icon-btn" data-a="revSalir" aria-label="Cerrar revisión">✕</button>
+    <div class="bar"><i style="width:${((j + 1) / s.cola.length) * 100}%"></i></div><span class="tiny muted">${j + 1}/${s.cola.length}</span></div>
+  <div class="review-banner lect">👀 Revisando lo que ya hiciste (paso ${j + 1} de ${total}). Aquí no se cambian las respuestas.</div>
+  ${html}
+  <div class="sticky-bottom"><div class="row">
+    <button class="btn sec" data-a="revMover" data-m="-1" ${j === 0 ? "disabled" : ""}>‹ Anterior</button>
+    ${j < ult ? `<button class="btn sec" data-a="revMover" data-m="1">Siguiente ›</button>` : ""}</div>
+    <button class="btn mt" data-a="revSalir">${R0.desdeResumen ? "Volver al resumen" : "Volver a donde iba"}</button></div>`;
 }
 function vistaPregunta() {
   const s = S.ses, q = s.cola[s.i];
@@ -726,7 +764,7 @@ function vistaPregunta() {
   }
   const tablaHTML = caso?.tabla ? `<table class="t"><tr>${caso.tabla.encabezado.map(h => `<th>${esc(h)}</th>`).join("")}</tr>${caso.tabla.filas.map(f => `<tr>${f.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</table>` : "";
   return `
-  <div class="qhead"><button class="icon-btn" data-a="salir" aria-label="Salir">✕</button>
+  <div class="qhead"><button class="icon-btn" data-a="salir" aria-label="Salir">✕</button>${sim ? "" : btnRevisar()}
     <div class="bar"><i style="width:${(s.i / s.cola.length) * 100}%"></i></div>
     <span class="tiny muted">${s.i + 1}/${s.cola.length}</span>${vidas}${reloj}</div>
   ${etiqueta}
@@ -774,6 +812,7 @@ function vistaResumen() {
       ${fallas.length ? `<p class="small mt"><b>🧠 Guardado en tu cofre:</b> ${esc([...new Set(fallas)].join(" · "))}. Aparecerán en próximos retos con otros contextos.</p>` : `<p class="small mt">Sin errores para el cofre. 👏</p>`}
     </div>
     ${s.nuevas?.length ? `<div class="card"><h3>Nuevas insignias</h3><div class="badge-grid mt">${s.nuevas.map(b => `<div class="badge on pop"><div class="e">${b.e}</div><b>${esc(b.n)}</b></div>`).join("")}</div></div>` : ""}
+    <button class="btn sec" data-a="revResumen">👀 Revisar mis respuestas</button>
     <button class="btn" data-v="inicio">Volver al inicio</button></div>`;
 }
 function vistaResumenSimulacro() {
@@ -1045,7 +1084,7 @@ function render() {
   clearInterval(timerInt); aplicarTema();
   const v = !S.clave ? vistaLogin() : !S.estado.perfil.nombre ? vistaNombre() : ({
     inicio: vistaInicio, pregunta: vistaPregunta, resumen: vistaResumen, resumenSimulacro: vistaResumenSimulacro,
-    cofre: vistaCofre, biblioteca: vistaBiblioteca, cuaderno: vistaCuaderno, historial: vistaHistorial, mapas: () => PDX.vistaMapas(), mapa: () => PDX.vistaMapa(), esquema: () => PDX.vistaEsquema(),
+    cofre: vistaCofre, biblioteca: vistaBiblioteca, cuaderno: vistaCuaderno, historial: vistaHistorial, revision: vistaRevision, mapas: () => PDX.vistaMapas(), mapa: () => PDX.vistaMapa(), esquema: () => PDX.vistaEsquema(),
     juego: () => `<div class="top"><button class="icon-btn" data-a="jSalir">‹</button><h2>Juego</h2><span style="width:44px"></span></div>${CU.G ? PDX.juegoHTML(CU.G, false) : ""}`, docs: vistaDocs, doc: vistaDoc, leer: vistaLeer, conceptos: vistaConceptos, flash: vistaFlash, insignias: vistaInsignias, progreso: vistaProgreso, ajustes: vistaAjustes
   }[S.vista] || vistaInicio)();
   $app.innerHTML = v;
@@ -1095,6 +1134,10 @@ $app.addEventListener("click", async e => {
     m.querySelector("[data-m=salir]").onclick = () => { cerrarModal(); if (sim && S.ses.res.length) terminarSesion(); else { S.ses = null; ir("inicio"); } };
   }
   else if (a === "infoSim") modalInfoSim();
+  else if (a === "revAbrir") { if (PDX.Voz.activo) speechSynthesis.cancel(); S.rev = { j: S.ses.i - 1, volver: S.vista }; ir("revision"); }
+  else if (a === "revResumen") { S.rev = { j: 0, volver: "resumen", desdeResumen: true }; ir("revision"); }
+  else if (a === "revMover") { S.rev.j += +b.dataset.m; render(); scrollTo({ top: 0 }); }
+  else if (a === "revSalir") { ir(S.rev?.volver || "pregunta"); }
   else if (a === "pushOn") { b.disabled = true; await activarRecordatorios(); render(); }
   else if (a === "pushOff") desactivarRecordatorios();
   else if (a === "pushPrueba") { await fetch(CFG.pushUrl, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prueba: true, clave: S.clave }) }).catch(() => {}); toast("Enviada. Debe llegarte en unos segundos."); }
