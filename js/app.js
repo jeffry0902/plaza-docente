@@ -547,7 +547,9 @@ function vistaHistorial() {
   }
   const det = CAL.dia ? (() => { const A = actividadDe(CAL.dia);
     const vacio = !A.ses.length && !A.lect.length && !A.fich.length && !A.conc.length && !A.sims.length;
-    return `<div class="card mt"><h3>${fechaLarga(CAL.dia)}</h3>${vacio ? `<p class="small muted">${CAL.dia > d ? "Día por venir." : "Sin actividad este día."}</p>` : `
+    return `<div class="card mt"><h3>${fechaLarga(CAL.dia)}</h3>${CAL.dia === d && !A.reto ? `<div class="row wrap mt"><span class="chip">⏳ El reto de hoy aún está pendiente</span></div>
+      <button class="btn mt" data-a="reto">Hacer el reto de hoy</button>` : ""}
+      ${vacio ? (CAL.dia === d ? "" : `<p class="small muted">${CAL.dia > d ? "Día por venir." : "Ese día no hubo actividad."}</p>`) : `
       <div class="row wrap mt">${A.reto ? `<span class="chip fire">🔥 Reto cumplido</span>` : ""}${A.n ? `<span class="chip">${A.ok}/${A.n} correctas · ${Math.round(A.ok / A.n * 100)} %</span>` : ""}${A.xp ? `<span class="chip xp">⭐ ${A.xp} XP</span>` : ""}</div>
       ${A.ses.length ? `<div class="list mt">${A.ses.map(x => `<div class="row between small"><span>${{ reto: "🔥 Reto diario", duelo: "⚔️ Duelo", modulo: "🗺️ Práctica por módulo", estudio: "📘 Ficha de estudio", lectura: "📖 Lectura adelantada", simulacro: "⏱️ Simulacro", juego: "🎮 Juego" }[x.tipo] || x.tipo}</span><b>${x.tipo === "juego" ? `+${x.xp} XP` : `${x.ok}/${x.total}`}</b></div>`).join("")}</div>` : ""}
       ${A.sims.length ? `<p class="small mt">⏱️ Simulacro: <b>${A.sims.map(x => x.puntaje.toLocaleString("es-CO", { maximumFractionDigits: 2 })).join(", ")}</b></p>` : ""}
