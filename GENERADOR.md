@@ -10,14 +10,21 @@ Reglas que sigue la tarea programada que agrega preguntas cada día. Si algo de 
 - Cada familia nueva necesita su `leccion` completa (idea, claves, trampa, fuente): es el recuadro "📘 Entiende el tema" que ella ve después de cada pregunta.
 - Si agregas juegos nuevos en `tools/juegos.py` (emparejar, ordenar, clasificar, sopa), los textos deben salir con `frase()`/`literal()` para que se verifiquen contra la fuente.
 
-## 1. Qué se genera cada día (~50 ítems)
-- **3 fichas nuevas** (Estudia y responde) con 2 preguntas de conocimiento cada una → 6 ítems.
-- **~44 ítems tipo caso** (formato CNSC de juicio situacional: caso + enunciado + 3 opciones A/B/C, justificación por opción), repartidos así:
+## 1. Qué se genera cada día (20 ítems nuevos + 15 del piloto reescritos)
+Ritmo de consumo: ella ve unas 8 preguntas nuevas por día (el resto del reto es repaso). 20 nuevas al día mantienen el banco siempre por delante de ella sin inflarlo; la prioridad es la calidad, no la cantidad.
+- **1 ficha nueva** (Estudia y responde) con 2 preguntas de conocimiento → 2 ítems.
+- **Primero**, al menos 4 ítems por cada una de sus próximas 5 lecturas sin preguntas (sección 0); cuentan dentro de los 20.
+- **El resto, ítems tipo caso** (formato CNSC de juicio situacional: caso + enunciado + 3 opciones A/B/C, justificación por opción), repartidos así:
   - 40 % DIS (Tecnología e Informática: los 4 componentes + didáctica del área), basados sobre todo en la Guía 30 y las Orientaciones Curriculares
   - 25 % PED (evaluar, enseñar, inclusión: Decreto 1421, DUA, PIAR, ajustes razonables tienen prioridad)
   - 15 % NOR (prioridad: Ley 1620, Decreto 1965, Ruta de Atención y solución de conflictos; luego organización escolar y estatuto)
   - 10 % LC + RC, 5 % CB, 5 % PSI
 - Prioridad: familias con menos de 4 ítems y familias que la aspirante falla más (tabla `intentos` de Supabase).
+
+## 1b. Reescritura del banco piloto (hasta terminar)
+- Cada día toma 15 ítems de `data/lotes/2026-11-12-piloto.json` que aún no tengan `"revisado": true` (en orden de id) y reescríbelos **en el mismo archivo y con el mismo id** aplicando la sección 4b: opciones de igual forma y longitud, dificultad, `explicacion`, justificaciones de 20+ palabras. Conserva la clave correcta y las citas (o mejóralas con texto literal), cambia la posición de la clave si hace falta y marca `"revisado": true`.
+- Los reescritos pasan por la misma verificación ciega; si alguno falla, no lo marques como revisado y déjalo como estaba.
+- Cuando los 93 tengan `"revisado": true`, esta sección termina.
 
 ## 2. Modelo Basado en Evidencias (ICFES)
 Componente → afirmación → evidencia (= familia) → tareas. Cada ítem nuevo pertenece a una familia de `data/marco.json`.

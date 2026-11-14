@@ -127,8 +127,8 @@ def main():
         for ct in it.get("citas", []):
             ok, m = cita_ok(docs, ct.get("doc", ""), ct.get("texto", ""))
             if not ok: errores.append(f"{i}: {m} → «{ct.get('texto','')[:90]}»")
-        if it["_lote"] != PILOTO:
-            L = por_lote[it["_lote"]]; L["n"] += 1
+        if it["_lote"] != PILOTO or it.get("revisado"):
+            L = por_lote[it["_lote"] + (" (revisados)" if it["_lote"] == PILOTO else "")]; L["n"] += 1
             if ops and max(ops, key=lambda o: len(o.get("t", "")))["l"] == it.get("clave"): L["larga"] += 1
             L["dif"][it.get("dificultad")] += 1
             if it.get("dificultad") not in (1, 2, 3): errores.append(f"{i}: falta 'dificultad' (1, 2 o 3)")
