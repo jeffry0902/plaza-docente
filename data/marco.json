@@ -1,6 +1,6 @@
 {
  "version": "mbe-1",
- "actualizado": "2026-11-12",
+ "actualizado": "2026-11-14",
  "componentes": [
   {
    "id": "DIS",
@@ -747,6 +747,23 @@
    },
    "afirmacion": "DIS-A5",
    "evidencia": "Ubica desempeños en los cuatro componentes del área y en los grupos de grados."
+  },
+  "NOR-SERV": {
+   "componente": "NOR",
+   "nombre": "Servicio educativo (Ley 115)",
+   "afirmacion": "NOR-A2",
+   "evidencia": "Reconoce el objeto, la organización, los prestadores y los responsables de la calidad y el cubrimiento del servicio educativo según la Ley 115.",
+   "leccion": {
+    "idea": "La Ley 115 de 1994 define la educación como un proceso de formación permanente, personal, cultural y social, y regula el servicio público educativo: quién lo presta, qué comprende y quién responde por su calidad y su cubrimiento.",
+    "claves": [
+     "Art. 1: regula la educación formal (preescolar, básica y media), no formal e informal, para niños, jóvenes, adultos, campesinos, grupos étnicos y personas con discapacidad o capacidades excepcionales.",
+     "Art. 2: el servicio educativo es un conjunto articulado de normas, programas, establecimientos, instituciones sociales y recursos.",
+     "Art. 3: lo prestan instituciones del Estado, particulares e instituciones comunitarias, solidarias, cooperativas o sin ánimo de lucro.",
+     "Art. 4: la calidad la velan el Estado, la sociedad y la familia; el cubrimiento lo garantizan la Nación y las entidades territoriales."
+    ],
+    "trampa": "Confundir quién vela por la calidad (Estado, sociedad y familia) con quién garantiza el cubrimiento (Nación y entidades territoriales), o creer que la Ley 115 solo regula la educación formal.",
+    "fuente": "Ley 115 de 1994, arts. 1 a 4."
+   }
   }
  }
 }
