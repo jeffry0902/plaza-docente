@@ -1,0 +1,862 @@
+{
+ "id": "2026-11-15",
+ "fecha": "2026-11-15",
+ "casos": [
+  {
+   "id": "C91",
+   "titulo": "La reunión de padres y la convivencia",
+   "texto": "En la primera reunión de padres del año en una institución oficial de Yopal, un padre de familia afirma que los problemas de convivencia «son asunto del colegio» y que la familia no tiene por qué intervenir. La docente de Tecnología e Informática, directora de grupo de séptimo, debe responder con base en la Ley 1620 de 2013. En la misma reunión, un docente comenta que formar en derechos humanos es tarea exclusiva del área de Ética y del orientador escolar."
+  },
+  {
+   "id": "C92",
+   "titulo": "El grupo de mensajería de octavo",
+   "texto": "Un estudiante de grado octavo le cuenta a la docente de Tecnología e Informática que, desde hace un mes, varios compañeros publican casi a diario memes y mensajes de burla sobre él en un grupo de mensajería creado fuera del horario escolar. Cuando la docente lo comenta en la sala de profesores, un colega opina que, como los mensajes se envían desde la casa y por internet, el asunto no le corresponde al sistema de convivencia escolar."
+  },
+  {
+   "id": "C93",
+   "titulo": "Los protocolos copiados",
+   "texto": "El rector de una institución educativa rural de Yopal, con sedes en veredas donde viven familias campesinas e indígenas, propone al comité escolar de convivencia copiar textualmente los protocolos de atención de un colegio urbano de otra ciudad para «no perder tiempo». Además, sugiere que, una vez aprobada la ruta, no es necesario revisarla ni hacerle seguimiento durante el año."
+  },
+  {
+   "id": "C94",
+   "titulo": "La ingeniera en periodo de prueba",
+   "texto": "Laura es ingeniera de sistemas y acaba de ser nombrada en periodo de prueba como docente de aula de Tecnología e Informática en una institución oficial de Yopal, después de superar el concurso. Un compañero le dice que ella «no es profesional de la educación» porque no es licenciada. Laura también quiere saber en qué momento quedará inscrita en el Escalafón Docente."
+  },
+  {
+   "id": "C95",
+   "titulo": "Dirección de grupo y atención a padres",
+   "texto": "Al iniciar el año, el rector asigna a un docente de Tecnología e Informática, además de sus horas de clase, la dirección de grupo de noveno y un horario semanal de atención a padres de familia. En el consejo de profesores, el docente manifiesta que su función es «dictar clase» y que esas tareas les corresponden a los directivos y al orientador."
+  },
+  {
+   "id": "C96",
+   "titulo": "Programación sin diagnóstico",
+   "texto": "Una docente de Tecnología e Informática que llega trasladada a una institución inicia el año desarrollando directamente las temáticas de programación de su plan de área en grado décimo. A la tercera semana descubre que la mitad del grupo nunca ha usado un computador y que otros estudiantes ya programan en Python. La coordinadora le pide revisar su práctica a la luz de la función docente definida en el Decreto 1278 de 2002."
+  },
+  {
+   "id": "C98",
+   "titulo": "¿Competencia o desempeño?",
+   "texto": "Un docente recién vinculado prepara su primer plan de periodo y le dice a su par de área que en la Guía 30 «competencia» y «desempeño» significan lo mismo, por lo que piensa usar ambas palabras como sinónimos en la planeación y en los informes para las familias."
+  },
+  {
+   "id": "C99",
+   "titulo": "La planta extractora y la junta",
+   "texto": "En grado noveno, los estudiantes analizan una planta extractora de aceite de palma cercana a su vereda. En una primera parte identifican sus impactos en el agua y en el empleo de la zona. En una segunda parte preparan una propuesta sobre el manejo de residuos para presentarla y debatirla con la junta de acción comunal, asumiendo posiciones sobre la responsabilidad de cada actor."
+  },
+  {
+   "id": "C100",
+   "titulo": "El mismo proyecto para segundo y undécimo",
+   "texto": "Para la semana de la ciencia, un docente propone desarrollar con grado segundo y con grado undécimo el mismo proyecto sobre la política energética mundial y la transición de los combustibles fósiles, con los mismos textos de consulta y el mismo producto final."
+  },
+  {
+   "id": "C101",
+   "titulo": "El rector en el Comité Nacional",
+   "texto": "La Secretaría Técnica del Comité Nacional de Convivencia Escolar comunica al rector de una institución oficial de Yopal que, por los resultados consolidados de las pruebas SABER 11 reportados por el ICFES, él fue designado como representante de los rectores ante ese comité. En una reunión de docentes, el rector explica cómo funcionará su representación y cómo sesiona el comité."
+  },
+  {
+   "id": "C102",
+   "titulo": "La investigación sobre el chigüiro",
+   "texto": "En grado quinto, los estudiantes investigan sobre el chigüiro de los Llanos con los computadores de la sede. La docente observa que todos copian el primer resultado del buscador sin revisar quién lo publicó, y que dos grupos entregan datos contradictorios sobre el peso del animal."
+  },
+  {
+   "id": "C103",
+   "titulo": "El trapiche de la finca",
+   "texto": "En grado quinto, una docente lleva a sus estudiantes a una finca donde se elabora panela. Allí observan el trapiche, las pailas y el horno, y siguen la secuencia de moler la caña, cocinar el jugo, batir el melado y moldear. Al regresar, un estudiante afirma que «el trapiche y hacer panela son lo mismo»."
+  },
+  {
+   "id": "C104",
+   "titulo": "La atarraya del río Cravo Sur",
+   "texto": "En grado tercero, una docente de una sede rural de Yopal invita a un pescador de la vereda, que muestra a los niños cómo lanza la atarraya en el río Cravo Sur. Al volver al aula, quiere planear una actividad de Tecnología e Informática a partir de esa visita, de acuerdo con los desempeños de la Guía 30 para primero a tercero."
+  }
+ ],
+ "fichas": [
+  {
+   "id": "F28",
+   "familia": "DIS-DATOS",
+   "titulo": "Información, comunicación y TIC (Orientaciones Curriculares, 2.1.3)",
+   "lectura": "Las Orientaciones Curriculares de Tecnología e Informática (MEN, 2022) dedican el apartado 2.1.3 a las TIC y su lugar en el área. Allí se dice que las TIC cumplen un doble propósito: apoyar la administración de la información y facilitar el proceso de comunicación de manera efectiva. Se definen como un conjunto de recursos tecnológicos, analógicos y digitales, que permiten crear, recolectar, almacenar, distribuir, transmitir y usar datos, información y conocimiento. Por eso el documento afirma que las TIC anteceden a la informática: no se restringen a los soportes digitales como el software, sino que incluyen soportes físicos analógicos como el libro. El mismo apartado distingue dos conceptos que se confunden con frecuencia: la información es un conjunto de datos, estructurados o no, que se agrupan intencionalmente para generar significado; la comunicación es el proceso de transmitir esa información, contenida en un mensaje, entre un emisor y un receptor por medio de un canal y un contexto. La comunicación solo es efectiva cuando se verifica que el receptor recibió y comprendió el mensaje, para lo cual se necesita retroalimentación.",
+   "puntos": [
+    "Doble propósito de las TIC: apoyar la administración de la información y facilitar la comunicación efectiva.",
+    "Las TIC anteceden a la informática: incluyen soportes analógicos como el libro, no solo digitales.",
+    "Información = datos (estructurados o no) agrupados intencionalmente para generar significado.",
+    "Trampa CNSC: comunicación no es lo mismo que información; la comunicación es efectiva cuando se verifica que el mensaje fue recibido y comprendido (retroalimentación)."
+   ],
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "las TIC anteceden a la informática, pues su naturaleza no se restringe únicamente a los soportes digitales como el software, sino que envuelve soportes físicos analógicos como libro",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la información es un conjunto de datos estructurados o no estructurados que se agrupan intencionalmente para generar significado",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la comunicación se hace efectiva cuando se verifica que el mensaje ha sido recibido y comprendido adecuadamente por el receptor",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.3"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "Q142",
+   "tipo": "caso",
+   "caso": "C91",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 2,
+   "enunciado": "De acuerdo con el artículo 3 de la Ley 1620 de 2013, frente a la afirmación del padre la docente debe explicar que el Sistema Nacional de Convivencia Escolar cumple sus objetivos",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "con la responsabilidad exclusiva de la institución educativa, porque la convivencia ocurre en sus espacios.",
+     "j": "Es incorrecta. Es la idea del padre del caso. El artículo 3 no deja la convivencia solo en manos del colegio: nombra a los individuos, la familia, la sociedad y el Estado junto con las instituciones educativas."
+    },
+    {
+     "l": "B",
+     "t": "en el marco de la corresponsabilidad de los individuos, las instituciones, la familia, la sociedad y el Estado.",
+     "j": "Es correcta. Es casi textual el artículo 3 de la Ley 1620: los objetivos del Sistema se cumplen «en el marco de la corresponsabilidad de los individuos, las instituciones educativas, la familia, la sociedad y el Estado». La familia sí tiene un papel."
+    },
+    {
+     "l": "C",
+     "t": "bajo la responsabilidad principal del Estado, porque el colegio y la familia solo deben reportar los casos.",
+     "j": "Es incorrecta. El Estado es uno de los corresponsables, pero la ley no reduce a la institución y a la familia a reportar casos. Todos los actores comparten la responsabilidad de promover la convivencia y prevenir la violencia."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave es «corresponsabilidad». El artículo 3 de la Ley 1620 crea el Sistema Nacional de Convivencia Escolar y dice que sus objetivos se cumplen «en el marco de la corresponsabilidad de los individuos, las instituciones educativas, la familia, la sociedad y el Estado». Por eso la respuesta de la docente debe incluir a la familia como actor obligado, sin descargar en ella toda la tarea ni dejarla solo al colegio. La CNSC suele presentar distractores que concentran la responsabilidad en un solo actor; la respuesta correcta reparte la responsabilidad entre todos.",
+   "fuente": "Ley 1620 de 2013, art. 3.",
+   "consejo": "Si una opción deja la convivencia en manos de un solo actor, desconfía: la Ley 1620 habla de corresponsabilidad.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "en el marco de la corresponsabilidad de los individuos, las instituciones educativas, la familia, la sociedad y el Estado",
+     "ubicacion": "Ley 1620 de 2013, art. 3"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q143",
+   "tipo": "caso",
+   "caso": "C91",
+   "familia": "NOR-FORMAR",
+   "dificultad": 3,
+   "enunciado": "Frente al comentario del docente sobre la formación en derechos humanos, la respuesta coherente con el artículo 3 de la Ley 1620 de 2013 es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la comunidad educativa es la responsable de formar para el ejercicio de los derechos, lo que incluye el área de Tecnología.",
+     "j": "Es correcta. El artículo 3 reconoce a la comunidad educativa de preescolar, básica y media «como la responsable de formar para el ejercicio» de los derechos. Esa responsabilidad no se limita a un área ni a un cargo: incluye a la docente de Tecnología."
+    },
+    {
+     "l": "B",
+     "t": "el orientador escolar es el responsable de formar para el ejercicio de los derechos, y las áreas lo apoyan si él lo pide.",
+     "j": "Es incorrecta. El orientador tiene un papel importante en la convivencia, pero la ley no le asigna en exclusiva la formación en derechos. Es un distractor atractivo porque nombra a un actor real del sistema escolar."
+    },
+    {
+     "l": "C",
+     "t": "el comité escolar de convivencia es el responsable de formar para el ejercicio de los derechos, y los docentes atienden casos.",
+     "j": "Es incorrecta. El comité escolar de convivencia es una instancia del Sistema, pero el artículo 3 pone la responsabilidad de formar en toda la comunidad educativa. Reducir a los docentes a atender casos contradice ese mandato."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El enunciado pregunta quién es responsable de formar en derechos. El artículo 3 de la Ley 1620 dice que el Sistema reconoce a los niños, niñas y adolescentes «como sujetos de derechos, y a la comunidad educativa en los niveles de preescolar, básica y media como la responsable de formar para el ejercicio de los mismos». Es de nivel 3 porque las dos opciones incorrectas nombran actores reales con funciones en convivencia (orientador y comité), y solo el detalle de la norma permite descartarlos. En la CNSC, la formación en derechos es tarea de todos los docentes, también desde su área.",
+   "fuente": "Ley 1620 de 2013, art. 3.",
+   "consejo": "Cuando la pregunta es «quién forma», la Ley 1620 responde «la comunidad educativa», no un cargo aislado.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "reconoce a los niños, niñas y adolescentes como sujetos de derechos, y a la comunidad educativa en los niveles de preescolar, básica y media como la responsable de formar para el ejercicio de los mismos",
+     "ubicacion": "Ley 1620 de 2013, art. 3"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q144",
+   "tipo": "caso",
+   "caso": "C92",
+   "familia": "NOR-CONV-TIPO",
+   "dificultad": 3,
+   "enunciado": "Según los objetivos del Sistema Nacional de Convivencia Escolar del artículo 4 de la Ley 1620 de 2013, la opinión del colega es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "acertada, porque el Sistema se ocupa de las conductas que ocurren dentro de los espacios físicos de la institución.",
+     "j": "Es incorrecta. El artículo 4 no limita el Sistema a los espacios físicos del colegio. Entre sus objetivos menciona de forma expresa el acoso escolar que se pueda generar a través del uso de internet, aunque ocurra desde la casa."
+    },
+    {
+     "l": "B",
+     "t": "acertada solo en parte, porque el Sistema actúa en internet únicamente cuando se usan equipos de la institución.",
+     "j": "Es incorrecta. Es una verdad a medias atractiva: reconoce internet, pero inventa una condición que la ley no pone. El numeral 5 habla del acoso generado por internet sin exigir que se usen los equipos del colegio."
+    },
+    {
+     "l": "C",
+     "t": "equivocada, porque el Sistema incluye la prevención y la denuncia del acoso escolar que se genere por internet.",
+     "j": "Es correcta. El numeral 5 del artículo 4 fija como objetivo fomentar mecanismos de prevención, detección temprana y denuncia de las conductas contra la convivencia, «particularmente, las relacionadas con acoso escolar y violencia escolar incluido el que se pueda generar a través del uso de la internet»."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La palabra clave es «por internet». El artículo 4, numeral 5, de la Ley 1620 incluye entre los objetivos del Sistema la prevención, detección temprana y denuncia de las conductas contra la convivencia, «particularmente, las relacionadas con acoso escolar y violencia escolar incluido el que se pueda generar a través del uso de la internet». El lugar desde donde se envían los mensajes no saca el caso del sistema de convivencia. Es de nivel 3 porque la opción B parece prudente y solo se descarta al ver que la norma no exige equipos del colegio. La CNSC espera que el docente active el sistema, no que lo excluya.",
+   "fuente": "Ley 1620 de 2013, art. 4, num. 5.",
+   "consejo": "El ciberacoso entre estudiantes también es asunto del sistema de convivencia, aunque ocurra fuera del horario y del colegio.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "particularmente, las relacionadas con acoso escolar y violencia escolar incluido el que se pueda generar a través del uso de la internet",
+     "ubicacion": "Ley 1620 de 2013, art. 4, num. 5"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q145",
+   "tipo": "caso",
+   "caso": "C93",
+   "familia": "NOR-CONV-RUTA",
+   "dificultad": 2,
+   "enunciado": "De acuerdo con el objetivo del Sistema sobre la protección integral (Ley 1620 de 2013, art. 4, num. 2), la propuesta del rector debe ajustarse porque la ruta de atención integral requiere",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "puesta en marcha y seguimiento, teniendo en cuenta los contextos sociales y culturales particulares de la institución.",
+     "j": "Es correcta. El numeral 2 del artículo 4 dice que la protección integral se garantiza «a través de la puesta en marcha y el seguimiento de la ruta de atención integral», teniendo en cuenta los contextos sociales y culturales particulares. El rector omite ambas cosas."
+    },
+    {
+     "l": "B",
+     "t": "aprobación previa de la secretaría de educación del municipio antes de aplicarla en cualquiera de las sedes rurales.",
+     "j": "Es incorrecta. El objetivo citado no habla de una aprobación previa de la secretaría como condición para aplicar la ruta. El problema de la propuesta es otro: copia un protocolo ajeno al contexto y renuncia al seguimiento."
+    },
+    {
+     "l": "C",
+     "t": "un protocolo distinto para cada sede, redactado solo por los docentes de esa sede, sin intervención del comité escolar.",
+     "j": "Es incorrecta. Tener en cuenta el contexto no significa excluir al comité escolar de convivencia ni fragmentar la ruta por sedes. El objetivo pide adaptar la ruta al contexto y hacerle seguimiento, no dispersar la responsabilidad."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El caso tiene dos errores: copiar protocolos de un contexto urbano distinto y no hacer seguimiento. El artículo 4, numeral 2, de la Ley 1620 fija como objetivo garantizar la protección integral de los estudiantes «a través de la puesta en marcha y el seguimiento de la ruta de atención integral para la convivencia escolar, teniendo en cuenta los contextos sociales y culturales particulares». La opción correcta corrige los dos errores a la vez. En las preguntas de la CNSC sobre la ruta, recuerde que no basta aprobarla: hay que ponerla en marcha, seguirla y ajustarla a la población real de la institución.",
+   "fuente": "Ley 1620 de 2013, art. 4, num. 2.",
+   "consejo": "Ruta = puesta en marcha + seguimiento + contexto propio. Si falta una de las tres, la opción está incompleta.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "a través de la puesta en marcha y el seguimiento de la ruta de atención integral para la convivencia escolar, teniendo en cuenta los contextos sociales y culturales particulares",
+     "ubicacion": "Ley 1620 de 2013, art. 4, num. 2"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q146",
+   "tipo": "caso",
+   "caso": "C94",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 3,
+   "enunciado": "Según el artículo 3 del Decreto 1278 de 2002, frente a lo que dice el compañero es correcto afirmar que Laura",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "sí es profesional de la educación, porque la norma incluye a los profesionales con título diferente legalmente habilitados.",
+     "j": "Es correcta. El artículo 3 enumera tres grupos: los licenciados en educación, «los profesionales con titulo diferente, legalmente habilitados para ejercer la función docente» y los normalistas superiores. Laura, ingeniera nombrada tras el concurso, está en el segundo grupo."
+    },
+    {
+     "l": "B",
+     "t": "no es profesional de la educación, porque la norma reserva esa calidad a los licenciados y a los normalistas superiores.",
+     "j": "Es incorrecta. Olvida el grupo del medio del artículo 3. La norma sí reconoce como profesionales de la educación a quienes tienen un título diferente y están legalmente habilitados para la función docente."
+    },
+    {
+     "l": "C",
+     "t": "será profesional de la educación solo cuando supere el periodo de prueba y quede inscrita en el Escalafón Docente.",
+     "j": "Es incorrecta. Mezcla dos artículos: el periodo de prueba y la inscripción en el escalafón están en el artículo 2 y se refieren a la carrera, no a la calidad de profesional de la educación, que el artículo 3 define por el título y la habilitación."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La palabra clave es «profesional de la educación». El artículo 3 del Decreto 1278 dice que lo son «las personas que poseen título profesional de licenciado en educación», «los profesionales con titulo diferente, legalmente habilitados para ejercer la función docente» y los normalistas superiores. Es de nivel 3 porque la opción C es muy cercana: usa un hecho cierto del artículo 2 (el periodo de prueba antes del escalafón) para responder una pregunta distinta. Este punto es clave para una ingeniera que concursa: su título no licenciado no le quita la calidad de profesional de la educación.",
+   "fuente": "Decreto 1278 de 2002, arts. 2 y 3.",
+   "consejo": "Separa «quién es profesional de la educación» (art. 3) de «cuándo se inscribe en el escalafón» (art. 2).",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "Son profesionales de la educación las personas que poseen título profesional de licenciado en educación expedido por una institución de educación superior; los profesionales con titulo diferente, legalmente habilitados para ejercer la función docente",
+     "ubicacion": "Decreto 1278 de 2002, art. 3"
+    }
+   ],
+   "competencia": "Organización escolar y carrera"
+  },
+  {
+   "id": "Q147",
+   "tipo": "caso",
+   "caso": "C94",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 2,
+   "enunciado": "De acuerdo con el artículo 2 del Decreto 1278 de 2002, Laura quedará inscrita en el Escalafón Docente",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "desde la fecha de su nombramiento, porque haber superado el concurso de méritos la habilita para ingresar a él.",
+     "j": "Es incorrecta. Superar el concurso permite el nombramiento en periodo de prueba, no la inscripción inmediata. El artículo 2 dice que los educadores estatales ingresan primero al servicio y solo después se inscriben en el escalafón."
+    },
+    {
+     "l": "B",
+     "t": "cuando cumpla un año de servicio, con independencia del resultado que obtenga en la evaluación del periodo.",
+     "j": "Es incorrecta. El tiempo de servicio por sí solo no produce la inscripción. La norma pone una condición: superar satisfactoriamente el periodo de prueba. Sin ese resultado, no hay inscripción en el escalafón."
+    },
+    {
+     "l": "C",
+     "t": "si supera satisfactoriamente el periodo de prueba, pues los educadores estatales ingresan primero al servicio.",
+     "j": "Es correcta. El artículo 2 dice que «los educadores estatales ingresarán primero al servicio, y si superan satisfactoriamente el período de prueba se inscribirán en el Escalafón Docente». La inscripción es posterior y condicionada."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El enunciado pregunta por el momento de la inscripción. El artículo 2 del Decreto 1278 establece un orden: «Los educadores estatales ingresarán primero al servicio, y si superan satisfactoriamente el período de prueba se inscribirán en el Escalafón Docente». Hay dos momentos y una condición: primero el ingreso, luego la inscripción, y solo si el periodo de prueba se supera de forma satisfactoria. Los distractores adelantan la inscripción al nombramiento o la atan al simple paso del tiempo. La CNSC pregunta con frecuencia este orden porque marca la diferencia entre el Decreto 1278 y el estatuto anterior.",
+   "fuente": "Decreto 1278 de 2002, art. 2.",
+   "consejo": "Primero servicio, luego periodo de prueba superado y, solo entonces, escalafón.",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "Los educadores estatales ingresarán primero al servicio, y si superan satisfactoriamente el período de prueba se inscribirán en el Escalafón Docente",
+     "ubicacion": "Decreto 1278 de 2002, art. 2"
+    }
+   ],
+   "competencia": "Organización escolar y carrera"
+  },
+  {
+   "id": "Q148",
+   "tipo": "caso",
+   "caso": "C95",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 2,
+   "enunciado": "Según el artículo 5 del Decreto 1278 de 2002, la posición del docente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "correcta, porque la dirección de grupo y la atención a padres son actividades propias de los directivos docentes.",
+     "j": "Es incorrecta. El artículo 5 atribuye estas actividades a los docentes, no solo a los directivos. Los directivos coordinan y dirigen, pero la dirección de grupo y la atención a acudientes hacen parte de la función del docente de aula."
+    },
+    {
+     "l": "B",
+     "t": "incorrecta, porque los docentes también responden por actividades no lectivas como dirigir grupo y atender a padres.",
+     "j": "Es correcta. El artículo 5 dice que los docentes «también son responsables de las actividades curriculares no lectivas complementarias de la función docente de aula», y entre ellas nombra la dirección de grupo y la atención a los padres de familia y acudientes."
+    },
+    {
+     "l": "C",
+     "t": "correcta solo en parte, porque la dirección de grupo es voluntaria y solo la atención a padres es obligatoria.",
+     "j": "Es incorrecta. La norma no distingue entre actividades voluntarias y obligatorias en esa lista: la dirección de grupo y la atención a padres aparecen juntas como actividades no lectivas de las que el docente es responsable."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave es «dictar clase». El artículo 5 del Decreto 1278 define a los docentes como quienes desarrollan labores académicas con los alumnos y agrega que «también son responsables de las actividades curriculares no lectivas complementarias de la función docente de aula», entre ellas la «dirección de grupo» y la «atención a los padres de familia y acudientes». La asignación académica es solo una parte de la función. En los casos de la CNSC, el docente que reduce su trabajo a las horas de clase suele estar equivocado: la norma incluye planeación, evaluación, dirección de grupo y atención a familias.",
+   "fuente": "Decreto 1278 de 2002, arts. 4 y 5.",
+   "consejo": "Función docente = horas de clase + actividades curriculares no lectivas (dirección de grupo, atención a padres, planeación, evaluación).",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "Estos también son responsables de las actividades curriculares no lectivas complementarias de la función docente de aula",
+     "ubicacion": "Decreto 1278 de 2002, art. 5"
+    },
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "dirección de grupo, actividades formativas, culturales y deportivas, atención a los padres de familia y acudientes",
+     "ubicacion": "Decreto 1278 de 2002, art. 5"
+    }
+   ],
+   "competencia": "Organización escolar y carrera"
+  },
+  {
+   "id": "Q149",
+   "tipo": "caso",
+   "caso": "C96",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 3,
+   "enunciado": "Según el artículo 4 del Decreto 1278 de 2002, el elemento de la función docente que la docente omitió, y que explica lo ocurrido, es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la planificación, porque debía presentar su plan de área al consejo académico antes de desarrollarlo en las clases.",
+     "j": "Es incorrecta. La docente sí planeó: desarrolló las temáticas de su plan de área. El problema es que planeó sin conocer al grupo, y eso señala un paso anterior que la norma también nombra como parte de la función docente."
+    },
+    {
+     "l": "B",
+     "t": "el diagnóstico, que hace parte de los procesos de enseñanza y aprendizaje junto con la planificación y la evaluación.",
+     "j": "Es correcta. El artículo 4 dice que la función docente implica los procesos sistemáticos de enseñanza y aprendizaje, «lo cual incluye el diagnóstico, la planificación, la ejecución y la evaluación». Sin diagnóstico no supo que la mitad del grupo no usaba el computador."
+    },
+    {
+     "l": "C",
+     "t": "la orientación estudiantil, porque debía remitir al orientador a los estudiantes que nunca habían usado un computador.",
+     "j": "Es incorrecta. El servicio de orientación estudiantil hace parte de la función docente, pero no explica el problema del caso. Que un estudiante no haya usado un computador es un dato pedagógico que se obtiene con un diagnóstico, no un motivo de remisión."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El caso describe una planeación que no corresponde al grupo real: unos estudiantes nunca han usado un computador y otros ya programan. El artículo 4 del Decreto 1278 dice que la función docente implica «la realización directa de los procesos sistemáticos de enseñanza - aprendizaje, lo cual incluye el diagnóstico, la planificación, la ejecución y la evaluación». El paso omitido es el primero: el diagnóstico. Es de nivel 3 porque la planificación también aparece en la norma y parece la respuesta obvia, pero el caso muestra que sí hubo plan. La CNSC valora al docente que conoce a su grupo antes de enseñar.",
+   "fuente": "Decreto 1278 de 2002, art. 4.",
+   "consejo": "Orden de la función docente: diagnóstico, planificación, ejecución y evaluación. Revisa cuál falló en el caso.",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "la realización directa de los procesos sistemáticos de enseñanza - aprendizaje, lo cual incluye el diagnóstico, la planificación, la ejecución y la evaluación de los mismos procesos y sus resultados",
+     "ubicacion": "Decreto 1278 de 2002, art. 4"
+    }
+   ],
+   "competencia": "Organización escolar y carrera"
+  },
+  {
+   "id": "Q151",
+   "tipo": "caso",
+   "caso": "C98",
+   "familia": "DIS-COMP",
+   "dificultad": 2,
+   "enunciado": "Según las definiciones de la Guía 30, el par de área debe aclararle que los desempeños",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "son los contenidos temáticos que el docente desarrolla en cada periodo para que el estudiante logre la competencia.",
+     "j": "Es incorrecta. Confunde desempeños con contenidos. La Guía 30 no define los desempeños como temas por desarrollar, sino como señales que permiten valorar si el estudiante avanza en la competencia."
+    },
+    {
+     "l": "B",
+     "t": "son las valoraciones numéricas que se registran en el informe de cada periodo para certificar la competencia.",
+     "j": "Es incorrecta. Confunde desempeños con calificaciones. Las valoraciones se definen en el sistema institucional de evaluación; la Guía 30 usa los desempeños como pistas para valorar la competencia, no como notas."
+    },
+    {
+     "l": "C",
+     "t": "son señales o pistas que ayudan al docente a valorar la competencia, que integra conocimientos y habilidades.",
+     "j": "Es correcta. La Guía 30 dice que los desempeños «son señales o pistas que ayudan al docente a valorar la competencia en sus estudiantes», y define la competencia como un conjunto de conocimientos, habilidades, actitudes, comprensiones y disposiciones."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La Guía 30 distingue dos conceptos. La competencia es un conjunto de conocimientos, habilidades, actitudes, comprensiones y disposiciones relacionadas entre sí para un desempeño flexible y con sentido. Los desempeños «son señales o pistas que ayudan al docente a valorar la competencia en sus estudiantes». Por eso no son sinónimos: la competencia es lo que se desarrolla y el desempeño es la evidencia que permite reconocer su avance. Los distractores confunden desempeños con contenidos o con notas, dos errores frecuentes en la planeación escolar. La CNSC usa estas definiciones para evaluar si el docente planea y evalúa por competencias.",
+   "fuente": "Guía 30 MEN (2008), definiciones de competencia y desempeño.",
+   "consejo": "Competencia = lo que se desarrolla. Desempeño = la señal que muestra cuánto se ha desarrollado.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Son señales o pistas que ayudan al docente a valorar la competencia en sus estudiantes.",
+     "ubicacion": "Guía 30 MEN, definición de desempeños"
+    }
+   ],
+   "competencia": "Didáctica del área"
+  },
+  {
+   "id": "Q152",
+   "tipo": "caso",
+   "caso": "C99",
+   "familia": "DIS-CTS",
+   "dificultad": 3,
+   "enunciado": "Según los tres aspectos que trata el componente Tecnología y sociedad en la Guía 30, la segunda parte de la actividad trabaja principalmente",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la valoración social de la tecnología, porque los estudiantes analizan los impactos sociales y ambientales de la planta.",
+     "j": "Es incorrecta. Describe bien la primera parte de la actividad, en la que los estudiantes identifican impactos en el agua y el empleo. La pregunta es por la segunda parte, en la que proponen y debaten con la junta: allí el aspecto es otro."
+    },
+    {
+     "l": "B",
+     "t": "las actitudes hacia la tecnología, porque los estudiantes muestran sensibilización social y ambiental ante la planta.",
+     "j": "Es incorrecta. La sensibilización social y ambiental es parte del aspecto de actitudes, y puede estar presente, pero no es lo principal de presentar una propuesta y debatir responsabilidades con la comunidad."
+    },
+    {
+     "l": "C",
+     "t": "la participación social, porque involucra la responsabilidad social, la comunicación y las propuestas de soluciones.",
+     "j": "Es correcta. La Guía 30 dice que el tercer aspecto, la participación social, «involucra temas como la ética y responsabilidad social, la comunicación, la interacción social, las propuestas de soluciones y la participación». Es lo que hacen los estudiantes con la junta."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La Guía 30 dice que el componente Tecnología y sociedad trata tres aspectos: las actitudes hacia la tecnología, la valoración social (potencial de los recursos e impactos) y la participación social, que «involucra temas como la ética y responsabilidad social, la comunicación, la interacción social, las propuestas de soluciones y la participación». La actividad del caso tiene dos partes y el enunciado pregunta solo por la segunda. Es de nivel 3 porque la opción A es correcta para la primera parte: hay que leer con cuidado qué momento se evalúa. Proponer y debatir con la comunidad es participación social.",
+   "fuente": "Guía 30 MEN (2008), componente Tecnología y sociedad.",
+   "consejo": "Analizar impactos = valoración social. Proponer y debatir con la comunidad = participación social.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "La participación social que involucra temas como la ética y responsabilidad social, la comunicación, la interacción social, las propuestas de soluciones y la participación",
+     "ubicacion": "Guía 30 MEN, Tecnología y sociedad"
+    }
+   ],
+   "competencia": "Tecnología y sociedad"
+  },
+  {
+   "id": "Q153",
+   "tipo": "caso",
+   "caso": "C100",
+   "familia": "DIS-COMP",
+   "dificultad": 2,
+   "enunciado": "De acuerdo con la Guía 30, la observación pertinente sobre la propuesta es que, en los primeros grados, los contextos de trabajo deben ser",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "cotidianos, significativos y cercanos al niño, y en los últimos grados pueden ser más generales y amplios.",
+     "j": "Es correcta. La Guía 30 dice que en cada componente «se utilizan contextos que van desde los cotidianos, significativos y cercanos al niño para los primeros grados, hasta los más generales y amplios para los últimos». La política energética mundial no es un contexto cercano para grado segundo."
+    },
+    {
+     "l": "B",
+     "t": "iguales a los de los últimos grados, porque los cuatro componentes del área son los mismos en todos los grados.",
+     "j": "Es incorrecta. Es cierto que los cuatro componentes se mantienen en todos los grupos de grados, pero la Guía 30 aclara que los contextos cambian: cercanos en los primeros grados y más amplios en los últimos."
+    },
+    {
+     "l": "C",
+     "t": "elegidos por los estudiantes según sus intereses, porque la Guía 30 no orienta el tipo de contexto por grado.",
+     "j": "Es incorrecta. La Guía 30 sí orienta el tipo de contexto según el grupo de grados. Tener en cuenta los intereses de los niños es valioso, pero la afirmación de que la guía no da orientación es falsa."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El caso propone el mismo contexto para niños de siete años y jóvenes de diecisiete. La Guía 30 dice que, en cada componente y en los diferentes grupos de grados, «se utilizan contextos que van desde los cotidianos, significativos y cercanos al niño para los primeros grados, hasta los más generales y amplios para los últimos». El tema energético puede trabajarse en ambos grados, pero en segundo debe partir de lo cercano, por ejemplo la luz o la cocina de la casa. La opción B toma un dato cierto (los componentes son los mismos) para llegar a una conclusión equivocada, un recurso típico de la CNSC.",
+   "fuente": "Guía 30 MEN (2008), organización por grupos de grados.",
+   "consejo": "Mismos componentes en todos los grados, pero contextos que se amplían: de lo cercano a lo general.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "se utilizan contextos que van desde los cotidianos, significativos y cercanos al niño para los primeros grados, hasta los más generales y amplios para los últimos",
+     "ubicacion": "Guía 30 MEN, grupos de grados"
+    }
+   ],
+   "competencia": "Didáctica del área"
+  },
+  {
+   "id": "Q154",
+   "tipo": "caso",
+   "caso": "C102",
+   "familia": "DIS-SEG",
+   "dificultad": 2,
+   "enunciado": "Para trabajar el desempeño de cuarto a quinto de la Guía 30 sobre el uso de las TIC en actividades de búsqueda, la intervención más pertinente de la docente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "pedir que comparen varias fuentes, identifiquen quién publica cada una y validen los datos antes de usarlos.",
+     "j": "Es correcta. El desempeño de cuarto a quinto dice «Utilizo tecnologías de la información y la comunicación disponibles en mi entorno» para actividades como la «búsqueda y validación de información». Comparar fuentes y revisar quién publica es validar."
+    },
+    {
+     "l": "B",
+     "t": "entregar a cada grupo un texto impreso con la información correcta para que lo transcriban en sus trabajos.",
+     "j": "Es incorrecta. Resuelve la contradicción de los datos, pero elimina el uso de las TIC y la validación que hacen los propios estudiantes. El desempeño busca que ellos aprendan a buscar y validar, no que copien un texto confiable."
+    },
+    {
+     "l": "C",
+     "t": "restringir la búsqueda a una sola página aprobada por la docente para evitar que encuentren datos distintos.",
+     "j": "Es incorrecta. Restringir evita el problema, pero no forma criterio. Los datos contradictorios son una oportunidad para enseñar a validar información, que es justamente lo que pide el desempeño de la Guía 30."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El caso muestra dos señales: los estudiantes copian el primer resultado sin revisar quién lo publica y llegan a datos contradictorios. La Guía 30 incluye para cuarto y quinto el desempeño «Utilizo tecnologías de la información y la comunicación disponibles en mi entorno para el desarrollo de diversas actividades (comunicación, entretenimiento, aprendizaje, búsqueda y validación de información, investigación, etc.)». La palabra clave es «validación»: comparar fuentes y revisar su origen. Las opciones B y C parecen prudentes, pero quitan a los estudiantes la oportunidad de aprender. La CNSC prefiere la opción que forma criterio sobre la que prohíbe o resuelve por el estudiante.",
+   "fuente": "Guía 30 MEN (2008), cuarto a quinto.",
+   "consejo": "Formar criterio > restringir. Buscar no basta: el desempeño pide validar la información.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Utilizo tecnologías de la información y la comunicación disponibles en mi entorno para el desarrollo de diversas actividades (comunicación, entretenimiento, aprendizaje, búsqueda y validación de información, investigación, etc.).",
+     "ubicacion": "Guía 30 MEN, cuarto a quinto"
+    }
+   ],
+   "competencia": "Apropiación y uso"
+  },
+  {
+   "id": "Q155",
+   "tipo": "caso",
+   "caso": "C103",
+   "familia": "DIS-CONC",
+   "dificultad": 3,
+   "enunciado": "Para trabajar el desempeño «Explico la diferencia entre un artefacto y un proceso mediante ejemplos», la docente debe orientar al estudiante a concluir que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el trapiche es un artefacto y la secuencia de moler, cocinar, batir y moldear es un proceso de transformación.",
+     "j": "Es correcta. La Guía 30 define los artefactos como «dispositivos, herramientas, aparatos, instrumentos y máquinas» y los procesos como «fases sucesivas de operaciones que permiten la transformación de recursos». El trapiche es la máquina; la secuencia es el proceso."
+    },
+    {
+     "l": "B",
+     "t": "el trapiche y la secuencia de elaboración son procesos, porque los dos transforman la caña en panela para la venta.",
+     "j": "Es incorrecta. El trapiche participa en la transformación, pero no es una fase de operaciones: es una máquina. Confundir el artefacto con el proceso en el que se usa es el error que el desempeño busca corregir."
+    },
+    {
+     "l": "C",
+     "t": "la secuencia de elaboración es un artefacto y el trapiche es un proceso, porque la máquina cumple fases de trabajo.",
+     "j": "Es incorrecta. Invierte las definiciones. Las fases sucesivas son lo propio del proceso, no del artefacto; y la máquina que potencia la acción humana es el artefacto, no el proceso."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El estudiante confunde dos conceptos que la Guía 30 separa. Los artefactos «son dispositivos, herramientas, aparatos, instrumentos y máquinas que potencian la acción humana»; los procesos «son fases sucesivas de operaciones que permiten la transformación de recursos». En la finca, el trapiche es el artefacto y moler, cocinar, batir y moldear es el proceso. Es de nivel 3 porque hay que aplicar dos definiciones a la vez y descartar la opción B, que suena razonable porque el trapiche sí transforma la caña. La CNSC usa ejemplos regionales para comprobar si el docente maneja los conceptos básicos del área.",
+   "fuente": "Guía 30 MEN (2008), conceptos básicos y desempeños de cuarto a quinto.",
+   "consejo": "Artefacto = cosa (máquina, herramienta). Proceso = secuencia de fases que transforma recursos.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Explico la diferencia entre un artefacto y un proceso mediante ejemplos.",
+     "ubicacion": "Guía 30 MEN, cuarto a quinto"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "son fases sucesivas de operaciones que permiten la transformación de recursos",
+     "ubicacion": "Guía 30 MEN, conceptos básicos"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "son dispositivos, herramientas, aparatos, instrumentos y máquinas que potencian la acción humana",
+     "ubicacion": "Guía 30 MEN, conceptos básicos"
+    }
+   ],
+   "competencia": "Naturaleza y evolución"
+  },
+  {
+   "id": "Q160",
+   "tipo": "caso",
+   "caso": "C104",
+   "familia": "DIS-CONC",
+   "dificultad": 2,
+   "competencia": "Naturaleza y evolución",
+   "enunciado": "La actividad más coherente con los desempeños de la Guía 30 para primero a tercero es pedir a los niños que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "expliquen para qué sirve la atarraya y nombren otros artefactos que ayudan en las labores de su familia.",
+     "j": "Es correcta. La Guía 30 incluye para primero a tercero el desempeño «Indico la importancia de algunos artefactos para la realización de diversas actividades humanas (por ejemplo, la red para la pesca y la rueda para el transporte)». La actividad parte de la atarraya y lo amplía a otros artefactos cercanos."
+    },
+    {
+     "l": "B",
+     "t": "memoricen la fecha y el lugar en que se inventó la primera red de pesca y la ubiquen en una línea del tiempo mundial.",
+     "j": "Es incorrecta. Memorizar fechas de invención no corresponde al desempeño de este grupo de grados, que pide reconocer la importancia de los artefactos en actividades humanas cercanas. Además, deja de lado la experiencia de la visita."
+    },
+    {
+     "l": "C",
+     "t": "programen en el computador una animación del pescador lanzando la atarraya, sin conversar antes sobre lo observado.",
+     "j": "Es incorrecta. Usar el computador puede ser valioso, pero la actividad salta la reflexión sobre la función del artefacto, que es lo que pide el desempeño. El foco queda en la herramienta digital y no en la importancia de la red."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La Guía 30 incluye para primero a tercero el desempeño «Indico la importancia de algunos artefactos para la realización de diversas actividades humanas (por ejemplo, la red para la pesca y la rueda para el transporte)». La atarraya es una red de pesca, el mismo ejemplo que usa la guía, y la visita del pescador ofrece un contexto cotidiano y cercano, como pide la Guía 30 para los primeros grados. Pedir que los niños expliquen su función y nombren otros artefactos de su entorno trabaja exactamente ese desempeño. Los distractores cambian el propósito por memorizar datos o por usar una herramienta digital sin reflexión. En la CNSC, la actividad correcta parte de lo cercano y apunta al desempeño.",
+   "fuente": "Guía 30 MEN (2008), primero a tercero.",
+   "consejo": "En los primeros grados, busca la opción que parte de un artefacto cercano y pregunta por su función o importancia.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Indico la importancia de algunos artefactos para la realización de diversas actividades humanas (por ejemplo, la red para la pesca y la rueda para el transporte).",
+     "ubicacion": "Guía 30 MEN, primero a tercero"
+    }
+   ]
+  },
+  {
+   "id": "Q156",
+   "tipo": "caso",
+   "caso": "C101",
+   "familia": "NOR-SIST",
+   "dificultad": 1,
+   "enunciado": "Según el artículo 6 del Decreto 1965 de 2013, el periodo del rector como representante ante el Comité Nacional de Convivencia Escolar será",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "de dos años, contados desde la fecha en que la Secretaría Técnica le comunica su designación.",
+     "j": "Es incorrecta. La norma no fija dos años ni cuenta el periodo desde la comunicación. El artículo 6 establece un periodo de un año, que va del primero de enero al treinta y uno de diciembre."
+    },
+    {
+     "l": "B",
+     "t": "de un año, contado a partir del primero de enero y hasta el treinta y uno de diciembre.",
+     "j": "Es correcta. El numeral 3 del artículo 6 dice que el periodo de los representantes «será de un año contado a partir del primero (1) de enero al treinta y uno (31) de diciembre». La designación se comunica para la anualidad siguiente."
+    },
+    {
+     "l": "C",
+     "t": "indefinido, mientras su establecimiento mantenga los puntajes más altos en SABER 11.",
+     "j": "Es incorrecta. Los puntajes de SABER 11 sirven para escoger a los establecimientos, pero el periodo no depende de mantenerlos. La norma fija un periodo de un año y cada año el ICFES informa nuevos resultados."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es una pregunta de dato, de nivel 1. El artículo 6 del Decreto 1965 regula la designación de los representantes de los rectores ante el Comité Nacional de Convivencia Escolar: el ICFES informa cada año los establecimientos oficial y no oficial con los más altos puntajes en SABER 11, la Secretaría Técnica comunica la designación «para la anualidad siguiente» y el periodo «será de un año contado a partir del primero (1) de enero al treinta y uno (31) de diciembre». El distractor C mezcla el criterio de selección con la duración del periodo, una confusión típica en este tipo de preguntas.",
+   "fuente": "Decreto 1965 de 2013, art. 6.",
+   "consejo": "Criterio de selección (SABER 11) y duración del periodo (un año calendario) son dos datos distintos.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "será de un año contado a partir del primero (1) de enero al treinta y uno (31) de diciembre",
+     "ubicacion": "Decreto 1965 de 2013, art. 6, num. 3"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q157",
+   "tipo": "caso",
+   "caso": "C101",
+   "familia": "NOR-SIST",
+   "dificultad": 3,
+   "enunciado": "Un docente pregunta qué pasa si a una sesión ordinaria asisten la mitad más uno de los miembros, pero no el Presidente. Según los artículos 7 y 9 del Decreto 1965 de 2013, el comité",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "puede sesionar, porque con la asistencia de la mitad más uno de sus miembros se cumple el quórum de la norma.",
+     "j": "Es incorrecta. El quórum de la mitad más uno está en el artículo 9, pero no es la única condición. El parágrafo del artículo 7 agrega que el comité no podrá sesionar sin la presencia del Presidente, y en el caso él no asiste."
+    },
+    {
+     "l": "B",
+     "t": "no puede sesionar, porque aunque haya quórum la norma prohíbe que el comité sesione sin la presencia del Presidente.",
+     "j": "Es correcta. El parágrafo del artículo 7 dice que «el Comité Nacional de Convivencia Escolar no podrá sesionar sin la presencia del Presidente del Comité». El quórum es necesario, pero no suficiente: también debe estar el Presidente."
+    },
+    {
+     "l": "C",
+     "t": "puede sesionar, pero sus decisiones solo serán obligatorias cuando el Presidente las apruebe en otra sesión.",
+     "j": "Es incorrecta. La norma no prevé sesiones sin Presidente con decisiones aprobadas después. Sin el Presidente el comité simplemente no puede sesionar, y cuando sesiona válidamente sus decisiones obligan a todos."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La pregunta combina dos condiciones. El artículo 9 del Decreto 1965 dice que el comité «podrá sesionar con la asistencia de la mitad más uno de sus miembros», y el parágrafo del artículo 7 agrega que «no podrá sesionar sin la presencia del Presidente del Comité». Las dos condiciones deben cumplirse a la vez. Es de nivel 3 porque la opción A usa un dato cierto, el quórum, y lo presenta como suficiente. En la CNSC, cuando un caso menciona dos requisitos, revise si la opción atractiva cumple solo uno de ellos.",
+   "fuente": "Decreto 1965 de 2013, arts. 7 y 9.",
+   "consejo": "Quórum (mitad más uno) + presencia del Presidente: sin las dos, no hay sesión.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "El Comité Nacional de Convivencia Escolar no podrá sesionar sin la presencia del Presidente del Comité.",
+     "ubicacion": "Decreto 1965 de 2013, art. 7, parágrafo"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "podrá sesionar con la asistencia de la mitad más uno de sus miembros",
+     "ubicacion": "Decreto 1965 de 2013, art. 9"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q158",
+   "tipo": "caso",
+   "caso": "C101",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "enunciado": "El comité decide invitar a una docente de Tecnología e Informática experta en ciberacoso para que presente su experiencia. Según el artículo 8 del Decreto 1965 de 2013, en esa sesión la invitada",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "tendrá voz pero no voto, porque su aporte es útil para el comité aunque ella no sea integrante de él.",
+     "j": "Es correcta. El parágrafo del artículo 8 permite invitar a personas expertas «cuyo aporte pueda ser de utilidad» y dice que «los invitados tendrán voz pero no voto dentro de las respectivas sesiones». Puede intervenir, pero no decide."
+    },
+    {
+     "l": "B",
+     "t": "tendrá voz y voto, porque fue citada por la Secretaría Técnica con la misma antelación que los integrantes.",
+     "j": "Es incorrecta. La forma de la citación no cambia la calidad de invitada. La norma es expresa: los invitados tienen voz pero no voto, sin importar cómo o cuándo se les convoque a la sesión."
+    },
+    {
+     "l": "C",
+     "t": "no tendrá voz ni voto, porque solo puede entregar su aporte por escrito a la Secretaría Técnica del comité.",
+     "j": "Es incorrecta. La norma reconoce a los invitados el derecho a intervenir en la sesión: tienen voz. Lo que no tienen es voto, porque las decisiones corresponden a los integrantes del comité."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El enunciado pide la calidad de la docente en la sesión. El parágrafo del artículo 8 del Decreto 1965 permite al Comité Nacional invitar a miembros de la comunidad educativa, funcionarios o «personas expertas» cuyo aporte sea útil, y precisa que «los invitados tendrán voz pero no voto dentro de las respectivas sesiones». La experta puede exponer y opinar, pero las decisiones las toman los integrantes. Los distractores le dan más o menos de lo que dice la norma. Este mismo esquema, voz sin voto para invitados, aparece en varias instancias escolares y es frecuente en las preguntas de la CNSC.",
+   "fuente": "Decreto 1965 de 2013, art. 8, parágrafo.",
+   "consejo": "Invitado = voz sin voto. Integrante = voz y voto.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Los invitados tendrán voz pero no voto dentro de las respectivas sesiones.",
+     "ubicacion": "Decreto 1965 de 2013, art. 8, parágrafo"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q159",
+   "tipo": "caso",
+   "caso": "C101",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "enunciado": "Un integrante votó en contra de una decisión adoptada por la mayoría de los asistentes y anuncia que no la cumplirá. Según el artículo 9 del Decreto 1965 de 2013, esa decisión",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "solo lo obliga si la aprobaron todos los integrantes del comité, incluidos los que no asistieron.",
+     "j": "Es incorrecta. La norma no exige unanimidad ni el voto de los ausentes. El artículo 9 dice que las decisiones se adoptan por la mayoría de los miembros que asisten a la sesión del comité."
+    },
+    {
+     "l": "B",
+     "t": "es de obligatorio cumplimiento para todos los integrantes, también para quien votó en contra.",
+     "j": "Es correcta. El artículo 9 dice que las decisiones «se adoptarán por la mayoría de los miembros que asisten a la sesión del Comité y serán de obligatorio cumplimiento para todos sus integrantes». Votar en contra no exime de cumplirlas."
+    },
+    {
+     "l": "C",
+     "t": "obliga solo a quienes la votaron a favor, porque los demás pueden dejar constancia de su desacuerdo.",
+     "j": "Es incorrecta. Dejar constancia del desacuerdo puede ser válido, pero no libera del cumplimiento. La norma dice que las decisiones son obligatorias para todos los integrantes, no solo para quienes votaron a favor."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El caso pregunta por el alcance de una decisión tomada por mayoría. El artículo 9 del Decreto 1965 fija dos reglas: las decisiones «se adoptarán por la mayoría de los miembros que asisten a la sesión del Comité» y «serán de obligatorio cumplimiento para todos sus integrantes». La mayoría se cuenta sobre los asistentes, no sobre el total, y la obligación alcanza también a quien votó en contra. Los distractores exigen unanimidad o limitan la obligación a quienes votaron a favor. En la CNSC, las decisiones válidas de un órgano colegiado obligan a todos sus integrantes, aunque hayan disentido.",
+   "fuente": "Decreto 1965 de 2013, art. 9.",
+   "consejo": "Mayoría de los asistentes decide; la decisión obliga a todos los integrantes.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Las decisiones se adoptarán por la mayoría de los miembros que asisten a la sesión del Comité y serán de obligatorio cumplimiento para todos sus integrantes.",
+     "ubicacion": "Decreto 1965 de 2013, art. 9"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "K055",
+   "tipo": "conocimiento",
+   "ficha": "F28",
+   "familia": "DIS-DATOS",
+   "dificultad": 1,
+   "enunciado": "Según las Orientaciones Curriculares de Tecnología e Informática (2022), la relación entre las TIC y la informática es que las TIC",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "anteceden a la informática, porque incluyen soportes físicos analógicos, como el libro, y no solo digitales.",
+     "j": "Es correcta. Las Orientaciones dicen que «las TIC anteceden a la informática, pues su naturaleza no se restringe únicamente a los soportes digitales como el software, sino que envuelve soportes físicos analógicos como libro»."
+    },
+    {
+     "l": "B",
+     "t": "dependen de la informática, porque solo existen cuando hay un soporte digital, como el software o la red.",
+     "j": "Es incorrecta. Invierte la relación. Para las Orientaciones, las TIC no se restringen a los soportes digitales: también incluyen soportes analógicos, por eso no dependen de la informática sino que la anteceden."
+    },
+    {
+     "l": "C",
+     "t": "equivalen a la informática, porque las dos estudian los mismos soportes digitales, como el computador.",
+     "j": "Es incorrecta. El documento no las trata como sinónimos. Además, aclara que la informática no se centra en el estudio del computador, y que las TIC abarcan soportes analógicos y digitales."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Pregunta de conocimiento de nivel 1, tomada de la ficha. El apartado 2.1.3 de las Orientaciones Curriculares dice que «las TIC anteceden a la informática, pues su naturaleza no se restringe únicamente a los soportes digitales como el software, sino que envuelve soportes físicos analógicos como libro». La idea que se debe recordar es que las TIC son un conjunto amplio de recursos, analógicos y digitales, para manejar información y comunicarse; la informática es una disciplina más reciente. La CNSC suele preguntar por esta relación con distractores que reducen las TIC a lo digital.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.3.",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. El libro también es una TIC analógica.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "las TIC anteceden a la informática, pues su naturaleza no se restringe únicamente a los soportes digitales como el software, sino que envuelve soportes físicos analógicos como libro"
+    }
+   ],
+   "competencia": "Naturaleza y evolución"
+  },
+  {
+   "id": "K056",
+   "tipo": "conocimiento",
+   "ficha": "F28",
+   "familia": "DIS-DATOS",
+   "dificultad": 1,
+   "enunciado": "Según las Orientaciones Curriculares de Tecnología e Informática (2022), al diferenciar datos e información el docente debe explicar que la información es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "cualquier dato guardado en un dispositivo digital, aunque no se haya organizado con un propósito.",
+     "j": "Es incorrecta. Para las Orientaciones, la información no es cualquier dato almacenado: los datos deben agruparse intencionalmente para generar significado. Además, la información no depende de que el soporte sea digital."
+    },
+    {
+     "l": "B",
+     "t": "un conjunto de datos, estructurados o no, que se agrupan de forma intencional para generar significado.",
+     "j": "Es correcta. El documento dice que «la información es un conjunto de datos estructurados o no estructurados que se agrupan intencionalmente para generar significado». La clave es la intención y el significado."
+    },
+    {
+     "l": "C",
+     "t": "el proceso de transmitir un mensaje entre un emisor y un receptor por medio de un canal y un contexto.",
+     "j": "Es incorrecta. Esa es la definición de comunicación que da el mismo apartado de las Orientaciones. Es el distractor típico: confundir la información con el proceso que la transmite."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Pregunta de conocimiento de nivel 1, tomada de la ficha. El apartado 2.1.3 de las Orientaciones Curriculares define: «la información es un conjunto de datos estructurados o no estructurados que se agrupan intencionalmente para generar significado». En el mismo párrafo define la comunicación como el proceso de transmitir esa información entre un emisor y un receptor por un canal y un contexto. Recuerde la secuencia: datos, que se agrupan con intención y producen significado (información), que luego se transmite (comunicación). Este par de conceptos es base del componente informático y aparece en preguntas de didáctica del área.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.3.",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. Datos + intención + significado = información.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la información es un conjunto de datos estructurados o no estructurados que se agrupan intencionalmente para generar significado"
+    }
+   ],
+   "competencia": "Naturaleza y evolución"
+  }
+ ]
+}

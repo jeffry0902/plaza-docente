@@ -1,6 +1,6 @@
 {
  "version": "mbe-1",
- "actualizado": "2026-11-14",
+ "actualizado": "2026-11-15",
  "componentes": [
   {
    "id": "DIS",
@@ -763,6 +763,23 @@
     ],
     "trampa": "Confundir quién vela por la calidad (Estado, sociedad y familia) con quién garantiza el cubrimiento (Nación y entidades territoriales), o creer que la Ley 115 solo regula la educación formal.",
     "fuente": "Ley 115 de 1994, arts. 1 a 4."
+   }
+  },
+  "NOR-SIST": {
+   "componente": "NOR",
+   "nombre": "Instancias del Sistema Nacional de Convivencia",
+   "afirmacion": "NOR-A1",
+   "evidencia": "Reconoce la creación, los objetivos y el funcionamiento de las instancias del Sistema Nacional de Convivencia Escolar (Ley 1620 de 2013 y Decreto 1965 de 2013).",
+   "leccion": {
+    "idea": "La Ley 1620 de 2013 crea el Sistema Nacional de Convivencia Escolar y el Decreto 1965 de 2013 reglamenta cómo funcionan sus instancias. En el nivel nacional, el Comité Nacional de Convivencia Escolar tiene reglas propias de designación, sesiones, citación y quórum.",
+    "claves": [
+     "Representantes de los rectores: los de los establecimientos oficial y no oficial con los más altos puntajes en SABER 11; periodo de un año, del 1 de enero al 31 de diciembre (Decreto 1965, art. 6).",
+     "Sesiona ordinariamente al menos una vez cada seis meses y no puede sesionar sin la presencia de su Presidente (art. 7).",
+     "Los invitados tienen voz pero no voto (art. 8).",
+     "Quórum: mitad más uno de sus miembros; decisiones por mayoría de los asistentes y de obligatorio cumplimiento para todos sus integrantes (art. 9)."
+    ],
+    "trampa": "Creer que basta el quórum para sesionar aunque falte el Presidente, o que un invitado experto puede votar.",
+    "fuente": "Ley 1620 de 2013, arts. 3 y 4; Decreto 1965 de 2013, arts. 6 a 9."
    }
   }
  }

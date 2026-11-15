@@ -692,18 +692,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "el sensor de humedad cumple la función de realimentación, porque informa el estado del suelo al controlador y le permite corregir la salida del sistema.",
-     "j": "Es correcta. El sensor devuelve información sobre la salida (humedad del suelo) al controlador, que la compara con el valor de referencia y decide si mantiene o suspende el riego. Eso es un sistema de lazo cerrado con realimentación."
+     "t": "el sensor de humedad cumple la función de realimentación, porque informa al controlador el estado del suelo.",
+     "j": "Es correcta. El sensor devuelve información sobre el resultado del sistema (la humedad del suelo) al controlador, que la compara con el valor mínimo y decide si sigue o se detiene el riego. Esa información de regreso es la realimentación."
     },
     {
      "l": "B",
-     "t": "la electroválvula cumple la función de control, porque es el elemento que decide cuándo debe circular el agua por el sistema.",
-     "j": "Es incorrecta. La electroválvula es el actuador: ejecuta la orden, pero no decide. La decisión la toma la tarjeta programable al comparar la medida con el valor mínimo."
+     "t": "la electroválvula cumple la función de control, porque es el elemento que decide cuándo circula el agua.",
+     "j": "Es incorrecta. La electroválvula es el actuador: abre o cierra el paso del agua, pero no decide. La decisión la toma la tarjeta programable al comparar la medida del sensor con el valor mínimo definido por los estudiantes."
     },
     {
      "l": "C",
-     "t": "la tarjeta programable cumple la función de realimentación, porque almacena el valor mínimo y lo envía de forma permanente a la válvula.",
-     "j": "Es incorrecta. La tarjeta es el controlador. El valor mínimo es la referencia, no la realimentación, y la tarjeta no envía señales de forma permanente: actúa según la información que recibe del sensor."
+     "t": "la tarjeta programable cumple la función de realimentación, porque guarda el valor mínimo y lo envía a la válvula.",
+     "j": "Es incorrecta. La tarjeta es el controlador y el valor mínimo es la referencia, no la realimentación. Sería correcta si la pregunta fuera qué elemento compara y decide, pero no qué elemento devuelve la información sobre la salida."
     }
    ],
    "clave": "A",
@@ -719,7 +719,10 @@
      "doc": "guia30_mineducacion_2008",
      "texto": "Los sistemas: son conjuntos o grupos de elementos ligados entre sí por relaciones estructurales o funcionales, diseñados para lograr colectivamente un objetivo."
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "La clave del enunciado es «por qué el riego se detiene solo». La Guía 30 pide que los estudiantes describan «el rol de la realimentación en el funcionamiento automático de algunos sistemas». En el montaje hay tres funciones: el sensor mide y devuelve información sobre la salida, la tarjeta compara con el valor mínimo y decide, y la electroválvula ejecuta. El riego se detiene solo porque el sensor informa que la humedad ya es adecuada: eso es la realimentación. Es de nivel 3 porque las tres opciones nombran elementos reales del sistema y hay que asignar bien cada función.",
+   "revisado": true
   },
   {
    "id": "Q002",
@@ -731,17 +734,17 @@
     {
      "l": "A",
      "t": "consulten la definición de sistema automático y la organicen en un mapa conceptual sobre el riego de cultivos.",
-     "j": "Es incorrecta. Es una actividad de consulta conceptual que no parte del producto tecnológico ni lo examina."
+     "j": "Es incorrecta. Es una actividad de consulta conceptual que puede ser útil, pero no parte del producto tecnológico ni lo examina. El análisis de productos exige trabajar sobre el objeto terminado y sus partes."
     },
     {
      "l": "B",
-     "t": "partan del sistema de riego instalado, lo descompongan en sus partes y formulen preguntas sobre la función, los materiales y las decisiones de diseño.",
-     "j": "Es correcta. Según las Orientaciones Curriculares (4.2.3), en el análisis de productos «se parte de un producto tecnológico terminado para descomponerlo en sus partes» y elaborar preguntas sobre su función, materiales y decisiones de diseño."
+     "t": "partan del sistema de riego instalado, lo descompongan en sus partes y se pregunten por su función y sus materiales.",
+     "j": "Es correcta. Según las Orientaciones Curriculares, en el análisis de productos tecnológicos «se parte de un producto tecnológico terminado para descomponerlo en sus partes» y formular preguntas sobre su función, materiales y decisiones de diseño."
     },
     {
      "l": "C",
-     "t": "diseñen un nuevo sistema de riego con materiales reciclados para reemplazar el que ya funciona en la huerta escolar.",
-     "j": "Es incorrecta. Diseñar una solución nueva corresponde a las estrategias de diseño y de construcción-fabricación, no al análisis de un producto existente."
+     "t": "diseñen un nuevo sistema de riego con materiales reciclados para reemplazar el que ya funciona en la huerta.",
+     "j": "Es incorrecta. Diseñar una solución nueva corresponde a las estrategias de diseño o de construcción, no al análisis de un producto existente. Sería correcta si el enunciado nombrara la estrategia de diseño."
     }
    ],
    "clave": "B",
@@ -753,7 +756,10 @@
      "doc": "orientaciones_tecnologia_2022",
      "texto": "Se parte de un producto tecnológico terminado para descomponerlo en sus partes"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El enunciado nombra una estrategia concreta: el análisis de productos tecnológicos. Las Orientaciones Curriculares la describen así: «Se parte de un producto tecnológico terminado para descomponerlo en sus partes» y, a partir de ellas, se formulan preguntas sobre su función, sus materiales y las decisiones de diseño. Por eso la actividad coherente es trabajar sobre el sistema de riego que ya existe. Los distractores son actividades válidas del área, pero corresponden a otras estrategias (consulta conceptual o diseño). En la CNSC, cuando el enunciado nombra una estrategia, la respuesta es la acción propia de esa estrategia, no la más llamativa.",
+   "revisado": true
   },
   {
    "id": "Q003",
@@ -764,18 +770,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "calcular con los estudiantes el ahorro de agua frente al riego manual y debatir con la comunidad el impacto del sistema en el uso del recurso hídrico.",
-     "j": "Es correcta. El componente busca valorar críticamente los impactos sociales y ambientales de la tecnología y promover la participación en decisiones sobre su uso (Orientaciones Curriculares, 3.3.1.4)."
+     "t": "calcular con los estudiantes el ahorro de agua y debatir con la comunidad el impacto del sistema en el recurso hídrico.",
+     "j": "Es correcta. El componente busca que los estudiantes generen criterios de valoración social de la tecnología y analicen sus impactos. Calcular el ahorro de agua y debatirlo con la comunidad trabaja la valoración y la participación social."
     },
     {
      "l": "B",
-     "t": "programar nuevos valores mínimos de humedad en la tarjeta para comparar la eficiencia del sistema con distintos tipos de cultivo.",
-     "j": "Es incorrecta. Ajustar parámetros para optimizar el sistema corresponde a solución de problemas y a uso y apropiación, no a la valoración social del impacto."
+     "t": "programar nuevos valores mínimos de humedad en la tarjeta para comparar la eficiencia del sistema en varios cultivos.",
+     "j": "Es incorrecta. Ajustar parámetros para optimizar el sistema es una actividad de solución de problemas y de uso de la tecnología. Mejora el funcionamiento, pero no analiza el impacto social ni ambiental del sistema."
     },
     {
      "l": "C",
-     "t": "elaborar un manual de mantenimiento del sistema para que los estudiantes de otros grados puedan operarlo de forma correcta.",
-     "j": "Es incorrecta. El mantenimiento y la operación segura pertenecen al componente de apropiación y uso de la tecnología."
+     "t": "elaborar un manual de mantenimiento del sistema para que los estudiantes de otros grados puedan operarlo bien.",
+     "j": "Es incorrecta. El mantenimiento y la operación segura de un artefacto pertenecen al componente de apropiación y uso de la tecnología. Es una buena actividad, pero no responde al componente que pide el enunciado."
     }
    ],
    "clave": "A",
@@ -787,7 +793,10 @@
      "doc": "orientaciones_tecnologia_2022",
      "texto": "desde la perspectiva ética, generen criterios de valoración social de la tecnología y la informática para reconocer el potencial de los recursos, la evaluación de los procesos y el análisis de sus impactos"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "El enunciado pide el componente Tecnología, informática y sociedad. Las Orientaciones Curriculares dicen que este componente busca que, «desde la perspectiva ética, generen criterios de valoración social de la tecnología y la informática para reconocer el potencial de los recursos, la evaluación de los procesos y el análisis de sus impactos». Calcular el ahorro de agua y debatir el impacto con la comunidad es valorar socialmente el sistema. Es de nivel 3 porque las tres opciones son buenas actividades con el mismo montaje y hay que ubicar cada una en su componente. Recuerde: impacto y participación, sociedad; operar y mantener, apropiación y uso.",
+   "revisado": true
   },
   {
    "id": "Q004",
@@ -799,17 +808,17 @@
     {
      "l": "A",
      "t": "8, porque en la última repetición el contador vale 4 y ese valor se multiplica por 2.",
-     "j": "Es incorrecta. 8 es solo lo que se suma en la cuarta repetición; el total acumula lo sumado en todas las repeticiones."
+     "j": "Es incorrecta. El 8 es solo lo que se suma al total en la cuarta repetición. El error es mirar únicamente la última vuelta del ciclo y olvidar que la variable total acumula lo de todas las repeticiones."
     },
     {
      "l": "B",
      "t": "20, porque el total acumula 2 + 4 + 6 + 8 en las cuatro repeticiones del ciclo.",
-     "j": "Es correcta. Prueba de escritorio: contador 1 → total 2; contador 2 → total 6; contador 3 → total 12; contador 4 → total 20."
+     "j": "Es correcta. Prueba de escritorio: contador 1, total 2; contador 2, total 6; contador 3, total 12; contador 4, total 20. En cada vuelta se suma el doble del contador al valor que ya tenía el total."
     },
     {
      "l": "C",
-     "t": "10, porque el total acumula los valores del contador 1 + 2 + 3 + 4 en cada repetición.",
-     "j": "Es incorrecta. Olvida que en cada repetición el contador se multiplica por 2 antes de sumarse al total."
+     "t": "10, porque el total acumula los valores 1 + 2 + 3 + 4 del contador en cada repetición.",
+     "j": "Es incorrecta. Suma los valores del contador, pero olvida que en cada repetición el contador se multiplica por 2 antes de sumarse al total. Es un error típico de lectura apresurada del pseudocódigo."
     }
    ],
    "clave": "B",
@@ -821,7 +830,10 @@
      "doc": "orientaciones_tecnologia_2022",
      "texto": "La programación es una forma de expresión y una estrategia que permite dar forma a las ideas"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La forma segura de resolver este tipo de pregunta es la prueba de escritorio: una tabla con una fila por repetición y una columna por variable. El contador empieza en 0 y en cada vuelta aumenta en 1; el total suma el doble del contador. Vuelta 1: 2; vuelta 2: 6; vuelta 3: 12; vuelta 4: 20. Las Orientaciones Curriculares presentan la programación como «una forma de expresión y una estrategia que permite dar forma a las ideas», y la prueba de escritorio es la herramienta didáctica para que los estudiantes encuentren dónde falla su programa. Los distractores reproducen errores reales de los estudiantes.",
+   "revisado": true
   },
   {
    "id": "Q005",
@@ -832,18 +844,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "revisar él mismo cada programa y corregir los bloques equivocados, para que todo el grupo avance al mismo ritmo en la actividad.",
-     "j": "Es incorrecta. Resolver por el estudiante le quita la oportunidad de desarrollar la competencia de detectar y corregir fallas."
+     "t": "revisar él mismo cada programa y corregir los bloques equivocados para que todo el grupo avance al mismo ritmo.",
+     "j": "Es incorrecta. El docente resuelve por el estudiante y le quita la oportunidad de desarrollar la competencia de detectar y corregir fallas. El grupo avanza, pero no aprende a encontrar errores por sí mismo."
     },
     {
      "l": "B",
-     "t": "pedirles que borren el programa y lo vuelvan a construir siguiendo paso a paso un ejemplo resuelto proyectado en el tablero.",
-     "j": "Es incorrecta. Copiar un modelo puede producir un programa que funciona, pero no enseña a encontrar el error."
+     "t": "pedirles que borren el programa y lo vuelvan a construir siguiendo un ejemplo resuelto proyectado en el tablero.",
+     "j": "Es incorrecta. Copiar un modelo puede producir un programa que funcione, pero no enseña a localizar el error. Sería útil para presentar un concepto nuevo, no para trabajar la detección de fallas."
     },
     {
      "l": "C",
-     "t": "pedirles que ejecuten el programa por partes, comparen lo obtenido con lo esperado y descarten los bloques correctos hasta ubicar la falla.",
-     "j": "Es correcta. Corresponde al desempeño de la Guía 30: «Detecto fallas en artefactos, procesos y sistemas tecnológicos, siguiendo procedimientos de prueba y descarte»."
+     "t": "pedirles que ejecuten el programa por partes, comparen con lo esperado y descarten los bloques que funcionan.",
+     "j": "Es correcta. Corresponde al desempeño de sexto y séptimo de la Guía 30: «Detecto fallas en artefactos, procesos y sistemas tecnológicos, siguiendo procedimientos de prueba y descarte». Los estudiantes encuentran la falla con un método."
     }
    ],
    "clave": "C",
@@ -855,7 +867,10 @@
      "doc": "guia30_mineducacion_2008",
      "texto": "Detecto fallas en artefactos, procesos y sistemas tecnológicos, siguiendo procedimientos de prueba y descarte, y propongo estrategias de solución."
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El enunciado pide una orientación acorde con el componente de solución de problemas con tecnología. La Guía 30 incluye para sexto y séptimo el desempeño «Detecto fallas en artefactos, procesos y sistemas tecnológicos, siguiendo procedimientos de prueba y descarte, y propongo estrategias de solución». Ejecutar el programa por partes, comparar con lo esperado y descartar lo que funciona es exactamente un procedimiento de prueba y descarte. Las otras dos opciones hacen que el programa funcione, pero el docente o el ejemplo resuelven por el estudiante. En la CNSC, la opción correcta suele ser aquella en la que el docente orienta y el estudiante construye.",
+   "revisado": true
   },
   {
    "id": "Q006",
@@ -866,18 +881,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "aplazar el tema de programación hasta que la sede cuente con una sala de informática dotada y con conectividad estable.",
-     "j": "Es incorrecta. Aplazar el aprendizaje desconoce que existen estrategias para desarrollar el pensamiento computacional sin equipos."
+     "t": "aplazar el tema de programación hasta que la sede cuente con una sala de informática dotada y conectada.",
+     "j": "Es incorrecta. Aplazar el aprendizaje desconoce que existen estrategias para desarrollar el pensamiento computacional sin equipos. La falta de recursos no justifica suspender un propósito de aprendizaje del área."
     },
     {
      "l": "B",
-     "t": "realizar actividades de pensamiento computacional desconectado, como juegos con reglas en los que los estudiantes hacen de contador y de acumulador.",
-     "j": "Es correcta. Las Orientaciones (4.3.3) proponen el pensamiento computacional sin computadores mediante retos y juegos basados en reglas para trabajar algoritmos, números binarios y datos."
+     "t": "realizar actividades desconectadas, como juegos de reglas en los que los estudiantes hacen de contador.",
+     "j": "Es correcta. Las Orientaciones Curriculares dicen que el desarrollo del pensamiento computacional sin computadores «es un enfoque didáctico que no requiere de equipos computacionales». Los juegos con reglas permiten trabajar el mismo algoritmo."
     },
     {
      "l": "C",
-     "t": "reemplazar la programación por la lectura de textos sobre la historia de los computadores y de sus principales inventores.",
-     "j": "Es incorrecta. Cambia el propósito de aprendizaje: la historia de la computación no desarrolla el pensamiento algorítmico que se busca."
+     "t": "reemplazar la programación por la lectura de textos sobre la historia de los computadores y sus inventores.",
+     "j": "Es incorrecta. Cambia el propósito de aprendizaje: la historia de la computación es un contenido válido, pero no desarrolla el pensamiento algorítmico que se busca con el ejercicio del contador y el acumulador."
     }
    ],
    "clave": "B",
@@ -889,7 +904,10 @@
      "doc": "orientaciones_tecnologia_2022",
      "texto": "desarrollo del pensamiento computacional sin computadores es un enfoque didáctico que no requiere de equipos computacionales para su implementación"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El caso plantea una restricción de recursos: no hay computadores. Las Orientaciones Curriculares responden con el pensamiento computacional desconectado y dicen que su desarrollo «sin computadores es un enfoque didáctico que no requiere de equipos computacionales para su implementación». Con juegos de reglas, los estudiantes pueden representar el contador y el acumulador y seguir el mismo algoritmo. La opción correcta mantiene el propósito de aprendizaje y cambia solo el medio. Los distractores aplazan el aprendizaje o lo cambian por otro contenido. Este razonamiento es muy útil en contextos rurales como los de Yopal, y la CNSC lo evalúa con frecuencia.",
+   "revisado": true
   },
   {
    "id": "Q007",
@@ -901,17 +919,17 @@
     {
      "l": "A",
      "t": "16 combinaciones distintas, porque cada bit aporta dos estados y estos se suman: 8 × 2.",
-     "j": "Es incorrecta. Los estados de los bits se combinan multiplicándose, no sumándose."
+     "j": "Es incorrecta. Multiplicar 8 por 2 trata los estados como si se sumaran posición por posición. En realidad, cada bit nuevo se combina con todos los anteriores, y por eso las posibilidades se multiplican."
     },
     {
      "l": "B",
-     "t": "256 combinaciones distintas, porque cada bit adicional duplica las posibilidades: 2 elevado a la 8.",
-     "j": "Es correcta. Con n bits hay 2ⁿ combinaciones; con 8 bits, 2⁸ = 256 (valores de 0 a 255)."
+     "t": "256 combinaciones distintas, porque cada bit adicional duplica las posibilidades: 2 a la 8.",
+     "j": "Es correcta. Con n bits hay 2 elevado a la n combinaciones. Con 8 bits, 2 elevado a la 8 es 256, que corresponden a los valores del 0 al 255. Cada bit que se agrega duplica las combinaciones anteriores."
     },
     {
      "l": "C",
      "t": "64 combinaciones distintas, porque la cantidad de bits se multiplica por sí misma: 8 × 8.",
-     "j": "Es incorrecta. Elevar 8 al cuadrado no corresponde al número de combinaciones de dos estados en 8 posiciones."
+     "j": "Es incorrecta. Elevar al cuadrado el número de bits no corresponde a la regla de combinaciones. El número de estados por posición (2) es la base y el número de posiciones (8) es el exponente, no al revés."
     }
    ],
    "clave": "B",
@@ -923,7 +941,10 @@
      "doc": "guia30_mineducacion_2008",
      "texto": "Identifico artefactos basados en tecnología digital y describo el sistema binario utilizado en dicha tecnología."
     }
-   ]
+   ],
+   "dificultad": 1,
+   "explicacion": "La Guía 30 incluye para octavo y noveno el desempeño «Identifico artefactos basados en tecnología digital y describo el sistema binario utilizado en dicha tecnología». La regla que se debe recordar es: combinaciones = (estados por posición) elevado al número de posiciones. Un bit tiene dos estados (0 y 1) y un byte tiene 8 bits, así que hay 2 elevado a la 8, es decir, 256 combinaciones. Por eso un byte puede representar tantos caracteres distintos. Es de nivel 1 porque basta aplicar la regla. Los distractores reproducen los errores más comunes: sumar o multiplicar en lugar de elevar a una potencia.",
+   "revisado": true
   },
   {
    "id": "Q008",
@@ -934,18 +955,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "bloquear el acceso a las redes sociales desde la sala para evitar que los estudiantes expongan sus cuentas personales.",
-     "j": "Es incorrecta. Restringe sin formar: los estudiantes seguirán usando sus cuentas fuera de la sala con las mismas prácticas inseguras."
+     "t": "bloquear el acceso a las redes sociales desde la sala para evitar que los estudiantes expongan sus cuentas.",
+     "j": "Es incorrecta. Restringe sin formar: los estudiantes seguirán usando sus cuentas fuera de la sala con las mismas prácticas inseguras. Puede ser una medida técnica complementaria, pero no es la acción pedagógica que se pide."
     },
     {
      "l": "B",
-     "t": "asignar a cada estudiante una contraseña creada por ella y guardarla en un listado para controlar el acceso a los equipos.",
-     "j": "Es incorrecta. Además de no formar, concentra contraseñas ajenas en un listado y contradice el principio de que la contraseña es personal."
+     "t": "asignar a cada estudiante una contraseña creada por ella y guardarla en un listado para controlar los equipos.",
+     "j": "Es incorrecta. Además de no formar, concentra contraseñas ajenas en un listado y contradice la idea de que la contraseña es personal. Resuelve el control de los equipos, no el problema de las cuentas personales."
     },
     {
      "l": "C",
-     "t": "proponer un taller en el que los estudiantes analicen casos de suplantación y construyan contraseñas robustas y diferentes para cada servicio.",
-     "j": "Es correcta. Forma para el uso responsable y autónomo de las TIC a partir del análisis de situaciones reales."
+     "t": "proponer un taller para analizar casos de suplantación y crear contraseñas robustas y distintas por servicio.",
+     "j": "Es correcta. Forma para el uso responsable y autónomo de las TIC a partir de situaciones reales, como pide la Guía 30. Los estudiantes entienden el riesgo y aprenden una práctica que pueden aplicar fuera del colegio."
     }
    ],
    "clave": "C",
@@ -957,7 +978,10 @@
      "doc": "guia30_mineducacion_2008",
      "texto": "Utilizo responsable y autónomamente las Tecnologías de la Información y la Comunicación (TIC) para aprender, investigar y comunicarme con otros en el mundo."
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El enunciado pide una acción pedagógica. La Guía 30 propone que el estudiante llegue a decir: «Utilizo responsable y autónomamente las Tecnologías de la Información y la Comunicación (TIC) para aprender, investigar y comunicarme con otros en el mundo». La palabra clave es «autónomamente»: el estudiante debe aprender a protegerse por sí mismo. Un taller con casos de suplantación y la construcción de contraseñas propias desarrolla ese criterio. Las otras opciones controlan desde afuera, bloqueando o administrando las contraseñas, y no forman. En la CNSC, ante un riesgo digital, formar suele ser mejor respuesta que prohibir.",
+   "revisado": true
   },
   {
    "id": "Q009",
@@ -968,18 +992,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "enseñar a los estudiantes a buscar recursos con licencias de uso abierto y a citar la fuente y el autor de cada imagen que utilicen.",
-     "j": "Es correcta. Desarrolla el respeto por la propiedad intelectual y los derechos de autor, contenido explícito del componente en la Guía 30."
+     "t": "enseñar a buscar recursos con licencias de uso abierto y a citar la fuente y el autor de cada imagen utilizada.",
+     "j": "Es correcta. Desarrolla el respeto por la propiedad intelectual y los derechos de autor, contenido explícito del componente en la Guía 30. Los estudiantes siguen usando imágenes, pero de forma legal y ética."
     },
     {
      "l": "B",
-     "t": "permitir el uso de cualquier imagen siempre que la presentación tenga fines educativos y no se publique en internet.",
-     "j": "Es incorrecta. El fin educativo no elimina por sí solo el deber de reconocer la autoría; refuerza una idea equivocada sobre los derechos de autor."
+     "t": "permitir el uso de cualquier imagen siempre que la presentación tenga fines educativos y no se publique.",
+     "j": "Es incorrecta. El fin educativo no elimina por sí solo el deber de reconocer la autoría. Esta opción refuerza una idea equivocada muy común sobre los derechos de autor en lugar de corregirla."
     },
     {
      "l": "C",
-     "t": "prohibir el uso de imágenes externas y exigir que todas las ilustraciones de las presentaciones sean dibujadas a mano.",
-     "j": "Es incorrecta. Evita el problema en lugar de formar en el uso legal y ético de los recursos digitales."
+     "t": "prohibir el uso de imágenes externas y exigir que todas las ilustraciones de las presentaciones se hagan a mano.",
+     "j": "Es incorrecta. Evita el problema en lugar de formar en el uso legal y ético de los recursos digitales. Los estudiantes no aprenden a reconocer licencias ni a citar fuentes, que es lo que pide el componente."
     }
    ],
    "clave": "A",
@@ -991,7 +1015,10 @@
      "doc": "guia30_mineducacion_2008",
      "texto": "Analizo la importancia y el papel que juegan las patentes y los derechos de autor en el desarrollo tecnológico."
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El enunciado pide el componente Tecnología, informática y sociedad. La Guía 30 incluye el desempeño «Analizo la importancia y el papel que juegan las patentes y los derechos de autor en el desarrollo tecnológico». Enseñar a buscar recursos con licencias abiertas y a citar fuente y autor forma en ese respeto por la propiedad intelectual sin renunciar al uso de imágenes. Los distractores representan dos extremos: permitir todo con la excusa del fin educativo o prohibir todo. En la CNSC, entre permitir y prohibir, la respuesta correcta suele ser la que enseña el uso legal y ético de la tecnología.",
+   "revisado": true
   },
   {
    "id": "Q010",
@@ -1003,17 +1030,17 @@
     {
      "l": "A",
      "t": "restricciones del diseño, porque limitan las alternativas de solución que el equipo puede considerar.",
-     "j": "Es correcta. Las restricciones son los límites dentro de los cuales debe encontrarse la solución (materiales, tamaño, tiempo, costo)."
+     "j": "Es correcta. Las restricciones son los límites dentro de los cuales debe encontrarse la solución, como los materiales, el tamaño, el tiempo o el costo. Usar solo materiales reutilizados y no superar 30 cm son límites."
     },
     {
      "l": "B",
      "t": "especificaciones de desempeño, porque describen la función que el prototipo debe cumplir en la rampa.",
-     "j": "Es incorrecta. La especificación de desempeño es transportar 500 gramos a lo largo de 2 metros; el material y el tamaño no describen esa función."
+     "j": "Es incorrecta. La especificación de desempeño es transportar 500 gramos a lo largo de 2 metros. El material y el tamaño no describen esa función, sino las condiciones dentro de las cuales debe lograrse."
     },
     {
      "l": "C",
      "t": "criterios de calificación, porque indican la valoración que obtendrá cada equipo al final del proyecto.",
-     "j": "Es incorrecta. Son condiciones del problema de diseño, no criterios de evaluación."
+     "j": "Es incorrecta. Son condiciones del problema de diseño, no criterios de evaluación. El docente puede usarlas al evaluar, pero su función en el planteamiento es limitar las soluciones posibles."
     }
    ],
    "clave": "A",
@@ -1025,7 +1052,10 @@
      "doc": "guia30_mineducacion_2008",
      "texto": "Identifico las condiciones, especificaciones y restricciones de diseño, utilizadas en una solución tecnológica y puedo verificar su cumplimiento."
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La Guía 30 incluye para décimo y undécimo el desempeño «Identifico las condiciones, especificaciones y restricciones de diseño, utilizadas en una solución tecnológica y puedo verificar su cumplimiento». La distinción que se debe recordar es: la especificación dice lo que la solución debe lograr (transportar 500 gramos por la rampa) y la restricción dice dentro de qué límites debe lograrlo (materiales reutilizados, 30 centímetros, tres semanas). Las dos condiciones del enunciado son límites, por lo tanto son restricciones. El distractor B es el más cercano porque también es un concepto del diseño, pero corresponde a la función del prototipo.",
+   "revisado": true
   },
   {
    "id": "Q011",
@@ -1036,18 +1066,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "reemplazar todo el prototipo por uno nuevo con otros materiales, ya que el diseño inicial demostró que no es viable.",
-     "j": "Es incorrecta. Descarta el diseño sin identificar la causa de la falla, por lo que el error puede repetirse."
+     "t": "reemplazar todo el prototipo por uno nuevo con otros materiales, ya que el diseño inicial demostró no ser viable.",
+     "j": "Es incorrecta. Descarta el diseño sin identificar la causa de la falla, por lo que el mismo error puede repetirse en el nuevo prototipo. Una sola prueba fallida no demuestra que el diseño no sea viable."
     },
     {
      "l": "B",
-     "t": "formular hipótesis sobre la falla, probar por separado ruedas, ejes y distribución de la carga y registrar los resultados antes de modificar el diseño.",
-     "j": "Es correcta. Corresponde al desempeño de 10°-11°: «Detecto, describo y formulo hipótesis sobre fallas en sistemas tecnológicos sencillos (siguiendo un proceso de prueba y descarte)»."
+     "t": "formular hipótesis sobre la falla y probar por separado ruedas, ejes y carga, registrando los resultados.",
+     "j": "Es correcta. Corresponde al desempeño de décimo y undécimo: «Detecto, describo y formulo hipótesis sobre fallas en sistemas tecnológicos sencillos (siguiendo un proceso de prueba y descarte)». El equipo diagnostica antes de modificar."
     },
     {
      "l": "C",
-     "t": "observar el carro del equipo que obtuvo el mejor resultado y aplicar en su prototipo las soluciones que ese equipo utilizó.",
-     "j": "Es incorrecta. Copiar soluciones ajenas no desarrolla la competencia de diagnosticar y resolver problemas."
+     "t": "observar el carro del equipo con mejor resultado y aplicar en su prototipo las soluciones que ese equipo usó.",
+     "j": "Es incorrecta. Aprender de otros equipos puede ser útil, pero copiar soluciones ajenas sin entender la causa de la propia falla no desarrolla la competencia de diagnosticar y resolver problemas."
     }
    ],
    "clave": "B",
@@ -1059,7 +1089,10 @@
      "doc": "guia30_mineducacion_2008",
      "texto": "Detecto, describo y formulo hipótesis sobre fallas en sistemas tecnológicos sencillos (siguiendo un proceso de prueba y descarte) y propongo estrategias para repararlas."
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "El enunciado pide orientar el proceso frente a una falla en grado décimo. La Guía 30 incluye para décimo y undécimo el desempeño «Detecto, describo y formulo hipótesis sobre fallas en sistemas tecnológicos sencillos (siguiendo un proceso de prueba y descarte) y propongo estrategias para repararlas». En este grupo de grados ya no basta con probar y descartar: hay que formular hipótesis. Probar por separado ruedas, ejes y carga, y registrar los resultados, es aplicar ese método. Es de nivel 3 porque la opción C parece colaborativa y razonable, pero salta el diagnóstico. En la CNSC, la detección de fallas va antes de cualquier rediseño.",
+   "revisado": true
   },
   {
    "id": "Q012",
@@ -1070,18 +1103,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "valorar únicamente si el carro llega al final de la rampa, porque ese resultado demuestra que el diseño fue exitoso.",
-     "j": "Es incorrecta. Reduce la evaluación al producto final y deja de lado el proceso de diseño, pruebas y mejoras que el área busca desarrollar."
+     "t": "valorar solo si el carro llega al final de la rampa, porque ese resultado demuestra que el diseño fue exitoso.",
+     "j": "Es incorrecta. Reduce la evaluación al producto final y deja de lado el proceso de diseño, pruebas y mejoras que el área busca desarrollar. Un equipo puede aprender mucho aunque su carro falle en la primera prueba."
     },
     {
      "l": "B",
-     "t": "usar una rúbrica conocida desde el inicio que valore el diseño, las pruebas, las mejoras y la argumentación, además del funcionamiento final.",
-     "j": "Es correcta. Evalúa de manera integral y formativa, con criterios conocidos, como lo piden el Decreto 1075 (propósitos de la evaluación) y las Orientaciones Curriculares (evaluación a través de productos tecnológicos)."
+     "t": "usar una rúbrica conocida desde el inicio que valore el diseño, las pruebas y las mejoras, y también el resultado.",
+     "j": "Es correcta. Evalúa de manera integral y formativa, con criterios conocidos, como piden el Decreto 1075 (propósitos de la evaluación) y la Resolución 3842 (enfoque integral, flexible y formativo). El resultado cuenta, pero no es lo único."
     },
     {
      "l": "C",
-     "t": "aplicar al final un examen escrito sobre fuerzas y máquinas simples, ya que el prototipo es un trabajo colectivo del equipo.",
-     "j": "Es incorrecta. Desvincula la evaluación de la actividad realizada y no valora las competencias de diseño y solución de problemas."
+     "t": "aplicar al final un examen escrito sobre fuerzas y máquinas simples, ya que el prototipo es un trabajo de equipo.",
+     "j": "Es incorrecta. Desvincula la evaluación de la actividad realizada y no valora las competencias de diseño y solución de problemas. El trabajo en equipo se puede evaluar con criterios individuales y grupales en la misma rúbrica."
     }
    ],
    "clave": "B",
@@ -1097,7 +1130,10 @@
      "doc": "resolucion_3842_2022_ocr",
      "texto": "Realizar el seguimiento, evaluación y retroalimentación teniendo en cuenta un enfoque integral, flexible y formativo."
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "La palabra clave es «enfoque formativo». El Decreto 1075 señala como propósito de la evaluación «proporcionar información básica para consolidar o reorientar los procesos educativos relacionados con el desarrollo integral del estudiante», y la Resolución 3842 pide al docente «realizar el seguimiento, evaluación y retroalimentación teniendo en cuenta un enfoque integral, flexible y formativo». Una rúbrica conocida desde el inicio permite valorar el proceso y retroalimentar a tiempo. Es de nivel 3 porque las tres opciones evalúan algo real; la diferencia está en si la evaluación sirve para reorientar el proceso. La CNSC rechaza la evaluación que solo mira el resultado final.",
+   "revisado": true
   },
   {
    "id": "Q013",
@@ -1108,18 +1144,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "modificar la valoración para evitar el conflicto, dado que los padres manifiestan no conocer los criterios de evaluación del área.",
-     "j": "Es incorrecta. La valoración no se cambia para evitar un conflicto; se revisa según los criterios y procedimientos del SIEE."
+     "t": "modificar la valoración para evitar el conflicto, dado que los padres dicen no conocer los criterios del área.",
+     "j": "Es incorrecta. La valoración no se cambia para evitar un conflicto. Si hay una reclamación, se revisa según los criterios y los procedimientos que establece el Sistema Institucional de Evaluación."
     },
     {
      "l": "B",
-     "t": "explicar los criterios con base en el Sistema Institucional de Evaluación y, si persiste el desacuerdo, orientarlos sobre las instancias de reclamación que este establece.",
-     "j": "Es correcta. El SIEE debe contener «las instancias, procedimientos y mecanismos de atención y resolución de reclamaciones» (art. 2.3.3.3.3.4, num. 10), y la institución debe atender los requerimientos de los padres (art. 2.3.3.3.3.11, num. 6)."
+     "t": "explicar los criterios del SIEE y, si persiste el desacuerdo, orientarlos sobre las instancias de reclamación.",
+     "j": "Es correcta. El SIEE debe contener «las instancias, procedimientos y mecanismos de atención y resolución de reclamaciones» de padres y estudiantes. El docente explica primero y, si no hay acuerdo, orienta sobre esas instancias."
     },
     {
      "l": "C",
-     "t": "remitir de inmediato el caso al rector, porque es la única autoridad que puede decidir sobre las reclamaciones relacionadas con la evaluación.",
-     "j": "Es incorrecta. Se salta el conducto regular del SIEE; además, la norma señala al consejo directivo, no al rector, como instancia para decidir reclamaciones (art. 2.3.3.3.3.11, num. 7)."
+     "t": "remitir de inmediato el caso al rector, porque él es la única autoridad que decide reclamaciones de evaluación.",
+     "j": "Es incorrecta. Salta el conducto regular del SIEE. Además, la norma señala al consejo directivo, y no al rector, como instancia para decidir reclamaciones sobre evaluación y promoción."
     }
    ],
    "clave": "B",
@@ -1135,7 +1171,10 @@
      "doc": "decreto_1075_2015",
      "texto": "A través de consejo directivo servir de instancia para decidir sobre reclamaciones que presenten los estudiantes o sus padres de familia en relación con la evaluación o promoción."
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "El caso pide actuar frente a una reclamación sobre la valoración. El Decreto 1075 exige que el Sistema Institucional de Evaluación contenga «las instancias, procedimientos y mecanismos de atención y resolución de reclamaciones de padres de familia y estudiantes sobre la evaluación y promoción», y asigna al establecimiento, «a través de consejo directivo», la función de «servir de instancia para decidir sobre reclamaciones». El docente no cede ni se salta pasos: explica los criterios y, si persiste el desacuerdo, orienta sobre las instancias del SIEE. Es de nivel 3 porque la opción C parece seguir una jerarquía, pero se equivoca de instancia y omite el conducto regular.",
+   "revisado": true
   },
   {
    "id": "Q014",
@@ -1146,18 +1185,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "la evaluación cumplió su función, porque la valoración baja refleja con precisión los errores conceptuales que tuvo Valentina.",
-     "j": "Es incorrecta. Una evaluación que solo constata el error al final no cumple los propósitos de reorientar el proceso y apoyar al estudiante."
+     "t": "la evaluación cumplió su función, porque la valoración baja refleja con precisión los errores de Valentina.",
+     "j": "Es incorrecta. Una evaluación que solo constata el error al final no cumple los propósitos de reorientar el proceso y apoyar al estudiante. La nota puede ser precisa y, aun así, la evaluación haber fallado en su función formativa."
     },
     {
      "l": "B",
-     "t": "debe reforzar el control de entregas, ya que el cumplimiento de los trabajos es el principal indicador del aprendizaje en el área.",
-     "j": "Es incorrecta. Valentina entregó todo; entregar no equivale a aprender."
+     "t": "debe reforzar el control de entregas, ya que cumplir con los trabajos es el principal indicador del aprendizaje.",
+     "j": "Es incorrecta. Valentina entregó todos los trabajos y aun así no aprendió: entregar no equivale a aprender. Reforzar el control de entregas no resuelve la falta de retroalimentación que muestra el caso."
     },
     {
      "l": "C",
-     "t": "faltó retroalimentar a tiempo los errores, porque la evaluación debe aportar información para reorientar el proceso y apoyar al estudiante durante el periodo.",
-     "j": "Es correcta. Entre los propósitos de la evaluación están reorientar los procesos educativos e implementar estrategias de apoyo (art. 2.3.3.3.3.3), y el estudiante tiene derecho a recibir acompañamiento para superar sus debilidades (art. 2.3.3.3.3.12)."
+     "t": "faltó retroalimentar a tiempo los errores, porque la evaluación debe servir para reorientar el proceso.",
+     "j": "Es correcta. Entre los propósitos de la evaluación está implementar estrategias pedagógicas para apoyar a los estudiantes con debilidades, y el estudiante tiene derecho a recibir acompañamiento de los docentes para superarlas."
     }
    ],
    "clave": "C",
@@ -1173,7 +1212,10 @@
      "doc": "decreto_1075_2015",
      "texto": "Recibir la asesoría y acompañamiento de los docentes para superar sus debilidades en el aprendizaje."
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La pista del caso es que los errores «se repitieron durante el periodo sin que ella recibiera comentarios». El Decreto 1075 establece como propósito de la evaluación «suministrar información que permita implementar estrategias pedagógicas para apoyar a los estudiantes que presenten debilidades», y como derecho del estudiante «recibir la asesoría y acompañamiento de los docentes para superar sus debilidades en el aprendizaje». La reflexión pertinente reconoce que faltó retroalimentar a tiempo. Los distractores justifican la nota o se fijan en las entregas, pero ninguno atiende el problema del proceso. En la CNSC, si el caso muestra falta de retroalimentación, la respuesta correcta suele reconocer esa falla.",
+   "revisado": true
   },
   {
    "id": "Q015",
@@ -1184,18 +1226,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "esperar al final del año para que presente una evaluación de recuperación con todos los temas vistos en el área.",
-     "j": "Es incorrecta. El SIEE debe incluir acciones de seguimiento durante el año escolar, no solo al final."
+     "t": "esperar al final del año para que presente una recuperación con todos los temas vistos en el área.",
+     "j": "Es incorrecta. El SIEE debe incluir acciones de seguimiento durante el año escolar, no solo al final. Una recuperación única al cierre del año llega tarde para atender las debilidades del segundo periodo."
     },
     {
      "l": "B",
-     "t": "diseñar actividades de apoyo durante el año escolar, acordarlas con la estudiante y sus padres y hacerles seguimiento.",
-     "j": "Es correcta. El SIEE debe contener «acciones de seguimiento para el mejoramiento de los desempeños de los estudiantes durante el año escolar» y estrategias de apoyo (art. 2.3.3.3.3.4, nums. 4 y 6), y la institución debe acordar con padres y estudiantes el plan de actividades de apoyo (art. 2.3.3.3.3.11, num. 4)."
+     "t": "planear apoyos durante el año, acordarlos con la estudiante y sus padres y hacerles seguimiento.",
+     "j": "Es correcta. El SIEE debe contener acciones de seguimiento durante el año escolar, y la institución debe acordar con los involucrados el plan de actividades de apoyo para superar las debilidades y los compromisos de cada uno."
     },
     {
      "l": "C",
-     "t": "asignarle trabajos adicionales para la casa con el fin de compensar la valoración que obtuvo en el periodo.",
-     "j": "Es incorrecta. Compensa la nota sin atender las debilidades específicas ni involucrar a la familia en un plan acordado."
+     "t": "asignarle trabajos adicionales para la casa con el fin de compensar la valoración obtenida en el periodo.",
+     "j": "Es incorrecta. Busca compensar la nota sin atender las debilidades específicas ni involucrar a la familia en un plan acordado. Más trabajos no equivalen a apoyo pedagógico si no se dirigen a los errores detectados."
     }
    ],
    "clave": "B",
@@ -1211,7 +1253,10 @@
      "doc": "decreto_1075_2015",
      "texto": "el plan de actividades de apoyo para la superación de las debilidades, y acordar los compromisos por parte de todos los involucrados."
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "El enunciado pide la acción que corresponde al Sistema Institucional de Evaluación. El Decreto 1075 exige que el SIEE contenga «las acciones de seguimiento para el mejoramiento de los desempeños de los estudiantes durante el año escolar», y que la institución mantenga la interlocución con los padres y la estudiante para presentar «el plan de actividades de apoyo para la superación de las debilidades, y acordar los compromisos por parte de todos los involucrados». La opción correcta reúne las tres condiciones: durante el año, acordado con la estudiante y la familia, y con seguimiento. Es de nivel 3 porque las opciones A y C también son acciones de apoyo, pero fallan en el momento o en el acuerdo con la familia.",
+   "revisado": true
   },
   {
    "id": "Q016",

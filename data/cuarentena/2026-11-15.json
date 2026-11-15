@@ -1,0 +1,52 @@
+{
+ "id": "2026-11-15",
+ "fecha": "2026-11-15",
+ "casos": [
+  {
+   "id": "C97",
+   "titulo": "La cuchara, la piedra y la hoja",
+   "texto": "En grado segundo, la docente de Tecnología e Informática pone sobre la mesa una cuchara, una piedra del río, una hoja de árbol y unas tijeras. Pide a los niños que digan en qué se parecen y en qué se diferencian estos objetos, y que expliquen cuáles fueron hechos por las personas y cuáles no."
+  }
+ ],
+ "fichas": [],
+ "items": [
+  {
+   "id": "Q150",
+   "tipo": "caso",
+   "caso": "C97",
+   "familia": "DIS-CONC",
+   "dificultad": 3,
+   "enunciado": "El desempeño de la Guía 30 para primero a tercero que la docente trabaja principalmente con esta actividad es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "«Clasifico y describo artefactos de mi entorno según sus características físicas, uso y procedencia».",
+     "j": "Es incorrecta. Es un desempeño real del mismo grupo de grados, pero se refiere a clasificar artefactos entre sí. En la actividad hay una piedra y una hoja, que no son artefactos: lo que se compara es lo hecho por las personas con lo natural."
+    },
+    {
+     "l": "B",
+     "t": "«Establezco semejanzas y diferencias entre artefactos y elementos naturales».",
+     "j": "Es correcta. La docente pide comparar una cuchara y unas tijeras (artefactos) con una piedra y una hoja (elementos naturales), y explicar cuáles fueron hechos por las personas. Eso es exactamente lo que enuncia este desempeño de primero a tercero."
+    },
+    {
+     "l": "C",
+     "t": "«Identifico diferentes recursos naturales de mi entorno y los utilizo racionalmente».",
+     "j": "Es incorrecta. También es un desempeño de primero a tercero, pero apunta al uso racional de los recursos naturales. La actividad no trata de cómo usar la piedra o la hoja, sino de diferenciarlas de los objetos fabricados."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La pista está en la consigna: «en qué se parecen y en qué se diferencian» y «cuáles fueron hechos por las personas y cuáles no». La Guía 30 incluye para primero a tercero el desempeño «Establezco semejanzas y diferencias entre artefactos y elementos naturales». Es de nivel 3 porque las tres opciones son desempeños reales del mismo grupo de grados y dos de ellas se parecen mucho; hay que fijarse en que la actividad mezcla objetos naturales y fabricados. En la CNSC, cuando todas las opciones son desempeños oficiales, gana el que coincide con la acción concreta que pide el docente.",
+   "fuente": "Guía 30 MEN (2008), primero a tercero.",
+   "consejo": "Si todas las opciones son desempeños reales, compara el verbo y el objeto de cada uno con lo que hacen los estudiantes en el caso.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Establezco semejanzas y diferencias entre artefactos y elementos naturales.",
+     "ubicacion": "Guía 30 MEN, primero a tercero"
+    }
+   ],
+   "competencia": "Naturaleza y evolución",
+   "motivo_cuarentena": "Verificación ciega: la opción A (clasificar por procedencia) también se puede defender."
+  }
+ ]
+}
