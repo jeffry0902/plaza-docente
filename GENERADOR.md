@@ -69,4 +69,7 @@ Abrir la pregunta en la app: el recuadro verde "Lo que dice el documento oficial
 - Un ítem de un lote compartido aparece en coordinación solo si su familia está en `data/coord/marco.json` (los de DIS no salen).
 - Fuentes extra: `guia34_mineducacion_2008`, `ley_715_2001`, `guia49_mineducacion_2013`.
 - Validar: `python3 tools/validar.py --fuentes fuentes --cargo coordinador`. Plan: `python3 tools/fragmentar.py --cargo coordinador` (ids K###; no cambia el plan docente).
-- Juegos, mapas y apuntes de coordinación aún vacíos (`data/coord/juegos.json`, `mapas.json`, `sketch.json`).
+- Mapas, juegos y apuntes de coordinación: `python3 tools/mapas.py --cargo coordinador`, luego `python3 tools/juegos_coord.py` y `python3 tools/sketch_coord.py` (todo texto literal verificado).
+- Marco de coordinación: se regenera con `python3 tools/marco_coord.py` (copia las familias compartidas del marco docente).
+- Formatos de concursos pasados que se modelan: ingreso 2022 (Universidad Libre: caso + 3 opciones, una correcta) y ascenso 2024 (Universidad de Antioquia: 4 criterios, 8 componentes, 24 acciones; cada opción es un nivel avanzado/satisfactorio/mínimo/inferior). En el banco la correcta es la de nivel avanzado y las justificaciones nombran el nivel de cada opción. Campo `formato` en cada ítem.
+- Ids: casos `CK##`, ítems `CO###`, lecturas `K###`. Los lotes de coordinación se llaman `lotes/coord-AAAA-MM-DD*.json` y solo se agregan a `data/coord/indice.json`.

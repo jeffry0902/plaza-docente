@@ -318,6 +318,72 @@
     "fuente": "Decreto 1421 de 2017, arts. 2.3.3.5.2.3.1 (literal c) y 2.3.3.5.2.3.5."
    }
   },
+  "GDI-PEI": {
+   "componente": "GDI",
+   "afirmacion": "GDI-A1",
+   "nombre": "PEI, plan operativo y manual de convivencia",
+   "evidencia": "Aplica el procedimiento de adopción y modificación del PEI, el plan operativo y la adopción del manual de convivencia.",
+   "leccion": {
+    "idea": "El PEI se adopta y modifica con participación de los estamentos; el consejo directivo decide, en consulta con el consejo académico. El manual de convivencia hace parte del PEI y lo adopta el consejo directivo.",
+    "claves": [
+     "Modificaciones: cualquier estamento las solicita al rector, quien las somete a discusión; el consejo directivo decide previa consulta al consejo académico.",
+     "El rector presenta el plan operativo al consejo directivo dentro de los tres meses siguientes a la adopción del PEI; se revisa por lo menos cada año.",
+     "El manual debe incluir procedimientos para resolver conflictos con instancias de diálogo y conciliación, y sanciones con derecho a la defensa.",
+     "Adoptar el manual de convivencia es función del consejo directivo."
+    ],
+    "trampa": "Pensar que el consejo académico o el coordinador adoptan el PEI o el manual, o que una modificación se aprueba sin pasar por los estamentos.",
+    "fuente": "Decreto 1075 de 2015, arts. 2.3.3.1.4.2, 2.3.3.1.4.4 y 2.3.3.1.5.6 (Decreto 1860 de 1994)."
+   }
+  },
+  "GDI-GOB": {
+   "componente": "GDI",
+   "afirmacion": "GDI-A1",
+   "nombre": "Gobierno escolar y participación estudiantil",
+   "evidencia": "Organiza la elección del personero y del consejo de estudiantes y reconoce las funciones del consejo directivo.",
+   "leccion": {
+    "idea": "El gobierno escolar garantiza la participación. Las reglas de elección son precisas y la CNSC pregunta por plazos, quién convoca e incompatibilidades.",
+    "claves": [
+     "Personero: estudiante del último grado, elegido dentro de los 30 días calendario siguientes al inicio de clases; lo convoca el rector; mayoría simple y voto secreto.",
+     "Personero y representante de los estudiantes ante el consejo directivo son cargos incompatibles.",
+     "Consejo de estudiantes: un vocero por grado; preescolar y los tres primeros grados eligen un vocero único entre los de tercero.",
+     "El consejo directivo fija los criterios para asignar cupos y adopta el manual de convivencia."
+    ],
+    "trampa": "Confundir quién convoca (el rector al personero; el consejo directivo a las asambleas de grado) o permitir que una persona ocupe dos cargos incompatibles.",
+    "fuente": "Decreto 1075 de 2015, arts. 2.3.3.1.5.6, 2.3.3.1.5.11 y 2.3.3.1.5.12."
+   }
+  },
+  "GAC-ACOMP": {
+   "componente": "GAC",
+   "afirmacion": "GAC-A1",
+   "nombre": "Acompañamiento pedagógico a los docentes",
+   "evidencia": "Orienta y acompaña la práctica de los docentes con evaluación formativa, coherencia con el PEI y articulación del plan de estudios (acciones de la prueba de ascenso para coordinador).",
+   "leccion": {
+    "idea": "El coordinador acompaña, no inspecciona: orienta el modelo pedagógico, las reuniones de área y la articulación del plan de estudios, y retroalimenta con evidencias y acuerdos de mejora.",
+    "claves": [
+     "Funciones: orientar y acompañar el modelo pedagógico; orientar las reuniones de área; coordinar la articulación del plan de estudios con los referentes de calidad del MEN; motivar la innovación.",
+     "En la prueba de ascenso (2024) cada opción es un nivel: avanzado, satisfactorio, mínimo o inferior. El avanzado dialoga con evidencias, construye acuerdos y hace seguimiento.",
+     "La gestión de aula (Guía 34) incluye relación y estilo pedagógico, planeación de clases y evaluación en el aula."
+    ],
+    "trampa": "Elegir la opción que solo informa o reporta (nivel mínimo o inferior) en lugar de la que acompaña, acuerda y hace seguimiento.",
+    "fuente": "Resolución 3842 de 2022, 1.3.1; Guía 34 MEN, Cuadro No. 3; Guía orientadora de la prueba de ascenso para coordinador (2024)."
+   }
+  },
+  "GCO-COMUN": {
+   "componente": "GCO",
+   "afirmacion": "GCO-A1",
+   "nombre": "Familias, entorno y prevención de riesgos",
+   "evidencia": "Promueve la participación de las familias y clasifica las acciones de relación con el entorno y prevención de riesgos según la Guía 34.",
+   "leccion": {
+    "idea": "La gestión de la comunidad busca la participación de las familias y el bienestar de todos; la prevención de riesgos físicos y psicosociales es un proceso propio de esa área.",
+    "claves": [
+     "Prevención de riesgos: riesgos físicos y psicosociales y programas de seguridad (gestión de la comunidad).",
+     "Relaciones con el entorno (gestión directiva): padres de familia, autoridades educativas, otras instituciones y sector productivo.",
+     "Con las familias, el nivel avanzado escucha sus necesidades y concierta estrategias; no se limita a citarlas o informarles."
+    ],
+    "trampa": "Confundir relaciones con el entorno (alianzas para cumplir el PEI) con proyección a la comunidad (servicios a la comunidad) o con prevención de riesgos.",
+    "fuente": "Guía 34 MEN (2008), Cuadro No. 3; Resolución 3842 de 2022, 1.3.1."
+   }
+  },
   "PED-EVAL": {
    "componente": "PED",
    "nombre": "Evaluación formativa",

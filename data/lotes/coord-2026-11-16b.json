@@ -1,0 +1,831 @@
+{
+ "id": "coord-2026-11-16b",
+ "fecha": "2026-11-16",
+ "cargo": "coordinador",
+ "nota": "Formatos de los concursos pasados: ingreso 2022 (3 opciones, una correcta) y ascenso 2024 (cada opción es un nivel de desempeño; aquí la correcta es la de nivel avanzado).",
+ "casos": [
+  {
+   "id": "CK12",
+   "titulo": "Ajustes al PEI y al manual",
+   "texto": "En febrero, la asociación de padres de familia le entrega a usted como coordinador una propuesta para modificar el horizonte institucional del PEI e incluir un énfasis en emprendimiento. Al mismo tiempo, el comité escolar de convivencia terminó de redactar un nuevo capítulo del manual de convivencia sobre el manejo de conflictos entre estudiantes. El rector le pide orientar los dos trámites para que queden en firme."
+  },
+  {
+   "id": "CK13",
+   "titulo": "Calendario de elecciones",
+   "texto": "Las clases empezaron el 26 de enero. El rector le encarga a usted como coordinador organizar el calendario de participación estudiantil. Una estudiante de once quiere ser personera y, si gana, también representante de los estudiantes ante el consejo directivo. La sede de primaria tiene preescolar y los grados primero a quinto. Además, varias familias piden cupo para el segundo semestre y no hay criterios escritos para asignarlos."
+  },
+  {
+   "id": "CK14",
+   "titulo": "Visita al aula de octavo",
+   "texto": "Usted acompaña una clase de ciencias sociales de octavo. El docente expone durante toda la hora, los estudiantes copian y la evaluación del periodo es un único examen final; el PEI define un modelo pedagógico de aprendizaje activo con evaluación formativa. En las reuniones del área de sociales, cada docente trabaja contenidos distintos según su libro de texto. Dos docentes jóvenes le comentan que quieren proponer un proyecto de memoria histórica con la comunidad, pero no saben cómo presentarlo."
+  },
+  {
+   "id": "CK15",
+   "titulo": "Llegan los resultados Saber",
+   "texto": "La institución recibió los resultados de las pruebas Saber 11 y Saber 3, 5 y 9. Varios docentes proponen publicar en la sala de profesores un listado con el promedio de los grupos de cada docente; otros dicen que esos resultados solo sirven para el ranking del colegio y que no tienen relación con el trabajo de aula."
+  },
+  {
+   "id": "CK16",
+   "titulo": "Acciones del comité en el año",
+   "texto": "Como integrante del comité escolar de convivencia, usted ayuda a organizar las acciones del año. Entre ellas están: un taller permanente con estudiantes de un sector con altos índices de violencia intrafamiliar, para disminuir el impacto de esas condiciones en su comportamiento; el registro del estado de los casos atendidos; y el caso de una estudiante en alto riesgo de vulneración de derechos que no se ha podido resolver con el manual de convivencia porque la familia no responde."
+  },
+  {
+   "id": "CK17",
+   "titulo": "Las familias no llegan",
+   "texto": "A la entrega de informes del primer periodo asistió solo el 35 % de las familias de la jornada de la tarde; muchas trabajan en turnos en el sector petrolero o viven en veredas lejanas. Además, una empresa de la zona propone un convenio para que los estudiantes de la media técnica hagan prácticas, y el cuerpo de bomberos ofrece apoyo para actualizar el plan escolar de gestión del riesgo ante inundaciones."
+  },
+  {
+   "id": "CK18",
+   "titulo": "Inicio de año en la sede",
+   "texto": "Al iniciar el año llegan a la sede 60 estudiantes nuevos, varios de ellos migrantes. Uno de ellos tiene baja visión y en su institución anterior presentaba las evaluaciones con el mismo formato que sus compañeros. El rector le pide a usted organizar la bienvenida de los nuevos estudiantes y revisar cómo se están manejando los casos difíciles de convivencia."
+  },
+  {
+   "id": "CK19",
+   "titulo": "Una tarde difícil",
+   "texto": "Al terminar la jornada, una docente llega a coordinación muy afectada: un padre de familia le gritó en la puerta del salón porque su hijo perdió dos asignaturas. Ella le dice a usted que se siente desautorizada y que está pensando en pedir traslado. Esa misma semana usted debe liderar la reunión de docentes de la jornada, en la que varios quieren cambiar las fechas de entrega de notas acordadas por el consejo académico."
+  }
+ ],
+ "fichas": [],
+ "items": [
+  {
+   "id": "CO029",
+   "tipo": "caso",
+   "caso": "CK12",
+   "familia": "GDI-PEI",
+   "dificultad": 3,
+   "enunciado": "Sobre la propuesta de la asociación de padres para modificar el PEI, el trámite que corresponde es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "que usted la lleve al consejo académico para que la apruebe, porque el énfasis afecta el plan de estudios y la gestión académica.",
+     "j": "Es incorrecta. El consejo académico es consultado, pero no decide las modificaciones del PEI; además, la norma exige que la propuesta pase primero por la discusión de los demás estamentos."
+    },
+    {
+     "l": "B",
+     "t": "que se presente al rector, que la someta a discusión de los estamentos y que el consejo directivo decida, consultado el académico.",
+     "j": "Es correcta. El artículo 2.3.3.1.4.2 del Decreto 1075 dice que las modificaciones se solicitan al rector, quien las somete a discusión de los demás estamentos; luego el consejo directivo decide, previa consulta al consejo académico."
+    },
+    {
+     "l": "C",
+     "t": "que se someta a votación en una asamblea general de padres, porque fue ese estamento el que la propuso y la respalda mayoritariamente.",
+     "j": "Es incorrecta. Los estamentos participan en la discusión, pero ninguno decide por sí solo: la decisión sobre las modificaciones al PEI le corresponde al consejo directivo, previa consulta al consejo académico."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El PEI se construye con participación, pero cada paso tiene un responsable. Según el artículo 2.3.3.1.4.2 del Decreto 1075 (Decreto 1860 de 1994, art. 15), cualquier estamento puede solicitar modificaciones al rector; el rector las somete a discusión de los demás estamentos y, concluida esa etapa, el consejo directivo decide sobre las propuestas, previa consulta al consejo académico. Por eso ni el consejo académico ni la asamblea de padres pueden aprobar el cambio. Como coordinador, usted debe coordinar y participar en la revisión del PEI (Resolución 3842), no decidirla.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.1.4.2, numeral 3.",
+   "consejo": "Modificar el PEI: solicitud al rector → discusión de estamentos → decide el consejo directivo con consulta al académico.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Las modificaciones al proyecto educativo institucional podrán ser solicitadas al rector por cualquiera de los estamentos de la comunidad educativa.",
+     "ubicacion": "Decreto 1075, art. 2.3.3.1.4.2"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "el consejo Directivo procederá a decidir sobre las propuestas, previa consulta con el Consejo Académico.",
+     "ubicacion": "Decreto 1075, art. 2.3.3.1.4.2"
+    }
+   ],
+   "competencia": "PEI y manual de convivencia",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO030",
+   "tipo": "caso",
+   "caso": "CK12",
+   "familia": "GDI-PEI",
+   "dificultad": 2,
+   "enunciado": "Si la modificación se adopta, el rector deberá presentar al consejo directivo el plan operativo correspondiente",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "dentro de los tres meses siguientes a la adopción, con metas, estrategias, recursos y cronograma, y revisarlo por lo menos cada año.",
+     "j": "Es correcta. El numeral 5 del artículo 2.3.3.1.4.2 del Decreto 1075 fija ese plazo y ese contenido, y agrega que el plan operativo se revisa periódicamente, por lo menos cada año, como referencia de la evaluación institucional."
+    },
+    {
+     "l": "B",
+     "t": "al finalizar el año escolar, junto con los resultados de la autoevaluación institucional, para incorporarlo al plan de mejoramiento.",
+     "j": "Es incorrecta. El plan operativo tiene un plazo propio, contado desde la adopción del PEI. La autoevaluación lo usa como referencia, pero no se presenta al cierre del año ni reemplaza su plazo."
+    },
+    {
+     "l": "C",
+     "t": "dentro del mes siguiente a la adopción, para que la secretaría de educación lo apruebe antes de iniciar las actividades del proyecto.",
+     "j": "Es incorrecta. El plazo no es de un mes y la secretaría no aprueba el plan operativo. Sí presta asesoría a los establecimientos que la soliciten durante la elaboración y adopción del PEI."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El Decreto 1075 (art. 2.3.3.1.4.2, numeral 5) establece que el rector presentará al consejo directivo, dentro de los tres meses siguientes a la adopción del PEI, el plan operativo con las metas, estrategias, recursos y cronograma necesarios para alcanzar sus objetivos. Ese plan se revisa por lo menos cada año y es punto de referencia para la evaluación institucional. Retenga tres datos: tres meses, rector ante consejo directivo y revisión anual; los distractores cambian el plazo o meten a la secretaría como instancia aprobadora.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.1.4.2, numeral 5.",
+   "consejo": "Plan operativo: el rector lo presenta al consejo directivo en 3 meses; se revisa al menos cada año.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "El rector presentará al Consejo Directivo, dentro de los tres meses siguientes a la adopción del proyecto educativo",
+     "ubicacion": "Decreto 1075, art. 2.3.3.1.4.2"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Periódicamente y por lo menos cada año, el plan operativo será revisado y constituirá un",
+     "ubicacion": "Decreto 1075, art. 2.3.3.1.4.2"
+    }
+   ],
+   "competencia": "PEI y manual de convivencia",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO031",
+   "tipo": "caso",
+   "caso": "CK12",
+   "familia": "GDI-PEI",
+   "dificultad": 2,
+   "enunciado": "Para que el nuevo capítulo del manual de convivencia quede en firme y cumpla la norma, usted orienta que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el comité escolar de convivencia lo apruebe, porque es la instancia que lidera la convivencia, y lo divulgue a los estudiantes.",
+     "j": "Es incorrecta. El comité participa en la actualización del manual, pero adoptarlo es función del consejo directivo según el artículo 2.3.3.1.5.6 del Decreto 1075."
+    },
+    {
+     "l": "B",
+     "t": "el rector lo expida por resolución, porque el manual hace parte del reglamento interno que él administra como ordenador.",
+     "j": "Es incorrecta. El rector orienta y ejecuta, pero la norma asigna la adopción del manual de convivencia y del reglamento de la institución al consejo directivo."
+    },
+    {
+     "l": "C",
+     "t": "el consejo directivo lo adopte y que el capítulo incluya instancias de diálogo y de conciliación para resolver los conflictos.",
+     "j": "Es correcta. Adoptar el manual es función del consejo directivo, y el artículo 2.3.3.1.4.4 exige que los procedimientos para resolver conflictos incluyan instancias de diálogo y de conciliación."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Dos normas del Decreto 1075 se combinan aquí. El artículo 2.3.3.1.5.6, literal c, asigna al consejo directivo adoptar el manual de convivencia y el reglamento de la institución. El artículo 2.3.3.1.4.4 dice qué debe contener el manual; entre otros, procedimientos para resolver con oportunidad y justicia los conflictos, que deben incluir instancias de diálogo y de conciliación. El comité de convivencia y el rector participan, pero no adoptan. En la prueba, verifique siempre quién adopta y qué contenido mínimo exige la norma.",
+   "fuente": "Decreto 1075 de 2015, arts. 2.3.3.1.4.4 y 2.3.3.1.5.6.",
+   "consejo": "Manual de convivencia: lo adopta el consejo directivo; resolución de conflictos con diálogo y conciliación.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "c) Adoptar el manual de convivencia y el reglamento de la institución;",
+     "ubicacion": "Decreto 1075, art. 2.3.3.1.5.6"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Deben incluir instancias de diálogo y de conciliación.",
+     "ubicacion": "Decreto 1075, art. 2.3.3.1.4.4"
+    }
+   ],
+   "competencia": "PEI y manual de convivencia",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO032",
+   "tipo": "caso",
+   "caso": "CK13",
+   "familia": "GDI-GOB",
+   "dificultad": 3,
+   "enunciado": "Sobre la elección del personero, usted organiza que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el consejo de estudiantes lo elija dentro del primer periodo, entre los candidatos de once, y que la estudiante asuma ambos cargos si gana.",
+     "j": "Es incorrecta. Al personero lo eligen todos los estudiantes matriculados, no el consejo de estudiantes, y los dos cargos que la estudiante quiere ocupar son incompatibles."
+    },
+    {
+     "l": "B",
+     "t": "el rector convoque a todos los estudiantes antes del 25 de febrero, con voto secreto y mayoría simple, y que ella elija un solo cargo.",
+     "j": "Es correcta. El personero se elige dentro de los 30 días calendario siguientes al inicio de clases, por convocatoria del rector, con mayoría simple y voto secreto, y el cargo es incompatible con el de representante ante el consejo directivo."
+    },
+    {
+     "l": "C",
+     "t": "el consejo directivo convoque la elección en las primeras ocho semanas, con voto secreto, y que ella combine ambos cargos.",
+     "j": "Es incorrecta. Quien convoca es el rector y el plazo es de 30 días calendario desde el inicio de clases. Además, la norma declara incompatibles el cargo de personero y el de representante de los estudiantes."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 2.3.3.1.5.11 del Decreto 1075 fija las reglas: el personero es un estudiante del último grado; se elige dentro de los treinta días calendario siguientes a la iniciación de clases; el rector convoca a todos los estudiantes matriculados, y se elige por mayoría simple y voto secreto. También dice que el cargo de personero es incompatible con el de representante de los estudiantes ante el consejo directivo. Con clases desde el 26 de enero, el plazo vence el 25 de febrero. Las opciones incorrectas cambian quién convoca, quién elige o permiten acumular cargos.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.1.5.11.",
+   "consejo": "Personero: 30 días desde el inicio de clases, convoca el rector, mayoría simple y voto secreto; incompatible con el representante ante el consejo directivo.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "El personero de los estudiantes será elegido dentro de los treinta días calendario siguientes al de la iniciación de clases de un período lectivo",
+     "ubicacion": "Decreto 1075, art. 2.3.3.1.5.11"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "El ejercicio del cargo de personero de los estudiantes es incompatible con el de representante de los estudiantes ante el Consejo Directivo.",
+     "ubicacion": "Decreto 1075, art. 2.3.3.1.5.11"
+    }
+   ],
+   "competencia": "Gobierno escolar",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO033",
+   "tipo": "caso",
+   "caso": "CK13",
+   "familia": "GDI-GOB",
+   "dificultad": 3,
+   "enunciado": "Para elegir los voceros de la sede de primaria ante el consejo de estudiantes, usted organiza",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "una asamblea por cada grado, de preescolar a quinto, para que cada uno elija su vocero mediante votación secreta.",
+     "j": "Es incorrecta. Los grados cuarto y quinto sí eligen su propio vocero, pero preescolar y los tres primeros grados no votan por separado: la norma prevé para ellos una asamblea conjunta."
+    },
+    {
+     "l": "B",
+     "t": "que los docentes de cada grado designen al vocero entre los estudiantes con mejor desempeño, por la edad de los niños.",
+     "j": "Es incorrecta. El vocero se elige por votación secreta en asamblea; la designación por parte de los docentes desconoce el carácter participativo del consejo de estudiantes."
+    },
+    {
+     "l": "C",
+     "t": "una asamblea conjunta de preescolar a tercero que elija un vocero de tercer grado, y asambleas aparte para cuarto y quinto.",
+     "j": "Es correcta. El artículo 2.3.3.1.5.12 del Decreto 1075 dispone que los alumnos de preescolar y de los tres primeros grados se convoquen a una asamblea conjunta para elegir un vocero único entre los de tercer grado."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El consejo de estudiantes tiene un vocero por cada grado, elegido por votación secreta en asambleas que convoca el consejo directivo dentro de las cuatro primeras semanas del calendario académico. La excepción que la CNSC suele preguntar está en el mismo artículo 2.3.3.1.5.12 del Decreto 1075: preescolar y los tres primeros grados de primaria van a una asamblea conjunta y eligen un vocero único entre los estudiantes de tercero. Cuarto y quinto eligen cada uno su vocero.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.1.5.12.",
+   "consejo": "Consejo de estudiantes: un vocero por grado; preescolar a tercero eligen uno solo, de tercer grado.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Los alumnos del nivel preescolar y de los tres primeros grados del ciclo de primaria, serán convocados a una asamblea conjunta para elegir un",
+     "ubicacion": "Decreto 1075, art. 2.3.3.1.5.12"
+    }
+   ],
+   "competencia": "Gobierno escolar",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO034",
+   "tipo": "caso",
+   "caso": "CK13",
+   "familia": "GDI-GOB",
+   "dificultad": 2,
+   "enunciado": "Sobre los criterios para asignar los cupos disponibles, usted le explica al rector que deben ser fijados por",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el consejo directivo, que tiene entre sus funciones fijar los criterios para la asignación de cupos para nuevos alumnos.",
+     "j": "Es correcta. El literal d del artículo 2.3.3.1.5.6 del Decreto 1075 asigna al consejo directivo fijar los criterios para la asignación de cupos disponibles para la admisión de nuevos alumnos."
+    },
+    {
+     "l": "B",
+     "t": "el consejo académico, porque los cupos dependen de la capacidad de cada grado y de la organización del plan de estudios.",
+     "j": "Es incorrecta. El consejo académico organiza el plan de estudios y la evaluación; la norma no le asigna fijar criterios de admisión, que son función del consejo directivo."
+    },
+    {
+     "l": "C",
+     "t": "usted como coordinador, porque conoce la ocupación real de los grupos y atiende directamente a las familias que solicitan cupo.",
+     "j": "Es incorrecta. Conocer la ocupación de los grupos permite aportar información, pero fijar criterios de admisión es una decisión del consejo directivo, no una función del coordinador."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 2.3.3.1.5.6 del Decreto 1075 enumera las funciones del consejo directivo; el literal d es fijar los criterios para la asignación de cupos disponibles para la admisión de nuevos alumnos. El coordinador puede aportar datos sobre la capacidad de los grupos, pero no decide los criterios. Esta función aparece con frecuencia junto a otras del consejo directivo que conviene memorizar: adoptar el manual de convivencia, aprobar el plan anual de actualización docente y participar en la evaluación de docentes y directivos.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.1.5.6, literal d.",
+   "consejo": "Criterios para asignar cupos: los fija el consejo directivo.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "d) Fijar los criterios para la asignación de cupos disponibles para la admisión de nuevos alumnos;",
+     "ubicacion": "Decreto 1075, art. 2.3.3.1.5.6"
+    }
+   ],
+   "competencia": "Gobierno escolar",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO035",
+   "tipo": "caso",
+   "caso": "CK14",
+   "familia": "GAC-ACOMP",
+   "dificultad": 3,
+   "enunciado": "Después de la clase, la acción que muestra un acompañamiento de nivel avanzado es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "enviarle al docente un correo con recomendaciones sobre evaluación formativa y pedirle que ajuste su planeación para el siguiente periodo.",
+     "j": "Es incorrecta (nivel mínimo). Ofrece orientación, pero de manera unidireccional: no dialoga sobre lo observado, no construye acuerdos con el docente ni prevé seguimiento a los cambios."
+    },
+    {
+     "l": "B",
+     "t": "conversar con el docente sobre lo observado frente al modelo del PEI, acordar con él ajustes en la evaluación y programar un seguimiento.",
+     "j": "Es correcta (nivel avanzado). Usa evidencias de la clase, retroalimenta frente al modelo pedagógico del PEI, construye acuerdos con el docente y define un seguimiento, como pide la función de orientar y acompañar el modelo."
+    },
+    {
+     "l": "C",
+     "t": "registrar en el informe de seguimiento que el docente no aplica el modelo pedagógico y entregar el informe al rector para lo de su cargo.",
+     "j": "Es incorrecta (nivel inferior). Documentar es útil, pero limitarse a reportar convierte el acompañamiento en inspección y no ofrece al docente ninguna oportunidad de mejorar su práctica."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La prueba de ascenso para coordinador (2024) no tiene opciones correctas o incorrectas: cada una corresponde a un nivel de desempeño. El nivel avanzado se reconoce porque usa evidencias, dialoga, construye acuerdos y hace seguimiento; el mínimo cumple pero de forma unidireccional, y el inferior se queda en reportar. En la prueba de ingreso, con una sola clave, la lógica es la misma. La Resolución 3842 le asigna al coordinador orientar y acompañar la implementación del modelo pedagógico del PEI, y la Guía 34 ubica la evaluación en el aula dentro del proceso de gestión de aula.",
+   "fuente": "Resolución 3842 de 2022, 1.3.1; Guía 34 MEN (2008), Cuadro No. 3, gestión de aula.",
+   "consejo": "Acompañar = evidencias + diálogo + acuerdos + seguimiento. Solo reportar es nivel inferior.",
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Orientar y acompañar la implementación del modelo pedagógico, didáctico y curricular definido en el Proyecto Educativo Institucional",
+     "ubicacion": "Resolución 3842, 1.3.1"
+    },
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "Relación y estilo pedagógico, planeación de clases y evaluación en el aula.",
+     "ubicacion": "Guía 34, Cuadro No. 3, Gestión de aula"
+    }
+   ],
+   "competencia": "Acompañamiento pedagógico",
+   "cargo": "coordinador",
+   "formato": "ascenso 2024"
+  },
+  {
+   "id": "CO036",
+   "tipo": "caso",
+   "caso": "CK14",
+   "familia": "GAC-ACOMP",
+   "dificultad": 2,
+   "enunciado": "Frente a que cada docente del área trabaje contenidos distintos según su libro de texto, usted",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "pide a cada docente que entregue su plan de contenidos para que usted unifique uno solo y lo distribuya al inicio del periodo.",
+     "j": "Es incorrecta. Unificar desde coordinación deja por fuera la construcción colectiva del área y no garantiza que el plan responda a los referentes de calidad ni a las estrategias del PEI."
+    },
+    {
+     "l": "B",
+     "t": "acuerda con el jefe de área que cada docente conserve su libro, siempre que cumpla las horas semanales asignadas a la asignatura.",
+     "j": "Es incorrecta. Cumplir la intensidad horaria no resuelve la falta de coherencia: la función del coordinador es articular el plan de estudios, no avalar que cada docente trabaje por separado."
+    },
+    {
+     "l": "C",
+     "t": "orienta en la reunión de área la articulación del plan de estudios con los referentes de calidad del MEN y el PEI.",
+     "j": "Es correcta. La Resolución 3842 asigna al coordinador coordinar la articulación del plan de estudios con los referentes de calidad del MEN y el PEI, y orientar las reuniones de área para dar coherencia a las prácticas."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Dos funciones del coordinador en la Resolución 3842 responden directamente a este caso: coordinar la articulación del plan de estudios de acuerdo con los referentes de calidad del Ministerio y las estrategias pedagógicas del PEI, y orientar las reuniones de área para promover la coherencia de las prácticas pedagógicas con los propósitos institucionales. La respuesta correcta usa el espacio colectivo del área; las incorrectas centralizan la decisión o se conforman con un cumplimiento formal.",
+   "fuente": "Resolución 3842 de 2022, 1.3.1 (funciones 7 y 10).",
+   "consejo": "Plan de estudios desarticulado → reunión de área + referentes de calidad del MEN + PEI.",
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Coordinar la articulación del plan de estudios, de acuerdo con los referentes de calidad del Ministerio de Educación Nacional",
+     "ubicacion": "Resolución 3842, 1.3.1, función 7"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Orientar las reuniones de área, de ciclos y de otros equipos pedagógicos",
+     "ubicacion": "Resolución 3842, 1.3.1, función 10"
+    }
+   ],
+   "competencia": "Acompañamiento pedagógico",
+   "cargo": "coordinador",
+   "formato": "ascenso 2024"
+  },
+  {
+   "id": "CO037",
+   "tipo": "caso",
+   "caso": "CK14",
+   "familia": "GAC-ACOMP",
+   "dificultad": 3,
+   "enunciado": "Con los dos docentes que quieren proponer el proyecto de memoria histórica, usted",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "los orienta para formularlo y los acompaña a sustentarlo ante el consejo académico, en articulación con los planes del PEI.",
+     "j": "Es correcta (nivel avanzado). La Resolución 3842 le asigna al coordinador sustentar ante el consejo académico proyectos que mejoren el aprendizaje y motivar la innovación pedagógica de los docentes."
+    },
+    {
+     "l": "B",
+     "t": "les sugiere esperar a la próxima actualización del PEI, porque los proyectos nuevos deben quedar incluidos antes de ejecutarse.",
+     "j": "Es incorrecta (nivel inferior). Aplazar la iniciativa sin acompañarla desmotiva a los docentes; la norma prevé que los proyectos se sustenten ante el consejo académico y se articulen con los planes existentes."
+    },
+    {
+     "l": "C",
+     "t": "les autoriza desarrollarlo con sus grupos de octavo como experiencia piloto y les pide un informe de resultados al final del año.",
+     "j": "Es incorrecta (nivel mínimo). Apoya la iniciativa, pero la deja aislada: no pasa por el consejo académico ni se articula con el PEI, por lo que difícilmente se vuelve un proyecto institucional."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Entre las funciones del coordinador en la Resolución 3842 están sustentar ante el consejo académico proyectos que contribuyan al aprendizaje significativo y al mejoramiento de la calidad, y motivar e impulsar estrategias de innovación pedagógica por parte de los docentes. Por eso el nivel avanzado combina orientación a los docentes y paso por la instancia institucional. El piloto aislado es un apoyo de nivel mínimo y el aplazamiento es inferior. Esta lógica de niveles corresponde a la acción «toma decisiones que fortalecen la gestión pedagógica en coherencia con el PEI» de la prueba de ascenso.",
+   "fuente": "Resolución 3842 de 2022, 1.3.1 (funciones 2 y 9).",
+   "consejo": "Iniciativas de los docentes: acompañar y llevarlas al consejo académico, articuladas con el PEI.",
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Sustentar ante el Consejo Académico proyectos que coadyuven al aprendizaje",
+     "ubicacion": "Resolución 3842, 1.3.1, función 2"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Motivar e impulsar estrategias de innovación pedagógica y planes de",
+     "ubicacion": "Resolución 3842, 1.3.1, función 9"
+    }
+   ],
+   "competencia": "Acompañamiento pedagógico",
+   "cargo": "coordinador",
+   "formato": "ascenso 2024"
+  },
+  {
+   "id": "CO038",
+   "tipo": "caso",
+   "caso": "CK15",
+   "familia": "GAC-SEGUIM",
+   "dificultad": 3,
+   "enunciado": "Según la Guía 34, la forma de gestionar estos resultados que usted promueve como coordinador es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "publicar los promedios por docente para que cada uno reconozca su responsabilidad y se generen compromisos individuales de mejora.",
+     "j": "Es incorrecta. Exponer los promedios por docente convierte los resultados en un instrumento de presión y no de análisis colectivo; la guía habla de un uso pedagógico de las evaluaciones externas."
+    },
+    {
+     "l": "B",
+     "t": "analizar los resultados con las áreas y usarlos pedagógicamente en el seguimiento académico y en el plan de mejoramiento.",
+     "j": "Es correcta. La Guía 34 incluye el uso pedagógico de las evaluaciones externas como componente del seguimiento académico, en la gestión académica, y la ruta de mejoramiento usa esa información para priorizar acciones."
+    },
+    {
+     "l": "C",
+     "t": "reservar los resultados para el rector y el consejo directivo, porque son insumos de rendición de cuentas y no de la práctica de aula.",
+     "j": "Es incorrecta. Restringir los resultados impide que los docentes los usen para ajustar sus prácticas, y contradice la Guía 34, que los ubica dentro del seguimiento académico de la institución."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "En el Cuadro No. 3 de la Guía 34, el proceso de seguimiento académico (gestión académica) tiene como componentes el seguimiento a los resultados académicos, a la asistencia y a los egresados, el uso pedagógico de las evaluaciones externas, las actividades de recuperación y los apoyos pedagógicos adicionales. Por eso los resultados Saber deben analizarse con las áreas para ajustar prácticas y alimentar el plan de mejoramiento, no para clasificar docentes ni para guardarse en la dirección. La CNSC premia el uso formativo de la información.",
+   "fuente": "Guía 34 MEN (2008), Cuadro No. 3, seguimiento académico.",
+   "consejo": "Pruebas Saber: uso pedagógico en el seguimiento académico, no ranking de docentes.",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "uso pedagógico de las evaluaciones externas",
+     "ubicacion": "Guía 34, Cuadro No. 3, Seguimiento académico"
+    }
+   ],
+   "competencia": "Seguimiento académico",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO039",
+   "tipo": "caso",
+   "caso": "CK16",
+   "familia": "GCO-CONV",
+   "dificultad": 3,
+   "enunciado": "El taller permanente con estudiantes del sector con violencia intrafamiliar corresponde al componente de la ruta de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "promoción, porque desarrolla competencias ciudadanas y fortalece el ejercicio de los derechos de los estudiantes.",
+     "j": "Es incorrecta. La promoción se centra en desarrollar competencias y derechos y define los criterios de convivencia para toda la comunidad; este taller se dirige a disminuir el impacto de condiciones de riesgo específicas."
+    },
+    {
+     "l": "B",
+     "t": "atención, porque asiste a estudiantes que ya viven situaciones de violencia en su familia y requieren respuesta inmediata.",
+     "j": "Es incorrecta. La atención responde de manera inmediata cuando se presenta un caso de violencia o acoso escolar; el taller es un proceso continuo que se anticipa a esos casos, no la respuesta a uno."
+    },
+    {
+     "l": "C",
+     "t": "prevención, porque es un proceso continuo de formación para reducir el impacto del contexto familiar en la conducta.",
+     "j": "Es correcta. El artículo 30 de la Ley 1620 define la prevención como un proceso continuo de formación para disminuir el impacto de las condiciones del contexto económico, social, cultural y familiar."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La Ley 1620 de 2013, artículo 30, define cuatro componentes de la Ruta de Atención Integral: promoción (desarrollo de competencias y derechos, clima escolar y criterios de convivencia), prevención (proceso continuo de formación para disminuir el impacto del contexto y que incide sobre las causas), atención (asistencia inmediata cuando se presenta un caso) y seguimiento (reporte al sistema de información). El dato clave del caso es que el taller es permanente y busca disminuir el impacto de condiciones familiares de riesgo: eso es prevención.",
+   "fuente": "Ley 1620 de 2013, art. 30.",
+   "consejo": "Promoción = competencias y derechos; prevención = formación continua frente a factores de riesgo; atención = respuesta inmediata al caso; seguimiento = reporte.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "El componente de prevención deberá ejecutarse a través de un proceso continuo de formación para el desarrollo integral del niño, niña y adolescente, con el propósito de disminuir en su comportamiento el impacto de las condiciones del contexto económico, social, cultural y familiar.",
+     "ubicacion": "Ley 1620 de 2013, art. 30"
+    }
+   ],
+   "competencia": "Comité de convivencia",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO040",
+   "tipo": "caso",
+   "caso": "CK16",
+   "familia": "GCO-CONV",
+   "dificultad": 2,
+   "enunciado": "El registro del estado de los casos atendidos corresponde al componente de seguimiento, que según la Ley 1620 consiste en",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "reunir mensualmente al comité para revisar los compromisos firmados por los estudiantes y sus familias en cada caso.",
+     "j": "Es incorrecta. Revisar compromisos puede ser parte de la gestión del comité, pero la ley define el componente de seguimiento por el reporte de los casos al sistema de información unificado."
+    },
+    {
+     "l": "B",
+     "t": "reportar de manera oportuna al Sistema de Información Unificado de Convivencia Escolar el estado de los casos atendidos.",
+     "j": "Es correcta. El artículo 30 de la Ley 1620 dice que el componente de seguimiento se centra en el reporte oportuno al Sistema de Información Unificado de Convivencia Escolar del estado de cada caso de atención reportado."
+    },
+    {
+     "l": "C",
+     "t": "enviar a la secretaría de educación, al final de cada periodo, un informe con las estadísticas de convivencia de la institución.",
+     "j": "Es incorrecta. Un informe periódico a la secretaría no es lo que define la ley; el seguimiento se hace mediante el reporte oportuno del estado de cada caso al sistema de información unificado."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La Ley 1620 de 2013, en su artículo 30, define el componente de seguimiento de manera muy concreta: se centra en el reporte oportuno de la información al Sistema de Información Unificado de Convivencia Escolar, del estado de cada uno de los casos de atención reportados. Las opciones incorrectas describen acciones razonables de gestión, pero no la definición legal. Ojo: en la prueba aparecen opciones «buenas prácticas» que no corresponden al concepto preguntado.",
+   "fuente": "Ley 1620 de 2013, art. 30.",
+   "consejo": "Seguimiento de la ruta = reporte oportuno al Sistema de Información Unificado de Convivencia Escolar.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "El componente de seguimiento se centrará en el reporte oportuno de la información al Sistema de Información Unificado de Convivencia Escolar, del estado de cada uno de los casos de atención reportados.",
+     "ubicacion": "Ley 1620 de 2013, art. 30"
+    }
+   ],
+   "competencia": "Comité de convivencia",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO041",
+   "tipo": "caso",
+   "caso": "CK16",
+   "familia": "GCO-CONV",
+   "dificultad": 3,
+   "enunciado": "Sobre la estudiante en alto riesgo cuyo caso no se ha podido resolver con el manual de convivencia, lo que procede es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el rector, conforme a la decisión del comité, traslade el caso al ICBF, la comisaría, la personería o la policía de infancia.",
+     "j": "Es correcta. El artículo 31 de la Ley 1620 dispone que las situaciones de alto riesgo que no puedan resolverse por las vías del manual sean trasladadas por el rector, de conformidad con las decisiones del comité, a esas entidades."
+    },
+    {
+     "l": "B",
+     "t": "el comité cite nuevamente a la familia y, si no asiste, cierre el caso dejando constancia de que la familia no colaboró con el proceso.",
+     "j": "Es incorrecta. Cerrar el caso por falta de respuesta de la familia deja a la estudiante sin protección; la ley prevé trasladarlo a entidades externas cuando las vías del manual no son suficientes."
+    },
+    {
+     "l": "C",
+     "t": "usted como coordinador haga la denuncia ante la policía de infancia en nombre de la institución, para no esperar la sesión del comité.",
+     "j": "Es incorrecta. Cualquier persona puede poner en conocimiento una situación, pero el traslado institucional del caso lo hace el rector de acuerdo con las decisiones del comité escolar de convivencia."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 31 de la Ley 1620 de 2013 dice que, una vez agotada la instancia institucional, las situaciones de alto riesgo de violencia escolar o vulneración de derechos que no puedan ser resueltas por las vías del manual de convivencia serán trasladadas por el rector, de conformidad con las decisiones del comité, al ICBF, la comisaría de familia, la personería o la policía de infancia y adolescencia, según corresponda. La pregunta evalúa quién traslada y cuándo: el rector, con decisión del comité, cuando el manual no basta.",
+   "fuente": "Ley 1620 de 2013, art. 31.",
+   "consejo": "Alto riesgo que el manual no resuelve: el rector lo traslada a ICBF, comisaría, personería o policía de infancia según decida el comité.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "serán trasladadas por el rector de la institución, de conformidad con las decisiones del Comité Escolar de Convivencia, al ICBF, la Comisaria de Familia, la Personería Municipal o Distrital o a la Policía de Infancia y Adolescencia, según corresponda.",
+     "ubicacion": "Ley 1620 de 2013, art. 31"
+    }
+   ],
+   "competencia": "Comité de convivencia",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO042",
+   "tipo": "caso",
+   "caso": "CK17",
+   "familia": "GCO-COMUN",
+   "dificultad": 3,
+   "enunciado": "Frente a la baja asistencia de las familias, la acción de nivel avanzado que usted lidera es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "enviar una circular recordando a las familias su deber de asistir a las reuniones y advirtiendo que se dejará constancia de la inasistencia.",
+     "j": "Es incorrecta (nivel inferior). Recordar deberes no indaga las causas de la inasistencia ni reconoce las condiciones de trabajo y distancia de las familias; refuerza la distancia entre ellas y la institución."
+    },
+    {
+     "l": "B",
+     "t": "encontrarse con las familias para escuchar sus condiciones y concertar con ellas horarios, medios y formas de participación.",
+     "j": "Es correcta (nivel avanzado). Lidera encuentros con las familias para identificar sus necesidades y proponer estrategias que atiendan la diversidad de la comunidad, y articula los apoyos con docentes y familias."
+    },
+    {
+     "l": "C",
+     "t": "programar una segunda entrega de informes un sábado para las familias que no asistieron, con la misma agenda del primer encuentro.",
+     "j": "Es incorrecta (nivel mínimo). Amplía la oportunidad de asistencia, pero decide sin escuchar a las familias y mantiene el mismo formato, sin buscar estrategias acordes con su realidad."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La prueba de ascenso para coordinador valora como acción del criterio de contexto liderar encuentros con las familias para identificar y proponer estrategias que atiendan la diversidad de la comunidad. El nivel avanzado escucha y concierta; el mínimo amplía la oferta sin escuchar, y el inferior se limita a recordar deberes. La Resolución 3842 respalda esta lógica cuando pide al coordinador promover acciones pedagógicas colaborativas con docentes y familias. En el contexto de Yopal, turnos laborales y distancias son condiciones reales que la respuesta debe considerar.",
+   "fuente": "Resolución 3842 de 2022, 1.3.1 (función 11); Guía orientadora de la prueba de ascenso para coordinador (2024).",
+   "consejo": "Familias que no asisten: escuchar sus condiciones y concertar, no advertir ni repetir el mismo formato.",
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "que generen acciones pedagógicas colaborativas en favor de los estudiantes, donde participen docentes y familias.",
+     "ubicacion": "Resolución 3842, 1.3.1, función 11"
+    }
+   ],
+   "competencia": "Familias y entorno",
+   "cargo": "coordinador",
+   "formato": "ascenso 2024"
+  },
+  {
+   "id": "CO043",
+   "tipo": "caso",
+   "caso": "CK17",
+   "familia": "GCO-COMUN",
+   "dificultad": 2,
+   "enunciado": "Según la Guía 34, el convenio de prácticas con la empresa y el apoyo de los bomberos al plan de riesgo se ubican, respectivamente, en",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "proyección a la comunidad, en la gestión de la comunidad, y en clima escolar, en la gestión directiva.",
+     "j": "Es incorrecta. La proyección a la comunidad son servicios que la institución ofrece a la comunidad, y el clima escolar trata del ambiente y la convivencia; ninguno de los dos corresponde a estas acciones."
+    },
+    {
+     "l": "B",
+     "t": "apoyo a la gestión académica, en la gestión administrativa, y en planta física y recursos, en la misma área.",
+     "j": "Es incorrecta. Ninguna de las dos acciones es un trámite administrativo: una es una alianza con el sector productivo y la otra una estrategia para prevenir riesgos que afectan a la comunidad."
+    },
+    {
+     "l": "C",
+     "t": "relaciones con el entorno, en la gestión directiva, y prevención de riesgos, en la de la comunidad.",
+     "j": "Es correcta. En la Guía 34, relaciones con el entorno incluye al sector productivo y está en la gestión directiva; prevención de riesgos, con los riesgos físicos y psicosociales y los programas de seguridad, está en la gestión de la comunidad."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La Guía 34 ubica las alianzas con padres de familia, autoridades educativas, otras instituciones y el sector productivo en el proceso de relaciones con el entorno, dentro de la gestión directiva, porque buscan aunar esfuerzos para cumplir el PEI. La prevención de riesgos físicos y psicosociales y los programas de seguridad son componentes del proceso de prevención de riesgos, en la gestión de la comunidad. Recuerde la pregunta clave: ¿es una alianza para cumplir la misión (directiva) o una acción por el bienestar y la seguridad de la comunidad (comunidad)?",
+   "fuente": "Guía 34 MEN (2008), Cuadro No. 3.",
+   "consejo": "Sector productivo = relaciones con el entorno (directiva); riesgos físicos y psicosociales = prevención de riesgos (comunidad).",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "Padres de familia, autoridades educativas, otras instituciones, sector productivo.",
+     "ubicacion": "Guía 34, Cuadro No. 3, Relaciones con el entorno"
+    },
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "Prevención de riesgos físicos y psicosociales, programas de seguridad.",
+     "ubicacion": "Guía 34, Cuadro No. 3, Prevención de riesgos"
+    }
+   ],
+   "competencia": "Familias y entorno",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO044",
+   "tipo": "caso",
+   "caso": "CK18",
+   "familia": "GDI-AREAS",
+   "dificultad": 2,
+   "enunciado": "Según la Guía 34, la inducción a los estudiantes nuevos y el manejo de casos difíciles hacen parte del proceso de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "clima escolar, en la gestión directiva, cuyo propósito es generar un ambiente sano y agradable para el desarrollo de los estudiantes.",
+     "j": "Es correcta. La Guía 34 lista en el proceso de clima escolar componentes como la inducción a los nuevos estudiantes, el manual de convivencia, el bienestar de los alumnos y el manejo de conflictos y casos difíciles."
+    },
+    {
+     "l": "B",
+     "t": "participación y convivencia, en la gestión de la comunidad, porque ambos aspectos tienen que ver con la integración de los estudiantes.",
+     "j": "Es incorrecta. Participación y convivencia trata de la participación de estudiantes y padres y sus instancias; la inducción y el manejo de casos difíciles están listados en el clima escolar."
+    },
+    {
+     "l": "C",
+     "t": "inclusión, en la gestión de la comunidad, porque la llegada de estudiantes migrantes exige estrategias de atención a la diversidad.",
+     "j": "Es incorrecta. La inclusión atiende a poblaciones diversas y con necesidades particulares, pero los dos componentes por los que se pregunta están ubicados por la guía en el clima escolar."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "En el Cuadro No. 3 de la Guía 34, el proceso de clima escolar pertenece a la gestión directiva y se define como generar un ambiente sano y agradable que propicie el desarrollo de los estudiantes, el aprendizaje y la convivencia. Sus componentes incluyen pertenencia y participación, ambiente físico, inducción a los nuevos estudiantes, motivación hacia el aprendizaje, manual de convivencia, actividades extracurriculares, bienestar de los alumnos y manejo de conflictos y casos difíciles. Aunque el caso menciona migrantes, la pregunta es por la inducción y los casos difíciles.",
+   "fuente": "Guía 34 MEN (2008), Cuadro No. 3, clima escolar.",
+   "consejo": "Inducción de estudiantes nuevos y casos difíciles = clima escolar (gestión directiva).",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "ambiente físico, inducción a los nuevos estudiantes, motivación hacia el aprendizaje, manual de convivencia, actividades extracurriculares, bienestar de los alumnos, manejo de conflictos y casos difíciles.",
+     "ubicacion": "Guía 34, Cuadro No. 3, Clima escolar"
+    }
+   ],
+   "competencia": "Áreas de gestión",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO045",
+   "tipo": "caso",
+   "caso": "CK18",
+   "familia": "GCO-INCL",
+   "dificultad": 3,
+   "enunciado": "Para el estudiante con baja visión, la acción que usted promueve es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "aplicarle las mismas evaluaciones que a sus compañeros, como en la institución anterior, para no generar diferencias en el grupo.",
+     "j": "Es incorrecta. Dar el mismo formato a quien lo necesita adaptado no es igualdad sino una barrera; el Decreto 1421 obliga a los ajustes razonables basados en las necesidades específicas del estudiante."
+    },
+    {
+     "l": "B",
+     "t": "eximirlo de las evaluaciones escritas y valorar su desempeño solo con la participación en clase, mientras se define su situación.",
+     "j": "Es incorrecta. Eximir al estudiante rebaja las exigencias en lugar de garantizar el acceso; los ajustes buscan que pueda demostrar sus aprendizajes en igualdad de condiciones, no excluirlo de la evaluación."
+    },
+    {
+     "l": "C",
+     "t": "acordar con los docentes ajustes razonables en las evaluaciones, según sus necesidades, y registrarlos en el PIAR.",
+     "j": "Es correcta. El Decreto 1421 define los ajustes razonables como acciones, adaptaciones y apoyos basados en las necesidades específicas de cada estudiante, y el PIAR es la herramienta donde se planean y registran."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El Decreto 1421 de 2017 define los ajustes razonables como las acciones, adaptaciones, estrategias, apoyos, recursos o modificaciones necesarias y adecuadas del sistema educativo y la gestión escolar, basadas en las necesidades específicas de cada estudiante. Para la baja visión, eso puede significar ampliar el formato, dar más tiempo o usar apoyos tecnológicos, y se planea en el PIAR. La prueba de ascenso valora como acción del coordinador promover y facilitar ajustes para los estudiantes que requieren apoyos específicos. Desconfíe de las opciones que igualan formatos o eximen al estudiante.",
+   "fuente": "Decreto 1421 de 2017, art. 2.3.3.5.1.4, numeral 4; Guía orientadora de la prueba de ascenso para coordinador (2024).",
+   "consejo": "Ajustes razonables: según las necesidades del estudiante y registrados en el PIAR; ni igualar formatos ni eximir.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Ajustes razonables: son las acciones, adaptaciones, estrategias, apoyos,",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.1.4"
+    },
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "basadas en necesidades específicas de cada estudiante",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.1.4"
+    }
+   ],
+   "competencia": "Inclusión",
+   "cargo": "coordinador",
+   "formato": "ascenso 2024"
+  },
+  {
+   "id": "CO046",
+   "tipo": "caso",
+   "caso": "CK19",
+   "familia": "PSI-COMRI",
+   "dificultad": 2,
+   "enunciado": "Con la docente afectada, usted",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "le recomienda calmarse y no tomar decisiones apresuradas, y le recuerda que estos episodios son normales en el trabajo con familias.",
+     "j": "Es incorrecta. Aunque busca tranquilizarla, minimiza lo que siente y normaliza la agresión; no muestra escucha empática ni ofrece acciones institucionales frente a lo ocurrido."
+    },
+    {
+     "l": "B",
+     "t": "la escucha con atención, reconoce cómo se siente y acuerda con ella citar al padre, con su acompañamiento, para tratar lo ocurrido.",
+     "j": "Es correcta. Escucha y comprende el punto de vista de la docente, maneja la situación con empatía y ofrece un mecanismo asertivo y acompañado para resolver el conflicto con el padre."
+    },
+    {
+     "l": "C",
+     "t": "cita al padre al día siguiente para llamarle la atención por su comportamiento y le informa a la docente que el asunto ya quedó resuelto.",
+     "j": "Es incorrecta. Actúa con rapidez, pero sin escuchar a la docente ni involucrarla en la solución, y enfoca la respuesta en la sanción del padre más que en el diálogo para resolver el conflicto."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La competencia de comunicación y relaciones interpersonales, tal como la describe la guía de la CNSC, incluye escuchar con atención, comprender los puntos de vista de los demás, manejar y expresar adecuadamente las emociones e identificar y comprender las de otros. La prueba de ascenso para coordinador también valora reconocer el apoyo emocional, la escucha y la empatía como base de la relación con la comunidad. La opción correcta combina escucha, reconocimiento de la emoción y una salida asertiva y acompañada; las demás minimizan o resuelven sin la docente.",
+   "fuente": "Guía de orientación al aspirante CNSC 2022 (competencia comunicación y relaciones interpersonales); Guía orientadora de la prueba de ascenso para coordinador (2024).",
+   "consejo": "Docente afectado: escuchar, reconocer la emoción y acompañar una salida asertiva.",
+   "citas": [
+    {
+     "doc": "guia_orientacion_cnsc_2022",
+     "texto": "Habilidad para intercambiar con efectividad y empatía conceptos, criterios e ideas",
+     "ubicacion": "Guía de orientación CNSC 2022, ejemplo 5"
+    }
+   ],
+   "competencia": "Comunicación y relaciones interpersonales",
+   "cargo": "coordinador",
+   "formato": "ascenso 2024"
+  },
+  {
+   "id": "CO047",
+   "tipo": "caso",
+   "caso": "CK19",
+   "familia": "PSI-LID",
+   "dificultad": 3,
+   "enunciado": "En la reunión de docentes que quieren cambiar las fechas de entrega de notas acordadas por el consejo académico, usted",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "acepta el cambio propuesto por la mayoría de la reunión y lo comunica a las familias, porque refleja el sentir de los docentes de la jornada.",
+     "j": "Es incorrecta. Valora la participación, pero desconoce una decisión del consejo académico, que es la instancia que la tomó; un directivo no puede revocarla con el voto de una reunión de jornada."
+    },
+    {
+     "l": "B",
+     "t": "mantiene las fechas sin discusión y recuerda a los docentes que las decisiones del consejo académico son de obligatorio cumplimiento.",
+     "j": "Es incorrecta. Respeta la instancia, pero cierra el diálogo y no recoge las razones de los docentes, lo que debilita la confianza y el trabajo en equipo que debe promover un líder."
+    },
+    {
+     "l": "C",
+     "t": "escucha los argumentos, recoge la propuesta por escrito y se compromete a llevarla al consejo académico, con fecha de respuesta.",
+     "j": "Es correcta. Ejerce liderazgo: escucha, canaliza la propuesta por la instancia que tomó la decisión y genera confianza al definir un camino claro, sin imponer ni desconocer al consejo académico."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "En la psicotécnica para directivos, el liderazgo se reconoce cuando el directivo orienta al equipo hacia las metas institucionales, escucha y canaliza las iniciativas por las instancias que corresponden. Las dos opciones incorrectas son extremos que la CNSC suele penalizar: ceder a la mayoría por encima de la instancia competente, o imponer la norma sin diálogo. La correcta escucha, canaliza al consejo académico y da claridad sobre el proceso, lo que fortalece la confianza del equipo.",
+   "fuente": "Guía de orientación al aspirante CNSC 2022 (lógica de las competencias comportamentales); Resolución 3842 de 2022.",
+   "consejo": "Liderazgo: ni ceder ni imponer; escuchar y canalizar por la instancia competente.",
+   "citas": [],
+   "competencia": "Liderazgo",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  }
+ ]
+}

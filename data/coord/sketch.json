@@ -1,1 +1,489 @@
-{"version":1,"paginas":[]}
+{
+ "version": 1,
+ "cargo": "coordinador",
+ "paginas": [
+  {
+   "id": "C-ruta34",
+   "doc": "guia34_mineducacion_2008",
+   "capitulo": "Guía 34 · Ruta",
+   "titulo": "La ruta del mejoramiento continuo",
+   "centro": "Tres etapas que se repiten",
+   "tipo": "flujo",
+   "nodos": [
+    {
+     "t": "Etapa 1",
+     "d": "La primera etapa de la ruta del mejoramiento continuo es la autoevaluación institucional",
+     "i": "🔎",
+     "lec": "K032"
+    },
+    {
+     "t": "Etapa 2",
+     "d": "La segunda etapa consiste en la elaboración del plan de mejoramiento",
+     "i": "🗺️",
+     "lec": "K032"
+    },
+    {
+     "t": "Etapa 3",
+     "d": "la tercera etapa consiste en el seguimiento periódico al desarrollo del plan de mejoramiento",
+     "i": "📈",
+     "lec": "K032"
+    }
+   ],
+   "fuente": "Guía 34 MEN (2008), 1.11",
+   "lec": "K032"
+  },
+  {
+   "id": "C-escala34",
+   "doc": "guia34_mineducacion_2008",
+   "capitulo": "Guía 34 · Etapa 1",
+   "titulo": "Escala de la autoevaluación",
+   "centro": "¿Qué tan desarrollado está cada proceso?",
+   "tipo": "columnas",
+   "nodos": [
+    {
+     "t": "1 · Existencia",
+     "d": "hay un desarrollo incipiente, parcial o desordenado, y las acciones se llevan a cabo de manera desarticulada.",
+     "i": "1️⃣",
+     "lec": "K041"
+    },
+    {
+     "t": "2 · Pertinencia",
+     "d": "hay algunos principios de planeación y articulación de los esfuerzos y acciones para dar cumplimiento a los objetivos y metas.",
+     "i": "2️⃣",
+     "lec": "K041"
+    },
+    {
+     "t": "3 · Apropiación",
+     "d": "las acciones institucionales tienen un mayor grado de articulación y, en general, son conocidas por la comunidad educativa.",
+     "i": "3️⃣",
+     "lec": "K041"
+    },
+    {
+     "t": "4 · Mejoramiento continuo",
+     "d": "los procesos están consolidados y son evaluados periódicamente para fortalecerlos.",
+     "i": "4️⃣",
+     "lec": "K041"
+    }
+   ],
+   "fuente": "Guía 34 MEN (2008), Etapa 1, paso 2",
+   "lec": "K041"
+  },
+  {
+   "id": "C-areas34",
+   "doc": "guia34_mineducacion_2008",
+   "capitulo": "Guía 34 · Cuadro No. 3",
+   "titulo": "Las cuatro áreas de gestión",
+   "centro": "Gestión institucional",
+   "tipo": "radial",
+   "nodos": [
+    {
+     "t": "Gestión directiva",
+     "d": null,
+     "lista": [
+      "Direccionamiento estratégico y horizonte institucional",
+      "Gestión estratégica",
+      "Gobierno escolar",
+      "Cultura institucional",
+      "Clima escolar",
+      "Relaciones con el entorno"
+     ],
+     "i": "🧭",
+     "lec": null
+    },
+    {
+     "t": "Gestión académica",
+     "d": null,
+     "lista": [
+      "Diseño pedagógico (curricular)",
+      "Prácticas pedagógicas",
+      "Gestión de aula",
+      "Seguimiento académico"
+     ],
+     "i": "📚",
+     "lec": null
+    },
+    {
+     "t": "Gestión administrativa y financiera",
+     "d": null,
+     "lista": [
+      "Apoyo a la gestión académica",
+      "Administración de la planta física y de los recursos",
+      "Administración de servicios complementarios",
+      "Talento humano",
+      "Apoyo financiero y contable"
+     ],
+     "i": "🗂️",
+     "lec": null
+    },
+    {
+     "t": "Gestión de la comunidad",
+     "d": null,
+     "lista": [
+      "Inclusión",
+      "Proyección a la comunidad",
+      "Participación y convivencia",
+      "Prevención de riesgos"
+     ],
+     "i": "🤝",
+     "lec": null
+    }
+   ],
+   "fuente": "Guía 34 MEN (2008), Cuadro No. 3",
+   "lec": null
+  },
+  {
+   "id": "C-procesos34",
+   "doc": "guia34_mineducacion_2008",
+   "capitulo": "Guía 34 · Cuadro No. 3",
+   "titulo": "Para qué sirve cada proceso",
+   "centro": "Procesos clave para el coordinador",
+   "tipo": "radial",
+   "nodos": [
+    {
+     "t": "Gobierno escolar",
+     "d": "Favorecer la participación y la toma de decisiones en la institución a través de diversas instancias…",
+     "i": "🏛️",
+     "lec": "K028"
+    },
+    {
+     "t": "Clima escolar",
+     "d": "Generar un ambiente sano y agradable que propicie el desarrollo de los estudiantes…",
+     "i": "🌤️",
+     "lec": "K028"
+    },
+    {
+     "t": "Gestión de aula",
+     "d": "Concretar los actos de enseñanza y aprendizaje en el aula de clase.",
+     "i": "🧑‍🏫",
+     "lec": "K030"
+    },
+    {
+     "t": "Talento humano",
+     "d": "Garantizar buenas condiciones de trabajo y desarrollo profesional a las personas vinculadas al establecimiento educativo.",
+     "i": "👥",
+     "lec": "K030"
+    },
+    {
+     "t": "Proyección a la comunidad",
+     "d": "Poner a disposición de la comunidad educativa un conjunto de servicios para apoyar su bienestar.",
+     "i": "🏘️",
+     "lec": "K032"
+    },
+    {
+     "t": "Prevención de riesgos",
+     "d": "Disponer de estrategias para prevenir posibles riesgos que podrían afectar el buen funcionamiento de la institución…",
+     "i": "⛑️",
+     "lec": "K032"
+    }
+   ],
+   "fuente": "Guía 34 MEN (2008), Cuadro No. 3",
+   "lec": "K028"
+  },
+  {
+   "id": "C-plan34",
+   "doc": "guia34_mineducacion_2008",
+   "capitulo": "Guía 34 · Etapa 2",
+   "titulo": "Pasos del plan de mejoramiento",
+   "centro": "Horizonte de tres años",
+   "tipo": "flujo",
+   "nodos": [
+    {
+     "t": "Paso 1",
+     "d": "Formulación de los objetivos teniendo en cuenta criterios de inclusión",
+     "i": "🎯",
+     "lec": "K051"
+    },
+    {
+     "t": "Paso 2",
+     "d": "Formulación de las metas que parten de la equidad como principio",
+     "i": "📏",
+     "lec": "K054"
+    },
+    {
+     "t": "Paso 3",
+     "d": "Definición de los indicadores de resultados",
+     "i": "📊",
+     "lec": "K058"
+    },
+    {
+     "t": "Paso 4",
+     "d": "Definición de las actividades y de sus responsables",
+     "i": "👤",
+     "lec": "K064"
+    },
+    {
+     "t": "Paso 5",
+     "d": "Elaboración del cronograma de actividades",
+     "i": "🗓️",
+     "lec": "K034"
+    },
+    {
+     "t": "Paso 6",
+     "d": "Definición de los recursos necesarios para la ejecución del plan de mejoramiento",
+     "i": "💰",
+     "lec": "K034"
+    },
+    {
+     "t": "Paso 7",
+     "d": "Divulgación del plan de mejoramiento a la comunidad educativa",
+     "i": "📣",
+     "lec": "K034"
+    }
+   ],
+   "fuente": "Guía 34 MEN (2008), Etapa 2",
+   "lec": "K051"
+  },
+  {
+   "id": "C-quien",
+   "doc": "resolucion_3842_2022_ocr",
+   "capitulo": "Ley 715 · Res. 3842 · Decreto 1075",
+   "titulo": "¿Rector, coordinador o consejo directivo?",
+   "centro": "¿A quién le corresponde?",
+   "tipo": "columnas",
+   "nodos": [
+    {
+     "t": "Rector (Ley 715)",
+     "d": null,
+     "lista": [
+      "Distribuir las asignaciones académicas",
+      "Imponer las sanciones disciplinarias propias del sistema de control interno disciplinario",
+      "Administrar el Fondo de Servicios Educativos y los recursos que por incentivos…",
+      "Publicar una vez al semestre en lugares públicos y comunicar por escrito…"
+     ],
+     "i": "👔",
+     "lec": "K096"
+    },
+    {
+     "t": "Coordinador (Res. 3842)",
+     "d": null,
+     "lista": [
+      "Orientar las reuniones de área, de ciclos y de otros equipos pedagógicos",
+      "Participar en el Comité de Convivencia Escolar y en el Consejo Académico.",
+      "Coordinar la articulación del plan de estudios",
+      "Participar en la inducción a los docentes nuevos"
+     ],
+     "i": "🧑‍💼",
+     "lec": "K008"
+    },
+    {
+     "t": "Consejo directivo (Decreto 1075)",
+     "d": null,
+     "lista": [
+      "Adoptar el manual de convivencia y el reglamento de la institución",
+      "Fijar los criterios para la asignación de cupos disponibles",
+      "Aprobar el plan anual de actualización académica del personal docente presentado por…",
+      "Reglamentar los procesos electorales previstos en el presente Capítulo"
+     ],
+     "i": "🏛️",
+     "lec": "K023"
+    }
+   ],
+   "fuente": "Ley 715 de 2001, art. 10; Resolución 3842 de 2022, 1.3.1; Decreto 1075 de 2015",
+   "lec": "K096"
+  },
+  {
+   "id": "C-siee",
+   "doc": "decreto_1075_2015",
+   "capitulo": "Decreto 1290 (en el 1075)",
+   "titulo": "Crear o modificar el SIEE",
+   "centro": "Procedimiento mínimo",
+   "tipo": "flujo",
+   "nodos": [
+    {
+     "t": "Paso 1",
+     "d": "Definir el sistema institucional de evaluación de los estudiantes.",
+     "i": "📝",
+     "lec": "K047"
+    },
+    {
+     "t": "Paso 2",
+     "d": "Socializar el sistema institucional de evaluación con la comunidad educativa.",
+     "i": "📝",
+     "lec": "K047"
+    },
+    {
+     "t": "Paso 3",
+     "d": "Aprobar el sistema institucional de evaluación en sesión en el consejo directivo y consignación…",
+     "i": "📝",
+     "lec": "K047"
+    },
+    {
+     "t": "Paso 4",
+     "d": "Incorporar el sistema institucional de evaluación en el proyecto educativo institucional…",
+     "i": "📝",
+     "lec": "K047"
+    },
+    {
+     "t": "Paso 5",
+     "d": "Divulgar el sistema institucional de evaluación de los estudiantes a la comunidad educativa.",
+     "i": "📝",
+     "lec": "K047"
+    },
+    {
+     "t": "Paso 6",
+     "d": "Divulgar los procedimientos y mecanismos de reclamaciones del sistema institucional de evaluación.",
+     "i": "📝",
+     "lec": "K047"
+    },
+    {
+     "t": "Paso 7",
+     "d": "Informar sobre el sistema de evaluación a los nuevos estudiantes…",
+     "i": "📝",
+     "lec": "K047"
+    }
+   ],
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.8",
+   "lec": "K047"
+  },
+  {
+   "id": "C-ruta",
+   "doc": "ley_1620_2013",
+   "capitulo": "Ley 1620 · Art. 30",
+   "titulo": "Ruta de Atención Integral: 4 componentes",
+   "centro": "Ruta de Atención Integral para la Convivencia Escolar",
+   "tipo": "flujo",
+   "nodos": [
+    {
+     "t": "Promoción",
+     "d": "El componente de promoción se centrará en el desarrollo de competencias y el ejercicio de los derechos humanos…",
+     "i": "🌱",
+     "lec": "K134"
+    },
+    {
+     "t": "Prevención",
+     "d": "El componente de prevención deberá ejecutarse a través de un proceso continuo de formación para el desarrollo integral…",
+     "i": "🛡️",
+     "lec": "K134"
+    },
+    {
+     "t": "Atención",
+     "d": "El componente de atención deberá desarrollar estrategias que permitan asistir al niño, niña, adolescente, al padre…",
+     "i": "🤝",
+     "lec": "K134"
+    },
+    {
+     "t": "Seguimiento",
+     "d": "El componente de seguimiento se centrará en el reporte oportuno de la información al Sistema de Información Unificado…",
+     "i": "📊",
+     "lec": "K134"
+    }
+   ],
+   "fuente": "Ley 1620 de 2013, art. 30",
+   "lec": "K134"
+  },
+  {
+   "id": "C-tipos",
+   "doc": "decreto_1965_2013",
+   "capitulo": "Decreto 1965 · Art. 40",
+   "titulo": "Situaciones tipo I, II y III",
+   "centro": "¿Qué tan grave es la situación?",
+   "tipo": "columnas",
+   "nodos": [
+    {
+     "t": "Situación tipo I",
+     "d": "Corresponden a este tipo los conflictos manejados inadecuadamente y aquellas situaciones esporádicas que inciden negativamente en el clima escolar…",
+     "i": "🟢",
+     "lec": "K122"
+    },
+    {
+     "t": "Situación tipo II",
+     "d": "Corresponden a esta tipo las situaciones de agresión escolar, acoso escolar (bullying) y ciberacoso (Ciberbullying)…",
+     "i": "🟠",
+     "lec": "K122"
+    },
+    {
+     "t": "Situación tipo III",
+     "d": "Corresponden a esta tipo las situaciones de agresión escolar que sean constitutivas de presuntos delitos contra la libertad, integridad y formación sexual…",
+     "i": "🔴",
+     "lec": "K122"
+    }
+   ],
+   "fuente": "Decreto 1965 de 2013, art. 40",
+   "lec": "K122"
+  },
+  {
+   "id": "C-proto2",
+   "doc": "decreto_1965_2013",
+   "capitulo": "Decreto 1965 · Art. 43",
+   "titulo": "Protocolo tipo II: lo primero",
+   "centro": "Pasos en orden",
+   "tipo": "flujo",
+   "nodos": [
+    {
+     "t": "Paso 1",
+     "d": "En casos de daño al cuerpo o a la salud, garantizar la atención inmediata en salud…",
+     "i": "🚑",
+     "lec": "K127"
+    },
+    {
+     "t": "Paso 2",
+     "d": "Adoptar las medidas para proteger a los involucrados en la situación de posibles acciones en su…",
+     "i": "🛡️",
+     "lec": "K127"
+    },
+    {
+     "t": "Paso 3",
+     "d": "Informar de manera inmediata a los padres, madres o acudientes de todos los estudiantes involucrados…",
+     "i": "📞",
+     "lec": "K127"
+    },
+    {
+     "t": "Paso 4",
+     "d": "Generar espacios en los que las partes involucradas y los padres…",
+     "i": "🗣️",
+     "lec": "K127"
+    },
+    {
+     "t": "Paso 5",
+     "d": "Si el caso no corresponde a las características de las situaciones tipo III…",
+     "i": "🔧",
+     "lec": "K127"
+    }
+   ],
+   "fuente": "Decreto 1965 de 2013, art. 43",
+   "lec": "K127"
+  },
+  {
+   "id": "C-inclusion",
+   "doc": "decreto_1421_2017",
+   "capitulo": "Decreto 1421 · Definiciones",
+   "titulo": "Educación inclusiva: palabras clave",
+   "centro": "Atención educativa a la población con discapacidad",
+   "tipo": "radial",
+   "nodos": [
+    {
+     "t": "Ajustes razonables",
+     "d": "Ajustes razonables: son las acciones, adaptaciones, estrategias, apoyos, recursos o modificaciones necesarias y adecuadas del sistema educativo y…",
+     "i": "🔧",
+     "lec": "K009"
+    },
+    {
+     "t": "Currículo flexible",
+     "d": "Currículo flexible: es aquel que mantiene los mismos objetivos generales para todos los estudiantes…",
+     "i": "📚",
+     "lec": "K019"
+    },
+    {
+     "t": "Diseño Universal del Aprendizaje (DUA)",
+     "d": "Diseño Universal del Aprendizaje (DUA): diseño de productos, entornos, programas y servicios que puedan utilizar todas las personas…",
+     "i": "🌐",
+     "lec": "K019"
+    },
+    {
+     "t": "Educación inclusiva",
+     "d": "Educación inclusiva: es un proceso permanente que reconoce, valora y responde de manera pertinente a la diversidad de…",
+     "i": "🤗",
+     "lec": "K019"
+    },
+    {
+     "t": "PIAR",
+     "d": "Plan Individual de Ajustes Razonables (PIAR): herramienta utilizada para garantizar los procesos de enseñanza y aprendizaje de los…",
+     "i": "📝",
+     "lec": "K019"
+    }
+   ],
+   "fuente": "Decreto 1421 de 2017, art. 2.3.3.5.1.4",
+   "lec": "K009"
+  }
+ ]
+}

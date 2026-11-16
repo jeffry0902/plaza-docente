@@ -640,9 +640,9 @@ function vistaInicio() {
 
 
 
-  ${S.cargo === "coordinador" ? "" : `<div class="card mt"><div class="row"><div style="font-size:30px">🗺️</div><div style="flex:1"><h3>Mapas, apuntes y esquemas</h3>
+  <div class="card mt"><div class="row"><div style="font-size:30px">🗺️</div><div style="flex:1"><h3>Mapas, apuntes y esquemas</h3>
      <p class="small muted">Los documentos en apuntes visuales dibujados a mano, esquemas y mapas mentales de cada documento.</p></div></div>
-     <button class="btn violet mt" data-a="abrirMapas">Explorar</button></div>`}
+     <button class="btn violet mt" data-a="abrirMapas">Explorar</button></div>
 
   <div class="card mt"><div class="row"><div style="font-size:30px">📝</div><div style="flex:1"><h3>Cuaderno de estudio</h3>
      <p class="small muted">Para sentarte con calma: lee los documentos completos, guarda conceptos con tus palabras y repásalos. ${S.estado.cuaderno.conceptos.length ? `Llevas ${S.estado.cuaderno.conceptos.length} ${S.estado.cuaderno.conceptos.length === 1 ? "concepto" : "conceptos"}.` : ""}</p></div></div>

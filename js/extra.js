@@ -69,7 +69,7 @@ function vistaMapas() {
   ${es.map((e, k) => `<button class="node" data-a="verEsquema" data-id="${e.id}"><div class="ico" style="background:${COLORES[k % 8]}">${["🛤️", "🌈", "🗂️", "⚙️", "🏛️"][k] || "📌"}</div><div class="meta"><b>${esc(e.titulo)}</b><span class="tiny muted">${esc(e.fuente)}</span></div><span class="muted">›</span></button>`).join("")}
   <h3 class="mt2">🗺️ Mapa de cada documento</h3>
   <p class="tiny muted">Cómo está organizado cada documento: títulos, capítulos y artículos. Toca una rama para abrirla y 📖 para leer esa parte.</p>
-  ${lista.map((m, k) => `<button class="node" data-a="verMapa" data-d="${m.doc}"><div class="ico" style="background:${COLORES[k % 8]}">🗺️</div><div class="meta"><b>${esc(m.nombre)}</b></div><span class="muted">›</span></button>`).join("")}`;
+  ${lista.map((m, k) => `<button class="node" data-a="verMapa" data-d="${m.clave || m.doc}"><div class="ico" style="background:${COLORES[k % 8]}">🗺️</div><div class="meta"><b>${esc(m.nombre)}</b></div><span class="muted">›</span></button>`).join("")}`;
 }
 const TIPOS = { emparejar: { e: "🔗", nombre: "Relacionar", color: "#1CB0F6" }, ordenar: { e: "🔢", nombre: "Ordenar los pasos", color: "#FF9600" },
   clasificar: { e: "🗃️", nombre: "Clasificar", color: "#CE82FF" }, sopa: { e: "🔤", nombre: "Sopa de letras", color: "#58CC02" } };
@@ -85,14 +85,14 @@ function aMarkmap(n, prof = 0) {
 }
 let MM = null;
 function vistaMapa() {
-  const m = (MAPAS || []).find(x => x.doc === V.mapa); if (!m) return vistaMapas();
+  const m = (MAPAS || []).find(x => (x.clave || x.doc) === V.mapa); if (!m) return vistaMapas();
   return `<div class="top"><button class="icon-btn" data-v="mapas">‹</button><h2 style="font-size:19px">${esc(m.nombre)}</h2><span style="width:44px"></span></div>
   <p class="tiny muted">Toca una idea para abrir o cerrar sus ramas. Si tiene 📖, tócala de nuevo para leer esa parte. Pellizca para acercar.</p>
   <div class="row wrap"><button class="chip" data-a="mmNivel" data-n="2">Lo principal</button><button class="chip" data-a="mmNivel" data-n="3">Más detalle</button><button class="chip" data-a="mmNivel" data-n="9">Todo</button><button class="chip" data-a="mmFit">⤢ Centrar</button></div>
   <div class="mmwrap mt"><svg id="mmsvg"></svg></div>`;
 }
 async function pintarMapa(nivel = 2) {
-  const m = (MAPAS || []).find(x => x.doc === V.mapa), svg = document.getElementById("mmsvg"); if (!m || !svg) return;
+  const m = (MAPAS || []).find(x => (x.clave || x.doc) === V.mapa), svg = document.getElementById("mmsvg"); if (!m || !svg) return;
   await libsMapa();
   svg.innerHTML = "";
   const datos = aMarkmap(m.mapa);

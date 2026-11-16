@@ -5,7 +5,8 @@ las competencias y desempeños de cada grupo de grados por componente. Cada hoja
 Uso: python3 tools/mapas.py   (después de tools/fragmentar.py)"""
 import json, os, re, glob, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fragmentar import DOCS, limpiar_lineas, cortar, ART
+import fragmentar
+from fragmentar import DOCS, DOCS_COORD, limpiar_lineas, cortar, ART
 from validar import compacto
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -13,7 +14,10 @@ FUENTES = os.path.join(RAIZ, "fuentes")
 
 # lecturas: doc -> [(id, compacto del texto)]
 LECT = {}
-for f in sorted(glob.glob(os.path.join(RAIZ, "data", "lecturas", "p*.json"))):
+COORD = "--cargo" in sys.argv and sys.argv[sys.argv.index("--cargo") + 1] == "coordinador"
+SUB = "coord" if COORD else ""
+if COORD: fragmentar.CARGO = "coordinador"      # misma limpieza de encabezados que el plan de coordinación
+for f in sorted(glob.glob(os.path.join(RAIZ, "data", SUB, "lecturas", "p*.json"))):
     for l in json.load(open(f, encoding="utf-8")):
         LECT.setdefault(l["doc"], []).append((l["id"], compacto(" ".join(l["parrafos"]))))
 
@@ -152,6 +156,77 @@ def mapa_guia30():
     return raiz
 
 
+# Guía 34: áreas → procesos → componentes (Cuadro No. 3) y la ruta del mejoramiento. Los textos son los de la guía.
+G34_AREAS = [
+ ("Gestión directiva", [
+  ("Direccionamiento estratégico y horizonte institucional", "misión, visión, valores institucionales (principios), metas, conocimiento y apropiación del direccionamiento, política de inclusión de personas con capacidades disímiles y diversidad cultural"),
+  ("Gestión estratégica", "Liderazgo, articulación de planes, proyectos y acciones, estrategia pedagógica, uso de información (interna y externa) para la toma de decisiones, seguimiento y autoevaluación"),
+  ("Gobierno escolar", "Consejos directivo, académico, estudiantil y de padres de familia, comisión de evaluación y promoción, comité de convivencia, personero estudiantil, y asamblea de padres de familia"),
+  ("Cultura institucional", "Mecanismos de comunicación, trabajo en equipo, reconocimiento de logros, identificación y divulgación de buenas prácticas"),
+  ("Clima escolar", "ambiente físico, inducción a los nuevos estudiantes, motivación hacia el aprendizaje, manual de convivencia, actividades extracurriculares, bienestar de los alumnos, manejo de conflictos y casos difíciles"),
+  ("Relaciones con el entorno", "Padres de familia, autoridades educativas, otras instituciones, sector productivo")]),
+ ("Gestión académica", [
+  ("Diseño pedagógico (curricular)", "Plan de estudios, enfoque metodológico, recursos para el aprendizaje, jornada escolar, evaluación"),
+  ("Prácticas pedagógicas", "Opciones didácticas para las áreas, asignaturas y proyectos transversales, estrategias para las tareas escolares, uso articulado de los recursos y los tiempos para el aprendizaje"),
+  ("Gestión de aula", "Relación y estilo pedagógico, planeación de clases y evaluación en el aula"),
+  ("Seguimiento académico", "Seguimiento a los resultados académicos, a la asistencia de los estudiantes y a los egresados, uso pedagógico de las evaluaciones externas, actividades de recuperación y apoyos pedagógicos adicionales para estudiantes con necesidades educativas especiales")]),
+ ("Gestión administrativa y financiera", [
+  ("Apoyo a la gestión académica", "Proceso de matrícula, archivo académico y boletines de calificaciones"),
+  ("Administración de la planta física y de los recursos", "Mantenimiento, adecuación y embellecimiento de la planta física, seguimiento al uso de los espacios, adquisición y mantenimiento de los recursos para el aprendizaje, suministros, dotación y mantenimiento de equipos, seguridad y protección"),
+  ("Administración de servicios complementarios", "Servicios de transporte, restaurante, cafetería y salud (enfermería, odontología, psicología), apoyo a estudiantes con necesidades educativas especiales"),
+  ("Talento humano", "Perfiles, inducción, formación y capacitación, asignación académica, pertenencia a la institución, evaluación del desempeño, estímulos, apoyo a la investigación, convivencia y manejo de conflictos, bienestar del talento humano"),
+  ("Apoyo financiero y contable", "Presupuesto anual del Fondo de Servicios Educativos, contabilidad, ingresos y gastos, control fiscal")]),
+ ("Gestión de la comunidad", [
+  ("Inclusión", "Atención educativa a grupos poblacionales con necesidades especiales y a personas pertenecientes a grupos étnicos, necesidades y expectativas de los estudiantes, proyectos de vida"),
+  ("Proyección a la comunidad", "Escuela de padres, oferta de servicios a la comunidad, uso de la planta física y de medios, servicio social estudiantil"),
+  ("Participación y convivencia", "Participación de estudiantes y padres de familia, asamblea y consejo de padres"),
+  ("Prevención de riesgos", "Prevención de riesgos físicos y psicosociales, programas de seguridad")]),
+]
+G34_RUTA = [
+ ("Etapa 1 · Autoevaluación institucional", "La primera etapa de la ruta del mejoramiento continuo es la autoevaluación institucional",
+  ["Paso 1. Revisión de la identidad institucional", "Paso 2. Evaluación de cada una de las áreas de gestión (escala: 1 existencia, 2 pertinencia, 3 apropiación, 4 mejoramiento continuo)",
+   "Paso 3. Elaboración del perfil institucional", "Paso 4. Establecimiento de las fortalezas y oportunidades de mejoramiento"]),
+ ("Etapa 2 · Elaboración del plan de mejoramiento (horizonte de tres años)", "La segunda etapa consiste en la elaboración del plan de mejoramiento",
+  ["Paso 1. Formulación de los objetivos", "Paso 2. Formulación de las metas", "Paso 3. Definición de los indicadores de resultados", "Paso 4. Definición de las actividades y de sus responsables",
+   "Paso 5. Elaboración del cronograma de actividades", "Paso 6. Definición de los recursos necesarios", "Paso 7. Divulgación del plan de mejoramiento a la comunidad educativa"]),
+ ("Etapa 3 · Seguimiento y evaluación de los resultados del plan", "la tercera etapa consiste en el seguimiento periódico al desarrollo del plan de mejoramiento",
+  ["Paso 1. Montaje del sistema de seguimiento", "Paso 2. Revisión periódica del plan", "Paso 3. Evaluación del plan de mejoramiento: insumo de la siguiente autoevaluación"]),
+]
+
+
+def comps(txt):
+    partes = [x.strip() for x in re.split(r",\s*(?![^()]*\))|\sy\s(?=[a-záéíóú])", txt) if x.strip()]
+    return [p[0].upper() + p[1:] for p in partes]
+
+
+def mapa_guia34():
+    stem = "guia34_mineducacion_2008"
+    raiz = {"t": "Guía 34: mejoramiento institucional", "h": []}
+    areas = {"t": "Las cuatro áreas de gestión (Cuadro No. 3)", "h": []}
+    for area, procs in G34_AREAS:
+        na = {"t": area, "h": []}
+        for proc, componentes in procs:
+            na["h"].append({"t": proc, "l": lectura_de(stem, componentes), "h": [{"t": "Componentes: " + componentes[0].lower() + componentes[1:] + "."}]})
+        areas["h"].append(na)
+    ruta = {"t": "Ruta del mejoramiento continuo", "h": []}
+    for etapa, ancla, pasos in G34_RUTA:
+        ruta["h"].append({"t": etapa, "l": lectura_de(stem, ancla), "h": [{"t": p} for p in pasos]})
+    raiz["h"] = [ruta, areas]
+    return raiz
+
+
+def main_coord():
+    cfg = {d[7]: d for d in DOCS_COORD}
+    out = [{"doc": "guia34_mineducacion_2008", "nombre": cfg["g34"][1], "mapa": mapa_guia34()}]
+    s, nombre, g, p, ini, fin, tipo, k = cfg["r3842"]
+    out.append({"doc": s, "nombre": nombre, "mapa": mapa_numerado(s, "Res. 3842 de 2022 · Directivos docentes", ini, fin)})
+    for clave in ("l715", "l1620", "d1965", "d1421", "d1075-gob", "d1075-siee", "d1075-fse", "d1278"):
+        s, nombre, g, p, ini, fin, tipo, k = cfg[clave]
+        out.append({"doc": s, "clave": clave, "nombre": nombre, "mapa": mapa_norma(s, nombre.split(" (")[0], ini, fin)})
+    json.dump(out, open(os.path.join(RAIZ, "data", "coord", "mapas.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    for m in out: print(f"{m.get('clave', m['doc'])}: {contar(m['mapa'])} nodos")
+
+
 def contar(n): return 1 + sum(contar(h) for h in n.get("h", []))
 
 
@@ -171,4 +246,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main_coord() if COORD else main()
