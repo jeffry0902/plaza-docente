@@ -576,11 +576,18 @@ function vistaHistorial() {
 function juegosInicioHTML() {
   const L = PDX.juegosLista();
   if (!L.length) { if (!juegosInicioHTML.pidio) { juegosInicioHTML.pidio = true; PDX.cargar().then(() => S.vista === "inicio" && render()); } return ""; }
-  const grupos = ["emparejar", "ordenar", "clasificar", "sopa"].map(t => ({ t, ...PDX.TIPOS[t], g: L.filter(x => x.tipo === t) })).filter(x => x.g.length);
+  const JG = S.estado.juegos || {}, hechos = L.filter(g => JG[g.id]).length;
+  const fechaCorta = f => { const d = new Date(f + "T12:00:00"); return f === hoy() ? "hoy" : d.toLocaleDateString("es-CO", { day: "numeric", month: "short" }); };
+  const grupos = ["emparejar", "ordenar", "clasificar", "sopa"].map(t => ({ t, ...PDX.TIPOS[t],
+    g: L.filter(x => x.tipo === t).sort((a, b) => !!JG[a.id] - !!JG[b.id]) })).filter(x => x.g.length);
   return `<div class="card mt"><div class="row"><div style="font-size:30px">🎮</div><div style="flex:1"><h3>Juegos de repaso</h3>
     <p class="small muted">Practica jugando: cada juego usa el texto de los documentos oficiales. Dan XP.</p></div></div>
-    ${grupos.map(x => `<div class="jg-grupo"><div class="jg-tit" style="color:${x.color}">${x.e} ${x.nombre}</div>
-      <div class="jg-fila">${x.g.map(g => `<button class="jg-btn" style="--c:${x.color}" data-a="jugar" data-tipo="${g.tipo}" data-id="${g.id}"><b>${esc(g.titulo)}</b><span>${esc(g.fuente)}</span></button>`).join("")}</div></div>`).join("")}</div>`;
+    <div class="jg-prog"><div class="bar"><i style="width:${Math.round(100 * hechos / L.length)}%"></i></div><span class="small"><b>${hechos}</b> de ${L.length} hechos</span></div>
+    ${grupos.map(x => `<div class="jg-grupo"><div class="jg-tit" style="color:${x.color}">${x.e} ${x.nombre} <span class="tiny muted">· ${x.g.filter(g => JG[g.id]).length}/${x.g.length}</span></div>
+      <div class="jg-fila">${x.g.map(g => { const r = JG[g.id];
+        return `<button class="jg-btn ${r ? "hecho" : ""}" style="--c:${x.color}" data-a="jugar" data-tipo="${g.tipo}" data-id="${g.id}">
+          ${r ? `<em class="jg-ok">✓ Hecho ${fechaCorta(r.ultima)}${r.veces > 1 ? ` · ${r.veces} veces` : ""}</em>` : `<em class="jg-nuevo">Nuevo</em>`}
+          <b>${esc(g.titulo)}</b><span>${r ? (r.mejor === 0 ? "Sin errores 👏" : `Mejor intento: ${r.mejor} ${r.mejor === 1 ? "error" : "errores"} · repítelo`) : esc(g.fuente)}</span></button>`; }).join("")}</div></div>`).join("")}</div>`;
 }
 function vistaInicio() {
   const P = S.estado.perfil, r = rachaVisible(), lv = nivel(P.xp), hecho = S.estado.retoHoy === hoy();
@@ -1263,7 +1270,9 @@ window.PD = {
     if (["mapa", "sketch", "esquema", "mapas"].includes(S.vista)) CU.volver = { v: S.vista, y: scrollY };
     else if (S.vista !== "leer") CU.volver = null;
     CU.lectura = id; CU.sel = null; CU.doc = (S.banco.plan.find(l => l.id === id) || {}).doc; await asegurarLectura(id); ir("leer"); },
-  premiar(xp, G) { const P = S.estado.perfil; P.xp += xp; if (S.ses && S.vista === "pregunta") S.ses.xp += xp;
+  premiar(xp, G) { const P = S.estado.perfil; P.xp += xp;
+    if (G?.id) { const JG = (S.estado.juegos ||= {}), x = JG[G.id] ||= { veces: 0 };
+      x.veces++; x.ultima = hoy(); x.errores = G.errores || 0; x.mejor = Math.min(x.mejor ?? 99, G.errores || 0); } if (S.ses && S.vista === "pregunta") S.ses.xp += xp;
     else { const r = { fecha: hoy(), tipo: "juego", total: 1, ok: G.errores ? 0 : 1, xp, comp: null }; S.estado.sesiones.push(r);
       const ob = outbox(); ob.sesiones.push({ tipo: "juego", total: 1, correctas: G.errores ? 0 : 1, xp, detalle: { juego: G.id, errores: G.errores } }); setOutbox(ob); }
     confeti(80); sonar("fin"); guardarLocal(); }

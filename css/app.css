@@ -380,3 +380,10 @@ html.oscuro .cal-d.n1{background:#1E3A12} html.oscuro .cal-d.n2{background:#2F6A
 .jg-btn b { font-size: 14.5px; line-height: 1.2; }
 .jg-btn span { font-size: 12px; opacity: .65; }
 .jg-btn:active { transform: translateY(2px); border-bottom-width: 2px; }
+.jg-prog { display: flex; align-items: center; gap: 10px; margin-top: 10px; }
+.jg-prog .bar { flex: 1; height: 10px; border-radius: 99px; background: var(--line); overflow: hidden; }
+.jg-prog .bar i { display: block; height: 100%; background: var(--pri); border-radius: 99px; }
+.jg-btn em { font-style: normal; font-size: 11.5px; font-weight: 800; align-self: flex-start; padding: 1px 8px; border-radius: 99px; }
+.jg-nuevo { background: var(--blue-soft); color: var(--blue-2); }
+.jg-ok { background: var(--pri-soft); color: var(--pri-ink); }
+.jg-btn.hecho { border-bottom-color: var(--pri); opacity: .78; }
