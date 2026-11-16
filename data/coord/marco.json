@@ -1,0 +1,761 @@
+{
+ "version": "coord-1",
+ "actualizado": "2026-11-16",
+ "componentes": [
+  {
+   "id": "GDI",
+   "nombre": "Gestión directiva",
+   "oficial": "Conocimientos de la formación requerida para el empleo: gestión directiva, administrativa y financiera",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "🧭",
+   "descripcion": "Direccionamiento estratégico, ruta de mejoramiento (Guía 34), gobierno escolar y funciones del coordinador frente al rector (Resolución 3842, Ley 715)."
+  },
+  {
+   "id": "GAC",
+   "nombre": "Gestión académica",
+   "oficial": "Conocimientos de la formación requerida para el empleo: gestión académica",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "📚",
+   "descripcion": "Liderar el diseño curricular, el seguimiento académico, el SIEE (Decreto 1290 compilado en el 1075) y el acompañamiento a los docentes."
+  },
+  {
+   "id": "GAF",
+   "nombre": "Gestión administrativa y financiera",
+   "oficial": "Conocimientos de la formación requerida para el empleo: gestión directiva, administrativa y financiera",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "🗂️",
+   "descripcion": "Fondo de Servicios Educativos (Ley 715 y Decreto 4791 compilado en el 1075), talento humano, asignación académica y evaluación de desempeño."
+  },
+  {
+   "id": "GCO",
+   "nombre": "Gestión de la comunidad y convivencia",
+   "oficial": "Conocimientos de la formación requerida para el empleo: gestión comunitaria",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "🤝",
+   "descripcion": "Comité escolar de convivencia y protocolos de la Ruta (Ley 1620, Decreto 1965, Guía 49), inclusión (Decreto 1421) y relación con la comunidad."
+  },
+  {
+   "id": "PED",
+   "nombre": "Pedagogía y evaluación",
+   "oficial": "Competencias pedagógicas para evaluar, formar y enseñar",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "🧑‍🏫",
+   "descripcion": "Planeación, didáctica, evaluación formativa (Decreto 1290 compilado en el 1075), currículo y educación inclusiva."
+  },
+  {
+   "id": "NOR",
+   "nombre": "Normativa y convivencia",
+   "oficial": "Competencias pedagógicas para formar (marco legal)",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "⚖️",
+   "descripcion": "Ley 115, Decreto 1278, Ley 1620 y Decreto 1965 (Ruta de Atención Integral), Ley 1098 y gobierno escolar."
+  },
+  {
+   "id": "LC",
+   "nombre": "Lectura crítica",
+   "oficial": "Lectura crítica",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "📖",
+   "descripcion": "Identificar contenidos locales, comprender cómo se articulan las partes de un texto y reflexionar para evaluar su contenido (marco ICFES)."
+  },
+  {
+   "id": "RC",
+   "nombre": "Razonamiento cuantitativo",
+   "oficial": "Razonamiento cuantitativo",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "📊",
+   "descripcion": "Interpretación y representación, formulación y ejecución, y argumentación con datos de contextos escolares."
+  },
+  {
+   "id": "CB",
+   "nombre": "Competencias blandas",
+   "oficial": "Valoración de competencias blandas: liderazgo, ética, trabajo en equipo y ciudadanía",
+   "prueba": "Aptitudes y Competencias Básicas (eliminatoria)",
+   "icono": "🤝",
+   "descripcion": "Componente nuevo del Anexo Técnico 2026: liderazgo, ética, trabajo en equipo y ciudadanía."
+  },
+  {
+   "id": "PSI",
+   "nombre": "Psicotécnica",
+   "oficial": "Prueba Psicotécnica (competencias comportamentales Res. 3842 de 2022)",
+   "prueba": "Psicotécnica (clasificatoria)",
+   "icono": "🧭",
+   "descripcion": "Liderazgo, comunicación y relaciones interpersonales, trabajo en equipo, negociación y mediación, compromiso social e institucional, iniciativa y orientación al logro."
+  }
+ ],
+ "afirmaciones": [
+  {
+   "id": "GDI-A1",
+   "componente": "GDI",
+   "nombre": "Direccionamiento y mejoramiento",
+   "texto": "Lidera con el rector la ruta de mejoramiento institucional (autoevaluación, plan de mejoramiento y seguimiento) en las cuatro áreas de gestión."
+  },
+  {
+   "id": "GDI-A2",
+   "componente": "GDI",
+   "nombre": "Rol del coordinador",
+   "texto": "Actúa dentro de las funciones del coordinador y reconoce las que corresponden al rector y a los órganos del gobierno escolar."
+  },
+  {
+   "id": "GAC-A1",
+   "componente": "GAC",
+   "nombre": "Currículo y evaluación",
+   "texto": "Orienta el plan de estudios, el sistema institucional de evaluación y el seguimiento académico de los estudiantes."
+  },
+  {
+   "id": "GAF-A1",
+   "componente": "GAF",
+   "nombre": "Recursos y talento humano",
+   "texto": "Apoya la administración de los recursos del establecimiento y la gestión del talento humano conforme a la ley."
+  },
+  {
+   "id": "GCO-A1",
+   "componente": "GCO",
+   "nombre": "Convivencia e inclusión",
+   "texto": "Participa en el comité escolar de convivencia, aplica los protocolos de la Ruta y garantiza condiciones para la educación inclusiva."
+  },
+  {
+   "id": "PED-A1",
+   "componente": "PED",
+   "nombre": "Evaluar",
+   "texto": "Evalúa con enfoque formativo, conforme al Sistema Institucional de Evaluación de los Estudiantes."
+  },
+  {
+   "id": "PED-A2",
+   "componente": "PED",
+   "nombre": "Enseñar",
+   "texto": "Planea y desarrolla la enseñanza según el currículo, el PEI y las competencias del docente."
+  },
+  {
+   "id": "PED-A3",
+   "componente": "PED",
+   "nombre": "Formar en la diversidad",
+   "texto": "Garantiza la educación inclusiva con DUA, PIAR y ajustes razonables."
+  },
+  {
+   "id": "NOR-A1",
+   "componente": "NOR",
+   "nombre": "Convivencia y protección",
+   "texto": "Actúa ante situaciones de convivencia según la Ley 1620, el Decreto 1965 y la protección integral de la Ley 1098."
+  },
+  {
+   "id": "NOR-A2",
+   "componente": "NOR",
+   "nombre": "Organización escolar y carrera",
+   "texto": "Conoce el gobierno escolar, el PEI y el Estatuto de Profesionalización Docente."
+  },
+  {
+   "id": "LC-A",
+   "componente": "LC",
+   "nombre": "Lectura crítica",
+   "texto": "Comprende, interpreta y evalúa textos pedagógicos y normativos."
+  },
+  {
+   "id": "RC-A",
+   "componente": "RC",
+   "nombre": "Razonamiento cuantitativo",
+   "texto": "Interpreta, formula y argumenta con información cuantitativa en contextos escolares."
+  },
+  {
+   "id": "CB-A",
+   "componente": "CB",
+   "nombre": "Competencias blandas",
+   "texto": "Actúa con ética, ciudadanía y trabajo en equipo en situaciones de la vida escolar."
+  },
+  {
+   "id": "PSI-A",
+   "componente": "PSI",
+   "nombre": "Psicotécnica",
+   "texto": "Demuestra las competencias comportamentales del docente (Res. 3842 de 2022)."
+  }
+ ],
+ "familias": {
+  "GDI-MEJORA": {
+   "componente": "GDI",
+   "afirmacion": "GDI-A1",
+   "nombre": "Ruta del mejoramiento institucional (Guía 34)",
+   "evidencia": "Ubica la autoevaluación, el plan de mejoramiento y su seguimiento, interpreta la escala de valoración y formula metas medibles.",
+   "leccion": {
+    "idea": "La Guía 34 propone una ruta de tres etapas que se repiten: autoevaluación institucional, elaboración del plan de mejoramiento y seguimiento periódico a ese plan. El seguimiento alimenta la siguiente autoevaluación.",
+    "claves": [
+     "Escala de la autoevaluación: 1 existencia, 2 pertinencia, 3 apropiación, 4 mejoramiento continuo.",
+     "Lo valorado con 1 o 2 es donde se concentran los esfuerzos; lo valorado con 4 son fortalezas para apoyar el plan.",
+     "El plan de mejoramiento se recomienda a tres años, con metas anuales, y contiene objetivos, metas, actividades, responsables, cronograma, recursos e indicadores.",
+     "Una meta dice con precisión qué se espera lograr y en qué tiempo: su principal característica es que es medible."
+    ],
+    "trampa": "Elegir metas «bonitas» pero no medibles (fortalecer, mejorar, promover) o saltarse etapas: el plan sale de la autoevaluación y el seguimiento cierra el ciclo.",
+    "fuente": "Guía 34 MEN (2008), 1.11 Ruta para el mejoramiento continuo; Etapa 1, paso 2; Etapa 2, paso 2."
+   }
+  },
+  "GDI-AREAS": {
+   "componente": "GDI",
+   "afirmacion": "GDI-A1",
+   "nombre": "Áreas, procesos y componentes de la gestión",
+   "evidencia": "Clasifica una situación institucional en el área de gestión, el proceso y el componente que le corresponden según la Guía 34.",
+   "leccion": {
+    "idea": "La gestión institucional tiene cuatro áreas: directiva, académica, administrativa y financiera, y de la comunidad. Cada área tiene procesos y cada proceso, componentes (Cuadro No. 3 de la Guía 34).",
+    "claves": [
+     "Directiva: direccionamiento estratégico, gestión estratégica, gobierno escolar, cultura institucional, clima escolar y relaciones con el entorno.",
+     "Académica: diseño pedagógico (curricular), prácticas pedagógicas, gestión de aula y seguimiento académico.",
+     "Administrativa y financiera: apoyo a la gestión académica, planta física y recursos, servicios complementarios, talento humano (incluye asignación académica y evaluación del desempeño) y apoyo financiero y contable.",
+     "De la comunidad: inclusión, proyección a la comunidad (escuela de padres, servicio social estudiantil), participación y convivencia, prevención de riesgos."
+    ],
+    "trampa": "Clasificar por el tema y no por el proceso: la asignación académica es talento humano (administrativa), y el comité de convivencia y la comisión de evaluación son gobierno escolar (directiva).",
+    "fuente": "Guía 34 MEN (2008), 1.10 y Cuadro No. 3."
+   }
+  },
+  "GDI-ROL": {
+   "componente": "GDI",
+   "afirmacion": "GDI-A2",
+   "nombre": "Funciones del coordinador y del rector",
+   "evidencia": "Distingue las funciones específicas del coordinador (Resolución 3842) de las del rector (Ley 715, art. 10) y actúa dentro de su cargo.",
+   "leccion": {
+    "idea": "El coordinador lidera, participa y gestiona el trabajo de los docentes bajo las orientaciones del rector, que es su superior inmediato. Varias decisiones administrativas son del rector por ley.",
+    "claves": [
+     "Coordinador: orientar reuniones de área, acompañar el modelo pedagógico, hacer seguimiento al cumplimiento de las asignaciones de los docentes, inducir a los docentes nuevos, participar en el Comité de Convivencia y el Consejo Académico.",
+     "Rector (Ley 715, art. 10): distribuir las asignaciones académicas, controlar el cumplimiento de funciones y reportar novedades a la secretaría, imponer sanciones disciplinarias, administrar el Fondo de Servicios Educativos.",
+     "La evaluación anual de desempeño de los docentes la hace el rector (Decreto 1278, art. 32)."
+    ],
+    "trampa": "Opciones en las que el coordinador sanciona, reporta novedades a la secretaría o reparte la asignación académica por su cuenta: son funciones del rector.",
+    "fuente": "Resolución 3842 de 2022, 1.3 y 1.3.1; Ley 715 de 2001, art. 10; Decreto 1278 de 2002, art. 32."
+   }
+  },
+  "GAC-SIEE": {
+   "componente": "GAC",
+   "afirmacion": "GAC-A1",
+   "nombre": "SIEE y promoción (Decreto 1290)",
+   "evidencia": "Aplica el procedimiento de creación y modificación del SIEE y las reglas de promoción y promoción anticipada.",
+   "leccion": {
+    "idea": "El Sistema Institucional de Evaluación de los Estudiantes (SIEE) lo construye cada establecimiento siguiendo un procedimiento mínimo; para modificarlo se repite el mismo procedimiento.",
+    "claves": [
+     "Procedimiento: definir, socializar, aprobar en sesión del consejo directivo con acta, incorporar al PEI, divulgar, divulgar los mecanismos de reclamación e informar a los nuevos estudiantes, padres y docentes.",
+     "Promoción anticipada: durante el primer periodo, el consejo académico, con consentimiento de los padres, la recomienda al consejo directivo.",
+     "Si un estudiante no es promovido, el establecimiento debe garantizarle el cupo."
+    ],
+    "trampa": "Creer que el consejo académico basta para aprobar el SIEE o que la promoción anticipada se puede pedir en cualquier periodo.",
+    "fuente": "Decreto 1075 de 2015, arts. 2.3.3.3.3.6, 2.3.3.3.3.7 y 2.3.3.3.3.8 (Decreto 1290 de 2009)."
+   }
+  },
+  "GAC-SEGUIM": {
+   "componente": "GAC",
+   "afirmacion": "GAC-A1",
+   "nombre": "Consejo académico y seguimiento académico",
+   "evidencia": "Organiza el consejo académico según la norma y lidera estrategias de apoyo a partir del análisis de los resultados de los estudiantes.",
+   "leccion": {
+    "idea": "El consejo académico lo integran el rector, que lo preside, los directivos docentes y un docente por cada área del plan de estudios. Organiza el plan de estudios y supervisa el proceso general de evaluación.",
+    "claves": [
+     "Un docente por cada área definida en el plan de estudios (no por grado ni por jornada).",
+     "El establecimiento debe realizar reuniones de docentes y directivos para analizar, diseñar e implementar estrategias permanentes de evaluación y apoyo.",
+     "El coordinador promueve el seguimiento al desempeño académico y disciplinario con acciones colaborativas de docentes y familias (Resolución 3842, función 11)."
+    ],
+    "trampa": "Responder a malos resultados con medidas de calificación (subir notas, exámenes únicos) en lugar de análisis y estrategias de apoyo.",
+    "fuente": "Decreto 1075 de 2015, arts. 2.3.3.1.5.7 y 2.3.3.3.3.11; Resolución 3842 de 2022, 1.3.1."
+   }
+  },
+  "GAF-FONDOS": {
+   "componente": "GAF",
+   "afirmacion": "GAF-A1",
+   "nombre": "Fondo de Servicios Educativos",
+   "evidencia": "Reconoce quién proyecta, aprueba y ejecuta el presupuesto del Fondo y las reglas para contratos y aportes de particulares.",
+   "leccion": {
+    "idea": "El Fondo de Servicios Educativos maneja los recursos para gastos distintos a los de personal. El rector elabora el proyecto de presupuesto y celebra los contratos; el consejo directivo aprueba el presupuesto y reglamenta la contratación menor.",
+    "claves": [
+     "El consejo directivo aprueba mediante acuerdo el presupuesto antes de cada vigencia fiscal.",
+     "Contratos de menos de 20 salarios mínimos: trámites y garantías que reglamente el consejo directivo; por encima, reglas de la contratación estatal.",
+     "Bienes o servicios de particulares para la comunidad: contrato autorizado por el consejo directivo y celebrado por el rector.",
+     "Siempre habrá información pública sobre las cuentas del Fondo."
+    ],
+    "trampa": "Pensar que el coordinador, la asociación de padres o el consejo académico pueden decidir gastos del Fondo.",
+    "fuente": "Ley 715 de 2001, arts. 11 a 14; Decreto 1075 de 2015, arts. 2.3.1.6.3.5 y 2.3.1.6.3.6 (Decreto 4791 de 2008)."
+   }
+  },
+  "GAF-TALENTO": {
+   "componente": "GAF",
+   "afirmacion": "GAF-A1",
+   "nombre": "Talento humano: asignación y evaluación de desempeño",
+   "evidencia": "Aplica las reglas de evaluación anual de desempeño, publicación de horarios y carga docente y manejo de novedades del personal.",
+   "leccion": {
+    "idea": "La evaluación de desempeño se hace al terminar cada año escolar a quienes sirvieron más de tres meses; el responsable es el rector. El coordinador aporta evidencias y acompañamiento.",
+    "claves": [
+     "Instrumentos posibles: observación de clases, evaluación de superiores y colegas, encuestas a padres y estudiantes, análisis de logros de los estudiantes, evaluación del consejo directivo, autoevaluación.",
+     "El rector publica una vez al semestre los horarios y la carga docente y la comunica por escrito a los padres.",
+     "El rector reporta las novedades e irregularidades del personal a la secretaría de educación."
+    ],
+    "trampa": "Evaluar a quien no cumple el tiempo mínimo o asumir que el coordinador firma como evaluador responsable.",
+    "fuente": "Decreto 1278 de 2002, arts. 32 y 33; Ley 715 de 2001, art. 10."
+   }
+  },
+  "GCO-CONV": {
+   "componente": "GCO",
+   "afirmacion": "GCO-A1",
+   "nombre": "Comité escolar de convivencia y protocolos",
+   "evidencia": "Actúa como integrante del comité escolar de convivencia y aplica los protocolos de las situaciones tipo II y III con enfoque restaurativo.",
+   "leccion": {
+    "idea": "El comité escolar de convivencia lo preside el rector; el coordinador es integrante cuando existe el cargo. Los protocolos fijan qué se hace primero y quién reporta.",
+    "claves": [
+     "Tipo II: atención inmediata en salud si hay daño, medidas de protección, informar a los padres, espacios para exponer lo ocurrido, acciones restaurativas; el presidente informa al comité y se deja acta.",
+     "Tipo III: el presidente del comité pone de inmediato la situación en conocimiento de la Policía Nacional; aun así, el comité adopta medidas de protección.",
+     "Las sanciones deben cumplir un rol pedagógico: quien causó el daño lo identifica y lo repara (justicia restaurativa, Guía 49)."
+    ],
+    "trampa": "Creer que si el caso pasó a la Policía el colegio ya no actúa, o que el coordinador preside el comité.",
+    "fuente": "Ley 1620 de 2013, arts. 12 y 13; Decreto 1965 de 2013, arts. 43 y 44; Guía 49 MEN."
+   }
+  },
+  "GCO-INCL": {
+   "componente": "GCO",
+   "afirmacion": "GCO-A1",
+   "nombre": "Inclusión: PIAR y plan de mejoramiento",
+   "evidencia": "Garantiza las condiciones institucionales para elaborar, cumplir y hacer seguimiento a los PIAR y los articula con el PMI.",
+   "leccion": {
+    "idea": "El PIAR lo diseñan los docentes de aula con el docente de apoyo, la familia y el estudiante; los directivos participan según la organización escolar. El establecimiento debe dar las condiciones y articular los PIAR con el Plan de Mejoramiento Institucional.",
+    "claves": [
+     "Se elabora durante el primer trimestre del año escolar y se actualiza cada año.",
+     "Si el estudiante llega tarde, hay un término no mayor a 30 días para elaborarlo.",
+     "Los requerimientos de los PIAR deben incluirse en el PMI.",
+     "El enfoque inclusivo y el diseño universal se incorporan en el PEI, la autoevaluación y el PMI."
+    ],
+    "trampa": "Exigir un diagnóstico médico antes de actuar o asumir que el directivo elabora el PIAR solo.",
+    "fuente": "Decreto 1421 de 2017, arts. 2.3.3.5.2.3.1 (literal c) y 2.3.3.5.2.3.5."
+   }
+  },
+  "PED-EVAL": {
+   "componente": "PED",
+   "nombre": "Evaluación formativa",
+   "leccion": {
+    "idea": "La evaluación sirve para reorientar el proceso y apoyar al estudiante, no solo para calificar el producto final.",
+    "claves": [
+     "Criterios conocidos desde el inicio (rúbricas).",
+     "Retroalimentación oportuna durante el periodo.",
+     "Valora el proceso: diseño, pruebas, mejoras y argumentación.",
+     "En inclusión: mismos objetivos y ajustes en medios e instrumentos según el PIAR."
+    ],
+    "trampa": "Elegir la opción que mide solo el resultado final o un examen escrito desligado de la actividad.",
+    "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.3 (Decreto 1290, art. 3); Res. 3842 de 2022, función general 12."
+   },
+   "afirmacion": "PED-A1",
+   "evidencia": "Evaluación formativa"
+  },
+  "PED-EVAL-NORM": {
+   "componente": "PED",
+   "nombre": "Sistema Institucional de Evaluación (SIEE)",
+   "leccion": {
+    "idea": "El SIEE de cada institución define criterios, escala, actividades de apoyo e instancias de reclamación. El docente actúa siempre dentro de él.",
+    "claves": [
+     "El SIEE debe incluir acciones de seguimiento y estrategias de apoyo durante el año (art. 2.3.3.3.3.4).",
+     "Debe incluir instancias, procedimientos y mecanismos de reclamación (num. 10).",
+     "El consejo directivo es instancia para decidir reclamaciones (art. 2.3.3.3.3.11, num. 7), no el primer paso.",
+     "El estudiante tiene derecho a conocer los criterios desde el inicio del año (art. 2.3.3.3.3.12)."
+    ],
+    "trampa": "Cambiar la nota para evitar el conflicto o saltarse las instancias y acudir directo al rector.",
+    "fuente": "Decreto 1075 de 2015, arts. 2.3.3.3.3.3 a 2.3.3.3.3.12 (Decreto 1290 de 2009)."
+   },
+   "afirmacion": "PED-A1",
+   "evidencia": "Sistema Institucional de Evaluación (SIEE)"
+  },
+  "PED-INCL": {
+   "componente": "PED",
+   "nombre": "Educación inclusiva: PIAR y DUA",
+   "leccion": {
+    "idea": "El Decreto 1421 de 2017 pide primero un diseño para todos (DUA) y, como complemento, ajustes individuales (PIAR).",
+    "claves": [
+     "El PIAR lo lideran los docentes de aula con el docente de apoyo, la familia y el estudiante.",
+     "Se elabora en el primer trimestre y se actualiza cada año.",
+     "Los ajustes razonables no dependen de un diagnóstico médico, sino de las barreras.",
+     "DUA: varias formas de presentar la información, de participar y de demostrar lo aprendido para todo el grupo."
+    ],
+    "trampa": "Delegar todo en el docente de apoyo o hacer una actividad separada solo para el estudiante.",
+    "fuente": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.5 y definiciones (Decreto 1421 de 2017)."
+   },
+   "afirmacion": "PED-A3",
+   "evidencia": "Educación inclusiva: PIAR y DUA"
+  },
+  "PED-ENSENAR": {
+   "componente": "PED",
+   "nombre": "Enseñar: ABP y mediación",
+   "leccion": {
+    "idea": "En los casos de enseñanza, la respuesta correcta suele partir del contexto y de las necesidades reales de los estudiantes, con el docente como mediador.",
+    "claves": [
+     "Aprendizaje basado en proyectos: el problema surge del contexto del estudiante.",
+     "Andamiaje: apoyos graduales que se retiran cuando el estudiante gana autonomía.",
+     "Equipos heterogéneos con roles definidos (aprendizaje cooperativo)."
+    ],
+    "trampa": "Elegir la opción de 'primero toda la teoría y al final el proyecto'.",
+    "fuente": "Res. 3842 de 2022, funciones generales 6, 7 y 10; Orientaciones Curriculares T&I, 4.3.2 (STEM+)."
+   },
+   "afirmacion": "PED-A2",
+   "evidencia": "Enseñar: ABP y mediación"
+  },
+  "PED-CURR": {
+   "componente": "PED",
+   "nombre": "Currículo, plan de área y transversalidad",
+   "leccion": {
+    "idea": "El plan de área se construye desde los referentes del MEN y se articula con el PEI y el contexto. Los proyectos transversales no exigen asignatura propia.",
+    "claves": [
+     "Ley 115, art. 73: el PEI responde a las necesidades de los estudiantes y la comunidad.",
+     "Ley 115, arts. 78 y 79: plan de estudios según lineamientos del MEN y el PEI.",
+     "Ley 115, art. 14, parágrafo: los temas transversales no exigen asignatura específica.",
+     "Guía 30: los computadores no son sinónimo de educación en tecnología."
+    ],
+    "trampa": "Reducir el área a ofimática o reemplazar el plan por un texto escolar.",
+    "fuente": "Ley 115 de 1994, arts. 14, 73, 77, 78 y 79; Orientaciones Curriculares T&I."
+   },
+   "afirmacion": "PED-A2",
+   "evidencia": "Currículo, plan de área y transversalidad"
+  },
+  "NOR-CONV-TIPO": {
+   "componente": "NOR",
+   "nombre": "Clasificación de situaciones de convivencia",
+   "leccion": {
+    "idea": "El Decreto 1965 de 2013, art. 40, clasifica las situaciones en tres tipos.",
+    "claves": [
+     "Tipo I: conflictos manejados inadecuadamente y situaciones esporádicas, sin daño al cuerpo ni a la salud.",
+     "Tipo II: agresión escolar, acoso o ciberacoso que no son delito y que son repetidos o sistemáticos, o causan daño sin incapacidad.",
+     "Tipo III: presuntos delitos, en especial contra la libertad, integridad y formación sexual."
+    ],
+    "trampa": "Clasificar por el lugar (virtual o presencial) en lugar de por la gravedad y la repetición.",
+    "fuente": "Decreto 1965 de 2013, arts. 39 y 40."
+   },
+   "afirmacion": "NOR-A1",
+   "evidencia": "Clasificación de situaciones de convivencia"
+  },
+  "NOR-CONV-RUTA": {
+   "componente": "NOR",
+   "nombre": "Protocolos de la Ruta de Atención Integral",
+   "leccion": {
+    "idea": "El docente no resuelve solo las situaciones II y III: activa el protocolo del manual de convivencia.",
+    "claves": [
+     "Tipo I: reunir a las partes y mediar pedagógicamente (art. 42).",
+     "Tipo II: atención en salud si hay daño, protección, informar a los padres, acciones restaurativas y comité escolar (art. 43).",
+     "Tipo III: el presidente del comité informa de inmediato a la Policía; se protege a la víctima (art. 44).",
+     "Nunca se guarda el secreto ni se investiga por cuenta propia."
+    ],
+    "trampa": "Mediar entre víctima y agresor en casos de acoso, o 'reunir pruebas' antes de informar.",
+    "fuente": "Decreto 1965 de 2013, arts. 42, 43 y 44; Ley 1620 de 2013."
+   },
+   "afirmacion": "NOR-A1",
+   "evidencia": "Protocolos de la Ruta de Atención Integral"
+  },
+  "NOR-DERECHOS": {
+   "componente": "NOR",
+   "nombre": "Derechos de niños, niñas y adolescentes",
+   "leccion": {
+    "idea": "Toda actuación protege el interés superior del menor, su intimidad y su derecho a no ser revictimizado.",
+    "claves": [
+     "No revictimización: evitar que repita su relato a muchas personas.",
+     "Confidencialidad: la información solo la conocen quienes intervienen en la atención.",
+     "Prevalencia de los derechos y corresponsabilidad (Ley 1098, arts. 7 a 13)."
+    ],
+    "trampa": "Compartir la información 'para que todos estén atentos' o exigir declaraciones escritas al estudiante.",
+    "fuente": "Decreto 1965 de 2013, arts. 35 y 41; Ley 1098 de 2006."
+   },
+   "afirmacion": "NOR-A1",
+   "evidencia": "Derechos de niños, niñas y adolescentes"
+  },
+  "NOR-ORG": {
+   "componente": "NOR",
+   "nombre": "Gobierno escolar",
+   "leccion": {
+    "idea": "Cada órgano del gobierno escolar tiene funciones precisas en la Ley 115.",
+    "claves": [
+     "Consejo académico (art. 145): estudio, modificación y ajuste del currículo y organización del plan de estudios.",
+     "Consejo directivo (art. 144): decisiones de funcionamiento, reglamento, reclamaciones y participación en el PEI.",
+     "Rector: preside ambos consejos."
+    ],
+    "trampa": "Llevar los asuntos curriculares al consejo directivo o a la asamblea de padres.",
+    "fuente": "Ley 115 de 1994, arts. 142, 144 y 145."
+   },
+   "afirmacion": "NOR-A2",
+   "evidencia": "Gobierno escolar"
+  },
+  "NOR-ESTATUTO": {
+   "componente": "NOR",
+   "nombre": "Estatuto docente (Decreto 1278)",
+   "leccion": {
+    "idea": "El periodo de prueba se evalúa al terminar el año académico, si el docente sirvió al menos cuatro meses ese año.",
+    "claves": [
+     "Menos de 4 meses: espera al año académico siguiente.",
+     "60 % o más: satisfactorio; se inscribe en el escalafón.",
+     "Menos de 60 %: el docente es retirado del servicio."
+    ],
+    "trampa": "Creer que ganar el concurso da inscripción automática en el escalafón.",
+    "fuente": "Decreto Ley 1278 de 2002, art. 31; Anexo Técnico 2026, numeral 8."
+   },
+   "afirmacion": "NOR-A2",
+   "evidencia": "Estatuto docente (Decreto 1278)"
+  },
+  "LC-LIT": {
+   "componente": "LC",
+   "nombre": "Identificar contenidos locales",
+   "leccion": {
+    "idea": "Se pregunta por lo que el texto dice: ubica la frase exacta y desconfía de las opciones que agregan o cambian información.",
+    "claves": [
+     "Vuelve al texto antes de responder.",
+     "Una opción puede ser verdadera en el texto y aun así no responder a lo que se pregunta.",
+     "Cuidado con los cuantificadores: siempre, nunca, todos."
+    ],
+    "trampa": "Elegir una idea que aparece en el texto pero que responde a otra pregunta.",
+    "fuente": "ICFES, Marco de referencia de Lectura Crítica (citado en la Guía CNSC 2022)."
+   },
+   "afirmacion": "LC-A",
+   "evidencia": "Identificar contenidos locales"
+  },
+  "LC-INF": {
+   "componente": "LC",
+   "nombre": "Comprender cómo se articulan las partes",
+   "leccion": {
+    "idea": "Se pregunta por la función de una parte del texto (un ejemplo, una expresión, un conector) dentro del argumento.",
+    "claves": [
+     "Los ejemplos suelen apoyar una tesis mediante analogía.",
+     "'Necesaria pero no suficiente' = indispensable, pero no basta por sí sola.",
+     "Descarta las opciones que exageran (siempre, demostrar)."
+    ],
+    "trampa": "Elegir una lectura exagerada del ejemplo.",
+    "fuente": "ICFES, Marco de referencia de Lectura Crítica."
+   },
+   "afirmacion": "LC-A",
+   "evidencia": "Comprender cómo se articulan las partes"
+  },
+  "LC-CRIT": {
+   "componente": "LC",
+   "nombre": "Reflexionar y evaluar el contenido",
+   "leccion": {
+    "idea": "Se pregunta por lo que el autor supone, concluye o lo que debilitaría su argumento.",
+    "claves": [
+     "Inferir: lo que se sigue del texto sin estar escrito literalmente.",
+     "Para debilitar un argumento, se ataca la premisa de la que depende la conclusión.",
+     "Las opciones que contradicen la tesis del autor no son inferencias válidas."
+    ],
+    "trampa": "Tomar una frase de forma literal o elegir algo coherente que no afecta el argumento.",
+    "fuente": "ICFES, Marco de referencia de Lectura Crítica."
+   },
+   "afirmacion": "LC-A",
+   "evidencia": "Reflexionar y evaluar el contenido"
+  },
+  "RC-INT": {
+   "componente": "RC",
+   "nombre": "Interpretación y representación",
+   "leccion": {
+    "idea": "Para comparar grupos de distinto tamaño se usan proporciones, no cantidades absolutas.",
+    "claves": [
+     "Porcentaje = parte ÷ total × 100.",
+     "Los grupos más grandes pueden tener más aprobados y menor porcentaje.",
+     "Lee con cuidado qué se pide: cantidad, porcentaje o diferencia."
+    ],
+    "trampa": "Comparar cantidades absolutas entre grupos de tamaño distinto.",
+    "fuente": "ICFES, Módulo de Razonamiento Cuantitativo (citado en la Guía CNSC 2022)."
+   },
+   "afirmacion": "RC-A",
+   "evidencia": "Interpretación y representación"
+  },
+  "RC-FORM": {
+   "componente": "RC",
+   "nombre": "Formulación y ejecución",
+   "leccion": {
+    "idea": "Plantea el procedimiento antes de calcular y verifica que la respuesta tenga sentido en el contexto.",
+    "claves": [
+     "El porcentaje global se calcula con los totales, no promediando porcentajes.",
+     "Primero calcula la cantidad (20 % de 30 = 6) y después el costo.",
+     "Revisa unidades y redondeos (no hay medio computador)."
+    ],
+    "trampa": "Promediar porcentajes de grupos de distinto tamaño.",
+    "fuente": "ICFES, Módulo de Razonamiento Cuantitativo."
+   },
+   "afirmacion": "RC-A",
+   "evidencia": "Formulación y ejecución"
+  },
+  "RC-ARG": {
+   "componente": "RC",
+   "nombre": "Argumentación",
+   "leccion": {
+    "idea": "Se evalúa si una afirmación basada en datos es válida y por qué.",
+    "claves": [
+     "Verifica la afirmación con los datos, no con la intuición.",
+     "Una opción puede tener un cálculo correcto que no tiene que ver con lo afirmado.",
+     "Valida tanto la conclusión (sí/no) como la razón."
+    ],
+    "trampa": "Elegir una razón verdadera pero irrelevante para la afirmación.",
+    "fuente": "ICFES, Módulo de Razonamiento Cuantitativo."
+   },
+   "afirmacion": "RC-A",
+   "evidencia": "Argumentación"
+  },
+  "CB-ETICA": {
+   "componente": "CB",
+   "nombre": "Ética profesional",
+   "leccion": {
+    "idea": "Lo ético está entre los extremos: usar referentes reconociendo la autoría y adaptándolos al contexto propio.",
+    "claves": [
+     "Citar siempre las fuentes.",
+     "Adaptar al PEI y a la población de la institución.",
+     "Ni copiar ni rechazar por completo los referentes externos."
+    ],
+    "trampa": "Copiar 'porque es público' o rechazar cualquier referente 'para ser original'.",
+    "fuente": "Anexo Técnico 2026, numeral 2.1 (competencias blandas: ética)."
+   },
+   "afirmacion": "CB-A",
+   "evidencia": "Ética profesional"
+  },
+  "CB-EQUIPO": {
+   "componente": "CB",
+   "nombre": "Trabajo en equipo",
+   "leccion": {
+    "idea": "Quien orienta un equipo distribuye responsabilidades según fortalezas, con acuerdos y seguimiento.",
+    "claves": [
+     "Roles claros + fechas + revisión conjunta.",
+     "No asumir todo el trabajo solo ni escalar la queja de inmediato.",
+     "Reconocer los aportes de cada integrante."
+    ],
+    "trampa": "Hacer todo uno mismo 'para cumplir' o acusar primero ante el superior.",
+    "fuente": "Anexo Técnico 2026, numeral 2.1; Res. 3842 de 2022 (trabajo en equipo)."
+   },
+   "afirmacion": "CB-A",
+   "evidencia": "Trabajo en equipo"
+  },
+  "CB-CIUD": {
+   "componente": "CB",
+   "nombre": "Ciudadanía y participación",
+   "leccion": {
+    "idea": "Las decisiones que afectan a la comunidad educativa se construyen con su participación antes de aprobarse.",
+    "claves": [
+     "Ley 115, art. 6: la comunidad educativa participa en el diseño, ejecución y evaluación del PEI.",
+     "Consultar antes de aprobar, no solo divulgar después.",
+     "Las instancias del gobierno escolar formalizan lo construido."
+    ],
+    "trampa": "Confundir divulgar con participar.",
+    "fuente": "Ley 115 de 1994, arts. 6 y 142; Anexo Técnico 2026, numeral 2.1."
+   },
+   "afirmacion": "CB-A",
+   "evidencia": "Ciudadanía y participación"
+  },
+  "PSI-INIC": {
+   "componente": "PSI",
+   "nombre": "Iniciativa",
+   "leccion": {
+    "idea": "Anticiparse a los problemas y proponer alternativas con los recursos disponibles, sin esperar a que otros resuelvan.",
+    "claves": [
+     "Actuar con autonomía y recursividad.",
+     "Proponer soluciones por los canales institucionales.",
+     "Descartar las opciones pasivas (esperar) y las que trasladan el problema a otros."
+    ],
+    "trampa": "Esperar a que llegue el presupuesto o pasar el problema a las familias.",
+    "fuente": "Res. 3842 de 2022 y Guía 31 MEN (definición de Iniciativa citada en la Guía CNSC 2022)."
+   },
+   "afirmacion": "PSI-A",
+   "evidencia": "Iniciativa"
+  },
+  "PSI-COMRI": {
+   "componente": "PSI",
+   "nombre": "Comunicación y relaciones interpersonales",
+   "leccion": {
+    "idea": "Escuchar con empatía, explicar con claridad y respeto, y mantener la confianza.",
+    "claves": [
+     "Escucha activa antes de responder.",
+     "Explicar la situación y las alternativas.",
+     "Evitar respuestas evasivas o que aplazan el diálogo."
+    ],
+    "trampa": "Remitir a otra instancia sin escuchar ('eso no es mi responsabilidad').",
+    "fuente": "Guía 31 MEN (definición citada en la Guía CNSC 2022, ejemplo 5)."
+   },
+   "afirmacion": "PSI-A",
+   "evidencia": "Comunicación y relaciones interpersonales"
+  },
+  "PSI-COMP": {
+   "componente": "PSI",
+   "nombre": "Compromiso social e institucional",
+   "leccion": {
+    "idea": "Asumir responsabilidades con ética y profesionalismo, poniendo los intereses institucionales por delante de los personales.",
+    "claves": [
+     "Proponer soluciones que beneficien a la comunidad.",
+     "Articular las acciones con los planes de la institución.",
+     "Descartar la queja sin propuesta y la salida individual."
+    ],
+    "trampa": "Quejarse formalmente o pedir el traslado.",
+    "fuente": "Guía 31 MEN (definición citada en la Guía CNSC 2022, ejemplo 2)."
+   },
+   "afirmacion": "PSI-A",
+   "evidencia": "Compromiso social e institucional"
+  },
+  "PSI-NEGM": {
+   "componente": "PSI",
+   "nombre": "Negociación y mediación",
+   "leccion": {
+    "idea": "Ante un conflicto, se facilita que las partes expongan sus intereses y construyan un acuerdo.",
+    "claves": [
+     "Escuchar a ambas partes.",
+     "Buscar soluciones gana-gana (compartir roles).",
+     "No imponer ni dejar que el conflicto se resuelva solo."
+    ],
+    "trampa": "Imponer una decisión por mérito académico o por votación inmediata.",
+    "fuente": "Res. 3842 de 2022 (competencias comportamentales)."
+   },
+   "afirmacion": "PSI-A",
+   "evidencia": "Negociación y mediación"
+  },
+  "PSI-LOGRO": {
+   "componente": "PSI",
+   "nombre": "Orientación al logro",
+   "leccion": {
+    "idea": "Ante resultados bajos, se analizan las causas, se ajustan las estrategias y se fijan metas con seguimiento.",
+    "claves": [
+     "Analizar → ajustar → definir metas → hacer seguimiento.",
+     "Asumir la responsabilidad de la propia práctica.",
+     "Descartar las opciones que culpan al grupo."
+    ],
+    "trampa": "Atribuir los resultados al bajo compromiso de los estudiantes.",
+    "fuente": "Res. 3842 de 2022 (competencias comportamentales)."
+   },
+   "afirmacion": "PSI-A",
+   "evidencia": "Orientación al logro"
+  },
+  "PSI-LID": {
+   "componente": "PSI",
+   "nombre": "Liderazgo",
+   "leccion": {
+    "idea": "El liderazgo pedagógico motiva una meta común, acompaña y reconoce; no impone ni se desentiende.",
+    "claves": [
+     "Construir la meta con el grupo.",
+     "Acompañar la organización.",
+     "Reconocer los aportes."
+    ],
+    "trampa": "Hacerlo todo uno mismo o delegarlo todo sin acompañar.",
+    "fuente": "Res. 3842 de 2022 (competencias comportamentales)."
+   },
+   "afirmacion": "PSI-A",
+   "evidencia": "Liderazgo"
+  },
+  "NOR-SERV": {
+   "componente": "NOR",
+   "nombre": "Servicio educativo (Ley 115)",
+   "afirmacion": "NOR-A2",
+   "evidencia": "Reconoce el objeto, la organización, los prestadores y los responsables de la calidad y el cubrimiento del servicio educativo según la Ley 115.",
+   "leccion": {
+    "idea": "La Ley 115 de 1994 define la educación como un proceso de formación permanente, personal, cultural y social, y regula el servicio público educativo: quién lo presta, qué comprende y quién responde por su calidad y su cubrimiento.",
+    "claves": [
+     "Art. 1: regula la educación formal (preescolar, básica y media), no formal e informal, para niños, jóvenes, adultos, campesinos, grupos étnicos y personas con discapacidad o capacidades excepcionales.",
+     "Art. 2: el servicio educativo es un conjunto articulado de normas, programas, establecimientos, instituciones sociales y recursos.",
+     "Art. 3: lo prestan instituciones del Estado, particulares e instituciones comunitarias, solidarias, cooperativas o sin ánimo de lucro.",
+     "Art. 4: la calidad la velan el Estado, la sociedad y la familia; el cubrimiento lo garantizan la Nación y las entidades territoriales."
+    ],
+    "trampa": "Confundir quién vela por la calidad (Estado, sociedad y familia) con quién garantiza el cubrimiento (Nación y entidades territoriales), o creer que la Ley 115 solo regula la educación formal.",
+    "fuente": "Ley 115 de 1994, arts. 1 a 4."
+   }
+  },
+  "NOR-SIST": {
+   "componente": "NOR",
+   "nombre": "Instancias del Sistema Nacional de Convivencia",
+   "afirmacion": "NOR-A1",
+   "evidencia": "Reconoce la creación, los objetivos y el funcionamiento de las instancias del Sistema Nacional de Convivencia Escolar (Ley 1620 de 2013 y Decreto 1965 de 2013).",
+   "leccion": {
+    "idea": "La Ley 1620 de 2013 crea el Sistema Nacional de Convivencia Escolar y el Decreto 1965 de 2013 reglamenta cómo funcionan sus instancias. En el nivel nacional, el Comité Nacional de Convivencia Escolar tiene reglas propias de designación, sesiones, citación y quórum.",
+    "claves": [
+     "Representantes de los rectores: los de los establecimientos oficial y no oficial con los más altos puntajes en SABER 11; periodo de un año, del 1 de enero al 31 de diciembre (Decreto 1965, art. 6).",
+     "Sesiona ordinariamente al menos una vez cada seis meses y no puede sesionar sin la presencia de su Presidente (art. 7).",
+     "Los invitados tienen voz pero no voto (art. 8).",
+     "Quórum: mitad más uno de sus miembros; decisiones por mayoría de los asistentes y de obligatorio cumplimiento para todos sus integrantes (art. 9)."
+    ],
+    "trampa": "Creer que basta el quórum para sesionar aunque falte el Presidente, o que un invitado experto puede votar.",
+    "fuente": "Ley 1620 de 2013, arts. 3 y 4; Decreto 1965 de 2013, arts. 6 a 9."
+   }
+  }
+ }
+}

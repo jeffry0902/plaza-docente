@@ -1,0 +1,1224 @@
+{
+ "id": "coord-2026-11-16",
+ "fecha": "2026-11-16",
+ "cargo": "coordinador",
+ "casos": [
+  {
+   "id": "CK01",
+   "titulo": "La autoevaluación de junio",
+   "texto": "Usted es coordinador de una institución educativa oficial de Yopal con dos jornadas. En junio, el equipo de gestión terminó la autoevaluación institucional con el instrumento del Anexo 1 de la Guía 34. Los resultados muestran «Seguimiento académico» y «Prácticas pedagógicas» valorados con 2, «Gobierno escolar» con 3 y «Clima escolar» con 4. El rector le pide a usted que oriente con los docentes el paso siguiente de la ruta."
+  },
+  {
+   "id": "CK02",
+   "titulo": "La matriz de hallazgos",
+   "texto": "Como coordinador, usted consolida en una matriz los hallazgos que dejaron las reuniones de área para presentarlos al equipo de gestión. Entre ellos están: (1) la distribución de la asignación académica se hizo sin considerar los perfiles de los docentes nuevos; (2) la escuela de padres solo se reunió una vez en el año y el servicio social estudiantil no tiene seguimiento; (3) la comisión de evaluación y promoción y el comité de convivencia no dejan actas de sus decisiones. El rector le pide ubicar cada hallazgo en el área y el proceso que propone la Guía 34."
+  },
+  {
+   "id": "CK03",
+   "titulo": "Primer mes en el cargo",
+   "texto": "Usted acaba de posesionarse como coordinador de la jornada de la tarde. En la primera semana recibe tres situaciones: un docente de matemáticas no ha entregado las planeaciones de dos periodos ni ha registrado notas en la plataforma; tres docentes que llegaron por traslado no conocen el modelo pedagógico ni el SIEE; y el área de ciencias le pide a usted que reorganice la asignación académica porque un docente quedó con más horas que los demás."
+  },
+  {
+   "id": "CK04",
+   "titulo": "Ajustes al SIEE",
+   "texto": "En la reunión del consejo académico de abril, varios docentes proponen cambiar el porcentaje de inasistencia que impide la promoción y la escala de desempeños del SIEE. Una madre de familia, además, le escribe a usted como coordinador para pedir la promoción anticipada de su hija, que cursa séptimo y tiene desempeños superiores en todas las áreas; la solicitud llega en el segundo periodo."
+  },
+  {
+   "id": "CK05",
+   "titulo": "Resultados del primer semestre",
+   "texto": "Al cerrar el primer semestre, el informe de seguimiento académico muestra que el 38 % de los estudiantes de séptimo tiene desempeño bajo en matemáticas, el doble que en los demás grados. Para reorganizar el consejo académico, el rector le pide a usted proponer su conformación: el plan de estudios tiene nueve áreas, y los docentes de matemáticas de las dos jornadas piden que cada jornada tenga su propio representante."
+  },
+  {
+   "id": "CK06",
+   "titulo": "Recursos para el laboratorio",
+   "texto": "En octubre, los docentes de ciencias le piden a usted como coordinador comprar reactivos y materiales de laboratorio para el próximo año, por un valor estimado de 8 salarios mínimos. Al mismo tiempo, una empresa de la zona ofrece instalar en la sede una sala de cómputo para uso de los estudiantes y de la comunidad, sin transferir la propiedad de los equipos."
+  },
+  {
+   "id": "CK07",
+   "titulo": "Cierre del año escolar",
+   "texto": "Se acerca el cierre del año escolar. El rector le pide a usted como coordinador apoyar la evaluación anual de desempeño de los docentes de la jornada de la tarde. En la lista hay una docente que llegó por traslado el 15 de octubre y un docente que estuvo toda la vigencia. También le pide preparar la información de horarios y carga docente del próximo semestre."
+  },
+  {
+   "id": "CK08",
+   "titulo": "Dos situaciones en una semana",
+   "texto": "Usted es coordinador e integrante del comité escolar de convivencia. El lunes, un estudiante de noveno llega a coordinación con un golpe en la cara: desde hace un mes, tres compañeros lo empujan y se burlan de él en los descansos, y hoy lo agredieron. El jueves, un docente le informa que un estudiante de once está amenazando a otros para que le entreguen dinero y que exhibió un arma blanca en el baño. En la reunión siguiente, un docente propone que, como el rector viaja con frecuencia, usted presida el comité de manera permanente."
+  },
+  {
+   "id": "CK09",
+   "titulo": "Estudiantes con discapacidad en la sede",
+   "texto": "En febrero, los docentes de quinto le informan a usted como coordinador que hay dos estudiantes con discapacidad sin PIAR: uno matriculado desde enero y otro que llegó por traslado hace una semana. Los docentes le piden que usted elabore los PIAR, porque no tienen tiempo, y uno de ellos sugiere esperar el diagnóstico médico. Al mismo tiempo, el equipo de gestión revisa el plan de mejoramiento institucional (PMI) del próximo año."
+  },
+  {
+   "id": "CK10",
+   "titulo": "Continuidad del aprendizaje (ejemplo oficial CNSC 2022)",
+   "texto": "Adaptado del ejemplo 2 de la Guía de orientación al aspirante CNSC 2022 (prueba psicotécnica, directivo, contexto no rural). La pandemia provocó cambios en todas las acciones humanas. En el cargo directivo docente en el que usted se desempeña, el impacto se reflejó en la gestión pedagógica y administrativa: ha tenido que adaptar estrategias y mecanismos para atender a toda la comunidad, con el fin de dar continuidad al proceso de aprendizaje."
+  },
+  {
+   "id": "CK11",
+   "titulo": "La donación con acto protocolario (ejemplo oficial CNSC 2022)",
+   "texto": "Adaptado del ejemplo 5 de la Guía de orientación al aspirante CNSC 2022 (prueba psicotécnica, directivo). En el cargo directivo docente en el que usted se desempeña tiene la responsabilidad de mediar, respetar y concertar intereses. Al iniciar el año escolar, dos padres de familia que son líderes políticos de la comunidad le ofrecen una donación de material didáctico y ayudas audiovisuales como aporte de sus partidos, pero piden entregarla en un acto protocolario ante la comunidad educativa."
+  }
+ ],
+ "fichas": [],
+ "items": [
+  {
+   "id": "CO001",
+   "tipo": "caso",
+   "caso": "CK01",
+   "familia": "GDI-MEJORA",
+   "dificultad": 2,
+   "enunciado": "Según la ruta de mejoramiento de la Guía 34, con los resultados ya consolidados el paso que usted orienta con el equipo es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "elaborar el plan de mejoramiento con objetivos, metas, responsables e indicadores, con un horizonte de tres años.",
+     "j": "Es correcta. La Guía 34 ubica el plan de mejoramiento como la segunda etapa, justo después de la autoevaluación, y recomienda que tenga un horizonte de tres años con objetivos, actividades, tiempos y responsables para cada área de gestión."
+    },
+    {
+     "l": "B",
+     "t": "hacer el seguimiento periódico a las metas del año en curso para identificar retrasos y ajustar las acciones previstas.",
+     "j": "Es incorrecta. El seguimiento es la tercera etapa y recae sobre un plan que ya existe. Sería la respuesta si la institución ya tuviera un plan formulado y lo que se pidiera fuera revisar su ejecución."
+    },
+    {
+     "l": "C",
+     "t": "repetir la autoevaluación con estudiantes y padres para confirmar las valoraciones antes de proponer cualquier cambio.",
+     "j": "Es incorrecta. Ampliar la participación es valioso, pero la autoevaluación ya terminó y produjo el balance de fortalezas y oportunidades; repetirla aplaza la etapa que la Guía 34 indica como siguiente."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La palabra clave es «paso siguiente». La Guía 34 organiza el mejoramiento en tres etapas que se repiten: primero la autoevaluación institucional, que produce el balance de fortalezas y oportunidades; luego la elaboración del plan de mejoramiento, que la guía recomienda con un horizonte de tres años, y por último el seguimiento periódico al plan. Como la autoevaluación ya está consolidada, corresponde formular el plan. La CNSC suele poner como distractores las etapas vecinas (repetir la autoevaluación o saltar al seguimiento): ubique siempre en qué etapa está el caso y cuál viene después.",
+   "fuente": "Guía 34 MEN (2008), 1.11 Ruta para el mejoramiento continuo.",
+   "consejo": "Autoevaluación → plan de mejoramiento (3 años) → seguimiento. El seguimiento alimenta la siguiente autoevaluación.",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "La segunda etapa consiste en la elaboración del plan de mejoramiento. Se recomienda que éste tenga un horizonte de tres años para los cuales se definirán objetivos, actividades, tiempos y responsables de cada tarea",
+     "ubicacion": "Guía 34, 1.11"
+    },
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "La primera etapa de la ruta del mejoramiento continuo es la autoevaluación institucional.",
+     "ubicacion": "Guía 34, 1.11"
+    }
+   ],
+   "competencia": "Ruta del mejoramiento",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO002",
+   "tipo": "caso",
+   "caso": "CK01",
+   "familia": "GDI-MEJORA",
+   "dificultad": 3,
+   "enunciado": "Al priorizar los procesos para el plan de mejoramiento a partir de la escala de valoración, usted propone al equipo",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "enfocar las acciones en los procesos con 2 y apoyarse en el clima escolar, valorado con 4, como fortaleza institucional.",
+     "j": "Es correcta. La Guía 34 indica resaltar lo valorado con 1 o 2, porque allí se concentran los esfuerzos, y con otro color lo valorado con 4, que son fortalezas útiles al poner en marcha el plan de mejoramiento."
+    },
+    {
+     "l": "B",
+     "t": "enfocar las acciones en el gobierno escolar, valorado con 3, porque está más cerca de consolidarse y mostrará avances pronto.",
+     "j": "Es incorrecta. El nivel 3 indica que las acciones ya están articuladas y son conocidas. Priorizarlo por la facilidad de mostrar resultados contradice la guía, que manda concentrar los esfuerzos en lo valorado con 1 o 2."
+    },
+    {
+     "l": "C",
+     "t": "enfocar las acciones en el clima escolar, valorado con 4, para mantenerlo, y dejar los procesos con 2 para la evaluación siguiente.",
+     "j": "Es incorrecta. El nivel 4 indica procesos consolidados y evaluados periódicamente: es una fortaleza, no la prioridad del plan. Aplazar lo valorado con 2 deja sin atender justo lo que la guía señala como crítico."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La escala de la Guía 34 tiene cuatro niveles: 1 existencia, 2 pertinencia, 3 apropiación y 4 mejoramiento continuo. Al consolidar la matriz, la guía pide resaltar con un color lo valorado con 1 o 2, que muestra los ámbitos en los que el establecimiento tendrá que concentrar sus esfuerzos, y con otro color lo valorado con 4, que son las fortalezas que servirán para poner en marcha el plan. Por eso el plan prioriza seguimiento académico y prácticas pedagógicas y aprovecha el buen clima escolar. Desconfíe de las opciones que priorizan por facilidad o por mantener lo que ya funciona.",
+   "fuente": "Guía 34 MEN (2008), Etapa 1, pasos 2 y 4.",
+   "consejo": "1 y 2 = donde se concentran los esfuerzos; 4 = fortalezas para apoyarse.",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "valorados con 1 (“existencia”) o 2 (“pertinencia”), así como con otro color los que obtuvieron 4 (“mejoramiento continuo”). Los dos primeros muestran los ámbitos en los que el establecimiento tendrá que concentrar sus esfuerzos; el último, las fortalezas institucionales que serán muy útiles al momento de poner en marcha el plan de mejoramiento.",
+     "ubicacion": "Guía 34, Etapa 1"
+    }
+   ],
+   "competencia": "Ruta del mejoramiento",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO003",
+   "tipo": "caso",
+   "caso": "CK01",
+   "familia": "GDI-MEJORA",
+   "dificultad": 3,
+   "enunciado": "Para el objetivo de fortalecer el seguimiento académico, la meta que usted presenta al equipo, por estar bien formulada según la Guía 34, es:",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "Al terminar el primer año del plan, los docentes conocerán con suficiencia el SIEE y lo aplicarán en sus clases.",
+     "j": "Es incorrecta. Fija un plazo, pero «conocer con suficiencia» no se puede medir y no expresa la magnitud del logro, así que no permite el seguimiento periódico que la guía exige a las metas."
+    },
+    {
+     "l": "B",
+     "t": "Durante el plan, la institución mejorará de forma notable la promoción de los estudiantes de básica secundaria.",
+     "j": "Es incorrecta. «Mejorar de forma notable» no es una expresión cuantitativa y «durante el plan» no fija un momento de verificación. Sería un enunciado de objetivo, no una meta."
+    },
+    {
+     "l": "C",
+     "t": "Al final del segundo año del plan, el 90 % de los estudiantes de secundaria habrá aprobado el grado que cursa.",
+     "j": "Es correcta. Dice qué se quiere alcanzar, en qué tiempo y con una expresión cuantitativa de la magnitud del logro, como los ejemplos de metas que trae la Guía 34, y por eso permite medir su cumplimiento."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La Guía 34 define las metas como enunciados que dicen con precisión lo que el establecimiento espera alcanzar y en qué tiempo, y su principal característica es que son medibles. Además, pide tener en cuenta la expresión cuantitativa que indica la magnitud del logro. Solo la opción que fija el segundo año y el 90 % de aprobación cumple esas tres condiciones; las otras usan verbos difíciles de verificar (conocer con suficiencia, mejorar de forma notable). Cuando la CNSC pregunte por metas o indicadores, busque cifra, plazo y resultado observable.",
+   "fuente": "Guía 34 MEN (2008), Etapa 2, paso 2: Formulación de las metas.",
+   "consejo": "Meta = qué + cuánto + cuándo. Si no se puede medir, no es meta.",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "Las metas son enunciados que definen con precisión lo que el establecimiento educativo espera alcanzar y en qué tiempo. Su principal característica es que son medibles",
+     "ubicacion": "Guía 34, Etapa 2, paso 2"
+    },
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "La formulación de cada meta debe tener en cuenta qué se quiere alcanzar y en qué tiempo, así como la expresión cuantitativa que indica la magnitud del logro.",
+     "ubicacion": "Guía 34, Etapa 2, paso 2"
+    }
+   ],
+   "competencia": "Ruta del mejoramiento",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO004",
+   "tipo": "caso",
+   "caso": "CK02",
+   "familia": "GDI-AREAS",
+   "dificultad": 2,
+   "enunciado": "El hallazgo sobre la asignación académica debe ubicarse en",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la gestión académica, proceso de diseño pedagógico, porque la asignación define quién enseña cada área del plan de estudios.",
+     "j": "Es incorrecta. El diseño pedagógico define qué se aprende, cuándo, con qué recursos y cómo se evalúa. Quién enseña y con qué perfil es un asunto del manejo de las personas, no del currículo."
+    },
+    {
+     "l": "B",
+     "t": "la gestión administrativa y financiera, proceso de talento humano, que incluye perfiles y asignación académica.",
+     "j": "Es correcta. En el Cuadro No. 3 de la Guía 34, el proceso de talento humano tiene como componentes perfiles, inducción, formación y capacitación, asignación académica y evaluación del desempeño, entre otros."
+    },
+    {
+     "l": "C",
+     "t": "la gestión directiva, proceso de gestión estratégica, porque implica articular los planes y las acciones institucionales.",
+     "j": "Es incorrecta. La gestión estratégica se ocupa del liderazgo, la articulación de planes y el uso de información. Aunque la asignación tiene efectos en toda la institución, la Guía 34 la ubica en talento humano."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La trampa de esta pregunta es clasificar por el tema (la asignación académica «suena» a gestión académica). La Guía 34 clasifica por procesos y, en su Cuadro No. 3, el proceso de talento humano de la gestión administrativa y financiera tiene como componentes perfiles, inducción, formación y capacitación, asignación académica, evaluación del desempeño y bienestar, entre otros. Por eso un problema de asignación sin considerar perfiles es de talento humano. Memorice los componentes que suelen confundir: asignación académica y evaluación del desempeño están en talento humano; plan de estudios y evaluación de los estudiantes están en diseño pedagógico.",
+   "fuente": "Guía 34 MEN (2008), Cuadro No. 3, gestión administrativa y financiera.",
+   "consejo": "Personas (perfiles, asignación, evaluación de desempeño) = talento humano, en la gestión administrativa y financiera.",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "Perfiles, inducción, formación y capacitación, asignación académica, pertenencia a la institución, evaluación del desempeño, estímulos",
+     "ubicacion": "Guía 34, Cuadro No. 3, Talento humano"
+    }
+   ],
+   "competencia": "Áreas de gestión",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO005",
+   "tipo": "caso",
+   "caso": "CK02",
+   "familia": "GDI-AREAS",
+   "dificultad": 3,
+   "enunciado": "El hallazgo sobre la escuela de padres y el servicio social estudiantil corresponde, según la Guía 34, a",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la gestión directiva, proceso de relaciones con el entorno, que aúna esfuerzos con los padres y otras instituciones.",
+     "j": "Es incorrecta. Relaciones con el entorno sí menciona a los padres, pero como aliados para cumplir el PEI. La escuela de padres y el servicio social son servicios que la institución ofrece a la comunidad, y la guía los ubica en otro proceso."
+    },
+    {
+     "l": "B",
+     "t": "la gestión de la comunidad, proceso de participación y convivencia, que incluye la asamblea y el consejo de padres.",
+     "j": "Es incorrecta. Este proceso se refiere a las instancias de participación de estudiantes y padres. La escuela de padres y el servicio social estudiantil no son instancias de participación sino servicios a la comunidad."
+    },
+    {
+     "l": "C",
+     "t": "la gestión de la comunidad, proceso de proyección a la comunidad, que incluye escuela de padres y servicio social.",
+     "j": "Es correcta. El Cuadro No. 3 define la proyección a la comunidad como poner a disposición de la comunidad educativa un conjunto de servicios para apoyar su bienestar, y nombra entre sus componentes la escuela de padres y el servicio social estudiantil."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Hay dos distractores muy cercanos porque los padres aparecen en tres procesos de la Guía 34. La diferencia está en el propósito: en relaciones con el entorno (gestión directiva) los padres son aliados para cumplir el PEI; en participación y convivencia (gestión de la comunidad) son instancias como la asamblea y el consejo de padres; y en proyección a la comunidad la institución les ofrece servicios para su bienestar, como la escuela de padres, el uso de la planta física y el servicio social estudiantil. Pregúntese siempre quién da y quién recibe en la situación.",
+   "fuente": "Guía 34 MEN (2008), Cuadro No. 3, gestión de la comunidad.",
+   "consejo": "Servicios que la institución ofrece (escuela de padres, servicio social) = proyección a la comunidad.",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "Escuela de padres, oferta de servicios a la comunidad, uso de la planta física y de medios, servicio social estudiantil.",
+     "ubicacion": "Guía 34, Cuadro No. 3, Proyección a la comunidad"
+    },
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "Poner a disposición de la comunidad educativa un conjunto de servicios para apoyar su bienestar.",
+     "ubicacion": "Guía 34, Cuadro No. 3"
+    }
+   ],
+   "competencia": "Áreas de gestión",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO006",
+   "tipo": "caso",
+   "caso": "CK02",
+   "familia": "GDI-AREAS",
+   "dificultad": 2,
+   "enunciado": "El hallazgo sobre la comisión de evaluación y promoción y el comité de convivencia se ubica en el proceso de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "gobierno escolar, de la gestión directiva, que reúne las instancias de participación y de toma de decisiones.",
+     "j": "Es correcta. La Guía 34 lista como componentes del gobierno escolar los consejos, la comisión de evaluación y promoción, el comité de convivencia, el personero y la asamblea de padres, y lo define como favorecer la participación y la toma de decisiones."
+    },
+    {
+     "l": "B",
+     "t": "seguimiento académico, de la gestión académica, porque las comisiones deciden sobre la promoción de los estudiantes.",
+     "j": "Es incorrecta. El seguimiento académico mide asistencia, calificaciones, promoción y recuperación, pero el hallazgo trata del funcionamiento de dos instancias de decisión, que la guía ubica en el gobierno escolar."
+    },
+    {
+     "l": "C",
+     "t": "participación y convivencia, de la gestión de la comunidad, porque el comité atiende los conflictos entre estudiantes.",
+     "j": "Es incorrecta. Este proceso incluye la participación de estudiantes y padres y sus instancias de apoyo, pero el comité de convivencia aparece en la Guía 34 como componente del gobierno escolar, dentro de la gestión directiva."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Aquí el error típico es ubicar cada órgano por su tema: la comisión de evaluación «suena» a gestión académica y el comité de convivencia «suena» a gestión de la comunidad. La Guía 34 los agrupa por su naturaleza: son instancias de participación y toma de decisiones y, por eso, componentes del proceso de gobierno escolar en la gestión directiva, junto con los consejos directivo, académico, estudiantil y de padres, el personero y la asamblea de padres. Que no dejen actas es una debilidad de ese proceso.",
+   "fuente": "Guía 34 MEN (2008), Cuadro No. 3, gestión directiva.",
+   "consejo": "Órganos e instancias de decisión (consejos, comisiones, comité, personero) = gobierno escolar, en la gestión directiva.",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "Consejos directivo, académico, estudiantil y de padres de familia, comisión de evaluación y promoción, comité de convivencia, personero estudiantil, y asamblea de padres de familia.",
+     "ubicacion": "Guía 34, Cuadro No. 3, Gobierno escolar"
+    },
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "Favorecer la participación y la toma de decisiones en la institución a través de diversas instancias",
+     "ubicacion": "Guía 34, Cuadro No. 3"
+    }
+   ],
+   "competencia": "Áreas de gestión",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO007",
+   "tipo": "caso",
+   "caso": "CK03",
+   "familia": "GDI-ROL",
+   "dificultad": 3,
+   "enunciado": "Frente al docente que no ha entregado planeaciones ni notas, la actuación que corresponde a usted como coordinador es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "hacer seguimiento al cumplimiento de sus asignaciones, retroalimentarlo y documentar el caso para el rector.",
+     "j": "Es correcta. La Resolución 3842 asigna al coordinador coordinar el seguimiento al cumplimiento de las asignaciones de los docentes para retroalimentar su desempeño; el control de funciones y el reporte de novedades son del rector, a quien se informa."
+    },
+    {
+     "l": "B",
+     "t": "iniciar un proceso disciplinario e imponer la sanción que corresponda por incumplir sus funciones.",
+     "j": "Es incorrecta. Imponer sanciones disciplinarias es función del rector según la Ley 715 de 2001, artículo 10, numeral 11. El coordinador puede documentar y acompañar, pero no sancionar por su cuenta."
+    },
+    {
+     "l": "C",
+     "t": "reportar la irregularidad directamente a la secretaría de educación para que tome medidas con el docente.",
+     "j": "Es incorrecta. Reportar las novedades e irregularidades del personal a la secretaría de educación es función del rector (Ley 715, art. 10, numeral 6). Saltarse al superior inmediato desconoce la línea de autoridad."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La clave es distinguir el seguimiento del control disciplinario. La Resolución 3842 de 2022 le asigna al coordinador coordinar la implementación del seguimiento al cumplimiento de las asignaciones y actividades académicas de los docentes, para retroalimentar su desempeño profesional. En cambio, la Ley 715 de 2001 reserva al rector controlar el cumplimiento de funciones, reportar novedades e irregularidades a la secretaría e imponer sanciones disciplinarias. Como el superior inmediato del coordinador es el rector, el camino es acompañar, retroalimentar, dejar evidencia e informar al rector. En la prueba, desconfíe de las opciones en las que el coordinador sanciona o reporta por fuera de su cargo.",
+   "fuente": "Resolución 3842 de 2022, 1.3.1 (función 14); Ley 715 de 2001, art. 10, numerales 10.6 y 10.11.",
+   "consejo": "Coordinador = seguimiento y retroalimentación. Rector = control, reporte a la secretaría y sanción.",
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Coordinar la implementación del proceso de seguimiento al cumplimiento de las asignaciones y actividades académicas de los docentes, que permita la retroalimentación del desempeño profesional de los docentes",
+     "ubicacion": "Resolución 3842, 1.3.1, función 14"
+    },
+    {
+     "doc": "ley_715_2001",
+     "texto": "10.11. Imponer las sanciones disciplinarias propias del sistema de control interno disciplinario de conformidad con las normas vigentes.",
+     "ubicacion": "Ley 715 de 2001, art. 10"
+    }
+   ],
+   "competencia": "Rol del coordinador",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO008",
+   "tipo": "caso",
+   "caso": "CK03",
+   "familia": "GDI-ROL",
+   "dificultad": 2,
+   "enunciado": "Con los tres docentes que llegaron por traslado, su función como coordinador es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "pedir al consejo académico que los capacite en el modelo pedagógico durante la próxima jornada institucional.",
+     "j": "Es incorrecta. El consejo académico organiza el plan de estudios y supervisa la evaluación, pero no es la instancia encargada de la inducción de docentes. La Resolución 3842 se la asigna al coordinador."
+    },
+    {
+     "l": "B",
+     "t": "participar en su inducción sobre el PEI, el modelo pedagógico, el SIEE, los proyectos y el manual de convivencia.",
+     "j": "Es correcta. La función 15 del coordinador en la Resolución 3842 es participar en la inducción a los docentes nuevos sobre el PEI, el modelo pedagógico, el SIEE, los proyectos especiales y el manual de convivencia."
+    },
+    {
+     "l": "C",
+     "t": "entregarles los documentos institucionales para que los lean y firmen un acta de conocimiento al final del mes.",
+     "j": "Es incorrecta. Entregar documentos y pedir una firma deja evidencia, pero no es una inducción: no acompaña la apropiación del modelo ni del SIEE, que es lo que la función del coordinador busca."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La Resolución 3842 de 2022 enumera las funciones específicas del coordinador y una de ellas es participar en la inducción a los docentes nuevos sobre el PEI, el modelo pedagógico, el SIEE, los proyectos especiales y el manual de convivencia. Por eso, ante docentes que llegan por traslado, la respuesta es asumir la inducción, no delegarla en otra instancia ni reducirla a un trámite. En la Guía 34, la inducción también aparece como componente del proceso de talento humano. Cuando la pregunta diga «su función», busque la opción que coincida con el verbo del manual: aquí, participar en la inducción.",
+   "fuente": "Resolución 3842 de 2022, 1.3.1 (función 15).",
+   "consejo": "Docentes nuevos → inducción del coordinador (PEI, modelo pedagógico, SIEE, proyectos, manual de convivencia).",
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Participar en la inducción a los docentes nuevos sobre el Proyecto Educativo Institucional (PE!), el modelo pedagógico, Sistema Institucional de Evaluación de los Estudiantes (SIEE), proyectos especiales y manual de convivencia.",
+     "ubicacion": "Resolución 3842, 1.3.1, función 15"
+    }
+   ],
+   "competencia": "Rol del coordinador",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO009",
+   "tipo": "caso",
+   "caso": "CK03",
+   "familia": "GDI-ROL",
+   "dificultad": 3,
+   "enunciado": "Ante la solicitud del área de ciencias de reorganizar la asignación académica, usted",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "reparte de nuevo las horas entre los docentes del área y publica el horario ajustado en la cartelera de la sede.",
+     "j": "Es incorrecta. Distribuir las asignaciones académicas es una función que la Ley 715 de 2001 le asigna al rector. Aunque la carga esté desbalanceada, el coordinador no puede reasignar por su cuenta."
+    },
+    {
+     "l": "B",
+     "t": "remite la solicitud a la secretaría de educación, porque es la entidad que asigna los docentes a la institución.",
+     "j": "Es incorrecta. La secretaría asigna la planta, pero la distribución de la asignación académica dentro del establecimiento es del rector. Remitir a la secretaría salta al responsable interno."
+    },
+    {
+     "l": "C",
+     "t": "analiza la carga del área, propone una redistribución y la presenta al rector para que él la decida.",
+     "j": "Es correcta. El coordinador apoya y gestiona el trabajo de los docentes bajo las orientaciones del rector, que es quien distribuye las asignaciones académicas según la Ley 715. Analizar y proponer está dentro de su cargo; decidir, no."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Según la Ley 715 de 2001, artículo 10, numeral 9, distribuir las asignaciones académicas y demás funciones de docentes, directivos docentes y administrativos es función del rector. La Resolución 3842 describe al coordinador como quien lidera, participa y gestiona el trabajo de los docentes bajo las orientaciones del rector y junto con él. Por eso lo correcto es analizar la situación y llevar una propuesta al rector, no decidir directamente ni trasladar el asunto a la secretaría. Este tipo de pregunta evalúa si respeta la línea de autoridad sin dejar de actuar.",
+   "fuente": "Ley 715 de 2001, art. 10, numeral 10.9; Resolución 3842 de 2022, 1.3.",
+   "consejo": "Coordinador propone; rector decide la asignación académica.",
+   "citas": [
+    {
+     "doc": "ley_715_2001",
+     "texto": "10.9. Distribuir las asignaciones académicas, y demás funciones de docentes, directivos docentes y administrativos a su cargo",
+     "ubicacion": "Ley 715 de 2001, art. 10"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "El Coordinador, lidera, participa y gestiona el trabajo de los docentes, bajo las orientaciones del rector y junto con éste",
+     "ubicacion": "Resolución 3842, 1.3"
+    }
+   ],
+   "competencia": "Rol del coordinador",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO010",
+   "tipo": "caso",
+   "caso": "CK04",
+   "familia": "GAC-SIEE",
+   "dificultad": 3,
+   "enunciado": "Para que los cambios propuestos al SIEE tengan validez, usted explica al consejo académico que deben",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "aprobarse en el consejo académico y comunicarse a los padres en la siguiente entrega de informes de periodo.",
+     "j": "Es incorrecta. El consejo académico participa en la definición, pero el procedimiento exige aprobar el sistema en sesión del consejo directivo con acta; informar en la entrega de boletines no reemplaza la socialización ni la aprobación."
+    },
+    {
+     "l": "B",
+     "t": "enviarse a la secretaría de educación para que los apruebe antes de incorporarlos al proyecto educativo institucional.",
+     "j": "Es incorrecta. La secretaría orienta, acompaña y hace seguimiento a los establecimientos en su SIEE, pero no lo aprueba: la aprobación es institucional y la hace el consejo directivo."
+    },
+    {
+     "l": "C",
+     "t": "seguir el procedimiento de creación: socializarse, aprobarse en el consejo directivo con acta e incorporarse al PEI.",
+     "j": "Es correcta. El parágrafo del artículo 2.3.3.3.3.8 del Decreto 1075 señala que para modificar el SIEE se sigue el mismo procedimiento de su creación, que incluye socializar, aprobar en sesión del consejo directivo con acta, incorporar al PEI y divulgar."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El Decreto 1290 de 2009, compilado en el artículo 2.3.3.3.3.8 del Decreto 1075, fija el procedimiento mínimo para crear el SIEE: definirlo, socializarlo, aprobarlo en sesión del consejo directivo con consignación en el acta, incorporarlo al PEI, divulgarlo, divulgar los mecanismos de reclamación e informar a los nuevos estudiantes, padres y docentes. Su parágrafo agrega que, para modificarlo, se sigue el mismo procedimiento. Por eso un cambio en la inasistencia o en la escala no queda válido solo con el consejo académico ni con la secretaría. Ojo: en la prueba aparecerán instancias reales con funciones parecidas; la pregunta es quién aprueba.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.8 (Decreto 1290 de 2009, art. 8).",
+   "consejo": "Modificar el SIEE = repetir el procedimiento de creación (aprobación en el consejo directivo con acta).",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "3. Aprobar el sistema institucional de evaluación en sesión en el consejo directivo y consignación en el acta.",
+     "ubicacion": "Decreto 1075, art. 2.3.3.3.3.8"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Cuando el establecimiento educativo considere necesaria la modificación del sistema institucional de evaluación de los estudiantes deberá seguir el procedimiento antes enunciado.",
+     "ubicacion": "Decreto 1075, art. 2.3.3.3.3.8, parágrafo"
+    }
+   ],
+   "competencia": "SIEE y promoción",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO011",
+   "tipo": "caso",
+   "caso": "CK04",
+   "familia": "GAC-SIEE",
+   "dificultad": 3,
+   "enunciado": "Sobre la solicitud de promoción anticipada que llegó en el segundo periodo, usted le responde a la madre que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el consejo académico la estudiará y, con el consentimiento de ella, la recomendará al consejo directivo de inmediato.",
+     "j": "Es incorrecta. Ese es el trámite, pero la norma lo ubica durante el primer periodo del año escolar. Aplicarlo en el segundo periodo desconoce la condición temporal del artículo."
+    },
+    {
+     "l": "B",
+     "t": "la norma la prevé durante el primer periodo, así que no procede ahora, y se le orientará sobre otras estrategias.",
+     "j": "Es correcta. El artículo 2.3.3.3.3.7 del Decreto 1075 establece que la promoción anticipada se recomienda durante el primer periodo del año escolar, por lo que en el segundo periodo no procede por esa vía."
+    },
+    {
+     "l": "C",
+     "t": "usted como coordinador puede autorizarla si las comisiones de evaluación confirman el desempeño superior en todas las áreas.",
+     "j": "Es incorrecta. Ni el coordinador ni las comisiones deciden la promoción anticipada: el consejo académico la recomienda y el consejo directivo decide, y además solo durante el primer periodo."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La promoción anticipada tiene tres condiciones en el artículo 2.3.3.3.3.7 del Decreto 1075: se tramita durante el primer periodo del año escolar, el consejo académico la recomienda previo consentimiento de los padres y la decisión se consigna en el acta del consejo directivo. La pregunta pone el dato decisivo en el caso: la solicitud llega en el segundo periodo. Por eso no procede por esta vía, aunque la estudiante cumpla el perfil. En las preguntas de juicio situacional, el detalle de tiempo o de instancia suele ser lo que separa la opción correcta de la que describe bien el trámite.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.7 (Decreto 1290 de 2009, art. 7).",
+   "consejo": "Promoción anticipada: primer periodo + consentimiento de padres + recomendación del consejo académico + decisión del consejo directivo.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Durante el primer periodo del año escolar el consejo académico, previo consentimiento de los padres de familia, recomendará ante el consejo directivo la promoción anticipada al grado siguiente",
+     "ubicacion": "Decreto 1075, art. 2.3.3.3.3.7"
+    }
+   ],
+   "competencia": "SIEE y promoción",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO012",
+   "tipo": "caso",
+   "caso": "CK05",
+   "familia": "GAC-SEGUIM",
+   "dificultad": 2,
+   "enunciado": "Frente a los resultados de séptimo en matemáticas, la acción que usted promueve como coordinador es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "acordar con los docentes de matemáticas una actividad de recuperación al final del año para todos los estudiantes con desempeño bajo.",
+     "j": "Es incorrecta. Las actividades de recuperación hacen parte del seguimiento, pero aplazarlas al cierre del año no analiza las causas ni genera estrategias permanentes de apoyo durante el proceso."
+    },
+    {
+     "l": "B",
+     "t": "reunir a los docentes del grado para analizar los resultados y diseñar con ellos y las familias estrategias de apoyo.",
+     "j": "Es correcta. El Decreto 1075 pide realizar reuniones de docentes y directivos para analizar e implementar estrategias permanentes de apoyo, y la Resolución 3842 asigna al coordinador promover acciones colaborativas con docentes y familias."
+    },
+    {
+     "l": "C",
+     "t": "revisar con los docentes la escala de valoración del área para que los desempeños de séptimo sean comparables con los demás grados.",
+     "j": "Es incorrecta. Ajustar la escala cambia cómo se reportan los resultados, pero no atiende el bajo desempeño; además, la escala es del SIEE y se modifica con su procedimiento, no por un grado."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Dos normas convergen. El artículo 2.3.3.3.3.11 del Decreto 1075 obliga al establecimiento a realizar reuniones de docentes y directivos docentes para analizar, diseñar e implementar estrategias permanentes de evaluación y de apoyo para la superación de debilidades. La Resolución 3842 asigna al coordinador promover acciones de seguimiento al desempeño académico que generen acciones pedagógicas colaborativas en favor de los estudiantes, con docentes y familias. La CNSC privilegia el análisis de causas y las estrategias continuas sobre las medidas de calificación o de fin de año.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.11, numeral 3; Resolución 3842 de 2022, 1.3.1, función 11.",
+   "consejo": "Malos resultados → analizar con los docentes y diseñar apoyos permanentes con las familias, no cambiar notas ni esperar al final.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Realizar reuniones de docentes y directivos docentes para analizar, diseñar e implementar estrategias permanentes de evaluación y de apoyo para la superación de debilidades de los estudiantes",
+     "ubicacion": "Decreto 1075, art. 2.3.3.3.3.11"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Promover acciones de seguimiento al desempeño académico y disciplinario de los estudiantes, que generen acciones pedagógicas colaborativas en favor de los estudiantes, donde participen docentes y familias.",
+     "ubicacion": "Resolución 3842, 1.3.1, función 11"
+    }
+   ],
+   "competencia": "Seguimiento académico",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO013",
+   "tipo": "caso",
+   "caso": "CK05",
+   "familia": "GAC-SEGUIM",
+   "dificultad": 2,
+   "enunciado": "Sobre la conformación del consejo académico, usted propone que lo integren",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el rector, que lo preside, los directivos docentes y un docente por cada una de las nueve áreas del plan de estudios.",
+     "j": "Es correcta. El artículo 2.3.3.1.5.7 del Decreto 1075 integra el consejo académico con el rector, quien lo preside, los directivos docentes y un docente por cada área definida en el plan de estudios."
+    },
+    {
+     "l": "B",
+     "t": "el rector, que lo preside, los directivos docentes y un docente por cada área en cada una de las dos jornadas.",
+     "j": "Es incorrecta. La norma habla de un docente por cada área definida en el plan de estudios, no por jornada. Duplicar representantes por jornada altera la conformación del órgano."
+    },
+    {
+     "l": "C",
+     "t": "el coordinador, que lo preside, los jefes de área y un representante de los docentes elegido por la asamblea.",
+     "j": "Es incorrecta. El consejo académico lo preside el rector, no el coordinador, y no incluye un representante elegido por la asamblea de docentes; ese diseño mezcla la conformación del consejo directivo."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 2.3.3.1.5.7 del Decreto 1075 (Decreto 1860 de 1994, art. 24) define que el consejo académico está integrado por el rector, quien lo preside, los directivos docentes y un docente por cada área definida en el plan de estudios. Con nueve áreas, son nueve docentes, sin importar cuántas jornadas tenga la institución. Entre sus funciones están organizar el plan de estudios, participar en la evaluación institucional anual e integrar los consejos de docentes para la evaluación y la promoción. Ojo con las opciones que cambian el presidente o el criterio de representación.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.1.5.7 (Decreto 1860 de 1994, art. 24).",
+   "consejo": "Consejo académico = rector (preside) + directivos docentes + 1 docente por área del plan de estudios.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "El Consejo Académico está integrado por el Rector quien lo preside, los directivos docentes y un docente por cada área definida en el plan de estudios.",
+     "ubicacion": "Decreto 1075, art. 2.3.3.1.5.7"
+    }
+   ],
+   "competencia": "Seguimiento académico",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO014",
+   "tipo": "caso",
+   "caso": "CK06",
+   "familia": "GAF-FONDOS",
+   "dificultad": 2,
+   "enunciado": "Para que la compra de materiales quede financiada el próximo año, usted",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "presenta la necesidad al rector para que la incluya en el proyecto de presupuesto que aprueba el consejo directivo.",
+     "j": "Es correcta. El rector elabora el proyecto anual de presupuesto del Fondo de Servicios Educativos y el consejo directivo lo aprueba mediante acuerdo antes de la vigencia; por eso la necesidad se canaliza a través del rector."
+    },
+    {
+     "l": "B",
+     "t": "presenta la necesidad al consejo académico para que la apruebe dentro del plan de estudios del área de ciencias.",
+     "j": "Es incorrecta. El consejo académico organiza el plan de estudios, pero no aprueba gastos. El presupuesto del Fondo lo aprueba el consejo directivo con base en el proyecto del rector."
+    },
+    {
+     "l": "C",
+     "t": "presenta la necesidad a la asociación de padres para que la financie con los aportes voluntarios de las familias.",
+     "j": "Es incorrecta. Buscar apoyos puede ser válido, pero los materiales para el funcionamiento del establecimiento se planean en el presupuesto del Fondo, que proyecta el rector y aprueba el consejo directivo."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El Fondo de Servicios Educativos maneja los recursos destinados a financiar gastos distintos a los de personal que faciliten el funcionamiento de la institución (Ley 715, art. 11). Según el Decreto 1075, el rector elabora el proyecto anual de presupuesto y lo presenta al consejo directivo, que antes de cada vigencia fiscal lo analiza, ajusta y aprueba mediante acuerdo. El coordinador no maneja recursos: su papel es identificar la necesidad con los docentes y llevarla al rector a tiempo. Las opciones que envían el gasto a otras instancias son distractores frecuentes.",
+   "fuente": "Ley 715 de 2001, art. 11; Decreto 1075 de 2015, arts. 2.3.1.6.3.5 y 2.3.1.6.3.6.",
+   "consejo": "Presupuesto del Fondo: lo proyecta el rector y lo aprueba el consejo directivo antes de la vigencia.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "1. Elaborar el proyecto anual de presupuesto del Fondo de Servicios Educativos y presentarlo para aprobación al consejo directivo.",
+     "ubicacion": "Decreto 1075, art. 2.3.1.6.3.6"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Antes del inicio de cada vigencia fiscal, analizar, introducir ajustes y aprobar mediante acuerdo el presupuesto de ingresos y gastos del proyecto presentado por el rector o director rural.",
+     "ubicacion": "Decreto 1075, art. 2.3.1.6.3.5"
+    }
+   ],
+   "competencia": "Fondo de Servicios Educativos",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO015",
+   "tipo": "caso",
+   "caso": "CK06",
+   "familia": "GAF-FONDOS",
+   "dificultad": 3,
+   "enunciado": "Sobre la sala de cómputo que ofrece la empresa, el trámite que la ley prevé es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "aceptarla con un acta de donación firmada por el rector, porque los bienes benefician a la comunidad educativa.",
+     "j": "Es incorrecta. Un acta del rector no basta: la Ley 715 exige un contrato autorizado por el consejo directivo. Además, aquí no hay donación, porque la empresa no transfiere la propiedad de los equipos."
+    },
+    {
+     "l": "B",
+     "t": "suscribir un contrato autorizado por el consejo directivo y celebrado por el rector, que fije el uso pactado de los bienes.",
+     "j": "Es correcta. El artículo 14 de la Ley 715 prevé que los particulares que quieran vincular bienes o servicios para la comunidad lo hagan previo contrato autorizado por el consejo directivo y celebrado por el rector, sin transferencia de propiedad si no se pactó."
+    },
+    {
+     "l": "C",
+     "t": "incluirla en el presupuesto del Fondo como ingreso aforado para que el consejo directivo la apruebe con el presupuesto anual.",
+     "j": "Es incorrecta. La Ley 715 aclara que los ingresos obtenidos por convenios con particulares o donaciones para beneficiar a la comunidad no se incluyen en los ingresos sometidos a aforo presupuestal."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 14 de la Ley 715 de 2001 regula exactamente esta situación: los particulares que quieran vincular bienes o servicios para provecho de la comunidad en los establecimientos estatales pueden hacerlo previo contrato autorizado por el consejo directivo y celebrado por el rector, en el que se pacta el uso de los bienes, sin transferencia de propiedad cuando el contrato no la haya previsto. El mismo artículo dice que estos aportes no se incluyen en los ingresos sometidos a aforo presupuestal. Los dos distractores toman un trámite real (acta, presupuesto) pero lo aplican a la figura equivocada.",
+   "fuente": "Ley 715 de 2001, art. 14.",
+   "consejo": "Bienes de particulares para la comunidad = contrato autorizado por el consejo directivo y celebrado por el rector.",
+   "citas": [
+    {
+     "doc": "ley_715_2001",
+     "texto": "puedan hacerlo previo contrato autorizado por el Consejo Directivo y celebrado por el rector",
+     "ubicacion": "Ley 715 de 2001, art. 14"
+    },
+    {
+     "doc": "ley_715_2001",
+     "texto": "En los ingresos sometidos a aforo presupuestal no se incluirán los que sean obtenidos por convenios con particulares, premios, donaciones u otros",
+     "ubicacion": "Ley 715 de 2001, art. 14"
+    }
+   ],
+   "competencia": "Fondo de Servicios Educativos",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO016",
+   "tipo": "caso",
+   "caso": "CK06",
+   "familia": "GAF-FONDOS",
+   "dificultad": 3,
+   "enunciado": "Si la compra de materiales se hace con recursos del Fondo, por su cuantía de 8 salarios mínimos se rige por",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "los trámites, garantías y constancias que el consejo directivo haya reglamentado para contratos menores de veinte salarios.",
+     "j": "Es correcta. La Ley 715 permite al consejo directivo señalar los trámites para los actos y contratos de cuantía inferior a veinte salarios mínimos, y el Decreto 1075 le asigna reglamentar mediante acuerdo esos procedimientos."
+    },
+    {
+     "l": "B",
+     "t": "las reglas generales de la contratación estatal, porque toda compra con recursos públicos exige ese procedimiento.",
+     "j": "Es incorrecta. La Ley 715 reserva las reglas de la contratación estatal para los actos y contratos de cuantía superior a veinte salarios mínimos; por debajo, aplica lo que reglamente el consejo directivo."
+    },
+    {
+     "l": "C",
+     "t": "la decisión del rector como ordenador del gasto, sin requisitos adicionales, porque es una compra de menor cuantía.",
+     "j": "Es incorrecta. El rector celebra los contratos, pero siempre dentro de los límites y procedimientos fijados. Para cuantías menores a veinte salarios, esos trámites los reglamenta el consejo directivo."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La Ley 715 de 2001, artículo 13, establece que los actos y contratos de cuantía superior a veinte salarios mínimos se rigen por las reglas de la contratación estatal, y que para los de cuantía inferior el consejo directivo puede señalar los trámites, garantías y constancias que deben cumplirse. El Decreto 1075 le asigna al consejo directivo reglamentar mediante acuerdo esos procedimientos. Con 8 salarios, la compra va por el reglamento del consejo directivo. Los distractores toman el extremo opuesto: todo por contratación estatal o todo a discreción del rector.",
+   "fuente": "Ley 715 de 2001, art. 13; Decreto 1075 de 2015, art. 2.3.1.6.3.5, numeral 6.",
+   "consejo": "Menos de 20 SMMLV → reglamento del consejo directivo; más de 20 → contratación estatal.",
+   "citas": [
+    {
+     "doc": "ley_715_2001",
+     "texto": "Los actos y contratos de cuantía superior a veinte (20) salarios mínimos mensuales se regirán por las reglas de la contratación estatal",
+     "ubicacion": "Ley 715 de 2001, art. 13"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "6. Reglamentar mediante acuerdo los procedimientos, formalidades y garantías para toda contratación que no supere los veinte (20) salarios mínimos legales mensuales vigentes (SMLMV).",
+     "ubicacion": "Decreto 1075, art. 2.3.1.6.3.5"
+    }
+   ],
+   "competencia": "Fondo de Servicios Educativos",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO017",
+   "tipo": "caso",
+   "caso": "CK07",
+   "familia": "GAF-TALENTO",
+   "dificultad": 2,
+   "enunciado": "Sobre la docente que llegó el 15 de octubre, usted le indica al rector que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "se evalúa con los mismos instrumentos que a los demás, porque la evaluación de desempeño es anual y obligatoria para todos.",
+     "j": "Es incorrecta. La evaluación es anual, pero el Decreto 1278 la limita a quienes hayan servido en el establecimiento por más de tres meses durante el año académico, condición que ella no cumple al cierre del año escolar."
+    },
+    {
+     "l": "B",
+     "t": "se evalúa solo con la autoevaluación, porque su tiempo en la institución no permite observar sus clases de manera suficiente.",
+     "j": "Es incorrecta. La norma no prevé una evaluación reducida por poco tiempo: simplemente no aplica a quien no supera los tres meses de servicio en el establecimiento durante el año académico."
+    },
+    {
+     "l": "C",
+     "t": "no se le hace la evaluación de este año en la institución, porque no alcanza a superar tres meses de servicio en ella.",
+     "j": "Es correcta. El artículo 32 del Decreto 1278 dispone que la evaluación se realiza al terminar el año escolar a quienes hayan servido en el establecimiento por un término superior a tres meses durante el año académico."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El artículo 32 del Decreto 1278 de 2002 define la evaluación de desempeño y fija dos reglas que la CNSC pregunta con frecuencia: se realiza al terminar cada año escolar a los docentes o directivos que hayan servido en el establecimiento por un término superior a tres meses durante el año académico, y su responsable es el rector o director. Una docente que llegó a mediados de octubre no alcanza ese tiempo al cierre del año escolar, de modo que no se le aplica en esta institución. Los distractores proponen evaluarla igual o con una versión reducida, opciones que la norma no contempla.",
+   "fuente": "Decreto 1278 de 2002, art. 32.",
+   "consejo": "Evaluación anual: más de 3 meses en el establecimiento; responsable: el rector.",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "Será realizada al terminar cada año escolar a los docentes o directivos que hayan servido en el establecimiento por un término superior a tres (3) meses durante el respectivo año académico.",
+     "ubicacion": "Decreto 1278 de 2002, art. 32"
+    }
+   ],
+   "competencia": "Talento humano",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO018",
+   "tipo": "caso",
+   "caso": "CK07",
+   "familia": "GAF-TALENTO",
+   "dificultad": 3,
+   "enunciado": "Para apoyar la evaluación del docente que estuvo toda la vigencia, lo que corresponde a usted como coordinador es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "diligenciar y firmar la evaluación como evaluador, porque es el directivo que acompaña a diario el trabajo del docente.",
+     "j": "Es incorrecta. Acompañar a diario al docente no lo convierte en el responsable: el Decreto 1278 dice que el responsable de la evaluación es el rector o director de la institución."
+    },
+    {
+     "l": "B",
+     "t": "aportar evidencias, como las pautas de observación de clases, para que el rector, que es el responsable, realice la evaluación.",
+     "j": "Es correcta. La observación de clases es uno de los instrumentos del artículo 33 del Decreto 1278, y aportar evidencias es un apoyo válido; la responsabilidad de evaluar es del rector según el artículo 32."
+    },
+    {
+     "l": "C",
+     "t": "acordar con el docente una calificación consensuada, para que la evaluación sea participativa y no genere reclamaciones.",
+     "j": "Es incorrecta. La autoevaluación es un instrumento previsto, pero la evaluación de desempeño no es una calificación negociada: pondera el cumplimiento de funciones y el logro de resultados con evidencias."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El Decreto 1278 de 2002 separa dos cosas que se confunden: quién es responsable de la evaluación (el rector o director, artículo 32) y con qué instrumentos se puede evaluar (artículo 33: pautas para observación de clases, evaluaciones de superiores y colegas, encuestas a padres y estudiantes, análisis de logros, evaluación del consejo directivo, autoevaluación). El coordinador apoya con evidencias y acompañamiento, como pide la Resolución 3842 en su función de seguimiento y retroalimentación, pero no reemplaza al rector como evaluador. La opción del acuerdo con el docente desnaturaliza la evaluación.",
+   "fuente": "Decreto 1278 de 2002, arts. 32 y 33.",
+   "consejo": "Rector = responsable; coordinador = aporta evidencias (observación de clases, seguimiento).",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "El responsable es el rector o director de la institución",
+     "ubicacion": "Decreto 1278 de 2002, art. 32"
+    },
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "pautas para observación de clases y de prácticas escolares",
+     "ubicacion": "Decreto 1278 de 2002, art. 33"
+    }
+   ],
+   "competencia": "Talento humano",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO019",
+   "tipo": "caso",
+   "caso": "CK07",
+   "familia": "GAF-TALENTO",
+   "dificultad": 1,
+   "enunciado": "Con la información de horarios y carga docente que usted prepara, la Ley 715 establece que el rector debe",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "publicarla una vez al semestre en lugares públicos y comunicarla por escrito a los padres de familia.",
+     "j": "Es correcta. El numeral 10.17 de la Ley 715 ordena al rector publicar una vez al semestre en lugares públicos y comunicar por escrito a los padres los docentes a cargo de cada asignatura, los horarios y la carga docente."
+    },
+    {
+     "l": "B",
+     "t": "enviarla a la secretaría de educación una vez al año para que la apruebe y la publique en su página web.",
+     "j": "Es incorrecta. La Ley 715 no prevé que la secretaría apruebe ni publique los horarios de cada institución; la obligación de publicarlos y comunicarlos a los padres recae en el rector."
+    },
+    {
+     "l": "C",
+     "t": "presentarla al consejo directivo al iniciar el año para que la apruebe dentro del plan operativo anual.",
+     "j": "Es incorrecta. El consejo directivo recibe informes del rector, pero la Ley 715 no le asigna aprobar horarios ni carga docente; la obligación es de publicación y comunicación a las familias."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Esta es una pregunta de reconocimiento: la Ley 715 de 2001, artículo 10, numeral 17, establece como función del rector publicar una vez al semestre en lugares públicos y comunicar por escrito a los padres de familia los docentes a cargo de cada asignatura, los horarios y la carga docente de cada uno de ellos. El coordinador suele preparar esa información, pero la obligación legal es del rector. Recuerde la periodicidad (semestral) y los dos medios (lugares públicos y comunicación escrita a los padres), porque los distractores cambian la periodicidad o la instancia.",
+   "fuente": "Ley 715 de 2001, art. 10, numeral 10.17.",
+   "consejo": "Horarios y carga docente: una vez al semestre, en lugares públicos y por escrito a los padres.",
+   "citas": [
+    {
+     "doc": "ley_715_2001",
+     "texto": "10.17. Publicar una vez al semestre en lugares públicos y comunicar por escrito a los padres de familia, los docentes a cargo de cada asignatura",
+     "ubicacion": "Ley 715 de 2001, art. 10"
+    }
+   ],
+   "competencia": "Talento humano",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO020",
+   "tipo": "caso",
+   "caso": "CK08",
+   "familia": "GCO-CONV",
+   "dificultad": 3,
+   "enunciado": "En la situación del lunes, lo primero que corresponde según el protocolo es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "citar al comité escolar de convivencia para que analice el caso y defina las acciones con los padres de los estudiantes.",
+     "j": "Es incorrecta. El comité hace el análisis y el seguimiento, pero el protocolo pone antes la atención en salud, la protección de los involucrados y la información a los padres. Citarlo primero retrasa lo urgente."
+    },
+    {
+     "l": "B",
+     "t": "garantizar la atención en salud del estudiante agredido, adoptar medidas de protección e informar a los padres.",
+     "j": "Es correcta. Es una situación tipo II, porque es repetida y causó daño al cuerpo. El protocolo del artículo 43 del Decreto 1965 empieza por garantizar la atención en salud, proteger a los involucrados e informar de inmediato a los padres."
+    },
+    {
+     "l": "C",
+     "t": "convocar a los cuatro estudiantes a un espacio de conciliación para que acuerden compromisos y reparen el daño causado.",
+     "j": "Es incorrecta. Las acciones restaurativas hacen parte del protocolo tipo II, pero vienen después de la atención en salud, la protección y la información a los padres; con agresión repetida no se empieza por conciliar."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La situación es tipo II porque hay agresión repetida (acoso) y daño al cuerpo, sin que sea un presunto delito. El artículo 43 del Decreto 1965 establece el orden mínimo: en casos de daño al cuerpo o a la salud, garantizar la atención inmediata en salud; adoptar medidas para proteger a los involucrados; informar de manera inmediata a los padres; generar espacios para exponer lo ocurrido; determinar acciones restaurativas; y el presidente del comité informa al comité, que hace seguimiento y deja acta. La CNSC suele poner como distractores pasos reales del protocolo, pero en el orden equivocado.",
+   "fuente": "Decreto 1965 de 2013, art. 43.",
+   "consejo": "Tipo II: salud → protección → padres → espacios de diálogo → acciones restaurativas → comité y acta.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "1. En casos de daño al cuerpo o a la salud, garantizar la atención inmediata en salud física y mental de los involucrados, mediante la remisión a las entidades competentes, actuación de la cual se dejará constancia.",
+     "ubicacion": "Decreto 1965 de 2013, art. 43"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "3. Informar de manera inmediata a los padres, madres o acudientes de todos los estudiantes involucrados, actuación de la cual se dejará constancia.",
+     "ubicacion": "Decreto 1965 de 2013, art. 43"
+    }
+   ],
+   "competencia": "Comité de convivencia",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO021",
+   "tipo": "caso",
+   "caso": "CK08",
+   "familia": "GCO-CONV",
+   "dificultad": 3,
+   "enunciado": "En la situación del jueves, después de informar al rector como presidente del comité, usted tiene claro que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el rector pone el caso en conocimiento de la Policía y el comité ya no interviene, para no interferir con la investigación.",
+     "j": "Es incorrecta. El artículo 44 del Decreto 1965 dice que, pese a haberse informado a las autoridades, el comité adopta de inmediato las medidas propias del establecimiento para proteger a los involucrados."
+    },
+    {
+     "l": "B",
+     "t": "el comité debe reunirse primero a verificar los hechos y solo después decidir si informa a la Policía Nacional.",
+     "j": "Es incorrecta. En las situaciones tipo III el presidente del comité informa a la Policía de manera inmediata y por el medio más expedito; la citación del comité no condiciona ese reporte."
+    },
+    {
+     "l": "C",
+     "t": "el rector informa de inmediato a la Policía y, aun así, el comité adopta medidas para proteger a los involucrados.",
+     "j": "Es correcta. Las amenazas para obtener dinero y el porte de un arma configuran una situación tipo III. El presidente del comité informa de inmediato a la Policía y el comité, pese a ello, adopta medidas de protección para la víctima y los demás involucrados."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La extorsión con amenazas y el arma blanca son presuntos delitos: situación tipo III. El artículo 44 del Decreto 1965 ordena que el presidente del comité, de manera inmediata y por el medio más expedito, ponga la situación en conocimiento de la Policía Nacional; que se cite al comité; y que, pese a que la situación se haya puesto en conocimiento de las autoridades, el comité adopte de inmediato las medidas propias del establecimiento para proteger a la víctima, a quien se atribuye la agresión y a quienes informaron. El error típico es creer que el reporte a la Policía saca el caso del colegio, o que se debe esperar al comité para reportar.",
+   "fuente": "Decreto 1965 de 2013, art. 44.",
+   "consejo": "Tipo III: Policía de inmediato + el comité igual protege a los involucrados.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "3. El presidente del Comité Escolar de Convivencia, de manera inmediata y por el medio más expedito, pondrá la situación en conocimiento de la Policía Nacional.",
+     "ubicacion": "Decreto 1965 de 2013, art. 44"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "6. Pese a que una situación se haya puesto en conocimiento de las autoridades competentes, el Comité Escolar de Convivencia adoptará, de manera inmediata, las medidas propias del establecimiento educativo",
+     "ubicacion": "Decreto 1965 de 2013, art. 44"
+    }
+   ],
+   "competencia": "Comité de convivencia",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO022",
+   "tipo": "caso",
+   "caso": "CK08",
+   "familia": "GCO-CONV",
+   "dificultad": 2,
+   "enunciado": "Ante la propuesta de que usted presida el comité de manera permanente, usted responde que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "no es posible, porque la Ley 1620 establece que el comité lo preside el rector y el coordinador es uno de sus integrantes.",
+     "j": "Es correcta. El artículo 12 de la Ley 1620 conforma el comité con el rector, quien lo preside, y el coordinador cuando exista el cargo, junto con los demás integrantes; la presidencia no se traslada por propuesta del comité."
+    },
+    {
+     "l": "B",
+     "t": "es posible, siempre que el consejo directivo lo apruebe mediante acuerdo y quede consignado en el manual de convivencia.",
+     "j": "Es incorrecta. El comité debe darse su propio reglamento sobre sesiones y procedimientos, pero la presidencia está fijada por la ley en el rector; ni un acuerdo ni el manual pueden cambiarla."
+    },
+    {
+     "l": "C",
+     "t": "es posible, porque el coordinador es el directivo que atiende a diario las situaciones de convivencia de los estudiantes.",
+     "j": "Es incorrecta. Que el coordinador atienda las situaciones del día a día no modifica la conformación legal: la Ley 1620 dice expresamente que el rector preside el comité escolar de convivencia."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 12 de la Ley 1620 de 2013 conforma el comité escolar de convivencia con el rector, quien lo preside, el personero estudiantil, el docente con función de orientación, el coordinador cuando exista el cargo, el presidente del consejo de padres, el presidente del consejo de estudiantes y un docente que lidere procesos de convivencia. El artículo 18 de la misma ley le asigna al rector liderar el comité. El reglamento interno puede ordenar las sesiones, pero no cambiar quién preside. En la prueba, las opciones que «parecen prácticas» pero contradicen una conformación legal son distractores.",
+   "fuente": "Ley 1620 de 2013, arts. 12 y 18.",
+   "consejo": "Comité escolar de convivencia: lo preside el rector; el coordinador es integrante.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "El rector del establecimiento educativo, quien preside el comité",
+     "ubicacion": "Ley 1620 de 2013, art. 12"
+    },
+    {
+     "doc": "ley_1620_2013",
+     "texto": "El coordinador cuando exista este cargo",
+     "ubicacion": "Ley 1620 de 2013, art. 12"
+    }
+   ],
+   "competencia": "Comité de convivencia",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO023",
+   "tipo": "caso",
+   "caso": "CK08",
+   "familia": "GCO-CONV",
+   "dificultad": 3,
+   "enunciado": "Al definir las consecuencias para los tres estudiantes que agredieron a su compañero el lunes, usted orienta al comité para que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "se aplique la suspensión prevista en el manual, porque una sanción ejemplar envía un mensaje claro a todo el colegio.",
+     "j": "Es incorrecta. Las consecuencias pueden incluir sanciones del manual, pero la Guía 49 recomienda que cumplan un rol pedagógico; una sanción pensada como ejemplo para otros no repara el daño ni compromete a quienes lo causaron."
+    },
+    {
+     "l": "B",
+     "t": "los estudiantes ofrezcan disculpas públicas a su compañero en la formación general, para que la reparación sea visible.",
+     "j": "Es incorrecta. Busca reparar, pero la Guía 49 advierte que la confrontación pública de quienes agredieron puede volverse una humillación frente a la comunidad y exacerbar el problema."
+    },
+    {
+     "l": "C",
+     "t": "los estudiantes identifiquen el daño causado y realicen acciones para repararlo, con seguimiento del comité.",
+     "j": "Es correcta. Coincide con la justicia restaurativa que propone la Guía 49: quienes contribuyeron al acoso identifican el daño y realizan acciones para repararlo, y el Decreto 1965 prevé acciones restaurativas en el protocolo tipo II."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El protocolo tipo II del Decreto 1965 pide determinar acciones restaurativas que busquen la reparación de los daños y la reconciliación, además de las consecuencias para quienes participaron. La Guía 49 del MEN precisa el sentido: si se definen sanciones, que cumplan un rol pedagógico; quienes contribuyeron al acoso deben identificar el daño que causaron y realizar acciones para repararlo; y conviene evitar la confrontación pública, que puede volverse humillación. Las dos opciones incorrectas tienen una intención aceptable (dar ejemplo, reparar en público), pero contradicen ese enfoque.",
+   "fuente": "Guía 49 MEN (2013); Decreto 1965 de 2013, art. 43, numeral 5.",
+   "consejo": "Enfoque restaurativo: reconocer el daño y repararlo, sin humillación pública.",
+   "citas": [
+    {
+     "doc": "guia49_mineducacion_2013",
+     "texto": "quienes han contribuido al acoso escolar deben identificar el daño que sus acciones pudieron causar y realizar acciones para repararlo",
+     "ubicacion": "Guía 49, acoso escolar"
+    },
+    {
+     "doc": "guia49_mineducacion_2013",
+     "texto": "es importante evitar la confrontación pública de quienes han sido personas agresoras debido a que esto puede constituirse en una humillación",
+     "ubicacion": "Guía 49, acoso escolar"
+    }
+   ],
+   "competencia": "Comité de convivencia",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO024",
+   "tipo": "caso",
+   "caso": "CK09",
+   "familia": "GCO-INCL",
+   "dificultad": 2,
+   "enunciado": "Frente a la solicitud de los docentes, usted como coordinador",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "elabora los dos PIAR con el docente de apoyo, para que los docentes de aula solo apliquen los ajustes que queden definidos.",
+     "j": "Es incorrecta. Los directivos pueden participar, pero el Decreto 1421 dice que el diseño del PIAR lo lideran los docentes de aula con el docente de apoyo, la familia y el estudiante; no se delega en el coordinador."
+    },
+    {
+     "l": "B",
+     "t": "acuerda con los docentes que los PIAR se elaborarán cuando llegue el diagnóstico médico, para definir ajustes pertinentes.",
+     "j": "Es incorrecta. Los informes de salud aportan al PIAR, pero no son un requisito previo; esperar el diagnóstico aplaza el derecho y desconoce los plazos de elaboración que fija la norma."
+    },
+    {
+     "l": "C",
+     "t": "garantiza tiempos y espacios para que los docentes de aula, con el docente de apoyo, la familia y el estudiante, los elaboren.",
+     "j": "Es correcta. El Decreto 1421 obliga al establecimiento a proveer las condiciones para que se elaboren los PIAR y dice que su diseño lo lideran los docentes de aula con el docente de apoyo, la familia y el estudiante."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El Decreto 1421 de 2017 reparte las responsabilidades con precisión. El diseño del PIAR lo lideran el o los docentes de aula con el docente de apoyo, la familia y el estudiante; según la organización escolar, participan los directivos docentes y el orientador. Al establecimiento le corresponde proveer las condiciones para que se elaboren y garantizar su cumplimiento. Por eso la respuesta del coordinador es organizar tiempos y espacios, no asumir él la elaboración ni aplazarla hasta tener un diagnóstico médico. Recuerde que los informes de salud aportan al PIAR, pero no lo condicionan.",
+   "fuente": "Decreto 1421 de 2017, arts. 2.3.3.5.2.3.1 (literal c) y 2.3.3.5.2.3.5.",
+   "consejo": "PIAR: lo lideran los docentes de aula con el docente de apoyo, la familia y el estudiante; el directivo da las condiciones.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "El diseño de los PIAR lo liderarán el o los docentes de aula con el docente de apoyo, la familia y el estudiante.",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.5"
+    },
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "5. Proveer las condiciones para que los docentes, el orientador o los directivos docentes, según la organización escolar, elaboren los PIAR.",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.1, literal c"
+    }
+   ],
+   "competencia": "Inclusión",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO025",
+   "tipo": "caso",
+   "caso": "CK09",
+   "familia": "GCO-INCL",
+   "dificultad": 3,
+   "enunciado": "Sobre los plazos, usted les explica a los docentes que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "ambos PIAR deben estar listos al terminar el primer periodo académico, porque ese es el corte que fija el SIEE para los ajustes.",
+     "j": "Es incorrecta. El SIEE define los seguimientos periódicos del PIAR, pero el plazo de elaboración lo fija el Decreto 1421: primer trimestre del año escolar y, para quien llega tarde, no más de 30 días."
+    },
+    {
+     "l": "B",
+     "t": "el del estudiante matriculado en enero se hace en el primer trimestre, y el del que llegó por traslado, en no más de 30 días.",
+     "j": "Es correcta. El Decreto 1421 fija la elaboración del PIAR durante el primer trimestre del año escolar y, para quien se vincula de manera extemporánea, un término no mayor a treinta días para elaborarlo y firmar el acta de acuerdo."
+    },
+    {
+     "l": "C",
+     "t": "el del estudiante que llegó por traslado debe hacerlo la institución de origen, que conoce su proceso y entrega su historia escolar.",
+     "j": "Es incorrecta. Ante un traslado, la institución de origen entrega la información en coordinación con la familia, pero la elaboración del PIAR en la nueva institución es responsabilidad de esta, con un plazo de hasta 30 días."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 2.3.3.5.2.3.5 del Decreto 1421 de 2017 tiene dos plazos que la CNSC puede mezclar: el PIAR se elabora durante el primer trimestre del año escolar y se actualiza anualmente; y, si el estudiante se vincula de manera extemporánea, hay un término no mayor a treinta días para elaborar el PIAR y firmar el acta de acuerdo con la familia. Por eso cada estudiante del caso tiene su propio plazo. Los distractores toman piezas reales del sistema (el SIEE, la entrega entre instituciones) y les atribuyen un efecto que la norma no les da.",
+   "fuente": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.5 y su parágrafo 1.",
+   "consejo": "PIAR: primer trimestre; si llega tarde, máximo 30 días.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Se deberá elaborar durante el primer trimestre del año escolar, se actualizará anualmente y facilitará la entrega pedagógica entre grados.",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.5"
+    },
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "se contemplará un término no mayor a treinta (30) días para la elaboración de los PIAR y la firma del acta de acuerdo",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.5, parágrafo 1"
+    }
+   ],
+   "competencia": "Inclusión",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO026",
+   "tipo": "caso",
+   "caso": "CK09",
+   "familia": "GCO-INCL",
+   "dificultad": 3,
+   "enunciado": "Al revisar el PMI del próximo año, la propuesta que usted lleva al equipo de gestión es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "incluir en el PMI los requerimientos de los PIAR y el enfoque de educación inclusiva y de diseño universal de los aprendizajes.",
+     "j": "Es correcta. El Decreto 1421 manda incluir los requerimientos de los PIAR en los planes de mejoramiento institucional e incorporar el enfoque inclusivo y el diseño universal en el PEI, la autoevaluación y el PMI."
+    },
+    {
+     "l": "B",
+     "t": "dejar los PIAR por fuera del PMI, porque son planes individuales que se siguen en el aula y en el sistema de evaluación.",
+     "j": "Es incorrecta. Es cierto que el PIAR se sigue en el aula y según el SIEE, pero el Decreto 1421 exige además que sus requerimientos se incluyan en el PMI para que la institución planee los recursos y apoyos."
+    },
+    {
+     "l": "C",
+     "t": "crear un proyecto institucional aparte para los estudiantes con discapacidad, para no recargar el PMI con metas individuales.",
+     "j": "Es incorrecta. Un proyecto aislado contradice la lógica del Decreto 1421, que busca articular la inclusión con la planeación institucional; además, los proyectos específicos del PIAR deben incluir a todos los estudiantes."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El Decreto 1421 de 2017 conecta la inclusión con la gestión institucional: los requerimientos de los PIAR deben incluirse en los planes de mejoramiento institucional (PMI), y el establecimiento debe incorporar el enfoque de educación inclusiva y de diseño universal de los aprendizajes en el PEI, la autoevaluación y el PMI. También debe garantizar la articulación de los PIAR con la planeación de aula y el PMI. Para un coordinador, esto significa que la inclusión no es un proyecto paralelo, sino parte de la ruta de mejoramiento de la Guía 34, donde además figura como proceso de la gestión de la comunidad.",
+   "fuente": "Decreto 1421 de 2017, arts. 2.3.3.5.2.3.1 (literal c) y 2.3.3.5.2.3.5.",
+   "consejo": "PIAR → se articulan con la planeación de aula y entran al PMI.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Los requerimientos de los PIAR deben incluirse en los planes de mejoramiento institucional (PMI)",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.5"
+    },
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Incorporar el enfoque de educación inclusiva y de diseño universal de los aprendizajes en el Proyecto Educativo Institucional (PEI), los procesos de autoevaluación institucional y en el Plan de Mejoramiento Institucional (PMI).",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.1, literal c"
+    }
+   ],
+   "competencia": "Inclusión",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO027",
+   "tipo": "caso",
+   "caso": "CK10",
+   "familia": "PSI-COMP",
+   "dificultad": 3,
+   "enunciado": "Para dar continuidad al proceso educativo mediante el uso de las tecnologías de la información y la comunicación, usted opta por",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "convocar al consejo directivo para que defina los lineamientos pedagógicos para planear las clases virtuales.",
+     "j": "Es incorrecta según la clave oficial. La CNSC la califica como una actitud limitante: acude a un órgano que no actúa en la planeación del proceso de enseñanza y aplaza una decisión que corresponde al directivo."
+    },
+    {
+     "l": "B",
+     "t": "solicitar la autorización de los padres para abrir nuevos espacios y estrategias de aprendizaje a distancia.",
+     "j": "Es incorrecta según la clave oficial. La CNSC la considera poco asertiva: traslada a los padres una decisión de planeación que corresponde al directivo y al equipo docente, lo que la vuelve inoportuna y rígida."
+    },
+    {
+     "l": "C",
+     "t": "adecuar la práctica pedagógica usando herramientas digitales para desarrollar los contenidos curriculares.",
+     "j": "Es correcta según la clave oficial. Muestra una postura ética, oportuna y pertinente: atiende de inmediato la situación con el equipo y busca una solución que beneficie a toda la comunidad educativa."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Este es un ejemplo oficial de la CNSC y sirve para calibrar su lógica. La competencia evaluada es compromiso social e institucional: asumir responsabilidades con ética y profesionalismo, anteponiendo los intereses institucionales. Según la justificación oficial, convocar al consejo directivo o pedir autorización a los padres trasladan a otros una decisión que el directivo debe asumir con su equipo, y por eso se leen como conductas rígidas o limitantes. La opción correcta actúa de inmediato y con el equipo. Lección para la psicotécnica: la CNSC premia la acción oportuna dentro del propio rol, no la consulta que aplaza.",
+   "fuente": "Guía de orientación al aspirante CNSC 2022, ejemplo 2 (adaptado).",
+   "consejo": "Psicotécnica: actúe a tiempo desde su rol; no traslade la decisión a otra instancia.",
+   "citas": [
+    {
+     "doc": "guia_orientacion_cnsc_2022",
+     "texto": "Habilidad para asumir responsabilidades con ética y profesionalismo, dentro y fuera del establecimiento, anteponiendo los intereses institucionales a los personales",
+     "ubicacion": "Guía de orientación CNSC 2022, ejemplo 2"
+    }
+   ],
+   "competencia": "Compromiso social e institucional",
+   "cargo": "coordinador"
+  },
+  {
+   "id": "CO028",
+   "tipo": "caso",
+   "caso": "CK11",
+   "familia": "PSI-COMRI",
+   "dificultad": 2,
+   "enunciado": "Ante la propuesta de los padres, usted prefiere",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "comunicarles de manera precisa que en la institución no se pueden realizar esa clase de eventos.",
+     "j": "Es incorrecta según la clave oficial. Aunque haya un interés político, los padres tienen derecho a proponer y ser escuchados; una negativa tajante es poco asertiva y puede generar desconfianza en la gestión."
+    },
+    {
+     "l": "B",
+     "t": "comprometer a los docentes para que escuchen las ideas políticas de los padres de familia.",
+     "j": "Es incorrecta según la clave oficial. Influye en los docentes para complacer una solicitud por encima de los intereses institucionales y de las normas, una conducta evasiva y poco responsable."
+    },
+    {
+     "l": "C",
+     "t": "dialogar con los líderes para aclarar la intención que tiene la solicitud que presentaron.",
+     "j": "Es correcta según la clave oficial. Usa un mecanismo asertivo: escucha y media para entender la intención y lograr acuerdos, con una actitud honesta y responsable con la institución."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Ejemplo oficial de la CNSC para directivos. La competencia es comunicación y relaciones interpersonales: intercambiar con efectividad y empatía ideas y criterios, favoreciendo relaciones cordiales, asertivas y basadas en la confianza. Ni la negativa inmediata ni ceder a la presión política reflejan esa competencia; el diálogo para aclarar la intención sí, porque abre la puerta a un acuerdo que proteja a la institución (por ejemplo, recibir el material sin acto partidista). En la psicotécnica, la opción ganadora suele escuchar primero y decidir después, sin evadir ni imponer.",
+   "fuente": "Guía de orientación al aspirante CNSC 2022, ejemplo 5 (adaptado).",
+   "consejo": "Ante presiones de la comunidad: escuchar y aclarar antes de decidir; ni imponer ni ceder.",
+   "citas": [
+    {
+     "doc": "guia_orientacion_cnsc_2022",
+     "texto": "Habilidad para intercambiar con efectividad y empatía conceptos, criterios e ideas",
+     "ubicacion": "Guía de orientación CNSC 2022, ejemplo 5"
+    }
+   ],
+   "competencia": "Comunicación y relaciones interpersonales",
+   "cargo": "coordinador"
+  }
+ ]
+}

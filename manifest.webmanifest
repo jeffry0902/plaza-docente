@@ -1,7 +1,7 @@
 {
   "name": "Plaza Docente",
   "short_name": "Plaza Docente",
-  "description": "Tu dosis diaria para la plaza docente: entrenamiento CNSC en Tecnología e Informática.",
+  "description": "Tu dosis diaria para la plaza docente: entrenamiento CNSC para docentes y directivos docentes.",
   "lang": "es-CO",
   "start_url": "./",
   "scope": "./",

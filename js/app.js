@@ -1,10 +1,10 @@
-/* Plaza Docente — entrenamiento diario CNSC (Tecnología e Informática)
+/* Plaza Docente — entrenamiento diario CNSC (docente de Tecnología e Informática y directivo coordinador)
    App de una sola página, sin dependencias. Datos locales + respaldo en Supabase. */
 (() => {
 "use strict";
 const CFG = window.PLAZA_CONFIG;
 const $app = document.getElementById("app");
-const K = { clave: "pd_clave", estado: "pd_estado", outbox: "pd_outbox", banco: "pd_banco" };
+const K = { clave: "pd_clave", estado: "pd_estado", outbox: "pd_outbox", banco: "pd_banco", cargo: "pd_cargo" };
 
 /* ---------- utilidades ---------- */
 const pad = n => String(n).padStart(2, "0");
@@ -61,6 +61,10 @@ function confeti(n = 90) {
 
 /* ---------- estado ---------- */
 const S = { banco: null, estado: null, clave: null, vista: "inicio", ses: null, sync: { ok: true, msg: "" } };
+S.cargo = CFG.cargos[localStorage.getItem(K.cargo)] ? localStorage.getItem(K.cargo) : "docente_ti";
+const RUTA = CFG.cargos[S.cargo].datos;
+window.PD_DATOS = RUTA;
+const META = CFG.cargos[S.cargo].meta || 60;   // mínimo aprobatorio de la prueba eliminatoria (60 docentes, 70 directivos)   // extra.js toma de aquí juegos, mapas y apuntes del cargo
 const estadoInicial = () => ({
   v: 1, t: 0,
   perfil: { nombre: "", inicio: null, xp: 0, racha: 0, mejorRacha: 0, ultimoDia: null, dias: [], insignias: {}, rescates: 0, dueloSemana: null, respondidas: 0 },
@@ -138,16 +142,18 @@ function indexar(b) {
 async function cargarBanco() {
   try {
     const get = u => fetch(u, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(u); return r.json(); });
-    const [marco, indice] = await Promise.all([get(CFG.marcoUrl), get(CFG.indiceUrl)]);
+    const [marco, indice] = await Promise.all([get(RUTA + "marco.json"), get(RUTA + "indice.json")]);
     const lotes = await Promise.all(indice.lotes.map(l => get("data/" + l)));
     const retirados = new Set(indice.retirados || []);
     const b = { version: marco.version, actualizado: lotes.length ? lotes[lotes.length - 1].fecha : marco.actualizado, lotes: lotes.length,
       componentes: marco.componentes, afirmaciones: marco.afirmaciones, familias: marco.familias, casos: [], fichas: [], items: [] };
-    const [ctx, plan] = await Promise.all([get("data/contextos.json").catch(() => ({})), get("data/lecturas/indice.json").catch(() => ({ lecturas: [] }))]);
+    const [ctx, plan] = await Promise.all([get(RUTA + "contextos.json").catch(() => ({})), get(RUTA + "lecturas/indice.json").catch(() => ({ lecturas: [] }))]);
     b.contextos = ctx; b.plan = plan.lecturas || [];
-    lotes.forEach(l => { b.casos.push(...(l.casos || [])); b.fichas.push(...(l.fichas || [])); b.items.push(...(l.items || []).filter(it => !retirados.has(it.id))); });
-    localStorage.setItem(K.banco, JSON.stringify(b)); return b;
-  } catch { const c = localStorage.getItem(K.banco); if (c) return JSON.parse(c); throw new Error("No se pudo cargar el banco de preguntas."); }
+    const deCargo = x => !!marco.familias[x.familia];   // solo lo que evalúa el cargo
+    lotes.forEach(l => { b.casos.push(...(l.casos || [])); b.fichas.push(...(l.fichas || []).filter(deCargo)); b.items.push(...(l.items || []).filter(it => !retirados.has(it.id) && deCargo(it))); });
+    const usados = new Set(b.items.map(it => it.caso)); b.casos = b.casos.filter(c => usados.has(c.id));
+    localStorage.setItem(K.banco + "_" + S.cargo, JSON.stringify(b)); return b;
+  } catch { const c = localStorage.getItem(K.banco + "_" + S.cargo); if (c) return JSON.parse(c); throw new Error("No se pudo cargar el banco de preguntas."); }
 }
 
 /* ---------- lógica de aprendizaje ---------- */
@@ -221,7 +227,7 @@ function armarCola(tipo, opts = {}) {
       shuffle(itemsDeLectura(L.id)).filter(id => !S.estado.items[id]?.vistos).slice(0, 3).forEach(id => add(id));
     }
   }
-  const distinto = tipo === "reto" && !opts.sinFicha && esDiaDistinto() && window.PDX?.J;
+  const distinto = tipo === "reto" && !opts.sinFicha && esDiaDistinto() && window.PDX?.J && PDX.juegosLista().length > 0;
   if (distinto) {
     const g = PDX.elegirJuegoDelDia(hoy());
     if (g) { cola.push({ juego: { tipo: g.tipo, id: g.id } }); extraN++; }
@@ -417,7 +423,7 @@ const INSIGNIAS = [
   { id: "cien", e: "🏅", n: "100 preguntas", d: "Responde 100 preguntas" },
   { id: "xp1000", e: "⭐", n: "1.000 XP", d: "Acumula 1.000 puntos" },
   { id: "sim1", e: "⏱️", n: "Primer simulacro", d: "Presenta tu primer simulacro" },
-  { id: "aprobada", e: "✅", n: "Sobre la línea", d: "60 o más en un simulacro" },
+  { id: "aprobada", e: "✅", n: "Sobre la línea", d: "La meta o más en un simulacro" },
   { id: "sobresaliente", e: "🏆", n: "Sobresaliente", d: "80 o más en un simulacro" }
 ];
 const domina = fams => fams.every(f => (S.estado.familias[f]?.caja || 0) >= DOMINIO);
@@ -438,7 +444,7 @@ function revisarInsignias(ev) {
   if (domina(["RC-INT", "RC-FORM", "RC-ARG"])) dar("numeros");
   if (P.respondidas >= 100) dar("cien");
   if (P.xp >= 1000) dar("xp1000");
-  if (ev.tipo === "simulacro") { dar("sim1"); if (ev.puntaje >= 60) dar("aprobada"); if (ev.puntaje >= 80) dar("sobresaliente"); }
+  if (ev.tipo === "simulacro") { dar("sim1"); if (ev.puntaje >= META) dar("aprobada"); if (ev.puntaje >= 80) dar("sobresaliente"); }
   // semana certera: 7 días consecutivos con reto >= 80 %
   const porDia = {}; S.estado.sesiones.filter(x => x.tipo === "reto").forEach(x => { const p = x.ok / Math.max(1, x.total); porDia[x.fecha] = Math.max(porDia[x.fecha] || 0, p); });
   let seguidos = 0; for (let k = 0; k < 7; k++) { if ((porDia[masDias(hoy(), -k)] || 0) >= .8) seguidos++; else break; }
@@ -597,7 +603,7 @@ function vistaInicio() {
   const dueloOk = cof > 0 && P.dueloSemana !== semanaISO();
   const saludo = new Date().getHours() < 12 ? "Buenos días" : new Date().getHours() < 19 ? "Buenas tardes" : "Buenas noches";
   return `
-  <div class="top"><div><div class="muted small">${saludo},</div><h1>${esc(P.nombre || "aspirante")}</h1></div>
+  <div class="top"><div><div class="muted small">${saludo},</div><h1>${esc(P.nombre || "aspirante")}</h1><div class="tiny muted">${esc(CFG.cargos[S.cargo].nombre)}</div></div>
     <div class="row"><button class="icon-btn badge-btn" data-a="infoSim" aria-label="Próximo simulacro">⏱️${simAviso(sim) ? `<span class="noti">${sim.disponible ? "!" : sim.dias}</span>` : ""}</button><button class="icon-btn" data-v="insignias" aria-label="Insignias">🏆</button><button class="icon-btn" data-v="ajustes" aria-label="Ajustes">⚙️</button></div></div>
   <div class="chips" style="margin-bottom:14px">
     <span class="chip fire">🔥 ${r} ${r === 1 ? "día" : "días"}</span>
@@ -629,14 +635,14 @@ function vistaInicio() {
 
   <div class="card mt"><div class="row between"><h3>Preparación estimada</h3><b>${prep}%</b></div>
     <div class="bar amber mt"><i style="width:${prep}%"></i></div>
-    <p class="tiny muted mt">Combina tu precisión y cuánto del banco has trabajado. La prueba eliminatoria exige 60/100.</p>
+    <p class="tiny muted mt">Combina tu precisión y cuánto del banco has trabajado. La prueba eliminatoria exige ${META}/100.</p>
     <button class="btn ghost" data-v="progreso">Ver progreso por componente →</button></div>
 
 
 
-  <div class="card mt"><div class="row"><div style="font-size:30px">🗺️</div><div style="flex:1"><h3>Mapas, apuntes y esquemas</h3>
+  ${S.cargo === "coordinador" ? "" : `<div class="card mt"><div class="row"><div style="font-size:30px">🗺️</div><div style="flex:1"><h3>Mapas, apuntes y esquemas</h3>
      <p class="small muted">Los documentos en apuntes visuales dibujados a mano, esquemas y mapas mentales de cada documento.</p></div></div>
-     <button class="btn violet mt" data-a="abrirMapas">Explorar</button></div>
+     <button class="btn violet mt" data-a="abrirMapas">Explorar</button></div>`}
 
   <div class="card mt"><div class="row"><div style="font-size:30px">📝</div><div style="flex:1"><h3>Cuaderno de estudio</h3>
      <p class="small muted">Para sentarte con calma: lee los documentos completos, guarda conceptos con tus palabras y repásalos. ${S.estado.cuaderno.conceptos.length ? `Llevas ${S.estado.cuaderno.conceptos.length} ${S.estado.cuaderno.conceptos.length === 1 ? "concepto" : "conceptos"}.` : ""}</p></div></div>
@@ -828,7 +834,7 @@ function vistaResumen() {
     <div class="score">${p}%</div><p class="muted">${ok} de ${tot} correctas · +${s.xp} XP${s.bonus ? ` (incluye bono de ${s.bonus})` : ""}</p>
     <div class="chips" style="justify-content:center"><span class="chip fire">🔥 Racha: ${rachaVisible()} ${rachaVisible() === 1 ? "día" : "días"}</span><span class="chip xp">⭐ ${S.estado.perfil.xp} XP</span></div>
     <div class="card" style="text-align:left"><p>${S.estado.perfil.nombre ? esc(S.estado.perfil.nombre) + ", " + esc(msj.charAt(0).toLowerCase() + msj.slice(1)) : esc(msj)}</p>
-      <div class="row between small mt"><span>Preparación para la meta (60/100)</span><b>${prep}%</b></div><div class="bar amber"><i style="width:${prep}%"></i></div>
+      <div class="row between small mt"><span>Preparación para la meta (${META}/100)</span><b>${prep}%</b></div><div class="bar amber"><i style="width:${prep}%"></i></div>
       ${fallas.length ? `<p class="small mt"><b>🧠 Guardado en tu cofre:</b> ${esc([...new Set(fallas)].join(" · "))}. Aparecerán en próximos retos con otros contextos.</p>` : `<p class="small mt">Sin errores para el cofre. 👏</p>`}
     </div>
     ${s.nuevas?.length ? `<div class="card"><h3>Nuevas insignias</h3><div class="badge-grid mt">${s.nuevas.map(b => `<div class="badge on pop"><div class="e">${b.e}</div><b>${esc(b.n)}</b></div>`).join("")}</div></div>` : ""}
@@ -836,14 +842,14 @@ function vistaResumen() {
     <button class="btn" data-v="inicio">Volver al inicio</button></div>`;
 }
 function vistaResumenSimulacro() {
-  const s = S.ses, r = s.sim, aprueba = r.puntaje >= 60;
+  const s = S.ses, r = s.sim, aprueba = r.puntaje >= META;
   const filas = S.banco.componentes.filter(c => r.porComp[c.id]).map(c => { const x = r.porComp[c.id], p = Math.round(x.ok / x.n * 100);
-    return `<div class="comp-row"><span>${c.icono}</span><div><div class="small"><b>${esc(c.nombre)}</b> · ${x.ok}/${x.n}</div><div class="bar ${p < 60 ? "amber" : ""}"><i style="width:${p}%"></i></div></div><b class="small">${p}%</b></div>`; }).join("");
+    return `<div class="comp-row"><span>${c.icono}</span><div><div class="small"><b>${esc(c.nombre)}</b> · ${x.ok}/${x.n}</div><div class="bar ${p < META ? "amber" : ""}"><i style="width:${p}%"></i></div></div><b class="small">${p}%</b></div>`; }).join("");
   const errores = s.res.filter(x => !x.ok);
   return `<div class="stack">
     <div class="center"><div style="font-size:60px" class="pop">${aprueba ? "🏆" : "📈"}</div><h1>Resultado del simulacro</h1>
     <div class="score" style="color:${aprueba ? "var(--ok)" : "var(--coral)"}">${r.puntaje.toLocaleString("es-CO",{minimumFractionDigits:2,maximumFractionDigits:2})}</div>
-    <p class="muted">Aptitudes y Competencias Básicas (sobre 100) · mínimo aprobatorio para docentes: 60 · ${r.minutos} min</p>
+    <p class="muted">Aptitudes y Competencias Básicas (sobre 100) · mínimo aprobatorio: ${META} · ${r.minutos} min</p>
     ${r.psi !== null ? `<p class="small">Psicotécnica (clasificatoria): ${r.psi}% de acierto</p>` : ""}</div>
     <div class="card"><h3>Por componente</h3>${filas}<p class="tiny muted mt">Estimación del entrenamiento: la CNSC califica con puntuación directa o ajustada y puede excluir ítems que no cumplan parámetros psicométricos.</p></div>
     ${errores.length ? `<div class="card"><h3>Revisa tus ${errores.length} errores</h3><p class="small muted">Ya están en tu cofre. Toca uno para ver la justificación.</p>
@@ -994,10 +1000,10 @@ function vistaProgreso() {
     <div class="row between mt"><span>Mejor racha</span><b>${S.estado.perfil.mejorRacha} días</b></div></div>
   <div class="card mt"><h3>Precisión por componente</h3>
   ${S.banco.componentes.map(c => { const st = statsComp(c.id), p = st.precision === null ? null : Math.round(st.precision * 100);
-    return `<div class="comp-row"><span>${c.icono}</span><div><div class="small"><b>${esc(c.nombre)}</b> <span class="muted">· ${esc(c.prueba)}</span></div><div class="bar ${p !== null && p < 60 ? "amber" : ""}"><i style="width:${p ?? 0}%"></i></div></div><b class="small">${p === null ? "—" : p + "%"}</b></div>`; }).join("")}
-  <p class="tiny muted">La barra naranja indica precisión por debajo de 60 %: prioriza ese componente en el mapa.</p></div>
-  <div class="card mt"><h3>Simulacros</h3>${sims.length ? sims.map(x => `<div class="row between small mt"><span>${fechaLarga(x.fecha)}</span><b style="color:${x.puntaje >= 60 ? "var(--ok)" : "var(--coral)"}">${x.puntaje.toLocaleString("es-CO",{minimumFractionDigits:2,maximumFractionDigits:2})}</b></div>`).join("") : `<p class="small muted">Aún no has presentado simulacros.</p>`}</div>
-  <div class="card mt"><h3>Cómo es la prueba real</h3><p class="small">Proceso de Selección 2026 (Acuerdo 314 de 2026 para Yopal): la <b>Prueba de Aptitudes y Competencias Básicas</b> es eliminatoria (60/100 para docentes, 55 % del puntaje total) e incluye lectura crítica, razonamiento cuantitativo, competencias blandas y conocimientos disciplinares con competencias pedagógicas. La <b>Psicotécnica</b> es clasificatoria (5 %). Las preguntas son casos con un enunciado y tres opciones (formato de juicio situacional).</p></div>`;
+    return `<div class="comp-row"><span>${c.icono}</span><div><div class="small"><b>${esc(c.nombre)}</b> <span class="muted">· ${esc(c.prueba)}</span></div><div class="bar ${p !== null && p < META ? "amber" : ""}"><i style="width:${p ?? 0}%"></i></div></div><b class="small">${p === null ? "—" : p + "%"}</b></div>`; }).join("")}
+  <p class="tiny muted">La barra naranja indica precisión por debajo de ${META} %: prioriza ese componente en el mapa.</p></div>
+  <div class="card mt"><h3>Simulacros</h3>${sims.length ? sims.map(x => `<div class="row between small mt"><span>${fechaLarga(x.fecha)}</span><b style="color:${x.puntaje >= META ? "var(--ok)" : "var(--coral)"}">${x.puntaje.toLocaleString("es-CO",{minimumFractionDigits:2,maximumFractionDigits:2})}</b></div>`).join("") : `<p class="small muted">Aún no has presentado simulacros.</p>`}</div>
+  <div class="card mt"><h3>Cómo es la prueba real</h3><p class="small">Proceso de Selección 2026 (Acuerdo 314 de 2026 para Yopal): la <b>Prueba de Aptitudes y Competencias Básicas</b> es eliminatoria (${S.cargo === "coordinador" ? "70/100 para directivos docentes" : "60/100 para docentes"}, 55 % del puntaje total) e incluye lectura crítica, razonamiento cuantitativo, competencias blandas y ${S.cargo === "coordinador" ? "conocimientos de la formación requerida para el cargo (para el coordinador: gestión directiva, académica, administrativa y comunitaria)" : "conocimientos disciplinares"} con competencias pedagógicas. La <b>Psicotécnica</b> es clasificatoria (5 %). Las preguntas son casos con un enunciado y tres opciones (formato de juicio situacional).</p></div>`;
 }
 function vistaAjustes() {
   const P = S.estado.perfil;
@@ -1044,7 +1050,9 @@ const DOCS = {
   decreto_1075_2015: "Decreto 1075 de 2015", decreto_1421_2017: "Decreto 1421 de 2017", decreto_1965_2013: "Decreto 1965 de 2013",
   ley_1620_2013: "Ley 1620 de 2013", ley_115_1994: "Ley 115 de 1994", ley_1098_2006: "Ley 1098 de 2006", decreto_1278_2002: "Decreto 1278 de 2002",
   resolucion_3842_2022_ocr: "Resolución 3842 de 2022 (MEN)", anexo_tecnico_2026: "Anexo Técnico CNSC 2026", acuerdo_314_2026_yopal: "Acuerdo 314 de 2026 (Yopal)",
-  guia_orientacion_cnsc_2022: "Guía de orientación al aspirante CNSC 2022"
+  guia_orientacion_cnsc_2022: "Guía de orientación al aspirante CNSC 2022",
+  guia34_mineducacion_2008: "Guía 34 MEN: Guía para el mejoramiento institucional (2008)", ley_715_2001: "Ley 715 de 2001",
+  guia49_mineducacion_2013: "Guía 49 MEN: Guías pedagógicas para la convivencia escolar (2013)"
 };
 function modalReporte() {
   const s = S.ses, it = IDX.items[s.cola[s.i].id];
@@ -1071,7 +1079,7 @@ function modalSimulacro() {
   const m = modal(`<h2>⏱️ Simulacro del mes</h2>
     <ul class="small"><li>${CFG.simulacroPreguntas} preguntas en ${CFG.simulacroPreguntas * CFG.minutosPorPregunta} minutos (unos ${CFG.minutosPorPregunta} min por pregunta, ritmo del examen real de 5 horas).</li>
     <li>Sin retroalimentación hasta el final, como el examen.</li><li>Busca un lugar tranquilo, sin celular aparte de esta app, con lápiz y papel para cálculos.</li>
-    <li>Al final verás tu puntaje sobre 100 frente al mínimo de 60 y tus errores irán al cofre.</li></ul>
+    <li>Al final verás tu puntaje sobre 100 frente al mínimo de ${META} y tus errores irán al cofre.</li></ul>
     <button class="btn violet mt" data-m="ok">Comenzar ahora</button><button class="btn ghost" data-m="no">Más tarde</button>`);
   m.querySelector("[data-m=ok]").onclick = () => { cerrarModal(); iniciarSesion("simulacro"); };
   m.querySelector("[data-m=no]").onclick = cerrarModal;
@@ -1129,7 +1137,10 @@ $app.addEventListener("click", async e => {
       S.clave = h; localStorage.setItem(K.clave, h);
       const local = S.estado; const remoto = r.datos && r.datos.v ? r.datos : null;
       S.estado = remoto && (!local || (remoto.t || 0) >= (local.t || 0)) ? remoto : (local || estadoInicial());
-      normalizar(); guardarLocal(); S.sync = { ok: true, msg: "Conectado" }; ir("inicio"); setTimeout(avisoSimulacro, 600);
+      normalizar(); guardarLocal(); S.sync = { ok: true, msg: "Conectado" };
+      const cargo = CFG.cargos[r.cargo] ? r.cargo : "docente_ti";
+      if (cargo !== S.cargo) { localStorage.setItem(K.cargo, cargo); await sincronizar().catch(() => {}); location.reload(); return; }
+      ir("inicio"); setTimeout(avisoSimulacro, 600);
     } catch (err) { b.disabled = false; b.textContent = "Entrar"; toast(err.message === "clave_invalida" ? "Clave incorrecta" : "Sin conexión. Intenta de nuevo."); }
   }
   else if (a === "guardarNombre") { const n = document.getElementById("nombre").value.trim(); if (!n) return; S.estado.perfil.nombre = n; S.estado.perfil.inicio ||= hoy(); guardarLocal(); toast("Guardado"); ir("inicio"); }
@@ -1288,6 +1299,8 @@ window.PD = {
       normalizar(); render();
       // trae la versión más reciente de la nube (p. ej., si usó otro dispositivo)
       rpc("pd_cargar", { p_clave: S.clave }).then(r => {
+        const cargo = CFG.cargos[r?.cargo] ? r.cargo : "docente_ti";
+        if (cargo !== S.cargo) { localStorage.setItem(K.cargo, cargo); location.reload(); return; }
         if (r?.datos?.v && (r.datos.t || 0) > (S.estado.t || 0) && S.vista === "inicio") { S.estado = r.datos; normalizar(); localStorage.setItem(K.estado, JSON.stringify(S.estado)); render(); }
         S.sync = { ok: true, msg: "Sincronizado" }; pintarSync(); if (outbox().intentos.length || outbox().sesiones.length || outbox().reportes.length) programarSync(300);
       }).catch(() => { S.sync = { ok: false, msg: "Sin conexión: tu avance se guarda en el celular" }; pintarSync(); });

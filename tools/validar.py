@@ -16,7 +16,7 @@ Sale con código 1 si hay errores. Los avisos no bloquean.
 import argparse, json, os, re, sys, unicodedata, collections
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-REQUIERE_CITA = {"DIS", "PED", "NOR"}
+REQUIERE_CITA = {"DIS", "PED", "NOR", "GDI", "GAC", "GAF", "GCO"}
 
 
 def norm(t: str) -> str:
@@ -59,6 +59,7 @@ def main():
     ap.add_argument("--fuentes", required=True)
     ap.add_argument("--estricto", action="store_true", help="los avisos también fallan")
     ap.add_argument("--buscar", nargs=2, metavar=("DOC", "TEXTO"))
+    ap.add_argument("--cargo", default="docente_ti", choices=["docente_ti", "coordinador"], help="marco e índice a validar")
     a = ap.parse_args()
     docs = cargar_fuentes(a.fuentes)
     if a.buscar:
@@ -67,8 +68,9 @@ def main():
         sys.exit(0 if ok else 1)
 
     errores, avisos = [], []
-    marco = json.load(open(os.path.join(RAIZ, "data", "marco.json"), encoding="utf-8"))
-    indice = json.load(open(os.path.join(RAIZ, "data", "indice.json"), encoding="utf-8"))
+    base = os.path.join(RAIZ, "data", "coord" if a.cargo == "coordinador" else "")
+    marco = json.load(open(os.path.join(base, "marco.json"), encoding="utf-8"))
+    indice = json.load(open(os.path.join(base, "indice.json"), encoding="utf-8"))
     comps = {c["id"] for c in marco["componentes"]}
     fams = marco["familias"]
     afirm = {x["id"]: x for x in marco["afirmaciones"]}
@@ -90,7 +92,9 @@ def main():
         for fi in d.get("fichas", []):
             if fi["id"] in fichas: errores.append(f"ficha duplicada {fi['id']}")
             fichas[fi["id"]] = fi
-            if fi.get("familia") not in fams: errores.append(f"ficha {fi['id']}: familia inexistente")
+            if fi.get("familia") not in fams:
+                if a.cargo == "docente_ti" or lote.startswith("lotes/coord-"): errores.append(f"ficha {fi['id']}: familia inexistente")
+                continue
             if not fi.get("citas"): errores.append(f"ficha {fi['id']}: sin citas")
             for ct in fi.get("citas", []):
                 ok, m = cita_ok(docs, ct.get("doc", ""), ct.get("texto", ""))
@@ -107,6 +111,7 @@ def main():
         if i in ids: errores.append(f"ítem duplicado {i}")
         ids.add(i)
         f = fams.get(it.get("familia"))
+        if not f and a.cargo != "docente_ti" and not it["_lote"].startswith("lotes/coord-"): continue   # ítem de otro cargo
         if not f: errores.append(f"{i}: familia inexistente {it.get('familia')}"); continue
         if it.get("tipo") not in ("caso", "conocimiento"): errores.append(f"{i}: tipo inválido")
         if it.get("tipo") == "caso" and it.get("caso") not in casos: errores.append(f"{i}: caso inexistente")

@@ -1,0 +1,1435 @@
+{
+"version": 1,
+"lecturas": [
+{
+"id": "K001",
+"doc": "resolucion_3842_2022_ocr",
+"nombre": "Resolución 3842 de 2022 (funciones y competencias del directivo docente)",
+"parte": 1,
+"total": 4,
+"titulo": "Presentación",
+"palabras": 507,
+"archivo": "coord/lecturas/p001.json"
+},
+{
+"id": "K002",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 1,
+"total": 19,
+"titulo": "Arts. 1 a 2",
+"palabras": 475,
+"archivo": "coord/lecturas/p001.json"
+},
+{
+"id": "K003",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1860 de 1994 · gobierno escolar (compilado en el Decreto 1075)",
+"parte": 1,
+"total": 4,
+"titulo": "Arts. 2.3.3.1.5.1 a 2.3.3.1.5.3",
+"palabras": 516,
+"archivo": "coord/lecturas/p001.json"
+},
+{
+"id": "K004",
+"doc": "resolucion_3842_2022_ocr",
+"nombre": "Resolución 3842 de 2022 (funciones y competencias del directivo docente)",
+"parte": 2,
+"total": 4,
+"titulo": "Esta área de gestión comprende dos (2) competencias, a saber",
+"palabras": 753,
+"archivo": "coord/lecturas/p001.json"
+},
+{
+"id": "K005",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 1,
+"total": 19,
+"titulo": "Arts. 1 a 5",
+"palabras": 577,
+"archivo": "coord/lecturas/p001.json"
+},
+{
+"id": "K006",
+"doc": "resolucion_3842_2022_ocr",
+"nombre": "Resolución 3842 de 2022 (funciones y competencias del directivo docente)",
+"parte": 3,
+"total": 4,
+"titulo": "Parte 3",
+"palabras": 776,
+"archivo": "coord/lecturas/p001.json"
+},
+{
+"id": "K007",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1290 de 2009 · evaluación (compilado en el Decreto 1075)",
+"parte": 1,
+"total": 5,
+"titulo": "Arts. 2.3.3.3.3.1 a 2.3.3.3.3.3",
+"palabras": 515,
+"archivo": "coord/lecturas/p001.json"
+},
+{
+"id": "K008",
+"doc": "resolucion_3842_2022_ocr",
+"nombre": "Resolución 3842 de 2022 (funciones y competencias del directivo docente)",
+"parte": 4,
+"total": 4,
+"titulo": "Parte 4",
+"palabras": 705,
+"archivo": "coord/lecturas/p001.json"
+},
+{
+"id": "K009",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 1,
+"total": 14,
+"titulo": "Arts. 1 a 2.3.3.5.1.4",
+"palabras": 754,
+"archivo": "coord/lecturas/p001.json"
+},
+{
+"id": "K010",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 1,
+"total": 38,
+"titulo": "Presentación",
+"palabras": 759,
+"archivo": "coord/lecturas/p001.json"
+},
+{
+"id": "K011",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 2,
+"total": 38,
+"titulo": "Parte 2",
+"palabras": 784,
+"archivo": "coord/lecturas/p002.json"
+},
+{
+"id": "K012",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 2,
+"total": 19,
+"titulo": "Arts. 3 a 4",
+"palabras": 567,
+"archivo": "coord/lecturas/p002.json"
+},
+{
+"id": "K013",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 4791 de 2008 · Fondos de Servicios Educativos (compilado en el Decreto 1075)",
+"parte": 1,
+"total": 6,
+"titulo": "Arts. 2.3.1.6.3.1 a 2.3.1.6.3.5",
+"palabras": 695,
+"archivo": "coord/lecturas/p002.json"
+},
+{
+"id": "K014",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 3,
+"total": 38,
+"titulo": "Parte 3",
+"palabras": 792,
+"archivo": "coord/lecturas/p002.json"
+},
+{
+"id": "K015",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 2,
+"total": 19,
+"titulo": "Arts. 6 a 9",
+"palabras": 495,
+"archivo": "coord/lecturas/p002.json"
+},
+{
+"id": "K016",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 4,
+"total": 38,
+"titulo": "Parte 4",
+"palabras": 814,
+"archivo": "coord/lecturas/p002.json"
+},
+{
+"id": "K017",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 1,
+"total": 17,
+"titulo": "Arts. 1 a 5",
+"palabras": 484,
+"archivo": "coord/lecturas/p002.json"
+},
+{
+"id": "K018",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 5,
+"total": 38,
+"titulo": "Parte 5",
+"palabras": 596,
+"archivo": "coord/lecturas/p002.json"
+},
+{
+"id": "K019",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 2,
+"total": 14,
+"titulo": "Art. 2.3.3.5.1.4 (continuación)",
+"palabras": 647,
+"archivo": "coord/lecturas/p002.json"
+},
+{
+"id": "K020",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 6,
+"total": 38,
+"titulo": "Un establecimiento educativo con buenos resultados y que mejora continuamente",
+"palabras": 497,
+"archivo": "coord/lecturas/p002.json"
+},
+{
+"id": "K021",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 7,
+"total": 38,
+"titulo": "Tiene ambientes de aprendizaje apropiados",
+"palabras": 522,
+"archivo": "coord/lecturas/p003.json"
+},
+{
+"id": "K022",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 3,
+"total": 19,
+"titulo": "Arts. 5 a 6",
+"palabras": 503,
+"archivo": "coord/lecturas/p003.json"
+},
+{
+"id": "K023",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1860 de 1994 · gobierno escolar (compilado en el Decreto 1075)",
+"parte": 2,
+"total": 4,
+"titulo": "Arts. 2.3.3.1.5.4 a 2.3.3.1.5.6",
+"palabras": 810,
+"archivo": "coord/lecturas/p003.json"
+},
+{
+"id": "K024",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 8,
+"total": 38,
+"titulo": "Promueve el desarrollo personal y social",
+"palabras": 512,
+"archivo": "coord/lecturas/p003.json"
+},
+{
+"id": "K025",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 3,
+"total": 19,
+"titulo": "Arts. 10 a 13",
+"palabras": 430,
+"archivo": "coord/lecturas/p003.json"
+},
+{
+"id": "K026",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 9,
+"total": 38,
+"titulo": "Características institucionales",
+"palabras": 797,
+"archivo": "coord/lecturas/p003.json"
+},
+{
+"id": "K027",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1290 de 2009 · evaluación (compilado en el Decreto 1075)",
+"parte": 2,
+"total": 5,
+"titulo": "Arts. 2.3.3.3.3.4 a 2.3.3.3.3.6",
+"palabras": 484,
+"archivo": "coord/lecturas/p003.json"
+},
+{
+"id": "K028",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 10,
+"total": 38,
+"titulo": "Cuadro No. 3. Procesos y componentes de las áreas de gestión institucional",
+"palabras": 462,
+"archivo": "coord/lecturas/p003.json"
+},
+{
+"id": "K029",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 3,
+"total": 14,
+"titulo": "Arts. 2.3.3.5.2.2.1 a 2.3.3.5.2.3.1",
+"palabras": 754,
+"archivo": "coord/lecturas/p003.json"
+},
+{
+"id": "K030",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 11,
+"total": 38,
+"titulo": "Área de gestión",
+"palabras": 428,
+"archivo": "coord/lecturas/p003.json"
+},
+{
+"id": "K031",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 4,
+"total": 19,
+"titulo": "Arts. 7 a 8",
+"palabras": 761,
+"archivo": "coord/lecturas/p004.json"
+},
+{
+"id": "K032",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 12,
+"total": 38,
+"titulo": "Apoyo financiero y contable",
+"palabras": 695,
+"archivo": "coord/lecturas/p004.json"
+},
+{
+"id": "K033",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 4791 de 2008 · Fondos de Servicios Educativos (compilado en el Decreto 1075)",
+"parte": 2,
+"total": 6,
+"titulo": "Arts. 2.3.1.6.3.6 a 2.3.1.6.3.8",
+"palabras": 662,
+"archivo": "coord/lecturas/p004.json"
+},
+{
+"id": "K034",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 13,
+"total": 38,
+"titulo": "Cuadro No. 4. Pasos para el mejoramiento Etapa",
+"palabras": 706,
+"archivo": "coord/lecturas/p004.json"
+},
+{
+"id": "K035",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 4,
+"total": 19,
+"titulo": "Arts. 14 a 16",
+"palabras": 469,
+"archivo": "coord/lecturas/p004.json"
+},
+{
+"id": "K036",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 14,
+"total": 38,
+"titulo": "PRIMERA: AUTOEVALUACIÓN INSTITUCIONAL",
+"palabras": 568,
+"archivo": "coord/lecturas/p004.json"
+},
+{
+"id": "K037",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 2,
+"total": 17,
+"titulo": "Arts. 6 a 8",
+"palabras": 455,
+"archivo": "coord/lecturas/p004.json"
+},
+{
+"id": "K038",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 15,
+"total": 38,
+"titulo": "PASO 1",
+"palabras": 742,
+"archivo": "coord/lecturas/p004.json"
+},
+{
+"id": "K039",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 4,
+"total": 14,
+"titulo": "Art. 2.3.3.5.2.3.1 (continuación)",
+"palabras": 775,
+"archivo": "coord/lecturas/p004.json"
+},
+{
+"id": "K040",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 16,
+"total": 38,
+"titulo": "PASO 1",
+"palabras": 672,
+"archivo": "coord/lecturas/p004.json"
+},
+{
+"id": "K041",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 17,
+"total": 38,
+"titulo": "PASO 2 Actividades",
+"palabras": 440,
+"archivo": "coord/lecturas/p005.json"
+},
+{
+"id": "K042",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 5,
+"total": 19,
+"titulo": "Art. 9",
+"palabras": 677,
+"archivo": "coord/lecturas/p005.json"
+},
+{
+"id": "K043",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1860 de 1994 · gobierno escolar (compilado en el Decreto 1075)",
+"parte": 3,
+"total": 4,
+"titulo": "Arts. 2.3.3.1.5.7 a 2.3.3.1.5.9",
+"palabras": 476,
+"archivo": "coord/lecturas/p005.json"
+},
+{
+"id": "K044",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 18,
+"total": 38,
+"titulo": "Tipo de información",
+"palabras": 438,
+"archivo": "coord/lecturas/p005.json"
+},
+{
+"id": "K045",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 5,
+"total": 19,
+"titulo": "Arts. 17 a 20",
+"palabras": 500,
+"archivo": "coord/lecturas/p005.json"
+},
+{
+"id": "K046",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 19,
+"total": 38,
+"titulo": "PASO 2 Resultados esperados",
+"palabras": 661,
+"archivo": "coord/lecturas/p005.json"
+},
+{
+"id": "K047",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1290 de 2009 · evaluación (compilado en el Decreto 1075)",
+"parte": 3,
+"total": 5,
+"titulo": "Arts. 2.3.3.3.3.7 a 2.3.3.3.3.10",
+"palabras": 533,
+"archivo": "coord/lecturas/p005.json"
+},
+{
+"id": "K048",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 20,
+"total": 38,
+"titulo": "Resultados esperados",
+"palabras": 723,
+"archivo": "coord/lecturas/p005.json"
+},
+{
+"id": "K049",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 5,
+"total": 14,
+"titulo": "Art. 2.3.3.5.2.3.1 (continuación)",
+"palabras": 582,
+"archivo": "coord/lecturas/p005.json"
+},
+{
+"id": "K050",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 21,
+"total": 38,
+"titulo": "PASO 4",
+"palabras": 525,
+"archivo": "coord/lecturas/p005.json"
+},
+{
+"id": "K051",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 22,
+"total": 38,
+"titulo": "SEGUNDA ETAPA: ELABORACIÓN DEL PLAN DE MEJORAMIENTO",
+"palabras": 440,
+"archivo": "coord/lecturas/p006.json"
+},
+{
+"id": "K052",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 4791 de 2008 · Fondos de Servicios Educativos (compilado en el Decreto 1075)",
+"parte": 3,
+"total": 6,
+"titulo": "Arts. 2.3.1.6.3.9 a 2.3.1.6.3.11",
+"palabras": 762,
+"archivo": "coord/lecturas/p006.json"
+},
+{
+"id": "K053",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 6,
+"total": 19,
+"titulo": "Art. 10",
+"palabras": 435,
+"archivo": "coord/lecturas/p006.json"
+},
+{
+"id": "K054",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 23,
+"total": 38,
+"titulo": "PASO 1",
+"palabras": 608,
+"archivo": "coord/lecturas/p006.json"
+},
+{
+"id": "K055",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 6,
+"total": 19,
+"titulo": "Arts. 21 a 24",
+"palabras": 424,
+"archivo": "coord/lecturas/p006.json"
+},
+{
+"id": "K056",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 24,
+"total": 38,
+"titulo": "PASO 2",
+"palabras": 479,
+"archivo": "coord/lecturas/p006.json"
+},
+{
+"id": "K057",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 3,
+"total": 17,
+"titulo": "Arts. 9 a 11",
+"palabras": 506,
+"archivo": "coord/lecturas/p006.json"
+},
+{
+"id": "K058",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 25,
+"total": 38,
+"titulo": "Plazo Incia",
+"palabras": 513,
+"archivo": "coord/lecturas/p006.json"
+},
+{
+"id": "K059",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 6,
+"total": 14,
+"titulo": "Art. 2.3.3.5.2.3.2",
+"palabras": 676,
+"archivo": "coord/lecturas/p006.json"
+},
+{
+"id": "K060",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 26,
+"total": 38,
+"titulo": "PASO 3 Actividades",
+"palabras": 497,
+"archivo": "coord/lecturas/p006.json"
+},
+{
+"id": "K061",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 27,
+"total": 38,
+"titulo": "Periodicidad de cálculo",
+"palabras": 456,
+"archivo": "coord/lecturas/p007.json"
+},
+{
+"id": "K062",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1860 de 1994 · gobierno escolar (compilado en el Decreto 1075)",
+"parte": 4,
+"total": 4,
+"titulo": "Arts. 2.3.3.1.5.10 a 2.3.3.1.5.12",
+"palabras": 620,
+"archivo": "coord/lecturas/p007.json"
+},
+{
+"id": "K063",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 7,
+"total": 19,
+"titulo": "Arts. 11 a 13",
+"palabras": 595,
+"archivo": "coord/lecturas/p007.json"
+},
+{
+"id": "K064",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 28,
+"total": 38,
+"titulo": "Definición de las actividades y de sus responsables",
+"palabras": 473,
+"archivo": "coord/lecturas/p007.json"
+},
+{
+"id": "K065",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 7,
+"total": 19,
+"titulo": "Arts. 25 a 28",
+"palabras": 442,
+"archivo": "coord/lecturas/p007.json"
+},
+{
+"id": "K066",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 29,
+"total": 38,
+"titulo": "PASO 4",
+"palabras": 616,
+"archivo": "coord/lecturas/p007.json"
+},
+{
+"id": "K067",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1290 de 2009 · evaluación (compilado en el Decreto 1075)",
+"parte": 4,
+"total": 5,
+"titulo": "Arts. 2.3.3.3.3.11 a 2.3.3.3.3.13",
+"palabras": 456,
+"archivo": "coord/lecturas/p007.json"
+},
+{
+"id": "K068",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 30,
+"total": 38,
+"titulo": "PASO 5",
+"palabras": 615,
+"archivo": "coord/lecturas/p007.json"
+},
+{
+"id": "K069",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 7,
+"total": 14,
+"titulo": "Arts. 2.3.3.5.2.3.3 a 2.3.3.5.2.3.4",
+"palabras": 470,
+"archivo": "coord/lecturas/p007.json"
+},
+{
+"id": "K070",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 31,
+"total": 38,
+"titulo": "PASO 6",
+"palabras": 538,
+"archivo": "coord/lecturas/p007.json"
+},
+{
+"id": "K071",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 32,
+"total": 38,
+"titulo": "PASO 7 Actividades",
+"palabras": 774,
+"archivo": "coord/lecturas/p008.json"
+},
+{
+"id": "K072",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 1290 de 2009 · evaluación (compilado en el Decreto 1075)",
+"parte": 5,
+"total": 5,
+"titulo": "Arts. 2.3.3.3.3.14 a 2.3.3.3.3.17",
+"palabras": 311,
+"archivo": "coord/lecturas/p008.json"
+},
+{
+"id": "K073",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 8,
+"total": 19,
+"titulo": "Arts. 14 a 15",
+"palabras": 670,
+"archivo": "coord/lecturas/p008.json"
+},
+{
+"id": "K074",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 33,
+"total": 38,
+"titulo": "TERCERA ETAPA: SEGUIMIENTO Y EVALUACIÓN",
+"palabras": 596,
+"archivo": "coord/lecturas/p008.json"
+},
+{
+"id": "K075",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 8,
+"total": 19,
+"titulo": "Arts. 29 a 30",
+"palabras": 458,
+"archivo": "coord/lecturas/p008.json"
+},
+{
+"id": "K076",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 34,
+"total": 38,
+"titulo": "PASO 1",
+"palabras": 584,
+"archivo": "coord/lecturas/p008.json"
+},
+{
+"id": "K077",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 4791 de 2008 · Fondos de Servicios Educativos (compilado en el Decreto 1075)",
+"parte": 4,
+"total": 6,
+"titulo": "Arts. 2.3.1.6.3.12 a 2.3.1.6.3.13",
+"palabras": 567,
+"archivo": "coord/lecturas/p008.json"
+},
+{
+"id": "K078",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 35,
+"total": 38,
+"titulo": "PASO 2 Actividades",
+"palabras": 425,
+"archivo": "coord/lecturas/p008.json"
+},
+{
+"id": "K079",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 8,
+"total": 14,
+"titulo": "Art. 2.3.3.5.2.3.5",
+"palabras": 533,
+"archivo": "coord/lecturas/p008.json"
+},
+{
+"id": "K080",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 36,
+"total": 38,
+"titulo": "Resultados esperados",
+"palabras": 531,
+"archivo": "coord/lecturas/p008.json"
+},
+{
+"id": "K081",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 37,
+"total": 38,
+"titulo": "PASO 3",
+"palabras": 511,
+"archivo": "coord/lecturas/p009.json"
+},
+{
+"id": "K082",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 9,
+"total": 19,
+"titulo": "Art. 16",
+"palabras": 437,
+"archivo": "coord/lecturas/p009.json"
+},
+{
+"id": "K083",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 4,
+"total": 17,
+"titulo": "Arts. 12 a 13",
+"palabras": 422,
+"archivo": "coord/lecturas/p009.json"
+},
+{
+"id": "K084",
+"doc": "guia34_mineducacion_2008",
+"nombre": "Guía 34 MEN: Guía para el mejoramiento institucional (2008)",
+"parte": 38,
+"total": 38,
+"titulo": "Resultados esperados",
+"palabras": 305,
+"archivo": "coord/lecturas/p009.json"
+},
+{
+"id": "K085",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 9,
+"total": 19,
+"titulo": "Arts. 31 a 33",
+"palabras": 509,
+"archivo": "coord/lecturas/p009.json"
+},
+{
+"id": "K086",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 1,
+"total": 17,
+"titulo": "Arts. 1 a 3",
+"palabras": 453,
+"archivo": "coord/lecturas/p009.json"
+},
+{
+"id": "K087",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 4791 de 2008 · Fondos de Servicios Educativos (compilado en el Decreto 1075)",
+"parte": 5,
+"total": 6,
+"titulo": "Arts. 2.3.1.6.3.14 a 2.3.1.6.3.17",
+"palabras": 552,
+"archivo": "coord/lecturas/p009.json"
+},
+{
+"id": "K088",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 2,
+"total": 17,
+"titulo": "Arts. 4 a 5",
+"palabras": 758,
+"archivo": "coord/lecturas/p009.json"
+},
+{
+"id": "K089",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 9,
+"total": 14,
+"titulo": "Arts. 2.3.3.5.2.3.6 a 2.3.3.5.2.3.8",
+"palabras": 467,
+"archivo": "coord/lecturas/p009.json"
+},
+{
+"id": "K090",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 3,
+"total": 17,
+"titulo": "Art. 6",
+"palabras": 640,
+"archivo": "coord/lecturas/p009.json"
+},
+{
+"id": "K091",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 10,
+"total": 19,
+"titulo": "Art. 17",
+"palabras": 450,
+"archivo": "coord/lecturas/p010.json"
+},
+{
+"id": "K092",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 4,
+"total": 17,
+"titulo": "Art. 7",
+"palabras": 489,
+"archivo": "coord/lecturas/p010.json"
+},
+{
+"id": "K093",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 5,
+"total": 17,
+"titulo": "Arts. 14 a 19",
+"palabras": 478,
+"archivo": "coord/lecturas/p010.json"
+},
+{
+"id": "K094",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 5,
+"total": 17,
+"titulo": "Arts. 8 a 9",
+"palabras": 449,
+"archivo": "coord/lecturas/p010.json"
+},
+{
+"id": "K095",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 10,
+"total": 19,
+"titulo": "Arts. 34 a 36",
+"palabras": 774,
+"archivo": "coord/lecturas/p010.json"
+},
+{
+"id": "K096",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 6,
+"total": 17,
+"titulo": "Art. 10",
+"palabras": 445,
+"archivo": "coord/lecturas/p010.json"
+},
+{
+"id": "K097",
+"doc": "decreto_1075_2015",
+"nombre": "Decreto 4791 de 2008 · Fondos de Servicios Educativos (compilado en el Decreto 1075)",
+"parte": 6,
+"total": 6,
+"titulo": "Arts. 2.3.1.6.3.18 a 2.3.1.6.3.20",
+"palabras": 472,
+"archivo": "coord/lecturas/p010.json"
+},
+{
+"id": "K098",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 7,
+"total": 17,
+"titulo": "Arts. 11 a 13",
+"palabras": 716,
+"archivo": "coord/lecturas/p010.json"
+},
+{
+"id": "K099",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 10,
+"total": 14,
+"titulo": "Arts. 2.3.3.5.2.3.9 a 2.3.3.5.2.3.12",
+"palabras": 591,
+"archivo": "coord/lecturas/p010.json"
+},
+{
+"id": "K100",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 8,
+"total": 17,
+"titulo": "Arts. 14 a 15",
+"palabras": 460,
+"archivo": "coord/lecturas/p010.json"
+},
+{
+"id": "K101",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 11,
+"total": 19,
+"titulo": "Arts. 18 a 19",
+"palabras": 437,
+"archivo": "coord/lecturas/p011.json"
+},
+{
+"id": "K102",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 9,
+"total": 17,
+"titulo": "Arts. 27 a 16",
+"palabras": 850,
+"archivo": "coord/lecturas/p011.json"
+},
+{
+"id": "K103",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 6,
+"total": 17,
+"titulo": "Arts. 20 a 22",
+"palabras": 446,
+"archivo": "coord/lecturas/p011.json"
+},
+{
+"id": "K104",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 10,
+"total": 17,
+"titulo": "Arts. 17 a 18",
+"palabras": 661,
+"archivo": "coord/lecturas/p011.json"
+},
+{
+"id": "K105",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 11,
+"total": 19,
+"titulo": "Art. 37",
+"palabras": 721,
+"archivo": "coord/lecturas/p011.json"
+},
+{
+"id": "K106",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 11,
+"total": 17,
+"titulo": "Arts. 19 a 21",
+"palabras": 527,
+"archivo": "coord/lecturas/p011.json"
+},
+{
+"id": "K107",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 7,
+"total": 17,
+"titulo": "Arts. 23 a 25",
+"palabras": 566,
+"archivo": "coord/lecturas/p011.json"
+},
+{
+"id": "K108",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 12,
+"total": 17,
+"titulo": "Arts. 22 a 24",
+"palabras": 737,
+"archivo": "coord/lecturas/p011.json"
+},
+{
+"id": "K109",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 11,
+"total": 14,
+"titulo": "Arts. 2.3.3.5.2.3.13 a 2",
+"palabras": 767,
+"archivo": "coord/lecturas/p011.json"
+},
+{
+"id": "K110",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 13,
+"total": 17,
+"titulo": "Arts. 25 a 29",
+"palabras": 633,
+"archivo": "coord/lecturas/p011.json"
+},
+{
+"id": "K111",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 12,
+"total": 19,
+"titulo": "Arts. 20 a 21",
+"palabras": 756,
+"archivo": "coord/lecturas/p012.json"
+},
+{
+"id": "K112",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 14,
+"total": 17,
+"titulo": "Arts. 30 a 32",
+"palabras": 445,
+"archivo": "coord/lecturas/p012.json"
+},
+{
+"id": "K113",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 8,
+"total": 17,
+"titulo": "Arts. 26 a 29",
+"palabras": 508,
+"archivo": "coord/lecturas/p012.json"
+},
+{
+"id": "K114",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 15,
+"total": 17,
+"titulo": "Arts. 33 a 37",
+"palabras": 420,
+"archivo": "coord/lecturas/p012.json"
+},
+{
+"id": "K115",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 12,
+"total": 19,
+"titulo": "Arts. 38 a 39",
+"palabras": 737,
+"archivo": "coord/lecturas/p012.json"
+},
+{
+"id": "K116",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 16,
+"total": 17,
+"titulo": "Art. 38",
+"palabras": 489,
+"archivo": "coord/lecturas/p012.json"
+},
+{
+"id": "K117",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 9,
+"total": 17,
+"titulo": "Arts. 30 a 32",
+"palabras": 459,
+"archivo": "coord/lecturas/p012.json"
+},
+{
+"id": "K118",
+"doc": "ley_715_2001",
+"nombre": "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)",
+"parte": 17,
+"total": 17,
+"titulo": "Arts. 39 a 41",
+"palabras": 992,
+"archivo": "coord/lecturas/p012.json"
+},
+{
+"id": "K119",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 12,
+"total": 14,
+"titulo": "Arts. 3 a 5",
+"palabras": 761,
+"archivo": "coord/lecturas/p012.json"
+},
+{
+"id": "K120",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 13,
+"total": 19,
+"titulo": "Arts. 22 a 23",
+"palabras": 813,
+"archivo": "coord/lecturas/p012.json"
+},
+{
+"id": "K121",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 10,
+"total": 17,
+"titulo": "Arts. 33 a 35",
+"palabras": 440,
+"archivo": "coord/lecturas/p013.json"
+},
+{
+"id": "K122",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 13,
+"total": 19,
+"titulo": "Arts. 40 a 41",
+"palabras": 622,
+"archivo": "coord/lecturas/p013.json"
+},
+{
+"id": "K123",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 11,
+"total": 17,
+"titulo": "Arts. 36 a 38",
+"palabras": 495,
+"archivo": "coord/lecturas/p013.json"
+},
+{
+"id": "K124",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 13,
+"total": 14,
+"titulo": "Arts. 6 a 2.5.3.3.3.1",
+"palabras": 586,
+"archivo": "coord/lecturas/p013.json"
+},
+{
+"id": "K125",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 14,
+"total": 19,
+"titulo": "Arts. 24 a 26",
+"palabras": 485,
+"archivo": "coord/lecturas/p013.json"
+},
+{
+"id": "K126",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 12,
+"total": 17,
+"titulo": "Arts. 39 a 42",
+"palabras": 731,
+"archivo": "coord/lecturas/p013.json"
+},
+{
+"id": "K127",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 14,
+"total": 19,
+"titulo": "Arts. 42 a 43",
+"palabras": 660,
+"archivo": "coord/lecturas/p013.json"
+},
+{
+"id": "K128",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 13,
+"total": 17,
+"titulo": "Arts. 43 a 46",
+"palabras": 433,
+"archivo": "coord/lecturas/p013.json"
+},
+{
+"id": "K129",
+"doc": "decreto_1421_2017",
+"nombre": "Decreto 1421 de 2017 (educación inclusiva)",
+"parte": 14,
+"total": 14,
+"titulo": "Arts. 8 a 11",
+"palabras": 319,
+"archivo": "coord/lecturas/p013.json"
+},
+{
+"id": "K130",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 15,
+"total": 19,
+"titulo": "Arts. 27 a 28",
+"palabras": 506,
+"archivo": "coord/lecturas/p013.json"
+},
+{
+"id": "K131",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 14,
+"total": 17,
+"titulo": "Arts. 47 a 53",
+"palabras": 569,
+"archivo": "coord/lecturas/p014.json"
+},
+{
+"id": "K132",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 15,
+"total": 19,
+"titulo": "Art. 44",
+"palabras": 542,
+"archivo": "coord/lecturas/p014.json"
+},
+{
+"id": "K133",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 15,
+"total": 17,
+"titulo": "Arts. 54 a 57",
+"palabras": 469,
+"archivo": "coord/lecturas/p014.json"
+},
+{
+"id": "K134",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 16,
+"total": 19,
+"titulo": "Arts. 29 a 30",
+"palabras": 565,
+"archivo": "coord/lecturas/p014.json"
+},
+{
+"id": "K135",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 16,
+"total": 19,
+"titulo": "Art. 45",
+"palabras": 569,
+"archivo": "coord/lecturas/p014.json"
+},
+{
+"id": "K136",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 16,
+"total": 17,
+"titulo": "Arts. 58 a 63",
+"palabras": 575,
+"archivo": "coord/lecturas/p014.json"
+},
+{
+"id": "K137",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 17,
+"total": 19,
+"titulo": "Arts. 31 a 32",
+"palabras": 741,
+"archivo": "coord/lecturas/p014.json"
+},
+{
+"id": "K138",
+"doc": "decreto_1278_2002",
+"nombre": "Decreto 1278 de 2002 (Estatuto docente)",
+"parte": 17,
+"total": 17,
+"titulo": "Arts. 64 a 69",
+"palabras": 501,
+"archivo": "coord/lecturas/p014.json"
+},
+{
+"id": "K139",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 17,
+"total": 19,
+"titulo": "Arts. 46 a 49",
+"palabras": 475,
+"archivo": "coord/lecturas/p014.json"
+},
+{
+"id": "K140",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 18,
+"total": 19,
+"titulo": "Arts. 33 a 36",
+"palabras": 464,
+"archivo": "coord/lecturas/p014.json"
+},
+{
+"id": "K141",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 18,
+"total": 19,
+"titulo": "Arts. 50 a 52",
+"palabras": 449,
+"archivo": "coord/lecturas/p015.json"
+},
+{
+"id": "K142",
+"doc": "ley_1620_2013",
+"nombre": "Ley 1620 de 2013 (convivencia escolar)",
+"parte": 19,
+"total": 19,
+"titulo": "Arts. 37 a 40",
+"palabras": 357,
+"archivo": "coord/lecturas/p015.json"
+},
+{
+"id": "K143",
+"doc": "decreto_1965_2013",
+"nombre": "Decreto 1965 de 2013 (reglamenta la Ley 1620)",
+"parte": 19,
+"total": 19,
+"titulo": "Arts. 53 a 55",
+"palabras": 246,
+"archivo": "coord/lecturas/p015.json"
+}
+]
+}

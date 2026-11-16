@@ -34,8 +34,8 @@ let J = null;   // juegos.json
 let MAPAS = null, SK = null;
 async function cargar() {
   if (J && MAPAS && SK) return;
-  const get = u => fetch(u, { cache: "no-cache" }).then(r => r.json());
-  try { [J, MAPAS, SK] = await Promise.all([get("data/juegos.json"), get("data/mapas.json"), get("data/sketch.json").catch(() => ({ paginas: [] }))]); }
+  const get = u => fetch(u, { cache: "no-cache" }).then(r => r.json()), D = window.PD_DATOS || "data/";
+  try { [J, MAPAS, SK] = await Promise.all([get(D + "juegos.json"), get(D + "mapas.json"), get(D + "sketch.json").catch(() => ({ paginas: [] }))]); }
   catch { PD.toast("Sin conexión: los mapas y juegos se cargarán con internet."); }
 }
 

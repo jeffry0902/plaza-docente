@@ -27,6 +27,20 @@ DOCS = [
  ("resolucion_3842_2022_ocr", "Resolución 3842 de 2022 (funciones y competencias del docente)", 3, 0.6, r"ULTIMO:^2\.1 DOCENTES DE AULA", r"^2\.2 DOCENTE ORIENTADOR", "guia"),
  ("ley_1098_2006", "Ley 1098 de 2006 (Código de Infancia y Adolescencia)", 3, 0.8, r"^ARTÍCULO 1o|^ARTÍCULO 1\b", r"^LIBRO II", "ley"),
 ]
+# Plan del directivo docente coordinador. Un mismo documento puede entrar por tramos: el 8.º campo es la clave del tramo.
+DOCS_COORD = [
+ ("resolucion_3842_2022_ocr", "Resolución 3842 de 2022 (funciones y competencias del directivo docente)", 1, 1.0, r"ULTIMO:^CAPÍTULO 1\. DE CARGOS DE DIRECTIVO DOCENTE", r"^CAPÍTULO 2\. DE CARGOS DOCENTES", "guia", "r3842"),
+ ("guia34_mineducacion_2008", "Guía 34 MEN: Guía para el mejoramiento institucional (2008)", 1, 1.0, r"^1\.1 La descentralización", r"^Glosario y$", "guia", "g34"),
+ ("ley_715_2001", "Ley 715 de 2001 (Títulos I y II: Sistema General de Participaciones y sector educación)", 1, 1.0, r"^ARTÍCULO 1\. Naturaleza", r"^TITULO III", "ley", "l715"),
+ ("ley_1620_2013", "Ley 1620 de 2013 (convivencia escolar)", 2, 1.0, r"^ARTÍCULO 1o", None, "ley", "l1620"),
+ ("decreto_1965_2013", "Decreto 1965 de 2013 (reglamenta la Ley 1620)", 2, 1.0, r"^ARTÍCULO 1\b|^Artículo 1\b|^ARTICULO 1\b", None, "ley", "d1965"),
+ ("decreto_1421_2017", "Decreto 1421 de 2017 (educación inclusiva)", 2, 1.0, r"^ARTÍCULO 1\b|^Artículo 1\b|^ARTICULO 1\b", None, "ley", "d1421"),
+ ("decreto_1075_2015", "Decreto 1860 de 1994 · gobierno escolar (compilado en el Decreto 1075)", 3, 0.8, r"^ARTÍCULO 2\.3\.3\.1\.5\.1\.", r"^ARTÍCULO 2\.3\.3\.1\.6\.1\.", "ley", "d1075-gob"),
+ ("decreto_1075_2015", "Decreto 1290 de 2009 · evaluación (compilado en el Decreto 1075)", 3, 0.8, r"^ARTÍCULO 2\.3\.3\.3\.3\.1\.", r"^ARTÍCULO 2\.3\.3\.3\.3\.18\.", "ley", "d1075-siee"),
+ ("decreto_1075_2015", "Decreto 4791 de 2008 · Fondos de Servicios Educativos (compilado en el Decreto 1075)", 3, 0.6, r"^ARTÍCULO 2\.3\.1\.6\.3\.1\.", r"^ARTÍCULO 2\.3\.1\.6\.4\.1\.", "ley", "d1075-fse"),
+ ("decreto_1278_2002", "Decreto 1278 de 2002 (Estatuto docente)", 3, 0.6, r"^ARTÍCULO 1\b|^Artículo 1\b|^ARTICULO 1\b", None, "ley", "d1278"),
+]
+CARGO = "docente_ti"
 PESO_GRUPO = {1: 0.5, 2: 0.3, 3: 0.2}
 ART = re.compile(r"^(ART[ÍI]CULO|Artículo|ARTICULO)\s+([\d\.]+[o°]?)", re.I)
 
@@ -55,6 +69,10 @@ def limpiar_lineas(raw):
         if re.fullmatch(r"\d{1,3}\s+Orientaciones Curriculares.*", s): continue   # encabezado de página
         if s.startswith("Orientaciones Curriculares para el Área de Tecnología e Informática en la Educación Básica y Media") and len(s) < 110: continue
         if re.fullmatch(r"[•·\-–—_]{1,3}", s): continue
+        if CARGO == "coordinador" and (re.fullmatch(r"(PRIMERA|SEGUNDA|TERCERA) PARTE:.*|LA RUTA DEL MEJORAMIENTO", s)
+                or s in ("Departamento Administrativo de la Función Pública", "EVA - Gestor Normativo", "Ley 715 de 2001")
+                or re.fullmatch(r"Decreto 1075 de 2015 Sector Educación \d+ EVA - Gestor Normativo", s)
+                or s.startswith("Continuación de la Resolución") or re.match(r"[Cc]argos de Directivos Docentes y Docentes del Sistema Especial de Carrera Docente y se dictan otras disposicione", s)): continue
         out.append(s)
     return out
 
@@ -202,8 +220,9 @@ def orden_plan(por_doc):
     """Intercalado por prioridad (stride scheduling): grupo 1 = 50 %, grupo 2 = 30 %, grupo 3 = 20 %.
     Dentro del grupo, los documentos avanzan en paralelo según su peso; la Guía 30 va antes que las Orientaciones."""
     grupos = {}
-    for (stem, nombre, g, peso, *_ ) in DOCS:
-        if por_doc.get(stem): grupos.setdefault(g, []).append([stem, peso, 0.0])
+    for d in docs_del_cargo():
+        stem, nombre, g, peso = d[:4]; clave = d[7] if len(d) > 7 else stem
+        if por_doc.get(clave): grupos.setdefault(g, []).append([clave, peso, 0.0])
     cola = {stem: list(fs) for stem, fs in por_doc.items()}
     # grupo 1: secuencial (Guía 30 completa y luego Orientaciones), los demás intercalados
     def siguiente_del_grupo(g):
@@ -221,18 +240,27 @@ def orden_plan(por_doc):
     return plan
 
 
+def docs_del_cargo(): return DOCS_COORD if CARGO == "coordinador" else DOCS
+
+
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--fuentes", default=os.path.join(RAIZ, "fuentes")); a = ap.parse_args()
+    global CARGO
+    ap = argparse.ArgumentParser(); ap.add_argument("--fuentes", default=os.path.join(RAIZ, "fuentes"))
+    ap.add_argument("--cargo", default="docente_ti", choices=["docente_ti", "coordinador"]); a = ap.parse_args()
+    CARGO = a.cargo
+    sub = "coord" if CARGO == "coordinador" else ""          # data/coord/... para coordinación
+    pref = "coord/" if CARGO == "coordinador" else ""
     por_doc = {}
-    for stem, nombre, g, peso, ini, fin, tipo in DOCS:
+    for d in docs_del_cargo():
+        stem, nombre, g, peso, ini, fin, tipo = d[:7]; clave = d[7] if len(d) > 7 else stem
         raw = open(os.path.join(a.fuentes, stem + ".txt"), encoding="utf-8", errors="ignore").read()
-        por_doc[stem] = fragmentos(stem, nombre, tipo, parrafos(cortar(limpiar_lineas(raw), ini, fin)))
+        por_doc[clave] = fragmentos(stem, nombre, tipo, parrafos(cortar(limpiar_lineas(raw), ini, fin)))
     plan = orden_plan(por_doc)
-    d = os.path.join(RAIZ, "data", "lecturas"); os.makedirs(d, exist_ok=True)
+    d = os.path.join(RAIZ, "data", sub, "lecturas"); os.makedirs(d, exist_ok=True)
     for f in glob.glob(os.path.join(d, "p*.json")): os.remove(f)
     indice = []
     for i, f in enumerate(plan):
-        f["id"] = f"L{i + 1:03d}"; f["archivo"] = f"lecturas/p{i // 10 + 1:03d}.json"
+        f["id"] = f"{'K' if CARGO == 'coordinador' else 'L'}{i + 1:03d}"; f["archivo"] = f"{pref}lecturas/p{i // 10 + 1:03d}.json"
         indice.append({k: f[k] for k in ("id", "doc", "nombre", "parte", "total", "titulo", "palabras", "archivo")})
     for b in range(0, len(plan), 10):
         json.dump([{k: f[k] for k in ("id", "doc", "nombre", "parte", "total", "titulo", "parrafos", "notas")} for f in plan[b:b + 10]],
@@ -253,7 +281,7 @@ def main():
                 ventana = pc + (pasajes[k + 1][3] if k + 1 < len(pasajes) and pasajes[k + 1][0] == lid else "")
                 if c[:60] in ventana: return f, j
         return None
-    indice_items = json.load(open(os.path.join(RAIZ, "data", "indice.json"), encoding="utf-8"))
+    indice_items = json.load(open(os.path.join(RAIZ, "data", sub, "indice.json"), encoding="utf-8"))
     contextos = {}
     sin = 0
     for lote in indice_items["lotes"]:
@@ -273,7 +301,7 @@ def main():
             while sum(palabras(p) for p in texto) > 320 and len(texto) > 1:
                 texto = texto[1:] if texto.index(ps[j]) > 0 else texto[:-1]
             contextos[it["id"]] = {"lectura": f["id"], "doc": f["doc"], "nombre": f["nombre"], "titulo": f["titulo"], "parrafos": texto}
-    json.dump(contextos, open(os.path.join(RAIZ, "data", "contextos.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    json.dump(contextos, open(os.path.join(RAIZ, "data", sub, "contextos.json"), "w", encoding="utf-8"), ensure_ascii=False)
     tot = sum(f["palabras"] for f in plan)
     print(f"Plan: {len(plan)} lecturas · {tot} palabras · {round(tot / 180)} min de lectura total")
     for stem in por_doc: print(f"  {stem}: {len(por_doc[stem])} lecturas")

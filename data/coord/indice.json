@@ -1,0 +1,14 @@
+{
+ "version": 1,
+ "cargo": "coordinador",
+ "nota": "Lotes compartidos con el banco docente (solo cuentan los ítems de familias que están en coord/marco.json) más los lotes propios de coordinación.",
+ "lotes": [
+  "lotes/2026-11-12-piloto.json",
+  "lotes/2026-11-13.json",
+  "lotes/2026-11-14.json",
+  "lotes/2026-11-15.json",
+  "lotes/2026-11-16.json",
+  "lotes/coord-2026-11-16.json"
+ ],
+ "retirados": []
+}

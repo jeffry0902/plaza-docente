@@ -63,3 +63,10 @@ Solo documentos oficiales: Guía 30 MEN, Ley 1620 de 2013 (texto vigente traído
 
 ## 6. Qué puede revisar alguien que no es experto
 Abrir la pregunta en la app: el recuadro verde "Lo que dice el documento oficial" debe decir lo mismo que la opción marcada como correcta. Si no coincide, tocar "Repórtala".
+
+## 7. Banco de coordinación (cuentas con cargo `coordinador`)
+- Datos propios en `data/coord/`: `marco.json` (componentes GDI, GAC, GAF, GCO + PED, NOR, LC, RC, CB, PSI), `indice.json` (lotes compartidos + lotes `lotes/coord-*.json`), plan de lectura `lecturas/` y `contextos.json`.
+- Un ítem de un lote compartido aparece en coordinación solo si su familia está en `data/coord/marco.json` (los de DIS no salen).
+- Fuentes extra: `guia34_mineducacion_2008`, `ley_715_2001`, `guia49_mineducacion_2013`.
+- Validar: `python3 tools/validar.py --fuentes fuentes --cargo coordinador`. Plan: `python3 tools/fragmentar.py --cargo coordinador` (ids K###; no cambia el plan docente).
+- Juegos, mapas y apuntes de coordinación aún vacíos (`data/coord/juegos.json`, `mapas.json`, `sketch.json`).
