@@ -31,11 +31,11 @@ if (Voz.ok) speechSynthesis.getVoices();
 
 /* ---------- datos ---------- */
 let J = null;   // juegos.json
-let MAPAS = null;
+let MAPAS = null, SK = null;
 async function cargar() {
-  if (J && MAPAS) return;
+  if (J && MAPAS && SK) return;
   const get = u => fetch(u, { cache: "no-cache" }).then(r => r.json());
-  try { [J, MAPAS] = await Promise.all([get("data/juegos.json"), get("data/mapas.json")]); }
+  try { [J, MAPAS, SK] = await Promise.all([get("data/juegos.json"), get("data/mapas.json"), get("data/sketch.json").catch(() => ({ paginas: [] }))]); }
   catch { PD.toast("Sin conexión: los mapas y juegos se cargarán con internet."); }
 }
 
@@ -62,6 +62,9 @@ function vistaMapas() {
   const lista = MAPAS || [], es = J?.esquemas || [];
   return `<div class="top"><button class="icon-btn" data-v="inicio">‹</button><h2>Mapas y juegos</h2><span style="width:44px"></span></div>
   <p class="muted small">Aprende de otra forma: esquemas visuales, mapas de cada documento, juegos de repaso y lectura en voz alta.</p>
+  <h3 class="mt2">✏️ Apuntes visuales</h3>
+  <p class="tiny muted">Como una página de cuaderno dibujada a mano: las ideas clave de cada capítulo con el texto del documento.</p>
+  <div class="sk-lista">${(SK?.paginas || []).map((p, k) => `<button class="sk-mini" data-a="verSketch" data-k="${k}" style="--c:${SKC[k % SKC.length]}"><span class="sk-mini-cap">${esc(p.capitulo)}</span><b>${esc(p.titulo)}</b><span class="sk-mini-ico">${p.nodos.map(n => n.i).filter(Boolean).slice(0, 4).join(" ")}</span></button>`).join("")}</div>
   <h3 class="mt2">🧩 Esquemas visuales</h3>
   ${es.map((e, k) => `<button class="node" data-a="verEsquema" data-id="${e.id}"><div class="ico" style="background:${COLORES[k % 8]}">${["🛤️", "🌈", "🗂️", "⚙️", "🏛️"][k] || "📌"}</div><div class="meta"><b>${esc(e.titulo)}</b><span class="tiny muted">${esc(e.fuente)}</span></div><span class="muted">›</span></button>`).join("")}
   <h3 class="mt2">🗺️ Mapa de cada documento</h3>
@@ -284,7 +287,7 @@ function juegoHTML(G, enSesion) {
   if (G.tipo === "emparejar") {
     h += `<p class="small">Toca un concepto y luego su definición.</p><div class="emp">
       <div>${G.izq.map(i => `<button class="emp-a ${G.ok.has(i) ? "ok" : ""} ${G.sel === i ? "sel" : ""}" data-a="jE" data-l="a" data-i="${i}" ${G.ok.has(i) ? "disabled" : ""}>${esc(d.pares[i].a)}</button>`).join("")}</div>
-      <div>${G.der.map(i => `<button class="emp-b ${G.ok.has(i) ? "ok" : ""} ${G.mal === i ? "bad" : ""}" data-a="jE" data-l="b" data-i="${i}" ${G.ok.has(i) ? "disabled" : ""}>${esc(d.pares[i].b)}</button>`).join("")}</div></div>`;
+      <div>${G.der.map(i => `<button class="emp-b ${G.ok.has(i) ? "ok" : ""} ${G.mal === i ? "bad" : ""}" data-a="jE" data-l="b" data-i="${i}" ${G.ok.has(i) ? "disabled" : ""}>${esc(G.ok.has(i) ? d.pares[i].b : (d.pares[i].o || d.pares[i].b))}</button>`).join("")}</div></div>`;
   }
   if (G.tipo === "ordenar") {
     h += `<p class="small">Ordena los pasos como los establece la norma. Usa las flechas.</p><div class="ord">${G.orden.map((i, k) => `<div class="ord-i ${G.revisado ? (i === k ? "ok" : "bad") : ""}">
@@ -339,9 +342,70 @@ function elegirJuegoDelDia(fecha) {
   const deTipo = lista.filter(g => g.tipo === t); return deTipo[Math.floor(n / tipos.length) % deTipo.length];
 }
 
+/* ---------- sketchnotes (apuntes visuales a mano) ---------- */
+const SKC = ["#FFD43B", "#74C0FC", "#FF8FAB", "#8CE99A", "#FFA94D", "#B197FC"];
+async function libsSketch() { await cargarScript("js/vendor/rough.js"); }
+function vistaSketch() {
+  const P = SK?.paginas || [], k = Math.max(0, Math.min(P.length - 1, V.sk || 0)), p = P[k]; if (!p) return vistaMapas();
+  const nota = (n, j) => `<div class="sk-nota sk-box" data-c="${SKC[(j + k) % SKC.length]}" data-forma="${p.tipo === "radial" && j % 2 ? "elipse" : "caja"}">
+      ${p.tipo === "flujo" ? `<span class="sk-num">${j + 1}</span>` : ""}${n.i ? `<span class="sk-ico">${n.i}</span>` : ""}<h4><mark style="--m:${SKC[(j + k) % SKC.length]}">${esc(n.t)}</mark></h4>
+      ${n.d ? `<p>${esc(n.d)}</p>` : ""}${n.lista ? `<ul>${n.lista.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+      ${n.lec ? `<button class="sk-leer" data-a="skLeer" data-l="${n.lec}">📖 leer en el documento</button>` : ""}</div>`;
+  return `<div class="top"><button class="icon-btn" data-v="mapas">‹</button><h2 style="font-size:18px">Apuntes visuales</h2><span class="tiny muted" style="width:44px;text-align:right">${k + 1}/${P.length}</span></div>
+  <div class="sk-papel" id="skPapel">
+    <svg class="sk-capa" id="skCapa"></svg>
+    <div class="sk-cap">${esc(p.capitulo)}</div>
+    <div class="sk-banner sk-box" data-c="${SKC[k % SKC.length]}" data-forma="banner"><h3>${esc(p.titulo)}</h3></div>
+    <div class="sk-centro sk-box" data-c="#ADB5BD" data-forma="nube" id="skCentro">${esc(p.centro)}</div>
+    <div class="sk-${p.tipo}" id="skNotas">${p.nodos.map((n, j) => nota(n, j)).join("")}</div>
+    <div class="sk-fuente">Fuente: ${esc(p.fuente)} · texto tomado del documento</div>
+  </div>
+  <div class="row mt"><button class="btn ghost" data-a="skMover" data-d="-1" ${k ? "" : "disabled"}>‹ Anterior</button><button class="btn" data-a="skMover" data-d="1" ${k < P.length - 1 ? "" : "disabled"}>Siguiente ›</button></div>`;
+}
+async function pintarSketch() {
+  const papel = document.getElementById("skPapel"); if (!papel) return;
+  if (!window.rough) { try { await libsSketch(); } catch { return; } }
+  if (document.fonts?.ready) await document.fonts.ready;
+  const svg = document.getElementById("skCapa"); if (!svg) return;
+  const R = papel.getBoundingClientRect();
+  svg.setAttribute("width", R.width); svg.setAttribute("height", R.height); svg.innerHTML = "";
+  const rc = rough.svg(svg); let semilla = 7;
+  const caja = el => { const b = el.getBoundingClientRect(); return { x: b.left - R.left, y: b.top - R.top, w: b.width, h: b.height }; };
+  papel.querySelectorAll(".sk-box").forEach(el => {
+    const b = caja(el), c = el.dataset.c, f = el.dataset.forma, o = { stroke: "#343A40", strokeWidth: 1.6, roughness: 1.6, seed: semilla++, fill: c, fillStyle: "hachure", hachureGap: 9, fillWeight: .9 };
+    let n;
+    if (f === "elipse") n = rc.rectangle(b.x - 4, b.y - 4, b.w + 8, b.h + 8, { ...o, fillStyle: "zigzag", hachureGap: 11, roughness: 2.2 });
+    else if (f === "nube") n = rc.ellipse(b.x + b.w / 2, b.y + b.h / 2, b.w + 30, b.h + 26, { ...o, fill: "#F1F3F5", fillStyle: "solid", strokeWidth: 2.2 });
+    else if (f === "banner") { const x = b.x, y = b.y, w = b.w, h = b.h;
+      n = rc.polygon([[x - 6, y], [x + w + 6, y], [x + w - 10, y + h / 2], [x + w + 6, y + h], [x - 6, y + h], [x + 10, y + h / 2]], { ...o, fillStyle: "solid", strokeWidth: 2 }); }
+    else n = rc.rectangle(b.x - 4, b.y - 4, b.w + 8, b.h + 8, { ...o, fillStyle: "hachure", hachureAngle: -41 + (semilla % 3) * 20 });
+    if (f !== "banner" && f !== "nube") [...n.children].forEach((ch, i) => { if (i < n.children.length - 1 || n.children.length === 1) ch.style.opacity = .5; });
+    svg.appendChild(n);
+  });
+  // flechas dibujadas a mano
+  const cen = document.getElementById("skCentro"), notas = [...papel.querySelectorAll("#skNotas .sk-nota")];
+  const flecha = (x1, y1, x2, y2) => {
+    const mx = (x1 + x2) / 2 + (semilla % 2 ? 18 : -18), my = (y1 + y2) / 2;
+    svg.appendChild(rc.curve([[x1, y1], [mx, my], [x2, y2]], { stroke: "#495057", strokeWidth: 1.8, roughness: 1.2, seed: semilla++ }));
+    const a = Math.atan2(y2 - my, x2 - mx), L = 11;
+    svg.appendChild(rc.linearPath([[x2 - L * Math.cos(a - .45), y2 - L * Math.sin(a - .45)], [x2, y2], [x2 - L * Math.cos(a + .45), y2 - L * Math.sin(a + .45)]], { stroke: "#495057", strokeWidth: 1.8, roughness: .8, seed: semilla++ }));
+  };
+  const tipo = SK.paginas[V.sk || 0].tipo;
+  if (cen && notas.length) {
+    const c = caja(cen);
+    if (tipo === "flujo") {
+      const a0 = caja(notas[0]); flecha(c.x + c.w / 2, c.y + c.h + 14, a0.x + a0.w / 2, a0.y - 10);
+      for (let i = 1; i < notas.length; i++) { const p = caja(notas[i - 1]), q = caja(notas[i]); flecha(p.x + p.w / 2, p.y + p.h + 6, q.x + q.w / 2, q.y - 10); }
+    } else { const top = Math.min(...notas.map(el => caja(el).y));
+      notas.filter(el => caja(el).y < top + 12).forEach(el => { const b = caja(el); flecha(c.x + c.w / 2, c.y + c.h + 12, b.x + b.w / 2 + (b.x + b.w / 2 < c.x + c.w / 2 ? 20 : -20), b.y - 10); }); }
+  }
+  if (!pintarSketch.resize) { pintarSketch.resize = true; let t; addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => document.getElementById("skPapel") && pintarSketch(), 250); }); }
+}
+
 function postRender(vista) {
+  if (vista === "sketch") pintarSketch();
   if (vista === "mapa") pintarMapa(V.nivel || (V.mapa && V.mapa.startsWith("guia30") ? 3 : 2));
   if (vista === "esquema") pintarEsquema();
 }
-window.PDX = { postRender, pintarMapa, get MM() { return MM; }, Voz, cargar, vistaMapas, vistaMapa, vistaEsquema, juegoHTML, juegoAccion, nuevoJuego, elegirJuegoDelDia, V, todasLasRutas, get MAPAS() { return MAPAS; }, get J() { return J; } };
+window.PDX = { postRender, vistaSketch, get SK() { return SK; }, pintarMapa, get MM() { return MM; }, Voz, cargar, vistaMapas, vistaMapa, vistaEsquema, juegoHTML, juegoAccion, nuevoJuego, elegirJuegoDelDia, V, todasLasRutas, get MAPAS() { return MAPAS; }, get J() { return J; } };
 })();

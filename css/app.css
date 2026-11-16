@@ -327,3 +327,46 @@ html.oscuro .cal-d.n1{background:#1E3A12} html.oscuro .cal-d.n2{background:#2F6A
 .markmap-node[data-depth="1"] .markmap-foreign div{font-weight:900; font-size:17px}
 .mmwrap{height:62vh}
 .qhead .icon-btn[data-a=revAbrir]{border:2px solid var(--line); border-bottom-width:4px; color:var(--ink); font-size:24px; font-weight:900}
+
+.notas-pie{margin-top:18px;padding-top:10px;border-top:1px dashed var(--borde,#ddd);font-size:.82em;opacity:.8}
+.notas-pie b{display:block;margin-bottom:4px;font-size:.9em}
+.notas-pie p{margin:2px 0}
+
+/* ---------- Apuntes visuales (sketchnotes) ---------- */
+@font-face { font-family: "Caveat"; src: url("../fonts/caveat-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Patrick Hand"; src: url("../fonts/patrick-hand-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+.sk-lista { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.sk-mini { text-align: left; border: 2px solid #343A40; border-radius: 14px 10px 16px 9px; padding: 10px 11px 9px; background: #FFFDF5;
+  background-image: radial-gradient(#E9E4D4 1px, transparent 1px); background-size: 14px 14px; color: #2B2B2B; display: flex; flex-direction: column; gap: 3px;
+  box-shadow: 3px 3px 0 var(--c); font-family: "Patrick Hand", "Nunito", sans-serif; cursor: pointer; min-height: 104px; }
+.sk-mini b { font-family: "Caveat", cursive; font-size: 21px; line-height: 1.05; font-weight: 700; }
+.sk-mini-cap { font-size: 12.5px; color: #6C757D; }
+.sk-mini-ico { margin-top: auto; font-size: 17px; letter-spacing: 2px; }
+.sk-papel { position: relative; margin-top: 8px; padding: 22px 16px 16px; border-radius: 6px; background: #FFFDF5; color: #212529;
+  background-image: radial-gradient(#E3DDCB 1.1px, transparent 1.1px); background-size: 18px 18px;
+  box-shadow: 0 2px 0 #E0D9C4, 0 8px 22px rgba(0,0,0,.08); font-family: "Patrick Hand", "Nunito", sans-serif; overflow: hidden; }
+.sk-capa { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
+.sk-papel > *:not(.sk-capa) { position: relative; z-index: 1; }
+.sk-cap { font-size: 14px; color: #868E96; text-align: center; letter-spacing: .3px; }
+.sk-banner { margin: 6px auto 22px; width: fit-content; max-width: 88%; padding: 8px 26px; text-align: center; }
+.sk-banner h3 { margin: 0; font-family: "Caveat", cursive; font-weight: 700; font-size: 30px; line-height: 1.05; color: #212529; }
+.sk-centro { margin: 6px auto 34px; width: fit-content; max-width: 72%; text-align: center; font-family: "Caveat", cursive; font-weight: 700;
+  font-size: 23px; line-height: 1.1; padding: 6px 10px; }
+.sk-nota { padding: 12px 12px 10px; font-size: 16.5px; line-height: 1.32; }
+.sk-nota h4 { margin: 0 0 5px; font-family: "Caveat", cursive; font-weight: 700; font-size: 25px; line-height: 1.05; }
+.sk-nota mark { background: linear-gradient(transparent 52%, color-mix(in srgb, var(--m) 75%, white) 52%, color-mix(in srgb, var(--m) 75%, white) 92%, transparent 92%); color: inherit; padding: 0 3px; }
+.sk-nota p { margin: 0; }
+.sk-nota ul { margin: 2px 0 0; padding-left: 18px; }
+.sk-nota li { margin: 1px 0; list-style: "✓  "; }
+.sk-ico { float: right; font-size: 30px; margin: -6px -2px 0 6px; filter: saturate(.9); transform: rotate(-6deg); }
+.sk-leer { margin-top: 6px; background: none; border: none; padding: 2px 0; font-family: "Patrick Hand", sans-serif; font-size: 15px; color: #1971C2; text-decoration: underline wavy #A5D8FF; cursor: pointer; }
+.sk-radial { display: grid; grid-template-columns: 1fr 1fr; gap: 34px 26px; padding: 0 6px; }
+.sk-radial .sk-nota:nth-child(odd):last-child { grid-column: 1 / -1; width: 78%; justify-self: center; }
+.sk-radial .sk-nota[data-forma="elipse"] { padding: 14px 14px; }
+.sk-columnas { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 30px 22px; padding: 0 6px; }
+.sk-flujo { display: flex; flex-direction: column; gap: 30px; padding: 0 14px 0 30px; }
+.sk-nota { position: relative; }
+.sk-num { position: absolute; left: -36px; top: 6px; width: 32px; height: 32px; border-radius: 50%; border: 2px solid #343A40; background: #FFFDF5;
+  display: grid; place-items: center; font-family: "Caveat", cursive; font-weight: 700; font-size: 22px; transform: rotate(-8deg); }
+.sk-fuente { margin-top: 26px; font-size: 13.5px; color: #868E96; text-align: right; }
+@media (max-width: 380px) { .sk-radial { grid-template-columns: 1fr; } .sk-radial .sk-nota:nth-child(odd):last-child { width: auto; } }

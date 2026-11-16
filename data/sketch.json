@@ -1,0 +1,384 @@
+{
+ "version": 1,
+ "paginas": [
+  {
+   "id": "K-tec",
+   "doc": "guia30_mineducacion_2008",
+   "capitulo": "Guía 30 · Cap. 1",
+   "titulo": "La tecnología: conceptos básicos",
+   "centro": "¿Qué involucra la tecnología?",
+   "tipo": "radial",
+   "nodos": [
+    {
+     "t": "Artefactos",
+     "d": "Los artefactos: son dispositivos, herramientas, aparatos, instrumentos y máquinas que potencian la acción humana.",
+     "i": "⚙️",
+     "lec": "L004"
+    },
+    {
+     "t": "Procesos",
+     "d": "Los procesos: son fases sucesivas de operaciones que permiten la transformación de recursos y situaciones para lograr objetivos y desarrollar productos y…",
+     "i": "🔄",
+     "lec": "L004"
+    },
+    {
+     "t": "Sistemas",
+     "d": "Los sistemas: son conjuntos o grupos de elementos ligados entre sí por relaciones estructurales o funcionales, diseñados para lograr colectivamente un objetivo.",
+     "i": "🧩",
+     "lec": "L006"
+    }
+   ],
+   "fuente": "Guía 30 MEN (2008), págs. 5-6",
+   "lec": "L004"
+  },
+  {
+   "id": "K-innova",
+   "doc": "guia30_mineducacion_2008",
+   "capitulo": "Guía 30 · Cap. 1",
+   "titulo": "Innovar, inventar, descubrir",
+   "centro": "Tecnología, innovación, invención y descubrimiento",
+   "tipo": "columnas",
+   "nodos": [
+    {
+     "t": "Innovación",
+     "d": "La innovación implica introducir cambios para mejorar artefactos, procesos y sistemas existentes e incide de manera significativa en el desarrollo de productos…",
+     "i": "💡",
+     "lec": "L006"
+    },
+    {
+     "t": "Invención",
+     "d": "La invención corresponde a un nuevo producto, sistema o proceso inexistente hasta el momento.",
+     "i": "🛠️",
+     "lec": "L006"
+    },
+    {
+     "t": "Descubrimiento",
+     "d": "El descubrimiento es un hallazgo de un fenómeno que estaba oculto o era desconocido, como la gravedad, la penicilina…",
+     "i": "🔭",
+     "lec": "L006"
+    }
+   ],
+   "fuente": "Guía 30 MEN (2008), pág. 8",
+   "lec": "L006"
+  },
+  {
+   "id": "K-comp",
+   "doc": "guia30_mineducacion_2008",
+   "capitulo": "Guía 30 · Cap. 2",
+   "titulo": "Los 4 componentes del área",
+   "centro": "Educación en tecnología",
+   "tipo": "radial",
+   "nodos": [
+    {
+     "t": "Naturaleza y evolución de la tecnología",
+     "d": "Se refiere a las características y objetivos de la tecnología, a sus conceptos fundamentales (sistema, componente, estructura, función, recurso, optimización…",
+     "i": "🕰️",
+     "lec": "L011"
+    },
+    {
+     "t": "Apropiación y uso de la tecnología",
+     "d": "Se trata de la utilización adecuada, pertinente y crítica de la tecnología (artefactos, productos…",
+     "i": "📱",
+     "lec": "L011"
+    },
+    {
+     "t": "Solución de problemas con tecnología",
+     "d": "Se refiere al manejo de estrategias en y para la identificación, formulación y solución de problemas con tecnología…",
+     "i": "🧠",
+     "lec": "L011"
+    },
+    {
+     "t": "Tecnología y sociedad",
+     "d": "Trata tres aspectos: 1) Las actitudes de los estudiantes hacia la tecnología, en términos de sensibilización social y ambiental, curiosidad…",
+     "i": "🌍",
+     "lec": "L014"
+    }
+   ],
+   "fuente": "Guía 30 MEN (2008), pág. 14",
+   "lec": "L011"
+  },
+  {
+   "id": "K-grados",
+   "doc": "guia30_mineducacion_2008",
+   "capitulo": "Guía 30 · Cap. 3",
+   "titulo": "Competencias por grupos de grados",
+   "centro": "5 grupos de grados",
+   "tipo": "flujo",
+   "nodos": [
+    {
+     "t": "Primero a Tercero",
+     "d": "4 componentes · 26 desempeños",
+     "i": "1️⃣",
+     "lec": null
+    },
+    {
+     "t": "Cuarto a Quinto",
+     "d": "4 componentes · 31 desempeños",
+     "i": "2️⃣",
+     "lec": null
+    },
+    {
+     "t": "Sexto a Séptimo",
+     "d": "4 componentes · 31 desempeños",
+     "i": "3️⃣",
+     "lec": null
+    },
+    {
+     "t": "Octavo a Noveno",
+     "d": "4 componentes · 40 desempeños",
+     "i": "4️⃣",
+     "lec": null
+    },
+    {
+     "t": "Décimo a Undécimo",
+     "d": "4 componentes · 41 desempeños",
+     "i": "5️⃣",
+     "lec": null
+    }
+   ],
+   "fuente": "Guía 30 MEN (2008), págs. 16-25",
+   "lec": null
+  },
+  {
+   "id": "K-ruta",
+   "doc": "ley_1620_2013",
+   "capitulo": "Ley 1620 · Art. 30",
+   "titulo": "Ruta de Atención Integral: 4 componentes",
+   "centro": "Ruta de Atención Integral para la Convivencia Escolar",
+   "tipo": "flujo",
+   "nodos": [
+    {
+     "t": "Promoción",
+     "d": "El componente de promoción se centrará en el desarrollo de competencias y el ejercicio de los derechos humanos…",
+     "i": "🌱",
+     "lec": "L137"
+    },
+    {
+     "t": "Prevención",
+     "d": "El componente de prevención deberá ejecutarse a través de un proceso continuo de formación para el desarrollo integral…",
+     "i": "🛡️",
+     "lec": "L137"
+    },
+    {
+     "t": "Atención",
+     "d": "El componente de atención deberá desarrollar estrategias que permitan asistir al niño, niña, adolescente, al padre…",
+     "i": "🤝",
+     "lec": "L137"
+    },
+    {
+     "t": "Seguimiento",
+     "d": "El componente de seguimiento se centrará en el reporte oportuno de la información al Sistema de Información Unificado…",
+     "i": "📊",
+     "lec": "L137"
+    }
+   ],
+   "fuente": "Ley 1620 de 2013, art. 30",
+   "lec": "L137"
+  },
+  {
+   "id": "K-tipos",
+   "doc": "decreto_1965_2013",
+   "capitulo": "Decreto 1965 · Art. 40",
+   "titulo": "Situaciones tipo I, II y III",
+   "centro": "¿Qué tan grave es la situación?",
+   "tipo": "columnas",
+   "nodos": [
+    {
+     "t": "Situación tipo I",
+     "d": "Corresponden a este tipo los conflictos manejados inadecuadamente y aquellas situaciones esporádicas que inciden negativamente en el clima escolar…",
+     "i": "🟢",
+     "lec": "L125"
+    },
+    {
+     "t": "Situación tipo II",
+     "d": "Corresponden a esta tipo las situaciones de agresión escolar, acoso escolar (bullying) y ciberacoso (Ciberbullying)…",
+     "i": "🟠",
+     "lec": "L125"
+    },
+    {
+     "t": "Situación tipo III",
+     "d": "Corresponden a esta tipo las situaciones de agresión escolar que sean constitutivas de presuntos delitos contra la libertad, integridad y formación sexual…",
+     "i": "🔴",
+     "lec": "L125"
+    }
+   ],
+   "fuente": "Decreto 1965 de 2013, art. 40",
+   "lec": "L125"
+  },
+  {
+   "id": "K-proto1",
+   "doc": "decreto_1965_2013",
+   "capitulo": "Decreto 1965 · Art. 42",
+   "titulo": "Protocolo para situaciones tipo I",
+   "centro": "Pasos en orden",
+   "tipo": "flujo",
+   "nodos": [
+    {
+     "t": "Paso 1",
+     "d": "Reunir inmediatamente a las partes involucradas en el conflicto y mediar de manera pedagógica para que éstas expongan…",
+     "i": "👥",
+     "lec": "L130"
+    },
+    {
+     "t": "Paso 2",
+     "d": "Fijar la forma de solución de manera imparcial, equitativa y justa…",
+     "i": "⚖️",
+     "lec": "L130"
+    },
+    {
+     "t": "Paso 3",
+     "d": "Realizar seguimiento del caso y de los compromisos a fin de verificar si la solución fue efectiva o…",
+     "i": "🔍",
+     "lec": "L130"
+    }
+   ],
+   "fuente": "Decreto 1965 de 2013, art. 42",
+   "lec": "L130"
+  },
+  {
+   "id": "K-agresion",
+   "doc": "decreto_1965_2013",
+   "capitulo": "Decreto 1965 · Art. 39",
+   "titulo": "Tipos de agresión escolar",
+   "centro": "Agresión escolar",
+   "tipo": "radial",
+   "nodos": [
+    {
+     "t": "Agresión física",
+     "d": "Es toda acción que tenga como finalidad causar daño al cuerpo o a la salud de…",
+     "i": "👊",
+     "lec": "L115"
+    },
+    {
+     "t": "Agresión verbal",
+     "d": "Es toda acción que busque con las palabras degradar, humillar, atemorizar, descalificar a otros.",
+     "i": "🗣️",
+     "lec": "L115"
+    },
+    {
+     "t": "Agresión gestual",
+     "d": "Es toda acción que busque con los gestos degradar, humillar, atemorizar o descalificar a otros.",
+     "i": "🙄",
+     "lec": "L115"
+    },
+    {
+     "t": "Agresión relacional",
+     "d": "Es toda acción que busque afectar negativamente las relaciones que otros tienen.",
+     "i": "💔",
+     "lec": "L115"
+    },
+    {
+     "t": "Agresión electrónica",
+     "d": "Es toda acción que busque afectar negativamente a otros a través de medios electrónicos.",
+     "i": "📲",
+     "lec": "L115"
+    }
+   ],
+   "fuente": "Decreto 1965 de 2013, art. 39",
+   "lec": "L115"
+  },
+  {
+   "id": "K-inclusion",
+   "doc": "decreto_1421_2017",
+   "capitulo": "Decreto 1421 · Definiciones",
+   "titulo": "Educación inclusiva: palabras clave",
+   "centro": "Atención educativa a la población con discapacidad",
+   "tipo": "radial",
+   "nodos": [
+    {
+     "t": "Ajustes razonables",
+     "d": "Ajustes razonables: son las acciones, adaptaciones, estrategias, apoyos, recursos o modificaciones necesarias y adecuadas del sistema educativo y…",
+     "i": "🔧",
+     "lec": "L009"
+    },
+    {
+     "t": "Currículo flexible",
+     "d": "Currículo flexible: es aquel que mantiene los mismos objetivos generales para todos los estudiantes…",
+     "i": "📚",
+     "lec": "L019"
+    },
+    {
+     "t": "Diseño Universal del Aprendizaje (DUA)",
+     "d": "Diseño Universal del Aprendizaje (DUA): diseño de productos, entornos, programas y servicios que puedan utilizar todas las personas…",
+     "i": "🌐",
+     "lec": "L019"
+    },
+    {
+     "t": "Educación inclusiva",
+     "d": "Educación inclusiva: es un proceso permanente que reconoce, valora y responde de manera pertinente a la diversidad de…",
+     "i": "🤗",
+     "lec": "L019"
+    },
+    {
+     "t": "PIAR",
+     "d": "Plan Individual de Ajustes Razonables (PIAR): herramienta utilizada para garantizar los procesos de enseñanza y aprendizaje de los…",
+     "i": "📝",
+     "lec": "L019"
+    }
+   ],
+   "fuente": "Decreto 1421 de 2017, art. 2.3.3.5.1.4",
+   "lec": "L009"
+  },
+  {
+   "id": "K-gobierno",
+   "doc": "ley_115_1994",
+   "capitulo": "Ley 115 · Arts. 142-145 · Ley 1620 · Art. 12",
+   "titulo": "Gobierno escolar y comité de convivencia",
+   "centro": "¿Quién decide en el colegio?",
+   "tipo": "columnas",
+   "nodos": [
+    {
+     "t": "Gobierno escolar",
+     "d": "Cada establecimiento educativo del Estado tendrá un gobierno escolar conformado por el rector, el Consejo Directivo y el Consejo Académico.",
+     "lista": null,
+     "i": "🏛️",
+     "lec": "L195",
+     "f": "Ley 115 de 1994, art. 142"
+    },
+    {
+     "t": "Consejo directivo",
+     "d": null,
+     "lista": [
+      "El rector del establecimiento educativo, quien lo convocará y presidirá",
+      "Dos representantes de los docentes de la institución",
+      "Dos representantes de los padres de familia",
+      "Un representante de los estudiantes que debe estar cursando el último grado…",
+      "…"
+     ],
+     "i": "👔",
+     "lec": "L197",
+     "f": "Ley 115 de 1994, art. 143"
+    },
+    {
+     "t": "Consejo académico",
+     "d": null,
+     "lista": [
+      "estará integrado por los directivos docentes y un docente por cada área…",
+      "El estudio, modificación y ajustes al currículo",
+      "La organización del plan de estudio",
+      "La evaluación anual e institucional"
+     ],
+     "i": "📖",
+     "lec": "L198",
+     "f": "Ley 115 de 1994, art. 145"
+    },
+    {
+     "t": "Comité escolar de convivencia",
+     "d": null,
+     "lista": [
+      "El rector del establecimiento educativo, quien preside el comité",
+      "El personero estudiantil",
+      "El docente con función de orientación",
+      "El coordinador cuando exista este cargo",
+      "…"
+     ],
+     "i": "🕊️",
+     "lec": "L063",
+     "f": "Ley 1620 de 2013, art. 12"
+    }
+   ],
+   "fuente": "Ley 115 de 1994 y Ley 1620 de 2013",
+   "lec": "L195"
+  }
+ ]
+}

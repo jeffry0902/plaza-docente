@@ -52,6 +52,10 @@ def items_numerados(doc, art_ini, art_fin):
 D65, L20, D21, G30, D75, L115 = "decreto_1965_2013", "ley_1620_2013", "decreto_1421_2017", "guia30_mineducacion_2008", "decreto_1075_2015", "ley_115_1994"
 FUENTE = {D65: "Decreto 1965 de 2013", L20: "Ley 1620 de 2013", D21: "Decreto 1421 de 2017", G30: "Guía 30 MEN (2008)", D75: "Decreto 1075 de 2015 (Decreto 1290)", L115: "Ley 115 de 1994"}
 
+# Guía 30, pág. 6: la frase sigue en la otra columna del PDF ("...transformación de recursos | y situaciones para lograr...")
+PROCESOS = "Los procesos: son fases sucesivas de operaciones que permiten la transformación de recursos y situaciones para lograr objetivos y desarrollar productos y servicios esperados."
+literal(G30, "Los procesos: son fases sucesivas de operaciones que permiten la transformación de recursos")
+literal(G30, "y situaciones para lograr objetivos y desarrollar productos y servicios esperados.")
 emparejar = [
  {"id": "E-agresion", "titulo": "Tipos de agresión escolar", "fuente": "Decreto 1965 de 2013, art. 39", "doc": D65, "pares": [
    {"a": "Agresión física", "b": frase(D65, "Es toda acción que tenga como finalidad causar daño al cuerpo")},
@@ -62,7 +66,7 @@ emparejar = [
  {"id": "E-situaciones", "titulo": "Situaciones tipo I, II y III", "fuente": "Decreto 1965 de 2013, art. 40", "doc": D65, "pares": [
    {"a": "Situación tipo I", "b": frase(D65, "Corresponden a este tipo los conflictos manejados inadecuadamente")},
    {"a": "Situación tipo II", "b": frase(D65, "Corresponden a esta tipo las situaciones de agresión escolar", 30)},
-   {"a": "Situación tipo III", "b": "Corresponden a este tipo las situaciones de agresión escolar que sean constitutivas de presuntos delitos contra la libertad, integridad y formación sexual…"}]},
+   {"a": "Situación tipo III", "b": frase(D65, "Corresponden a esta tipo las situaciones de agresión escolar que sean constitutivas", 50)}]},
  {"id": "E-ruta", "titulo": "Componentes de la Ruta de Atención Integral", "fuente": "Ley 1620 de 2013, art. 30", "doc": L20, "pares": [
    {"a": "Promoción", "b": frase(L20, "El componente de promoción se centrará")},
    {"a": "Prevención", "b": frase(L20, "El componente de prevención deberá ejecutarse", 30)},
@@ -76,14 +80,34 @@ emparejar = [
    {"a": "PIAR", "b": frase(D21, "Plan Individual de Ajustes Razonables (PIAR): herramienta utilizada", 32)}]},
  {"id": "E-guia30", "titulo": "Conceptos básicos de la tecnología", "fuente": "Guía 30 MEN (2008)", "doc": G30, "pares": [
    {"a": "Artefactos", "b": frase(G30, "Los artefactos: son dispositivos")},
-   {"a": "Procesos", "b": frase(G30, "Los procesos: son fases sucesivas", 30)},
+   {"a": "Procesos", "b": PROCESOS},
    {"a": "Sistemas", "b": frase(G30, "Los sistemas: son conjuntos o grupos de elementos")},
    {"a": "Innovación", "b": frase(G30, "La innovación implica introducir cambios", 30)},
    {"a": "Invención", "b": frase(G30, "La invención corresponde a un nuevo producto")},
    {"a": "Descubrimiento", "b": frase(G30, "El descubrimiento es un hallazgo", 25)}]},
 ]
 # tipo III: verificar el texto armado a mano
-literal(D65, emparejar[1]["pares"][2]["b"].rstrip("…").replace("Corresponden a este tipo las situaciones de agresión escolar que sean", "situaciones de agresión escolar que sean"))
+literal(D65, emparejar[1]["pares"][2]["b"].rstrip("…"))
+
+# "Relacionar": la definición no puede traer el nombre del término (si no, el juego se responde solo)
+def ocultar(a, b):
+    sigla = re.findall(r"\(([A-ZÁÉÍÓÚ]{2,})\)", a)
+    base = a.split("(")[0].strip()
+    m = re.match(r"^(?:(?:Los|Las|El|La)\s+)?([^:]{2,90}):\s*", b)
+    if m and base.split()[0].lower()[:5] in m.group(1).lower():
+        b = b[m.end():]
+        b = re.sub(r"^(es|son)\s+", "", b)
+        b = b[:1].upper() + b[1:]
+    pats = [re.escape(base)] + [re.escape(x) for x in sigla]
+    if len(base.split()) == 1: pats.append(re.escape(base[:-2]) + r"\w*")
+    for pt in pats:
+        b = re.sub(r"(?i)^(?:(?:los|las|el|la)\s+)?" + pt + r"\b", "____", b)
+        b = re.sub(r"(?i)\b" + pt + r"\b", "____", b)
+    b = re.sub(r"\s*\(____\)", "", b)
+    assert base.lower() not in b.lower(), (a, b)
+    return b
+for e in emparejar:
+    for p in e["pares"]: p["o"] = ocultar(p["a"], p["b"])
 
 ordenar = [
  {"id": "O-tipo1", "titulo": "Protocolo para situaciones tipo I", "fuente": "Decreto 1965 de 2013, art. 42", "doc": D65,
@@ -116,7 +140,7 @@ for e in emparejar:
     pal = []
     for p in e["pares"]:
         w = palabra(p["a"].split("(")[0].replace("Agresión ", "").replace("Situación tipo", "TIPO"))
-        if 3 <= len(w) <= 12: pal.append({"w": w, "t": p["a"], "d": p["b"]})
+        if 3 <= len(w) <= 12: pal.append({"w": w, "t": p["a"], "d": p["o"]})
     if len(pal) >= 4: sopa.append({"id": "S-" + e["id"][2:], "titulo": e["titulo"], "fuente": e["fuente"], "palabras": pal})
 
 # esquemas visuales

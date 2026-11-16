@@ -34,6 +34,9 @@ ART = re.compile(r"^(ART[ÍI]CULO|Artículo|ARTICULO)\s+([\d\.]+[o°]?)", re.I)
 def limpiar_lineas(raw):
     out = []
     raw = raw.replace("\u0002", "").replace("\x0c", "\n")
+    raw = reordenar_g30(raw)
+    # letras capitales de la Guía 30 que quedaron separadas del párrafo
+    raw = raw.replace("\nL\n\nproponer soluciones", "\nproponer soluciones").replace("\na alfabetización es hoy", "\nLa alfabetización es hoy")
     raw = re.sub(r"\n([A-ZÁÉÍÓÚ])\n\s*\n([a-záéíóúñ])", r"\n\1\2", raw)                  # letra capital separada
     raw = re.sub(r"\d{0,3}\s*Orientaciones Curriculares para el Área de Tecnología e Informática en la Educación Básica y Media\s*\d{0,3}", " ", raw)
     raw = re.sub(r"([a-záéíóúñ])- ([a-záéíóúñ])", r"\1\2", raw)                              # "em- plear"
@@ -96,18 +99,86 @@ def fragmentos(stem, nombre, tipo, pars):
         if corte: frs.append(cur); cur = []
         cur.append(p)
     if cur:
-        if frs and w() < 200: frs[-1].extend(cur)
+        if frs and (w() < 200 or (stem.startswith("guia30") and w() < 300)): frs[-1].extend(cur)
         else: frs.append(cur)
-    out = []
+    out = []; ultimo_art = None
     for k, ps in enumerate(frs, 1):
+        ps, notas = limpiar_fragmento(ps, stem, tipo)
         arts = [ART.match(p).group(2).rstrip("o°.") for p in ps if ART.match(p)]
         if tipo == "ley" and arts:
             sub = f"Art. {arts[0]}" if len(arts) == 1 else f"Arts. {arts[0]} a {arts[-1]}"
+        elif tipo == "ley" and ultimo_art:
+            sub = f"Art. {ultimo_art} (continuación)"
         else:
             tit = next((p for p in ps if es_titulo(p)), None)
             sub = "Presentación" if k == 1 else (tit[:80] if tit else f"Parte {k}")
-        out.append(dict(doc=stem, nombre=nombre, parte=k, total=len(frs), titulo=sub, parrafos=ps, palabras=sum(palabras(p) for p in ps)))
+        if arts: ultimo_art = arts[-1]
+        out.append(dict(doc=stem, nombre=nombre, parte=k, total=len(frs), titulo=sub, parrafos=ps, notas=notas, palabras=sum(palabras(p) for p in ps)))
     return out
+
+
+UNIONES = []
+ENCABEZADOS = {"Instituto Colombiano de Bienestar Familiar", "Código de la Infancia y la Adolescencia"}
+def reordenar_g30(raw):
+    """Guía 30, págs. 26-27: el PDF a dos columnas sale desordenado. Orden verificado contra el PDF (imagen de las páginas)."""
+    ini = raw.find("• Los computadores son herramientas o artefactos")
+    fin = raw.find("Al Tablero", ini)
+    if ini < 0 or fin < 0: return raw
+    fin += len("Al Tablero")
+    bloque = raw[ini:fin]
+    def seg(desde, hasta):
+        i = bloque.index(desde); return bloque[i:bloque.index(hasta, i) + len(hasta)].strip()
+    partes = [
+        seg("Ciencia, tecnología y sociedad para", "cultura del futuro"),
+        seg("Aunque sabemos que cada entorno", "formación en tecnología:"),
+        seg("• En un mundo globalizado", "futuro."),
+        seg("• La educación en tecnología conlleva", "entre otras."),
+        seg("• La educación en tecnología es interdisciplinaria", "fundamentales de la educación."),
+        seg("• La exploración y el descubrimiento", "actividad de aprendizaje."),
+        seg("• Los computadores son herramientas", "cultura tecnológica."),
+        seg("• El manejo creativo", "la innovación y la invención."),
+        seg("Pistas para maestros", "por dónde empezar"),
+        seg("• Experiencias y testimonios", "aprendizaje significativo."),
+        seg("• Proyectos transversales", "crítica y creativamente") + "\n" + seg("a ésta, a través de campos", "entre otros."),
+        seg("• Ferias de la ciencia", "nuevas generaciones."),
+        seg("• Análisis de situaciones", "sus efectos en el") + "\n" + seg("mejoramiento o el deterioro", "país y del mundo."),
+        seg("• Materiales complementarios", "consultarse en:") + " www.mineducacion.gov.co, en el portal www.colombiaaprende.edu.co y en el periódico Al Tablero.",
+    ]
+    return raw[:ini].rstrip() + "\n\n" + "\n\n".join(partes) + "\n\n" + raw[fin:].lstrip()
+
+TERMINA = (".", ":", ";", "?", "!", "»", "”", '"', ")")
+def limpiar_fragmento(ps, stem, tipo):
+    """En las guías: saca las notas al pie que quedaron en medio del texto y une las frases que cortó el salto de página.
+    No cambia los límites de la lectura (los ids del plan se mantienen)."""
+    nota = re.compile(r"^\d{1,2}\.\s.{5,}\b(19|20)\d{2}\b")
+    notas, cuerpo = [], []
+    ps = [p for p in ps if p not in ENCABEZADOS]
+    for i, p in enumerate(ps):
+        sig = ps[i + 1] if i + 1 < len(ps) else ""
+        es_nota = tipo == "guia" and nota.match(p) and palabras(p) < 60 and (
+            (cuerpo and not cuerpo[-1].endswith(TERMINA)) or sig[:1].islower() or (i > 0 and nota.match(ps[i - 1])) or i == 0)
+        if es_nota: notas.append(p)
+        else: cuerpo.append(p)
+    if stem.startswith("guia30"):   # llamadas de nota pegadas a la palabra: "científica3."
+        cuerpo = [re.sub(r"(?<=[a-záéíóúñ]\.)\d(?=\s|$)", "", re.sub(r"(?<=[a-záéíóúñ”\"\)])\d(?=[\s\.,;:]|$)", "", p)) for p in cuerpo]
+    # El PDF está a dos columnas: a veces la continuación de una frase sale antes o después de su comienzo.
+    abierto = lambda q: palabras(q) >= (12 if tipo == "guia" else 4) and not q.endswith(TERMINA) and not q.endswith("Fuente elaboración propia")
+    out = list(cuerpo)
+    i = 0
+    while i < len(out):
+        p = out[i]
+        if i > 0 and p[:1].islower() and not re.match(r"^[a-z][\)\.]\s", p):
+            atras = [k for k in range(i - 1, max(-1, i - 5), -1) if abierto(out[k])]
+            adelante = [k for k in range(i + 1, min(len(out), i + 7)) if abierto(out[k])] if tipo == "guia" else []
+            j = atras[0] if atras else (adelante[0] if adelante else None)
+            if j is not None:
+                UNIONES.append((stem, out[j][-60:], p[:60]))
+                q = out[j].rstrip()
+                out[j] = q[:-1] + p if re.search(r"[a-záéíóúñ]-$", q) else q + " " + p
+                del out[i]
+                continue
+        i += 1
+    return out, notas
 
 
 def es_titulo(p):
@@ -164,7 +235,7 @@ def main():
         f["id"] = f"L{i + 1:03d}"; f["archivo"] = f"lecturas/p{i // 10 + 1:03d}.json"
         indice.append({k: f[k] for k in ("id", "doc", "nombre", "parte", "total", "titulo", "palabras", "archivo")})
     for b in range(0, len(plan), 10):
-        json.dump([{k: f[k] for k in ("id", "doc", "nombre", "parte", "total", "titulo", "parrafos")} for f in plan[b:b + 10]],
+        json.dump([{k: f[k] for k in ("id", "doc", "nombre", "parte", "total", "titulo", "parrafos", "notas")} for f in plan[b:b + 10]],
                   open(os.path.join(d, f"p{b // 10 + 1:03d}.json"), "w", encoding="utf-8"), ensure_ascii=False)
     json.dump({"version": 1, "lecturas": indice}, open(os.path.join(d, "indice.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
 

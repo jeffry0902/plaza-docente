@@ -656,6 +656,7 @@ function vistaFicha() {
   ${citasHTML(f.citas, "📜 Textual de los documentos oficiales")}
   <div class="sticky-bottom"><button class="btn" data-a="leido">Ya lo leí: ¡a practicar!</button></div>`;
 }
+const notasHTML = L => L.notas && L.notas.length ? `<div class="notas-pie"><b>Notas al pie del documento</b>${L.notas.map(n => `<p>${esc(n)}</p>`).join("")}</div>` : "";
 function vistaLectura() {
   const s = S.ses, q = s.cola[s.i], L = LECT[q.lectura], pi = planInfo(), palabras = L.parrafos.join(" ").split(/\s+/).length;
   const nPreg = s.cola.slice(s.i + 1).filter(c => c.id && S.banco.contextos?.[c.id]?.lectura === q.lectura).length;
@@ -666,7 +667,7 @@ function vistaLectura() {
   <div class="chips" style="margin-bottom:10px"><span class="tag blue">${esc(L.nombre)}</span><span class="tag">Parte ${L.parte} de ${L.total}</span></div>
   <h2>${esc(L.titulo)}</h2>
   <div class="row mt">${PDX.Voz.boton(L.parrafos.join(" "), "lec-" + L.id, "Escuchar la lectura")}</div>
-  <div class="lectura doc">${L.parrafos.map(p => `<p>${esc(p)}</p>`).join("")}</div>
+  <div class="lectura doc">${L.parrafos.map(p => `<p>${esc(p)}</p>`).join("")}${notasHTML(L)}</div>
   <p class="tiny muted mt">Texto oficial, tal como aparece en el documento. Léelo completo: las preguntas de hoy se responden con lo que dice aquí.</p>
   <div class="sticky-bottom"><button class="btn" data-a="leidoL">Ya la leí: ¡a practicar!</button></div>`;
 }
@@ -871,7 +872,7 @@ function vistaLeer() {
   <h2>${esc(L.titulo)}</h2>
   <p class="tiny muted">Toca un párrafo para guardarlo como concepto en tu cuaderno.</p>
   <div class="lectura doc leer">${L.parrafos.map((p, i) => `<p data-a="parr" data-k="${i}" class="${CU.sel === i ? "selp" : ""} ${marcados.has(i) ? "marcado" : ""}">${esc(p)}</p>
-     ${CU.sel === i ? `<div class="row wrap parr-acc"><button class="btn blue" style="width:auto;min-height:44px" data-a="nuevoConcepto" data-k="${i}">🧠 Crear concepto con este párrafo</button><button class="chip" data-a="parr" data-k="${i}">Cancelar</button></div>` : ""}`).join("")}</div>
+     ${CU.sel === i ? `<div class="row wrap parr-acc"><button class="btn blue" style="width:auto;min-height:44px" data-a="nuevoConcepto" data-k="${i}">🧠 Crear concepto con este párrafo</button><button class="chip" data-a="parr" data-k="${i}">Cancelar</button></div>` : ""}`).join("")}${notasHTML(L)}</div>
   <div class="card mt"><label class="lab" for="notaL">📝 Mis notas de esta parte</label>
     <textarea id="notaL" class="input" rows="5" data-i="nota" placeholder="Ideas clave, dudas, ejemplos para el aula…">${esc(S.estado.cuaderno.notas[L.id] || "")}</textarea>
     <p class="tiny muted">Se guarda solo mientras escribes.</p></div>
@@ -1086,7 +1087,7 @@ function render() {
   clearInterval(timerInt); aplicarTema();
   const v = !S.clave ? vistaLogin() : !S.estado.perfil.nombre ? vistaNombre() : ({
     inicio: vistaInicio, pregunta: vistaPregunta, resumen: vistaResumen, resumenSimulacro: vistaResumenSimulacro,
-    cofre: vistaCofre, biblioteca: vistaBiblioteca, cuaderno: vistaCuaderno, historial: vistaHistorial, revision: vistaRevision, mapas: () => PDX.vistaMapas(), mapa: () => PDX.vistaMapa(), esquema: () => PDX.vistaEsquema(),
+    cofre: vistaCofre, biblioteca: vistaBiblioteca, cuaderno: vistaCuaderno, historial: vistaHistorial, revision: vistaRevision, mapas: () => PDX.vistaMapas(), mapa: () => PDX.vistaMapa(), esquema: () => PDX.vistaEsquema(), sketch: () => PDX.vistaSketch(),
     juego: () => `<div class="top"><button class="icon-btn" data-a="jSalir">‹</button><h2>Juego</h2><span style="width:44px"></span></div>${CU.G ? PDX.juegoHTML(CU.G, false) : ""}`, docs: vistaDocs, doc: vistaDoc, leer: vistaLeer, conceptos: vistaConceptos, flash: vistaFlash, insignias: vistaInsignias, progreso: vistaProgreso, ajustes: vistaAjustes
   }[S.vista] || vistaInicio)();
   $app.innerHTML = v;
@@ -1148,6 +1149,9 @@ $app.addEventListener("click", async e => {
   else if (a === "voz") { PDX.Voz.hablar(b.dataset.txt, b.dataset.id); }
   else if (a === "abrirMapas") { b.disabled = true; await PDX.cargar(); ir("mapas"); }
   else if (a === "verMapa") { PDX.V.mapa = b.dataset.d; PDX.V.nivel = null; ir("mapa"); }
+  else if (a === "verSketch") { PDX.V.sk = +b.dataset.k; ir("sketch"); }
+  else if (a === "skMover") { PDX.V.sk = Math.max(0, Math.min(PDX.SK.paginas.length - 1, (PDX.V.sk || 0) + +b.dataset.d)); render(); scrollTo(0, 0); }
+  else if (a === "skLeer") { await PD.abrirLectura(b.dataset.l); }
   else if (a === "verEsquema") { PDX.V.esquema = b.dataset.id; ir("esquema"); }
   else if (a === "mmNivel") { PDX.V.nivel = +b.dataset.n; PDX.pintarMapa(PDX.V.nivel); }
   else if (a === "mmFit") { PDX.MM?.fit(); }
