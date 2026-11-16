@@ -1,0 +1,885 @@
+{
+ "id": "2026-11-16",
+ "fecha": "2026-11-16",
+ "casos": [
+  {
+   "id": "C105",
+   "titulo": "La feria con la cooperativa",
+   "texto": "En una institución oficial de Yopal, la docente de Tecnología e Informática organiza con sus estudiantes de décimo una feria en la que presentan a las familias y a una cooperativa de productores de la vereda las aplicaciones de inventario que diseñaron para las fincas de la zona. Al preparar las evidencias de su evaluación anual de desempeño, la docente quiere ubicar esta experiencia en una de las áreas de gestión de las competencias funcionales de la Resolución 3842 de 2022."
+  },
+  {
+   "id": "C106",
+   "titulo": "El registro de los equipos de la sala",
+   "texto": "El docente de Tecnología e Informática de una institución oficial de Yopal lleva un registro del estado de cada computador de la sala, acuerda con los estudiantes turnos de cuidado de los equipos y entrega al rector un informe para que los recursos se conserven y se aprovechen en todas las áreas. Un colega le dice que esa labor «no cuenta» en la evaluación de desempeño porque no es una clase."
+  },
+  {
+   "id": "C107",
+   "titulo": "La linterna que no enciende",
+   "texto": "En grado quinto, los estudiantes construyen linternas con material reciclado, dos pilas, un bombillo pequeño y cables. La linterna de un grupo no enciende. Un estudiante propone conectarla directamente al tomacorriente del salón «para ver si el problema son las pilas». La docente quiere orientar la situación según los desempeños de la Guía 30 para cuarto y quinto."
+  },
+  {
+   "id": "C108",
+   "titulo": "El charco en la entrada del salón",
+   "texto": "En una sede rural de Yopal, cada vez que llueve se encharca la entrada del salón de cuarto. La docente propone a los estudiantes resolver el problema con tecnología. Un grupo dibuja de inmediato una sola solución, una canaleta hecha con botellas plásticas, y quiere empezar a construirla esa misma tarde."
+  },
+  {
+   "id": "C109",
+   "titulo": "La pasarela sobre el caño",
+   "texto": "En grado noveno, los estudiantes deben proponer una pasarela para que los niños de la vereda crucen un caño que crece en invierno. No conocen el caudal máximo del caño ni el peso exacto que deberá soportar la pasarela. Un estudiante afirma que sin esos datos «no se puede diseñar nada» y propone esperar a que alguien los mida durante todo el invierno."
+  },
+  {
+   "id": "C110",
+   "titulo": "La antena junto a la sede",
+   "texto": "Una empresa propone instalar una antena de telefonía celular junto a la sede rural donde estudian los estudiantes de noveno. En la clase de Tecnología, algunos estudiantes defienden la antena porque mejorará la conectividad y se burlan de los vecinos que temen por el paisaje y por la salud. La docente quiere orientar el debate según los desempeños de la Guía 30."
+  },
+  {
+   "id": "C111",
+   "titulo": "«El comité es autónomo»",
+   "texto": "En la primera sesión del año del comité escolar de convivencia de una institución oficial de Yopal, el rector afirma que el comité «es autónomo» y que no tiene relación con ninguna otra instancia del Sistema Nacional de Convivencia Escolar. Además, propone incluir en el manual de convivencia algunas reglas nuevas, con el argumento de que la institución puede fijar las normas que quiera porque goza de autonomía."
+  },
+  {
+   "id": "C112",
+   "titulo": "La campaña hecha por los adultos",
+   "texto": "El comité escolar de convivencia de una institución de Yopal diseña una campaña contra el ciberacoso. Los docentes redactan los mensajes, escogen las actividades y las presentan a los estudiantes ya terminadas. Cuando el personero estudiantil pide que los estudiantes participen en el diseño, una docente responde que «la convivencia la orientan los adultos»."
+  },
+  {
+   "id": "C113",
+   "titulo": "Nadie quiere trabajar con Yeison",
+   "texto": "En la clase de Tecnología de grado séptimo, los estudiantes forman grupos para un proyecto. Nadie quiere trabajar con Yeison, un estudiante que viene de una comunidad indígena del Casanare, porque «habla raro». Para evitar conflictos, la docente decide que Yeison trabaje solo. La coordinadora le pide revisar su decisión a la luz de los principios del Sistema Nacional de Convivencia Escolar."
+  },
+  {
+   "id": "C114",
+   "titulo": "La jornada sobre el Código de Infancia",
+   "texto": "En una jornada pedagógica, el rector de una institución de Yopal pide a los docentes analizar los artículos 1 y 2 de la Ley 1098 de 2006, Código de la Infancia y la Adolescencia. Un docente opina que el Código solo sirve para castigar a quienes maltratan a los niños y que la protección de sus derechos es tarea exclusiva del ICBF. Otra docente dice que el Código solo busca que los niños estudien y aprueben el año."
+  },
+  {
+   "id": "C115",
+   "titulo": "La estudiante que llegó a mitad de año",
+   "texto": "A mitad de año llega a grado sexto una estudiante cuya familia acaba de mudarse a Yopal desde otro país. En la reunión de padres, algunos acudientes piden que la niña estudie en un grupo aparte «hasta que se adapte», y un docente sugiere que no entre al proyecto de robótica porque los cupos deberían ser «para los que llevan más tiempo». La docente de Tecnología debe fijar su posición."
+  },
+  {
+   "id": "C116",
+   "titulo": "La pelea a la salida",
+   "texto": "A la salida de la jornada, frente a la institución, un estudiante de décimo golpea a un compañero de noveno durante una discusión por un partido. Es la primera vez que ocurre entre ellos. El médico que atiende al estudiante de noveno le da una incapacidad de varios días por las lesiones, y la familia presenta una denuncia penal por lesiones personales. El director de grupo opina que es una situación tipo II porque fue un solo episodio."
+  },
+  {
+   "id": "C117",
+   "titulo": "La alerta temprana del río",
+   "texto": "Una vereda de Yopal cuenta con una alerta temprana por crecientes del río: sensores de nivel en el cauce que envían datos, una sirena en la escuela, radios para los líderes comunitarios y un plan de evacuación que la comunidad practica. En grado séptimo, la docente de Tecnología usa este caso para que los estudiantes apliquen las definiciones de la Guía 30."
+  },
+  {
+   "id": "C118",
+   "titulo": "La caja de la tienda escolar",
+   "texto": "En grado sexto, los estudiantes quieren programar en Scratch una caja registradora para la tienda escolar. Al principio intentan resolver todo en un solo bloque de instrucciones y se pierden. La docente les propone separar el reto en partes: registrar los productos, calcular el total, recibir el pago y calcular el cambio, para resolver cada parte por separado y luego unirlas."
+  },
+  {
+   "id": "C119",
+   "titulo": "Andrés y el taller de robótica",
+   "texto": "Andrés, estudiante de grado octavo, usa silla de ruedas. El taller de robótica funciona en un aula con un escalón en la entrada y mesas altas. Algunos compañeros dicen que Andrés «no puede» manipular herramientas y, por eso, el docente le asigna siempre la tarea de tomar nota mientras los demás construyen."
+  }
+ ],
+ "fichas": [
+  {
+   "id": "F29",
+   "familia": "DIS-DATOS",
+   "titulo": "¿Qué es la informática? (Orientaciones Curriculares, 2.1.2)",
+   "lectura": "El apartado 2.1.2 de las Orientaciones Curriculares de Tecnología e Informática (MEN, 2022) responde a la pregunta «¿qué es la informática?». La presenta como una representación artificial de orden algorítmico computacional y digital electrónico que, entre otras acciones, pretende emular el pensar humano, brinda herramientas de control sobre los fenómenos del contexto y aporta insumos para tomar decisiones. Una idea central para el aula: la informática, como disciplina tecnológica emergente, no se centra en el estudio del computador, sus programas y hardware, ni en otra tecnología digital particular; esos artefactos son herramientas de apoyo para realizar procesos informáticos. El documento distingue además dos niveles. El saber informático es una enunciación sobre los usos prácticos de los dispositivos sin una explicación profunda de sus razones; por ejemplo, señalar para qué sirve una hoja de cálculo en contabilidad o cómo se usa un dispositivo móvil. El conocimiento informático, en cambio, surge de la reflexión sistémica sobre los productos de naturaleza informática para desentrañar la base de conocimientos que les subyace (software, hardware, usos, aplicaciones, beneficios) y usarla en la generación de productos nuevos y mejorados.",
+   "puntos": [
+    "La informática no se centra en el computador ni en sus programas: estos son herramientas de apoyo para procesos informáticos.",
+    "Saber informático = enunciar usos prácticos de un dispositivo sin explicar a fondo sus razones (para qué sirve una hoja de cálculo en contabilidad).",
+    "Conocimiento informático = reflexión sistémica sobre los productos informáticos para comprender su base y crear productos nuevos o mejorados.",
+    "Trampa CNSC: confundir el área con el manejo de programas; usar una herramienta no es lo mismo que comprenderla."
+   ],
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la informática como disciplina tecnológica emergente, no se centra en el estudio del computador, sus programas y hardware, ni tampoco en otra tecnología digital particular como suele pensarse",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.2"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "el saber informático es una enunciación sobre los usos prácticos de estos dispositivos sin una explicación profunda de sus razones",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.2"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "surge de la reflexión sistémica que hacemos de los productos de naturaleza informática",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.2"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "Q161",
+   "tipo": "caso",
+   "caso": "C105",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 2,
+   "enunciado": "Según la Resolución 3842 de 2022, la feria con las familias y la cooperativa es una evidencia del área de gestión",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "académica, porque demuestra el dominio curricular del área y la planeación del proyecto con el grupo.",
+     "j": "Es incorrecta. La gestión académica sí incluye dominio curricular y planeación, pero lo que caracteriza esta experiencia es la relación con las familias y con la cooperativa. Sería la respuesta si la evidencia fuera el plan del proyecto o los resultados de aprendizaje en el aula."
+    },
+    {
+     "l": "B",
+     "t": "comunitaria, porque vincula a las familias y aprovecha el entorno productivo de la vereda.",
+     "j": "Es correcta. La Resolución 3842 define la gestión comunitaria como la capacidad de establecer relaciones con la comunidad a través de las familias o acudientes y de potenciar la actividad pedagógica aprovechando el entorno social, cultural y productivo, que es justo lo que hace la feria."
+    },
+    {
+     "l": "C",
+     "t": "administrativa, porque exige coordinar espacios, permisos y recursos de la institución para el evento.",
+     "j": "Es incorrecta. Organizar un evento requiere logística, pero la gestión administrativa se refiere al cumplimiento de normas y procedimientos y a la conservación de los recursos de la institución. El propósito de la feria no es administrativo sino de interacción con la comunidad."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave del caso es «familias y cooperativa de productores». La Resolución 3842 de 2022 organiza las competencias funcionales del docente de aula en tres áreas de gestión y describe la comunitaria como la capacidad para «establecer relaciones con la comunidad a través de las familias o acudientes, potenciar su actividad pedagógica aprovechando el entorno social, cultural y productivo». En esta área se evalúan la comunicación institucional y la interacción con la comunidad y el entorno. La CNSC suele poner distractores que nombran otra área de gestión con un argumento cierto pero secundario; ubique la evidencia por su propósito principal, no por las tareas logísticas que implica.",
+   "fuente": "Resolución 3842 de 2022 (MEN), numeral 2.1.1.3, Gestión Comunitaria.",
+   "consejo": "Pregúntate con quién se relaciona la actividad: aula y currículo (académica), normas y recursos (administrativa), familias y entorno (comunitaria).",
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "establecer relaciones con la comunidad a través de las familias o acudientes, potenciar su actividad pedagógica aprovechando el entorno social, cultural y productivo",
+     "ubicacion": "Resolución 3842 de 2022, 2.1.1.3"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "b) Interacción con la comunidad y el entorno.",
+     "ubicacion": "Resolución 3842 de 2022, 2.1.1.3"
+    }
+   ],
+   "competencia": "Organización escolar y carrera"
+  },
+  {
+   "id": "Q162",
+   "tipo": "caso",
+   "caso": "C106",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 3,
+   "enunciado": "De acuerdo con la Resolución 3842 de 2022, la labor del docente con los equipos de la sala evidencia",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la gestión académica, en la competencia de planeación y organización, porque programa turnos con los estudiantes.",
+     "j": "Es incorrecta. Organizar turnos implica planear, pero la competencia de planeación y organización de la gestión académica se refiere a la enseñanza del área. Aquí el propósito es conservar y aprovechar los equipos de la institución, que la norma ubica en otra área de gestión."
+    },
+    {
+     "l": "B",
+     "t": "la gestión administrativa, en la competencia de uso eficiente de recursos pedagógicos, porque busca conservarlos.",
+     "j": "Es correcta. La gestión administrativa comprende el cumplimiento de normas y procedimientos para el funcionamiento eficiente del establecimiento y la conservación de sus recursos, y una de sus dos competencias es el uso eficiente de recursos pedagógicos. Por eso la labor sí cuenta en la evaluación."
+    },
+    {
+     "l": "C",
+     "t": "la gestión comunitaria, en la competencia de comunicación institucional, porque presenta un informe al rector.",
+     "j": "Es incorrecta. Entregar un informe es una forma de comunicarse, pero la gestión comunitaria se refiere a la relación con la comunidad educativa, las familias y el entorno. El informe es un medio; el objetivo de la labor es la conservación de los recursos de la institución."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El caso exige dos pasos: identificar el área de gestión y luego la competencia. La Resolución 3842 dice que la gestión administrativa «comprende el conocimiento y cumplimiento de las normas y de los procedimientos administrativos de la institución, para el funcionamiento eficiente del establecimiento y la conservación de los recursos del mismo», y que en ella se evalúan el uso eficiente de recursos pedagógicos y la participación y seguimiento de procesos institucionales. Cuidar y registrar los computadores de la sala para que se aprovechen en todas las áreas encaja en esa descripción. Además, la respuesta al colega es clara: las competencias funcionales no se limitan a la clase.",
+   "fuente": "Resolución 3842 de 2022 (MEN), numeral 2.1.1.2, Gestión Administrativa.",
+   "consejo": "Recursos, normas y procedimientos de la institución → gestión administrativa. No todo lo que evalúa la CNSC ocurre dentro del aula.",
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Comprende el conocimiento y cumplimiento de las normas y de los procedimientos administrativos de la institución, para el funcionamiento eficiente del establecimiento y la conservación de los recursos del mismo.",
+     "ubicacion": "Resolución 3842 de 2022, 2.1.1.2"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "a) Uso eficiente de recursos pedagógicos.",
+     "ubicacion": "Resolución 3842 de 2022, 2.1.1.2"
+    }
+   ],
+   "competencia": "Organización escolar y carrera"
+  },
+  {
+   "id": "Q163",
+   "tipo": "caso",
+   "caso": "C107",
+   "familia": "DIS-FALLAS",
+   "dificultad": 2,
+   "enunciado": "La orientación de la docente más coherente con el desempeño de la Guía 30 para cuarto y quinto es pedir a los estudiantes que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "conecten la linterna al tomacorriente con la supervisión de la docente, para descartar rápido la falla de las pilas.",
+     "j": "Es incorrecta. La supervisión no vuelve segura una conexión que el artefacto no admite. La Guía 30 pide identificar fallas sencillas y actuar en forma segura frente a ellas; probar con la red eléctrica expone a los niños a un riesgo innecesario."
+    },
+    {
+     "l": "B",
+     "t": "comparen su linterna con una linterna comercial y anoten las ventajas y desventajas de cada una de ellas.",
+     "j": "Es incorrecta. Comparar soluciones es otro desempeño válido de cuarto y quinto, pero no responde al problema del caso, que es una falla. Sería pertinente después de reparar la linterna, para valorar el diseño frente a otras soluciones."
+    },
+    {
+     "l": "C",
+     "t": "identifiquen la falla sencilla revisando pilas, contactos y bombillo, y actúen de forma segura frente a ella.",
+     "j": "Es correcta. Es el desempeño literal de la Guía 30 para cuarto y quinto: identificar fallas sencillas en un artefacto y actuar en forma segura. Revisar uno a uno los elementos del circuito permite encontrar la causa sin riesgos."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El enunciado combina dos condiciones: hay una falla en un artefacto y un estudiante propone una prueba peligrosa. La Guía 30 fija para cuarto y quinto el desempeño «Identifico fallas sencillas en un artefacto o proceso y actúo en forma segura frente a ellas». La respuesta debe atender ambas partes: buscar la falla en los elementos del circuito (pilas, contactos, bombillo) y descartar la conexión al tomacorriente. En la CNSC es frecuente que un distractor proponga otro desempeño del mismo grupo de grados, cierto pero fuera de lugar; elija el que responde al problema concreto del caso.",
+   "fuente": "Guía 30 MEN (2008), cuarto a quinto, Solución de problemas con tecnología.",
+   "consejo": "Falla + riesgo en primaria: la respuesta une identificar la falla y actuar de forma segura.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Identifico fallas sencillas en un artefacto o proceso y actúo en forma segura frente a ellas.",
+     "ubicacion": "Guía 30, cuarto a quinto"
+    }
+   ],
+   "competencia": "Solución de problemas"
+  },
+  {
+   "id": "Q164",
+   "tipo": "caso",
+   "caso": "C108",
+   "familia": "DIS-DISENO",
+   "dificultad": 2,
+   "enunciado": "Según el desempeño de la Guía 30 para cuarto y quinto, antes de construir la docente debe pedir al grupo que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "construya la canaleta esa misma tarde y, si falla con la próxima lluvia, la reemplace por otra opción.",
+     "j": "Es incorrecta. Probar es valioso, pero construir la primera idea sin compararla con otras salta el paso que pide la Guía 30 para este grupo de grados. Sería razonable después de haber valorado varias alternativas y escogido la mejor."
+    },
+    {
+     "l": "B",
+     "t": "proponga varias soluciones, explique cómo llegó a ellas y señale ventajas y desventajas de cada una.",
+     "j": "Es correcta. Es casi textual el desempeño de cuarto y quinto: frente a un problema, proponer varias soluciones, indicar cómo se llegó a ellas y cuáles son sus ventajas y desventajas. Así el grupo decide con criterios y no solo con la primera idea."
+    },
+    {
+     "l": "C",
+     "t": "elija la canaleta por ser la más económica y dibuje en su cuaderno las medidas exactas para construirla.",
+     "j": "Es incorrecta. El costo es un criterio útil y dibujar medidas es parte del diseño, pero el grupo solo tiene una idea: no puede afirmar que es la más económica sin otras opciones con qué compararla. Falta proponer y comparar alternativas."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La clave del caso es que el grupo tiene «una sola solución». La Guía 30 establece para cuarto y quinto: «Frente a un problema, propongo varias soluciones posibles indicando cómo llegué a ellas y cuáles son las ventajas y desventajas de cada una». Este desempeño forma en el estudiante la idea de que un problema tecnológico admite alternativas que se comparan antes de decidir. En las preguntas de diseño, la CNSC premia la opción que abre alternativas y criterios antes de construir; desconfíe de las opciones que pasan directo a fabricar o que dan por hecho que la primera idea es la mejor.",
+   "fuente": "Guía 30 MEN (2008), cuarto a quinto, Solución de problemas con tecnología.",
+   "consejo": "Diseño en primaria: varias soluciones, cómo llegué a ellas, ventajas y desventajas. Luego se construye.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Frente a un problema, propongo varias soluciones posibles indicando cómo llegué a ellas y cuáles son las ventajas y desventajas de cada una.",
+     "ubicacion": "Guía 30, cuarto a quinto"
+    }
+   ],
+   "competencia": "Solución de problemas"
+  },
+  {
+   "id": "Q165",
+   "tipo": "caso",
+   "caso": "C109",
+   "familia": "DIS-DISENO",
+   "dificultad": 3,
+   "enunciado": "De acuerdo con los desempeños de la Guía 30 para octavo y noveno, la orientación más pertinente de la docente es que los estudiantes",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "midan el caño durante todo el invierno antes de diseñar, porque las propuestas deben apoyarse en evidencias.",
+     "j": "Es incorrecta. Las evidencias son importantes y la Guía 30 pide justificar mejoras con experimentación, pero ese desempeño se aplica a soluciones ya propuestas. Esperar todo el invierno para empezar ignora que este grupo de grados debe saber proponer soluciones con información incompleta."
+    },
+    {
+     "l": "B",
+     "t": "obtengan algunos datos con la comunidad y las marcas de agua, e infieran los otros para diseñar.",
+     "j": "Es correcta. Corresponde al desempeño «Propongo soluciones tecnológicas en condiciones de incertidumbre, donde parte de la información debe ser obtenida y parcialmente inferida». Los estudiantes consiguen unos datos, estiman los demás y avanzan con el diseño."
+    },
+    {
+     "l": "C",
+     "t": "adopten el diseño de una pasarela comercial de catálogo, porque así no dependen de los datos que faltan.",
+     "j": "Es incorrecta. Una solución comercial también exige conocer el caudal y la carga que soportará; no elimina la incertidumbre. Además, renuncia al proceso de diseño que se espera del estudiante. Adaptar soluciones existentes es válido, pero no así, sin analizar el problema."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El caso tiene dos condiciones: faltan datos clave y un estudiante concluye que no se puede diseñar. La Guía 30 incluye para octavo y noveno el desempeño «Propongo soluciones tecnológicas en condiciones de incertidumbre, donde parte de la información debe ser obtenida y parcialmente inferida». La respuesta correcta combina obtener la información disponible (preguntar a la comunidad, observar marcas de agua) e inferir el resto para avanzar. El distractor más cercano invoca las evidencias y la experimentación, que también son desempeños de la Guía, pero en otro momento del proceso. La lógica que se evalúa es que el diseño real casi nunca cuenta con información completa.",
+   "fuente": "Guía 30 MEN (2008), octavo a noveno, Solución de problemas con tecnología.",
+   "consejo": "Si el caso dice que faltan datos, busca la opción que obtiene algunos e infiere otros, no la que espera o evade el problema.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Propongo soluciones tecnológicas en condiciones de incertidumbre, donde parte de la información debe ser obtenida y parcialmente inferida.",
+     "ubicacion": "Guía 30, octavo a noveno"
+    }
+   ],
+   "competencia": "Solución de problemas"
+  },
+  {
+   "id": "Q166",
+   "tipo": "caso",
+   "caso": "C110",
+   "familia": "DIS-CTS",
+   "dificultad": 2,
+   "enunciado": "La intervención de la docente coherente con el desempeño de la Guía 30 para octavo y noveno es pedir a los estudiantes que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "voten a favor o en contra de la antena y adopten la posición de la mayoría como conclusión del grupo.",
+     "j": "Es incorrecta. Votar es un mecanismo democrático, pero no obliga a comprender las razones de los demás; la mayoría puede decidir sin haber escuchado a los vecinos. El desempeño de la Guía 30 pide analizar los puntos de vista antes de argumentar."
+    },
+    {
+     "l": "B",
+     "t": "consulten las especificaciones técnicas de la antena, porque los datos técnicos bastan para cerrar el debate.",
+     "j": "Es incorrecta. La información técnica es útil, pero reducir el debate a datos técnicos deja por fuera los intereses y percepciones sociales, como el paisaje. El componente Tecnología y sociedad pide tener en cuenta esos puntos de vista."
+    },
+    {
+     "l": "C",
+     "t": "analicen los puntos de vista e intereses de vecinos, empresa y estudiantes, y los tengan en cuenta al argumentar.",
+     "j": "Es correcta. Es el desempeño de octavo y noveno: analizar diversos puntos de vista e intereses relacionados con la percepción de los problemas y las soluciones tecnológicas, y tomarlos en cuenta en las argumentaciones. Responde a la burla hacia los vecinos."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La clave del caso es que los estudiantes descalifican la opinión de los vecinos. En el componente Tecnología y sociedad, la Guía 30 propone para octavo y noveno: «Analizo diversos puntos de vista e intereses relacionados con la percepción de los problemas y las soluciones tecnológicas, y los tomo en cuenta en mis argumentaciones». La docente no debe imponer una conclusión ni cerrar el debate con datos técnicos; debe lograr que los estudiantes reconozcan los intereses de cada actor (vecinos, empresa, comunidad educativa) y argumenten considerándolos. En la CNSC, las opciones que cierran rápido una discusión suelen ser distractores en preguntas de este componente.",
+   "fuente": "Guía 30 MEN (2008), octavo a noveno, Tecnología y sociedad.",
+   "consejo": "Debates sobre impactos de la tecnología: primero se analizan los puntos de vista e intereses; luego se argumenta.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Analizo diversos puntos de vista e intereses relacionados con la percepción de los problemas y las soluciones tecnológicas, y los tomo en cuenta en mis argumentaciones.",
+     "ubicacion": "Guía 30, octavo a noveno"
+    }
+   ],
+   "competencia": "Tecnología y sociedad"
+  },
+  {
+   "id": "Q167",
+   "tipo": "caso",
+   "caso": "C111",
+   "familia": "NOR-SIST",
+   "dificultad": 1,
+   "enunciado": "Según el artículo 6 de la Ley 1620 de 2013, frente a la primera afirmación del rector es correcto señalar que el Sistema tiene instancias en los niveles",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "nacional, departamental y escolar; el departamental lo integran las secretarías de educación certificadas del país.",
+     "j": "Es incorrecta. La ley no llama «departamental» al nivel intermedio ni lo integra con las secretarías de educación. El nivel intermedio es el territorial, formado por comités de convivencia escolar municipales, distritales y departamentales."
+    },
+    {
+     "l": "B",
+     "t": "nacional, territorial y escolar; el territorial lo integran los comités municipales, distritales y departamentales.",
+     "j": "Es correcta. El artículo 6 establece una estructura de tres niveles: nacional, con el Comité Nacional; territorial, con los comités municipales, distritales y departamentales; y escolar, con el comité de convivencia de cada establecimiento. El comité escolar sí hace parte del Sistema."
+    },
+    {
+     "l": "C",
+     "t": "nacional, municipal y escolar; el municipal lo integran las comisarías de familia y la Policía de Infancia y Adolescencia.",
+     "j": "Es incorrecta. Las comisarías y la Policía de Infancia actúan en la Ruta de Atención, pero no conforman los niveles de la estructura del artículo 6. El nivel intermedio se llama territorial y lo forman comités de convivencia escolar."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Pregunta de reconocimiento sobre la estructura del Sistema. El artículo 6 de la Ley 1620 dice que el Sistema «tendrá una estructura constituida por instancias en tres niveles: Nacional, Territorial y Escolar, liderados por el sector educativo». El nivel territorial está «integrado por los comités municipales, distritales y departamentales de convivencia escolar» y el escolar, por el comité de convivencia de cada establecimiento. Por eso el comité escolar no está aislado: es la instancia escolar de un sistema que tiene comités en el territorio y un Comité Nacional. Los distractores cambian el nombre del nivel o meten entidades que participan en la Ruta pero no forman la estructura.",
+   "fuente": "Ley 1620 de 2013, art. 6.",
+   "consejo": "Estructura del Sistema: Nacional (Comité Nacional), Territorial (comités municipales, distritales y departamentales) y Escolar (comité de cada colegio).",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "tendrá una estructura constituida por instancias en tres niveles: Nacional, Territorial y Escolar, liderados por el sector educativo",
+     "ubicacion": "Ley 1620 de 2013, art. 6"
+    },
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Territorial: Integrado por los comités municipales, distritales y departamentales de convivencia escolar, según corresponda.",
+     "ubicacion": "Ley 1620 de 2013, art. 6"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q168",
+   "tipo": "caso",
+   "caso": "C112",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "enunciado": "Según el principio de participación del artículo 5 de la Ley 1620 de 2013, la respuesta adecuada al personero es que el establecimiento",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "debe informar a los estudiantes sobre las estrategias aprobadas, porque así se cumple la participación.",
+     "j": "Es incorrecta. Socializar una campaña terminada es informar, no participar. La ley habla de garantizar la participación de los estudiantes en el desarrollo de las estrategias, lo que implica intervenir en su diseño y ejecución."
+    },
+    {
+     "l": "B",
+     "t": "debe garantizar que los estudiantes participen en el desarrollo de las estrategias del Sistema.",
+     "j": "Es correcta. El principio de participación dice que los establecimientos educativos deben garantizar el derecho a la participación de niños, niñas y adolescentes en el desarrollo de las estrategias y acciones que se adelanten en el marco del Sistema."
+    },
+    {
+     "l": "C",
+     "t": "puede invitar a los estudiantes cuando el comité lo considere conveniente, porque es una decisión adulta.",
+     "j": "Es incorrecta. Convierte un deber en una opción. La ley usa la expresión «deben garantizar el derecho a la participación», de modo que no depende de la conveniencia del comité ni de que los adultos lo decidan."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave es «garantizar». El artículo 5 de la Ley 1620 establece, en el principio de participación, que «los establecimientos educativos deben garantizar el derecho a la participación de niños, niñas y adolescentes en el desarrollo de las estrategias y acciones que se adelanten dentro de los mismos en el marco del Sistema». Una campaña contra el ciberacoso es una de esas estrategias, así que los estudiantes deben intervenir en su desarrollo, no solo recibirla terminada. La CNSC suele presentar como distractores la simple socialización o la participación condicionada a la voluntad de los adultos; ninguna de las dos cumple el deber legal.",
+   "fuente": "Ley 1620 de 2013, art. 5, num. 1 (principio de participación).",
+   "consejo": "Participación en la Ley 1620 = derecho que el colegio debe garantizar, no un favor ni una socialización.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "los establecimientos educativos deben garantizar el derecho a la participación de niños, niñas y adolescentes en el desarrollo de las estrategias y acciones que se adelanten dentro de los mismos en el marco del Sistema",
+     "ubicacion": "Ley 1620 de 2013, art. 5, num. 1"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q169",
+   "tipo": "caso",
+   "caso": "C113",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 3,
+   "enunciado": "El principio del artículo 5 de la Ley 1620 de 2013 que la decisión de la docente desconoce de manera más directa es el de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "integralidad, porque el Sistema se orienta a la educación para la autorregulación y para la sanción social.",
+     "j": "Es incorrecta. La integralidad describe la filosofía del Sistema (autorregulación, sanción social, respeto a la Constitución), pero no se refiere a la exclusión por origen étnico. Sería la respuesta si el caso tratara de un enfoque solo sancionatorio de la convivencia."
+    },
+    {
+     "l": "B",
+     "t": "diversidad, porque el Sistema se basa en el respeto a la dignidad sin discriminación por etnia o cultura.",
+     "j": "Es correcta. El principio de diversidad fundamenta el Sistema en el reconocimiento y respeto de la dignidad propia y ajena, sin discriminación por etnia o condición cultural, y en ambientes incluyentes. Dejar a Yeison solo consolida la exclusión de sus compañeros."
+    },
+    {
+     "l": "C",
+     "t": "corresponsabilidad, porque la familia y la institución comparten la formación ciudadana y la convivencia.",
+     "j": "Es incorrecta. La corresponsabilidad reparte entre familia, escuela, sociedad y Estado la tarea de formar y promover la convivencia, pero el caso no trata de quién debe actuar sino de una decisión que excluye a un estudiante por su origen."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El enunciado pide el principio afectado «de manera más directa». El caso describe una exclusión por la forma de hablar de un estudiante indígena, y la decisión de la docente la refuerza en lugar de corregirla. El artículo 5 de la Ley 1620 define la diversidad: el Sistema se fundamenta en «el reconocimiento, respeto y valoración de la dignidad propia y ajena, sin discriminación por razones de género, orientación o identidad sexual, etnia o condición física, social o cultural», y añade el derecho a una formación en ambientes pacíficos, democráticos e incluyentes. Los otros principios son reales, pero no responden a la discriminación por etnia o cultura.",
+   "fuente": "Ley 1620 de 2013, art. 5, num. 4 (principio de diversidad).",
+   "consejo": "Si el caso habla de exclusión por etnia, género, orientación o condición, el principio es diversidad.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "El Sistema se fundamenta en el reconocimiento, respeto y valoración de la dignidad propia y ajena, sin discriminación por razones de género, orientación o identidad sexual, etnia o condición física, social o cultural.",
+     "ubicacion": "Ley 1620 de 2013, art. 5, num. 4"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q170",
+   "tipo": "caso",
+   "caso": "C111",
+   "familia": "NOR-SIST",
+   "dificultad": 3,
+   "enunciado": "Frente al argumento del rector sobre las reglas nuevas, el principio de autonomía del artículo 5 de la Ley 1620 de 2013 indica que la institución",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "es autónoma para fijar sus reglas siempre que el consejo directivo las apruebe dentro del manual de convivencia.",
+     "j": "Es incorrecta. Es una verdad a medias: la aprobación interna es necesaria, pero no basta. Una regla aprobada por el consejo directivo que contraríe la Constitución o la ley no se vuelve válida; el límite de la autonomía es externo a la institución."
+    },
+    {
+     "l": "B",
+     "t": "carece de autonomía en materia de convivencia, porque sus reglas las define el comité municipal de convivencia.",
+     "j": "Es incorrecta. El comité municipal es una instancia territorial del Sistema, pero no redacta las reglas de cada institución. La ley reconoce expresamente que las instituciones educativas son autónomas; lo que hace es fijar los límites de esa autonomía."
+    },
+    {
+     "l": "C",
+     "t": "es autónoma en concordancia con la Constitución Política y dentro de los límites que fijan las leyes y normas.",
+     "j": "Es correcta. El principio de autonomía del artículo 5 dice que los individuos, las entidades territoriales y las instituciones educativas son autónomos «en concordancia con la Constitución Política y dentro de los límites fijados por las leyes, normas y disposiciones»."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El caso enfrenta dos ideas cercanas: la institución sí es autónoma, pero el rector cree que puede fijar «las normas que quiera». El artículo 5 de la Ley 1620 define la autonomía así: «Los individuos, entidades territoriales e instituciones educativas son autónomos en concordancia con la Constitución Política y dentro de los límites fijados por las leyes, normas y disposiciones». La respuesta correcta reconoce la autonomía y su límite al mismo tiempo. El distractor más tentador pone el límite en un trámite interno (la aprobación del consejo directivo); el otro niega la autonomía. En la CNSC, la autonomía institucional siempre se lee junto con la Constitución y la ley.",
+   "fuente": "Ley 1620 de 2013, art. 5, num. 3 (principio de autonomía).",
+   "consejo": "Autonomía escolar sí, pero dentro de la Constitución y la ley; la aprobación interna no basta.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Los individuos, entidades territoriales e instituciones educativas son autónomos en concordancia con la Constitución Política y dentro de los límites fijados por las leyes, normas y disposiciones.",
+     "ubicacion": "Ley 1620 de 2013, art. 5, num. 3"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q171",
+   "tipo": "caso",
+   "caso": "C114",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 1,
+   "enunciado": "Frente a la opinión de la segunda docente, según el artículo 1 de la Ley 1098 de 2006 la finalidad del Código es garantizar a los niños, niñas y adolescentes",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "su permanencia en el sistema educativo hasta terminar la media, en un ambiente de exigencia y disciplina.",
+     "j": "Es incorrecta. La permanencia escolar es un derecho importante, pero el artículo 1 no reduce la finalidad del Código a lo educativo. Habla del pleno y armonioso desarrollo en la familia y la comunidad, y no menciona un ambiente de exigencia y disciplina."
+    },
+    {
+     "l": "B",
+     "t": "la sanción oportuna de quienes vulneren sus derechos, para que crezcan protegidos por el Estado.",
+     "j": "Es incorrecta. El Código sí contiene normas de protección y procedimiento, pero su finalidad no es sancionar. Además, el artículo 1 ubica el crecimiento del niño en la familia y la comunidad, no solo bajo la protección de las autoridades."
+    },
+    {
+     "l": "C",
+     "t": "su pleno y armonioso desarrollo en la familia y la comunidad, en un ambiente de felicidad, amor y comprensión.",
+     "j": "Es correcta. Es casi textual el artículo 1: el Código tiene por finalidad garantizar a los niños, niñas y adolescentes su pleno y armonioso desarrollo para que crezcan en el seno de la familia y de la comunidad, en un ambiente de felicidad, amor y comprensión."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Pregunta de reconocimiento del artículo 1 de la Ley 1098. La finalidad del Código es «garantizar a los niños, a las niñas y a los adolescentes su pleno y armonioso desarrollo para que crezcan en el seno de la familia y de la comunidad, en un ambiente de felicidad, amor y comprensión». El mismo artículo agrega que prevalecerá el reconocimiento a la igualdad y la dignidad humana. La finalidad es amplia (desarrollo integral) y no se limita a la escuela ni a castigar. En la CNSC, desconfíe de las opciones que reducen los derechos de la infancia a un solo aspecto, sea lo académico o lo sancionatorio.",
+   "fuente": "Ley 1098 de 2006, art. 1.",
+   "consejo": "Finalidad del Código = pleno y armonioso desarrollo, en familia y comunidad, con felicidad, amor y comprensión.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "garantizar a los niños, a las niñas y a los adolescentes su pleno y armonioso desarrollo para que crezcan en el seno de la familia y de la comunidad, en un ambiente de felicidad, amor y comprensión",
+     "ubicacion": "Ley 1098 de 2006, art. 1"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q172",
+   "tipo": "caso",
+   "caso": "C114",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 2,
+   "enunciado": "Frente a la idea de que el Código solo sirve para castigar, según su artículo 2 el objeto del Código es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "establecer normas para la protección integral, garantizar el ejercicio de los derechos y su restablecimiento.",
+     "j": "Es correcta. El artículo 2 fija como objeto establecer normas sustantivas y procesales para la protección integral, garantizar el ejercicio de los derechos y libertades de niños, niñas y adolescentes, así como su restablecimiento. Castigar no es el objeto del Código."
+    },
+    {
+     "l": "B",
+     "t": "establecer las penas para los adultos que maltraten a niños, niñas y adolescentes en la casa o la escuela.",
+     "j": "Es incorrecta. Es la idea del primer docente. El artículo 2 no define el objeto del Código en términos de penas para adultos; lo define en términos de protección integral, garantía del ejercicio de los derechos y su restablecimiento."
+    },
+    {
+     "l": "C",
+     "t": "regular el servicio educativo de niños, niñas y adolescentes y asegurar su promoción de grado a grado.",
+     "j": "Es incorrecta. Es la idea de la segunda docente. El servicio educativo lo regula principalmente la Ley 115; el Código de Infancia tiene un objeto más amplio: proteger integralmente a niños, niñas y adolescentes y garantizar sus derechos."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La clave es que el objeto del Código no es punitivo. El artículo 2 de la Ley 1098 dice que el Código tiene por objeto «establecer normas sustantivas y procesales para la protección integral de los niños, las niñas y los adolescentes, garantizar el ejercicio de sus derechos y libertades consagrados en los instrumentos internacionales de derechos humanos, en la Constitución Política y en las leyes, así como su restablecimiento». Tres verbos para recordar: proteger integralmente, garantizar el ejercicio de los derechos y restablecerlos cuando se vulneran. Los distractores reproducen las dos opiniones equivocadas del caso: castigar o regular solo lo escolar.",
+   "fuente": "Ley 1098 de 2006, art. 2.",
+   "consejo": "Objeto del Código: protección integral + garantía del ejercicio de los derechos + restablecimiento.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "establecer normas sustantivas y procesales para la protección integral de los niños, las niñas y los adolescentes, garantizar el ejercicio de sus derechos y libertades",
+     "ubicacion": "Ley 1098 de 2006, art. 2"
+    },
+    {
+     "doc": "ley_1098_2006",
+     "texto": "así como su restablecimiento",
+     "ubicacion": "Ley 1098 de 2006, art. 2"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q173",
+   "tipo": "caso",
+   "caso": "C114",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 2,
+   "enunciado": "Frente a la idea de que la protección es tarea exclusiva del ICBF, el artículo 2 de la Ley 1098 de 2006 establece que la garantía y protección de los derechos es obligación de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el Estado, por medio del ICBF y de las demás autoridades administrativas que sean competentes.",
+     "j": "Es incorrecta. El Estado es uno de los obligados y el ICBF tiene funciones importantes, pero el artículo 2 no deja la obligación solo en manos del Estado. Nombra también a la familia y a la sociedad, de la que hace parte la comunidad educativa."
+    },
+    {
+     "l": "B",
+     "t": "la familia en primer lugar, y del Estado solo cuando la familia no pueda o no quiera cumplirla.",
+     "j": "Es incorrecta. Plantea un orden de subsidiariedad que el artículo 2 no establece. La norma dice que la garantía y protección es obligación de la familia, la sociedad y el Estado, sin poner a uno de ellos como responsable único o principal."
+    },
+    {
+     "l": "C",
+     "t": "la familia, la sociedad y el Estado, sin dejar esta obligación en manos de una sola entidad.",
+     "j": "Es correcta. El artículo 2 termina diciendo: «Dicha garantía y protección será obligación de la familia, la sociedad y el Estado». Por eso los docentes también tienen deberes de protección y no pueden delegarlos por completo en el ICBF."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El caso plantea que proteger es tarea exclusiva del ICBF. El artículo 2 de la Ley 1098, después de definir el objeto del Código, dice: «Dicha garantía y protección será obligación de la familia, la sociedad y el Estado». La respuesta reparte la obligación entre tres actores sin jerarquizarlos ni concentrarla en una entidad. Para el docente, esto significa que la escuela, como parte de la sociedad y del Estado, tiene deberes propios frente a los derechos de sus estudiantes. En la CNSC, las opciones que dejan la protección en un solo actor (el ICBF, la familia o la Policía) suelen ser distractores.",
+   "fuente": "Ley 1098 de 2006, art. 2.",
+   "consejo": "Garantía y protección de derechos = familia + sociedad + Estado. Nunca una sola entidad.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "Dicha garantía y protección será obligación de la familia, la sociedad y el Estado.",
+     "ubicacion": "Ley 1098 de 2006, art. 2"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q174",
+   "tipo": "caso",
+   "caso": "C115",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 3,
+   "enunciado": "Según el artículo 1 de la Ley 1098 de 2006, la posición de la docente de Tecnología debe ser que la estudiante",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "puede estudiar en un grupo aparte mientras se adapta, porque la medida es temporal y busca su bienestar.",
+     "j": "Es incorrecta. Suena protectora, pero separar a la niña por su origen es un trato diferente sin una razón pedagógica que lo justifique. El artículo 1 dice que prevalecerá la igualdad y la dignidad humana sin discriminación alguna; la adaptación se apoya dentro de su grupo."
+    },
+    {
+     "l": "B",
+     "t": "debe estar en su grupo y en el proyecto, porque prevalecen la igualdad y la dignidad sin discriminación.",
+     "j": "Es correcta. El artículo 1 del Código establece que «prevalecerá el reconocimiento a la igualdad y la dignidad humana, sin discriminación alguna». Tanto el grupo aparte como el veto al proyecto la tratan distinto por su origen."
+    },
+    {
+     "l": "C",
+     "t": "puede entrar al proyecto si sobran cupos, porque la prioridad es de quienes llevan más tiempo en el colegio.",
+     "j": "Es incorrecta. Un criterio de antigüedad parece neutral, pero en el caso se usa para dejar por fuera a la estudiante recién llegada de otro país. La igualdad sin discriminación alguna exige que acceda a las oportunidades del colegio en las mismas condiciones."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El caso combina dos propuestas que parecen razonables: un grupo aparte «temporal» y una prioridad por antigüedad. Ambas producen el mismo efecto: tratar distinto a la estudiante por su origen. El artículo 1 de la Ley 1098, además de fijar la finalidad del Código, ordena: «Prevalecerá el reconocimiento a la igualdad y la dignidad humana, sin discriminación alguna». Por eso la docente debe defender que la niña esté en su grupo y acceda al proyecto como los demás, con los apoyos que necesite para adaptarse. En la CNSC, las medidas que separan o relegan a un estudiante «por su bien» suelen ser distractores frente al principio de igualdad.",
+   "fuente": "Ley 1098 de 2006, art. 1.",
+   "consejo": "Medidas que separan o relegan a un estudiante por su origen chocan con la igualdad sin discriminación alguna.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "Prevalecerá el reconocimiento a la igualdad y la dignidad humana, sin discriminación alguna.",
+     "ubicacion": "Ley 1098 de 2006, art. 1"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q175",
+   "tipo": "caso",
+   "caso": "C116",
+   "familia": "NOR-CONV-TIPO",
+   "dificultad": 3,
+   "enunciado": "Según el artículo 40 del Decreto 1965 de 2013, la situación descrita es de tipo",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "II, porque es una agresión física que ocurrió una sola vez y causó daño al cuerpo del estudiante.",
+     "j": "Es incorrecta. Es la opinión del director de grupo. El tipo II por daño al cuerpo solo aplica cuando el daño se causa «sin generar incapacidad alguna». Aquí hubo incapacidad médica y los hechos se denunciaron como presunto delito, lo que supera el tipo II."
+    },
+    {
+     "l": "B",
+     "t": "III, porque el daño generó incapacidad y los hechos se denunciaron como presunto delito penal.",
+     "j": "Es correcta. El tipo III comprende las agresiones que constituyen cualquier delito de la ley penal vigente. El caso supera el límite del tipo II (daño sin incapacidad) y la familia denunció lesiones personales, de modo que se trata como presunto delito."
+    },
+    {
+     "l": "C",
+     "t": "I, porque ocurrió fuera de la institución y es un conflicto esporádico entre estudiantes de grados distintos.",
+     "j": "Es incorrecta. El tipo I solo comprende situaciones que en ningún caso generan daños al cuerpo o a la salud, y aquí hubo lesiones con incapacidad. Además, ocurrir frente al colegio y entre estudiantes de distintos grados no cambia la clasificación."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Este caso exige razonar en dos pasos. Primero, descartar el tipo I, que según el artículo 40 comprende situaciones que «en ningún caso generan daños al cuerpo o a la salud». Segundo, revisar el límite del tipo II: una sola agresión puede ser tipo II si causa daños al cuerpo «sin generar incapacidad alguna». Como hubo incapacidad y la familia denunció lesiones personales, la situación corresponde al tipo III, que incluye los casos que constituyen «cualquier otro delito establecido en la Ley penal Colombiana vigente». La frecuencia (una sola vez) no decide el tipo cuando hay indicio de delito.",
+   "fuente": "Decreto 1965 de 2013, art. 40, nums. 2 y 3.",
+   "consejo": "Daño sin incapacidad = tipo II. Incapacidad o presunto delito = tipo III. La frecuencia no salva un presunto delito.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "b. Que causen daños al cuerpo o a la salud sin generar incapacidad alguna para cualquiera de los involucrados.",
+     "ubicacion": "Decreto 1965 de 2013, art. 40, num. 2"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "o cuando constituyen cualquier otro delito establecido en la Ley penal Colombiana vigente",
+     "ubicacion": "Decreto 1965 de 2013, art. 40, num. 3"
+    }
+   ],
+   "competencia": "Convivencia y protección"
+  },
+  {
+   "id": "Q176",
+   "tipo": "caso",
+   "caso": "C117",
+   "familia": "DIS-CONC",
+   "dificultad": 3,
+   "enunciado": "Según las definiciones de la Guía 30, la alerta temprana considerada en su conjunto debe clasificarse como",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "un artefacto, porque reúne dispositivos como sensores, sirena y radios que potencian la acción humana.",
+     "j": "Es incorrecta. Los sensores, la sirena y los radios son artefactos, pero la alerta temprana no se reduce a ellos: incluye personas, un plan de evacuación y flujos de información entre los elementos. Sería correcta si la pregunta fuera por la sirena sola."
+    },
+    {
+     "l": "B",
+     "t": "un sistema, porque integra elementos con relaciones funcionales y flujos de información para un objetivo.",
+     "j": "Es correcta. La Guía 30 define los sistemas como conjuntos de elementos ligados por relaciones estructurales o funcionales para lograr colectivamente un objetivo, y agrega que los sistemas tecnológicos involucran componentes, procesos, relaciones y flujos de energía e información."
+    },
+    {
+     "l": "C",
+     "t": "un proceso, porque está formada por fases sucesivas como medir el nivel, dar el aviso y evacuar la escuela.",
+     "j": "Es incorrecta. Es el distractor más cercano: la secuencia medir, avisar y evacuar sí es un proceso, pero es solo una parte de la alerta temprana. El conjunto reúne artefactos, personas y procesos relacionados, y eso es lo que la Guía llama sistema."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La clave está en la expresión «considerada en su conjunto». La Guía 30 define los sistemas como «conjuntos o grupos de elementos ligados entre sí por relaciones estructurales o funcionales, diseñados para lograr colectivamente un objetivo», y precisa que los sistemas tecnológicos «involucran componentes, procesos, relaciones, interacciones y flujos de energía e información». La alerta temprana contiene artefactos (sensores, sirena, radios) y procesos (medir, avisar, evacuar), pero el todo es un sistema. En la CNSC, cuando el caso describe varios elementos que interactúan para un fin común, la respuesta suele ser sistema; artefacto y proceso describen partes.",
+   "fuente": "Guía 30 MEN (2008), La tecnología: conceptos básicos (artefactos, procesos y sistemas).",
+   "consejo": "Pregunta por el todo → sistema. Pregunta por un aparato → artefacto. Pregunta por una secuencia de fases → proceso.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Los sistemas: son conjuntos o grupos de elementos ligados entre sí por relaciones estructurales o funcionales, diseñados para lograr colectivamente un objetivo.",
+     "ubicacion": "Guía 30, La tecnología: conceptos básicos"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "los sistemas tecnológicos involucran componentes, procesos, relaciones, interacciones y flujos de energía e información",
+     "ubicacion": "Guía 30, La tecnología: conceptos básicos"
+    }
+   ],
+   "competencia": "Naturaleza y evolución"
+  },
+  {
+   "id": "Q177",
+   "tipo": "caso",
+   "caso": "C118",
+   "familia": "DIS-ALGO",
+   "dificultad": 2,
+   "enunciado": "Según las Orientaciones Curriculares de Tecnología e Informática, la técnica del pensamiento computacional que promueve la docente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la abstracción, porque organiza los datos de la tienda de forma lógica para representarlos en un modelo.",
+     "j": "Es incorrecta. La abstracción consiste en analizar y organizar los datos de forma lógica para representarlos mediante modelos. Es útil en el proyecto, pero lo que hace la docente en el caso es partir el reto en partes, no modelar los datos."
+    },
+    {
+     "l": "B",
+     "t": "el razonamiento lógico, porque automatiza el modelo con un algoritmo que se generaliza a otras tiendas.",
+     "j": "Es incorrecta. El razonamiento lógico organiza y automatiza modelos con algoritmos que se pueden generalizar a problemas similares. Llegará después, cuando los estudiantes unan las partes y piensen en otras tiendas, pero no es lo que se describe."
+    },
+    {
+     "l": "C",
+     "t": "la descomposición, porque divide el problema en subproblemas que se pueden resolver con el computador.",
+     "j": "Es correcta. Las Orientaciones describen la descomposición del problema en subproblemas, de forma que se pueda usar un ordenador y otras herramientas para resolverlos. Separar registrar, calcular el total, recibir el pago y dar el cambio es exactamente eso."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La clave del caso es «separar el reto en partes». Las Orientaciones Curriculares describen el pensamiento computacional con tres técnicas para diseñar algoritmos: la descomposición del problema en subproblemas, la abstracción (organizar los datos para representarlos en modelos) y el razonamiento lógico (organizar y automatizar esos modelos para generalizarlos). La docente aplica la primera: el grupo deja de pelear con un solo bloque gigante y resuelve cuatro partes manejables. Las tres técnicas suelen trabajar juntas, por eso la CNSC pregunta por la que describe la acción concreta del caso. Lea el verbo del enunciado: dividir es descomponer.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), pensamiento computacional.",
+   "consejo": "Dividir en partes = descomposición. Organizar datos en modelos = abstracción. Automatizar y generalizar = razonamiento lógico.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la descomposición del problema en subproblemas de forma que se pueda usar un ordenador y otras herramientas para ayudar a resolverlos"
+    }
+   ],
+   "competencia": "Solución de problemas"
+  },
+  {
+   "id": "Q178",
+   "tipo": "caso",
+   "caso": "C119",
+   "familia": "PED-INCL",
+   "dificultad": 2,
+   "enunciado": "Según la definición de estudiante con discapacidad del Decreto 1421 de 2017, lo que puede impedir la participación plena de Andrés en el taller es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "su limitación física por sí sola, de modo que tomar nota mientras los demás construyen es un apoyo adecuado.",
+     "j": "Es incorrecta. Ubica el problema solo en el estudiante. El decreto dice que las limitaciones impiden la participación al interactuar con barreras, y aquí hay barreras evidentes. Asignarle siempre tomar nota lo excluye de la construcción en vez de remover esas barreras."
+    },
+    {
+     "l": "B",
+     "t": "la interacción de su limitación con barreras: el escalón, las mesas altas y la creencia de que no puede.",
+     "j": "Es correcta. La definición dice que las limitaciones, al interactuar con barreras actitudinales, derivadas de falsas creencias, institucionales o de infraestructura, pueden impedir el aprendizaje y la participación. El caso muestra barreras físicas y actitudinales que el docente debe eliminar."
+    },
+    {
+     "l": "C",
+     "t": "la falta de un diagnóstico médico actualizado, sin el cual la institución no puede definir sus apoyos.",
+     "j": "Es incorrecta. El decreto define la discapacidad desde la interacción con las barreras del entorno, no desde un diagnóstico. Los apoyos y ajustes se definen a partir de las barreras identificadas; exigir primero un diagnóstico retrasa la participación de Andrés."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El Decreto 1421 de 2017 define al estudiante con discapacidad como una persona con limitaciones «que, al interactuar con diversas barreras (actitudinales, derivadas de falsas creencias, por desconocimiento, institucionales, de infraestructura, entre otras), pueden impedir su aprendizaje y participación plena y efectiva». La palabra clave es «interactuar»: la discapacidad no está solo en la persona, sino en el encuentro con un entorno que pone obstáculos. En el caso hay barreras de infraestructura (escalón, mesas altas) y actitudinales (la creencia de que «no puede»). La tarea del docente es identificarlas y removerlas, no adaptar al estudiante a la exclusión.",
+   "fuente": "Decreto 1421 de 2017 (compilado en el Decreto 1075 de 2015), definición de estudiante con discapacidad.",
+   "consejo": "Discapacidad = limitación + barreras. Si el caso muestra barreras, la respuesta es removerlas.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "al interactuar con diversas barreras (actitudinales, derivadas de falsas creencias, por desconocimiento, institucionales, de infraestructura, entre otras), pueden impedir su aprendizaje y participación plena y efectiva en la sociedad",
+     "ubicacion": "Decreto 1421 de 2017, definiciones"
+    }
+   ],
+   "competencia": "Educación inclusiva"
+  },
+  {
+   "id": "K057",
+   "tipo": "conocimiento",
+   "ficha": "F29",
+   "familia": "DIS-DATOS",
+   "dificultad": 1,
+   "enunciado": "Según las Orientaciones Curriculares de Tecnología e Informática (2022), la informática como disciplina tecnológica emergente",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "se centra en el estudio del computador, sus programas y su hardware, que son su objeto propio.",
+     "j": "Es incorrecta. Es justo la idea que el documento corrige «como suele pensarse». El computador, sus programas y su hardware son herramientas de apoyo para los procesos informáticos, no el centro de la disciplina."
+    },
+    {
+     "l": "B",
+     "t": "no se centra en el computador ni en otra tecnología digital, que son herramientas de apoyo.",
+     "j": "Es correcta. Las Orientaciones dicen que la informática no se centra en el estudio del computador, sus programas y hardware, ni en otra tecnología digital particular, porque esos artefactos son herramientas de apoyo para realizar procesos informáticos."
+    },
+    {
+     "l": "C",
+     "t": "se centra en el manejo de la ofimática y de internet, que son la base de la alfabetización digital.",
+     "j": "Es incorrecta. Reduce la informática al manejo de programas, la confusión más común en los planes de área. Las Orientaciones la entienden como una disciplina que representa, procesa y genera conocimiento, no como el uso de unas aplicaciones."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Pregunta de conocimiento de nivel 1 tomada de la ficha. El apartado 2.1.2 de las Orientaciones Curriculares afirma que «la informática como disciplina tecnológica emergente, no se centra en el estudio del computador, sus programas y hardware, ni tampoco en otra tecnología digital particular como suele pensarse», porque esos artefactos son herramientas de apoyo para realizar procesos informáticos. Esta idea cambia la manera de planear el área: el foco no es enseñar a manejar un equipo o un programa, sino los procesos de información y de pensamiento que esos equipos apoyan. Si dudaste, vuelve a la ficha.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.2.",
+   "consejo": "Pregunta de conocimiento: el computador es herramienta de apoyo, no el objeto de la informática.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la informática como disciplina tecnológica emergente, no se centra en el estudio del computador, sus programas y hardware, ni tampoco en otra tecnología digital particular como suele pensarse"
+    }
+   ],
+   "competencia": "Naturaleza y evolución"
+  },
+  {
+   "id": "K058",
+   "tipo": "conocimiento",
+   "ficha": "F29",
+   "familia": "DIS-DATOS",
+   "dificultad": 2,
+   "enunciado": "Un estudiante de octavo explica para qué sirve una hoja de cálculo en la contabilidad de la tienda escolar, pero no sabe explicar por qué funciona así. Según las Orientaciones Curriculares, lo que demuestra es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "conocimiento informático, porque reflexiona de forma sistémica sobre el producto que utiliza.",
+     "j": "Es incorrecta. El conocimiento informático exige una reflexión sistémica sobre el producto para entender la base que le subyace, y el caso dice que el estudiante no sabe explicar por qué funciona. Sería la respuesta si analizara cómo está construida la hoja de cálculo."
+    },
+    {
+     "l": "B",
+     "t": "pensamiento computacional, porque divide el problema contable en partes que resuelve el programa.",
+     "j": "Es incorrecta. El pensamiento computacional implica descomponer, abstraer y razonar para diseñar algoritmos. El estudiante no diseña nada: solo enuncia para qué sirve la herramienta. Confundir el uso de un programa con pensar computacionalmente es un error frecuente."
+    },
+    {
+     "l": "C",
+     "t": "saber informático, porque enuncia los usos prácticos del dispositivo sin explicar a fondo sus razones.",
+     "j": "Es correcta. Las Orientaciones definen el saber informático como «una enunciación sobre los usos prácticos de estos dispositivos sin una explicación profunda de sus razones» y ponen como ejemplo señalar para qué sirve una hoja de cálculo en contabilidad."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Pregunta de aplicación tomada de la ficha. Las Orientaciones Curriculares distinguen dos niveles. El saber informático es «una enunciación sobre los usos prácticos de estos dispositivos sin una explicación profunda de sus razones», y el propio documento da como ejemplo señalar para qué sirve una hoja de cálculo en contabilidad. El conocimiento informático, en cambio, surge de la reflexión sistémica sobre los productos informáticos para entender su base y crear productos nuevos o mejorados. La clave del caso es «no sabe explicar por qué funciona así»: el estudiante está en el primer nivel. Para el docente, el reto es llevarlo del uso a la comprensión.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.2.",
+   "consejo": "Pregunta de conocimiento: saber para qué sirve = saber informático; entender por qué y crear = conocimiento informático.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "el saber informático es una enunciación sobre los usos prácticos de estos dispositivos sin una explicación profunda de sus razones"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "por ejemplo, señalar para qué sirve una hoja de cálculo en contabilidad"
+    }
+   ],
+   "competencia": "Naturaleza y evolución"
+  }
+ ]
+}

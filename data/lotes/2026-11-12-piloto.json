@@ -1267,18 +1267,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "esperar a que el docente de apoyo elabore el PIAR, ya que es el profesional responsable de atender a los estudiantes con discapacidad.",
-     "j": "Es incorrecta. La norma asigna el liderazgo del PIAR a los docentes de aula junto con el docente de apoyo; no es una tarea exclusiva de este último."
+     "t": "esperar a que el docente de apoyo elabore el PIAR, porque es el responsable de los estudiantes con discapacidad.",
+     "j": "Es incorrecta. El docente de apoyo acompaña el diseño del PIAR, pero la norma no lo deja solo: dice que lo liderarán los docentes de aula con él, con la familia y con el estudiante. Esperar deja a Samuel sin ajustes en el área."
     },
     {
      "l": "B",
-     "t": "participar con el docente de apoyo, la familia y el estudiante en el diseño del PIAR, incluyendo los ajustes que requiere en el área.",
-     "j": "Es correcta. «El diseño de los PIAR lo liderarán el o los docentes de aula con el docente de apoyo, la familia y el estudiante» (art. 2.3.3.5.2.3.5)."
+     "t": "liderar el diseño del PIAR con el docente de apoyo, la familia y el estudiante, con los ajustes del área.",
+     "j": "Es correcta. El Decreto 1075 de 2015 (Decreto 1421 de 2017) dice: «El diseño de los PIAR lo liderarán el o los docentes de aula con el docente de apoyo, la familia y el estudiante». La docente de Tecnología tiene un papel protagónico."
     },
     {
      "l": "C",
-     "t": "solicitar a la familia un diagnóstico médico actualizado antes de hacer cualquier ajuste en las actividades de la clase.",
-     "j": "Es incorrecta. Los ajustes razonables no dependen de un diagnóstico médico, sino de las barreras que enfrenta el estudiante (Decreto 1421 de 2017, definiciones)."
+     "t": "pedir a la familia un diagnóstico médico actualizado antes de hacer cualquier ajuste en las actividades de clase.",
+     "j": "Es incorrecta. Los ajustes razonables no dependen de un diagnóstico médico, sino de las barreras visibles e invisibles que enfrenta el estudiante. Exigir primero el diagnóstico retrasa la atención de Samuel sin fundamento en la norma."
     }
    ],
    "clave": "B",
@@ -1294,7 +1294,10 @@
      "doc": "decreto_1075_2015",
      "texto": "su realización no depende de un diagnóstico médico de deficiencia, sino de las barreras visibles e invisibles"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La palabra clave es «le corresponde». El decreto asigna responsabilidades precisas: «El diseño de los PIAR lo liderarán el o los docentes de aula con el docente de apoyo, la familia y el estudiante». Por eso la docente de Tecnología no espera ni delega: lidera, junto con los demás actores, los ajustes que Samuel necesita en su área. Además, la misma norma aclara que los ajustes razonables no dependen de un diagnóstico médico, sino de las barreras que enfrenta el estudiante. En la CNSC, las opciones en las que el docente de aula traslada su responsabilidad a otro profesional suelen ser distractores.",
+   "revisado": true
   },
   {
    "id": "Q017",
@@ -1305,18 +1308,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "preparar una guía con actividades más sencillas solo para Samuel, de modo que trabaje a su ritmo mientras el grupo avanza.",
-     "j": "Es incorrecta. Separa al estudiante y reduce las expectativas; el DUA diseña para todos desde el inicio."
+     "t": "preparar una guía con actividades más sencillas solo para Samuel, para que trabaje a su ritmo aparte del grupo.",
+     "j": "Es incorrecta. Una guía distinta y más sencilla separa a Samuel y baja las expectativas sobre su aprendizaje. El DUA no diseña para un estudiante después, sino para todos desde el inicio, de modo que nadie quede por fuera."
     },
     {
      "l": "B",
-     "t": "ofrecer a todo el grupo la información en varios formatos y diversas formas de participar y de demostrar lo aprendido.",
-     "j": "Es correcta. El DUA busca experiencias accesibles para todos los estudiantes «a través de objetivos, métodos, materiales, apoyos y evaluaciones» flexibles (Decreto 1421 de 2017, definiciones)."
+     "t": "ofrecer a todo el grupo la información en varios formatos y distintas formas de participar y demostrar.",
+     "j": "Es correcta. El DUA diseña productos, entornos y programas que puedan utilizar todas las personas, con objetivos, métodos, materiales, apoyos y evaluaciones flexibles. Varios formatos y formas de participar benefician a Samuel y al resto del grupo."
     },
     {
      "l": "C",
-     "t": "ubicar a Samuel en la primera fila y pedirle a un compañero que le dicte las instrucciones durante toda la clase.",
-     "j": "Es incorrecta. Puede ser un apoyo puntual, pero no es un diseño universal y genera dependencia de un compañero."
+     "t": "ubicar a Samuel en la primera fila y asignarle un compañero que le dicte las instrucciones durante cada clase.",
+     "j": "Es incorrecta. Puede ser un apoyo puntual, pero no es un diseño universal: no cambia la forma en que se presenta la información para todos y crea dependencia de un compañero. Podría hacer parte del PIAR, no de la planeación DUA."
     }
    ],
    "clave": "B",
@@ -1327,8 +1330,15 @@
     {
      "doc": "decreto_1075_2015",
      "texto": "a través de objetivos, métodos, materiales, apoyos y evaluaciones formulados partiendo de sus capacidades y realidades"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "diseño de productos, entornos, programas y servicios que puedan utilizar todas las personas"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La clave del enunciado es «desde el Diseño Universal del Aprendizaje». El Decreto 1421 de 2017, compilado en el 1075, define el DUA como el «diseño de productos, entornos, programas y servicios que puedan utilizar todas las personas» y precisa que se concreta en objetivos, métodos, materiales, apoyos y evaluaciones flexibles. La planeación DUA es para todo el grupo desde el inicio: presentar la información en varios formatos (oral, táctil, ampliada) y permitir distintas formas de participar y de demostrar lo aprendido. Las medidas individuales para Samuel se definen después en el PIAR. Recuerde: DUA para todos; PIAR para el ajuste individual.",
+   "revisado": true
   },
   {
    "id": "Q018",
@@ -1339,21 +1349,21 @@
    "opciones": [
     {
      "l": "A",
-     "t": "mantener los mismos objetivos de aprendizaje del grupo y ajustar los medios e instrumentos de evaluación según lo acordado en su PIAR.",
-     "j": "Es correcta. El currículo flexible mantiene los mismos objetivos generales y da diferentes oportunidades de acceder a ellos; el PIAR incluye ajustes evaluativos."
+     "t": "reducir los objetivos de aprendizaje del área y evaluarlo solo en lo que logre hacer sin usar la pantalla.",
+     "j": "Es incorrecta. Es el distractor más cercano porque sí ajusta la evaluación, pero lo hace bajando los objetivos. El currículo flexible mantiene los mismos objetivos generales para todos y cambia las oportunidades de acceder a ellos."
     },
     {
      "l": "B",
-     "t": "eximirlo de la evaluación del área mientras se adapta, dado que su condición le impide trabajar con la pantalla.",
-     "j": "Es incorrecta. Excluirlo de la evaluación vulnera su derecho a ser evaluado y a recibir retroalimentación."
+     "t": "evaluarlo con los mismos instrumentos del grupo, porque cualquier ajuste le daría una ventaja sobre los demás.",
+     "j": "Es incorrecta. Los ajustes razonables eliminan barreras; no son una ventaja sino una garantía de igualdad de condiciones. Usar instrumentos visuales con un estudiante de baja visión mide su visión, no lo que aprendió de programación."
     },
     {
      "l": "C",
-     "t": "evaluarlo con los mismos instrumentos del grupo, pues aplicar ajustes le daría una ventaja sobre sus compañeros.",
-     "j": "Es incorrecta. Los ajustes razonables eliminan barreras; no son una ventaja, son una garantía de igualdad."
+     "t": "mantener los objetivos de aprendizaje del grupo y ajustar los medios e instrumentos de evaluación según su PIAR.",
+     "j": "Es correcta. Coincide con la definición de currículo flexible: mantiene los mismos objetivos generales para todos los estudiantes, pero da diferentes oportunidades de acceder a ellos. El PIAR concreta los ajustes evaluativos para Samuel."
     }
    ],
-   "clave": "A",
+   "clave": "C",
    "fuente": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.5 (PIAR: ajustes curriculares, didácticos y evaluativos) y definición de currículo flexible (Decreto 1421 de 2017).",
    "consejo": "Mismos objetivos, distintos caminos para lograrlos y demostrarlos.",
    "tipo": "caso",
@@ -1362,7 +1372,10 @@
      "doc": "decreto_1075_2015",
      "texto": "Currículo flexible: es aquel que mantiene los mismos objetivos generales para todos los estudiantes, pero da diferentes oportunidades de acceder a ellos"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "La pregunta exige dos condiciones a la vez: no bajar las metas y no evaluar con barreras. El Decreto 1421 de 2017 define el currículo flexible como «aquel que mantiene los mismos objetivos generales para todos los estudiantes, pero da diferentes oportunidades de acceder a ellos». En evaluación, eso significa que Samuel debe alcanzar los mismos aprendizajes de programación que su grupo, demostrándolos con medios e instrumentos ajustados (por ejemplo, ampliación, lector de pantalla o explicación oral), según lo acordado en su PIAR. El distractor más fuerte cambia los objetivos; el otro niega los ajustes. Lógica CNSC: mismos objetivos, distintos caminos.",
+   "revisado": true
   },
   {
    "id": "Q019",
@@ -1373,18 +1386,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "tipo I, porque se trata de un conflicto entre compañeros que ocurre en un espacio virtual y no causa daño físico.",
-     "j": "Es incorrecta. No es un conflicto esporádico: hay burlas repetidas durante un mes contra una estudiante."
+     "t": "tipo I, porque es un conflicto entre compañeros en un espacio virtual que no ha causado ningún daño físico.",
+     "j": "Es incorrecta. El tipo I comprende conflictos manejados inadecuadamente y situaciones esporádicas. Aquí las burlas se repiten durante un mes contra la misma estudiante, que ya dejó de asistir a clases; no es un hecho aislado."
     },
     {
      "l": "B",
-     "t": "tipo II, porque es un caso de ciberacoso que se presenta de manera repetida y sistemática sin constituir un presunto delito.",
-     "j": "Es correcta. El art. 40 clasifica como tipo II el acoso y el ciberacoso que se presentan de manera repetida o sistemática y que no revisten las características de un delito."
+     "t": "tipo II, porque es ciberacoso que se presenta de manera repetida y no reviste las características de un delito.",
+     "j": "Es correcta. El artículo 40 clasifica como tipo II el acoso y el ciberacoso que no revistan las características de un delito y que se presenten de manera repetida o sistemática. Las publicaciones durante un mes cumplen esa condición."
     },
     {
      "l": "C",
-     "t": "tipo III, porque involucra la publicación de fotografías de una menor de edad en una red social sin su consentimiento.",
-     "j": "Es incorrecta. El tipo III exige un presunto delito (por ejemplo, contra la libertad, integridad y formación sexual); los memes burlones son ciberacoso, no un delito de ese tipo."
+     "t": "tipo III, porque implica publicar fotografías de una menor de edad en una red social sin su consentimiento.",
+     "j": "Es incorrecta. El tipo III exige un presunto delito, por ejemplo contra la libertad, integridad y formación sexual. Los memes burlones son ciberacoso grave, pero el caso no describe material íntimo ni otro delito, así que no alcanza el tipo III."
     }
    ],
    "clave": "B",
@@ -1395,8 +1408,15 @@
     {
      "doc": "decreto_1965_2013",
      "texto": "situaciones de agresión escolar, acoso escolar (bullying) y ciberacoso (Ciberbullying), que no revistan las características de la comisión de un delito"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "a. Que se presenten de manera repetida o sistemática."
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Para clasificar hay que revisar dos condiciones del artículo 40 del Decreto 1965. Primera: ¿hay un presunto delito? Si lo hubiera, sería tipo III; los memes burlones no lo constituyen según el caso. Segunda: ¿cumple alguna característica del tipo II? Sí, porque las publicaciones se presentan «de manera repetida o sistemática» desde hace un mes. Por eso es una situación tipo II de ciberacoso, aunque no haya daño físico. El distractor del tipo I se apoya en la ausencia de daño al cuerpo, pero olvida la repetición; el del tipo III exagera la gravedad. Pregunta clave: ¿delito? ¿repetición o daño sin incapacidad?",
+   "revisado": true
   },
   {
    "id": "Q020",
@@ -1407,18 +1427,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "reunir de inmediato a Laura con los estudiantes que publicaron los memes para que lleguen a un acuerdo y se disculpen ante el curso.",
-     "j": "Es incorrecta. La mediación directa es propia de las situaciones tipo I; en un caso de acoso, exponer a la víctima frente al curso puede revictimizarla."
+     "t": "reunir de inmediato a Laura con quienes publicaron los memes para que lleguen a un acuerdo y se disculpen ante el curso.",
+     "j": "Es incorrecta. Reunir a las partes para conciliar es propio del protocolo de las situaciones tipo I. En un caso de acoso, exponer a la víctima frente a sus agresores y ante el curso puede revictimizarla y no garantiza su protección."
     },
     {
      "l": "B",
-     "t": "reportar la situación según el protocolo del manual de convivencia para que se active la atención de tipo II, que incluye informar a los padres y proteger a los involucrados.",
-     "j": "Es correcta. El protocolo tipo II (art. 43) incluye proteger a los involucrados, informar de inmediato a los padres, definir acciones restaurativas y el seguimiento del comité escolar de convivencia."
+     "t": "reportar el caso según el protocolo para activar la atención tipo II, que incluye proteger e informar a los padres.",
+     "j": "Es correcta. El protocolo de las situaciones tipo II incluye adoptar medidas para proteger a los involucrados de posibles acciones en su contra e informar de manera inmediata a los padres o acudientes. El docente activa la ruta en lugar de resolver solo."
     },
     {
      "l": "C",
-     "t": "sancionar a los responsables con una anotación en el observador y retirarlos del grupo de WhatsApp del curso.",
-     "j": "Es incorrecta. El docente no aplica sanciones por fuera del protocolo; la ruta privilegia la protección, la restauración y el seguimiento."
+     "t": "sancionar a los responsables con una anotación en el observador y retirarlos del grupo de WhatsApp del curso de inmediato.",
+     "j": "Es incorrecta. El docente no impone sanciones por fuera del protocolo. La ruta prioriza la protección, la información a las familias, las acciones restaurativas y el seguimiento del comité escolar de convivencia antes que una sanción aislada."
     }
    ],
    "clave": "B",
@@ -1429,8 +1449,15 @@
     {
      "doc": "decreto_1965_2013",
      "texto": "Adoptar las medidas para proteger a los involucrados en la situación de posibles acciones en su contra"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Informar de manera inmediata a los padres, madres o acudientes de todos los estudiantes involucrados"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "Una vez clasificada como tipo II, la situación se atiende con el protocolo del artículo 43 del Decreto 1965. Ese protocolo incluye, entre otras acciones, «adoptar las medidas para proteger a los involucrados en la situación de posibles acciones en su contra» e «informar de manera inmediata a los padres, madres o acudientes de todos los estudiantes involucrados», además de acciones restaurativas y seguimiento del comité. El docente no concilia por su cuenta ni sanciona: reporta según el manual para que se active la ruta. Lógica CNSC: en tipo II y III la respuesta correcta sigue el debido proceso institucional.",
+   "revisado": true
   },
   {
    "id": "Q021",
@@ -1441,18 +1468,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "dedicar las próximas clases a explicar las sanciones legales del ciberacoso para que los estudiantes sientan temor de repetirlo.",
-     "j": "Es incorrecta. La prevención basada en el miedo no desarrolla competencias ciudadanas."
+     "t": "dedicar las próximas clases a explicar las sanciones legales del ciberacoso para que los estudiantes teman repetirlo.",
+     "j": "Es incorrecta. Conocer las consecuencias legales puede ser útil, pero una prevención basada en el temor no desarrolla competencias ciudadanas. La promoción busca que los estudiantes comprendan y decidan, no solo que eviten el castigo."
     },
     {
      "l": "B",
      "t": "pedir a los padres que revisen con frecuencia los celulares de sus hijos y reporten cualquier publicación ofensiva.",
-     "j": "Es incorrecta. Traslada la responsabilidad al control externo y no aprovecha el área para formar."
+     "j": "Es incorrecta. La familia es corresponsable, pero esta medida traslada todo al control externo y desaprovecha el área. El docente de Tecnología tiene herramientas propias para formar en el uso responsable de las redes."
     },
     {
      "l": "C",
-     "t": "desarrollar un proyecto en el que los estudiantes analicen el impacto de lo que publican en redes y diseñen una campaña de uso responsable.",
-     "j": "Es correcta. Integra la formación ciudadana de manera transversal en el área (Decreto 1965, art. 36) y desarrolla el componente Tecnología, informática y sociedad."
+     "t": "desarrollar un proyecto en el que los estudiantes analicen el impacto de lo que publican y diseñen una campaña.",
+     "j": "Es correcta. Integra la formación en competencias ciudadanas de manera transversal, como pide el componente de promoción del Decreto 1965, y desarrolla el componente Tecnología y sociedad del área con un producto de los propios estudiantes."
     }
    ],
    "clave": "C",
@@ -1464,7 +1491,10 @@
      "doc": "decreto_1965_2013",
      "texto": "Generar mecanismos y herramientas para que el desarrollo de competencias ciudadanas y la formación para el ejercicio de los derechos humanos, sexuales y reproductivos se lleve a cabo de manera transversal"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El enunciado pide prevenir «desde su área». El Decreto 1965 de 2013 señala como acción de promoción generar mecanismos para que el desarrollo de competencias ciudadanas y la formación en derechos humanos se lleve a cabo de manera transversal. En Tecnología e Informática, eso se logra con proyectos en los que los estudiantes analizan el impacto de lo que publican en redes y producen algo para su comunidad, como una campaña. Las otras opciones dependen del miedo o del control de los padres y no forman. Lógica CNSC: prevenir es formar con experiencias en las que el estudiante analiza y actúa, no vigilar ni amenazar.",
+   "revisado": true
   },
   {
    "id": "Q022",
@@ -1475,18 +1505,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "II, porque se trata de una agresión electrónica que ocurrió fuera de la institución y de manera aislada.",
-     "j": "Es incorrecta. Lo determinante no es el lugar ni la frecuencia, sino que los hechos pueden constituir un delito."
+     "t": "II, porque es una agresión electrónica que ocurrió fuera de la institución y de manera aislada en un videojuego.",
+     "j": "Es incorrecta. Lo que define el tipo III no es el lugar ni la frecuencia, sino que los hechos puedan constituir un delito. Un adulto que pide fotografías íntimas a una menor y ofrece dinero no es una simple agresión electrónica entre pares."
     },
     {
      "l": "B",
-     "t": "I, porque la estudiante no ha enviado ninguna fotografía y por lo tanto no se ha producido un daño.",
-     "j": "Es incorrecta. La solicitud de material íntimo a una menor puede constituir un delito aunque no se hayan enviado fotografías."
+     "t": "I, porque la estudiante todavía no ha enviado ninguna fotografía y, por lo tanto, no se ha producido un daño.",
+     "j": "Es incorrecta. La solicitud de material íntimo a una menor puede constituir un presunto delito aunque la estudiante no haya enviado nada. El tipo I se reserva a conflictos y situaciones esporádicas que afectan el clima escolar."
     },
     {
      "l": "C",
-     "t": "III, porque los hechos podrían constituir un presunto delito contra la libertad, integridad y formación sexual de una menor de edad.",
-     "j": "Es correcta. El art. 40 clasifica como tipo III las situaciones constitutivas de presuntos delitos contra la libertad, integridad y formación sexual."
+     "t": "III, porque los hechos podrían constituir un presunto delito contra la libertad, integridad y formación sexual.",
+     "j": "Es correcta. El artículo 40 clasifica como tipo III las situaciones constitutivas de presuntos delitos contra la libertad, integridad y formación sexual. La petición de imágenes íntimas a una estudiante de octavo encaja en esa descripción."
     }
    ],
    "clave": "C",
@@ -1498,7 +1528,10 @@
      "doc": "decreto_1965_2013",
      "texto": "situaciones de agresión escolar que sean constitutivas de presuntos delitos contra la libertad, integridad y formación sexual"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La palabra clave es «presunto delito». El artículo 40 del Decreto 1965 define las situaciones tipo III como las «constitutivas de presuntos delitos contra la libertad, integridad y formación sexual», o cualquier otro delito de la ley penal. Un adulto que pide a una estudiante fotografías íntimas a cambio de dinero configura un indicio de ese tipo de delito, aunque la estudiante no haya enviado nada y aunque ocurra fuera del colegio. Para clasificar no importan el lugar ni la frecuencia, sino la naturaleza del hecho. En la CNSC, cualquier indicio de delito sexual contra un menor lleva al tipo III y a su protocolo.",
+   "revisado": true
   },
   {
    "id": "Q023",
@@ -1509,18 +1542,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "respetar su decisión para no romper la confianza y acompañarla para que ella misma bloquee al adulto en la plataforma.",
-     "j": "Es incorrecta. Guardar el secreto deja a la estudiante desprotegida frente a un posible delito."
+     "t": "acompañarla a bloquear al adulto y reportar la cuenta en la plataforma, guardando la reserva que ella le pidió.",
+     "j": "Es incorrecta. Bloquear y reportar en la plataforma es prudente, por eso es el distractor más fuerte, pero guardar el secreto deja a la estudiante sin la protección que exige un posible delito. La reserva se guarda frente a terceros, no frente al protocolo."
     },
     {
      "l": "B",
-     "t": "explicarle con calma que no puede guardar el secreto porque debe protegerla, y poner la situación en conocimiento del presidente del comité escolar de convivencia según el protocolo.",
-     "j": "Es correcta. En las situaciones tipo III, el presidente del comité escolar de convivencia pone de inmediato los hechos en conocimiento de la Policía y se adoptan medidas de protección (art. 44)."
+     "t": "explicarle que no puede guardar el secreto porque debe protegerla, y activar el protocolo ante el comité de convivencia.",
+     "j": "Es correcta. En las situaciones tipo III, el presidente del comité escolar de convivencia pone los hechos en conocimiento de la Policía Nacional de manera inmediata. La docente debe informar por el conducto del protocolo y explicarle a la estudiante por qué."
     },
     {
      "l": "C",
-     "t": "contactar al adulto desde la cuenta de la estudiante para reunir más pruebas antes de informar a las directivas.",
-     "j": "Es incorrecta. La docente no investiga; hacerlo pone en riesgo a la estudiante y puede afectar el proceso de las autoridades."
+     "t": "contactar al adulto desde la cuenta de la estudiante para reunir pruebas antes de informar a las directivas del colegio.",
+     "j": "Es incorrecta. La docente no investiga ni suplanta a la estudiante: hacerlo la pone en riesgo y puede afectar la actuación de las autoridades. Reunir pruebas corresponde a las autoridades competentes una vez se ponen los hechos en su conocimiento."
     }
    ],
    "clave": "B",
@@ -1531,8 +1564,15 @@
     {
      "doc": "decreto_1965_2013",
      "texto": "pondrá la situación en conocimiento de la Policía Nacional"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "El presidente del Comité Escolar de Convivencia, de manera inmediata y por el medio más expedito, pondrá la situación en conocimiento de la Policía Nacional."
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "El caso pone a prueba dos lealtades: la confianza de la estudiante y el deber de protegerla. Ante un posible delito sexual (tipo III), el artículo 44 del Decreto 1965 ordena que «el presidente del Comité Escolar de Convivencia, de manera inmediata y por el medio más expedito, pondrá la situación en conocimiento de la Policía Nacional». La docente no puede guardar el secreto ni investigar por su cuenta; debe explicarle con calma a la estudiante que la va a proteger y activar el protocolo. El distractor más cercano incluye acciones prudentes, pero mantiene la reserva. Lógica CNSC: nunca guardar silencio ni investigar; informar por el protocolo.",
+   "revisado": true
   },
   {
    "id": "Q024",
@@ -1543,18 +1583,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "comparte los mensajes con los demás docentes del grado para que estén atentos a cualquier cambio en el comportamiento de la estudiante.",
-     "j": "Es incorrecta. Vulnera la intimidad y la confidencialidad que exige la norma."
+     "t": "comparte los mensajes con los docentes del grado para que estén atentos a cambios en el comportamiento de la estudiante.",
+     "j": "Es incorrecta. La intención de cuidarla es buena, pero difundir los mensajes entre docentes que no intervienen en la atención vulnera la intimidad y la confidencialidad que deben garantizar los protocolos de la ruta."
     },
     {
      "l": "B",
-     "t": "evita que la estudiante tenga que repetir su relato a varias personas y reserva la información a quienes intervienen en la atención.",
-     "j": "Es correcta. La ruta garantiza el derecho a no ser revictimizado (art. 35) y la confidencialidad de la información (art. 41, num. 2)."
+     "t": "evita que la estudiante repita su relato ante varias personas y reserva la información a quienes intervienen en la atención.",
+     "j": "Es correcta. La ruta debe garantizar los principios de protección integral, incluido el derecho a no ser revictimizado, y los protocolos deben asegurar la intimidad y la confidencialidad. Limitar el relato y la información cumple ambas exigencias."
     },
     {
      "l": "C",
-     "t": "le pide a la estudiante una declaración escrita y detallada de lo ocurrido para anexarla al observador y al acta del comité.",
-     "j": "Es incorrecta. Obligarla a narrar los hechos con detalle y dejarlos en el observador la revictimiza y expone su intimidad."
+     "t": "pide a la estudiante una declaración escrita y detallada de los hechos para anexarla al observador y al acta del comité.",
+     "j": "Es incorrecta. Obligarla a narrar los hechos con detalle la revictimiza, y dejar el relato en el observador expone su intimidad. El registro de la ruta no exige que la estudiante escriba una declaración para el colegio."
     }
    ],
    "clave": "B",
@@ -1565,8 +1605,15 @@
     {
      "doc": "decreto_1965_2013",
      "texto": "incluyendo el derecho a no ser revictimizado"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Los mecanismos para garantizar el derecho a la intimidad y a la confidencialidad"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El enunciado pregunta por el manejo de la información. El artículo 35 del Decreto 1965 exige que en todas las acciones de la Ruta se garanticen los principios de protección integral, «incluyendo el derecho a no ser revictimizado», y el artículo 41 pide que los protocolos definan mecanismos para garantizar «el derecho a la intimidad y a la confidencialidad». Por eso la docente evita que la estudiante repita su historia ante muchas personas y solo comparte la información con quienes intervienen en la atención. En la CNSC, las opciones que difunden información «para cuidar» o que piden relatos detallados suelen ser distractores.",
+   "revisado": true
   },
   {
    "id": "Q025",
@@ -1577,18 +1624,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "se organice a partir de los componentes y competencias de las Orientaciones Curriculares del MEN y se articule con el énfasis y los proyectos del PEI.",
-     "j": "Es correcta. El plan de estudios se construye con los lineamientos del MEN y el PEI (Ley 115, arts. 73, 78 y 79), y las Orientaciones Curriculares definen los cuatro componentes del área."
+     "t": "se organice desde los componentes y competencias de las Orientaciones del MEN y se articule con el énfasis del PEI.",
+     "j": "Es correcta. La Ley 115 pide a las instituciones establecer su plan de estudios con objetivos por niveles, grados y áreas dentro del PEI, y los referentes del MEN definen los componentes del área. Así el plan deja de ser una lista de programas."
     },
     {
      "l": "B",
      "t": "conserve los programas de ofimática, pero aumente su complejidad en cada grado para preparar a los estudiantes para el trabajo.",
-     "j": "Es incorrecta. Reduce el área al manejo de programas; la Guía 30 advierte que los computadores no son sinónimo de educación en tecnología."
+     "j": "Es incorrecta. Más complejidad en ofimática sigue reduciendo el área al manejo de programas. La Guía 30 recuerda que los computadores contribuyen a la educación en tecnología, pero no son sinónimo de ella."
     },
     {
      "l": "C",
      "t": "se reemplace por los contenidos de un texto escolar actualizado que asegure los temas evaluados en las pruebas externas.",
-     "j": "Es incorrecta. Un texto escolar no sustituye la construcción curricular contextualizada que exige el PEI."
+     "j": "Es incorrecta. Un texto escolar puede apoyar la enseñanza, pero no sustituye la construcción curricular contextualizada que exige el PEI. Además, organizar el área por pruebas externas ignora el énfasis técnico empresarial de la institución."
     }
    ],
    "clave": "A",
@@ -1599,8 +1646,15 @@
     {
      "doc": "ley_115_1994",
      "texto": "establecerán su plan de estudios particular que determine los objetivos por niveles, grados y áreas"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Los computadores son herramientas o artefactos que contribuyen a la educación en tecnología, pero reiteramos que no son sinónimos"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La palabra clave es «pertinente». La Ley 115 dispone que las instituciones «establecerán su plan de estudios particular que determine los objetivos por niveles, grados y áreas», en el marco de su PEI. La Guía 30, por su parte, advierte que los computadores contribuyen a la educación en tecnología, «pero reiteramos que no son sinónimos». Un plan de área pertinente parte de los referentes del MEN (componentes y competencias del área) y se articula con el énfasis técnico empresarial y los proyectos de la institución. La CNSC suele poner como distractores la ofimática como fin en sí misma y el texto escolar como sustituto del currículo.",
+   "revisado": true
   },
   {
    "id": "Q026",
@@ -1611,18 +1665,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "crear una asignatura independiente de educación ambiental dentro del plan de estudios del área de Tecnología e Informática.",
-     "j": "Es incorrecta. El parágrafo del art. 14 señala que estos temas (salvo los literales a y b) no exigen asignatura específica y deben incorporarse al currículo."
+     "t": "crear una asignatura independiente de educación ambiental dentro del plan de estudios del área de Tecnología.",
+     "j": "Es incorrecta. El parágrafo primero del artículo 14 dice que estos temas, salvo los literales a y b, no exigen asignatura específica. Crear una asignatura aislada va en contra de la idea de incorporarlos a todo el plan de estudios."
     },
     {
      "l": "B",
-     "t": "desarrollar con otras áreas proyectos tecnológicos que aborden problemáticas como el manejo de residuos o el uso de la energía.",
-     "j": "Es correcta. Incorpora los temas al currículo de forma transversal, como lo dispone el parágrafo primero del art. 14."
+     "t": "desarrollar con otras áreas proyectos tecnológicos sobre problemas como el manejo de residuos o la energía.",
+     "j": "Es correcta. Incorpora los temas obligatorios al currículo de forma transversal, como lo dispone el parágrafo primero del artículo 14, y aprovecha los proyectos tecnológicos del área para trabajarlos junto con otras disciplinas."
     },
     {
      "l": "C",
-     "t": "asignar a cada grado la elaboración de presentaciones digitales sobre los temas de los proyectos transversales de la institución.",
-     "j": "Es incorrecta. Usa el área solo como herramienta para presentar información, sin integración real."
+     "t": "asignar a cada grado presentaciones digitales sobre los temas de los proyectos transversales de la institución.",
+     "j": "Es incorrecta. Usa el área solo como herramienta para presentar información, sin una integración real de los temas en el aprendizaje. Hacer diapositivas sobre un tema no equivale a incorporarlo al currículo."
     }
    ],
    "clave": "B",
@@ -1633,8 +1687,15 @@
     {
      "doc": "ley_115_1994",
      "texto": "El estudio de estos temas y la formación en tales valores, salvo los numerales a) y b), no exige asignatura específica."
+    },
+    {
+     "doc": "ley_115_1994",
+     "texto": "Esta formación debe incorporarse al currículo y desarrollarse a través de todo el plan de estudios."
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El parágrafo primero del artículo 14 de la Ley 115 establece que el estudio de los temas de enseñanza obligatoria, «salvo los numerales a) y b), no exige asignatura específica» y que «esta formación debe incorporarse al currículo y desarrollarse a través de todo el plan de estudios». La forma más coherente de hacerlo desde Tecnología e Informática es con proyectos interdisciplinarios que aborden problemas reales, como los residuos o la energía. Los distractores aíslan el tema en una asignatura o reducen el área a un medio para presentar información. Lógica CNSC: transversal significa integrado al currículo, no una materia más ni una actividad suelta.",
+   "revisado": true
   },
   {
    "id": "Q027",
@@ -1645,18 +1706,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "el consejo directivo, porque es la máxima instancia del gobierno escolar y le corresponde adoptar el reglamento de la institución.",
-     "j": "Es incorrecta. El consejo directivo adopta el reglamento y toma decisiones de funcionamiento, pero el estudio y ajuste del currículo corresponde al consejo académico."
+     "t": "el consejo directivo, porque es la máxima instancia del gobierno escolar y adopta el reglamento de la institución.",
+     "j": "Es incorrecta. El consejo directivo es la instancia de dirección y adopta el reglamento, por eso es el distractor más fuerte. Pero el estudio y los ajustes del currículo y la organización del plan de estudios los asigna la ley al consejo académico."
     },
     {
      "l": "B",
-     "t": "la asamblea general de padres de familia, porque los cambios en el currículo deben ser aprobados por toda la comunidad educativa.",
-     "j": "Es incorrecta. La comunidad participa en el PEI, pero la asamblea de padres no es la instancia que estudia el plan de estudios."
+     "t": "la asamblea general de padres, porque los cambios en el currículo deben ser aprobados por toda la comunidad.",
+     "j": "Es incorrecta. La comunidad educativa participa en la construcción del PEI, pero la asamblea de padres no es la instancia que estudia ni ajusta el plan de estudios de un área. Esa función tiene un órgano específico."
     },
     {
      "l": "C",
-     "t": "el consejo académico, porque le corresponde el estudio, la modificación y los ajustes al currículo, y la organización del plan de estudios.",
-     "j": "Es correcta. Así lo establece el art. 145 de la Ley 115 de 1994."
+     "t": "el consejo académico, porque le corresponde el estudio, modificación y ajustes al currículo y el plan de estudio.",
+     "j": "Es correcta. El artículo 145 de la Ley 115 asigna al consejo académico el estudio, modificación y ajustes al currículo y la organización del plan de estudio. El ajuste al plan de área debe estudiarse allí."
     }
    ],
    "clave": "C",
@@ -1667,8 +1728,15 @@
     {
      "doc": "ley_115_1994",
      "texto": "El estudio, modificación y ajustes al currículo, de conformidad con lo establecido en la presente ley"
+    },
+    {
+     "doc": "ley_115_1994",
+     "texto": "b) La organización del plan de estudio;"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "La pregunta exige distinguir dos instancias del gobierno escolar muy cercanas. El artículo 145 de la Ley 115 dice que el consejo académico se reúne para participar en «el estudio, modificación y ajustes al currículo» y en «la organización del plan de estudio». Por eso la propuesta de ajuste al plan de área de Tecnología debe llevarse allí. El consejo directivo es la máxima instancia de dirección y adopta el reglamento, pero no es el órgano que estudia el currículo. En la CNSC, recuerde la regla práctica: currículo y plan de estudios van al consejo académico; dirección y reglamento, al consejo directivo.",
+   "revisado": true
   },
   {
    "id": "Q028",
@@ -1679,18 +1747,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "proponer que los estudiantes diseñen una herramienta digital para llevar las cuentas de los negocios familiares, a partir de las necesidades que ellos identifiquen.",
-     "j": "Es correcta. El proyecto parte de un problema real del contexto de los estudiantes, como lo pide la Res. 3842 (vincular la enseñanza a las dinámicas del territorio) y el enfoque STEM+ de las Orientaciones."
+     "t": "proponer que los estudiantes diseñen una herramienta digital para las cuentas de los negocios, según sus necesidades.",
+     "j": "Es correcta. El proyecto parte de un problema real del contexto de los estudiantes, como pide la Resolución 3842 al vincular la enseñanza con las dinámicas del contexto y del territorio. Los estudiantes identifican necesidades y diseñan la solución."
     },
     {
      "l": "B",
-     "t": "explicar primero todas las funciones de la hoja de cálculo y, al final del periodo, pedir un proyecto en el que las apliquen.",
-     "j": "Es incorrecta. Invierte la lógica del aprendizaje basado en proyectos: el proyecto no es la aplicación final de una explicación previa."
+     "t": "explicar primero todas las funciones de la hoja de cálculo y, al final del periodo, pedir un proyecto que las aplique.",
+     "j": "Es incorrecta. Es una secuencia válida en una clase expositiva, pero invierte la lógica del aprendizaje basado en proyectos: el proyecto no es el ejercicio de aplicación del final, sino el punto de partida que da sentido a lo que se aprende."
     },
     {
      "l": "C",
      "t": "entregar a cada grupo una plantilla contable terminada para que la diligencien con datos preparados por el docente.",
-     "j": "Es incorrecta. Elimina el diseño y la toma de decisiones por parte de los estudiantes."
+     "j": "Es incorrecta. Diligenciar una plantilla ajena elimina el diseño y la toma de decisiones de los estudiantes, y los datos preparados desconectan el trabajo de los negocios reales de sus familias."
     }
    ],
    "clave": "A",
@@ -1702,7 +1770,10 @@
      "doc": "resolucion_3842_2022_ocr",
      "texto": "Vincular en el proceso de enseñanza las dinámicas propias del contexto y territorio del establecimiento educativo."
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La clave del caso es que muchos estudiantes ayudan en negocios familiares que llevan sus cuentas en cuadernos. La Resolución 3842 de 2022 incluye entre las funciones del docente «vincular en el proceso de enseñanza las dinámicas propias del contexto y territorio del establecimiento educativo». En el aprendizaje basado en proyectos, el punto de partida es un problema real y significativo, y los estudiantes deciden cómo resolverlo. Por eso el proyecto inicia con el diseño de una herramienta para esas cuentas, a partir de las necesidades que ellos identifiquen. La CNSC suele usar como distractor la secuencia «primero teoría, al final proyecto».",
+   "revisado": true
   },
   {
    "id": "Q029",
@@ -1713,18 +1784,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "separar a los estudiantes que ya dominan la herramienta para que avancen solos mientras el docente nivela a los demás.",
-     "j": "Es incorrecta. Desaprovecha el aprendizaje entre pares y fragmenta el grupo."
+     "t": "separar a quienes dominan la herramienta para que avancen solos mientras el docente nivela a los demás del grupo.",
+     "j": "Es incorrecta. Parece una buena diferenciación, por eso es el distractor más fuerte, pero fragmenta el grupo y desaprovecha el aprendizaje entre pares. La función docente pide ambientes de aprendizaje autónomo y también cooperativo."
     },
     {
      "l": "B",
-     "t": "conformar equipos heterogéneos con roles definidos y ofrecer apoyos graduales que se retiran a medida que cada estudiante gana autonomía.",
-     "j": "Es correcta. Combina aprendizaje cooperativo y andamiaje, en línea con la función de «construir ambientes que fomenten el aprendizaje autónomo y cooperativo» (Res. 3842)."
+     "t": "conformar equipos heterogéneos con roles y dar apoyos graduales que se retiran a medida que ganan autonomía.",
+     "j": "Es correcta. Combina aprendizaje cooperativo (equipos diversos con roles) y aprendizaje autónomo (apoyos que se retiran), en línea con la función de construir ambientes que fomenten el aprendizaje autónomo y cooperativo de la Resolución 3842."
     },
     {
      "l": "C",
-     "t": "pedir a los estudiantes que no dominan la herramienta que vean tutoriales en casa antes de integrarse al proyecto.",
-     "j": "Es incorrecta. Traslada la responsabilidad al estudiante y puede excluir a quienes no tienen recursos en casa."
+     "t": "pedir a quienes no dominan la herramienta que vean tutoriales en casa antes de integrarse al proyecto del curso.",
+     "j": "Es incorrecta. Traslada la responsabilidad de nivelar al estudiante y puede excluir a quienes no tienen computador o conexión en casa. Además, retrasa su participación en el proyecto en lugar de apoyarla en el aula."
     }
    ],
    "clave": "B",
@@ -1736,7 +1807,10 @@
      "doc": "resolucion_3842_2022_ocr",
      "texto": "Construir ambientes que fomenten el aprendizaje autónomo y cooperativo en los estudiantes."
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "El caso presenta un grupo con niveles distintos de dominio de la hoja de cálculo. La Resolución 3842 de 2022 incluye entre las funciones del docente «construir ambientes que fomenten el aprendizaje autónomo y cooperativo en los estudiantes». Las dos condiciones importan: cooperativo, por eso equipos heterogéneos con roles en los que los más hábiles apoyan a los demás; autónomo, por eso apoyos graduales que se retiran cuando cada estudiante avanza solo. La opción de separar por niveles parece diferenciación, pero cumple solo la mitad. En la CNSC, ante la diversidad de niveles, la respuesta suele ser trabajo cooperativo con andamiaje, no separar ni trasladar la tarea a casa.",
+   "revisado": true
   },
   {
    "id": "Q030",
@@ -1747,18 +1821,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "será evaluado al terminar ese año académico, porque la evaluación del periodo de prueba se aplica a todos los vinculados durante el año.",
-     "j": "Es incorrecta. La evaluación solo procede si el docente ha servido el cargo al menos cuatro meses durante ese año."
+     "t": "será evaluado al terminar ese año académico, porque la evaluación se aplica a todos los vinculados durante el año.",
+     "j": "Es incorrecta. Es una verdad a medias: la evaluación sí se hace al término del año a quienes se vincularon en él, pero solo si han servido el cargo al menos cuatro meses. De septiembre a noviembre no se cumple ese mínimo."
     },
     {
      "l": "B",
-     "t": "deberá esperar hasta el año académico siguiente para ser evaluado, porque no alcanza a servir el cargo durante un mínimo de cuatro meses.",
-     "j": "Es correcta. El art. 31 exige un periodo no menor a cuatro meses; «de lo contrario, deberán esperar hasta el año académico siguiente»."
+     "t": "deberá esperar al año académico siguiente para ser evaluado, porque no alcanza a servir cuatro meses en el cargo.",
+     "j": "Es correcta. El artículo 31 exige haber servido el cargo por un periodo no menor a cuatro meses durante el año; «de lo contrario, deberán esperar hasta el año académico siguiente». Entre septiembre y noviembre no hay cuatro meses."
     },
     {
      "l": "C",
-     "t": "quedará inscrito automáticamente en el escalafón, porque superó el concurso de méritos y ya fue nombrado en el cargo.",
-     "j": "Es incorrecta. La inscripción en el escalafón procede solo después de aprobar el periodo de prueba con 60 % o más."
+     "t": "quedará inscrito en el escalafón al terminar el año, porque superó el concurso de méritos y ya fue nombrado.",
+     "j": "Es incorrecta. Superar el concurso da lugar al nombramiento en periodo de prueba, no a la inscripción. Según el Decreto 1278, la inscripción en el escalafón procede cuando se obtiene una calificación igual o superior al 60 % en la evaluación del periodo de prueba."
     }
    ],
    "clave": "B",
@@ -1769,8 +1843,15 @@
     {
      "doc": "decreto_1278_2002",
      "texto": "siempre y cuando hayan estado sirviendo el cargo por un período no menor a los cuatro (4) meses durante el respectivo año"
+    },
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "de lo contrario, deberán esperar hasta el año académico siguiente"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "El caso exige un cálculo en dos pasos. Primero, contar el tiempo: de septiembre a noviembre el docente no alcanza cuatro meses en el cargo. Segundo, aplicar el artículo 31 del Decreto 1278: la evaluación del periodo de prueba se hace al término del año a quienes se vincularon en él, «siempre y cuando hayan estado sirviendo el cargo por un período no menor a los cuatro (4) meses durante el respectivo año; de lo contrario, deberán esperar hasta el año académico siguiente». La inscripción en el escalafón llega solo después de una evaluación satisfactoria (60 % o más). Recuerde las dos cifras: cuatro meses y 60 %.",
+   "revisado": true
   },
   {
    "id": "Q031",
