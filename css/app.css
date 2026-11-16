@@ -328,7 +328,7 @@ html.oscuro .cal-d.n1{background:#1E3A12} html.oscuro .cal-d.n2{background:#2F6A
 .mmwrap{height:62vh}
 .qhead .icon-btn[data-a=revAbrir]{border:2px solid var(--line); border-bottom-width:4px; color:var(--ink); font-size:24px; font-weight:900}
 
-.notas-pie{margin-top:18px;padding-top:10px;border-top:1px dashed var(--borde,#ddd);font-size:.82em;opacity:.8}
+.notas-pie{margin-top:18px;padding-top:10px;border-top:1px dashed var(--line);font-size:.82em;opacity:.8}
 .notas-pie b{display:block;margin-bottom:4px;font-size:.9em}
 .notas-pie p{margin:2px 0}
 
@@ -370,3 +370,13 @@ html.oscuro .cal-d.n1{background:#1E3A12} html.oscuro .cal-d.n2{background:#2F6A
   display: grid; place-items: center; font-family: "Caveat", cursive; font-weight: 700; font-size: 22px; transform: rotate(-8deg); }
 .sk-fuente { margin-top: 26px; font-size: 13.5px; color: #868E96; text-align: right; }
 @media (max-width: 380px) { .sk-radial { grid-template-columns: 1fr; } .sk-radial .sk-nota:nth-child(odd):last-child { width: auto; } }
+
+/* juegos en inicio */
+.jg-grupo { margin-top: 14px; }
+.jg-tit { font-weight: 800; font-size: 15px; margin-bottom: 6px; }
+.jg-fila { display: flex; gap: 10px; overflow-x: auto; padding: 2px 2px 8px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+.jg-btn { flex: 0 0 72%; max-width: 260px; scroll-snap-align: start; text-align: left; border: 2px solid var(--line); border-bottom: 4px solid var(--c);
+  border-radius: 16px; padding: 10px 12px; background: var(--card, #fff); color: inherit; display: flex; flex-direction: column; gap: 3px; cursor: pointer; font: inherit; }
+.jg-btn b { font-size: 14.5px; line-height: 1.2; }
+.jg-btn span { font-size: 12px; opacity: .65; }
+.jg-btn:active { transform: translateY(2px); border-bottom-width: 2px; }

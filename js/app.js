@@ -573,6 +573,15 @@ function vistaHistorial() {
   ${det}
   <p class="tiny muted center mt">Empezaste el ${fechaLarga(ini)}.</p>`;
 }
+function juegosInicioHTML() {
+  const L = PDX.juegosLista();
+  if (!L.length) { if (!juegosInicioHTML.pidio) { juegosInicioHTML.pidio = true; PDX.cargar().then(() => S.vista === "inicio" && render()); } return ""; }
+  const grupos = ["emparejar", "ordenar", "clasificar", "sopa"].map(t => ({ t, ...PDX.TIPOS[t], g: L.filter(x => x.tipo === t) })).filter(x => x.g.length);
+  return `<div class="card mt"><div class="row"><div style="font-size:30px">🎮</div><div style="flex:1"><h3>Juegos de repaso</h3>
+    <p class="small muted">Practica jugando: cada juego usa el texto de los documentos oficiales. Dan XP.</p></div></div>
+    ${grupos.map(x => `<div class="jg-grupo"><div class="jg-tit" style="color:${x.color}">${x.e} ${x.nombre}</div>
+      <div class="jg-fila">${x.g.map(g => `<button class="jg-btn" style="--c:${x.color}" data-a="jugar" data-tipo="${g.tipo}" data-id="${g.id}"><b>${esc(g.titulo)}</b><span>${esc(g.fuente)}</span></button>`).join("")}</div></div>`).join("")}</div>`;
+}
 function vistaInicio() {
   const P = S.estado.perfil, r = rachaVisible(), lv = nivel(P.xp), hecho = S.estado.retoHoy === hoy();
   const venc = familiasVencidas().length, cof = cofre().length, sim = simulacroInfo();
@@ -598,6 +607,7 @@ function vistaInicio() {
     <div class="tiny" style="opacity:.9;text-align:center;margin-top:4px">Toca la semana para ver tu historial completo</div>
     <button class="btn" data-a="reto">${hecho ? "Practicar un reto más" : "Empezar el reto de hoy"}</button>
   </section>
+  ${juegosInicioHTML()}
 
   ${!pushActivo() ? `<div class="card mt" style="border-color:var(--amber)"><div class="row"><div style="font-size:30px">🔔</div><div style="flex:1"><h3>Activa tus recordatorios</h3>
      <p class="small muted">Como Duolingo: si a las 5:30 p. m. no has hecho el reto, te aviso. Y otra vez en la noche si tu racha está en riesgo.</p></div></div>
@@ -617,8 +627,8 @@ function vistaInicio() {
 
 
 
-  <div class="card mt"><div class="row"><div style="font-size:30px">🗺️</div><div style="flex:1"><h3>Mapas, esquemas y juegos</h3>
-     <p class="small muted">Los documentos en mapas mentales y esquemas visuales, juegos de repaso (relacionar, ordenar, clasificar, sopa de letras) y lectura en voz alta.</p></div></div>
+  <div class="card mt"><div class="row"><div style="font-size:30px">🗺️</div><div style="flex:1"><h3>Mapas, apuntes y esquemas</h3>
+     <p class="small muted">Los documentos en apuntes visuales dibujados a mano, esquemas y mapas mentales de cada documento.</p></div></div>
      <button class="btn violet mt" data-a="abrirMapas">Explorar</button></div>
 
   <div class="card mt"><div class="row"><div style="font-size:30px">📝</div><div style="flex:1"><h3>Cuaderno de estudio</h3>
@@ -1157,8 +1167,8 @@ $app.addEventListener("click", async e => {
   else if (a === "verEsquema") { PDX.V.esquema = b.dataset.id; ir("esquema"); }
   else if (a === "mmNivel") { PDX.V.nivel = +b.dataset.n; PDX.pintarMapa(PDX.V.nivel); }
   else if (a === "mmFit") { PDX.MM?.fit(); }
-  else if (a === "jugar") { await PDX.cargar(); CU.G = PDX.nuevoJuego(b.dataset.tipo, b.dataset.id); ir("juego"); }
-  else if (a === "jSalir") { CU.G = null; ir("mapas"); }
+  else if (a === "jugar") { await PDX.cargar(); if (S.vista !== "juego") CU.Gdesde = S.vista; CU.G = PDX.nuevoJuego(b.dataset.tipo, b.dataset.id); ir("juego"); }
+  else if (a === "jSalir") { CU.G = null; ir(CU.Gdesde || "inicio"); }
   else if (a === "jFin") { S.ses.G = null; siguiente(); }
   else if (/^j[A-Z]/.test(a)) { const G = S.vista === "juego" ? CU.G : S.ses?.G; if (G) { PDX.juegoAccion(a, b, G); render(); } }
   else if (a === "abrirDoc") { CU.doc = b.dataset.d; ir("doc"); }

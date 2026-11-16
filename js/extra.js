@@ -61,7 +61,7 @@ const V = { mapa: null, esquema: null, abiertos: new Set() };
 function vistaMapas() {
   const lista = MAPAS || [], es = J?.esquemas || [];
   return `<div class="top"><button class="icon-btn" data-v="inicio">‹</button><h2>Mapas y juegos</h2><span style="width:44px"></span></div>
-  <p class="muted small">Aprende de otra forma: esquemas visuales, mapas de cada documento, juegos de repaso y lectura en voz alta.</p>
+  <p class="muted small">Aprende de otra forma: apuntes visuales, esquemas y el mapa de cada documento. Los juegos están en la pantalla de inicio.</p>
   <h3 class="mt2">✏️ Apuntes visuales</h3>
   <p class="tiny muted">Como una página de cuaderno dibujada a mano: las ideas clave de cada capítulo con el texto del documento.</p>
   <div class="sk-lista">${(SK?.paginas || []).map((p, k) => `<button class="sk-mini" data-a="verSketch" data-k="${k}" style="--c:${SKC[k % SKC.length]}"><span class="sk-mini-cap">${esc(p.capitulo)}</span><b>${esc(p.titulo)}</b><span class="sk-mini-ico">${p.nodos.map(n => n.i).filter(Boolean).slice(0, 4).join(" ")}</span></button>`).join("")}</div>
@@ -69,9 +69,7 @@ function vistaMapas() {
   ${es.map((e, k) => `<button class="node" data-a="verEsquema" data-id="${e.id}"><div class="ico" style="background:${COLORES[k % 8]}">${["🛤️", "🌈", "🗂️", "⚙️", "🏛️"][k] || "📌"}</div><div class="meta"><b>${esc(e.titulo)}</b><span class="tiny muted">${esc(e.fuente)}</span></div><span class="muted">›</span></button>`).join("")}
   <h3 class="mt2">🗺️ Mapa de cada documento</h3>
   <p class="tiny muted">Cómo está organizado cada documento: títulos, capítulos y artículos. Toca una rama para abrirla y 📖 para leer esa parte.</p>
-  ${lista.map((m, k) => `<button class="node" data-a="verMapa" data-d="${m.doc}"><div class="ico" style="background:${COLORES[k % 8]}">🗺️</div><div class="meta"><b>${esc(m.nombre)}</b></div><span class="muted">›</span></button>`).join("")}
-  <h3 class="mt2">🎮 Juegos de repaso</h3>
-  ${juegosLista().map(g => `<button class="node" data-a="jugar" data-tipo="${g.tipo}" data-id="${g.id}"><div class="ico" style="background:${g.color}">${g.e}</div><div class="meta"><b>${esc(g.titulo)}</b><span class="tiny muted">${g.nombre} · ${esc(g.fuente)}</span></div><span class="muted">›</span></button>`).join("")}`;
+  ${lista.map((m, k) => `<button class="node" data-a="verMapa" data-d="${m.doc}"><div class="ico" style="background:${COLORES[k % 8]}">🗺️</div><div class="meta"><b>${esc(m.nombre)}</b></div><span class="muted">›</span></button>`).join("")}`;
 }
 const TIPOS = { emparejar: { e: "🔗", nombre: "Relacionar", color: "#1CB0F6" }, ordenar: { e: "🔢", nombre: "Ordenar los pasos", color: "#FF9600" },
   clasificar: { e: "🗃️", nombre: "Clasificar", color: "#CE82FF" }, sopa: { e: "🔤", nombre: "Sopa de letras", color: "#58CC02" } };
@@ -407,5 +405,5 @@ function postRender(vista) {
   if (vista === "mapa") pintarMapa(V.nivel || (V.mapa && V.mapa.startsWith("guia30") ? 3 : 2));
   if (vista === "esquema") pintarEsquema();
 }
-window.PDX = { postRender, vistaSketch, get SK() { return SK; }, pintarMapa, get MM() { return MM; }, Voz, cargar, vistaMapas, vistaMapa, vistaEsquema, juegoHTML, juegoAccion, nuevoJuego, elegirJuegoDelDia, V, todasLasRutas, get MAPAS() { return MAPAS; }, get J() { return J; } };
+window.PDX = { postRender, juegosLista, TIPOS, vistaSketch, get SK() { return SK; }, pintarMapa, get MM() { return MM; }, Voz, cargar, vistaMapas, vistaMapa, vistaEsquema, juegoHTML, juegoAccion, nuevoJuego, elegirJuegoDelDia, V, todasLasRutas, get MAPAS() { return MAPAS; }, get J() { return J; } };
 })();
