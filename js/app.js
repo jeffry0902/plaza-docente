@@ -471,7 +471,7 @@ function preparacion() {
 }
 
 /* ---------- navegación ---------- */
-function ir(v) { S.vista = v; render(); scrollTo({ top: 0 }); }
+function ir(v) { if (v !== "leer" && typeof CU !== "undefined") CU.volver = null; S.vista = v; render(); scrollTo({ top: 0 }); }
 function revisarDia() { if (S.vista === "inicio" && S.estado) render(); }
 
 /* ---------- vistas ---------- */
@@ -868,7 +868,9 @@ function vistaLeer() {
   const L = LECT[CU.lectura]; if (!L) return `<p class="muted">Cargando…</p>`;
   const d = docsDelPlan().find(x => x.doc === L.doc), k = d.partes.findIndex(x => x.id === L.id), ant = d.partes[k - 1], sig = d.partes[k + 1];
   const marcados = new Set(conceptos().filter(c => c.lectura === L.id).map(c => c.parrafo));
+  const NV = { mapa: "al mapa", sketch: "a los apuntes visuales", esquema: "al esquema", mapas: "a Mapas y juegos" }, vb = CU.volver ? `<button class="btn ghost mt" data-a="volverDoc">‹ Volver ${NV[CU.volver.v]}</button>` : "";
   return `<div class="top"><button class="icon-btn" data-a="volverDoc">‹</button><div class="center"><div class="tiny muted">${esc(L.nombre)}</div><b>Parte ${L.parte} de ${L.total}</b></div><span style="width:44px"></span></div>
+  ${CU.volver ? `<button class="chip" data-a="volverDoc" style="margin-bottom:6px">‹ Volver ${NV[CU.volver.v]}</button>` : ""}
   <h2>${esc(L.titulo)}</h2>
   <p class="tiny muted">Toca un párrafo para guardarlo como concepto en tu cuaderno.</p>
   <div class="lectura doc leer">${L.parrafos.map((p, i) => `<p data-a="parr" data-k="${i}" class="${CU.sel === i ? "selp" : ""} ${marcados.has(i) ? "marcado" : ""}">${esc(p)}</p>
@@ -877,7 +879,7 @@ function vistaLeer() {
     <textarea id="notaL" class="input" rows="5" data-i="nota" placeholder="Ideas clave, dudas, ejemplos para el aula…">${esc(S.estado.cuaderno.notas[L.id] || "")}</textarea>
     <p class="tiny muted">Se guarda solo mientras escribes.</p></div>
   <button class="btn ${lecturaLeida(L.id) ? "sec" : ""} mt" data-a="marcarLeida">${lecturaLeida(L.id) ? "✓ Leída (tocar para desmarcar)" : "Marcar como leída"}</button>
-  <div class="row mt">${ant ? `<button class="btn sec" data-a="leerParte" data-l="${ant.id}">‹ Anterior</button>` : ""}${sig ? `<button class="btn sec" data-a="leerParte" data-l="${sig.id}">Siguiente ›</button>` : ""}</div>`;
+  <div class="row mt">${ant ? `<button class="btn sec" data-a="leerParte" data-l="${ant.id}">‹ Anterior</button>` : ""}${sig ? `<button class="btn sec" data-a="leerParte" data-l="${sig.id}">Siguiente ›</button>` : ""}</div>${vb}`;
 }
 function vistaConceptos() {
   const q = CU.q.trim().toLowerCase(), lista = conceptos().slice().sort((a, b) => a.termino.localeCompare(b.termino, "es"))
@@ -1161,7 +1163,9 @@ $app.addEventListener("click", async e => {
   else if (/^j[A-Z]/.test(a)) { const G = S.vista === "juego" ? CU.G : S.ses?.G; if (G) { PDX.juegoAccion(a, b, G); render(); } }
   else if (a === "abrirDoc") { CU.doc = b.dataset.d; ir("doc"); }
   else if (a === "leerParte") { CU.lectura = b.dataset.l; CU.sel = null; CU.doc = (S.banco.plan.find(l => l.id === CU.lectura) || {}).doc; await asegurarLectura(CU.lectura); ir("leer"); }
-  else if (a === "volverDoc") { ir("doc"); }
+  else if (a === "volverDoc") {
+    if (CU.volver) { const { v, y } = CU.volver; CU.volver = null; S.vista = v; render(); setTimeout(() => scrollTo({ top: y }), v === "sketch" ? 400 : 60); }
+    else ir("doc"); }
   else if (a === "parr") { const k = +b.dataset.k; CU.sel = CU.sel === k ? null : k; render(); }
   else if (a === "nuevoConcepto") {
     if (b.dataset.k !== undefined && CU.lectura) { const L = LECT[CU.lectura], k = +b.dataset.k;
@@ -1245,7 +1249,10 @@ async function refrescarPush() {
 
 window.PD = {
   toast, sonar, render: () => render(),
-  async abrirLectura(id) { CU.lectura = id; CU.sel = null; CU.doc = (S.banco.plan.find(l => l.id === id) || {}).doc; await asegurarLectura(id); ir("leer"); },
+  async abrirLectura(id) {
+    if (["mapa", "sketch", "esquema", "mapas"].includes(S.vista)) CU.volver = { v: S.vista, y: scrollY };
+    else if (S.vista !== "leer") CU.volver = null;
+    CU.lectura = id; CU.sel = null; CU.doc = (S.banco.plan.find(l => l.id === id) || {}).doc; await asegurarLectura(id); ir("leer"); },
   premiar(xp, G) { const P = S.estado.perfil; P.xp += xp; if (S.ses && S.vista === "pregunta") S.ses.xp += xp;
     else { const r = { fecha: hoy(), tipo: "juego", total: 1, ok: G.errores ? 0 : 1, xp, comp: null }; S.estado.sesiones.push(r);
       const ob = outbox(); ob.sesiones.push({ tipo: "juego", total: 1, correctas: G.errores ? 0 : 1, xp, detalle: { juego: G.id, errores: G.errores } }); setOutbox(ob); }

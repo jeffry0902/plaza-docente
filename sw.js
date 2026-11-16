@@ -1,6 +1,6 @@
 // Service worker: la app abre sin conexión; el banco de preguntas se actualiza cuando hay red.
-const CACHE = "plaza-docente-v14";
-const ESTATICOS = ["./", "index.html", "css/app.css?v=13", "js/config.js?v=13", "js/extra.js?v=13", "js/app.js?v=13", "manifest.webmanifest",
+const CACHE = "plaza-docente-v15";
+const ESTATICOS = ["./", "index.html", "css/app.css?v=14", "js/config.js?v=14", "js/extra.js?v=14", "js/app.js?v=14", "manifest.webmanifest",
   "icons/icon-192.png", "icons/apple-touch-icon.png", "simulacro.ics"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(ESTATICOS)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
