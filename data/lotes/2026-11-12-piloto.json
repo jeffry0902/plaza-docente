@@ -1862,25 +1862,28 @@
    "opciones": [
     {
      "l": "A",
-     "t": "la herramienta define por sí misma el tipo de aprendizaje que se produce.",
-     "j": "Es correcta. El texto lo dice explícitamente: «Ambas posturas comparten un supuesto discutible: que la herramienta determina por sí sola el tipo de aprendizaje que produce»."
+     "t": "los estudiantes usarán la inteligencia artificial aunque la institución decida prohibirla.",
+     "j": "Es incorrecta. El texto sí sugiere que la pregunta pertinente no es si los estudiantes usarán la herramienta, pero esa es una idea del autor, no el supuesto que comparten quienes la prohíben y quienes la celebran."
     },
     {
      "l": "B",
-     "t": "los estudiantes usarán la inteligencia artificial aunque la institución la prohíba.",
-     "j": "Es incorrecta. Esa idea se insinúa al final, pero es del autor, no el supuesto que comparten las dos posturas."
+     "t": "las políticas educativas llegaron tarde para orientar el uso de la inteligencia artificial.",
+     "j": "Es incorrecta. La primera oración afirma que la herramienta llegó a las aulas antes que las políticas, pero ese es un dato de contexto que da el autor, no el supuesto común que critica en las dos posturas."
     },
     {
      "l": "C",
-     "t": "las políticas educativas llegaron tarde para regular la inteligencia artificial.",
-     "j": "Es incorrecta. Es una afirmación del texto, pero no es el supuesto que comparten las dos posturas."
+     "t": "la herramienta define por sí misma el tipo de aprendizaje que produce en los estudiantes.",
+     "j": "Es correcta. El texto lo dice de forma explícita: «Ambas posturas comparten un supuesto discutible: que la herramienta determina por sí sola el tipo de aprendizaje que produce». La opción lo parafrasea sin cambiar su sentido."
     }
    ],
-   "clave": "A",
+   "clave": "C",
    "fuente": "ICFES, Marco de referencia de Lectura Crítica: identificar y entender los contenidos locales de un texto.",
    "consejo": "Que una idea aparezca en el texto no significa que responda a la pregunta.",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 2,
+   "explicacion": "Pregunta de contenido local: la respuesta está escrita en el texto y solo hay que ubicarla. La pista es la expresión «ambas posturas comparten un supuesto discutible», que introduce justo lo que pide el enunciado: que la herramienta determina por sí sola el tipo de aprendizaje. Las otras dos opciones también aparecen o se insinúan en el texto, y ahí está la trampa típica de Lectura Crítica: que una idea esté en el texto no significa que responda a la pregunta. Antes de elegir, vuelve al enunciado y pregúntate de quién es cada idea y qué función cumple. Aquí se pide el supuesto común de los dos grupos, no la opinión del autor ni el contexto.",
+   "revisado": true
   },
   {
    "id": "Q032",
@@ -1891,25 +1894,28 @@
    "opciones": [
     {
      "l": "A",
-     "t": "demostrar que las herramientas tecnológicas siempre mejoran el aprendizaje de los estudiantes.",
-     "j": "Es incorrecta. Exagera: el ejemplo no dice que las herramientas siempre mejoren el aprendizaje."
+     "t": "apoyar con un antecedente histórico la idea de que una herramienta obliga a replantear la enseñanza.",
+     "j": "Es correcta. El autor usa la calculadora como un caso comparable del pasado: no eliminó el pensamiento matemático, pero obligó a replantear qué se enseña y cómo se evalúa. Con esa analogía sostiene que con la inteligencia artificial ocurre lo mismo."
     },
     {
      "l": "B",
-     "t": "apoyar, mediante una analogía histórica, la idea de que una herramienta obliga a replantear la enseñanza y la evaluación.",
-     "j": "Es correcta. El autor usa la calculadora como antecedente comparable para sostener que la pregunta es qué enseñar y cómo evaluar."
+     "t": "demostrar que las herramientas tecnológicas siempre terminan por mejorar el aprendizaje escolar.",
+     "j": "Es incorrecta. Exagera lo que dice el ejemplo: el texto afirma que la calculadora no eliminó el pensamiento matemático, no que las herramientas siempre mejoren el aprendizaje. El adverbio «siempre» crea una generalización que el autor no hace."
     },
     {
      "l": "C",
-     "t": "contradecir a quienes consideran que la inteligencia artificial ahorra tiempo a los docentes.",
-     "j": "Es incorrecta. El ejemplo no discute el ahorro de tiempo."
+     "t": "contradecir a quienes creen que la inteligencia artificial ahorra tiempo de trabajo a los docentes.",
+     "j": "Es incorrecta. El ahorro de tiempo aparece como argumento de quienes celebran la inteligencia artificial, pero el ejemplo de la calculadora no discute ese punto; sirve para mostrar que la herramienta exige repensar la enseñanza y la evaluación."
     }
    ],
-   "clave": "B",
+   "clave": "A",
    "fuente": "ICFES, Marco de referencia de Lectura Crítica: comprender cómo se articulan las partes de un texto.",
    "consejo": "Pregunta por la función de un ejemplo → busca qué idea apoya.",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 2,
+   "explicacion": "Esta pregunta evalúa cómo se articulan las partes del texto: no pide qué dice el ejemplo, sino para qué lo usa el autor. La calculadora aparece justo después de la frase «La historia de la educación muestra lo contrario», es decir, funciona como evidencia histórica contra el supuesto de que la herramienta determina sola el aprendizaje. Además, el autor enlaza la analogía con «Del mismo modo», lo que confirma la comparación con la inteligencia artificial. Cuando el enunciado pregunte por la función de un ejemplo, busca qué idea apoya y qué conector lo une con ella. Desconfía de las opciones con absolutos como «siempre» que el texto no sostiene.",
+   "revisado": true
   },
   {
    "id": "Q033",
@@ -1920,25 +1926,28 @@
    "opciones": [
     {
      "l": "A",
-     "t": "las tareas que la inteligencia artificial resuelve con facilidad probablemente evaluaban habilidades distintas al juicio y la creatividad.",
-     "j": "Es correcta. Si una instrucción de una línea resuelve la tarea, esta quizá nunca evaluó el juicio ni la creatividad que se creía evaluar."
+     "t": "los docentes deberían redactar instrucciones más extensas para que la herramienta no resuelva las tareas.",
+     "j": "Es incorrecta. Hace una lectura literal de la expresión «instrucción de una línea», como si el problema fuera la longitud de la instrucción. El autor no propone dificultar el uso de la herramienta, sino revisar qué evaluaban realmente esas tareas."
     },
     {
      "l": "B",
-     "t": "los docentes deberían escribir instrucciones más largas para que la inteligencia artificial no pueda resolver las tareas.",
-     "j": "Es incorrecta. Lee de forma literal la expresión «instrucción de una línea» y pierde el sentido crítico."
+     "t": "las tareas que la herramienta resuelve con facilidad tal vez no evaluaban el juicio ni la creatividad.",
+     "j": "Es correcta. Si una tarea se resuelve completa con una instrucción de una línea, el autor sugiere que quizá nunca evaluó lo que se creía evaluar, es decir, el juicio, la creatividad y el criterio ético que menciona en la oración anterior."
     },
     {
      "l": "C",
-     "t": "la inteligencia artificial debe prohibirse en las evaluaciones porque impide medir lo que los estudiantes saben.",
-     "j": "Es incorrecta. Contradice la tesis del autor, que critica tanto prohibir como celebrar sin reflexión."
+     "t": "la inteligencia artificial debe prohibirse en las evaluaciones porque impide saber qué aprendió cada uno.",
+     "j": "Es incorrecta. Contradice la tesis del texto, que critica tanto a quienes prohíben la inteligencia artificial como a quienes la celebran sin reflexión. Prohibirla en las evaluaciones sería volver a la primera postura que el autor cuestiona."
     }
    ],
-   "clave": "A",
+   "clave": "B",
    "fuente": "ICFES, Marco de referencia de Lectura Crítica: reflexionar a partir de un texto y evaluar su contenido.",
    "consejo": "Una inferencia válida nunca contradice la tesis del autor.",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 3,
+   "explicacion": "Una inferencia válida va un paso más allá de lo literal, pero nunca contra la tesis del autor. La última oración dice que una tarea resuelta «con una instrucción de una línea quizá nunca evaluó lo que creíamos evaluar». Para inferir qué es eso que se creía evaluar, hay que conectarla con la oración anterior: el juicio, la creatividad y el criterio ético. Es un razonamiento en dos pasos. La opción literal, escribir instrucciones más largas, se queda en la superficie, y la opción de prohibir contradice la idea central del texto. En preguntas de reflexión, verifica que la inferencia sea coherente con todo el texto, no solo con una frase.",
+   "revisado": true
   },
   {
    "id": "Q034",
@@ -1949,25 +1958,28 @@
    "opciones": [
     {
      "l": "A",
-     "t": "la diferencia en el número de equipos y conexiones entre escuelas rurales y urbanas.",
-     "j": "Es incorrecta. Esa es la forma tradicional de medir la brecha, que el texto supera."
+     "t": "la diferencia en la cantidad de equipos y de conexiones entre las escuelas rurales y urbanas.",
+     "j": "Es incorrecta. Es la forma tradicional de medir la brecha digital, contando computadores y conexiones, que el texto presenta al inicio precisamente para superarla. La brecha de segundo nivel aparece cuando el acceso ya está garantizado."
     },
     {
      "l": "B",
-     "t": "la diferencia en los usos que hacen de la tecnología estudiantes de distintos contextos, aun teniendo acceso.",
-     "j": "Es correcta. El texto define así la brecha de segundo nivel: consumir frente a crear, programar o investigar."
+     "t": "la diferencia en la formación tecnológica de los docentes de contextos vulnerables y favorecidos.",
+     "j": "Es incorrecta. El texto no menciona la formación de los docentes en ningún momento. Habla de los estudiantes y de las oportunidades de aprendizaje que se diseñan alrededor de los equipos, pero no de diferencias entre maestros."
     },
     {
      "l": "C",
-     "t": "la diferencia en la formación tecnológica de los docentes de contextos vulnerables y favorecidos.",
-     "j": "Es incorrecta. El texto no habla de la formación de los docentes."
+     "t": "la diferencia en los usos que dan a la tecnología estudiantes de distintos contextos con acceso.",
+     "j": "Es correcta. El texto define la brecha de segundo nivel como la diferencia en los usos: aun con acceso garantizado, unos estudiantes usan la tecnología para consumir contenidos y otros para crear, programar o investigar."
     }
    ],
-   "clave": "B",
+   "clave": "C",
    "fuente": "ICFES, Marco de referencia de Lectura Crítica.",
    "consejo": "Ubica la definición en el texto antes de mirar las opciones.",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 1,
+   "explicacion": "Pregunta de nivel 1: la definición está escrita en el texto. La pista es la frase «A esta diferencia se le ha llamado brecha de segundo nivel», que remite a la oración anterior: aun con acceso garantizado, los estudiantes de contextos vulnerables tienden a consumir contenidos y los de contextos favorecidos a crear, programar o investigar. El texto contrasta esta brecha con la de primer nivel, que se medía contando computadores y conexiones. La estrategia es ubicar la definición antes de leer las opciones y luego descartar las que mencionan algo que el texto no dice o lo que el texto presenta como superado.",
+   "revisado": true
   },
   {
    "id": "Q035",
@@ -1978,25 +1990,28 @@
    "opciones": [
     {
      "l": "A",
-     "t": "es indispensable, aunque por sí sola no garantiza la equidad en el aprendizaje.",
-     "j": "Es correcta. Necesaria = sin ella no se logra; no suficiente = con ella sola tampoco se logra."
+     "t": "es suficiente cuando las escuelas cuentan además con buena señal de internet.",
+     "j": "Es incorrecta. Una buena señal de internet también es una forma de acceso, y el texto sostiene que el acceso, aun garantizado, no basta. La opción convierte en suficiente lo que el autor llama expresamente no suficiente."
     },
     {
      "l": "B",
-     "t": "es suficiente cuando las escuelas cuentan además con buena señal de internet.",
-     "j": "Es incorrecta. La señal también es acceso; el texto dice que el acceso no basta."
+     "t": "es indispensable, aunque por sí sola no garantiza la equidad en el aprendizaje.",
+     "j": "Es correcta. «Necesaria» significa que sin la dotación no se logra la equidad; «no suficiente» significa que con la dotación sola tampoco se logra. Por eso el autor añade que la equidad depende también de las oportunidades de aprendizaje."
     },
     {
      "l": "C",
      "t": "es innecesaria si los docentes diseñan buenas oportunidades de aprendizaje.",
-     "j": "Es incorrecta. Contradice el término «necesaria»."
+     "j": "Es incorrecta. Contradice el término «necesaria»: el autor no dice que la dotación sobre, sino que no alcanza por sí sola. Las buenas oportunidades de aprendizaje complementan los equipos, no los reemplazan."
     }
    ],
-   "clave": "A",
+   "clave": "B",
    "fuente": "ICFES, Marco de referencia de Lectura Crítica.",
    "consejo": "Domina las expresiones lógicas: necesaria, suficiente, solo si, a menos que.",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 2,
+   "explicacion": "La pregunta evalúa una expresión lógica muy frecuente en Lectura Crítica y en Razonamiento Cuantitativo. Una condición necesaria es la que no puede faltar; una condición suficiente es la que basta por sí sola. Cuando el autor dice que dotar las escuelas es «una condición necesaria, pero no suficiente», afirma dos cosas a la vez: sin equipos no hay equidad, pero los equipos solos tampoco la garantizan. Por eso agrega que la equidad depende también de las oportunidades de aprendizaje que se diseñan. Las opciones incorrectas rompen una de las dos mitades de la expresión. Practica traducir necesaria, suficiente, solo si y a menos que.",
+   "revisado": true
   },
   {
    "id": "Q036",
@@ -2007,25 +2022,28 @@
    "opciones": [
     {
      "l": "A",
-     "t": "con el mismo acceso, los estudiantes de contextos vulnerables crean y programan con la misma frecuencia que los de contextos favorecidos.",
-     "j": "Es correcta. Elimina la premisa de la que depende la conclusión: si no hay diferencia en los usos, no hay brecha de segundo nivel."
+     "t": "las escuelas rurales tienen menos computadores por estudiante que las escuelas de la ciudad.",
+     "j": "Es incorrecta. El dato se refiere al acceso, es decir, a la brecha de primer nivel. El argumento del autor trata sobre los usos que se dan a la tecnología cuando ya hay acceso, así que este dato no lo afecta."
     },
     {
      "l": "B",
-     "t": "las escuelas rurales tienen menos computadores por estudiante que las escuelas urbanas.",
-     "j": "Es incorrecta. Habla del acceso (primer nivel) y no afecta el argumento sobre los usos."
+     "t": "algunos docentes no saben diseñar actividades de creación con tecnología para sus grupos.",
+     "j": "Es incorrecta. Este dato no debilita el argumento; más bien lo apoya, porque muestra que importan las oportunidades de aprendizaje que se diseñan alrededor de los equipos, que es justamente la conclusión del autor."
     },
     {
      "l": "C",
-     "t": "algunos docentes no saben diseñar actividades de creación con tecnología.",
-     "j": "Es incorrecta. Más bien apoya la idea de que importan las oportunidades de aprendizaje que se diseñan."
+     "t": "con igual acceso, estudiantes de todos los contextos crean y programan con la misma frecuencia.",
+     "j": "Es correcta. Ataca la premisa central: el argumento depende de que, con acceso garantizado, unos estudiantes consuman y otros creen. Si los usos fueran iguales, no habría brecha de segundo nivel y la conclusión perdería su base."
     }
    ],
-   "clave": "A",
+   "clave": "C",
    "fuente": "ICFES, Marco de referencia de Lectura Crítica.",
    "consejo": "Para debilitar un argumento, ataca su premisa central.",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 3,
+   "explicacion": "Para debilitar un argumento hay que atacar la premisa de la que depende la conclusión. Aquí el razonamiento es: aun con acceso, los usos difieren según el contexto (premisa); por lo tanto, dotar es necesario pero no suficiente (conclusión). Si se demostrara que con el mismo acceso todos los estudiantes crean y programan con igual frecuencia, la premisa caería y el argumento perdería fuerza. Las otras opciones hablan del acceso, que el autor ya da por superado, o refuerzan su conclusión. Es un razonamiento en dos pasos: identificar la premisa y luego buscar el dato que la contradice, no el que solo habla del mismo tema.",
+   "revisado": true
   },
   {
    "id": "Q037",
@@ -2036,25 +2054,28 @@
    "opciones": [
     {
      "l": "A",
-     "t": "6-1, porque tiene el mayor número de estudiantes que aprobaron la prueba.",
-     "j": "Es incorrecta. Compara cantidades absolutas: 26 de 40 es el 65 %."
+     "t": "6-1, porque es el curso con el mayor número de estudiantes que aprobaron la prueba.",
+     "j": "Es incorrecta. Compara cantidades absolutas: 26 aprobados es el número más alto, pero sobre 40 evaluados equivale al 65 %. Cuando los grupos tienen tamaños distintos, el número absoluto no permite saber cuál tiene mejor proporción."
     },
     {
      "l": "B",
-     "t": "6-3, porque el 80 % de sus estudiantes aprobó la prueba.",
-     "j": "Es correcta. 20 ÷ 25 = 0,80 (80 %), frente a 65 % en 6-1 y 60 % en 6-2."
+     "t": "6-2, porque su porcentaje de aprobación es el más cercano al promedio de los tres cursos.",
+     "j": "Es incorrecta. Estar cerca del promedio no indica tener el mayor porcentaje. Además, 21 de 35 es el 60 %, que es el porcentaje más bajo de los tres cursos, de modo que la conclusión es doblemente errónea."
     },
     {
      "l": "C",
-     "t": "6-2, porque su porcentaje de aprobación es el más cercano al promedio de los tres cursos.",
-     "j": "Es incorrecta. Estar cerca del promedio no significa tener el mayor porcentaje; además, 6-2 tiene el menor (60 %)."
+     "t": "6-3, porque el 80 % de sus estudiantes aprobó, frente al 65 % de 6-1 y el 60 % de 6-2.",
+     "j": "Es correcta. 20 ÷ 25 = 0,80, es decir, 80 %. Frente a 26 ÷ 40 = 65 % en 6-1 y 21 ÷ 35 = 60 % en 6-2, el curso 6-3 tiene la mayor proporción de aprobados, aunque sea el curso con menos estudiantes."
     }
    ],
-   "clave": "B",
+   "clave": "C",
    "fuente": "ICFES, Módulo de Razonamiento Cuantitativo.",
    "consejo": "Grupos de distinto tamaño se comparan con porcentajes.",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 2,
+   "explicacion": "La pregunta evalúa la interpretación de datos de grupos de distinto tamaño. El error más frecuente es mirar el número de aprobados (26 en 6-1) sin relacionarlo con el número de evaluados. Para comparar grupos desiguales hay que calcular la proporción de cada uno: 26/40 = 65 %, 21/35 = 60 % y 20/25 = 80 %. El curso con mayor porcentaje de aprobación es 6-3, aunque tenga menos aprobados en número. En las pruebas de razonamiento cuantitativo, cuando aparecen tablas con totales distintos, el primer paso casi siempre es convertir a porcentajes o fracciones antes de comparar.",
+   "revisado": true
   },
   {
    "id": "Q038",
@@ -2065,25 +2086,28 @@
    "opciones": [
     {
      "l": "A",
-     "t": "68,3 %, que resulta de promediar los porcentajes de aprobación de los tres cursos.",
-     "j": "Es incorrecta. Promediar porcentajes de grupos de distinto tamaño da un resultado equivocado."
+     "t": "67 %, que resulta de dividir el total de aprobados entre el total de evaluados.",
+     "j": "Es correcta. Se suman los aprobados (26 + 21 + 20 = 67) y se dividen entre el total de evaluados (40 + 35 + 25 = 100). El resultado, 67 ÷ 100, es 67 %, porque cada estudiante cuenta una sola vez en el cálculo global."
     },
     {
      "l": "B",
-     "t": "67 %, que resulta de dividir el total de estudiantes que aprobaron entre el total de evaluados.",
-     "j": "Es correcta. (26 + 21 + 20) ÷ (40 + 35 + 25) = 67 ÷ 100 = 67 %."
+     "t": "68,3 %, que resulta de promediar los porcentajes de aprobación de los tres cursos.",
+     "j": "Es incorrecta. Promediar los porcentajes, (65 + 60 + 80) ÷ 3, da 68,3 %, pero ese procedimiento da el mismo peso a cursos de 25 y de 40 estudiantes. Solo sería válido si los tres cursos tuvieran el mismo tamaño."
     },
     {
      "l": "C",
-     "t": "70 %, que resulta de promediar el porcentaje del curso más alto y el del curso más bajo.",
-     "j": "Es incorrecta. (80 + 60) ÷ 2 = 70 no considera el tamaño de los grupos ni el tercer curso."
+     "t": "70 %, que resulta de promediar el porcentaje del curso más alto y el del más bajo.",
+     "j": "Es incorrecta. (80 + 60) ÷ 2 = 70 deja por fuera al tercer curso y, además, no considera el tamaño de los grupos. Es un procedimiento sin justificación que no representa a todos los estudiantes evaluados."
     }
    ],
-   "clave": "B",
+   "clave": "A",
    "fuente": "ICFES, Módulo de Razonamiento Cuantitativo.",
    "consejo": "Porcentaje global = total de casos ÷ total de evaluados.",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 3,
+   "explicacion": "Esta pregunta exige formular el procedimiento correcto antes de calcular, y por eso es de nivel 3: dos de las opciones usan procedimientos que parecen razonables. El porcentaje global se obtiene con el total de casos favorables dividido entre el total de casos: 67 aprobados de 100 evaluados, es decir, 67 %. Promediar porcentajes solo funciona cuando los grupos tienen el mismo tamaño; aquí 6-3 tiene 25 estudiantes y 6-1 tiene 40, así que el promedio simple sobrevalora al curso pequeño. Recuerda la regla: para un porcentaje de conjunto, suma primero las cantidades y divide al final.",
+   "revisado": true
   },
   {
    "id": "Q039",
@@ -2095,24 +2119,27 @@
     {
      "l": "A",
      "t": "correcta, porque en el curso 6-1 reprobaron más estudiantes que en el curso 6-2.",
-     "j": "Es incorrecta. En los dos cursos reprobaron 14 estudiantes (40 − 26 y 35 − 21)."
+     "j": "Es incorrecta. En 6-1 reprobaron 40 − 26 = 14 estudiantes y en 6-2 reprobaron 35 − 21 = 14. El dato en el que se apoya la afirmación es falso, así que la conclusión no puede ser correcta."
     },
     {
      "l": "B",
-     "t": "incorrecta, porque en ambos cursos reprobaron 14 estudiantes y, en proporción, el 6-1 tuvo menor porcentaje de reprobación.",
-     "j": "Es correcta. 14 ÷ 40 = 35 % en 6-1 y 14 ÷ 35 = 40 % en 6-2."
+     "t": "incorrecta, porque 6-2 tiene menos estudiantes y sus resultados no se pueden comparar.",
+     "j": "Es incorrecta. Cursos de distinto tamaño sí se pueden comparar si se usan proporciones o porcentajes. La opción rechaza la afirmación, pero con una razón equivocada, y en esta clase de preguntas la razón también se evalúa."
     },
     {
      "l": "C",
-     "t": "incorrecta, porque el curso 6-2 tiene menos estudiantes y por eso sus resultados no se pueden comparar.",
-     "j": "Es incorrecta. Sí se pueden comparar usando proporciones."
+     "t": "incorrecta, porque en ambos reprobaron 14 y en proporción el 6-1 reprobó menos.",
+     "j": "Es correcta. En los dos cursos reprobaron 14 estudiantes, pero 14 ÷ 40 = 35 % en 6-1 y 14 ÷ 35 = 40 % en 6-2. En proporción, el 6-1 tuvo menos reprobación, lo contrario de lo que afirma el docente."
     }
    ],
-   "clave": "B",
+   "clave": "C",
    "fuente": "ICFES, Módulo de Razonamiento Cuantitativo.",
    "consejo": "Verifica la afirmación con los datos y revisa que la razón también sea correcta.",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 3,
+   "explicacion": "En las preguntas de argumentación se evalúan dos cosas: si la afirmación es verdadera y si la razón que la acompaña es válida. Primero se verifica el dato: en 6-1 reprobaron 14 de 40 y en 6-2 reprobaron 14 de 35, así que no es cierto que en 6-1 reprobaran más. Luego se compara en proporción: 35 % frente a 40 %, por lo que 6-1 tuvo un desempeño mejor, no peor. La opción que dice que no se pueden comparar llega a «incorrecta» por un camino falso. Por eso es una pregunta de nivel 3: dos opciones dicen «incorrecta» y solo una tiene la razón correcta.",
+   "revisado": true
   },
   {
    "id": "Q040",
@@ -2123,25 +2150,28 @@
    "opciones": [
     {
      "l": "A",
-     "t": "$2.700.000, porque se reparan 6 equipos con un costo total de $2.100.000.",
-     "j": "Es correcta. 20 % de 30 = 6 equipos; 6 × $350.000 = $2.100.000; $4.800.000 − $2.100.000 = $2.700.000."
+     "t": "$1.300.000, porque el presupuesto alcanza para reparar 10 equipos de $350.000.",
+     "j": "Es incorrecta. Calcula cuántas reparaciones alcanzaría a pagar el presupuesto, pero la situación no pide eso: solo hay 6 equipos fuera de servicio, de modo que no tiene sentido pagar 10 reparaciones."
     },
     {
      "l": "B",
-     "t": "$1.300.000, porque el presupuesto alcanza para reparar 10 equipos de $350.000 cada uno.",
-     "j": "Es incorrecta. Solo hay 6 equipos dañados; reparar 10 no corresponde a la situación."
+     "t": "$2.700.000, porque se reparan 6 equipos con un costo total de $2.100.000.",
+     "j": "Es correcta. El 20 % de 30 es 6 equipos; 6 × $350.000 = $2.100.000, y $4.800.000 − $2.100.000 = $2.700.000. Primero se halla la cantidad de equipos dañados y después el costo total de las reparaciones."
     },
     {
      "l": "C",
-     "t": "$3.750.000, porque se reparan 3 equipos, que corresponden al 20 % de los computadores.",
-     "j": "Es incorrecta. El 20 % de 30 es 6, no 3."
+     "t": "$3.750.000, porque se reparan 3 equipos, que equivalen al 20 % de los computadores.",
+     "j": "Es incorrecta. Comete un error al calcular el porcentaje: el 20 % de 30 es 6 y no 3. Con 3 equipos el costo sería $1.050.000 y el sobrante $3.750.000, pero el dato de partida está mal."
     }
    ],
-   "clave": "A",
+   "clave": "B",
    "fuente": "ICFES, Módulo de Razonamiento Cuantitativo.",
    "consejo": "Primero la cantidad (6 equipos), después el costo.",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 2,
+   "explicacion": "Es un problema de dos pasos que exige ordenar el procedimiento. Primero se halla la cantidad de equipos dañados: el 20 % de 30 es 0,20 × 30 = 6. Después se calcula el costo: 6 × $350.000 = $2.100.000. Finalmente se resta del presupuesto: $4.800.000 − $2.100.000 = $2.700.000. Los distractores nacen de errores reales: calcular mal el porcentaje (3 equipos) o responder otra pregunta (cuántas reparaciones alcanza a pagar el presupuesto). Antes de operar, identifica qué pide exactamente el enunciado y qué datos lo responden.",
+   "revisado": true
   },
   {
    "id": "Q041",
@@ -2152,25 +2182,28 @@
    "opciones": [
     {
      "l": "A",
-     "t": "dos turnos, porque con 24 equipos disponibles un solo turno deja a 12 estudiantes sin computador.",
-     "j": "Es correcta. Funcionan 30 − 6 = 24 equipos; 36 estudiantes requieren dos turnos (24 y 12)."
+     "t": "dos turnos, porque con 24 equipos disponibles un solo turno deja a 12 estudiantes sin equipo.",
+     "j": "Es correcta. Funcionan 30 − 6 = 24 equipos. Con 36 estudiantes, en un primer turno se atienden 24 y quedan 12, que se atienden en un segundo turno. Así cada estudiante tiene su propio computador, como exige el enunciado."
     },
     {
      "l": "B",
-     "t": "un turno, porque si los estudiantes trabajan en parejas en 18 computadores todos quedan atendidos.",
-     "j": "Es incorrecta. El enunciado exige un computador por estudiante."
+     "t": "un turno, porque si trabajan en parejas en 18 computadores todos los estudiantes quedan atendidos.",
+     "j": "Es incorrecta. Trabajar en parejas puede ser una buena estrategia pedagógica, pero el enunciado exige un computador por estudiante. La opción cambia la condición del problema en lugar de resolverlo."
     },
     {
      "l": "C",
      "t": "tres turnos, porque los 36 estudiantes deben repartirse por igual entre 12 equipos por turno.",
-     "j": "Es incorrecta. Hay 24 equipos disponibles, no 12."
+     "j": "Es incorrecta. Supone que solo hay 12 equipos disponibles, cuando en realidad funcionan 24. Con tres turnos la sala quedaría subutilizada y la docente perdería tiempo de clase sin necesidad."
     }
    ],
    "clave": "A",
    "fuente": "ICFES, Módulo de Razonamiento Cuantitativo.",
    "consejo": "Lee la condición exacta del enunciado (un computador por estudiante).",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 2,
+   "explicacion": "La pregunta evalúa si se interpreta bien la situación antes de operar. El primer dato clave es que el 20 % de los 30 equipos está fuera de servicio, es decir, 6; quedan 24 disponibles. El segundo es la condición del enunciado: un computador por estudiante. Con 36 estudiantes y 24 equipos, un turno no alcanza y dos sí (24 + 12). La opción de trabajar en parejas es atractiva porque es una práctica común en el aula, pero desconoce la condición explícita. Subraya siempre las condiciones del enunciado: son las que eliminan las opciones razonables pero incorrectas.",
+   "revisado": true
   },
   {
    "id": "Q042",
@@ -2210,25 +2243,28 @@
    "opciones": [
     {
      "l": "A",
-     "t": "acepta la propuesta, ya que el documento es público y su contenido puede ajustarse en una versión posterior.",
-     "j": "Es incorrecta. Que un documento sea público no autoriza a presentarlo como propio."
+     "t": "propone usarlo como referente, citarlo y adaptarlo al PEI y a las características de sus estudiantes.",
+     "j": "Es correcta. Reconoce la autoría del documento al citarlo y, al adaptarlo al PEI y a las características de los estudiantes, construye una propuesta pertinente para el contexto propio. Aprovecha la experiencia de otros sin presentarla como suya."
     },
     {
      "l": "B",
-     "t": "propone usar ese documento como referente, citarlo y adaptarlo al PEI y a las características de los estudiantes de la institución.",
-     "j": "Es correcta. Reconoce la autoría y construye una propuesta pertinente para el contexto propio."
+     "t": "acepta la propuesta, porque el documento es público y puede ajustarse en una versión posterior.",
+     "j": "Es incorrecta. Que un documento sea público no autoriza a presentarlo como propio. Copiarlo textualmente sin citar vulnera la honestidad profesional y, además, produce lineamientos que no responden a la realidad de la institución."
     },
     {
      "l": "C",
-     "t": "se niega a revisar documentos de otras instituciones para garantizar que la propuesta sea completamente original.",
-     "j": "Es incorrecta. Rechazar los referentes desperdicia experiencias valiosas; el problema no es consultarlos, sino copiarlos sin citar."
+     "t": "se niega a revisar documentos de otras instituciones para que la propuesta sea del todo original.",
+     "j": "Es incorrecta. Rechazar todos los referentes desperdicia experiencias valiosas y retrasa la entrega. El problema ético no está en consultar documentos de otras instituciones, sino en copiarlos sin reconocer su autoría ni adaptarlos."
     }
    ],
-   "clave": "B",
+   "clave": "A",
    "fuente": "Anexo Técnico 2026, numeral 2.1 (valoración de competencias blandas: ética).",
    "consejo": "Lo ético está entre los extremos: usar referentes, citarlos y adaptarlos.",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 2,
+   "explicacion": "En los casos de competencias comportamentales, la respuesta ética suele estar entre dos extremos. Uno es copiar para cumplir el plazo, que sacrifica la honestidad y la pertinencia; el otro es rechazar cualquier referente, que sacrifica la eficacia y el aprendizaje colectivo. La actuación esperada de un docente es consultar las experiencias de otras instituciones, reconocer su autoría y adaptarlas al Proyecto Educativo Institucional y a las características de sus estudiantes. Así cumple el plazo sin faltar a la ética. Cuando una opción resuelve el problema práctico a costa de un principio, desconfía de ella.",
+   "revisado": true
   },
   {
    "id": "Q044",
@@ -2239,25 +2275,28 @@
    "opciones": [
     {
      "l": "A",
-     "t": "distribuir responsabilidades según las fortalezas de cada uno, con acuerdos y fechas de revisión conocidos por todos.",
-     "j": "Es correcta. Organiza el trabajo, compromete a cada integrante y permite el seguimiento."
+     "t": "informar al coordinador sobre la falta de compromiso de los docentes para que tome medidas.",
+     "j": "Es incorrecta. Escala el problema a una instancia superior antes de intentar organizar al equipo. Informar al coordinador puede ser necesario si persiste la falta de compromiso, pero no es el primer paso de quien lidera el área."
     },
     {
      "l": "B",
-     "t": "informar al coordinador sobre su falta de compromiso para que tome las medidas correspondientes.",
-     "j": "Es incorrecta. Escala el problema antes de intentar organizar al equipo."
+     "t": "distribuir responsabilidades según las fortalezas de cada uno, con acuerdos y fechas de revisión.",
+     "j": "Es correcta. Organiza el trabajo a partir de las fortalezas de cada integrante, compromete a todos con tareas concretas y permite hacer seguimiento con fechas de revisión conocidas. Es la forma de liderar que promueve la participación real."
     },
     {
      "l": "C",
-     "t": "asumir ella misma la redacción completa del documento para asegurar que se entregue a tiempo.",
-     "j": "Es incorrecta. Cumple con el plazo, pero renuncia al trabajo en equipo."
+     "t": "asumir ella misma la redacción completa del documento para asegurar la entrega a tiempo.",
+     "j": "Es incorrecta. Garantiza la entrega en el plazo, pero renuncia al trabajo en equipo y sobrecarga a la líder. Los demás docentes no se comprometen con unos lineamientos que no ayudaron a construir."
     }
    ],
-   "clave": "A",
+   "clave": "B",
    "fuente": "Anexo Técnico 2026, numeral 2.1 (trabajo en equipo); Res. 3842 de 2022.",
    "consejo": "Liderar un equipo = roles + acuerdos + seguimiento.",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 2,
+   "explicacion": "En los casos de trabajo en equipo, la CNSC valora la respuesta que organiza y compromete al grupo antes de escalar el problema o de asumirlo de forma individual. Distribuir responsabilidades según las fortalezas, con acuerdos y fechas de revisión, combina tres elementos del liderazgo de un equipo: roles claros, compromisos compartidos y seguimiento. Informar al coordinador o redactar sola el documento son salidas comprensibles, pero no resuelven la falta de participación, que es lo que pregunta el enunciado. Fíjate en el verbo del enunciado, lograr la participación, y descarta las opciones que logran otra cosa, como cumplir el plazo.",
+   "revisado": true
   },
   {
    "id": "Q045",
@@ -2268,25 +2307,34 @@
    "opciones": [
     {
      "l": "A",
-     "t": "publicarlos en la página institucional una vez aprobados, para que todos los conozcan y los cumplan.",
-     "j": "Es incorrecta. Divulgar no es lo mismo que participar."
+     "t": "publicarlos en la página institucional una vez aprobados, para que todos los conozcan y cumplan.",
+     "j": "Es incorrecta. Divulgar los lineamientos después de aprobados no es lo mismo que construirlos con la comunidad. Informar es útil, pero la legitimidad que pide el enunciado viene de la participación previa de quienes se verán afectados."
     },
     {
      "l": "B",
-     "t": "abrir espacios de consulta con estudiantes y padres antes de presentar la propuesta a las instancias del gobierno escolar.",
-     "j": "Es correcta. La comunidad educativa participa en el diseño, ejecución y evaluación del PEI (Ley 115, art. 6), y luego el gobierno escolar formaliza la decisión."
+     "t": "someterlos a votación solo entre los docentes del área, porque son quienes mejor conocen el tema.",
+     "j": "Es incorrecta. Excluye a los estudiantes y a las familias, que son los más afectados por los lineamientos y hacen parte de la comunidad educativa. Que los docentes conozcan el tema no los convierte en los únicos que deben decidir."
     },
     {
      "l": "C",
-     "t": "someterlos a votación únicamente entre los docentes del área, porque son quienes conocen el tema.",
-     "j": "Es incorrecta. Excluye a los estudiantes y a las familias, a quienes afectan directamente los lineamientos."
+     "t": "consultar a estudiantes y familias antes de llevar la propuesta a las instancias del gobierno escolar.",
+     "j": "Es correcta. La comunidad educativa participa, según su competencia, en el diseño, la ejecución y la evaluación del Proyecto Educativo Institucional. Consultar antes y luego llevar la propuesta al gobierno escolar une participación y decisión formal."
     }
    ],
-   "clave": "B",
+   "clave": "C",
    "fuente": "Ley 115 de 1994, arts. 6 y 142; Anexo Técnico 2026, numeral 2.1 (ciudadanía).",
    "consejo": "Participar = antes de decidir; divulgar = después.",
    "tipo": "caso",
-   "citas": []
+   "citas": [
+    {
+     "doc": "ley_115_1994",
+     "texto": "Todos ellos, según su competencia, participarán en el diseño, ejecución y evaluación del Proyecto Educativo Institucional y en la buena marcha del respectivo establecimiento educativo.",
+     "ubicacion": "Ley 115 de 1994, art. 6"
+    }
+   ],
+   "dificultad": 3,
+   "explicacion": "La legitimidad de una norma institucional depende de que quienes deben cumplirla hayan participado en su construcción. El artículo 6 de la Ley 115 de 1994 dice que estudiantes, educadores, padres de familia y demás miembros de la comunidad educativa, «según su competencia, participarán en el diseño, ejecución y evaluación del Proyecto Educativo Institucional». La opción correcta combina dos pasos en orden: consulta previa y luego decisión del gobierno escolar. Publicar después solo informa, y decidir entre docentes excluye a los afectados. Es de nivel 3 porque dos opciones parecen razonables. Recuerda: participar es antes de decidir; divulgar es después.",
+   "revisado": true
   },
   {
    "id": "Q046",

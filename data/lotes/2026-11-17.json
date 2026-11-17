@@ -1,0 +1,894 @@
+{
+ "id": "2026-11-17",
+ "fecha": "2026-11-17",
+ "casos": [
+  {
+   "id": "C120",
+   "titulo": "¿Quién crea el comité municipal?",
+   "texto": "En la reunión de área de una institución oficial de Yopal, un docente comenta que el comité municipal de convivencia escolar todavía no se ha reunido y propone que los rectores de la ciudad lo conformen por su cuenta. La docente de Tecnología e Informática revisa el Decreto 1965 de 2013 para aclarar a quién le corresponde constituir ese comité."
+  },
+  {
+   "id": "C121",
+   "titulo": "La plantilla digital de actas",
+   "texto": "El comité escolar de convivencia de una institución oficial de Yopal pide a la docente de Tecnología e Informática diseñar con estudiantes de once una plantilla digital de acta. El comité acuerda tomar como referente el artículo 10 del Decreto 1965 de 2013, que regula las actas del Comité Nacional de Convivencia Escolar, incluido su parágrafo. El primer borrador trae: lugar, fecha y hora; los nombres de los asistentes; los medios usados para citar a los miembros; la síntesis de los temas, acciones, recomendaciones y sentido de las votaciones, y la firma del presidente y del secretario técnico una vez aprobada."
+  },
+  {
+   "id": "C122",
+   "titulo": "Lineamientos del Comité Nacional",
+   "texto": "En un taller de inducción para docentes nuevos en Yopal, el facilitador pregunta en qué se apoya el Comité Nacional de Convivencia Escolar para emitir lineamientos sobre formación para la ciudadanía y prevención de la violencia escolar. Una docente de Tecnología e Informática, que trabaja el tema de bases de datos con sus estudiantes, quiere responder con precisión."
+  },
+  {
+   "id": "C123",
+   "titulo": "¿Tecnología solo en el área?",
+   "texto": "En la revisión del plan de estudios de una institución oficial rural de Yopal, el consejo académico propone que todo lo relacionado con tecnología quede a cargo exclusivo del área de Tecnología e Informática, para «no repetir contenidos». La docente del área presenta una contrapropuesta apoyada en las sugerencias de la Guía 30 para trabajar las orientaciones en las instituciones."
+  },
+  {
+   "id": "C124",
+   "titulo": "La unidad de máquinas simples",
+   "texto": "Un docente de grado séptimo planea la unidad «Máquinas simples» así: dictado de definiciones, copia de los dibujos del tablero y una evaluación escrita de conceptos. La docente de Tecnología e Informática, que acompaña la planeación, le sugiere ajustar la unidad con base en las sugerencias de la Guía 30."
+  },
+  {
+   "id": "C125",
+   "titulo": "La planta de tratamiento",
+   "texto": "En Yopal se discute la construcción de una planta de tratamiento de aguas residuales cerca de un barrio. La docente de Tecnología e Informática de grado décimo quiere aprovechar la situación para trabajar los desempeños de décimo a undécimo del componente de tecnología y sociedad de la Guía 30."
+  },
+  {
+   "id": "C126",
+   "titulo": "El riego automatizado",
+   "texto": "La docente de Tecnología e Informática de una institución oficial de Yopal redacta la justificación del proyecto de grado once «Prototipo de riego automatizado para pequeños productores». En él, los estudiantes investigan cómo riegan hoy las fincas de la región, crean un prototipo y adaptan tecnología existente a las condiciones locales. El consejo académico le pide relacionar el proyecto con uno de los fines de la educación del artículo 5 de la Ley 115 de 1994."
+  },
+  {
+   "id": "C127",
+   "titulo": "«Sin ningún límite»",
+   "texto": "En una reunión de padres, una madre afirma que, según la Ley General de Educación, la escuela debe dejar que cada estudiante desarrolle su personalidad «sin ningún límite». La docente lee en voz alta el numeral 1 del artículo 5 de la Ley 115 de 1994: «El pleno desarrollo de la personalidad sin más limitaciones que las que le imponen los derechos de los demás y el orden jurídico, dentro de un proceso de formación integral, física, psíquica, intelectual, moral, espiritual, social, afectiva, ética, cívica y demás valores humanos»."
+  },
+  {
+   "id": "C128",
+   "titulo": "La consulta sobre celulares",
+   "texto": "Los estudiantes de noveno, con la docente de Tecnología e Informática, diseñan un formulario digital para que todos los estudiantes opinen sobre el uso de los celulares en el colegio antes de que se ajuste el manual de convivencia. Un docente opina que es una pérdida de tiempo, porque la decisión «es de los adultos»."
+  },
+  {
+   "id": "C129",
+   "titulo": "El agua de la vereda",
+   "texto": "En la vereda de una sede rural de Yopal, el agua lluvia se pierde y en verano faltan reservas. La docente de Tecnología e Informática propone a los estudiantes de décimo analizar críticamente las soluciones que ya existen, comparar datos de consumo y proponer alternativas para recoger y almacenar agua, que luego presentarán a la junta de acción comunal. Al escribir el proyecto, quiere nombrar el fin de la educación que expresa mejor las tres acciones: analizar críticamente, buscar alternativas de solución y aportar al mejoramiento de la calidad de vida de la población."
+  },
+  {
+   "id": "C130",
+   "titulo": "«Que conozcan los últimos avances»",
+   "texto": "Un docente de Tecnología e Informática de Yopal escribe en el plan de área que el propósito de la asignatura es «que los estudiantes conozcan los últimos avances tecnológicos y aprendan a usarlos». Al revisarlo con la carta de presentación de las Orientaciones Curriculares de 2022, la coordinadora le pide ampliar ese propósito."
+  },
+  {
+   "id": "C131",
+   "titulo": "El plan de área de ofimática",
+   "texto": "El plan de área de Tecnología e Informática de una institución de Yopal no se actualiza desde hace años: en todos los grados, sus contenidos son procesador de texto, hoja de cálculo, presentaciones e internet. El rector pide a la docente revisarlo a la luz de las Orientaciones Curriculares de 2022 y explicar al consejo académico por qué el Ministerio decidió actualizar las orientaciones del área."
+  },
+  {
+   "id": "C132",
+   "titulo": "La docente de apoyo",
+   "texto": "La secretaría de educación asignó una docente de apoyo pedagógico a una institución oficial de Yopal. El docente de Tecnología e Informática de séptimo, que tiene en su grupo a un estudiante con discapacidad intelectual, espera que la docente de apoyo saque al estudiante en sus horas de clase para enseñarle «lo que él no alcanza» y que le entregue el PIAR ya terminado."
+  },
+  {
+   "id": "C133",
+   "titulo": "El colegio privado",
+   "texto": "Una familia de Yopal matricula a su hija, que tiene discapacidad auditiva, en un colegio privado. La rectora le dice que el colegio no puede hacer ajustes para ella porque «no recibe recursos del Sistema General de Participaciones» y le sugiere buscar cupo en una institución oficial. La familia consulta a una docente oficial de Tecnología e Informática, vecina suya."
+  },
+  {
+   "id": "C134",
+   "titulo": "El reporte en el Simat",
+   "texto": "Al iniciar el año, el rector de una institución oficial de Yopal pide a los directores de grupo verificar que los estudiantes con discapacidad estén correctamente reportados en el Simat. Un docente comenta que «eso es solo un trámite que no cambia nada para los estudiantes»."
+  },
+  {
+   "id": "C135",
+   "titulo": "Guías en braille",
+   "texto": "Un estudiante ciego ingresa a sexto en una sede oficial rural de Yopal. La docente de Tecnología e Informática necesita material didáctico en braille y en relieve para las guías del área y pregunta con qué entidad del orden nacional coordina el Ministerio de Educación la producción y distribución de ese material."
+  },
+  {
+   "id": "C136",
+   "titulo": "«Eso ya es tecnología»",
+   "texto": "En la jornada de planeación, el docente de Ciencias Sociales de una institución de Yopal propone que su grupo de octavo no tenga clase de Tecnología e Informática, porque él ya usa el aula virtual, el correo y las presentaciones digitales en todas sus clases y, según él, «eso ya es tecnología». La docente del área le responde con base en las Orientaciones Curriculares de 2022."
+  }
+ ],
+ "fichas": [
+  {
+   "id": "F30",
+   "familia": "DIS-DATOS",
+   "titulo": "La carta de presentación de las Orientaciones Curriculares (MEN, 2022)",
+   "lectura": "Las Orientaciones Curriculares para el área de Tecnología e Informática (MEN, 2022) abren con una carta en la que el Ministerio explica por qué las actualizó. El propósito es seguir poniendo a niños, niñas, adolescentes y jóvenes en el centro de la gestión escolar y ofrecer orientaciones que redimensionen, entre otros, los conceptos de tecnología, informática y TIC. Además, proponen nuevos elementos para enriquecer los referentes de la organización curricular, las estrategias didácticas, el diseño de actividades tecnológicas escolares, los ambientes de aprendizaje y la evaluación del área, desde la educación inicial hasta la media. La carta señala que el área permite comprender la naturaleza, la evolución y las implicaciones ético-políticas de la tecnología y la informática en la vida diaria, y resolver problemas tecnológicos asociados a la calidad de vida, con un enfoque de sostenibilidad. Finalmente, aclara que el documento es fruto de una construcción colectiva con actores de diferentes regiones del país.",
+   "puntos": [
+    "Las Orientaciones redimensionan tres conceptos: tecnología, informática y TIC.",
+    "Proponen nuevos elementos para cinco referentes: organización curricular, estrategias didácticas, actividades tecnológicas escolares, ambientes de aprendizaje y evaluación.",
+    "El área busca comprender la naturaleza, la evolución y las implicaciones ético-políticas de la tecnología y la informática, no solo usar aparatos.",
+    "Trampa CNSC: creer que las Orientaciones de 2022 imponen un plan de estudios único u ofimático; son referentes que cada institución adapta."
+   ],
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "unas orientaciones curriculares actualizadas que redimensionen entre otros, los conceptos de tecnología, informática y las tecnologías de la información y las comunicaciones -TIC-",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Presentación"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "proponiendo también nuevos elementos para enriquecer los referentes para la organización curricular, las estrategias didácticas para la enseñanza, el diseño de actividades tecnológicas escolares, los ambientes de aprendizaje y la evaluación en el área",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Presentación"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Estas orientaciones curriculares son resultantes de un ejercicio de construcción colectiva con representación de actores estratégicos del contexto educativo de diferentes regiones del país",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Presentación"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "Q179",
+   "tipo": "caso",
+   "caso": "C120",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "enunciado": "Según el artículo 13 del Decreto 1965 de 2013, la constitución de los comités municipales de convivencia escolar es responsabilidad de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "los consejos territoriales de Política Social, en el plazo que fijó el mismo decreto.",
+     "j": "Es correcta. El artículo 13 asigna esa tarea a los consejos territoriales de Política Social, creados por el Decreto 1137 de 1999, que debían constituir los comités municipales, distritales y departamentales en un plazo no mayor a seis meses."
+    },
+    {
+     "l": "B",
+     "t": "los comités escolares de convivencia, que eligen a sus delegados ante el municipio.",
+     "j": "Es incorrecta. Los comités escolares funcionan en cada establecimiento educativo y hacen parte del nivel escolar del sistema. No les corresponde constituir el comité del nivel territorial; esa responsabilidad la asigna el decreto a otra instancia."
+    },
+    {
+     "l": "C",
+     "t": "las secretarías de educación certificadas, que los conforman con los rectores oficiales.",
+     "j": "Es incorrecta. Suena lógico porque la secretaría administra el servicio educativo, pero el artículo 13 no le asigna la constitución de los comités territoriales. Tampoco los rectores pueden conformarlo por su cuenta, como propone el docente del caso."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El caso pregunta por una competencia específica: quién constituye los comités municipales de convivencia escolar. El artículo 13 del Decreto 1965 de 2013 responde de forma directa: «Será responsabilidad de los consejos territoriales de Política Social […] constituir los comités municipales, distritales y departamentales de convivencia escolar». Por eso ni los rectores ni los comités escolares pueden crear ese comité por iniciativa propia. Los distractores nombran instancias reales del sistema, pero de otro nivel o con otra función. Recuerda la lógica CNSC: cada instancia actúa dentro de su nivel (nacional, territorial o escolar) y según lo que la norma le asigna.",
+   "fuente": "Decreto 1965 de 2013, art. 13.",
+   "consejo": "Comité municipal → lo constituye el consejo territorial de Política Social, no los rectores ni la secretaría.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Será responsabilidad de los consejos territoriales de Política Social, creados mediante el Decreto 1137 de 1999, en un plazo no mayor a seis (6) meses, contados a partir de la publicación del presente Decreto, constituir los comités municipales, distritales y departamentales de convivencia escolar.",
+     "ubicacion": "Decreto 1965 de 2013, art. 13"
+    }
+   ],
+   "competencia": "Sistema Nacional de Convivencia Escolar"
+  },
+  {
+   "id": "Q180",
+   "tipo": "caso",
+   "caso": "C121",
+   "familia": "NOR-SIST",
+   "dificultad": 3,
+   "enunciado": "Al comparar el borrador con el contenido mínimo del artículo 10 del Decreto 1965 de 2013, a la plantilla le falta",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "precisar la entidad o sector de cada asistente y dejar constancia de la verificación del quórum.",
+     "j": "Es correcta. El numeral 2 del artículo 10 pide el registro de los miembros que asistieron, «precisando en cada caso la entidad o sector que representan y verificación del quórum». El borrador solo trae los nombres, así que le faltan esos dos datos."
+    },
+    {
+     "l": "B",
+     "t": "registrar el número de documento de cada asistente y la hora exacta en que se retiró de la sesión.",
+     "j": "Es incorrecta. Parece un control riguroso de asistencia, pero el artículo 10 no pide números de documento ni horas de salida. La norma exige la entidad o sector que representa cada miembro y la verificación del quórum."
+    },
+    {
+     "l": "C",
+     "t": "incluir la firma de cada uno de los asistentes, además de la del presidente y la del secretario técnico.",
+     "j": "Es incorrecta. El numeral 5 exige solo la firma del presidente y del secretario técnico, una vez el acta sea aprobada por los asistentes. Pedir la firma de todos agrega un requisito que la norma no establece y que el borrador ya cumple como se debe."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Es un caso de nivel 3 porque exige comparar, uno por uno, los elementos del borrador con los cinco numerales del artículo 10. El borrador ya tiene lugar, fecha y hora (numeral 1), los medios de citación (numeral 3), la síntesis con acciones y votaciones (numeral 4) y las firmas del presidente y del secretario técnico (numeral 5). Lo que falta está en el numeral 2: el registro de los asistentes debe precisar «la entidad o sector que representan y verificación del quórum». Los distractores proponen controles que suenan rigurosos, pero que la norma no pide. Al revisar una lista de requisitos, contrasta numeral por numeral y no agregues lo que la norma no dice.",
+   "fuente": "Decreto 1965 de 2013, art. 10, numerales 1 a 5.",
+   "consejo": "Acta: lugar y fecha · asistentes con entidad o sector y quórum · medios de citación · síntesis y votaciones · firmas del presidente y del secretario.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Registro de los miembros del Comité que asistieron a la sesión, precisando en cada caso la entidad o sector que representan y verificación del quórum.",
+     "ubicacion": "Decreto 1965 de 2013, art. 10, num. 2"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Firma del Presidente del Comité y del Secretario Técnico, una vez haya sido aprobada por los asistentes.",
+     "ubicacion": "Decreto 1965 de 2013, art. 10, num. 5"
+    }
+   ],
+   "competencia": "Sistema Nacional de Convivencia Escolar"
+  },
+  {
+   "id": "Q181",
+   "tipo": "caso",
+   "caso": "C121",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 2,
+   "enunciado": "Al terminar la plantilla, un estudiante propone publicar las actas completas en el blog institucional, con los nombres de los estudiantes cuyos casos se trataron, «para que haya transparencia». Con base en el parágrafo del artículo 10 que el comité adoptó como referente, la orientación de la docente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "publicar las actas completas, porque la transparencia de los órganos escolares prima sobre otros derechos.",
+     "j": "Es incorrecta. La transparencia es un valor importante, pero el parágrafo no la pone por encima de la intimidad. Al contrario, ordena garantizar la confidencialidad de los datos personales que se tratan en las actuaciones del comité."
+    },
+    {
+     "l": "B",
+     "t": "publicar las actas completas solo después de que el presidente y el secretario técnico las hayan firmado.",
+     "j": "Es incorrecta. Confunde el requisito de validez del acta con la posibilidad de divulgarla. La firma del presidente y del secretario técnico perfecciona el acta, pero no autoriza a publicar datos personales de los estudiantes."
+    },
+    {
+     "l": "C",
+     "t": "proteger la intimidad y la confidencialidad de los datos personales de los estudiantes del caso.",
+     "j": "Es correcta. El parágrafo exige garantizar el derecho a la intimidad y a la confidencialidad de los datos personales tratados en las actuaciones, conforme a la Ley 1098 de 2006 y a la Ley Estatutaria 1581 de 2012, entre otras normas."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El parágrafo del artículo 10 del Decreto 1965 de 2013 ordena «garantizar el derecho a la intimidad y a la confidencialidad de los datos personales que sean tratados en el marco de las actuaciones», conforme a la Constitución, la Ley 1098 de 2006 (Código de la Infancia y la Adolescencia) y la Ley Estatutaria 1581 de 2012 de protección de datos. Publicar en un blog los nombres de los estudiantes cuyos casos se analizaron viola ese mandato, aunque la intención sea la transparencia. La lógica CNSC en convivencia es constante: proteger la identidad y la intimidad del estudiante. Es una buena oportunidad para enseñar ciudadanía digital desde el área.",
+   "fuente": "Decreto 1965 de 2013, art. 10, parágrafo.",
+   "consejo": "Convivencia + datos de estudiantes → intimidad y confidencialidad, siempre.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "deberá garantizar el derecho a la intimidad y a la confidencialidad de los datos personales que sean tratados en el marco de las actuaciones que éste adelante",
+     "ubicacion": "Decreto 1965 de 2013, art. 10, parágrafo"
+    }
+   ],
+   "competencia": "Derechos de niños, niñas y adolescentes"
+  },
+  {
+   "id": "Q182",
+   "tipo": "caso",
+   "caso": "C122",
+   "familia": "NOR-SIST",
+   "dificultad": 1,
+   "enunciado": "Según el artículo 11 del Decreto 1965 de 2013, el Comité Nacional emite esos lineamientos a partir de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "los conceptos que le remiten los comités escolares de convivencia de cada institución.",
+     "j": "Es incorrecta. Los comités escolares actúan en cada establecimiento y no son la base que el artículo 11 señala para los lineamientos nacionales. La norma habla de estadísticas e indicadores de un sistema de información y de otras fuentes pertinentes."
+    },
+    {
+     "l": "B",
+     "t": "las estadísticas e indicadores del Sistema de Información Unificado y de otras fuentes.",
+     "j": "Es correcta. El artículo 11 dice que el Comité Nacional emite los lineamientos «a partir de las estadísticas e indicadores que arroje el Sistema de Información Unificado de Convivencia Escolar y otras fuentes de información que se consideren pertinentes»."
+    },
+    {
+     "l": "C",
+     "t": "los informes anuales que le entregan las secretarías de educación de las entidades certificadas.",
+     "j": "Es incorrecta. Los informes de las secretarías podrían ser una fuente más, pero el artículo 11 nombra expresamente como base las estadísticas e indicadores del Sistema de Información Unificado de Convivencia Escolar."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Pregunta de nivel 1: reconocer el dato. El artículo 11 del Decreto 1965 de 2013 establece que el Comité Nacional armoniza políticas y emite lineamientos sobre formación para la ciudadanía, derechos humanos, sexuales y reproductivos, y prevención de la violencia escolar y del embarazo adolescente, «a partir de las estadísticas e indicadores que arroje el Sistema de Información Unificado de Convivencia Escolar y otras fuentes de información». Para una docente de Tecnología e Informática este punto es valioso: muestra que los datos bien registrados sirven para tomar decisiones de política. Recuerda la relación entre registro, sistema de información y lineamientos.",
+   "fuente": "Decreto 1965 de 2013, art. 11.",
+   "consejo": "Lineamientos nacionales ← estadísticas e indicadores del Sistema de Información Unificado.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Lo anterior a partir de las estadísticas e indicadores que arroje el Sistema de Información Unificado de Convivencia Escolar y otras fuentes de información que se consideren pertinentes.",
+     "ubicacion": "Decreto 1965 de 2013, art. 11"
+    }
+   ],
+   "competencia": "Sistema Nacional de Convivencia Escolar"
+  },
+  {
+   "id": "Q183",
+   "tipo": "caso",
+   "caso": "C123",
+   "familia": "PED-CURR",
+   "dificultad": 2,
+   "enunciado": "La contrapropuesta coherente con la Guía 30 plantea que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la tecnología se trabaje solo en el área, con más horas en la sala de sistemas para usar los equipos.",
+     "j": "Es incorrecta. Mantiene la idea de exclusividad que la Guía 30 cuestiona y además reduce la tecnología al uso de equipos. La guía la presenta como campo transversal y advierte que los computadores no son sinónimo de educación en tecnología."
+    },
+    {
+     "l": "B",
+     "t": "la tecnología se trabaje en el área como campo propio y en proyectos transversales con otras áreas.",
+     "j": "Es correcta. La Guía 30 dice que la educación en tecnología es interdisciplinaria y que se facilita su desarrollo como campo de conocimiento transversal en todas las áreas, y sugiere proyectos transversales. El área conserva su campo propio."
+    },
+    {
+     "l": "C",
+     "t": "la tecnología se trabaje en las demás áreas y que el área conserve solo la enseñanza de la informática.",
+     "j": "Es incorrecta. Reconoce la transversalidad, pero vacía el área de su objeto: la Guía 30 propone que la tecnología se apropie en todas las áreas, no que el área de Tecnología renuncie a ella y se limite a la informática."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La Guía 30 sugiere a las instituciones entender que «la educación en tecnología es interdisciplinaria y, en consecuencia, se facilita su desarrollo y apropiación como campo de conocimiento transversal en todas las áreas básicas y fundamentales». Entre sus pistas para maestros incluye los «proyectos transversales en todas las áreas». Por eso la propuesta de exclusividad del consejo académico no es coherente con la guía. Pero la transversalidad tampoco elimina el área: la tecnología sigue siendo su campo propio. Las dos opciones incorrectas caen en un extremo: encerrar la tecnología en el área o vaciar el área. La CNSC premia la opción que integra.",
+   "fuente": "Guía 30 MEN (2008), Sugerencias para trabajar estas orientaciones en las instituciones.",
+   "consejo": "Tecnología = área propia + eje transversal. Ni exclusiva ni diluida.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "La educación en tecnología es interdisciplinaria y, en consecuencia, se facilita su desarrollo y apropiación como campo de conocimiento transversal en todas las áreas básicas y fundamentales de la educación.",
+     "ubicacion": "Guía 30, Sugerencias para trabajar estas orientaciones"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Proyectos transversales en todas las áreas.",
+     "ubicacion": "Guía 30, Pistas para maestros exploradores e innovadores"
+    }
+   ],
+   "competencia": "Currículo, plan de área y transversalidad"
+  },
+  {
+   "id": "Q184",
+   "tipo": "caso",
+   "caso": "C124",
+   "familia": "DIS-DIDAC",
+   "dificultad": 2,
+   "enunciado": "El ajuste más coherente con la Guía 30 para esta unidad es que los estudiantes",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "vean un video sobre máquinas simples y luego respondan un cuestionario interactivo en el computador.",
+     "j": "Es incorrecta. Cambia el formato, pero no la lógica de la unidad: los estudiantes siguen recibiendo información y respondiendo preguntas. Usar un computador no convierte la actividad en educación en tecnología si no hay diseño, construcción ni prueba."
+    },
+    {
+     "l": "B",
+     "t": "consulten las definiciones en internet y preparen una presentación digital para exponerlas al grupo.",
+     "j": "Es incorrecta. Es una actividad de consulta y exposición que puede apoyar el aprendizaje, pero sigue centrada en las definiciones. No incluye las acciones propias de la tecnología, como explorar, construir, probar o reparar un artefacto."
+    },
+    {
+     "l": "C",
+     "t": "exploren palancas de su entorno, construyan y prueben un modelo, y evalúen y corrijan sus fallas.",
+     "j": "Es correcta. Incorpora las acciones que la Guía 30 considera propias de la educación en tecnología: explorar, construir, probar, reparar y evaluar. Además, parte del entorno de los estudiantes, como sugiere la guía con la exploración en la práctica cotidiana."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La Guía 30 afirma que «la educación en tecnología conlleva la realización de acciones propias de su naturaleza, como diseñar, explorar, identificar problemas, construir, modelar, probar, reparar y evaluar». La unidad original se queda en el dictado y la memoria, y los dos distractores solo la trasladan a un formato digital: video, cuestionario o presentación. La trampa típica de la CNSC es creer que usar el computador basta para enseñar tecnología. La opción correcta pone a los estudiantes a hacer lo que hace la tecnología: explorar artefactos reales, construir y probar un modelo, y mejorar a partir de las fallas. Pregúntate siempre qué hacen los estudiantes, no qué aparato usan.",
+   "fuente": "Guía 30 MEN (2008), Sugerencias para trabajar estas orientaciones en las instituciones.",
+   "consejo": "Educación en tecnología = diseñar, explorar, construir, modelar, probar, reparar y evaluar. El aparato no basta.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "La educación en tecnología conlleva la realización de acciones propias de su naturaleza, como diseñar, explorar, identificar problemas, construir, modelar, probar, reparar y evaluar, entre otras.",
+     "ubicacion": "Guía 30, Sugerencias para trabajar estas orientaciones"
+    }
+   ],
+   "competencia": "Didáctica del área"
+  },
+  {
+   "id": "Q185",
+   "tipo": "caso",
+   "caso": "C125",
+   "familia": "DIS-CTS",
+   "dificultad": 2,
+   "enunciado": "La actividad que corresponde de manera más directa a esos desempeños es que los estudiantes",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "elaboren una maqueta a escala de la planta con material reciclado y la expongan en la feria escolar.",
+     "j": "Es incorrecta. La maqueta puede servir para representar la planta, pero se centra en la forma del artefacto. No implica analizar el proyecto ni debatir con la comunidad sus impactos, que es lo que pide el desempeño de tecnología y sociedad."
+    },
+    {
+     "l": "B",
+     "t": "analicen el proyecto en desarrollo y debatan con la comunidad el impacto de su implementación.",
+     "j": "Es correcta. Corresponde de manera literal a un desempeño de décimo a undécimo de la Guía 30: «Analizo proyectos tecnológicos en desarrollo y debato en mi comunidad, el impacto de su posible implementación». Une análisis técnico y participación."
+    },
+    {
+     "l": "C",
+     "t": "consulten cómo funcionan las plantas de tratamiento y redacten un informe técnico sobre sus etapas.",
+     "j": "Es incorrecta. Estudiar el funcionamiento es útil y se relaciona con otros componentes del área, pero no aborda la relación entre la tecnología y la comunidad. Falta el debate sobre el impacto de la posible implementación."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El caso parte de una situación real del entorno, y la Guía 30 sugiere aprovechar el análisis de situaciones sociales y naturales relacionadas con la tecnología. Para décimo y undécimo, uno de los desempeños del componente de tecnología y sociedad dice: «Analizo proyectos tecnológicos en desarrollo y debato en mi comunidad, el impacto de su posible implementación». La planta es justamente un proyecto en desarrollo con efectos sobre un barrio. Las otras actividades son valiosas, pero se centran en la forma o en el funcionamiento del artefacto. Cuando el enunciado nombre un componente, busca la acción que corresponde a ese componente: en tecnología y sociedad, impactos, debate y participación.",
+   "fuente": "Guía 30 MEN (2008), desempeños de décimo a undécimo grado, componente tecnología y sociedad.",
+   "consejo": "Tecnología y sociedad → analizar impactos y debatir con la comunidad.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Analizo proyectos tecnológicos en desarrollo y debato en mi comunidad, el impacto de su posible implementación.",
+     "ubicacion": "Guía 30, décimo a undécimo grado, tecnología y sociedad"
+    }
+   ],
+   "competencia": "Tecnología y sociedad"
+  },
+  {
+   "id": "Q186",
+   "tipo": "caso",
+   "caso": "C126",
+   "familia": "PED-CURR",
+   "dificultad": 3,
+   "enunciado": "El fin de la educación que se relaciona de manera más directa con lo que hacen los estudiantes en el proyecto es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la adquisición de los conocimientos científicos y técnicos más avanzados mediante hábitos intelectuales adecuados.",
+     "j": "Es incorrecta. El fin 5 se refiere a adquirir y generar conocimientos científicos, técnicos, humanísticos y estéticos. Se relaciona con el proyecto, pero no nombra lo central del caso: crear, investigar y adaptar tecnología para el desarrollo de la región."
+    },
+    {
+     "l": "B",
+     "t": "la formación en la práctica del trabajo, mediante conocimientos técnicos y habilidades, y su valoración social.",
+     "j": "Es incorrecta. El fin 11 sería el más directo si el proyecto buscara formar en un oficio o en la práctica laboral. Aquí los estudiantes no practican un trabajo, sino que investigan, crean un prototipo y adaptan tecnología existente."
+    },
+    {
+     "l": "C",
+     "t": "la promoción de la capacidad para crear, investigar y adoptar la tecnología que requiere el desarrollo del país.",
+     "j": "Es correcta. El fin 13 habla de «la capacidad para crear, investigar, adoptar la tecnología que se requiere en los procesos de desarrollo del país», que coincide con las tres acciones del proyecto: investigar, crear un prototipo y adaptar tecnología."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es un caso de nivel 3 porque tres fines del artículo 5 de la Ley 115 se relacionan con el proyecto, y hay que elegir el más directo. La clave está en los verbos del caso: los estudiantes investigan, crean un prototipo y adaptan tecnología a las condiciones locales. El numeral 13 dice casi lo mismo: «La promoción en la persona y en la sociedad de la capacidad para crear, investigar, adoptar la tecnología que se requiere en los procesos de desarrollo del país». El fin 5 habla de adquirir conocimientos, y el 11, de formar en la práctica del trabajo. Para elegir entre opciones cercanas, compara los verbos del caso con los verbos de cada opción.",
+   "fuente": "Ley 115 de 1994, art. 5, numerales 5, 11 y 13.",
+   "consejo": "Crear, investigar y adoptar tecnología → fin 13 del art. 5 de la Ley 115.",
+   "citas": [
+    {
+     "doc": "ley_115_1994",
+     "texto": "La promoción en la persona y en la sociedad de la capacidad para crear, investigar, adoptar la tecnología que se requiere en los procesos de desarrollo del país y le permita al educando ingresar al sector productivo.",
+     "ubicacion": "Ley 115 de 1994, art. 5, num. 13"
+    }
+   ],
+   "competencia": "Currículo, plan de área y transversalidad"
+  },
+  {
+   "id": "Q187",
+   "tipo": "caso",
+   "caso": "C127",
+   "familia": "LC-INF",
+   "dificultad": 2,
+   "enunciado": "A partir del fragmento leído, se puede concluir que la afirmación de la madre",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "es correcta, porque el texto reconoce el pleno desarrollo de la personalidad como un fin de la educación.",
+     "j": "Es incorrecta. Es una verdad a medias: el texto sí nombra el pleno desarrollo de la personalidad como fin, pero en la misma oración le pone límites. Tomar solo la primera parte de la frase cambia su sentido."
+    },
+    {
+     "l": "B",
+     "t": "es incorrecta, porque el texto subordina el desarrollo de la personalidad a lo que decida la institución.",
+     "j": "Es incorrecta. Llega a la conclusión correcta por una razón falsa: el texto no menciona decisiones de la institución. Los únicos límites que nombra son los derechos de los demás y el orden jurídico."
+    },
+    {
+     "l": "C",
+     "t": "es incorrecta, porque el texto le pone dos límites: los derechos de los demás y el orden jurídico.",
+     "j": "Es correcta. La expresión «sin más limitaciones que las que le imponen los derechos de los demás y el orden jurídico» indica que sí hay límites, aunque sean solo esos dos. Por eso no es cierto que el desarrollo de la personalidad sea «sin ningún límite»."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La pregunta evalúa cómo se articulan las partes de una oración. La frase «sin más limitaciones que las que le imponen los derechos de los demás y el orden jurídico» tiene una estructura restrictiva: «sin más… que…» significa «solo con». Es decir, el desarrollo de la personalidad tiene límites, aunque únicamente esos dos. Por eso la afirmación de la madre es incorrecta. Una opción toma solo la primera parte del enunciado y otra inventa un límite que el texto no menciona. En lectura de normas, fíjate en los conectores restrictivos («salvo», «sin más… que», «siempre y cuando»): cambian por completo el alcance de la frase.",
+   "fuente": "Ley 115 de 1994, art. 5, num. 1.",
+   "consejo": "«Sin más limitaciones que…» = solo esos límites, pero sí hay límites.",
+   "citas": [
+    {
+     "doc": "ley_115_1994",
+     "texto": "El pleno desarrollo de la personalidad sin más limitaciones que las que le imponen los derechos de los demás y el orden jurídico",
+     "ubicacion": "Ley 115 de 1994, art. 5, num. 1"
+    }
+   ],
+   "competencia": "Comprender cómo se articulan las partes de un texto"
+  },
+  {
+   "id": "Q188",
+   "tipo": "caso",
+   "caso": "C128",
+   "familia": "NOR-FORMAR",
+   "dificultad": 2,
+   "enunciado": "Frente a la opinión del docente, la actividad se justifica en el artículo 5 de la Ley 115 de 1994 porque responde al fin de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la formación en el respeto a la autoridad legítima y a la ley, a la cultura nacional y a la historia.",
+     "j": "Es incorrecta. El respeto a la autoridad legítima y a la ley es un fin de la educación, pero la consulta no busca que los estudiantes acaten una decisión, sino que participen antes de que se tome. Responde a otro fin."
+    },
+    {
+     "l": "B",
+     "t": "la formación para facilitar la participación de todos en las decisiones que los afectan.",
+     "j": "Es correcta. El fin 3 del artículo 5 es «la formación para facilitar la participación de todos en las decisiones que los afectan». Los estudiantes opinan sobre una norma del manual de convivencia que los afecta directamente."
+    },
+    {
+     "l": "C",
+     "t": "el acceso al conocimiento, la ciencia, la técnica y los demás bienes y valores de la cultura.",
+     "j": "Es incorrecta. El formulario digital usa la técnica, pero el propósito de la actividad no es acceder al conocimiento, sino abrir un espacio de participación. Confunde el medio, la herramienta digital, con el fin formativo."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El numeral 3 del artículo 5 de la Ley 115 establece como fin de la educación «la formación para facilitar la participación de todos en las decisiones que los afectan en la vida económica, política, administrativa y cultural de la Nación». Consultar a los estudiantes antes de ajustar el manual de convivencia es formación para la participación, y la docente lo hace desde su área con una herramienta digital. El argumento de que la decisión «es de los adultos» desconoce ese fin. Recuerda la lógica CNSC: la herramienta es el medio; el fin formativo es lo que justifica la actividad. Formar ciudadanía también se hace desde Tecnología e Informática.",
+   "fuente": "Ley 115 de 1994, art. 5, num. 3.",
+   "consejo": "Consultar a los estudiantes sobre lo que los afecta → fin 3: participación.",
+   "citas": [
+    {
+     "doc": "ley_115_1994",
+     "texto": "La formación para facilitar la participación de todos en las decisiones que los afectan",
+     "ubicacion": "Ley 115 de 1994, art. 5, num. 3"
+    }
+   ],
+   "competencia": "Formar en ciudadanía desde el área"
+  },
+  {
+   "id": "Q189",
+   "tipo": "caso",
+   "caso": "C129",
+   "familia": "PED-CURR",
+   "dificultad": 3,
+   "enunciado": "El fin del artículo 5 de la Ley 115 de 1994 que expresa mejor las tres acciones del proyecto es el que se refiere a",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la conciencia para la conservación del medio ambiente, la calidad de la vida y el uso racional de los recursos.",
+     "j": "Es incorrecta. El fin 10 es muy atractivo porque el proyecto trata sobre el agua, pero habla de conciencia ambiental y de uso racional de los recursos. No expresa el análisis crítico ni la búsqueda de alternativas de solución que el caso destaca."
+    },
+    {
+     "l": "B",
+     "t": "la capacidad crítica, reflexiva y analítica, orientada a buscar alternativas de solución a los problemas.",
+     "j": "Es correcta. El fin 9 reúne las tres acciones: desarrollar la capacidad crítica, reflexiva y analítica, orientada al mejoramiento de la calidad de vida de la población y a la participación en la búsqueda de alternativas de solución a los problemas."
+    },
+    {
+     "l": "C",
+     "t": "la formación para facilitar la participación de todos en las decisiones que los afectan en la Nación.",
+     "j": "Es incorrecta. Presentar la propuesta a la junta de acción comunal es una forma de participación, pero el fin 3 no menciona el análisis crítico ni la búsqueda de soluciones. Expresa solo una parte del proyecto, no las tres acciones."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es un caso de nivel 3 porque el tema del proyecto, el agua, empuja hacia el fin ambiental, mientras que el enunciado pide el fin que exprese mejor tres acciones concretas. El numeral 9 del artículo 5 de la Ley 115 es el único que las reúne: «El desarrollo de la capacidad crítica, reflexiva y analítica […] orientado con prioridad al mejoramiento cultural y de la calidad de la vida de la población, a la participación en la búsqueda de alternativas de solución a los problemas». Los fines 10 y 3 se relacionan con el proyecto, pero cubren solo una parte. Lee siempre el criterio exacto del enunciado antes de elegir por el tema.",
+   "fuente": "Ley 115 de 1994, art. 5, numerales 3, 9 y 10.",
+   "consejo": "Analizar críticamente + buscar soluciones a problemas de la comunidad → fin 9.",
+   "citas": [
+    {
+     "doc": "ley_115_1994",
+     "texto": "El desarrollo de la capacidad crítica, reflexiva y analítica que fortalezca el avance científico y tecnológico nacional, orientado con prioridad al mejoramiento cultural y de la calidad de la vida de la población, a la participación en la búsqueda de alternativas de solución a los problemas",
+     "ubicacion": "Ley 115 de 1994, art. 5, num. 9"
+    }
+   ],
+   "competencia": "Currículo, plan de área y transversalidad"
+  },
+  {
+   "id": "Q190",
+   "tipo": "caso",
+   "caso": "C130",
+   "familia": "DIS-CTS",
+   "dificultad": 2,
+   "enunciado": "La ampliación del propósito coherente con la presentación de las Orientaciones Curriculares es incluir",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la certificación de los estudiantes en programas de ofimática reconocidos por las empresas de la región.",
+     "j": "Es incorrecta. Refuerza la visión del área como manejo de programas, que es justamente lo que la coordinadora pide superar. Las Orientaciones no plantean la certificación en ofimática como propósito del área de Tecnología e Informática."
+    },
+    {
+     "l": "B",
+     "t": "la comprensión de la naturaleza, la evolución y las implicaciones ético-políticas de la tecnología.",
+     "j": "Es correcta. La carta de presentación dice que el trabajo en el área permite promover la comprensión de la naturaleza, evolución e implicaciones ético-políticas de la tecnología y la informática en la vida diaria, más allá de conocerla y usarla."
+    },
+    {
+     "l": "C",
+     "t": "la renovación permanente de la sala de sistemas con los equipos más recientes que ofrezca el mercado.",
+     "j": "Es incorrecta. Habla de dotación, no del propósito formativo del área. Tener equipos recientes no garantiza que los estudiantes comprendan la tecnología; las Orientaciones ponen el acento en la comprensión crítica y en la solución de problemas."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El propósito del docente reduce el área a conocer y usar novedades tecnológicas. La carta de presentación de las Orientaciones Curriculares de 2022 dice que con el trabajo en el área «es posible promover la comprensión de la naturaleza, evolución e implicaciones ético-políticas de la tecnología y la informática en la vida diaria», además de la resolución de problemas asociados a la calidad de vida y la conservación de un mundo sostenible. Esa es la ampliación que pide la coordinadora: comprender y valorar críticamente, no solo usar. Los distractores se quedan en la ofimática o en la dotación. En la CNSC, desconfía de las opciones que confunden el área con aparatos o programas.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), Presentación.",
+   "consejo": "El área no es «usar lo último»: es comprender la naturaleza, la evolución y las implicaciones ético-políticas de la tecnología.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "es posible promover la comprensión de la naturaleza, evolución e implicaciones ético-políticas de la tecnología y la informática en la vida diaria",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Presentación"
+    }
+   ],
+   "competencia": "Naturaleza y evolución de la tecnología"
+  },
+  {
+   "id": "Q191",
+   "tipo": "caso",
+   "caso": "C131",
+   "familia": "DIS-DATOS",
+   "dificultad": 3,
+   "enunciado": "Según la carta de presentación, uno de los propósitos de la actualización que justifica revisar ese plan es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "fortalecer el manejo de las TIC como objeto central del área, para cualificar el servicio desde la educación inicial.",
+     "j": "Es incorrecta. Toma una expresión real de la carta, la cualificación del servicio desde la educación inicial, pero le agrega una idea que el documento no dice: que las TIC sean el objeto central del área. Las Orientaciones redimensionan ese concepto, no lo ponen en el centro."
+    },
+    {
+     "l": "B",
+     "t": "redimensionar los conceptos de tecnología, informática y TIC, y enriquecer los referentes de la organización curricular.",
+     "j": "Es correcta. La carta dice que el Ministerio ofrece orientaciones que «redimensionen» los conceptos de tecnología, informática y TIC, y que proponen nuevos elementos para enriquecer los referentes de la organización curricular, entre otros."
+    },
+    {
+     "l": "C",
+     "t": "actualizar las herramientas digitales que se enseñan en el área, por los cambios tecnológicos de los últimos veinte años.",
+     "j": "Es incorrecta. La carta menciona los cambios que la tecnología y la informática han producido en los últimos veinte años, pero no propone cambiar unas herramientas por otras. Un plan con programas más nuevos seguiría centrado en el manejo de herramientas."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es un caso de nivel 3 porque los distractores toman frases reales de la carta y las tuercen. El plan del caso reduce el área al manejo de programas. La carta de presentación explica que el Ministerio actualizó las orientaciones para que «redimensionen entre otros, los conceptos de tecnología, informática y las tecnologías de la información y las comunicaciones -TIC-» y para proponer nuevos elementos que enriquezcan los referentes de la organización curricular, la didáctica, las actividades tecnológicas escolares, los ambientes y la evaluación. Eso exige repensar qué se enseña, no solo actualizar programas. Cuando una opción use palabras del documento, verifica que no les agregue un sentido que el texto no tiene.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), Presentación.",
+   "consejo": "Las Orientaciones 2022 redimensionan tecnología, informática y TIC: el área no es un curso de programas.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "unas orientaciones curriculares actualizadas que redimensionen entre otros, los conceptos de tecnología, informática y las tecnologías de la información y las comunicaciones -TIC-",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Presentación"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "proponiendo también nuevos elementos para enriquecer los referentes para la organización curricular",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Presentación"
+    }
+   ],
+   "competencia": "Informática y TIC"
+  },
+  {
+   "id": "K059",
+   "tipo": "conocimiento",
+   "ficha": "F30",
+   "familia": "DIS-DATOS",
+   "dificultad": 1,
+   "enunciado": "Según la carta de presentación de las Orientaciones Curriculares de Tecnología e Informática (2022), los conceptos que estas buscan redimensionar son",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "los de ciencia, técnica y tecnología, para separar las áreas de ciencias naturales y de tecnología.",
+     "j": "Es incorrecta. La distinción entre ciencia, técnica y tecnología aparece en otros documentos del área, como la Guía 30, pero no es lo que la carta de presentación dice que se redimensiona. La carta nombra tecnología, informática y TIC."
+    },
+    {
+     "l": "B",
+     "t": "los de competencia, desempeño y evidencia, para actualizar la forma de evaluar en el área.",
+     "j": "Es incorrecta. La evaluación sí es uno de los referentes que las Orientaciones buscan enriquecer, pero los conceptos que la carta dice redimensionar son otros. La opción mezcla dos ideas distintas del mismo párrafo."
+    },
+    {
+     "l": "C",
+     "t": "los de tecnología, informática y tecnologías de la información y las comunicaciones.",
+     "j": "Es correcta. La carta dice que el Ministerio ofrece unas orientaciones actualizadas que «redimensionen entre otros, los conceptos de tecnología, informática y las tecnologías de la información y las comunicaciones -TIC-»."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Pregunta de conocimiento de nivel 1 tomada de la ficha. La carta de presentación de las Orientaciones Curriculares de 2022 explica que el Ministerio decidió ofrecer orientaciones actualizadas que «redimensionen entre otros, los conceptos de tecnología, informática y las tecnologías de la información y las comunicaciones -TIC-». Son los tres conceptos que dan nombre y contenido al área. Esta idea es la base para entender por qué las Orientaciones distinguen entre estudiar la tecnología y la informática y usar las TIC como recurso. Si dudaste, vuelve a la ficha y relee el primer párrafo de la carta.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), Presentación.",
+   "consejo": "Redimensionan tres conceptos: tecnología, informática y TIC.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "unas orientaciones curriculares actualizadas que redimensionen entre otros, los conceptos de tecnología, informática y las tecnologías de la información y las comunicaciones -TIC-",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Presentación"
+    }
+   ],
+   "competencia": "Informática y TIC"
+  },
+  {
+   "id": "K060",
+   "tipo": "conocimiento",
+   "ficha": "F30",
+   "familia": "DIS-DATOS",
+   "dificultad": 2,
+   "enunciado": "Un docente afirma que las Orientaciones Curriculares de 2022 «solo actualizan definiciones». Según la carta de presentación, además de redimensionar conceptos, las Orientaciones proponen nuevos elementos para enriquecer los referentes de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la dotación de las salas de informática, la conectividad de las sedes y el mantenimiento de los equipos.",
+     "j": "Es incorrecta. La carta no habla de dotación, conectividad ni mantenimiento. Estos asuntos son importantes para la gestión escolar, pero no son los referentes que las Orientaciones dicen enriquecer con nuevos elementos."
+    },
+    {
+     "l": "B",
+     "t": "la organización curricular, la didáctica, las actividades tecnológicas escolares, los ambientes y la evaluación.",
+     "j": "Es correcta. La carta dice que las Orientaciones proponen nuevos elementos para enriquecer los referentes de la organización curricular, las estrategias didácticas, el diseño de actividades tecnológicas escolares, los ambientes de aprendizaje y la evaluación."
+    },
+    {
+     "l": "C",
+     "t": "la formación de los docentes del área, su evaluación de desempeño y su ascenso en el escalafón.",
+     "j": "Es incorrecta. La formación y la evaluación de los docentes se rigen por otras normas, como el Decreto 1278 de 2002. La carta de presentación no las incluye entre los referentes que las Orientaciones buscan enriquecer."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Pregunta de conocimiento de nivel 2: aplicar el dato a la afirmación de un colega. La carta de presentación muestra que las Orientaciones de 2022 hacen más que actualizar definiciones: proponen «nuevos elementos para enriquecer los referentes para la organización curricular, las estrategias didácticas para la enseñanza, el diseño de actividades tecnológicas escolares, los ambientes de aprendizaje y la evaluación en el área». Son cinco referentes que tocan todo el trabajo pedagógico del área. Para recordarlos, piensa en el ciclo de una clase: qué se organiza, cómo se enseña, qué actividad se diseña, dónde se aprende y cómo se evalúa.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), Presentación.",
+   "consejo": "Cinco referentes: currículo, didáctica, actividades tecnológicas escolares, ambientes y evaluación.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "proponiendo también nuevos elementos para enriquecer los referentes para la organización curricular, las estrategias didácticas para la enseñanza, el diseño de actividades tecnológicas escolares, los ambientes de aprendizaje y la evaluación en el área",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Presentación"
+    }
+   ],
+   "competencia": "Informática y TIC"
+  },
+  {
+   "id": "Q192",
+   "tipo": "caso",
+   "caso": "C132",
+   "familia": "PED-INCL",
+   "dificultad": 3,
+   "enunciado": "Según el Decreto 1421 de 2017, la expectativa del docente de Tecnología e Informática es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "adecuada, porque la docente de apoyo es nombrada para atender en forma directa y separada a los estudiantes con discapacidad.",
+     "j": "Es incorrecta. El decreto crea los empleos de docentes de apoyo pedagógico para el acompañamiento a los establecimientos y a los docentes de aula, no para enseñar al estudiante por separado. Sacarlo del aula iría contra el enfoque de educación inclusiva."
+    },
+    {
+     "l": "B",
+     "t": "inadecuada en parte, porque no debe sacar al estudiante del aula, pero sí le corresponde elaborar el PIAR por su cuenta.",
+     "j": "Es incorrecta. Acierta en que el estudiante no debe salir del aula, pero falla en el PIAR: el decreto dice que su diseño lo lideran los docentes de aula con el docente de apoyo, la familia y el estudiante. No es una tarea que se delegue."
+    },
+    {
+     "l": "C",
+     "t": "inadecuada, porque la docente de apoyo acompaña a la institución y a los docentes de aula, que lideran el PIAR con ella.",
+     "j": "Es correcta. Los docentes de apoyo pedagógico existen para el acompañamiento a establecimientos educativos y docentes de aula, y el diseño del PIAR lo lideran los docentes de aula con el docente de apoyo, la familia y el estudiante."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es un caso de nivel 3 porque la expectativa del docente tiene dos partes y ambas fallan. Primera: el Decreto 1421 de 2017 crea empleos de docentes de apoyo pedagógico «para el acompañamiento a establecimientos educativos y docentes de aula»; su función no es enseñar al estudiante por fuera del grupo. Segunda: «El diseño de los PIAR lo liderarán el o los docentes de aula con el docente de apoyo, la familia y el estudiante». El docente de Tecnología no puede delegar el PIAR. Una opción acierta solo en la mitad, y esa es la trampa. Recuerda: en inclusión, el docente de aula sigue siendo responsable y el apoyo acompaña.",
+   "fuente": "Decreto 1075 de 2015 (Decreto 1421 de 2017), arts. 2.3.3.5.2.2.2 y 2.3.3.5.2.3.5.",
+   "consejo": "Docente de apoyo = acompaña a la institución y al docente de aula. El PIAR lo lidera el docente de aula.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "creación de empleos temporales de docentes de apoyo pedagógico, viabilizados anualmente por el Ministerio de Educación Nacional, para el acompañamiento a establecimientos educativos y docentes de aula",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.2.2.2"
+    },
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "El diseño de los PIAR lo liderarán el o los docentes de aula con el docente de apoyo",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.5"
+    }
+   ],
+   "competencia": "Educación inclusiva: PIAR y DUA"
+  },
+  {
+   "id": "Q193",
+   "tipo": "caso",
+   "caso": "C133",
+   "familia": "PED-INCL",
+   "dificultad": 3,
+   "enunciado": "De acuerdo con el Decreto 1421 de 2017, la orientación correcta para la familia es que el colegio privado",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "debe garantizar la accesibilidad, los recursos y los ajustes razonables para atender a la estudiante.",
+     "j": "Es correcta. El decreto establece que las instituciones privadas que presten el servicio público de educación preescolar, básica y media «deberán garantizar la accesibilidad, los recursos y los ajustes razonables» para atender a los estudiantes con discapacidad."
+    },
+    {
+     "l": "B",
+     "t": "puede negarse a hacer ajustes, porque solo los establecimientos oficiales reciben el giro adicional.",
+     "j": "Es incorrecta. Usa un dato real para llegar a una conclusión falsa. Es cierto que el giro adicional se hace por estudiantes reportados en el Simat del sector oficial, pero eso no exime a los colegios privados: el decreto les impone la obligación de forma expresa."
+    },
+    {
+     "l": "C",
+     "t": "debe atenderla, pero los ajustes que necesite los financia la secretaría con sus líneas de inversión.",
+     "j": "Es incorrecta. Las líneas de inversión con recursos del Sistema General de Participaciones son de las entidades territoriales para el servicio oficial. El decreto asigna a la institución privada la responsabilidad de garantizar los recursos y los ajustes razonables."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Es un caso de nivel 3 porque los distractores combinan datos verdaderos del mismo capítulo del decreto. Es cierto que el Decreto 1421 de 2017 prevé un giro adicional por cada estudiante con discapacidad reportado en el Simat del sector oficial y que las entidades territoriales tienen líneas de inversión. Pero el artículo 2.3.3.5.2.2.3 es explícito: «Las instituciones educativas privadas que presten el servicio público de educación de preescolar, básica y media deberán garantizar la accesibilidad, los recursos y los ajustes razonables para atender a los estudiantes con discapacidad». La financiación oficial no condiciona el derecho a la educación inclusiva. En la CNSC, ningún argumento de recursos justifica negar un derecho.",
+   "fuente": "Decreto 1075 de 2015 (Decreto 1421 de 2017), art. 2.3.3.5.2.2.3.",
+   "consejo": "Colegio privado → también debe garantizar accesibilidad, recursos y ajustes razonables.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Las instituciones educativas privadas que presten el servicio público de educación de preescolar, básica y media deberán garantizar la accesibilidad, los recursos y los ajustes razonables para atender a los estudiantes con discapacidad.",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.2.2.3"
+    }
+   ],
+   "competencia": "Educación inclusiva: PIAR y DUA"
+  },
+  {
+   "id": "Q194",
+   "tipo": "caso",
+   "caso": "C134",
+   "familia": "PED-INCL",
+   "dificultad": 2,
+   "enunciado": "Según el artículo 2.3.3.5.2.2.1 del Decreto 1075 de 2015 (Decreto 1421 de 2017), el reporte correcto en el Simat importa porque",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "solo los estudiantes reportados en el Simat tienen derecho a que la institución les elabore el PIAR.",
+     "j": "Es incorrecta. El PIAR es una herramienta para garantizar los procesos de enseñanza y aprendizaje de los estudiantes con discapacidad, y los ajustes razonables no dependen de un diagnóstico. El decreto no condiciona el PIAR al reporte en el Simat."
+    },
+    {
+     "l": "B",
+     "t": "el reporte en el Simat reemplaza el diagnóstico médico como requisito para recibir ajustes razonables.",
+     "j": "Es incorrecta. Parte de una idea falsa: los ajustes razonables no exigen diagnóstico médico, de modo que el Simat no reemplaza ningún requisito. El reporte tiene otro efecto, relacionado con los recursos que se giran para la atención."
+    },
+    {
+     "l": "C",
+     "t": "por cada estudiante con discapacidad reportado se gira un porcentaje adicional para su atención.",
+     "j": "Es correcta. El artículo establece que por cada estudiante con discapacidad reportado en el Simat se girará un 20 % o un porcentaje adicional, según la disponibilidad presupuestal de cada vigencia. Un reporte incorrecto afecta los recursos para atenderlo."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El artículo 2.3.3.5.2.2.1 del Decreto 1075 de 2015, incorporado por el Decreto 1421 de 2017, dice que «por cada estudiante con discapacidad reportado en el sistema de matrícula Simat, se girará un 20% o porcentaje adicional, de conformidad con la disponibilidad presupuestal que haya en cada vigencia». Por eso el reporte no es un trámite vacío: de él depende parte de los recursos para la atención educativa de los estudiantes. Las opciones incorrectas inventan requisitos que la norma no pone para el PIAR o para los ajustes razonables. Recuerda la cadena: reporte correcto en el Simat, giro adicional y mejores condiciones para la atención.",
+   "fuente": "Decreto 1075 de 2015 (Decreto 1421 de 2017), art. 2.3.3.5.2.2.1.",
+   "consejo": "Simat bien diligenciado → giro adicional por cada estudiante con discapacidad.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "por cada estudiante con discapacidad reportado en el sistema de matrícula Simat, se girará un 20% o porcentaje adicional, de conformidad con la disponibilidad presupuestal que haya en cada vigencia",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.2.2.1"
+    }
+   ],
+   "competencia": "Educación inclusiva: PIAR y DUA"
+  },
+  {
+   "id": "Q195",
+   "tipo": "caso",
+   "caso": "C135",
+   "familia": "PED-INCL",
+   "dificultad": 3,
+   "enunciado": "Según las responsabilidades del Ministerio de Educación Nacional en el Decreto 1421 de 2017, el Ministerio coordina la producción, dotación y distribución de ese material con",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el Insor, que también apoya la Modalidad Bilingüe-Bicultural en los establecimientos educativos.",
+     "j": "Es incorrecta. El Insor es la entidad con la que el Ministerio consolida la Modalidad Bilingüe-Bicultural para estudiantes con discapacidad auditiva. Es una responsabilidad real del Ministerio, pero corresponde a otra población y a otro tipo de apoyo."
+    },
+    {
+     "l": "B",
+     "t": "la secretaría de educación certificada, con cargo a sus recursos propios y a los del Sistema General.",
+     "j": "Es incorrecta. Las entidades territoriales pueden invertir en herramientas técnicas, tecnológicas y didácticas, pero la pregunta es por la responsabilidad del Ministerio y la entidad nacional con la que coordina el material en braille."
+    },
+    {
+     "l": "C",
+     "t": "el INCI, para los establecimientos oficiales que atienden estudiantes con discapacidad visual.",
+     "j": "Es correcta. El numeral 9 de las responsabilidades del Ministerio es coordinar con el INCI la producción, dotación y distribución de material didáctico en braille, macrotipos y relieve para los establecimientos oficiales que atienden personas con discapacidad visual."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es un caso de nivel 3 porque las tres opciones nombran entidades con responsabilidades reales en educación inclusiva. El Decreto 1421 de 2017 asigna al Ministerio de Educación Nacional, entre otras, dos tareas con entidades nacionales: consolidar con el Insor la Modalidad Bilingüe-Bicultural para estudiantes con discapacidad auditiva y «coordinar con el INCI la producción, dotación y distribución de material didáctico en braille, macrotipos, relieve y productos especializados» para establecimientos oficiales que atiendan personas con discapacidad visual y sordoceguera. Para no confundirlas, asocia cada entidad con su población: INCI con discapacidad visual e Insor con discapacidad auditiva.",
+   "fuente": "Decreto 1075 de 2015 (Decreto 1421 de 2017), art. 2.3.3.5.2.3.1, literal a), numerales 8 y 9.",
+   "consejo": "INCI → discapacidad visual (braille, relieve). Insor → discapacidad auditiva (bilingüe-bicultural).",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Coordinar con el INCI la producción, dotación y distribución de material didáctico en braille, macrotipos, relieve y productos especializados en los establecimientos educativos oficiales de preescolar, básica y media, que atiendan personas con discapacidad visual y sordoceguera.",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.1, a), num. 9"
+    },
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Consolidar con el Insor la oferta de Modalidad Bilingüe - Bicultural para estudiantes con discapacidad auditiva",
+     "ubicacion": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.1, a), num. 8"
+    }
+   ],
+   "competencia": "Educación inclusiva: PIAR y DUA"
+  },
+  {
+   "id": "Q196",
+   "tipo": "caso",
+   "caso": "C136",
+   "familia": "DIS-DATOS",
+   "dificultad": 3,
+   "enunciado": "La respuesta coherente con las Orientaciones Curriculares de 2022 es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "las TIC son objeto de estudio exclusivo del área de Tecnología, así que su uso en Sociales no la reemplaza.",
+     "j": "Es incorrecta. Llega a una conclusión aceptable, que el área no se reemplaza, con una razón falsa. Las Orientaciones dicen que la alfabetización en TIC es una tarea transversal y obligatoria de todas las áreas, no exclusiva del área de Tecnología."
+    },
+    {
+     "l": "B",
+     "t": "las TIC hacen parte de la informática, así que su uso en Sociales cubre parte del área y puede reducir sus horas.",
+     "j": "Es incorrecta. Invierte la relación que plantean las Orientaciones, según las cuales las TIC anteceden a la informática porque incluyen soportes analógicos. Además, usar TIC en otra asignatura no equivale a estudiar tecnología e informática."
+    },
+    {
+     "l": "C",
+     "t": "las TIC son recurso y medio de enseñanza en todas las áreas; tecnología e informática, objeto del área.",
+     "j": "Es correcta. Las Orientaciones dicen que la tecnología y la informática constituyen objeto de estudio del área, mientras que las TIC se reconocen como recurso didáctico, herramienta de apoyo para la gestión escolar y medio instrumental en todas las áreas."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es un caso de nivel 3 porque dos opciones rechazan la propuesta del colega, pero solo una lo hace por la razón correcta. Las Orientaciones Curriculares de 2022 aclaran que, para la educación colombiana, la tecnología y la informática «constituyen objeto de estudio del área de Tecnología e Informática, mientras que las TIC se reconocen tanto como recurso didáctico y herramientas de apoyo para la gestión escolar como medio instrumental» para las actividades de enseñanza en todas las áreas. Usar el aula virtual en Sociales es usar TIC como medio; no es estudiar tecnología. Distingue siempre si la tecnología es objeto de estudio o medio para aprender otra cosa.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.2. Relación tecnología, informática y TIC.",
+   "consejo": "Tecnología e informática = objeto de estudio. TIC = recurso y medio en todas las áreas.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Para la educación colombiana, las dos primeras constituyen objeto de estudio del área de Tecnología e Informática, mientras que las TIC se reconocen tanto como recurso didáctico y herramientas de apoyo para la gestión escolar como medio instrumental",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.2"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "es de aclarar que esta es una tarea transversal y obligatoria para todas las áreas escolares",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.3"
+    }
+   ],
+   "competencia": "Informática y TIC"
+  }
+ ]
+}
