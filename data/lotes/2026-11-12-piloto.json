@@ -2210,29 +2210,32 @@
    "caso": "C14",
    "familia": "RC-ARG",
    "competencia": "Argumentación",
-   "enunciado": "La docente sostiene que, después de las reparaciones, el dinero sobrante alcanza para comprar al menos 2 computadores nuevos de $1.250.000 cada uno. Esta afirmación es",
+   "enunciado": "Si el consejo directivo autoriza usar en compra de equipos el dinero que sobre después de reparar todos los computadores dañados, la docente afirma que alcanza para comprar al menos 2 computadores nuevos de $1.250.000 cada uno. Esta afirmación es",
    "opciones": [
     {
      "l": "A",
-     "t": "válida, porque el sobrante de $2.700.000 cubre los $2.500.000 que cuestan los dos equipos.",
-     "j": "Es correcta. $2.700.000 ≥ $2.500.000; incluso sobran $200.000."
+     "t": "válida, porque tras reparar 6 equipos sobran $2.700.000 y dos computadores cuestan $2.500.000.",
+     "j": "Es correcta. El 20 % de 30 es 6 equipos; repararlos cuesta 6 × $350.000 = $2.100.000. Sobran $4.800.000 − $2.100.000 = $2.700.000, que cubren los $2.500.000 de dos computadores e incluso dejan $200.000."
     },
     {
      "l": "B",
-     "t": "no válida, porque el presupuesto aprobado solo puede usarse para reparar equipos y no para comprar nuevos.",
-     "j": "Es incorrecta. La pregunta es matemática; la opción introduce una restricción que el caso no menciona."
+     "t": "no válida, porque tras reparar 7 equipos sobran $2.350.000 y dos computadores cuestan $2.500.000.",
+     "j": "Es incorrecta. Calcula mal el número de equipos dañados: el 20 % de 30 es 6, no 7. Con 7 reparaciones el sobrante sí sería insuficiente, pero el dato del caso no lo permite, por eso la conclusión es falsa."
     },
     {
      "l": "C",
-     "t": "no válida, porque dos computadores nuevos cuestan más que la reparación de los seis equipos dañados.",
-     "j": "Es incorrecta. El dato es cierto ($2.500.000 > $2.100.000), pero no es relevante: lo que importa es el sobrante."
+     "t": "válida, porque tras reparar 6 equipos sobran $2.700.000 y alcanzan para comprar tres computadores.",
+     "j": "Es incorrecta. El sobrante está bien calculado y la afirmación sí es válida, pero la razón es falsa: tres computadores cuestan $3.750.000, más que $2.700.000. Una conclusión correcta con un argumento falso no es una buena respuesta."
     }
    ],
    "clave": "A",
    "fuente": "ICFES, Módulo de Razonamiento Cuantitativo.",
-   "consejo": "Una razón verdadera pero irrelevante sigue siendo una opción incorrecta.",
+   "consejo": "En argumentación, revisa la conclusión y también la razón: ambas deben ser verdaderas.",
    "tipo": "caso",
-   "citas": []
+   "citas": [],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque hay que encadenar dos cálculos y luego juzgar el argumento, no solo el resultado. Primero, equipos dañados: 20 % de 30 = 6. Segundo, costo de reparación: 6 × $350.000 = $2.100.000, y sobrante: $4.800.000 − $2.100.000 = $2.700.000. Dos computadores cuestan 2 × $1.250.000 = $2.500.000, así que la afirmación es válida. Una opción falla en el porcentaje y otra llega a la conclusión correcta con una razón falsa. En argumentación cuantitativa, la opción correcta debe tener a la vez la conclusión y la justificación verdaderas.",
+   "revisado": true
   },
   {
    "id": "Q043",
@@ -2341,58 +2344,86 @@
    "caso": "C16",
    "familia": "PSI-INIC",
    "competencia": "Iniciativa",
-   "enunciado": "Ante las limitaciones de la sala, usted decide",
+   "enunciado": "Ante las limitaciones de la sala, y sabiendo que no habrá presupuesto en seis meses, usted decide",
    "opciones": [
     {
      "l": "A",
-     "t": "ajustar la planeación con actividades desconectadas y programas gratuitos que funcionen sin internet, y proponer al consejo directivo alternativas para conseguir recursos.",
-     "j": "Es correcta. Se anticipa, actúa con recursividad y propone soluciones por los canales institucionales (definición de Iniciativa, Guía 31)."
+     "t": "ajustar la planeación con actividades desconectadas y programas sin internet, y proponer al consejo directivo cómo conseguir recursos.",
+     "j": "Es correcta. Se anticipa al problema, actúa con los recursos disponibles y propone alternativas por el canal institucional. Corresponde a la definición de iniciativa: «Anticiparse a los problemas proponiendo alternativas de solución»."
     },
     {
      "l": "B",
-     "t": "esperar a que se asigne el presupuesto y, mientras tanto, desarrollar las clases de forma teórica en el salón.",
-     "j": "Es incorrecta. Es una actitud pasiva que afecta el aprendizaje durante seis meses."
+     "t": "trabajar los temas de forma teórica en el salón mientras se asigna el presupuesto, y retomar la práctica cuando la sala esté lista.",
+     "j": "Es incorrecta. Mantiene las clases, pero de forma pasiva: espera a que otros resuelvan y durante seis meses deja a los estudiantes sin práctica. Sería razonable por unos días, no como respuesta a un problema de medio año."
     },
     {
      "l": "C",
-     "t": "pedir a los estudiantes que traigan sus propios equipos portátiles para poder desarrollar las clases prácticas.",
-     "j": "Es incorrecta. Traslada el problema a las familias y genera inequidad entre los estudiantes."
+     "t": "pedir a los estudiantes que traigan sus propios portátiles para la práctica, y organizar grupos con quienes tengan equipo en casa.",
+     "j": "Es incorrecta. Busca una solución rápida, pero traslada el costo a las familias y deja en desventaja a quienes no tienen equipo. La iniciativa que valora la CNSC propone soluciones sin generar inequidad entre estudiantes."
     }
    ],
    "clave": "A",
    "fuente": "Res. 3842 de 2022 (competencias comportamentales); Guía 31 MEN, definición de Iniciativa (citada en la Guía CNSC 2022, ejemplo 3).",
-   "consejo": "Iniciativa = anticiparse y proponer con lo que hay.",
+   "consejo": "Iniciativa = anticiparse y proponer con lo que hay, por los canales institucionales.",
    "tipo": "caso",
-   "citas": []
+   "citas": [
+    {
+     "doc": "guia_orientacion_cnsc_2022",
+     "texto": "Anticiparse a los problemas proponiendo alternativas de solución. Habilidad para trabajar proactivamente y con autonomía frente a las responsabilidades",
+     "ubicacion": "Guía de orientación al aspirante CNSC (2022), definición de Iniciativa"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Estas competencias son: liderazgo; comunicación y relaciones interpersonales; trabajo en equipo; negociación y mediación; compromiso social e institucional; iniciativa; y orientación al logro.",
+     "ubicacion": "Resolución 3842 de 2022, competencias comportamentales"
+    }
+   ],
+   "dificultad": 2,
+   "explicacion": "La competencia evaluada es iniciativa, que la Guía de orientación de la CNSC define como «Anticiparse a los problemas proponiendo alternativas de solución. Habilidad para trabajar proactivamente y con autonomía frente a las responsabilidades». La opción correcta combina dos acciones: resolver ya en el aula con lo que hay (actividades desconectadas, programas sin internet) y proponer a la instancia institucional cómo conseguir recursos. Esperar es pasivo y pedir equipos a las familias genera inequidad. En las preguntas psicotécnicas, la mejor respuesta suele ser proactiva, usa los recursos disponibles y respeta los canales de la institución.",
+   "revisado": true
   },
   {
    "id": "Q047",
    "caso": "C16",
    "familia": "PSI-COMRI",
    "competencia": "Comunicación y relaciones interpersonales",
-   "enunciado": "Frente al reclamo del padre de familia, usted",
+   "enunciado": "Frente al reclamo en tono alterado del padre de familia, usted",
    "opciones": [
     {
      "l": "A",
-     "t": "le explica que la situación de la sala no es su responsabilidad y le sugiere dirigirse a la rectoría.",
-     "j": "Es incorrecta. Es una respuesta evasiva que no escucha ni genera confianza."
+     "t": "le explica que la situación de la sala no depende de usted y le sugiere presentar su queja en la rectoría.",
+     "j": "Es incorrecta. Puede ser cierto que la sala no depende del docente, pero la respuesta es evasiva: no escucha al padre ni le explica qué pasará con el aprendizaje de su hijo, y deteriora la confianza con la familia."
     },
     {
      "l": "B",
-     "t": "lo escucha con atención, le explica con calma la situación y las alternativas que aplicará para que su hijo siga aprendiendo.",
-     "j": "Es correcta. Escucha, comprende y comunica con claridad y respeto, como lo define la competencia (Guía 31)."
+     "t": "lo escucha con atención y le explica con calma la situación y las alternativas para su hijo.",
+     "j": "Es correcta. Escucha, explica con claridad y respeto, y genera confianza. Coincide con la definición de la competencia: intercambiar ideas «con efectividad y empatía», favoreciendo «relaciones interpersonales cordiales, asertivas y basadas en la confianza»."
     },
     {
      "l": "C",
-     "t": "le pide que regrese cuando esté más tranquilo, porque no es posible dialogar mientras mantenga ese tono.",
-     "j": "Es incorrecta. Aplaza el diálogo en lugar de manejar la emoción con empatía."
+     "t": "le pide que regrese otro día, cuando esté más tranquilo, porque no es posible dialogar mientras mantenga ese tono.",
+     "j": "Es incorrecta. Poner límites al trato irrespetuoso puede ser necesario, pero aplazar sin escuchar no maneja la emoción con empatía ni responde la preocupación del padre. Sería adecuada solo si hubiera agresión que impida cualquier diálogo."
     }
    ],
    "clave": "B",
    "fuente": "Guía 31 MEN, definición de Comunicación y relaciones interpersonales (citada en la Guía CNSC 2022, ejemplo 5).",
-   "consejo": "Escuchar primero, explicar después.",
+   "consejo": "Escuchar primero, explicar después, con calma y datos concretos.",
    "tipo": "caso",
-   "citas": []
+   "citas": [
+    {
+     "doc": "guia_orientacion_cnsc_2022",
+     "texto": "Habilidad para intercambiar con efectividad y empatía conceptos, criterios e ideas, a través de diferentes estrategias y recursos, según las características del contexto y los participantes del proceso comunicativo, favoreciendo las relaciones interpersonales cordiales, asertivas y basadas en la confianza",
+     "ubicacion": "Guía de orientación al aspirante CNSC (2022), definición de Comunicación y relaciones interpersonales"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Estas competencias son: liderazgo; comunicación y relaciones interpersonales; trabajo en equipo; negociación y mediación; compromiso social e institucional; iniciativa; y orientación al logro.",
+     "ubicacion": "Resolución 3842 de 2022, competencias comportamentales"
+    }
+   ],
+   "dificultad": 2,
+   "explicacion": "La competencia es comunicación y relaciones interpersonales, que la Guía de orientación de la CNSC describe como la «habilidad para intercambiar con efectividad y empatía conceptos, criterios e ideas», «favoreciendo las relaciones interpersonales cordiales, asertivas y basadas en la confianza». La opción correcta sigue ese orden: escuchar, explicar con calma y dar información concreta sobre las alternativas. Remitir a rectoría es evasivo, y pedir que vuelva otro día aplaza el problema sin atender la emoción. En la prueba, ante un padre alterado, la mejor respuesta casi siempre es escuchar primero y explicar después, sin confrontar ni evadir.",
+   "revisado": true
   },
   {
    "id": "Q048",
@@ -2428,58 +2459,76 @@
    "caso": "C17",
    "familia": "PSI-NEGM",
    "competencia": "Negociación y mediación",
-   "enunciado": "Frente a la discusión entre los dos estudiantes, usted",
+   "enunciado": "Frente a la discusión entre los dos estudiantes que quieren liderar el proyecto de la feria, usted",
    "opciones": [
     {
      "l": "A",
-     "t": "elige al estudiante con mejores calificaciones para liderar, porque así se asegura un mejor resultado en la feria.",
-     "j": "Es incorrecta. Impone una decisión sin atender los intereses de las partes."
+     "t": "designa al estudiante con mejores calificaciones en el área, para asegurar un buen resultado en la feria.",
+     "j": "Es incorrecta. Resuelve rápido, pero impone una decisión con un criterio que no responde a lo que está en conflicto. No escucha los intereses de las partes y puede dejar a uno de los estudiantes resentido con el proyecto."
     },
     {
      "l": "B",
-     "t": "reúne a los dos estudiantes para que expongan sus intereses y, con su mediación, construyan un acuerdo, como dividir roles de liderazgo.",
-     "j": "Es correcta. Facilita el diálogo y un acuerdo en el que ambas partes ganan."
+     "t": "reúne a los dos para que expongan sus intereses y construyan con su mediación un acuerdo.",
+     "j": "Es correcta. Facilita que las partes expresen lo que quieren y construyan juntas una salida, como repartir funciones de liderazgo. Es lo que describe la competencia de negociación y mediación: llegar a acuerdos en los que ambas partes ganan."
     },
     {
      "l": "C",
-     "t": "deja que el grupo vote de inmediato para que la mayoría decida quién liderará el proyecto.",
-     "j": "Es incorrecta. La votación inmediata no resuelve el conflicto y puede dividir al grupo."
+     "t": "somete la decisión a una votación inmediata del grupo, para que la mayoría escoja quién liderará el proyecto.",
+     "j": "Es incorrecta. Votar es un mecanismo democrático válido en otras situaciones, pero aquí no resuelve el conflicto entre los dos estudiantes: uno pierde y el curso puede dividirse. Primero se media; la votación no sustituye ese paso."
     }
    ],
    "clave": "B",
    "fuente": "Res. 3842 de 2022 (competencia comportamental: negociación y mediación).",
-   "consejo": "Mediar = escuchar intereses y construir acuerdos.",
+   "consejo": "Mediar = escuchar intereses de las partes y construir el acuerdo con ellas.",
    "tipo": "caso",
-   "citas": []
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Estas competencias son: liderazgo; comunicación y relaciones interpersonales; trabajo en equipo; negociación y mediación; compromiso social e institucional; iniciativa; y orientación al logro.",
+     "ubicacion": "Resolución 3842 de 2022, competencias comportamentales"
+    }
+   ],
+   "dificultad": 2,
+   "explicacion": "La competencia evaluada es negociación y mediación, una de las competencias comportamentales que enumera la Resolución 3842 de 2022. Ante un conflicto entre dos estudiantes, el docente mediador no decide por ellos ni traslada la decisión al grupo: crea un espacio para que cada uno exponga sus intereses y los ayuda a construir un acuerdo, por ejemplo dividir roles de liderazgo. Elegir por notas impone, y votar de inmediato deja un ganador y un perdedor. En la prueba psicotécnica, la opción correcta en conflictos suele ser la que escucha a las partes y construye un acuerdo con ellas.",
+   "revisado": true
   },
   {
    "id": "Q050",
    "caso": "C17",
    "familia": "PSI-LOGRO",
    "competencia": "Orientación al logro",
-   "enunciado": "Frente a los resultados del primer periodo, usted",
+   "enunciado": "Frente a que el 40 % del grupo no alcanzó los desempeños del primer periodo, usted",
    "opciones": [
     {
      "l": "A",
-     "t": "analiza los desempeños no alcanzados, ajusta sus estrategias y define metas y acciones de seguimiento para el siguiente periodo.",
-     "j": "Es correcta. Asume la responsabilidad de su práctica y se orienta a mejorar los resultados."
+     "t": "analiza qué desempeños no se alcanzaron, ajusta sus estrategias y define metas y seguimiento para el siguiente periodo.",
+     "j": "Es correcta. Asume la responsabilidad sobre su práctica, parte del análisis de los resultados y fija metas con seguimiento. Es lo que describe la competencia de orientación al logro: mejorar resultados ajustando las propias acciones."
     },
     {
      "l": "B",
-     "t": "atribuye los resultados al bajo compromiso del grupo y les informa que el siguiente periodo será más exigente.",
-     "j": "Es incorrecta. Culpa a los estudiantes sin revisar su propia práctica."
+     "t": "atribuye los resultados al bajo compromiso del grupo y anuncia que en el siguiente periodo las evaluaciones serán más exigentes.",
+     "j": "Es incorrecta. Culpa a los estudiantes sin revisar la propia práctica y propone exigir más sin cambiar la enseñanza. Endurecer la evaluación no mejora el aprendizaje; solo puede aumentar el número de estudiantes que no alcanzan los desempeños."
     },
     {
      "l": "C",
-     "t": "compara los resultados con los de otros grupos para confirmar si el problema es general en la institución.",
-     "j": "Es incorrecta. Puede aportar información, pero se queda en el diagnóstico y no plantea acciones."
+     "t": "compara los resultados con los de otros grupos del mismo grado para establecer si la dificultad es general en la institución.",
+     "j": "Es incorrecta. Comparar puede aportar información útil para el diagnóstico, pero la opción se queda ahí y no plantea ninguna acción de mejora. La orientación al logro exige pasar del análisis a metas y estrategias concretas."
     }
    ],
    "clave": "A",
    "fuente": "Res. 3842 de 2022 (competencia comportamental: orientación al logro).",
-   "consejo": "Analizar → ajustar → metas → seguimiento.",
+   "consejo": "Analizar → ajustar estrategias → metas → seguimiento.",
    "tipo": "caso",
-   "citas": []
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Estas competencias son: liderazgo; comunicación y relaciones interpersonales; trabajo en equipo; negociación y mediación; compromiso social e institucional; iniciativa; y orientación al logro.",
+     "ubicacion": "Resolución 3842 de 2022, competencias comportamentales"
+    }
+   ],
+   "dificultad": 2,
+   "explicacion": "La competencia evaluada es orientación al logro, que la Resolución 3842 de 2022 incluye entre las competencias comportamentales del docente. Ante resultados bajos, la respuesta que la refleja sigue una secuencia: analizar las causas (qué desempeños no se alcanzaron), ajustar las estrategias de enseñanza, fijar metas y hacer seguimiento. Culpar al grupo evade la responsabilidad, y comparar con otros cursos es apenas un diagnóstico sin acción. En la prueba, desconfía de las opciones que solo explican el problema o que endurecen la evaluación: la orientación al logro siempre termina en acciones de mejora propias.",
+   "revisado": true
   },
   {
    "id": "Q051",
@@ -2490,25 +2539,34 @@
    "opciones": [
     {
      "l": "A",
-     "t": "define usted mismo el proyecto y asigna las tareas, para asegurar un producto de calidad dentro del plazo de la feria.",
-     "j": "Es incorrecta. Es un liderazgo impositivo que no involucra al grupo."
+     "t": "define el proyecto y distribuye las tareas usted mismo, para asegurar un producto de calidad dentro del plazo de la feria.",
+     "j": "Es incorrecta. Asegura el producto, pero con un liderazgo impositivo que no involucra al grupo en las decisiones. El curso ejecuta tareas sin apropiarse de la meta, que es lo que pide el enunciado."
     },
     {
      "l": "B",
-     "t": "motiva al grupo a construir una meta común, acompaña la organización de los equipos y reconoce los aportes de cada estudiante.",
-     "j": "Es correcta. Moviliza al grupo hacia una meta compartida y reconoce a cada integrante."
+     "t": "motiva al curso a construir una meta común, acompaña la organización de los equipos y reconoce los aportes de cada estudiante.",
+     "j": "Es correcta. Moviliza al grupo hacia una meta compartida, acompaña sin imponer y reconoce a cada integrante. Es el liderazgo pedagógico que se espera del docente y que involucra realmente a todo el curso."
     },
     {
      "l": "C",
-     "t": "delega toda la organización en los dos estudiantes que querían liderar para que resuelvan entre ellos sus diferencias.",
-     "j": "Es incorrecta. Delega sin acompañar y deja abierto el conflicto."
+     "t": "delega la organización en los dos estudiantes que querían liderar y les pide que le informen semanalmente de sus avances.",
+     "j": "Es incorrecta. Parece un buen equilibrio porque delega y pide informes, pero deja sin resolver el conflicto entre los dos estudiantes y no asegura que el resto del curso participe. Delegar no es lo mismo que acompañar."
     }
    ],
    "clave": "B",
    "fuente": "Res. 3842 de 2022 (competencia comportamental: liderazgo).",
    "consejo": "Liderar = meta común + acompañamiento + reconocimiento.",
    "tipo": "caso",
-   "citas": []
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Estas competencias son: liderazgo; comunicación y relaciones interpersonales; trabajo en equipo; negociación y mediación; compromiso social e institucional; iniciativa; y orientación al logro.",
+     "ubicacion": "Resolución 3842 de 2022, competencias comportamentales"
+    }
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque la opción de delegar con informes semanales parece un liderazgo moderno y equilibrado. La competencia evaluada es liderazgo, una de las competencias comportamentales de la Resolución 3842 de 2022. El enunciado pide que el proyecto involucre a todo el curso: eso exige una meta construida con el grupo, acompañamiento a los equipos y reconocimiento de los aportes. Imponer el proyecto excluye al grupo de las decisiones, y delegar en los dos estudiantes que discuten deja abierto el conflicto y al resto del curso por fuera. La palabra clave del enunciado es «todo el curso».",
+   "revisado": true
   },
   {
    "id": "K001",
@@ -2520,30 +2578,33 @@
    "opciones": [
     {
      "l": "A",
-     "t": "proceso, porque es una sucesión de operaciones que transforma un recurso para obtener un producto.",
-     "j": "Es correcta. La Guía 30 define los procesos como fases sucesivas de operaciones que transforman recursos."
+     "t": "artefacto, porque el agua tratada es un producto que la comunidad utiliza todos los días.",
+     "j": "Es incorrecta. Confunde el resultado con la forma de obtenerlo. El artefacto es un dispositivo, herramienta, aparato o máquina; aquí el enunciado describe una secuencia de pasos que transforma el agua, no un objeto."
     },
     {
      "l": "B",
-     "t": "artefacto, porque el agua tratada es un producto que la comunidad utiliza en la vida diaria.",
-     "j": "Es incorrecta. El artefacto es un dispositivo o herramienta; aquí se describe la secuencia de pasos, no un objeto."
+     "t": "proceso, porque es una sucesión de operaciones que transforma un recurso en un producto.",
+     "j": "Es correcta. La Guía 30 define los procesos como «fases sucesivas de operaciones que permiten la transformación de recursos». Captar, filtrar y desinfectar el agua son fases sucesivas que la transforman en agua potable."
     },
     {
      "l": "C",
-     "t": "sistema, porque cualquier actividad que se realiza en varias etapas constituye un sistema tecnológico.",
-     "j": "Es incorrecta. Un sistema son elementos relacionados que funcionan juntos; tener etapas es lo propio de un proceso."
+     "t": "sistema, porque toda actividad que se realiza en varias etapas forma un sistema tecnológico.",
+     "j": "Es incorrecta. Tener etapas es lo propio de un proceso. Un sistema es un conjunto de elementos ligados entre sí que funcionan juntos para un objetivo; la planta completa con sus redes sí podría analizarse como sistema, pero el enunciado describe la secuencia."
     }
    ],
-   "clave": "A",
+   "clave": "B",
    "fuente": "Guía 30, p. 6",
-   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "consejo": "Secuencia de pasos que transforma algo → proceso.",
    "citas": [
     {
      "doc": "guia30_mineducacion_2008",
      "texto": "Los procesos: son fases sucesivas de operaciones que permiten la transformación de recursos",
      "ubicacion": "Guía 30, p. 6"
     }
-   ]
+   ],
+   "dificultad": 1,
+   "explicacion": "Pregunta de conocimiento de nivel 1. La Guía 30 distingue tres productos de la tecnología: artefactos (dispositivos y herramientas), procesos («fases sucesivas de operaciones que permiten la transformación de recursos») y sistemas (elementos ligados que logran juntos un objetivo). El enunciado pone el acento en la secuencia: captación, filtrado y desinfección. Por eso es un proceso. La trampa típica es confundir el producto final (el agua potable) con el modo de producirlo. Si dudaste, vuelve a la ficha y pregúntate: ¿me describen un objeto, una secuencia de pasos o un conjunto de elementos que funcionan juntos?",
+   "revisado": true
   },
   {
    "id": "K002",
@@ -2551,34 +2612,42 @@
    "ficha": "F01",
    "familia": "DIS-CONC",
    "competencia": "Naturaleza y evolución",
-   "enunciado": "De acuerdo con la Guía 30, un ejemplo de sistema tecnológico es",
+   "enunciado": "De acuerdo con la Guía 30, de los siguientes ejemplos el que corresponde a un sistema tecnológico es",
    "opciones": [
     {
      "l": "A",
      "t": "un destornillador, porque es una herramienta que potencia la acción humana al ensamblar objetos.",
-     "j": "Es incorrecta. Una herramienta es un artefacto."
+     "j": "Es incorrecta. La razón que da la opción es justamente la definición de artefacto en la Guía 30: dispositivos y herramientas que potencian la acción humana. Un destornillador es un artefacto, no un sistema."
     },
     {
      "l": "B",
-     "t": "la red de generación y distribución de energía eléctrica, porque integra componentes, procesos y flujos de energía.",
-     "j": "Es correcta. La Guía 30 menciona la generación y distribución de la energía eléctrica como ejemplo de sistema tecnológico."
+     "t": "la elaboración de una mesa, porque implica cortar, lijar y ensamblar la madera en un orden fijo.",
+     "j": "Es incorrecta. Cortar, lijar y ensamblar en orden son fases sucesivas de operaciones que transforman la madera: eso es un proceso. La opción confunde tener pasos con ser un sistema."
     },
     {
      "l": "C",
-     "t": "la elaboración de una mesa, porque implica cortar, lijar y ensamblar la madera en un orden determinado.",
-     "j": "Es incorrecta. Una secuencia de operaciones es un proceso."
+     "t": "la red de energía eléctrica, porque integra componentes, procesos y flujos para un objetivo común.",
+     "j": "Es correcta. La Guía 30 menciona expresamente «la generación y distribución de la energía eléctrica» como ejemplo de sistema tecnológico: muchos elementos ligados entre sí que funcionan juntos para llevar energía."
     }
    ],
-   "clave": "B",
+   "clave": "C",
    "fuente": "Guía 30, p. 7",
-   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "consejo": "Muchos elementos ligados que logran juntos un objetivo → sistema.",
    "citas": [
     {
      "doc": "guia30_mineducacion_2008",
      "texto": "La generación y distribución de la energía eléctrica, las redes de transporte, las tecnologías de la información y la comunicación, el suministro de alimentos y las organizaciones, son ejemplos de sistemas tecnológicos.",
      "ubicacion": "Guía 30, p. 7"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Los sistemas: son conjuntos o grupos de elementos ligados entre sí por relaciones estructurales o funcionales, diseñados para lograr colectivamente un objetivo.",
+     "ubicacion": "Guía 30, p. 7"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "Para clasificar, aplica la definición de la Guía 30: los sistemas son «conjuntos o grupos de elementos ligados entre sí por relaciones estructurales o funcionales, diseñados para lograr colectivamente un objetivo». La misma guía da ejemplos: «La generación y distribución de la energía eléctrica, las redes de transporte, las tecnologías de la información y la comunicación, el suministro de alimentos y las organizaciones». El destornillador es un artefacto y la elaboración de una mesa es un proceso. Es de nivel 2 porque hay que aplicar las tres definiciones a ejemplos y descartar con la razón que da cada opción, no solo con el nombre.",
+   "revisado": true
   },
   {
    "id": "K003",
@@ -2590,30 +2659,43 @@
    "opciones": [
     {
      "l": "A",
-     "t": "una invención, porque el molino resultante tiene una función que antes no cumplía.",
-     "j": "Es incorrecta. La invención es un producto inexistente hasta el momento; el molino ya existía."
+     "t": "una invención, porque el molino adaptado cumple una función que antes no tenía.",
+     "j": "Es incorrecta. Tener una función nueva no basta: la Guía 30 define la invención como un producto, sistema o proceso «inexistente hasta el momento». El molino y el generador ya existían; los estudiantes los combinan."
     },
     {
      "l": "B",
-     "t": "un descubrimiento, porque los estudiantes hallaron una nueva forma de aprovechar el viento.",
-     "j": "Es incorrecta. El descubrimiento es el hallazgo de un fenómeno oculto o desconocido, como la gravedad."
+     "t": "un descubrimiento, porque los estudiantes hallaron otra forma de aprovechar el viento.",
+     "j": "Es incorrecta. Para la Guía 30, el descubrimiento es el hallazgo de un fenómeno que estaba oculto o era desconocido, como la gravedad o la penicilina. El viento y su aprovechamiento ya eran conocidos."
     },
     {
      "l": "C",
-     "t": "una innovación, porque introduce cambios para mejorar un artefacto que ya existía.",
-     "j": "Es correcta. La innovación implica introducir cambios para mejorar artefactos, procesos y sistemas existentes."
+     "t": "una innovación, porque mejora un artefacto existente combinándolo con otra tecnología.",
+     "j": "Es correcta. La innovación implica «introducir cambios para mejorar artefactos, procesos y sistemas existentes», y puede basarse «en la combinación de las ya existentes para nuevos usos», que es lo que hacen los estudiantes."
     }
    ],
    "clave": "C",
    "fuente": "Guía 30, p. 8",
-   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "consejo": "¿Ya existía? Mejorarlo o combinarlo = innovación; crearlo de cero = invención.",
    "citas": [
     {
      "doc": "guia30_mineducacion_2008",
      "texto": "La innovación implica introducir cambios para mejorar artefactos, procesos y sistemas existentes",
      "ubicacion": "Guía 30, p. 8"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "La innovación puede involucrar nuevas tecnologías o basarse en la combinación de las ya existentes para nuevos usos.",
+     "ubicacion": "Guía 30, p. 8"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "La invención corresponde a un nuevo producto, sistema o proceso inexistente hasta el momento.",
+     "ubicacion": "Guía 30, p. 8"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque la opción de invención es muy atractiva: el molino hace algo que antes no hacía. La Guía 30 resuelve la duda con tres definiciones. La invención es un producto «inexistente hasta el momento»; el descubrimiento es el hallazgo de un fenómeno oculto o desconocido; y la innovación implica «introducir cambios para mejorar artefactos, procesos y sistemas existentes» y puede basarse «en la combinación de las ya existentes para nuevos usos». Molino y generador existían, y los estudiantes los combinan para un nuevo uso: es innovación. Pregúntate siempre si lo que se describe ya existía antes del cambio.",
+   "revisado": true
   },
   {
    "id": "K004",
@@ -2625,30 +2707,33 @@
    "opciones": [
     {
      "l": "A",
-     "t": "la ciencia busca entender el mundo natural y la tecnología lo modifica para satisfacer necesidades humanas.",
-     "j": "Es correcta. Así lo plantea la Guía 30 citando al National Research Council."
+     "t": "la ciencia usa el método experimental y la tecnología se basa solo en la experiencia práctica.",
+     "j": "Es incorrecta. El saber empírico o artesanal es lo que la Guía 30 asocia con la técnica, no con la tecnología. Además, la guía dice que ciencia y tecnología están estrechamente relacionadas, no que una sea solo práctica."
     },
     {
      "l": "B",
-     "t": "la ciencia usa el método experimental y la tecnología se basa únicamente en la experiencia práctica.",
-     "j": "Es incorrecta. El saber empírico describe a la técnica, y la guía afirma que ciencia y tecnología comparten procesos de construcción de conocimiento."
+     "t": "la ciencia busca entender el mundo y la tecnología lo modifica para satisfacer necesidades.",
+     "j": "Es correcta. La Guía 30 lo dice así: «la ciencia busca entender el mundo natural y la tecnología modifica el mundo para satisfacer necesidades humanas». La diferencia está en el propósito: comprender frente a transformar."
     },
     {
      "l": "C",
-     "t": "la ciencia produce conocimientos teóricos y la tecnología produce exclusivamente aparatos electrónicos.",
-     "j": "Es incorrecta. La Guía 30 rechaza reducir la tecnología a dispositivos electrónicos."
+     "t": "la ciencia produce conocimientos teóricos y la tecnología produce únicamente aparatos electrónicos.",
+     "j": "Es incorrecta. Reduce la tecnología a dispositivos electrónicos, una idea que la Guía 30 rechaza: la tecnología incluye artefactos, procesos y sistemas de todo tipo, no solo aparatos electrónicos."
     }
    ],
-   "clave": "A",
+   "clave": "B",
    "fuente": "Guía 30, p. 7",
-   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "consejo": "Ciencia = entender; tecnología = transformar para satisfacer necesidades.",
    "citas": [
     {
      "doc": "guia30_mineducacion_2008",
      "texto": "la ciencia busca entender el mundo natural y la tecnología modifica el mundo para satisfacer necesidades humanas.",
      "ubicacion": "Guía 30, p. 7"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El enunciado pide la diferencia según el propósito, y la Guía 30 la da con una frase: «la ciencia busca entender el mundo natural y la tecnología modifica el mundo para satisfacer necesidades humanas». Enseguida aclara que ambas están estrechamente relacionadas. Los distractores repiten dos ideas erradas muy comunes: confundir la tecnología con la técnica (saber hacer empírico) y reducirla a aparatos electrónicos. Es de nivel 2 porque hay que reconocer cuál de las diferencias responde al criterio pedido. En el aula, esta distinción ayuda a integrar el área con ciencias naturales sin confundirlas.",
+   "revisado": true
   },
   {
    "id": "K005",
@@ -2660,30 +2745,38 @@
    "opciones": [
     {
      "l": "A",
-     "t": "tecnología y sociedad, porque el trabajo con artefactos tiene efectos en la vida de la comunidad.",
-     "j": "Es incorrecta. Ese componente trata actitudes, valoración social y participación."
+     "t": "tecnología y sociedad, porque trabajar con artefactos tiene efectos en la vida de la comunidad.",
+     "j": "Es incorrecta. Todo artefacto tiene efectos sociales, pero el componente de tecnología y sociedad se ocupa de actitudes, valoración de impactos y participación. Ensamblar y desarmar es una acción práctica sobre el artefacto."
     },
     {
      "l": "B",
-     "t": "solución de problemas con tecnología, porque desarmar y ensamblar permite comprender cómo funcionan y detectar fallas.",
-     "j": "Es correcta. En la tabla de 1° a 3°, este desempeño aparece en la columna de solución de problemas con tecnología."
+     "t": "naturaleza y evolución, porque permite conocer cómo eran los artefactos que se usaban antes.",
+     "j": "Es incorrecta. Ese componente trata conceptos fundamentales e historia de la tecnología. El desempeño no menciona el pasado ni conceptos; describe una acción de armar y desarmar siguiendo instrucciones."
     },
     {
      "l": "C",
-     "t": "naturaleza y evolución de la tecnología, porque permite conocer los artefactos que se usaban en el pasado.",
-     "j": "Es incorrecta. Ese componente trata conceptos e historia, no la manipulación de artefactos."
+     "t": "solución de problemas, porque desarmar y ensamblar ayuda a comprender cómo funcionan.",
+     "j": "Es correcta. En la tabla de 1.° a 3.° de la Guía 30, este desempeño está en la columna de solución de problemas con tecnología, junto con detectar fallas simples e indagar cómo funcionan los artefactos."
     }
    ],
-   "clave": "B",
+   "clave": "C",
    "fuente": "Guía 30, p. 17",
-   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "consejo": "Armar, desarmar, detectar fallas → solución de problemas.",
    "citas": [
     {
      "doc": "guia30_mineducacion_2008",
      "texto": "Ensamblo y desarmo artefactos y dispositivos sencillos siguiendo instrucciones gráficas.",
      "ubicacion": "Guía 30, p. 17"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Detecto fallas simples en el funcionamiento de algunos artefactos sencillos, actúo de manera segura frente a ellos e informo a los adultos mis observaciones.",
+     "ubicacion": "Guía 30, p. 17"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "Para ubicar un desempeño, mira el verbo y lo que hace el estudiante. En la Guía 30, la columna de solución de problemas con tecnología de 1.° a 3.° agrupa acciones como detectar fallas simples, indagar cómo están construidos los artefactos y «Ensamblo y desarmo artefactos y dispositivos sencillos siguiendo instrucciones gráficas». Son acciones para comprender el funcionamiento y resolver problemas. Naturaleza y evolución trata conceptos e historia, y tecnología y sociedad trata actitudes e impactos. Es de nivel 2 porque los distractores dan razones que suenan lógicas para otros componentes.",
+   "revisado": true
   },
   {
    "id": "K006",
@@ -2696,29 +2789,37 @@
     {
      "l": "A",
      "t": "la reflexión sobre los impactos sociales, ambientales y culturales de los productos tecnológicos.",
-     "j": "Es incorrecta. Esa es la descripción del componente Tecnología y sociedad."
+     "j": "Es incorrecta. La reflexión sobre impactos sociales, ambientales y culturales corresponde al componente de tecnología y sociedad. Es una confusión frecuente porque usar críticamente la tecnología también implica valorarla."
     },
     {
      "l": "B",
-     "t": "la comprensión de los conceptos fundamentales de la tecnología y de su evolución en la historia.",
-     "j": "Es incorrecta. Esa es la descripción del componente Naturaleza y evolución."
+     "t": "la utilización adecuada, pertinente y crítica de artefactos, productos, procesos y sistemas.",
+     "j": "Es correcta. La Guía 30 dice que este componente «se trata de la utilización adecuada, pertinente y crítica de la tecnología» en sus diferentes manifestaciones. La palabra clave es utilización."
     },
     {
      "l": "C",
-     "t": "la utilización adecuada, pertinente y crítica de artefactos, productos, procesos y sistemas tecnológicos.",
-     "j": "Es correcta. Así define la Guía 30 este componente."
+     "t": "la comprensión de los conceptos fundamentales de la tecnología y de su evolución histórica.",
+     "j": "Es incorrecta. Los conceptos fundamentales y la historia de la tecnología son el objeto del componente de naturaleza y evolución, que la Guía 30 describe como las características, objetivos y conceptos de la tecnología."
     }
    ],
-   "clave": "C",
+   "clave": "B",
    "fuente": "Guía 30, p. 14",
-   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "consejo": "Apropiación y uso → utilizar de forma adecuada, pertinente y crítica.",
    "citas": [
     {
      "doc": "guia30_mineducacion_2008",
      "texto": "Se trata de la utilización adecuada, pertinente y crítica de la tecnología",
      "ubicacion": "Guía 30, p. 14"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Se refiere a las características y objetivos de la tecnología, a sus conceptos fundamentales",
+     "ubicacion": "Guía 30, p. 14"
     }
-   ]
+   ],
+   "dificultad": 1,
+   "explicacion": "Pregunta de conocimiento de nivel 1. La Guía 30 describe cada componente con una frase. De apropiación y uso dice que «se trata de la utilización adecuada, pertinente y crítica de la tecnología». De naturaleza y evolución, que «se refiere a las características y objetivos de la tecnología, a sus conceptos fundamentales». La reflexión sobre impactos pertenece a tecnología y sociedad. Un truco para la prueba: busca la palabra clave de cada componente (conceptos, uso, problemas, sociedad) y relaciónala con lo que hace el estudiante en el enunciado.",
+   "revisado": true
   },
   {
    "id": "K007",
@@ -2726,34 +2827,37 @@
    "ficha": "F04",
    "familia": "DIS-SIST",
    "competencia": "Naturaleza y evolución",
-   "enunciado": "Una plancha de ropa se apaga sola cuando alcanza la temperatura elegida y se enciende de nuevo cuando se enfría. Para explicarlo en grado séptimo, el docente debe señalar que la plancha",
+   "enunciado": "Una plancha se apaga sola al alcanzar la temperatura elegida y se enciende de nuevo cuando se enfría. Para explicarlo en grado octavo, el docente debe señalar que la plancha",
    "opciones": [
     {
      "l": "A",
      "t": "funciona en lazo abierto, porque el usuario elige la temperatura antes de empezar a planchar.",
-     "j": "Es incorrecta. Elegir un valor no define el tipo de lazo; lo define si la salida se mide y se usa para corregir."
+     "j": "Es incorrecta. Elegir un valor de referencia no define el tipo de lazo. Lo que define un lazo cerrado es que la salida (la temperatura real) se mide y esa información se usa para corregir, y eso es lo que hace la plancha."
     },
     {
      "l": "B",
-     "t": "funciona con realimentación, porque un elemento mide la temperatura y esa información se usa para encender o apagar la resistencia.",
-     "j": "Es correcta. La medida de la salida vuelve al control para corregir: es un sistema de control con realimentación."
+     "t": "no tiene un sistema de control, porque es un solo artefacto y no un conjunto de varios aparatos.",
+     "j": "Es incorrecta. Un artefacto puede contener un sistema de control. La Guía 30 pide en 8.° y 9.° identificar «artefactos que contienen sistemas de control con realimentación», justamente como la plancha."
     },
     {
      "l": "C",
-     "t": "no es un sistema, porque es un solo artefacto y los sistemas siempre están formados por varios artefactos.",
-     "j": "Es incorrecta. Un artefacto puede contener un sistema de control; la Guía 30 pide identificar artefactos que contienen sistemas de control con realimentación."
+     "t": "tiene control con realimentación, porque mide la temperatura y usa ese dato para encender o apagar.",
+     "j": "Es correcta. La medida de la temperatura vuelve al control y decide si la resistencia se enciende o se apaga. Es un artefacto que contiene un sistema de control con realimentación, como pide identificar la Guía 30."
     }
    ],
-   "clave": "B",
+   "clave": "C",
    "fuente": "Guía 30, 8° a 9°",
-   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "consejo": "¿Mide la salida y corrige? → realimentación (lazo cerrado).",
    "citas": [
     {
      "doc": "guia30_mineducacion_2008",
      "texto": "Identifico artefactos que contienen sistemas de control con realimentación.",
      "ubicacion": "Guía 30, 8° a 9°"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque exige descartar dos ideas erróneas plausibles: que elegir la temperatura hace al sistema de lazo abierto y que un solo artefacto no puede tener un sistema de control. La Guía 30 pide en 8.° y 9.° «Identifico artefactos que contienen sistemas de control con realimentación», y en 6.° y 7.° describir el rol de la realimentación. La plancha mide la temperatura real y usa esa información para encender o apagar la resistencia: la salida vuelve a la entrada, hay realimentación. Para decidir, pregúntate siempre si el sistema verifica el resultado y corrige.",
+   "revisado": true
   },
   {
    "id": "K008",
@@ -2765,30 +2869,33 @@
    "opciones": [
     {
      "l": "A",
-     "t": "el sensor de luz, porque es el elemento que detecta cuándo oscurece.",
-     "j": "Es incorrecta. El sensor mide; no ejecuta la acción."
+     "t": "el interruptor automático de las lámparas, porque ejecuta la orden.",
+     "j": "Es correcta. El actuador es el elemento que ejecuta la acción que decide el controlador. Aquí, el interruptor automático conecta las lámparas cuando recibe la orden: es quien actúa sobre el sistema."
     },
     {
      "l": "B",
-     "t": "el interruptor automático que conecta las lámparas, porque ejecuta la orden de encender.",
-     "j": "Es correcta. El actuador es el elemento que ejecuta la acción ordenada por el controlador."
+     "t": "el sensor de luz instalado en el poste, porque detecta el momento en que oscurece.",
+     "j": "Es incorrecta. El sensor mide la luz y entrega esa información, pero no ejecuta la acción. Es el error típico de confundir el elemento que detecta con el que actúa en un sistema automático."
     },
     {
      "l": "C",
-     "t": "el valor mínimo de luz programado, porque determina el momento del encendido.",
-     "j": "Es incorrecta. Ese valor es la referencia con la que compara el controlador."
+     "t": "el nivel mínimo de luz programado, porque determina en qué momento se encienden.",
+     "j": "Es incorrecta. Ese nivel es el valor de referencia con el que el controlador compara la medida del sensor. Determina cuándo se da la orden, pero no es un elemento físico que la ejecute."
     }
    ],
-   "clave": "B",
+   "clave": "A",
    "fuente": "Guía 30, 6° a 7°",
-   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "consejo": "Sensor mide → controlador decide → actuador ejecuta.",
    "citas": [
     {
      "doc": "guia30_mineducacion_2008",
      "texto": "Describo el rol de la realimentación en el funcionamiento automático de algunos sistemas.",
      "ubicacion": "Guía 30, 6° a 7°"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "En un sistema automático, cada elemento cumple una función: el sensor mide, el controlador compara la medida con un valor de referencia y decide, y el actuador ejecuta la orden. La Guía 30 pide en 6.° y 7.° «Describo el rol de la realimentación en el funcionamiento automático de algunos sistemas», y para eso hay que distinguir esas funciones. En el alumbrado, el sensor detecta la poca luz, el nivel programado es la referencia y el interruptor automático que conecta las lámparas es el actuador. Es de nivel 2 porque hay que aplicar las funciones a un sistema concreto. Recuerda: sensor mide, controlador decide, actuador ejecuta.",
+   "revisado": true
   },
   {
    "id": "K009",

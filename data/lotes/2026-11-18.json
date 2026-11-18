@@ -1,0 +1,870 @@
+{
+ "id": "2026-11-18",
+ "fecha": "2026-11-18",
+ "casos": [
+  {
+   "id": "C137",
+   "titulo": "El plan de área se actualiza",
+   "texto": "En una institución educativa oficial de Yopal, el consejo académico pide al área de Tecnología e Informática actualizar su plan de área con las Orientaciones Curriculares del MEN (2022). El plan vigente fue escrito en 2015 con base en la Guía 30. La docente de Tecnología e Informática coordina el trabajo con dos colegas: uno de ellos propone copiar el documento del Ministerio tal como está y el otro propone aprovechar la autonomía institucional para reorganizar el área como mejor le parezca al equipo."
+  },
+  {
+   "id": "C138",
+   "titulo": "La sede rural sin conectividad",
+   "texto": "Una institución educativa oficial de Yopal tiene una sede rural en una vereda donde la conexión a internet es intermitente y solo hay seis computadores. Varios estudiantes nunca han usado un computador fuera de la escuela. En la reunión de sede, un docente propone dejar Tecnología e Informática en suspenso hasta que llegue la conectividad prometida por el municipio y dedicar esas horas a reforzar lenguaje y matemáticas."
+  },
+  {
+   "id": "C139",
+   "titulo": "La jornada de socialización",
+   "texto": "La rectora de una institución oficial de Yopal encarga a la docente de Tecnología e Informática una jornada pedagógica para socializar las Orientaciones Curriculares del área (MEN, 2022). La docente prepara un recorrido por los capítulos del documento: antecedentes, aspectos conceptuales, propósitos y componentes, estrategias didácticas, evaluación y recomendaciones. Al revisar el plan de evaluación del área, encuentra que cada periodo se califica solo con un examen escrito final sobre comandos de programas."
+  },
+  {
+   "id": "C140",
+   "titulo": "Once investiga el Sistema Nacional",
+   "texto": "Para un proyecto de ciudadanía digital, los estudiantes de grado once de una institución oficial de Yopal estudian con la docente de Tecnología e Informática los artículos 7 y 8 de la Ley 1620 de 2013, que conforman el Comité Nacional de Convivencia Escolar y le asignan funciones. Con lo que leen, deben diseñar una infografía interactiva para el resto del colegio, y la docente revisa que cada afirmación de la infografía coincida con el texto de la ley."
+  },
+  {
+   "id": "C141",
+   "titulo": "La inducción sobre el Estatuto",
+   "texto": "En un grupo de estudio de aspirantes al concurso docente en Yopal, una ingeniera de sistemas que se inscribió para Tecnología e Informática revisa con sus compañeros los artículos 6, 7 y 8 del Decreto 1278 de 2002. En el grupo hay licenciados, profesionales no licenciados y una normalista superior, y surgen dudas sobre los cargos directivos, los requisitos de ingreso y para qué sirve el concurso."
+  },
+  {
+   "id": "C142",
+   "titulo": "De los desempeños a las evidencias",
+   "texto": "Al revisar la malla curricular de Tecnología e Informática de una institución oficial de Yopal, la coordinadora académica encuentra que todos los grados siguen enunciando «desempeños» copiados de la Guía 30 y que el área se presenta como «manejo de programas de oficina». Le pide a la docente del área que explique, con el capítulo de antecedentes de las Orientaciones Curriculares (MEN, 2022), qué debe ajustarse y por qué."
+  }
+ ],
+ "fichas": [
+  {
+   "id": "F31",
+   "familia": "DIS-COMP",
+   "titulo": "De la Guía 30 a las Orientaciones de 2022: qué cambió",
+   "lectura": "El capítulo de antecedentes de las Orientaciones Curriculares de Tecnología e Informática (MEN, 2022) cuenta cómo llegó el área hasta hoy. En 2005 el MEN, con apoyo de ASCOFADE, emprendió la definición de los estándares de competencias del área; el resultado fue la Guía 30 (MEN, 2008), que se convirtió en el único referente curricular para Tecnología e Informática. La Guía 30 organizó el estudio de la tecnología en cuatro componentes y, para cada uno, definió competencias y desempeños, con un propósito de alfabetización tecnológica. Las Orientaciones reconocen sus aportes, pero señalan un vacío: no incluyó de forma explícita el trabajo de aula con la informática, y esa es una de las razones para actualizar el referente. Además, siguiendo una actualización de las políticas de evaluación del MEN (2019), el documento de 2022 ya no habla de desempeños sino de evidencias de aprendizaje.",
+   "puntos": [
+    "2005: el MEN y ASCOFADE definen los estándares; 2008: se publica la Guía 30, único referente curricular del área hasta las Orientaciones.",
+    "La Guía 30 definió, por componente, competencias y desempeños; tenía como propósito la alfabetización tecnológica.",
+    "Vacío que motivó la actualización: la Guía 30 no incluyó de forma explícita el trabajo de aula con la informática.",
+    "Desde el MEN (2019) lo que se establece son evidencias de aprendizaje, no desempeños; así se enuncian en las Orientaciones de 2022.",
+    "Trampa CNSC: creer que las Orientaciones de 2022 cambian los cuatro componentes o eliminan las competencias; lo que cambia es la enunciación (evidencias) y el lugar explícito de la informática."
+   ],
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "En 2005, el MEN con apoyo de la Asociación Colombiana de Facultades de Educación -ASCOFADE- emprendió la definición de los estándares de competencias para el Área de Tecnología e Informática",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 1.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "constituyéndose en el único referente curricular para el Área T&I.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 1.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "No obstante, no se incluyó de forma explícita el trabajo de aula con la informática",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 1.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Una reciente actualización sobre las políticas de evaluación al interior del MEN (2019), ratificó que lo que se establece no son desempeños sino evidencias de aprendizaje, motivo por el cual, esa será la enunciación usada para este documento.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 1.1"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "Q197",
+   "tipo": "caso",
+   "caso": "C137",
+   "familia": "DIS-COMP",
+   "dificultad": 2,
+   "competencia": "Componentes del área",
+   "enunciado": "El plan de 2015 organiza el área en «naturaleza y evolución de la tecnología», «apropiación y uso de la tecnología», «solución de problemas con tecnología» y «tecnología y sociedad». Según la introducción de las Orientaciones de 2022, el ajuste que corresponde es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "reemplazar los cuatro componentes por ejes de ofimática, programación, redes y robótica escolar.",
+     "j": "Es incorrecta. Ofimática, programación, redes y robótica son contenidos o herramientas posibles, pero no son los componentes estructurales del área. Las Orientaciones ratifican cuatro componentes; esta opción los elimina y reduce el área a temas técnicos."
+    },
+    {
+     "l": "B",
+     "t": "conservar los cuatro componentes e incluir la informática en el nombre y el alcance de cada uno.",
+     "j": "Es correcta. La introducción dice que el tercer capítulo «ratifica y actualiza los cuatro componentes estructurales», y los nombra incluyendo en todos la informática: naturaleza y evolución, apropiación, solución de problemas y sociedad, siempre con tecnología e informática."
+    },
+    {
+     "l": "C",
+     "t": "mantener los cuatro componentes de 2008 y agregar un quinto componente dedicado solo a las TIC.",
+     "j": "Es incorrecta. Parece una actualización razonable, pero las Orientaciones no crean un quinto componente para las TIC. Lo que hacen es ratificar los cuatro y actualizarlos para que la informática quede incluida en cada uno de ellos."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave del texto es «ratifica y actualiza». Ratificar significa que los cuatro componentes de la Guía 30 se mantienen; actualizar significa que ahora cada uno incluye la informática: «Naturaleza y evolución de la tecnología y la informática, apropiación de la tecnología y la informática, solución de problemas con tecnología e informática y, tecnología, informática y sociedad». Por eso el plan no debe reemplazar los componentes por temas técnicos ni añadir uno nuevo para las TIC. En la prueba, cuando un caso pregunte por la estructura del área, recuerda: siguen siendo cuatro componentes y la informática atraviesa todos.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), Introducción (capítulo tercero).",
+   "consejo": "2022 = los mismos cuatro componentes + «e informática» en cada uno.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "ratifica y actualiza los cuatro componentes estructurales para el estudio de la tecnología y la informática: Naturaleza y evolución de la tecnología y la informática, apropiación de la tecnología y la informática, solución de problemas con tecnología e informática y, tecnología, informática y sociedad",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Introducción"
+    }
+   ]
+  },
+  {
+   "id": "Q198",
+   "tipo": "caso",
+   "caso": "C137",
+   "familia": "PED-CURR",
+   "dificultad": 3,
+   "competencia": "Currículo y plan de área",
+   "enunciado": "Ante las dos propuestas de sus colegas, la decisión de la docente que se ajusta a lo que dicen las Orientaciones sobre su propio uso es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "adaptar la estructura al PEI y al contexto de la institución, conservando los componentes estructurales del área.",
+     "j": "Es correcta. Las Orientaciones se aplican «en el marco de la autonomía de los Establecimientos Educativos» y son un «derrotero general» que cada institución puede asumir, ajustar o rediseñar, pero «siempre conservando estos componentes estructurales»."
+    },
+    {
+     "l": "B",
+     "t": "adoptar el documento del Ministerio sin cambios, porque las orientaciones nacionales no admiten ajustes institucionales.",
+     "j": "Es incorrecta. Confunde un referente de calidad con un plan de estudios obligatorio. El texto dice expresamente que los establecimientos pueden asumir la estructura, ajustarla o rediseñarla en propuestas curriculares propias, dentro de su PEI."
+    },
+    {
+     "l": "C",
+     "t": "reorganizar el área con total libertad, porque la autonomía del artículo 77 permite prescindir de los componentes.",
+     "j": "Es incorrecta. Es una verdad a medias: la autonomía institucional existe y el documento la reconoce, pero tiene un límite. Las Orientaciones permiten ajustar o rediseñar «siempre conservando estos componentes estructurales», así que no se pueden eliminar."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Es un ítem de nivel 3 porque las dos propuestas de los colegas tienen algo de verdad. Las Orientaciones promueven la formación del área «en el marco de la autonomía de los Establecimientos Educativos (Art. 77 Ley 115 de 1994) y sus Proyectos Educativos Institucionales», y luego aclaran que sus referentes son un «derrotero general» que se puede asumir, ajustar o rediseñar, «siempre conservando estos componentes estructurales». Copiar sin cambios desconoce la autonomía; reorganizar sin límites desconoce la condición de conservar los componentes. La lógica CNSC: autonomía curricular sí, pero dentro de los referentes nacionales y del PEI.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), Introducción; Ley 115 de 1994, art. 77 (citado en las Orientaciones).",
+   "consejo": "Autonomía con límite: ajustar o rediseñar, pero conservando los cuatro componentes.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "promueve, en el marco de la autonomía de los Establecimientos Educativos (Art. 77 Ley 115 de 1994) y sus Proyectos Educativos Institucionales, la formación en el área de Tecnología e Informática",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Introducción"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Estos referentes son derrotero general para que los establecimientos educativos públicos y privados del país, asuman esta estructura, la ajusten o rediseñen en propuestas curriculares propias, siempre conservando estos componentes estructurales para la formación en Tecnología e Informática.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Introducción"
+    }
+   ]
+  },
+  {
+   "id": "Q199",
+   "tipo": "caso",
+   "caso": "C138",
+   "familia": "DIS-CTS",
+   "dificultad": 2,
+   "competencia": "Tecnología, informática y sociedad",
+   "enunciado": "La docente de Tecnología e Informática quiere argumentar en la reunión por qué el área tiene un sentido especial en esa vereda. El propósito de formación de la introducción de las Orientaciones que mejor sustenta su argumento es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "preparar a los estudiantes para presentar certificaciones internacionales en el manejo de programas de oficina.",
+     "j": "Es incorrecta. Las Orientaciones no plantean como propósito del área las certificaciones en programas de oficina. Esta opción reduce el área al uso instrumental y no responde a la situación de desigualdad que describe el caso."
+    },
+    {
+     "l": "B",
+     "t": "atender los cambios tecnológicos de los últimos 20 años para reducir la desigualdad y la brecha digital.",
+     "j": "Es correcta. Uno de los propósitos es «atender con celeridad a los cambios que la Tecnología y la Informática han gestado» en los últimos 20 años, «con el fin de reducir las condiciones de desigualdad, la brecha social, económica y digital»."
+    },
+    {
+     "l": "C",
+     "t": "formar técnicos en mantenimiento de equipos para que la sede dependa menos de proveedores externos.",
+     "j": "Es incorrecta. La formación técnica especializada puede ser un proyecto de la media técnica, pero no es el propósito general que la introducción señala. El argumento pedido es por qué el área importa para reducir la brecha en esa comunidad."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El caso describe una vereda con poca conectividad y estudiantes que nunca han usado un computador fuera de la escuela: es una situación de brecha digital. La introducción de las Orientaciones plantea como propósito del área «atender con celeridad a los cambios que la Tecnología y la Informática han gestado en la vida de las personas en los últimos 20 años, con el fin de reducir las condiciones de desigualdad, la brecha social, económica y digital de las poblaciones». Las otras opciones nombran fines instrumentales o técnicos que no están en ese texto. En la CNSC, el área se defiende por su función social y de equidad, no solo por el manejo de programas.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), Introducción, propósitos.",
+   "consejo": "Brecha digital en el caso → propósito de reducir desigualdad (Orientaciones 2022).",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Atender con celeridad a los cambios que la Tecnología y la Informática han gestado en la vida de las personas en los últimos 20 años, con el fin de reducir las condiciones de desigualdad, la brecha social, económica y digital de las poblaciones.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Introducción"
+    }
+   ]
+  },
+  {
+   "id": "Q200",
+   "tipo": "caso",
+   "caso": "C137",
+   "familia": "LC-LIT",
+   "dificultad": 1,
+   "competencia": "Lectura literal",
+   "enunciado": "Para que el plan de área use las mismas definiciones de tecnología, informática y TIC del Ministerio, según la introducción la docente debe consultar el capítulo",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "primero, porque presenta los antecedentes históricos del área y sus necesidades de actualización.",
+     "j": "Es incorrecta. El primer capítulo sí existe y trata los antecedentes históricos y las necesidades de actualización, pero no es donde se establecen las definiciones. Ubicar el contenido exacto de cada capítulo evita esta confusión."
+    },
+    {
+     "l": "B",
+     "t": "tercero, porque presenta los propósitos de formación y los cuatro componentes estructurales del área.",
+     "j": "Es incorrecta. El tercer capítulo trata los propósitos de formación y los componentes, que se relacionan con las definiciones, pero la introducción no dice que allí se establezca qué se entiende por tecnología, informática y TIC."
+    },
+    {
+     "l": "C",
+     "t": "segundo, porque señala los aspectos conceptuales y establece qué se entiende por tecnología, informática y TIC.",
+     "j": "Es correcta. La introducción dice que el segundo capítulo «señala los aspectos conceptuales» y «establece qué entendemos por tecnología, informática y tecnología de la información y la comunicación -TIC». Es el capítulo que responde a la necesidad del plan."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es una pregunta de lectura literal: hay que ubicar la frase exacta. La introducción describe los seis capítulos. Del segundo dice que «señala los aspectos conceptuales para la construcción curricular del área» y que «establece qué entendemos por tecnología, informática y tecnología de la información y la comunicación -TIC». Las otras opciones describen correctamente otros capítulos, pero no el que contiene las definiciones. En lectura crítica, las opciones incorrectas suelen ser datos verdaderos del mismo texto que no responden a lo que pregunta el enunciado; subraya la palabra clave («definiciones») antes de elegir.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), Introducción.",
+   "consejo": "Definiciones de tecnología, informática y TIC → capítulo 2 de las Orientaciones.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "El segundo señala los aspectos conceptuales para la construcción curricular del área de tecnología e informática, establece qué entendemos por tecnología, informática y tecnología de la información y la comunicación -TIC",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Introducción"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Seis capítulos conforman estas orientaciones. El primero presenta los antecedentes históricos del área y sus necesidades de actualización.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Introducción"
+    }
+   ]
+  },
+  {
+   "id": "Q201",
+   "tipo": "caso",
+   "caso": "C140",
+   "familia": "NOR-SIST",
+   "dificultad": 3,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "Un equipo escribe en la infografía: «Cada comité escolar de convivencia crea su propio mecanismo nacional de denuncia de ciberbullying en redes sociales». Al contrastarlo con el artículo 8, la docente les explica que la ley asigna",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "al Comité Nacional coordinar la creación de mecanismos de denuncia y seguimiento en internet de los casos de ciberbullying.",
+     "j": "Es correcta. El numeral 9 del artículo 8 asigna al Comité Nacional de Convivencia Escolar «coordinar la creación de mecanismos de denuncia y seguimiento en internet, redes sociales y demás tecnologías de información a los casos de ciberbullying»."
+    },
+    {
+     "l": "B",
+     "t": "al Ministerio de Tecnologías de la Información crear por sí solo los mecanismos de denuncia de ciberbullying en internet.",
+     "j": "Es incorrecta. El Ministro TIC o su viceministro delegado integra el Comité Nacional, pero el artículo 8 no le asigna esa función por sí solo. La función de coordinar los mecanismos de denuncia es del Comité Nacional como cuerpo."
+    },
+    {
+     "l": "C",
+     "t": "a cada comité escolar crear sus mecanismos de denuncia en redes, que luego el Comité Nacional se encarga de aprobar.",
+     "j": "Es incorrecta. Mantiene el error de la infografía con un paso adicional que la ley no menciona. El artículo 8 no dice que los comités escolares creen mecanismos nacionales ni que el Comité Nacional los apruebe; dice que este coordina su creación."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Es de nivel 3 porque las tres opciones nombran instancias reales del sistema y hay que precisar a cuál le asigna la ley la función. El numeral 9 del artículo 8 de la Ley 1620 de 2013 es claro: corresponde al Comité Nacional de Convivencia Escolar «coordinar la creación de mecanismos de denuncia y seguimiento en internet, redes sociales y demás tecnologías de información a los casos de ciberbullying». Que el Ministro TIC sea miembro del comité no convierte la función en suya, y el comité escolar actúa en el nivel de la institución. Recuerda: en el Sistema Nacional cada función tiene una instancia y un nivel precisos.",
+   "fuente": "Ley 1620 de 2013, art. 8, num. 9.",
+   "consejo": "Mecanismos de denuncia de ciberbullying en internet → los coordina el Comité Nacional.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Coordinar la creación de mecanismos de denuncia y seguimiento en internet, redes sociales y demás tecnologías de información a los casos de ciberbullying.",
+     "ubicacion": "Ley 1620 de 2013, art. 8, num. 9"
+    }
+   ]
+  },
+  {
+   "id": "Q202",
+   "tipo": "caso",
+   "caso": "C140",
+   "familia": "NOR-SIST",
+   "dificultad": 1,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "Para la sección «¿Quién preside?» de la infografía, según el artículo 7 de la Ley 1620 de 2013 el Comité Nacional de Convivencia Escolar lo preside",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el Director del Instituto Colombiano de Bienestar Familiar o el subdirector que él delegue.",
+     "j": "Es incorrecta. El Director del ICBF o un subdirector delegado sí integra de manera permanente el Comité Nacional, pero el artículo 7 no le asigna la presidencia. Es un distractor que nombra un miembro real con la función equivocada."
+    },
+    {
+     "l": "B",
+     "t": "el Defensor del Pueblo o su delegado, por tratarse de un comité de protección de derechos.",
+     "j": "Es incorrecta. El Defensor del Pueblo o su delegado es miembro del comité, y la razón que da la opción suena lógica, pero la ley dice expresamente quién lo preside y no es el Defensor del Pueblo."
+    },
+    {
+     "l": "C",
+     "t": "el Ministro de Educación Nacional o el Viceministro de Educación, según lo dispone la ley.",
+     "j": "Es correcta. El artículo 7 dice que el comité estará integrado por «El Ministro de Educación Nacional, o el Viceministro de Educación, quien lo presidirá». La presidencia es del sector educativo."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Pregunta de nivel 1: se reconoce un dato de la norma. El artículo 7 de la Ley 1620 de 2013 enumera los integrantes permanentes del Comité Nacional de Convivencia Escolar y, en el primero de la lista, señala la presidencia: «El Ministro de Educación Nacional, o el Viceministro de Educación, quien lo presidirá». El ICBF y la Defensoría del Pueblo también hacen parte del comité, por eso son distractores atractivos. Para recordar la lógica del sistema: es un sistema de convivencia escolar, y por eso lo encabeza el sector educación, aunque participen salud, cultura, TIC, protección y control.",
+   "fuente": "Ley 1620 de 2013, art. 7.",
+   "consejo": "Comité Nacional de Convivencia → lo preside el Ministro (o Viceministro) de Educación.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "El Ministro de Educación Nacional, o el Viceministro de Educación, quien lo presidirá",
+     "ubicacion": "Ley 1620 de 2013, art. 7"
+    },
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Para el cumplimiento de las funciones del Sistema Nacional se conformará un Comité Nacional de Convivencia Escolar",
+     "ubicacion": "Ley 1620 de 2013, art. 7"
+    }
+   ]
+  },
+  {
+   "id": "Q203",
+   "tipo": "caso",
+   "caso": "C140",
+   "familia": "NOR-SIST",
+   "dificultad": 3,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "Un estudiante pregunta si algún rector de colegio puede ser miembro del Comité Nacional. La afirmación que la docente aprueba para la infografía, por coincidir con el artículo 7, es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "lo integra un rector de institución oficial elegido cada año por las secretarías de educación del país.",
+     "j": "Es incorrecta. La ley sí incluye rectores, pero el criterio no es una elección de las secretarías. El artículo 7 usa un criterio objetivo: los más altos puntajes en Saber 11 del año anterior, y además incluye un rector del sector privado."
+    },
+    {
+     "l": "B",
+     "t": "lo integran los rectores de la institución oficial y de la privada con los más altos puntajes en Saber 11.",
+     "j": "Es correcta. El artículo 7 incluye entre los miembros permanentes al «rector de la institución educativa oficial con los más altos puntajes en las pruebas Saber 11 del año anterior» y al rector de la institución privada con el mismo criterio."
+    },
+    {
+     "l": "C",
+     "t": "lo integra solo el rector de la institución oficial con el puntaje más alto en las pruebas Saber 11.",
+     "j": "Es incorrecta. Es una verdad a medias: el rector de la institución oficial con los más altos puntajes sí es miembro, pero no es el único rector. La ley también incluye al rector de la institución privada con los más altos puntajes del año anterior."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es de nivel 3 porque dos opciones son casi iguales y la diferencia está en un detalle de la norma. El artículo 7 de la Ley 1620 de 2013 incluye dos rectores como miembros permanentes del Comité Nacional: «El rector de la institución educativa oficial con los más altos puntajes en las pruebas Saber 11 del año anterior» y «El rector de la institución educativa privada con los más altos puntajes en las pruebas Saber 11 del año anterior». Quien recuerda solo el primero cae en la opción incompleta. En las preguntas de conformación de órganos, revisa siempre si la opción está completa, no solo si es parcialmente cierta.",
+   "fuente": "Ley 1620 de 2013, art. 7.",
+   "consejo": "Dos rectores en el Comité Nacional: el oficial y el privado con mejores Saber 11 del año anterior.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "El rector de la institución educativa oficial con los más altos puntajes en las pruebas Saber 11 del año anterior.",
+     "ubicacion": "Ley 1620 de 2013, art. 7"
+    },
+    {
+     "doc": "ley_1620_2013",
+     "texto": "El rector de la institución educativa privada con los más altos puntajes en las pruebas Saber 11 del año anterior.",
+     "ubicacion": "Ley 1620 de 2013, art. 7"
+    }
+   ]
+  },
+  {
+   "id": "Q204",
+   "tipo": "caso",
+   "caso": "C140",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "Al leer el texto vigente del artículo 8, los estudiantes encuentran un numeral adicionado por la Ley 2383 de 2024. Según ese numeral, al Comité Nacional le corresponde",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "coordinar con las instituciones educativas lineamientos y estrategias de salud mental y Educación Socioemocional.",
+     "j": "Es correcta. El numeral 11, adicionado por la Ley 2383 de 2024, asigna al comité coordinar nacionalmente, «en conjunto con los centros y las instituciones educativas del país», lineamientos y estrategias de promoción y prevención en salud mental y de Educación Socioemocional."
+    },
+    {
+     "l": "B",
+     "t": "prestar directamente atención psicológica a los estudiantes que reporten las instituciones educativas del país.",
+     "j": "Es incorrecta. El numeral habla de coordinar lineamientos, estrategias y su implementación, no de prestar atención clínica directa a los estudiantes. Confunde una función de coordinación de política con un servicio de salud."
+    },
+    {
+     "l": "C",
+     "t": "aprobar el manual de convivencia de cada institución para verificar que incluya la Educación Socioemocional.",
+     "j": "Es incorrecta. El numeral no le asigna al Comité Nacional aprobar manuales de convivencia institucionales. Esa opción traslada al nivel nacional una decisión que corresponde a cada establecimiento y a su gobierno escolar."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El texto vigente de la Ley 1620 incluye funciones nuevas que la CNSC puede preguntar. El numeral 11 del artículo 8, adicionado por el artículo 7 de la Ley 2383 de 2024, dice que el Comité Nacional debe «coordinar nacionalmente, en conjunto con los centros y las instituciones educativas del país, la formulación de lineamientos pedagógicos, psicopedagógicas y diversas estrategias orientadas a la promoción y prevención en salud mental» y las relacionadas con la Educación Socioemocional. Es una función de coordinación de política, no de atención directa ni de aprobación de manuales. La palabra clave es «coordinar en conjunto»: el nivel nacional orienta y las instituciones participan.",
+   "fuente": "Ley 1620 de 2013, art. 8, num. 11 (adicionado por la Ley 2383 de 2024, art. 7).",
+   "consejo": "Ley 2383 de 2024 → el Comité Nacional coordina salud mental y Educación Socioemocional con las instituciones.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Coordinar nacionalmente, en conjunto con los centros y las instituciones educativas del país, la formulación de lineamientos pedagógicos, psicopedagógicas y diversas estrategias orientadas a la promoción y prevención en salud mental, y metodológicas relacionadas con la Educación Socioemocional en las instituciones educativas y su debida implementación y actualización.",
+     "ubicacion": "Ley 1620 de 2013, art. 8, num. 11 (adicionado por la Ley 2383 de 2024, art. 7)"
+    }
+   ]
+  },
+  {
+   "id": "Q205",
+   "tipo": "caso",
+   "caso": "C139",
+   "familia": "DIS-DIDAC",
+   "dificultad": 2,
+   "competencia": "Didáctica del área",
+   "enunciado": "En la jornada, un docente pregunta para qué sirve el capítulo cuarto si «cada profesor enseña como quiere». Según la introducción, la docente responde que ese capítulo muestra que las estrategias didácticas",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "reemplazan la evaluación del área, porque al aplicarlas el aprendizaje queda demostrado por sí mismo.",
+     "j": "Es incorrecta. La introducción no dice que las estrategias didácticas reemplacen la evaluación; de hecho, la evaluación tiene un capítulo propio, el quinto. La opción mezcla dos referentes distintos que el documento trata por separado."
+    },
+    {
+     "l": "B",
+     "t": "solo aplican a la informática, porque la enseñanza de la tecnología general no requiere estrategias propias.",
+     "j": "Es incorrecta. El capítulo cuarto presenta estrategias para la enseñanza de la tecnología en general y de la informática en particular. Afirmar que solo aplican a la informática contradice el texto de la introducción."
+    },
+    {
+     "l": "C",
+     "t": "se relacionan con los propósitos de formación y se usan para diseñar ATE y conformar los AAT.",
+     "j": "Es correcta. La introducción dice que el capítulo cuarto evidencia cómo las estrategias «se relacionan con los propósitos de formación» y cómo «se usan para el diseño de Actividades Tecnológicas Escolares (ATE) y la conformación de Ambientes para el Aprendizaje de la Tecnología (AAT)»."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La pregunta evalúa si se reconoce el lugar de la didáctica en las Orientaciones. Según la introducción, el capítulo cuarto presenta estrategias para enseñar la tecnología en general y la informática en particular, y «evidencia la manera en que estas se relacionan con los propósitos de formación y cómo se usan para el diseño de Actividades Tecnológicas Escolares (ATE) y la conformación de Ambientes para el Aprendizaje de la Tecnología (AAT)». Es decir, la estrategia no es un gusto personal: se elige según el propósito y se concreta en ATE y AAT. En la CNSC, la opción correcta en didáctica suele conectar estrategia, propósito y actividad.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), Introducción, capítulo cuarto.",
+   "consejo": "Estrategia didáctica → propósito de formación → ATE y AAT.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "evidencia la manera en que estas se relacionan con los propósitos de formación y cómo se usan para el diseño de Actividades Tecnológicas Escolares (ATE) y la conformación de Ambientes para el Aprendizaje de la Tecnología (AAT).",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Introducción, capítulo cuarto"
+    }
+   ]
+  },
+  {
+   "id": "Q206",
+   "tipo": "caso",
+   "caso": "C139",
+   "familia": "PED-EVAL",
+   "dificultad": 3,
+   "competencia": "Evaluación del aprendizaje",
+   "enunciado": "Con base en lo que la introducción anuncia del capítulo quinto, la recomendación de la docente sobre el plan de evaluación del área, que hoy usa solo un examen escrito final por periodo, es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "ajustarlo a un modelo holístico de evaluación que tome como referente los principios de la evaluación en Colombia.",
+     "j": "Es correcta. La introducción dice que el capítulo quinto fundamenta la evaluación del aprendizaje del área «tomando como referente los principios de la evaluación en Colombia» y que «propone un modelo holístico de la evaluación». Un solo examen final no responde a ese modelo."
+    },
+    {
+     "l": "B",
+     "t": "reemplazar el examen escrito por un examen práctico final en el computador, que muestra mejor el dominio de los programas.",
+     "j": "Es incorrecta. Cambia el instrumento, pero mantiene una evaluación de un solo momento centrada en el manejo de programas. Un examen práctico puede ser parte de la evaluación, pero no convierte el plan en un modelo holístico."
+    },
+    {
+     "l": "C",
+     "t": "mantener el examen final y sumarle un trabajo escrito, de modo que cada periodo tenga dos notas en lugar de una.",
+     "j": "Es incorrecta. Es atractiva porque agrega un instrumento, pero sigue pensando la evaluación como acumulación de notas. El texto pide fundamentar los procesos de evaluación en los principios de la evaluación en Colombia con un modelo holístico, no solo sumar calificaciones."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Es de nivel 3 porque las dos opciones incorrectas mejoran algo del plan actual y parecen razonables. La introducción de las Orientaciones anuncia que el capítulo quinto «fundamenta los procesos para la evaluación del aprendizaje en el área de tecnología e informática, tomando como referente los principios de la evaluación en Colombia, y propone un modelo holístico de la evaluación». Cambiar el examen escrito por uno práctico o sumar una nota no modifica la lógica de un solo momento centrado en programas. La clave está en la palabra «holístico»: una evaluación integral, en proceso, que no se reduce a un instrumento. Para la CNSC, evaluar es parte del proceso de aprendizaje, no solo calificar.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), Introducción, capítulo quinto.",
+   "consejo": "Evaluación en T&I (2022): modelo holístico + principios de la evaluación en Colombia.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "El capítulo quinto fundamenta los procesos para la evaluación del aprendizaje en el área de tecnología e informática, tomando como referente los principios de la evaluación en Colombia, y propone un modelo holístico de la evaluación.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Introducción, capítulo quinto"
+    }
+   ]
+  },
+  {
+   "id": "Q207",
+   "tipo": "caso",
+   "caso": "C138",
+   "familia": "DIS-CTS",
+   "dificultad": 3,
+   "competencia": "Tecnología, informática y sociedad",
+   "enunciado": "Frente a la propuesta de suspender el área hasta que llegue la conectividad, la respuesta de la docente que mejor se apoya en la introducción de las Orientaciones es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "aceptar la suspensión por este año, porque sin conectividad no es posible desarrollar competencias del área.",
+     "j": "Es incorrecta. Supone que el área depende de internet, cuando las Orientaciones la presentan como área obligatoria y fundamental. Aplazarla justo en la población con menos acceso aumenta la brecha que el documento busca reducir."
+    },
+    {
+     "l": "B",
+     "t": "mantener el área como obligatoria y fundamental, porque en poblaciones excluidas ayuda a reducir la brecha.",
+     "j": "Es correcta. La introducción dice que las Orientaciones favorecen la comprensión de la tecnología y la informática «como área obligatoria y fundamental», «en especial en aquellas poblaciones excluidas de sus beneficios», para reducir la brecha entre comunidades rurales y urbanas."
+    },
+    {
+     "l": "C",
+     "t": "mantener el área solo en los grados en los que los estudiantes ya tienen computador en casa para practicar.",
+     "j": "Es incorrecta. Excluye a los estudiantes con menos acceso, que son precisamente la población a la que el documento da prioridad. Condicionar el área a tener equipos en casa contradice el propósito de igualdad de oportunidades."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es de nivel 3 porque hay que conectar dos condiciones del caso (zona rural y falta de conectividad) con el propósito del documento. La introducción señala que implementar las Orientaciones «favorece [...] la vivencia, estudio y comprensión de la Tecnología y la Informática como área obligatoria y fundamental del currículo escolar, en especial en aquellas poblaciones excluidas de sus beneficios, de manera que se reduzca la brecha social, digital y tecnológica existente entre ciudadanos y comunidades rurales y urbanas». Suspender el área o restringirla a quien tiene equipos en casa produce el efecto contrario. Recuerda que el área no se reduce a usar internet: también se estudian artefactos, procesos, sistemas y problemas del entorno.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), Introducción.",
+   "consejo": "Zona rural con poco acceso → más razón para el área, no menos.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Favorece, durante el desarrollo de las trayectorias completas, la vivencia, estudio y comprensión de la Tecnología y la Informática como área obligatoria y fundamental del currículo escolar, en especial en aquellas poblaciones excluidas de sus beneficios, de manera que se reduzca la brecha social, digital y tecnológica existente entre ciudadanos y comunidades rurales y urbanas.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Introducción"
+    }
+   ]
+  },
+  {
+   "id": "Q208",
+   "tipo": "caso",
+   "caso": "C139",
+   "familia": "PED-CURR",
+   "dificultad": 2,
+   "competencia": "Currículo y plan de área",
+   "enunciado": "La rectora propone que la jornada de socialización sea solo para los docentes del área. Según a quién dice la introducción que está dirigido el documento, la docente sugiere",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "invitar solo a los docentes de todas las áreas, porque el documento orienta la integración curricular.",
+     "j": "Es incorrecta. Amplía la invitación a otros docentes, lo cual puede ser útil, pero sigue dejando por fuera a estudiantes, familias, directivos y entidad territorial, a quienes el documento también se dirige expresamente."
+    },
+    {
+     "l": "B",
+     "t": "incluir también a directivos, estudiantes y familias, porque el documento se dirige a esos actores.",
+     "j": "Es correcta. La introducción dice que el documento «está dirigido a Entidades Territoriales Certificadas en Educación, directivos docentes, docentes, niñas, niños, adolescentes, familias y demás actores educativos». Socializarlo con todos ellos es coherente con su destinatario."
+    },
+    {
+     "l": "C",
+     "t": "invitar solo a los directivos docentes, porque a ellos les corresponde aprobar el plan de área.",
+     "j": "Es incorrecta. Los directivos sí participan en la aprobación curricular, pero el documento no está dirigido solo a ellos. Dejar por fuera a docentes, estudiantes y familias desconoce el alcance que le da la introducción."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La introducción de las Orientaciones termina diciendo a quién se dirige: «el documento está dirigido a Entidades Territoriales Certificadas en Educación, directivos docentes, docentes, niñas, niños, adolescentes, familias y demás actores educativos» que aseguran la implementación del área. Además, el último capítulo trae recomendaciones para cada uno de esos actores. Por eso, una jornada solo con docentes, o solo con directivos, se queda corta. En la CNSC, las decisiones curriculares que afectan a la comunidad educativa se socializan y construyen con sus distintos estamentos, no solo con el grupo de docentes del área.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), Introducción.",
+   "consejo": "Las Orientaciones se dirigen a ETC, directivos, docentes, estudiantes y familias.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "el documento está dirigido a Entidades Territoriales Certificadas en Educación, directivos docentes, docentes, niñas, niños, adolescentes, familias y demás actores educativos",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), Introducción"
+    }
+   ]
+  },
+  {
+   "id": "Q209",
+   "tipo": "caso",
+   "caso": "C141",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 2,
+   "competencia": "Estatuto docente",
+   "enunciado": "Un compañero afirma que el coordinador es quien dirige técnica, pedagógica y administrativamente el establecimiento. Según el artículo 6 del Decreto 1278 de 2002, la precisión correcta es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "esa responsabilidad es del rector y del director rural; el coordinador auxilia y colabora con el rector.",
+     "j": "Es correcta. El artículo 6 dice que «el rector y el director rural tienen la responsabilidad de dirigir técnica, pedagógica y administrativamente» el establecimiento, y que «el coordinador auxilia y colabora con el rector» en las labores de su cargo."
+    },
+    {
+     "l": "B",
+     "t": "esa responsabilidad es del coordinador académico, y la del coordinador de convivencia es la disciplina.",
+     "j": "Es incorrecta. El artículo 6 no divide al coordinador en académico y de convivencia ni le asigna la dirección del establecimiento. Dice que el coordinador auxilia y colabora con el rector, en disciplina o en funciones académicas o curriculares no lectivas."
+    },
+    {
+     "l": "C",
+     "t": "esa responsabilidad es del consejo directivo, y el coordinador solo ejecuta lo que este le ordena.",
+     "j": "Es incorrecta. El consejo directivo es un órgano del gobierno escolar, pero el artículo 6 del Decreto 1278 asigna la dirección técnica, pedagógica y administrativa al rector y al director rural, no al consejo directivo."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 6 del Decreto 1278 de 2002 diferencia los cargos directivos. Del rector y el director rural dice que «tienen la responsabilidad de dirigir técnica, pedagógica y administrativamente la labor de un establecimiento educativo». Del coordinador dice que «auxilia y colabora con el rector en las labores propias de su cargo y en las funciones de disciplina de los alumnos o en funciones académicas o curriculares no lectivas». Los distractores mezclan denominaciones que se usan en la práctica de las instituciones con funciones que la norma asigna a otro cargo. En la CNSC, la instancia correcta siempre es la que la norma nombra.",
+   "fuente": "Decreto 1278 de 2002, art. 6.",
+   "consejo": "Rector/director rural dirige; coordinador auxilia y colabora.",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "El rector y el director rural tienen la responsabilidad de dirigir técnica, pedagógica y administrativamente la labor de un establecimiento educativo.",
+     "ubicacion": "Decreto 1278 de 2002, art. 6"
+    },
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "El coordinador auxilia y colabora con el rector en las labores propias de su cargo y en las funciones de disciplina de los alumnos o en funciones académicas o curriculares no lectivas.",
+     "ubicacion": "Decreto 1278 de 2002, art. 6"
+    }
+   ]
+  },
+  {
+   "id": "Q210",
+   "tipo": "caso",
+   "caso": "C141",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 3,
+   "competencia": "Estatuto docente",
+   "enunciado": "La ingeniera de sistemas pregunta si su título le permite ingresar y en qué condiciones. Según el artículo 7 del Decreto 1278 de 2002, la respuesta correcta es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "puede ingresar con su título profesional, y una vez nombrada puede ejercer en cualquier área donde haya vacante.",
+     "j": "Es incorrecta. La primera parte es cierta, pero la segunda contradice la norma. El artículo 7 exige ejercer la docencia «en el nivel educativo y en el área de conocimiento de su formación», no en cualquier área con vacante."
+    },
+    {
+     "l": "B",
+     "t": "no puede ingresar, porque para el servicio educativo estatal solo se admite el título de licenciado o el de normalista.",
+     "j": "Es incorrecta. Es un error frecuente entre aspirantes. El artículo 7 admite el título de licenciado o profesional expedido por una institución reconocida por el Estado, o el de normalista superior; el profesional no licenciado sí puede ingresar."
+    },
+    {
+     "l": "C",
+     "t": "puede ingresar con su título profesional si supera el concurso y ejerce en el nivel y el área de su formación.",
+     "j": "Es correcta. El artículo 7 exige título de licenciado o profesional (o normalista superior) y, en ambos casos, «superar el concurso de méritos», «debiendo ejercer la docencia en el nivel educativo y en el área de conocimiento de su formación»."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es de nivel 3 porque la respuesta exige reunir tres condiciones del mismo artículo y una opción incorrecta acierta en la primera. El artículo 7 del Decreto 1278 de 2002 dice que para ingresar se requiere «poseer título de licenciado o profesional» o «título de normalista superior» y, «en ambos casos, superar el concurso de méritos», «debiendo ejercer la docencia en el nivel educativo y en el área de conocimiento de su formación». Por eso un profesional no licenciado sí puede ingresar, pero no queda libre para enseñar cualquier área. Cuando una opción combina una parte cierta con una falsa, toda la opción es incorrecta.",
+   "fuente": "Decreto 1278 de 2002, art. 7.",
+   "consejo": "Ingreso: título (licenciado, profesional o normalista) + concurso + área de su formación.",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "para ingresar al servicio educativo estatal se requiere poseer título de licenciado o profesional expedido por una institución de educación superior debidamente reconocida por el Estado o título de normalista superior y, en ambos casos, superar el concurso de méritos que se cite para tal fin, debiendo ejercer la docencia en el nivel educativo y en el área de conocimiento de su formación.",
+     "ubicacion": "Decreto 1278 de 2002, art. 7"
+    }
+   ]
+  },
+  {
+   "id": "Q211",
+   "tipo": "caso",
+   "caso": "C141",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 2,
+   "competencia": "Estatuto docente",
+   "enunciado": "Una compañera cree que el concurso asigna de inmediato una plaza a cada aspirante que lo aprueba. Según el artículo 8 del Decreto 1278 de 2002, el concurso de ingreso",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "determina el grado del escalafón de cada aspirante según su experiencia y su puntaje en la prueba.",
+     "j": "Es incorrecta. El artículo 8 no habla de ubicar a los aspirantes en el escalafón. El concurso de ingreso define la inclusión y la posición en el listado de elegibles; el escalafón y sus ascensos tienen otra regulación."
+    },
+    {
+     "l": "B",
+     "t": "determina la inclusión en el listado de elegibles y la ubicación en él para proveer las vacantes.",
+     "j": "Es correcta. Según el artículo 8, con el concurso «se determina su inclusión en el listado de elegibles y se fija su ubicación en el mismo, con el fin de garantizar disponibilidad permanente para la provisión de vacantes»."
+    },
+    {
+     "l": "C",
+     "t": "asigna directamente a cada aspirante aprobado una plaza en la institución que eligió al inscribirse.",
+     "j": "Es incorrecta. Es la creencia de la compañera del caso. El artículo 8 no dice que el concurso asigne directamente una plaza; dice que conforma un listado de elegibles para proveer vacantes en el sector educativo estatal."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 8 del Decreto 1278 de 2002 define el concurso de ingreso como el proceso mediante el cual, «a través de la evaluación de aptitudes, experiencia, competencias básicas, relaciones interpersonales y condiciones de personalidad», «se determina su inclusión en el listado de elegibles y se fija su ubicación en el mismo». Su finalidad es «garantizar disponibilidad permanente para la provisión de vacantes». Por eso aprobar no equivale a recibir una plaza inmediata ni a quedar en un grado del escalafón. Para la aspirante, la idea práctica es clara: el puntaje define su posición en la lista, y esa posición es la que pesa al proveer las vacantes.",
+   "fuente": "Decreto 1278 de 2002, art. 8.",
+   "consejo": "Concurso de ingreso → listado de elegibles y posición en él.",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "se determina su inclusión en el listado de elegibles y se fija su ubicación en el mismo, con el fin de garantizar disponibilidad permanente para la provisión de vacantes que se presenten en cualquier nivel, cargo o área de conocimiento dentro del sector educativo estatal.",
+     "ubicacion": "Decreto 1278 de 2002, art. 8"
+    },
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "a través de la evaluación de aptitudes, experiencia, competencias básicas, relaciones interpersonales y condiciones de personalidad de los aspirantes",
+     "ubicacion": "Decreto 1278 de 2002, art. 8"
+    }
+   ]
+  },
+  {
+   "id": "Q212",
+   "tipo": "caso",
+   "caso": "C141",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 3,
+   "competencia": "Estatuto docente",
+   "enunciado": "Una persona sin título docente cuenta que trabaja de forma provisional en una sede de difícil acceso y quiere inscribirse en el escalafón. Según el parágrafo del artículo 7, lo correcto es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "puede vincularse de forma provisional en los casos que determine el Gobierno, pero sin derecho al escalafón.",
+     "j": "Es correcta. El parágrafo dice que en los casos y términos que determine el Gobierno Nacional, como zonas de difícil acceso, pueden vincularse provisionalmente personas sin los títulos mínimos, «pero sin derecho a inscribirse en el escalafón docente»."
+    },
+    {
+     "l": "B",
+     "t": "puede inscribirse en el escalafón después de un año de servicio provisional con evaluación de desempeño favorable.",
+     "j": "Es incorrecta. Suena lógico premiar el buen desempeño, pero el parágrafo no prevé esa posibilidad. Al contrario, dice expresamente que la vinculación provisional sin los títulos mínimos es sin derecho a inscribirse en el escalafón."
+    },
+    {
+     "l": "C",
+     "t": "no puede estar vinculada de ninguna forma, porque sin los títulos mínimos está prohibido trabajar como docente.",
+     "j": "Es incorrecta. Desconoce la excepción del parágrafo. La norma permite la vinculación provisional de personas sin los títulos mínimos en zonas de difícil acceso, poblaciones especiales o áreas técnicas o deficitarias, en los casos que fije el Gobierno."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Es de nivel 3 porque hay que combinar la regla general del artículo 7 con su excepción y con el límite de esa excepción. El parágrafo dice que el Gobierno Nacional determinará los casos en que, «por tratarse de zonas de difícil acceso, poblaciones especiales o áreas de formación técnicas o deficitarias», puedan vincularse provisionalmente personas sin los títulos mínimos, «pero sin derecho a inscribirse en el escalafón docente». Así, la vinculación provisional es posible, pero no da acceso al escalafón. Una opción niega la excepción y la otra la amplía. Cuando una norma trae una excepción, fíjate también en su límite.",
+   "fuente": "Decreto 1278 de 2002, art. 7, parágrafo.",
+   "consejo": "Sin título mínimo → solo provisional en casos especiales y sin escalafón.",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "puedan vincularse provisionalmente al servicio educativo personas sin los títulos académicos mínimos señalados en este artículo, pero sin derecho a inscribirse en el escalafón docente.",
+     "ubicacion": "Decreto 1278 de 2002, art. 7, parágrafo"
+    },
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "El Gobierno Nacional determinará los casos y términos en que, por tratarse de zonas de difícil acceso, poblaciones especiales o áreas de formación técnicas o deficitarias",
+     "ubicacion": "Decreto 1278 de 2002, art. 7, parágrafo"
+    }
+   ]
+  },
+  {
+   "id": "K061",
+   "tipo": "conocimiento",
+   "ficha": "F31",
+   "familia": "DIS-COMP",
+   "dificultad": 1,
+   "competencia": "Componentes del área",
+   "enunciado": "Según el capítulo de antecedentes de las Orientaciones Curriculares (MEN, 2022), antes de su publicación el único referente curricular para el área de Tecnología e Informática era",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la Guía 30 (MEN, 2008), resultado de los estándares que el MEN definió con apoyo de ASCOFADE.",
+     "j": "Es correcta. El capítulo dice que en 2005 el MEN, con apoyo de ASCOFADE, emprendió la definición de los estándares y que el resultado fue la Guía 30 (MEN, 2008), «constituyéndose en el único referente curricular para el Área T&I»."
+    },
+    {
+     "l": "B",
+     "t": "el documento de Educación en Tecnología del PET21 (1996), que fijó la visión y misión del área.",
+     "j": "Es incorrecta. El documento del PET21 fue muy importante porque estableció por primera vez la visión, misión y lineamientos del área, pero el capítulo dice que el único referente curricular llegó después, con la Guía 30."
+    },
+    {
+     "l": "C",
+     "t": "el Decreto 1419 de 1978, que creó los bachilleres tecnológicos en diferentes modalidades del país.",
+     "j": "Es incorrecta. Ese decreto es un antecedente de la política educativa del área, pues promovió los bachilleres tecnológicos, pero no es un referente curricular con competencias. El capítulo atribuye ese papel a la Guía 30."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Pregunta de conocimiento de nivel 1 tomada de la ficha. El capítulo de antecedentes recorre la historia del área: el Decreto 1419 de 1978, el PET21 y su documento de 1996, y luego los estándares que el MEN emprendió en 2005 con ASCOFADE. De ese trabajo salió la Guía 30 (MEN, 2008), «constituyéndose en el único referente curricular para el Área T&I». Los distractores son hitos reales de la misma historia, por eso confunden. Si dudaste, vuelve a la ficha: la línea de tiempo 1978, 1996, 2008 y 2022 te ayuda a ubicar cada documento.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), cap. 1.1.",
+   "consejo": "Único referente curricular antes de 2022 → Guía 30 (2008).",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "constituyéndose en el único referente curricular para el Área T&I.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 1.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "En 2005, el MEN con apoyo de la Asociación Colombiana de Facultades de Educación -ASCOFADE- emprendió la definición de los estándares de competencias para el Área de Tecnología e Informática",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 1.1"
+    }
+   ]
+  },
+  {
+   "id": "K062",
+   "tipo": "conocimiento",
+   "ficha": "F31",
+   "familia": "DIS-COMP",
+   "dificultad": 2,
+   "competencia": "Componentes del área",
+   "enunciado": "Una colega dice que las Orientaciones de 2022 se escribieron porque la Guía 30 «ya no servía». Según el capítulo de antecedentes, una de las razones expresas de la actualización fue que la Guía 30",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "no organizó el área por componentes, sino por listas de contenidos para cada grado escolar.",
+     "j": "Es incorrecta. El capítulo dice lo contrario: la Guía 30 estructuró el estudio de la tecnología en cuatro componentes y definió competencias para cada uno. Lo que señala como vacío es otra cosa."
+    },
+    {
+     "l": "B",
+     "t": "no incluyó de forma explícita el trabajo de aula con la informática, a pesar de su importancia.",
+     "j": "Es correcta. El capítulo reconoce los aportes de la Guía 30, pero dice que «no se incluyó de forma explícita el trabajo de aula con la informática» y que esa crítica es «una de las razones para emprender esta actualización»."
+    },
+    {
+     "l": "C",
+     "t": "no fue útil para las instituciones, que no lograron formular propuestas curriculares con ella.",
+     "j": "Es incorrecta. El capítulo afirma que la Guía 30 fue esclarecedora y permitió formular propuestas curriculares en la mayoría de establecimientos. La razón de actualizar no es su inutilidad, sino un vacío concreto."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El capítulo de antecedentes es equilibrado: reconoce que la Guía 30 fue esclarecedora y permitió formular propuestas curriculares, y al mismo tiempo señala su vacío. Dice: «No obstante, no se incluyó de forma explícita el trabajo de aula con la informática», y más adelante: «Sea esta, una de las razones para emprender esta actualización». Por eso no es correcto decir que la Guía 30 «ya no servía» ni que no tenía componentes. Para la prueba, recuerda que 2022 no reemplaza la lógica de la Guía 30: la actualiza, con la informática explícita en cada componente.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), cap. 1.1.",
+   "consejo": "Vacío de la Guía 30 que motivó la actualización → la informática no era explícita.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "No obstante, no se incluyó de forma explícita el trabajo de aula con la informática",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 1.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Sea esta, una de las razones para emprender esta actualización de las orientaciones curriculares del área de T&I.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 1.1"
+    }
+   ]
+  },
+  {
+   "id": "Q213",
+   "tipo": "caso",
+   "caso": "C142",
+   "familia": "DIS-COMP",
+   "dificultad": 3,
+   "competencia": "Componentes del área",
+   "enunciado": "Sobre los «desempeños» copiados de la Guía 30, el ajuste que la docente propone, coherente con el capítulo de antecedentes de las Orientaciones, es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "mantener los desempeños, porque la Guía 30 sigue siendo el único referente curricular vigente del área.",
+     "j": "Es incorrecta. El capítulo dice que la Guía 30 se constituyó en el único referente curricular, pero eso describe la situación hasta 2022. Las Orientaciones actualizan ese referente y adoptan otra enunciación para lo que se espera del estudiante."
+    },
+    {
+     "l": "B",
+     "t": "enunciarlos como evidencias de aprendizaje, conservando las competencias definidas para cada componente.",
+     "j": "Es correcta. El capítulo explica que el MEN (2019) «ratificó que lo que se establece no son desempeños sino evidencias de aprendizaje» y que esa enunciación se usa en el documento. Las competencias por componente se conservan."
+    },
+    {
+     "l": "C",
+     "t": "eliminar las competencias por componente y dejar solo evidencias, porque estas reemplazan a las competencias.",
+     "j": "Es incorrecta. Es una lectura excesiva. El texto cambia la palabra «desempeños» por «evidencias de aprendizaje», pero no elimina las competencias; las Orientaciones siguen organizando la formación por componentes, competencias y evidencias."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es de nivel 3 porque las tres opciones parten de frases reales del capítulo y hay que precisar qué cambia y qué se conserva. El texto dice que la Guía 30 definió, para cada componente, «las competencias y desempeños», y luego que el MEN (2019) «ratificó que lo que se establece no son desempeños sino evidencias de aprendizaje». Así, lo que cambia es la enunciación: de desempeños a evidencias; las competencias por componente se mantienen. Quedarse con los desempeños ignora la actualización, y eliminar las competencias va más allá de lo que dice el texto. En la prueba, desconfía de las opciones que exageran un cambio.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), cap. 1.1.",
+   "consejo": "2022: desempeños → evidencias de aprendizaje; las competencias se conservan.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Una reciente actualización sobre las políticas de evaluación al interior del MEN (2019), ratificó que lo que se establece no son desempeños sino evidencias de aprendizaje, motivo por el cual, esa será la enunciación usada para este documento.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 1.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Para cada componente definió las competencias y desempeños de formación que el estudiante debía demostrar",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 1.1"
+    }
+   ]
+  },
+  {
+   "id": "Q214",
+   "tipo": "caso",
+   "caso": "C142",
+   "familia": "LC-INF",
+   "dificultad": 2,
+   "competencia": "Comprensión inferencial",
+   "enunciado": "Sobre la presentación del área como «manejo de programas de oficina», el capítulo de antecedentes explica que el enfoque de alfabetización en programas computacionales adoptado en América Latina se originó en",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "una recomendación de la Guía 30, que propuso centrar el área en el uso de herramientas informáticas.",
+     "j": "Es incorrecta. La Guía 30 es posterior (2008) a ese enfoque de los años noventa y, según el mismo capítulo, estructuró el área en cuatro componentes con un propósito de alfabetización tecnológica, no de uso de programas."
+    },
+    {
+     "l": "B",
+     "t": "el creciente uso del computador personal y una escasa claridad sobre las competencias a desarrollar.",
+     "j": "Es correcta. El texto dice que «el creciente uso del computador personal y su proliferación comercial» y «una escasa claridad sobre las competencias tecnológicas a desarrollar desde la escuela» condujeron a ese enfoque."
+    },
+    {
+     "l": "C",
+     "t": "una decisión de ASCOFADE, que definió los estándares de competencias TIC para la región en los noventa.",
+     "j": "Es incorrecta. ASCOFADE aparece en el capítulo, pero como apoyo al MEN en 2005 para definir los estándares del área en Colombia. El texto no le atribuye el origen del enfoque latinoamericano de alfabetización en programas."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es una pregunta de comprensión: hay que identificar la relación causa-efecto que plantea el párrafo. El texto dice que «el creciente uso del computador personal y su proliferación comercial durante inicios del noventa, así como una escasa claridad sobre las competencias tecnológicas a desarrollar desde la escuela condujo a muchos países de América Latina a adoptar un enfoque centrado en la alfabetización en el uso de programas computacionales». El verbo «condujo» marca la causa. Los distractores mencionan actores reales del capítulo, pero en otro momento y con otro papel. Para el caso, la conclusión práctica es que reducir el área a ofimática responde a un enfoque que las Orientaciones superan.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), cap. 1.1.",
+   "consejo": "«Condujo a» marca la causa: computador personal + poca claridad sobre competencias.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "el creciente uso del computador personal y su proliferación comercial durante inicios del noventa, así como una escasa claridad sobre las",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 1.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "competencias tecnológicas a desarrollar desde la escuela condujo a muchos países de América Latina a adoptar un enfoque centrado en la alfabetización en el uso de programas computacionales y competencias TIC (UNESCO, 2002)",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 1.1"
+    }
+   ]
+  }
+ ]
+}
