@@ -384,6 +384,24 @@
     "fuente": "Guía 34 MEN (2008), Cuadro No. 3; Resolución 3842 de 2022, 1.3.1."
    }
   },
+  "GDI-COMPET": {
+   "componente": "GDI",
+   "afirmacion": "GDI-A2",
+   "nombre": "Competencias funcionales y comportamentales del directivo",
+   "evidencia": "Reconoce las cuatro áreas de gestión y sus competencias funcionales, y las competencias comportamentales que la Resolución 3842 exige al directivo docente.",
+   "leccion": {
+    "idea": "La Resolución 3842 organiza lo que debe demostrar un directivo en competencias funcionales (cuatro áreas de gestión, cada una con dos competencias) y competencias comportamentales. Son la base de las pruebas del concurso y de la evaluación de período de prueba y anual de desempeño.",
+    "claves": [
+     "Gestión directiva: orientar y dirigir el establecimiento en función del PEI; guiar a la comunidad hacia las metas institucionales. Competencias: planeación y organización, y ejecución.",
+     "Gestión académica: diseñar, planear, implementar y evaluar un currículo que atienda la diversidad con perspectiva de inclusión. Competencias: pedagogía y didáctica, e innovación y direccionamiento académico.",
+     "Gestión administrativa: recursos humanos, físicos y financieros. Competencias: administración de recursos y gestión del talento humano.",
+     "Gestión comunitaria: clima institucional, relaciones con el entorno y redes de apoyo. Competencias: comunicación institucional, e interacción con la comunidad y el entorno.",
+     "Comportamentales: liderazgo; comunicación y relaciones interpersonales; trabajo en equipo; negociación y mediación; compromiso social e institucional; iniciativa; orientación al logro."
+    ],
+    "trampa": "Clasificar por una palabra del enunciado («comunidad», «inclusión») y no por la descripción oficial del área: guiar a la comunidad hacia las metas es gestión directiva y el currículo inclusivo es gestión académica.",
+    "fuente": "Resolución 3842 de 2022, 1.1.1 a 1.1.3."
+   }
+  },
   "PED-EVAL": {
    "componente": "PED",
    "nombre": "Evaluación formativa",
