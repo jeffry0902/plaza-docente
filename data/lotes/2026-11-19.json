@@ -1,0 +1,875 @@
+{
+ "id": "2026-11-19",
+ "fecha": "2026-11-19",
+ "casos": [
+  {
+   "id": "C143",
+   "titulo": "El rector que llega al comité municipal",
+   "texto": "En noviembre, el rector de una institución educativa oficial de Yopal recibe una comunicación de la secretaría técnica del Comité Municipal de Convivencia Escolar: su colegio obtuvo el puntaje más alto del municipio entre los oficiales en las pruebas SABER 11 del año en curso, y por eso será integrante del comité. En la sala de profesores hay dudas: unos creen que lo eligieron los demás rectores, otros que fue una decisión libre de la secretaría de educación, y nadie sabe desde cuándo ni hasta cuándo irá a las sesiones. El rector le pide a la docente de Tecnología e Informática, que lo acompaña en el comité escolar, que le ayude a revisar el Decreto 1965 de 2013."
+  },
+  {
+   "id": "C144",
+   "titulo": "Lo que hacen otros países con el área",
+   "texto": "En la semana de desarrollo institucional, el área de Tecnología e Informática de un colegio oficial de Yopal estudia el apartado de las Orientaciones Curriculares (MEN, 2022) que resume cómo se enseña tecnología en otros países y la prospectiva del área a 2030. Cada docente debe proponer un proyecto para el año siguiente y justificarlo con el documento. Los proyectos van desde un semillero de diseño en grado octavo hasta un estudio sobre cómo la llegada de la industria petrolera cambió la vida de las familias de la ciudad."
+  },
+  {
+   "id": "C145",
+   "titulo": "El estudiante que llegó sin papeles de edad",
+   "texto": "A mitad de año llega a una institución educativa oficial de Yopal un estudiante extranjero que vive con su tía en el municipio. La familia no tiene un documento que pruebe su edad exacta: él dice que tiene once años, pero un certificado escolar de su país sugiere que podría tener trece. Durante una actividad en la sala de informática se presenta un conflicto con otro estudiante y el comité escolar de convivencia debe actuar. Un docente opina que, como no es colombiano y no tiene papeles, al estudiante no se le aplica el Código de la Infancia y la Adolescencia; otro dice que hay que tratarlo como adolescente «por si acaso»."
+  },
+  {
+   "id": "C146",
+   "titulo": "La sede rural y la revolución 4.0",
+   "texto": "En una sede rural de una institución educativa de Yopal, la mayoría de las familias vive del ganado, el arroz y los cultivos de pancoger. La docente de Tecnología e Informática está ajustando el plan de área con las Orientaciones Curriculares (2022). Un colega le propone reemplazar las unidades sobre riego, herramientas agrícolas y construcción por unidades de inteligencia artificial, Big Data y criptomonedas, «porque eso es lo que pide el Ministerio». Otro colega, en cambio, opina que la revolución 4.0 es una moda que no tiene nada que ver con el campo."
+  },
+  {
+   "id": "C147",
+   "titulo": "Un estudiante sordo en grado sexto",
+   "texto": "Para el próximo año se matriculará en grado sexto de una institución educativa oficial de Yopal un estudiante con discapacidad auditiva. Sus padres no saben si conviene que estudie en la oferta general o en una modalidad bilingüe bicultural. La rectora pregunta a la secretaría de educación de la entidad territorial certificada por el intérprete y el personal de apoyo, y le responden que tal vez lleguen en el segundo semestre. La docente de Tecnología e Informática, que integra el equipo que acompaña el PIAR, quiere saber qué le corresponde a cada quien según el Decreto 1421 de 2017."
+  }
+ ],
+ "fichas": [
+  {
+   "id": "F32",
+   "familia": "DIS-DATOS",
+   "titulo": "Prospectiva 2030: por qué la informática gana un lugar destacado",
+   "lectura": "Las Orientaciones Curriculares de Tecnología e Informática (MEN, 2022) explican en su prospectiva por qué hacía falta actualizar la Guía 30. Las orientaciones anteriores se diseñaron en 2005, cuando la informática apenas comenzaba a despuntar, y por eso dejan por fuera muchas necesidades de formación ligadas a la llamada revolución 4.0: computación en la nube, Big Data, inteligencia artificial, analítica de datos, Internet de las cosas, entre otras. La actualización no borra las demás tecnologías: mantiene en foco la construcción, el campo agropecuario, la industria o la salud, y espera que los sistemas tecnológicos actuales se enriquezcan con automatización digital, inteligencia artificial y analítica de datos. Al mismo tiempo, resalta el lugar destacado de la informática, con sus beneficios y sus límites, y espera superar el uso instrumental de las TIC: no se trata solo de aprender a manejar programas, sino de comprender y aprovechar las tecnologías informáticas.",
+   "puntos": [
+    "Razón de la actualización: la Guía 30 se diseñó en 2005, cuando la informática apenas comenzaba a despuntar.",
+    "Lo que se resalta: el lugar destacado de la informática, con sus beneficios y sus límites.",
+    "Lo que se busca superar: el uso instrumental de las TIC (aprender solo a manejar herramientas).",
+    "Lo que NO desaparece: las tecnologías de la construcción, el agro, la industria, la electrónica, la salud; se enriquecen con automatización digital, IA y analítica de datos.",
+    "Trampa CNSC: creer que las Orientaciones de 2022 convierten el área en un curso de ofimática o que eliminan las tecnologías analógicas."
+   ],
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "deja por fuera muchas de estas necesidades de formación pues fueron diseñadas en 2005 bajo un marco social donde la informática apenas comenzaba a despuntar",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "resaltará el destacado lugar que la informática, sus beneficios y limites nos ofrecen actualmente, así como espera superar el uso instrumental de las TIC",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "se confía en que los sistemas tecnológicos actuales sean enriquecidos con automatización digital, inteligencia artificial y analítica de datos",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "Q215",
+   "tipo": "caso",
+   "caso": "C143",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "Para aclarar la duda de la sala de profesores, la docente explica que el rector llega al comité municipal porque",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "los rectores del municipio lo eligieron en una votación convocada por la secretaría de educación.",
+     "j": "Es incorrecta. Una elección entre pares suena democrática, pero el artículo 16 del Decreto 1965 no prevé votación de rectores. La designación sale de un dato objetivo: los resultados consolidados de las pruebas SABER 11 del año en curso."
+    },
+    {
+     "l": "B",
+     "t": "su colegio obtuvo, entre los oficiales, el puntaje más alto del municipio en las pruebas SABER 11.",
+     "j": "Es correcta. El artículo 16 dice que se informa el nombre de los establecimientos oficial y no oficial que hayan obtenido «los más altos puntajes de acuerdo con los resultados consolidados de las pruebas SABER 11 del año en curso». Por eso llega este rector."
+    },
+    {
+     "l": "C",
+     "t": "el secretario de educación lo escogió libremente entre los rectores con la mejor gestión del año escolar.",
+     "j": "Es incorrecta. La secretaría técnica del comité municipal comunica la designación, pero no escoge al rector con libertad ni por su gestión. El criterio lo fija el decreto: el puntaje más alto en SABER 11 entre los oficiales y entre los no oficiales."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave del caso es «designación». El artículo 16 del Decreto 1965 de 2013 establece un procedimiento reglado: la Secretaría Técnica del Comité Nacional informa cada año el nombre de los establecimientos oficial y no oficial que obtuvieron «los más altos puntajes» en las pruebas SABER 11 del año en curso, y sus rectores quedan designados. No hay votación de rectores ni decisión discrecional del secretario de educación. En la prueba, cuando un caso pregunte cómo se integra una instancia del Sistema Nacional de Convivencia, busca el criterio objetivo que fija la norma y desconfía de las opciones que parecen razonables pero no aparecen en el texto.",
+   "fuente": "Decreto 1965 de 2013, art. 16, numeral 1.",
+   "consejo": "Rectores en el comité municipal = mejores puntajes SABER 11 (uno oficial y uno no oficial).",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Designación de los representantes de los rectores ante los Comités municipales, distritales o departamentales de Convivencia Escolar.",
+     "ubicacion": "Decreto 1965 de 2013, art. 16"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "el nombre de los establecimientos educativos oficial y no oficial que hayan obtenido a nivel municipal, distrital o departamental, los más altos puntajes de acuerdo con los resultados consolidados de las pruebas SABER 11 del año en curso",
+     "ubicacion": "Decreto 1965 de 2013, art. 16, num. 1"
+    }
+   ]
+  },
+  {
+   "id": "Q216",
+   "tipo": "caso",
+   "caso": "C143",
+   "familia": "NOR-SIST",
+   "dificultad": 3,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "El rector, notificado en noviembre de 2026, pregunta desde cuándo y hasta cuándo será integrante del comité municipal. Según el Decreto 1965, la respuesta correcta es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "durante un año contado desde el día en que la secretaría técnica le comunicó su designación.",
+     "j": "Es incorrecta. Es una lectura frecuente porque el decreto sí fija un plazo de cinco días hábiles para comunicar, pero el período no se cuenta desde esa comunicación. El numeral 3 lo fija por año calendario: del 1 de enero al 31 de diciembre."
+    },
+    {
+     "l": "B",
+     "t": "durante el año 2027, del primero de enero al treinta y uno de diciembre, como período de un año.",
+     "j": "Es correcta. El numeral 2 dice que la designación es «para la anualidad siguiente» y el numeral 3 fija que el período «será de un año contado a partir del primero (1) de enero al treinta y uno (31) de diciembre». Si lo notifican en 2026, su período es 2027."
+    },
+    {
+     "l": "C",
+     "t": "desde la siguiente sesión del comité y hasta que se publiquen los resultados de SABER 11 del año.",
+     "j": "Es incorrecta. Combina dos ideas verdaderas a medias: el comité sesiona y los resultados de SABER 11 definen la designación. Pero el decreto no ata el período a las sesiones ni a la publicación de resultados, sino al año calendario siguiente."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es de nivel 3 porque hay que combinar dos numerales del artículo 16. El numeral 2 dice que el rector es designado como integrante del comité «para la anualidad siguiente» y el numeral 3 dice que el período «será de un año contado a partir del primero (1) de enero al treinta y uno (31) de diciembre». Por eso, si la comunicación llega en noviembre de 2026, el rector participa durante todo 2027. Los cinco días hábiles del numeral 2 son el plazo que tiene la secretaría técnica para comunicar, no el inicio del período. En la CNSC, distingue siempre el plazo de un trámite del período de una función.",
+   "fuente": "Decreto 1965 de 2013, art. 16, numerales 2 y 3.",
+   "consejo": "Plazo para comunicar ≠ período: el período es el año calendario siguiente.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "sobre su designación como integrante del Comité municipal, distrital o departamental de Convivencia para la anualidad siguiente",
+     "ubicacion": "Decreto 1965 de 2013, art. 16, num. 2"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "El período de los representantes, de que trata el presente artículo, será de un año contado a partir del primero (1) de enero al treinta y uno (31) de diciembre.",
+     "ubicacion": "Decreto 1965 de 2013, art. 16, num. 3"
+    }
+   ]
+  },
+  {
+   "id": "Q217",
+   "tipo": "caso",
+   "caso": "C143",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "Ya en el comité, el rector quiere saber quién debe enviarle la agenda de cada sesión, elaborar y suscribir las actas y comunicarle las decisiones adoptadas. Según el Decreto 1965, esas funciones son de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el presidente del comité, porque es quien convoca las sesiones ordinarias y extraordinarias del comité.",
+     "j": "Es incorrecta. Es un distractor cercano: el presidente convoca las sesiones, pero el artículo 15 asigna a la secretaría técnica citar a los integrantes, fijar la agenda, elaborar las actas y comunicar las decisiones. Convocar y gestionar la sesión son tareas distintas."
+    },
+    {
+     "l": "B",
+     "t": "los rectores designados, porque representan a los colegios y deben informar a su comunidad educativa.",
+     "j": "Es incorrecta. Los rectores designados son integrantes del comité y pueden informar a sus colegios, pero el decreto no les asigna la agenda ni las actas. Esas funciones están en la lista del artículo 15, a cargo de la secretaría técnica."
+    },
+    {
+     "l": "C",
+     "t": "la secretaría técnica del comité, porque el decreto le asigna la agenda, las actas y la comunicación.",
+     "j": "Es correcta. El artículo 15 le asigna a la secretaría técnica, entre otras, «Fijar y comunicar la agenda de las sesiones», «Elaborar y suscribir las actas» y «Comunicar a todos los miembros del Comité las decisiones adoptadas»."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El enunciado pregunta por tareas operativas de la sesión: agenda, actas y comunicación de decisiones. El artículo 15 del Decreto 1965 de 2013 crea una secretaría técnica en los comités municipales, distritales y departamentales y le asigna esas funciones de manera expresa: citar a los integrantes, fijar y comunicar la agenda, elaborar y suscribir las actas, archivar los documentos y comunicar las decisiones. El presidente convoca, pero no es quien elabora las actas. En los casos de la CNSC sobre instancias, fíjate en el verbo del enunciado y busca la instancia a la que la norma le asigna exactamente ese verbo.",
+   "fuente": "Decreto 1965 de 2013, art. 15, numerales 2, 3, 4 y 9.",
+   "consejo": "Presidente convoca; secretaría técnica cita, fija agenda, hace actas y comunica.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Elaborar y suscribir las actas de las sesiones del Comité municipal, distrital o departamental de Convivencia Escolar.",
+     "ubicacion": "Decreto 1965 de 2013, art. 15, num. 4"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Fijar y comunicar la agenda de las sesiones programadas, a los integrantes del Comité municipal, distrital o departamental de Convivencia Escolar.",
+     "ubicacion": "Decreto 1965 de 2013, art. 15, num. 3"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Comunicar a todos los miembros del Comité las decisiones adoptadas.",
+     "ubicacion": "Decreto 1965 de 2013, art. 15, num. 9"
+    }
+   ]
+  },
+  {
+   "id": "Q218",
+   "tipo": "caso",
+   "caso": "C143",
+   "familia": "LC-INF",
+   "dificultad": 3,
+   "competencia": "Lectura crítica: articulación de las partes",
+   "enunciado": "Al leer el procedimiento del artículo 16, la docente debe explicarle al rector cómo se encadenan los pasos. La lectura correcta del texto es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el comité nacional comunica a cada rector su designación dentro de los cinco días hábiles siguientes a los resultados.",
+     "j": "Es incorrecta. Mezcla los dos primeros pasos: el comité nacional sí interviene, pero solo informa a las secretarías técnicas territoriales. La comunicación al rector y el plazo de cinco días hábiles corresponden a la secretaría técnica municipal, distrital o departamental."
+    },
+    {
+     "l": "B",
+     "t": "la secretaría técnica municipal comunica al rector dentro de los cinco días hábiles siguientes a la sesión del comité.",
+     "j": "Es incorrecta. Acierta en quién comunica, pero no en desde cuándo corre el plazo. El texto dice que los cinco días hábiles se cuentan desde el recibo del reporte enviado por la secretaría técnica del comité nacional, no desde una sesión del comité municipal."
+    },
+    {
+     "l": "C",
+     "t": "la secretaría técnica municipal comunica al rector dentro de los cinco días hábiles siguientes al reporte nacional.",
+     "j": "Es correcta. El numeral 1 dice que la secretaría técnica nacional informa a las territoriales y el numeral 2 que la secretaría técnica territorial comunica a los rectores «dentro de los cinco (5) días hábiles siguientes al recibo del reporte». Primero informa la nación; luego comunica el territorio."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es de nivel 3 porque las tres opciones mezclan los mismos elementos y solo una respeta el orden del texto. Paso 1: la Secretaría Técnica del Comité Nacional informa a las secretarías técnicas territoriales los colegios con los más altos puntajes. Paso 2: la secretaría técnica territorial comunica a los rectores «dentro de los cinco (5) días hábiles siguientes al recibo del reporte». Paso 3: el período es de un año calendario. En lectura crítica de normas, identifica en cada paso quién actúa, qué hace y desde qué hecho corre el plazo; los distractores suelen cambiar solo uno de esos tres datos.",
+   "fuente": "Decreto 1965 de 2013, art. 16, numerales 1 y 2.",
+   "consejo": "Para cada paso: ¿quién?, ¿qué hace?, ¿desde cuándo corre el plazo?",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "La Secretaría Técnica del Comité Nacional de Convivencia Escolar informará anualmente a las Secretarías Técnicas de los Comités municipales, distritales y departamentales de Convivencia Escolar",
+     "ubicacion": "Decreto 1965 de 2013, art. 16, num. 1"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "comunicará a los rectores de dichos establecimientos educativos, dentro de los cinco (5) días hábiles siguientes al recibo del reporte de los resultados por parte de la Secretaría Técnica del Comité Nacional de Convivencia Escolar",
+     "ubicacion": "Decreto 1965 de 2013, art. 16, num. 2"
+    }
+   ]
+  },
+  {
+   "id": "Q219",
+   "tipo": "caso",
+   "caso": "C144",
+   "familia": "DIS-DIDAC",
+   "dificultad": 2,
+   "competencia": "Didáctica del área",
+   "enunciado": "Una docente propone un semillero de grado octavo en el que el diseño sea el objeto de estudio, con énfasis en los procesos de pensamiento que lo hacen posible. Según el recuento internacional de las Orientaciones, su propuesta se acerca a la tradición de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "Estados Unidos y Europa, que estudian de manera crítica las relaciones entre ciencia, tecnología y sociedad.",
+     "j": "Es incorrecta. Esa es la tradición CTS, que busca comprender las interdependencias entre conocimiento y cambios sociales. Sería la respuesta si el semillero analizara impactos sociales de la tecnología, no el diseño como proceso cognitivo."
+    },
+    {
+     "l": "B",
+     "t": "el Reino Unido, donde el área se llama diseño, innovación y tecnología y estudia el diseño con énfasis cognitivo.",
+     "j": "Es correcta. Las Orientaciones dicen que el Reino Unido, «donde el área se denomina diseño, innovación y tecnología (D+I+T), asumió el estudio del diseño con un énfasis cognitivo como objeto de estudio». Es lo que propone la docente."
+    },
+    {
+     "l": "C",
+     "t": "la antigua Unión Soviética y Alemania, centradas en los conceptos propios de la tecnología y el pensamiento sistémico.",
+     "j": "Es incorrecta. Ese enfoque trabaja el aprendizaje de conceptos propios de la tecnología y el pensamiento sistémico. Sería correcto si el semillero se centrara en analizar sistemas y sus relaciones, no en el diseño como objeto de estudio."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El enunciado tiene dos palabras clave: diseño como objeto de estudio y énfasis cognitivo. Las Orientaciones Curriculares (2022) resumen varias tradiciones internacionales: el enfoque CTS (Estados Unidos y Europa), el diseño con énfasis cognitivo del Reino Unido, donde el área se llama D+I+T y que compartió la escuela argentina, el aprendizaje de conceptos y pensamiento sistémico (Unión Soviética, Alemania) y el enfoque en información y economía (Francia e Italia). Conocer estas tradiciones te ayuda a reconocer qué enfoque didáctico hay detrás de una propuesta de aula. En la prueba, relaciona cada enfoque con su objeto: impactos, diseño, sistemas o información.",
+   "fuente": "Orientaciones Curriculares T&I (2022), 1.2 Antecedentes internacionales.",
+   "consejo": "D+I+T (Reino Unido) = diseño con énfasis cognitivo como objeto de estudio.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "El Reino Unido, donde el área se denomina diseño, innovación y tecnología (D+I+T), asumió el estudio del diseño con un énfasis cognitivo como objeto de estudio y aspecto fundamental de la producción de tecnología",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.2 Antecedentes internacionales y 1.3 Prospectiva a 2030"
+    }
+   ]
+  },
+  {
+   "id": "Q220",
+   "tipo": "caso",
+   "caso": "C144",
+   "familia": "DIS-CTS",
+   "dificultad": 3,
+   "competencia": "Tecnología y sociedad",
+   "enunciado": "Otro docente propone que los estudiantes de décimo investiguen cómo los conocimientos que trajo la industria petrolera se relacionan con los cambios sociales de las familias de Yopal. El enfoque internacional que mejor sustenta su proyecto es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el de Francia e Italia, centrado en la información y la economía y en su impacto en las personas y el ambiente.",
+     "j": "Es incorrecta. Es el distractor más cercano porque también habla de impacto en las personas. Pero ese enfoque se centra en conocimientos y habilidades relacionados con la información y la economía; sería el adecuado si el proyecto tratara del manejo de información."
+    },
+    {
+     "l": "B",
+     "t": "el de Estados Unidos y Europa, que estudia de manera crítica las relaciones entre ciencia, tecnología y sociedad.",
+     "j": "Es correcta. El enfoque CTS busca estudiar «de manera crítica las relaciones entre ciencia, tecnología y sociedad (CTS) a fin de comprender las interdependencias entre conocimiento y cambios sociales», que es justo lo que propone el docente."
+    },
+    {
+     "l": "C",
+     "t": "el del Reino Unido y Argentina, que asume el diseño como aspecto fundamental de la producción de la tecnología.",
+     "j": "Es incorrecta. Ese enfoque estudia el diseño como objeto y aspecto de la producción de tecnología. Sería correcto si los estudiantes diseñaran una solución para la industria, pero el proyecto busca comprender la relación entre conocimiento y cambio social."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es de nivel 3 porque dos opciones hablan de efectos de la tecnología sobre las personas. La clave está en la expresión del enunciado: relacionar conocimientos con cambios sociales. Las Orientaciones Curriculares describen el enfoque CTS como el estudio crítico de las relaciones entre ciencia, tecnología y sociedad «a fin de comprender las interdependencias entre conocimiento y cambios sociales». El enfoque de Francia e Italia, en cambio, se centra en la información y la economía. En la prueba, cuando dos opciones se parezcan, vuelve al propósito que describe el caso y escoge el enfoque cuyo objeto coincide exactamente con ese propósito.",
+   "fuente": "Orientaciones Curriculares T&I (2022), 1.2 Antecedentes internacionales.",
+   "consejo": "CTS = interdependencias entre conocimiento y cambios sociales.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "consideraron importante estudiar de manera crítica las relaciones entre ciencia, tecnología y sociedad (CTS) a fin de comprender las interdependencias entre conocimiento y cambios sociales",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.2 Antecedentes internacionales y 1.3 Prospectiva a 2030"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Francia e Italia abordaron un enfoque centrado en el conocimientos y desarrollo de habilidades en relación con la información y la economía, y su impacto en las personas y el medio ambiente",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.2 Antecedentes internacionales y 1.3 Prospectiva a 2030"
+    }
+   ]
+  },
+  {
+   "id": "Q221",
+   "tipo": "caso",
+   "caso": "C144",
+   "familia": "DIS-INNOV",
+   "dificultad": 2,
+   "competencia": "Naturaleza y evolución",
+   "enunciado": "El rector anuncia que la institución será «innovadora» porque comprará un kit de robótica que manejará un solo docente experto. A la luz de la prospectiva de las Orientaciones, la docente le responde que la innovación educativa",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "surge de la interacción de los distintos actores y es participativa, contextual e incluyente.",
+     "j": "Es correcta. La Oficina de Innovación del MEN establece que la innovación «no emerge por acciones aisladas sino por la interacción de los diferentes agentes sociales» y que tiene una naturaleza «ecosistémica, contextual, experimental, relativa, gradual, participativa e incluyente»."
+    },
+    {
+     "l": "B",
+     "t": "consiste en incorporar los dispositivos más recientes para que la institución no se quede atrás.",
+     "j": "Es incorrecta. Confunde innovar con comprar tecnología. El texto vincula la innovación con cambios de instrumentos culturales y tecnológicos, pero aclara que surge de la interacción de los actores y no de una dotación por sí sola."
+    },
+    {
+     "l": "C",
+     "t": "depende de que un docente experto lidere el proyecto y después lo replique igual en las otras sedes.",
+     "j": "Es incorrecta. Un líder puede ayudar, pero el texto dice que la innovación no emerge por acciones aisladas y que es contextual: replicar igual un proyecto en sedes distintas contradice esa naturaleza contextual y participativa."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La palabra clave del caso es «innovadora». Las Orientaciones Curriculares retoman a la Oficina de Innovación Educativa del MEN: la innovación surge de los cambios de instrumentos culturales y tecnológicos, pero «no emerge por acciones aisladas sino por la interacción de los diferentes agentes sociales», y es ecosistémica, contextual, experimental, relativa, gradual, participativa e incluyente. Un kit en manos de una sola persona puede ser un buen recurso, pero no es, por sí mismo, innovación educativa. En los casos de la CNSC, desconfía de las opciones que reducen la innovación a la compra de equipos o al trabajo aislado de un experto.",
+   "fuente": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030.",
+   "consejo": "Innovación educativa = interacción de actores, no compra aislada de equipos.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "por lo cual, no emerge por acciones aisladas sino por la interacción de los diferentes agentes sociales alimentándose de la diversidad de pensamiento y experiencias de",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.2 Antecedentes internacionales y 1.3 Prospectiva a 2030"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "por lo que posee una naturaleza ecosistémica, contextual, experimental, relativa, gradual, participativa e incluyente",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.2 Antecedentes internacionales y 1.3 Prospectiva a 2030"
+    }
+   ]
+  },
+  {
+   "id": "Q222",
+   "tipo": "caso",
+   "caso": "C144",
+   "familia": "PED-CURR",
+   "dificultad": 2,
+   "competencia": "Currículo y plan de área",
+   "enunciado": "Una madre del consejo de padres pregunta para qué el Ministerio actualizó las orientaciones del área si ya existía la Guía 30. Según el mismo apartado, la respuesta más fiel al documento es que lo hizo para que los estudiantes",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "obtengan en las pruebas internacionales resultados parecidos a los de los países más innovadores.",
+     "j": "Es incorrecta. El texto menciona países catalogados como los más innovadores, pero no presenta la actualización como una estrategia para mejorar resultados en pruebas internacionales. Su propósito está puesto en la participación de los estudiantes en los cambios sociales."
+    },
+    {
+     "l": "B",
+     "t": "puedan integrarse, afrontar y participar de los cambios sociales y de los beneficios de la tecnología.",
+     "j": "Es correcta. El documento dice que el MEN emprende la actualización «de manera que niñas, niños y adolescentes» de básica y media «puedan integrarse, afrontar y participar de los cambios sociales y beneficios de la tecnología», tras una reflexión sobre competencias útiles para el siglo XXI."
+    },
+    {
+     "l": "C",
+     "t": "estudien con el modelo de diseño, innovación y tecnología que el Reino Unido adoptó para el área.",
+     "j": "Es incorrecta. El texto describe el modelo D+I+T como una de las tendencias internacionales, pero no dice que Colombia lo adopte. Las tendencias se usan para la reflexión pedagógica, no para copiar el modelo de otro país."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El enunciado pide el propósito de la actualización según el mismo apartado. Después de describir las tendencias internacionales, las Orientaciones dicen que estas no son ajenas a la educación colombiana y exigen «una reflexión pedagógica para la definición de competencias que sean útiles a los ciudadanos del siglo XXI»; por eso el MEN actualiza el área, para que niñas, niños y adolescentes «puedan integrarse, afrontar y participar de los cambios sociales y beneficios de la tecnología». Las tendencias internacionales son insumo para reflexionar, no un modelo que se copie ni una meta de pruebas. En la CNSC, la finalidad del currículo siempre está centrada en el estudiante.",
+   "fuente": "Orientaciones Curriculares T&I (2022), 1.2 Antecedentes internacionales.",
+   "consejo": "Actualizar el área = competencias útiles para participar en los cambios sociales.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "exigiendo una reflexión pedagógica para la definición de competencias que sean útiles a los ciudadanos del siglo XXI",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.2 Antecedentes internacionales y 1.3 Prospectiva a 2030"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "puedan integrarse, afrontar y participar de los cambios sociales y beneficios de la tecnología y sus distintas manifestaciones actualmente y a futuro",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.2 Antecedentes internacionales y 1.3 Prospectiva a 2030"
+    }
+   ]
+  },
+  {
+   "id": "Q223",
+   "tipo": "caso",
+   "caso": "C145",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 2,
+   "competencia": "Derechos de niños, niñas y adolescentes",
+   "enunciado": "Frente a la opinión del docente que dice que al estudiante no se le aplica el Código de la Infancia y la Adolescencia, la docente de Tecnología e Informática aclara que el Código",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "se le aplica solo cuando la familia regularice sus documentos y pruebe ante el colegio la edad del estudiante.",
+     "j": "Es incorrecta. Condiciona la protección a un trámite que el Código no exige. El artículo 4 se refiere a todos los niños, niñas y adolescentes que se encuentren en el territorio nacional, y el artículo 3 resuelve las dudas sobre la edad con presunciones."
+    },
+    {
+     "l": "B",
+     "t": "se le aplica porque cubre a los niños, niñas y adolescentes extranjeros que estén en el territorio nacional.",
+     "j": "Es correcta. El artículo 4 dice que el Código «se aplica a todos los niños, las niñas y los adolescentes nacionales o extranjeros que se encuentren en el territorio nacional». El estudiante vive en Yopal, así que el Código lo protege."
+    },
+    {
+     "l": "C",
+     "t": "no se le aplica, pero el colegio puede protegerlo por los tratados internacionales que firmó su país de origen.",
+     "j": "Es incorrecta. Los tratados de derechos humanos ratificados por Colombia sí hacen parte del Código según el artículo 6, pero eso no excluye al estudiante del Código. Al contrario, el artículo 4 lo incluye por estar en el territorio nacional."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave del caso es «extranjero». El artículo 4 de la Ley 1098 de 2006 define el ámbito de aplicación del Código: todos los niños, las niñas y los adolescentes «nacionales o extranjeros que se encuentren en el territorio nacional», además de los colombianos que están fuera del país y los que tienen doble nacionalidad. No exige documentos para reconocer la protección. Por eso el comité escolar de convivencia debe actuar con el estudiante con el mismo enfoque de derechos que con cualquier otro. En la CNSC, las opciones que condicionan los derechos de un menor a un trámite o a su nacionalidad suelen ser incorrectas.",
+   "fuente": "Ley 1098 de 2006, art. 4.",
+   "consejo": "Código de Infancia = todo menor de 18 en Colombia, nacional o extranjero.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "El presente código se aplica a todos los niños, las niñas y los adolescentes nacionales o extranjeros que se encuentren en el territorio nacional",
+     "ubicacion": "Ley 1098 de 2006 (Código de la Infancia y la Adolescencia), art. 4"
+    }
+   ]
+  },
+  {
+   "id": "Q224",
+   "tipo": "caso",
+   "caso": "C145",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 3,
+   "competencia": "Derechos de niños, niñas y adolescentes",
+   "enunciado": "Sobre la duda de si el estudiante tiene once o trece años, lo que corresponde según el Código mientras se establece su edad es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "tratarlo como adolescente por si acaso, para que el comité aplique las medidas más exigentes del protocolo.",
+     "j": "Es incorrecta. Es la propuesta del segundo docente y parece prudente, pero va en contra del Código: en caso de duda sobre la edad se presume la edad inferior, no la mayor. Presumir la edad mayor perjudica al estudiante."
+    },
+    {
+     "l": "B",
+     "t": "tomar como cierta la edad que declare la familia, porque es la única información de la que dispone el colegio.",
+     "j": "Es incorrecta. Es una verdad a medias: la familia aporta información, pero el Código no dice que su declaración defina la edad. Dice que se presume la edad inferior y que las autoridades ordenan las pruebas para determinarla."
+    },
+    {
+     "l": "C",
+     "t": "presumir la edad inferior y dejar que las autoridades competentes ordenen las pruebas para establecerla.",
+     "j": "Es correcta. El parágrafo 1 del artículo 3 dice: «En caso de duda sobre la edad del niño, niña o adolescente se presumirá la edad inferior», y que «Las autoridades judiciales y administrativas, ordenarán la práctica de las pruebas para la determinación de la edad»."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es de nivel 3 porque las tres opciones suenan prudentes y hay que aplicar el detalle exacto del parágrafo 1 del artículo 3 de la Ley 1098. La regla es doble: mientras haya duda, «se presumirá la edad inferior», y son las autoridades judiciales y administrativas las que ordenan las pruebas para determinar la edad. El colegio no decide la edad ni escoge la más exigente «por si acaso». La presunción favorece al estudiante, coherente con el interés superior. En la prueba, ante una duda sobre la edad o sobre la minoría de edad, escoge siempre la opción que presume lo más favorable al menor.",
+   "fuente": "Ley 1098 de 2006, art. 3, parágrafo 1.",
+   "consejo": "Duda sobre la edad → se presume la edad inferior; las autoridades la establecen.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "En caso de duda sobre la edad del niño, niña o adolescente se presumirá la edad inferior.",
+     "ubicacion": "Ley 1098 de 2006 (Código de la Infancia y la Adolescencia), art. 3, par. 1"
+    },
+    {
+     "doc": "ley_1098_2006",
+     "texto": "Las autoridades judiciales y administrativas, ordenarán la práctica de las pruebas para la determinación de la edad",
+     "ubicacion": "Ley 1098 de 2006 (Código de la Infancia y la Adolescencia), art. 3, par. 1"
+    }
+   ]
+  },
+  {
+   "id": "Q225",
+   "tipo": "caso",
+   "caso": "C145",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 3,
+   "competencia": "Derechos de niños, niñas y adolescentes",
+   "enunciado": "Para atender el conflicto hay dos reglas posibles: una del reglamento de la sala de informática y otra más protectora para el estudiante. La tía, para «evitar problemas», ofrece firmar que renuncia a esa protección. Según el Código, lo procedente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "aplicar la regla más favorable al interés superior del estudiante, porque esos derechos son irrenunciables.",
+     "j": "Es correcta. El artículo 5 dice que las normas del Código son «de orden público, de carácter irrenunciable», y el artículo 6 que «se aplicará siempre la norma más favorable al interés superior del niño, niña o adolescente». La firma de la tía no cambia eso."
+    },
+    {
+     "l": "B",
+     "t": "aplicar el reglamento de la sala si la tía firma la renuncia, porque ella es la acudiente del estudiante.",
+     "j": "Es incorrecta. Reconocer a la acudiente es correcto en muchos trámites, pero el artículo 5 establece que las normas del Código son de carácter irrenunciable. Ni la familia ni la institución pueden disponer de esa protección con una firma."
+    },
+    {
+     "l": "C",
+     "t": "aplicar el reglamento de la sala, porque es la norma más específica y fue aprobada por la institución.",
+     "j": "Es incorrecta. El criterio de la norma específica sirve en otros contextos, pero el artículo 6 fija otra regla para los menores: siempre se aplica la norma más favorable a su interés superior. La autonomía institucional no desplaza esa regla."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Es de nivel 3 porque hay dos condiciones en el caso: un conflicto entre reglas y una renuncia ofrecida por la familia. El artículo 5 de la Ley 1098 resuelve la segunda: las normas del Código son de orden público y de carácter irrenunciable, así que la firma de la tía no tiene ese efecto. El artículo 6 resuelve la primera: «se aplicará siempre la norma más favorable al interés superior del niño, niña o adolescente». Los criterios de especialidad o de autonomía institucional pueden ser válidos en otros temas, pero no por encima de esta regla. En la CNSC, interés superior e irrenunciabilidad pesan más que cualquier reglamento interno.",
+   "fuente": "Ley 1098 de 2006, arts. 5 y 6.",
+   "consejo": "Derechos del Código: irrenunciables; ante dos normas, la más favorable al interés superior.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "En todo caso, se aplicará siempre la norma más favorable al interés superior del niño, niña o adolescente.",
+     "ubicacion": "Ley 1098 de 2006 (Código de la Infancia y la Adolescencia), art. 6"
+    },
+    {
+     "doc": "ley_1098_2006",
+     "texto": "son de orden público, de carácter irrenunciable y los principios y reglas en ellas consagrados se aplicarán de preferencia a las disposiciones contenidas en otras leyes",
+     "ubicacion": "Ley 1098 de 2006 (Código de la Infancia y la Adolescencia), art. 5"
+    }
+   ]
+  },
+  {
+   "id": "Q226",
+   "tipo": "caso",
+   "caso": "C145",
+   "familia": "LC-LIT",
+   "dificultad": 1,
+   "competencia": "Lectura crítica: contenido local",
+   "enunciado": "El comité revisa el artículo 7 de la Ley 1098 para orientar su actuación. Según el texto literal, la protección integral comprende",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la atención del conflicto, la sanción proporcional a la falta y el reporte del caso a las autoridades.",
+     "j": "Es incorrecta. Describe pasos de una ruta de atención escolar, que pueden ser necesarios, pero no es lo que dice el artículo 7. Ese artículo define la protección integral con cuatro elementos centrados en los derechos del niño, niña o adolescente."
+    },
+    {
+     "l": "B",
+     "t": "el reconocimiento como sujetos de derechos, su garantía, la prevención y el restablecimiento inmediato.",
+     "j": "Es correcta. El artículo 7 define la protección integral como «el reconocimiento como sujetos de derechos, la garantía y cumplimiento de los mismos, la prevención de su amenaza o vulneración y la seguridad de su restablecimiento inmediato»."
+    },
+    {
+     "l": "C",
+     "t": "la vigilancia de su conducta, la corrección oportuna de sus faltas y el acompañamiento permanente de la familia.",
+     "j": "Es incorrecta. Responde a una visión de control de la conducta del menor, no a la definición del Código. La protección integral parte de reconocer al niño como sujeto de derechos, no de vigilarlo o corregirlo."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es una pregunta de contenido local: hay que ubicar en el texto la definición. El artículo 7 de la Ley 1098 dice que la protección integral es «el reconocimiento como sujetos de derechos, la garantía y cumplimiento de los mismos, la prevención de su amenaza o vulneración y la seguridad de su restablecimiento inmediato en desarrollo del principio del interés superior», y que se materializa en políticas, planes, programas y acciones con recursos. Memoriza los cuatro verbos: reconocer, garantizar, prevenir y restablecer. En la CNSC, las opciones que hablan de vigilar, corregir o sancionar al menor no corresponden al enfoque de protección integral.",
+   "fuente": "Ley 1098 de 2006, art. 7.",
+   "consejo": "Protección integral: reconocer, garantizar, prevenir, restablecer.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "Se entiende por protección integral de los niños, niñas y adolescentes el reconocimiento como sujetos de derechos, la garantía y cumplimiento de los mismos, la prevención de su amenaza o vulneración y la seguridad de su restablecimiento inmediato en desarrollo del principio del interés superior.",
+     "ubicacion": "Ley 1098 de 2006 (Código de la Infancia y la Adolescencia), art. 7"
+    }
+   ]
+  },
+  {
+   "id": "K063",
+   "tipo": "conocimiento",
+   "ficha": "F32",
+   "familia": "DIS-DATOS",
+   "dificultad": 1,
+   "competencia": "Naturaleza y evolución",
+   "enunciado": "Según la prospectiva de las Orientaciones Curriculares (2022), la Guía 30 deja por fuera muchas de las necesidades de formación actuales porque",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "fue diseñada solo para la media técnica y no para la educación básica de todos los estudiantes.",
+     "j": "Es incorrecta. La Guía 30 se formuló para los grupos de grados de la educación básica y media. El documento no la critica por su cobertura de niveles, sino por el momento histórico en que se diseñó."
+    },
+    {
+     "l": "B",
+     "t": "fue diseñada en 2005, en un marco social donde la informática apenas comenzaba a despuntar.",
+     "j": "Es correcta. El texto dice que las orientaciones anteriores «deja[n] por fuera muchas de estas necesidades de formación pues fueron diseñadas en 2005 bajo un marco social donde la informática apenas comenzaba a despuntar»."
+    },
+    {
+     "l": "C",
+     "t": "dejó por fuera las tecnologías del campo, la construcción y la industria, propias de Colombia.",
+     "j": "Es incorrecta. Es al revés: las Orientaciones anuncian que mantendrán en foco las tecnologías de la construcción, el campo agropecuario y la industria. Lo que faltaba en la Guía 30 era el lugar de la informática."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es una pregunta de reconocimiento del dato. La prospectiva de las Orientaciones Curriculares explica que la Guía 30 «deja por fuera muchas de estas necesidades de formación pues fueron diseñadas en 2005 bajo un marco social donde la informática apenas comenzaba a despuntar». Las necesidades a las que se refiere son las de la revolución 4.0: datos, inteligencia artificial, computación en la nube, ciudadanía digital. Recuérdalo junto con el vacío del capítulo de antecedentes: la Guía 30 no incluyó de forma explícita el trabajo de aula con la informática. En la prueba, el motivo de la actualización siempre gira alrededor de la informática, no del abandono de otras tecnologías.",
+   "fuente": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030.",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "deja por fuera muchas de estas necesidades de formación pues fueron diseñadas en 2005 bajo un marco social donde la informática apenas comenzaba a despuntar",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030"
+    }
+   ]
+  },
+  {
+   "id": "K064",
+   "tipo": "conocimiento",
+   "ficha": "F32",
+   "familia": "DIS-DATOS",
+   "dificultad": 2,
+   "competencia": "Naturaleza y evolución",
+   "enunciado": "En el plan de una docente, la unidad de informática de grado séptimo consiste solo en aprender los menús de un procesador de texto. A la luz de la prospectiva de las Orientaciones, el ajuste que corresponde es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "dedicar más horas a la ofimática, porque dominar las herramientas es el eje central del área.",
+     "j": "Es incorrecta. Las herramientas sí se aprenden en el área, pero convertir su manejo en el eje es justo el uso instrumental de las TIC que el documento espera superar. Sería una buena idea solo como medio dentro de un propósito más amplio."
+    },
+    {
+     "l": "B",
+     "t": "superar el uso instrumental de las TIC y trabajar los beneficios y los límites de la informática.",
+     "j": "Es correcta. El documento dice que la actualización «resaltará el destacado lugar que la informática, sus beneficios y limites nos ofrecen actualmente, así como espera superar el uso instrumental de las TIC». La unidad debe ir más allá de los menús."
+    },
+    {
+     "l": "C",
+     "t": "reemplazar la ofimática por inteligencia artificial, porque las tecnologías conocidas ya no se enseñan.",
+     "j": "Es incorrecta. El texto aclara que el estudio de las tecnologías que conocemos no desaparece «así no más»; se espera que se enriquezcan con automatización digital e inteligencia artificial. Cambiar un contenido por otro no supera el uso instrumental."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El enunciado describe una unidad que solo enseña a manejar un programa: es un uso instrumental de las TIC. La prospectiva de las Orientaciones Curriculares dice que la actualización «resaltará el destacado lugar que la informática, sus beneficios y limites nos ofrecen actualmente, así como espera superar el uso instrumental de las TIC». Superar no es eliminar la herramienta, sino ponerla al servicio de comprender, crear y evaluar con la informática. Tampoco se trata de reemplazar lo conocido por lo más nuevo, porque el documento dice que las tecnologías actuales se enriquecen. En la CNSC, la opción correcta suele ir más allá del manejo de la herramienta.",
+   "fuente": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030.",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "resaltará el destacado lugar que la informática, sus beneficios y limites nos ofrecen actualmente, así como espera superar el uso instrumental de las TIC",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030"
+    }
+   ]
+  },
+  {
+   "id": "Q227",
+   "tipo": "caso",
+   "caso": "C146",
+   "familia": "DIS-CTS",
+   "dificultad": 3,
+   "competencia": "Tecnología y sociedad",
+   "enunciado": "Frente al colega que dice que la revolución 4.0 es una moda ajena al campo, y al otro que la presenta como obligatoria sin discusión, la postura coherente con las Orientaciones es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "promover la adopción de la 4.0 en la sede, porque el área es la llamada a atender esta emergencia del mundo.",
+     "j": "Es incorrecta. Es un distractor fuerte porque el texto sí dice que el área es «la llamada a atender esta emergencia». Pero el mismo documento pregunta si los beneficios son tan reales y cuáles son sus desventajas: atender no es adoptar sin análisis."
+    },
+    {
+     "l": "B",
+     "t": "aplazar los temas de la 4.0 hasta que la sede tenga conectividad y trabajar con las tecnologías conocidas.",
+     "j": "Es incorrecta. Parece realista para una sede rural, pero deja a los estudiantes sin interpretar unos cambios que ya los afectan. El documento espera que el área prepare a todos para afrontar esos cambios, no solo a quienes tienen conectividad."
+    },
+    {
+     "l": "C",
+     "t": "analizar con los estudiantes sus beneficios y desventajas para darle una dimensión justa en su vida y región.",
+     "j": "Es correcta. El texto pregunta «¿Son tan reales sus beneficios? ¿Cuáles son sus desventajas?» y dice que los procesos del área permitirán a los estudiantes «darle una dimensión justa a esta revolución, interpretarla» para aprovechar sus beneficios en su vida y su región."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es de nivel 3 porque la opción A usa una frase literal del documento y parece correcta. Las Orientaciones Curriculares dicen que el área es la llamada a atender la revolución 4.0, pero enseguida se preguntan por qué insertarse en ella, si sus beneficios son tan reales y cuáles son sus desventajas. Su respuesta es que los procesos del área permitirán a niñas, niños y adolescentes «darle una dimensión justa a esta revolución, interpretarla» para aprovechar sus beneficios en su vida diaria, su región y el país. Ni rechazo ni adopción acrítica: análisis. En la prueba, cuando el tema es tecnología y sociedad, elige la opción que forma criterio.",
+   "fuente": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030.",
+   "consejo": "Revolución 4.0 en el aula = darle una «dimensión justa»: beneficios y desventajas.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "permitirá a niñas, niños y adolescentes en proceso escolar, darle una dimensión justa a esta revolución, interpretarla con el fin de aprovechar la mayor cantidad de beneficios en el desarrollo de su vida diaria, el de sus regiones y el país",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "¿Son tan reales sus beneficios? ¿Cuáles son sus desventajas?",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030"
+    }
+   ]
+  },
+  {
+   "id": "Q228",
+   "tipo": "caso",
+   "caso": "C146",
+   "familia": "PED-CURR",
+   "dificultad": 3,
+   "competencia": "Currículo y plan de área",
+   "enunciado": "Sobre la propuesta de reemplazar las unidades de riego, herramientas agrícolas y construcción por unidades de inteligencia artificial y Big Data, la decisión curricular coherente con las Orientaciones es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "aceptar el reemplazo, porque el documento dice que la Guía 30 dejó por fuera las necesidades de la 4.0.",
+     "j": "Es incorrecta. Usa un dato cierto del texto para sacar una conclusión equivocada. Que la Guía 30 dejara por fuera esas necesidades justifica incluir la informática, pero el documento dice que mantendrá en foco las tecnologías del campo y la construcción."
+    },
+    {
+     "l": "B",
+     "t": "conservar las unidades del campo y enriquecer esos sistemas con automatización, inteligencia artificial y datos.",
+     "j": "Es correcta. El documento dice que la actualización «mantendrá en foco» tecnologías como las de la construcción y el campo agropecuario, y que se confía en que los sistemas actuales «sean enriquecidos con automatización digital, inteligencia artificial y analítica de datos»."
+    },
+    {
+     "l": "C",
+     "t": "conservar solo las unidades del campo, porque la inteligencia artificial no es pertinente para una sede rural.",
+     "j": "Es incorrecta. Acierta en conservar las tecnologías del contexto, pero excluye la informática por ser una sede rural. El documento resalta el lugar destacado de la informática para todos y habla de reducir la brecha tecnológica entre lo rural y lo urbano."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es de nivel 3 porque las tres opciones tienen algo de verdad y hay que leer dos condiciones del texto. Primera: la actualización «mantendrá en foco la enseñanza y estudio de otras manifestaciones tecnológicas», como la construcción y el campo agropecuario, a la vez que resalta el lugar de la informática. Segunda: el estudio de las tecnologías conocidas no desaparece; se espera que los sistemas actuales «sean enriquecidos con automatización digital, inteligencia artificial y analítica de datos». Así, un sistema de riego puede estudiarse con sensores y datos. En la CNSC, la mejor decisión curricular suele integrar el contexto del estudiante con lo nuevo, sin excluir ninguno.",
+   "fuente": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030.",
+   "consejo": "Lo nuevo enriquece lo conocido: no se reemplaza el agro por la 4.0, se integran.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "se confía en que los sistemas tecnológicos actuales sean enriquecidos con automatización digital, inteligencia artificial y analítica de datos",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "esta actualización curricular mantendrá en foco la enseñanza y estudio de otras manifestaciones tecnológicas que son esenciales para el desarrollo de las comunidades y que están asociadas a contextos como la construcción, el campo agropecuario",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.3 Prospectiva a 2030"
+    }
+   ]
+  },
+  {
+   "id": "Q229",
+   "tipo": "caso",
+   "caso": "C147",
+   "familia": "PED-INCL",
+   "dificultad": 2,
+   "competencia": "Educación inclusiva",
+   "enunciado": "Los padres le preguntan a la docente quién debe asesorarlos para elegir entre la oferta general y la modalidad bilingüe bicultural. Según el Decreto 1421, esa asesoría le corresponde a",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el comité escolar de convivencia, porque debe prevenir cualquier forma de exclusión del estudiante en el colegio.",
+     "j": "Es incorrecta. Prevenir la exclusión es importante y el decreto la relaciona con el manual de convivencia, pero la asesoría a las familias sobre la oferta educativa no es una función que el decreto asigne al comité escolar de convivencia."
+    },
+    {
+     "l": "B",
+     "t": "la docente de aula del grado, porque es quien conoce de cerca el ritmo de aprendizaje y los apoyos que requiere.",
+     "j": "Es incorrecta. La docente aporta información valiosa en el PIAR, pero el decreto asigna la asesoría sobre la oferta educativa del territorio a la secretaría de educación, que conoce las opciones disponibles y sus implicaciones frente a los apoyos."
+    },
+    {
+     "l": "C",
+     "t": "la secretaría de educación de la entidad territorial certificada, que asesora a las familias sobre la oferta.",
+     "j": "Es correcta. Entre las responsabilidades de la secretaría está «Asesorar a las familias» de los niños con discapacidad sobre la oferta educativa, y en especial «a las familias de estudiantes con discapacidad auditiva sobre la elección entre la oferta general y la modalidad bilingüe bicultural»."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El enunciado pregunta quién asesora a la familia en una decisión específica: oferta general o modalidad bilingüe bicultural. El Decreto 1421 de 2017 asigna esa tarea a la secretaría de educación de la entidad territorial certificada, que debe asesorar a las familias sobre la oferta educativa disponible en el territorio y sus implicaciones frente a los apoyos, y en particular a las familias de estudiantes con discapacidad auditiva sobre esa elección. La docente y el equipo del PIAR acompañan, pero la asesoría sobre la oferta territorial es de la secretaría. En la CNSC, ubica siempre el nivel responsable: MEN, secretaría o establecimiento.",
+   "fuente": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal b, numeral 4).",
+   "consejo": "Oferta general o bilingüe bicultural: asesora la secretaría de educación.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "así como a las familias de estudiantes con discapacidad auditiva sobre la elección entre la oferta general y la modalidad bilingüe bicultural",
+     "ubicacion": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal b: responsabilidades de las secretarías de educación), num. 4"
+    },
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Asesorar a las familias de los niños, niñas y adolescentes con discapacidad sobre la oferta educativa disponible en el territorio",
+     "ubicacion": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal b: responsabilidades de las secretarías de educación), num. 4"
+    }
+   ]
+  },
+  {
+   "id": "Q230",
+   "tipo": "caso",
+   "caso": "C147",
+   "familia": "PED-INCL",
+   "dificultad": 2,
+   "competencia": "Educación inclusiva",
+   "enunciado": "Ante la respuesta de que el personal de apoyo «tal vez llegue en el segundo semestre», la rectora debe tener claro que, según el Decreto 1421, la secretaría de educación",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "debe definir y gestionar el personal de apoyo suficiente según la matrícula, desde el inicio del año escolar.",
+     "j": "Es correcta. La secretaría debe «Definir y gestionar el personal de apoyo suficiente que requiere la entidad territorial de acuerdo con la matrícula, desde el inicio del año escolar hasta su finalización». Esperar al segundo semestre no cumple ese mandato."
+    },
+    {
+     "l": "B",
+     "t": "puede asignar el personal de apoyo cuando lo permita el presupuesto, porque la implementación del decreto es gradual.",
+     "j": "Es incorrecta. Es atractiva porque el decreto sí habla de gradualidad, pero la aplica a los ajustes razonables de las instituciones. Para el personal de apoyo, el texto fija que debe estar desde el inicio del año escolar hasta su finalización."
+    },
+    {
+     "l": "C",
+     "t": "puede trasladar a la institución la contratación del personal de apoyo con recursos propios del colegio.",
+     "j": "Es incorrecta. La institución gestiona y solicita los apoyos, pero el decreto asigna a la secretaría la responsabilidad de definir y gestionar el personal de apoyo suficiente de la entidad territorial según la matrícula."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La palabra clave del caso es «segundo semestre». El Decreto 1421 de 2017 dice que la secretaría de educación debe «Definir y gestionar el personal de apoyo suficiente que requiere la entidad territorial de acuerdo con la matrícula, desde el inicio del año escolar hasta su finalización». La gradualidad que menciona el decreto se refiere a los ajustes razonables, no a la presencia del personal de apoyo en el año escolar. Por eso la rectora puede pedir, con base en la norma, que el apoyo esté desde el inicio. En la CNSC, cuando un caso muestre una demora en apoyos, la respuesta correcta suele ser exigir el cumplimiento a la instancia responsable.",
+   "fuente": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal b, numeral 6).",
+   "consejo": "Personal de apoyo: lo define la secretaría según la matrícula, todo el año escolar.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Definir y gestionar el personal de apoyo suficiente que requiere la entidad territorial de acuerdo con la matrícula, desde el inicio del año escolar hasta su finalización.",
+     "ubicacion": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal b: responsabilidades de las secretarías de educación), num. 6"
+    }
+   ]
+  },
+  {
+   "id": "Q231",
+   "tipo": "caso",
+   "caso": "C147",
+   "familia": "PED-INCL",
+   "dificultad": 3,
+   "competencia": "Educación inclusiva",
+   "enunciado": "La rectora necesita adecuar la institución (señalización visual, alarmas con luz y materiales accesibles en la sala de informática). Según las responsabilidades de la secretaría en el Decreto 1421, esos ajustes razonables se gestionan",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "por solicitud directa de la rectora al Ministerio de Educación Nacional, que financia los ajustes de cada colegio.",
+     "j": "Es incorrecta. El MEN tiene responsabilidades propias en el decreto, como promover investigación y contenidos accesibles, pero la gestión de los ajustes razonables que requieren las instituciones de la entidad territorial está asignada a la secretaría de educación."
+    },
+    {
+     "l": "B",
+     "t": "a través de los planes de mejoramiento de la secretaría, conforme al diseño universal y a los PIAR, de forma gradual.",
+     "j": "Es correcta. La secretaría debe «Gestionar a través de los planes de mejoramiento de las secretarías los ajustes razonables que las instituciones educativas requieran conforme al diseño universal y a los PIAR, para que de manera gradual» garanticen la atención."
+    },
+    {
+     "l": "C",
+     "t": "con todos los ajustes completos antes de la matrícula, porque sin ellos no puede recibirse al estudiante.",
+     "j": "Es incorrecta. Parece exigente con la calidad, pero el decreto habla de gestión gradual de los ajustes, y condicionar la matrícula a tenerlos todos listos convertiría la falta de ajustes en una barrera de acceso para el estudiante."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es de nivel 3 porque hay que combinar tres datos del numeral 5: quién gestiona (la secretaría), por qué medio (sus planes de mejoramiento) y con qué criterio (el diseño universal y los PIAR, de manera gradual). El Decreto 1421 de 2017 dice que la secretaría debe «Gestionar a través de los planes de mejoramiento de las secretarías los ajustes razonables que las instituciones educativas requieran conforme al diseño universal y a los PIAR, para que de manera gradual puedan garantizar la atención educativa». Gradual no significa aplazar al estudiante: se matricula y los ajustes avanzan. En la CNSC, la falta de ajustes nunca justifica negar el acceso.",
+   "fuente": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal b, numeral 5).",
+   "consejo": "Ajustes razonables de la institución: planes de mejoramiento de la secretaría + DUA + PIAR, gradualmente.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Gestionar a través de los planes de mejoramiento de las secretarías los ajustes razonables que las instituciones educativas requieran conforme al diseño universal y a los PIAR, para que de manera gradual puedan garantizar la atención educativa de los estudiantes con discapacidad.",
+     "ubicacion": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal b: responsabilidades de las secretarías de educación), num. 5"
+    }
+   ]
+  },
+  {
+   "id": "Q232",
+   "tipo": "caso",
+   "caso": "C147",
+   "familia": "PED-INCL",
+   "dificultad": 2,
+   "competencia": "Educación inclusiva",
+   "enunciado": "El estudiante llega sin informes recientes y la familia pregunta quién se encarga de su valoración pedagógica y de articular los informes de salud. Según el Decreto 1421, a la secretaría de educación le corresponde",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "delegar en la docente de aula la valoración pedagógica y la gestión del diagnóstico ante las EPS.",
+     "j": "Es incorrecta. La docente participa en el proceso pedagógico del estudiante, pero el decreto no le asigna gestionar el diagnóstico ante el sector salud. Esa articulación, y la gestión de la valoración pedagógica, son responsabilidades de la secretaría."
+    },
+    {
+     "l": "B",
+     "t": "gestionar la valoración pedagógica y articular con la secretaría de salud el diagnóstico y los informes.",
+     "j": "Es correcta. El decreto dice que la secretaría debe «Gestionar la valoración pedagógica del estudiante con discapacidad» y «Articular con la secretaría de salud de cada jurisdicción, o quien haga sus veces, los procesos de diagnóstico, informes del sector salud, valoración y atención»."
+    },
+    {
+     "l": "C",
+     "t": "emitir el diagnóstico clínico del estudiante por medio de los profesionales de apoyo que tenga asignados.",
+     "j": "Es incorrecta. El personal de apoyo cumple funciones pedagógicas; el diagnóstico es un proceso del sector salud. Por eso el decreto pide a la secretaría de educación articularse con la secretaría de salud, no emitir el diagnóstico."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El enunciado pide dos cosas: la valoración pedagógica y la articulación con salud. El Decreto 1421 de 2017 asigna ambas a la secretaría de educación: debe «Gestionar la valoración pedagógica del estudiante con discapacidad, de conformidad con las orientaciones que defina el Ministerio de Educación Nacional», y «Articular con la secretaría de salud» los procesos de diagnóstico, informes del sector salud, valoración y atención. Lo pedagógico lo gestiona educación; lo clínico viene del sector salud, y la secretaría articula ambos. En la CNSC, desconfía de las opciones que ponen a los docentes o al personal de apoyo a emitir diagnósticos médicos.",
+   "fuente": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal b, numerales 3 y 7).",
+   "consejo": "Valoración pedagógica: la gestiona educación; diagnóstico: salud. La secretaría articula.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Gestionar la valoración pedagógica del estudiante con discapacidad, de conformidad con las orientaciones que defina el Ministerio de Educación Nacional.",
+     "ubicacion": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal b: responsabilidades de las secretarías de educación), num. 3"
+    },
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "Articular con la secretaría de salud de cada jurisdicción, o quien haga sus veces, los procesos de diagnóstico, informes del sector salud, valoración y atención de los estudiantes con discapacidad.",
+     "ubicacion": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal b: responsabilidades de las secretarías de educación), num. 7"
+    }
+   ]
+  }
+ ]
+}

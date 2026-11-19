@@ -2434,25 +2434,34 @@
    "opciones": [
     {
      "l": "A",
-     "t": "lidera con los estudiantes de servicio social un proyecto de mantenimiento preventivo e inventario de equipos, articulado con el plan de mejoramiento institucional.",
-     "j": "Es correcta. Antepone los intereses institucionales y aporta una solución que beneficia a la comunidad (definición de Compromiso social e institucional)."
+     "t": "suspende las prácticas en la sala hasta que la secretaría repare los equipos y mientras tanto dicta solo clases teóricas.",
+     "j": "Es incorrecta. Pedir la reparación a la secretaría es legítimo, pero suspender las prácticas y esperar es una actitud limitante: traslada todo el problema a otros y no aporta una solución desde su cargo, que es lo que evalúa el compromiso institucional."
     },
     {
      "l": "B",
-     "t": "presenta una queja formal ante la secretaría de educación por las condiciones en que debe trabajar.",
-     "j": "Es incorrecta. Se queda en el reclamo sin aportar soluciones."
+     "t": "organiza con los estudiantes un plan de mantenimiento e inventario de los equipos, articulado al plan de mejoramiento.",
+     "j": "Es correcta. Asume la responsabilidad con profesionalismo y aporta una solución que beneficia a la comunidad, articulada con la institución. Coincide con la definición de la competencia: asumir responsabilidades «anteponiendo los intereses institucionales a los personales»."
     },
     {
      "l": "C",
-     "t": "solicita el traslado a otra sede que tenga una sala de informática en mejores condiciones.",
-     "j": "Es incorrecta. Antepone el interés personal al institucional."
+     "t": "solicita su traslado a una sede con mejor dotación, para poder desarrollar el plan de área como está previsto.",
+     "j": "Es incorrecta. Busca una salida razonable para su propio trabajo, pero antepone el interés personal al institucional y deja sin resolver el problema de los estudiantes de la sede. Es lo contrario de lo que pide la competencia evaluada."
     }
    ],
-   "clave": "A",
-   "fuente": "Guía 31 MEN, definición de Compromiso social e institucional (citada en la Guía CNSC 2022, ejemplo 2).",
+   "clave": "B",
+   "fuente": "Guía 31 MEN, definición de Compromiso social e institucional (citada en la Guía de orientación CNSC 2022, ejemplo 2).",
    "consejo": "Compromiso = soluciones que benefician a la institución, no salidas personales.",
    "tipo": "caso",
-   "citas": []
+   "citas": [
+    {
+     "doc": "guia_orientacion_cnsc_2022",
+     "texto": "Habilidad para asumir responsabilidades con ética y profesionalismo, dentro y fuera del establecimiento, anteponiendo los intereses institucionales a los personales e identificándose con los valores, principios y políticas institucionales",
+     "ubicacion": "Guía de orientación al aspirante CNSC (2022), definición de Compromiso social e institucional"
+    }
+   ],
+   "dificultad": 2,
+   "explicacion": "El caso evalúa el compromiso social e institucional, que la Guía de orientación de la CNSC define como la habilidad para asumir responsabilidades con ética y profesionalismo, «anteponiendo los intereses institucionales a los personales». Frente a una sala con equipos dañados y sin presupuesto inmediato, la respuesta de nivel avanzado es la que aporta una solución desde el propio cargo y la articula con la institución, como un plan de mantenimiento e inventario con los estudiantes. Esperar a que otros resuelvan o buscar un traslado son conductas limitantes o centradas en el interés personal. En los casos comportamentales, escoge la acción que resuelve y suma a la institución.",
+   "revisado": true
   },
   {
    "id": "Q049",
@@ -2908,17 +2917,17 @@
     {
      "l": "A",
      "t": "la informática hace parte de un campo más amplio denominado Tecnologías de la Información y la Comunicación.",
-     "j": "Es correcta. Así lo establece la Guía 30."
+     "j": "Es correcta. La Guía 30 dice textualmente que «La informática hace parte de un campo más amplio denominado Tecnologías de la Información y la Comunicación (TIC)», que incluye el teléfono digital, la radio, la televisión, los computadores, las redes e Internet."
     },
     {
      "l": "B",
-     "t": "las TIC son una rama de la informática dedicada exclusivamente a las redes y a internet.",
-     "j": "Es incorrecta. Es al revés: la informática hace parte de las TIC."
+     "t": "las TIC son una rama de la informática dedicada de manera exclusiva al estudio de las redes y de internet.",
+     "j": "Es incorrecta. Invierte la relación: no son las TIC las que hacen parte de la informática, sino la informática la que hace parte de las TIC. Además, las TIC incluyen también el teléfono, la radio y la televisión, no solo las redes."
     },
     {
      "l": "C",
-     "t": "la informática y las TIC son sinónimos que se refieren al uso escolar de los computadores.",
-     "j": "Es incorrecta. La guía las distingue y advierte que los computadores no son sinónimo de tecnología."
+     "t": "la informática y las TIC son dos nombres para lo mismo: el uso de los computadores dentro de la vida escolar.",
+     "j": "Es incorrecta. La Guía 30 distingue ambos conceptos: la informática es un conjunto de conocimientos sobre el manejo de información con procesadores, y las TIC son un campo más amplio. Tampoco reduce ninguno de los dos al uso escolar del computador."
     }
    ],
    "clave": "A",
@@ -2929,8 +2938,16 @@
      "doc": "guia30_mineducacion_2008",
      "texto": "La informática hace parte de un campo más amplio denominado Tecnologías de la Información y la Comunicación (TIC)",
      "ubicacion": "Guía 30, p. 9"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "La informática se refiere al conjunto de conocimientos científicos y tecnológicos que hacen posible el acceso, la búsqueda y el manejo de la información por medio de procesadores.",
+     "ubicacion": "Guía 30, p. 9"
     }
-   ]
+   ],
+   "dificultad": 1,
+   "explicacion": "Es una pregunta de reconocimiento. La Guía 30 define la informática como el conjunto de conocimientos que hacen posible el acceso, la búsqueda y el manejo de la información por medio de procesadores, y aclara que «hace parte de un campo más amplio denominado Tecnologías de la Información y la Comunicación (TIC)». Es una relación de inclusión: informática ⊂ TIC. Las TIC abarcan manifestaciones cotidianas como el teléfono digital, la radio, la televisión, los computadores, las redes e Internet. En la prueba, cuidado con las opciones que invierten la relación o que tratan ambos términos como sinónimos: son las trampas más frecuentes.",
+   "revisado": true
   },
   {
    "id": "K010",
@@ -2938,22 +2955,22 @@
    "ficha": "F05",
    "familia": "DIS-DATOS",
    "competencia": "Naturaleza y evolución",
-   "enunciado": "Al explicar el sistema binario en grado octavo, el número 13 se representa como",
+   "enunciado": "Al explicar el sistema binario en grado octavo, la docente pide representar el número 13. La respuesta correcta es",
    "opciones": [
     {
      "l": "A",
-     "t": "1011, porque se suman las posiciones 8, 2 y 1 de derecha a izquierda.",
-     "j": "Es incorrecta. 1011 = 8 + 2 + 1 = 11."
+     "t": "1011, porque se suman los valores de posición 8, 2 y 1, leyendo de derecha a izquierda.",
+     "j": "Es incorrecta. Es un error típico al ubicar las posiciones: 1011 activa los valores 8, 2 y 1, y 8 + 2 + 1 = 11, no 13. Falta el valor de posición 4 y sobra el 2."
     },
     {
      "l": "B",
-     "t": "1110, porque se suman las posiciones 8, 4 y 2 de derecha a izquierda.",
-     "j": "Es incorrecta. 1110 = 8 + 4 + 2 = 14."
+     "t": "1110, porque se suman los valores de posición 8, 4 y 2, leyendo de derecha a izquierda.",
+     "j": "Es incorrecta. Activa los valores 8, 4 y 2, y 8 + 4 + 2 = 14. El error está en la última cifra: para obtener un número impar como 13, la posición de las unidades (valor 1) debe estar en 1."
     },
     {
      "l": "C",
-     "t": "1101, porque se suman las posiciones 8, 4 y 1 de derecha a izquierda.",
-     "j": "Es correcta. 8 + 4 + 1 = 13."
+     "t": "1101, porque se suman los valores de posición 8, 4 y 1, leyendo de derecha a izquierda.",
+     "j": "Es correcta. Las posiciones de derecha a izquierda valen 1, 2, 4 y 8. 1101 activa 8, 4 y 1, y 8 + 4 + 1 = 13. Es el tipo de ejercicio con el que se describe el sistema binario en 8° y 9°."
     }
    ],
    "clave": "C",
@@ -2965,7 +2982,10 @@
      "texto": "Identifico artefactos basados en tecnología digital y describo el sistema binario utilizado en dicha tecnología.",
      "ubicacion": "Guía 30, 8° a 9°"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La Guía 30 espera que en 8° y 9° el estudiante identifique artefactos basados en tecnología digital y describa «el sistema binario utilizado en dicha tecnología». En binario, cada posición vale una potencia de 2: de derecha a izquierda, 1, 2, 4, 8, 16. Para escribir 13 se busca la combinación que suma exactamente ese valor: 8 + 4 + 1 = 13, es decir, 1101. Un truco rápido para descartar opciones: todo número impar termina en 1 en binario, así que 1110 queda descartado de inmediato. Aplica el mismo razonamiento cuando un caso de la prueba combine tecnología digital con razonamiento numérico.",
+   "revisado": true
   },
   {
    "id": "K011",
@@ -2977,18 +2997,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "una especificación, porque describe lo que el comedero debe lograr para la mascota.",
-     "j": "Es incorrecta. Lo que el comedero debe lograr es entregar alimento dos veces al día."
+     "t": "una especificación, porque describe una condición que la solución final siempre debe cumplir.",
+     "j": "Es incorrecta. Es el distractor más cercano: el costo también se verifica al final. Pero la especificación es lo que la solución debe lograr, en este caso entregar alimento dos veces al día. El costo no describe la función, sino un límite."
     },
     {
      "l": "B",
      "t": "una restricción, porque limita los recursos con los que se puede construir la solución.",
-     "j": "Es correcta. Según la Guía 30, el diseño trabaja con recursos limitados en el marco de condiciones y restricciones."
+     "j": "Es correcta. La Guía 30 dice que en el diseño «se utilizan recursos limitados, en el marco de condiciones y restricciones, para dar respuesta a las especificaciones deseadas». El presupuesto máximo es un límite de recursos: una restricción."
     },
     {
      "l": "C",
-     "t": "un criterio de evaluación, porque permite calificar qué tan bien quedó el prototipo.",
-     "j": "Es incorrecta. Es un límite del problema de diseño, no un criterio de calificación."
+     "t": "un criterio de evaluación, porque sirve para calificar qué tan bien quedó el prototipo.",
+     "j": "Es incorrecta. El costo puede usarse luego para comparar prototipos, pero en el planteamiento del problema funciona como un límite que la solución no puede superar. Sería criterio si se pidiera escoger entre varias soluciones ya hechas."
     }
    ],
    "clave": "B",
@@ -3000,7 +3020,10 @@
      "texto": "Con tal fin se utilizan recursos limitados, en el marco de condiciones y restricciones, para dar respuesta a las especificaciones deseadas.",
      "ubicacion": "Guía 30, p. 9"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque restricción y especificación se parecen: ambas se revisan al terminar el prototipo. La Guía 30 las distingue en su definición de diseño: se usan «recursos limitados, en el marco de condiciones y restricciones, para dar respuesta a las especificaciones deseadas». La especificación es la respuesta que se desea, lo que la solución debe lograr: entregar alimento dos veces al día. La restricción es el marco que limita los recursos: el costo máximo de $40.000. Para no confundirte, pregúntate si el dato describe la función de la solución o un límite para construirla.",
+   "revisado": true
   },
   {
    "id": "K012",
@@ -3012,18 +3035,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "la solución correcta es la que cumple el mayor número de especificaciones con el menor costo posible.",
-     "j": "Es incorrecta. Presenta un único criterio como absoluto; la guía dice que depende de los criterios y su ponderación."
+     "t": "la mejor solución es la que cumple más especificaciones con el menor costo posible.",
+     "j": "Es incorrecta. Es atractiva porque costo y especificaciones son criterios reales de diseño. Pero la presenta como una regla única y fija; la Guía 30 dice que no hay soluciones perfectas y que la mejor depende de los criterios elegidos y de su ponderación."
     },
     {
      "l": "B",
-     "t": "pueden existir varias soluciones a un mismo problema, según los criterios utilizados y su ponderación.",
-     "j": "Es correcta. Es un desempeño explícito de la Guía 30 para 8° a 9°."
+     "t": "pueden existir varias soluciones a un mismo problema, según los criterios y su ponderación.",
+     "j": "Es correcta. Es el desempeño de 8° a 9° de la Guía 30: «Reconozco que no hay soluciones perfectas, y que pueden existir varias soluciones a un mismo problema según los criterios utilizados y su ponderación»."
     },
     {
      "l": "C",
-     "t": "el docente debe definir cuál solución es correcta para evitar que la discusión afecte el trabajo.",
-     "j": "Es incorrecta. Quita a los estudiantes el análisis de criterios que la guía busca desarrollar."
+     "t": "corresponde al docente decidir cuál es la correcta para evitar que la discusión se alargue.",
+     "j": "Es incorrecta. Cerrar la discusión con la autoridad del docente parece práctico, pero quita a los estudiantes el análisis de criterios que la Guía 30 busca desarrollar. Sería adecuado solo si hubiera un error técnico o de seguridad evidente."
     }
    ],
    "clave": "B",
@@ -3035,7 +3058,10 @@
      "texto": "Reconozco que no hay soluciones perfectas, y que pueden existir varias soluciones a un mismo problema según los criterios utilizados y su ponderación.",
      "ubicacion": "Guía 30, 8° a 9°"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque la opción A suena técnica y razonable. La Guía 30 plantea para 8° y 9° un desempeño clave del componente de solución de problemas: «Reconozco que no hay soluciones perfectas, y que pueden existir varias soluciones a un mismo problema según los criterios utilizados y su ponderación». Eso significa que dos soluciones distintas pueden ser válidas, y que la discusión debe centrarse en qué criterios se usan y cuánto pesa cada uno. El papel del docente es orientar esa comparación, no imponer la respuesta. En la prueba, desconfía de las reglas únicas para decidir la «mejor» solución.",
+   "revisado": true
   },
   {
    "id": "K013",
@@ -3048,17 +3074,17 @@
     {
      "l": "A",
      "t": "lo desarme y cambie las piezas dañadas siguiendo un procedimiento de prueba y descarte.",
-     "j": "Es incorrecta. La prueba y descarte se espera desde 6°-7°."
+     "j": "Es incorrecta. Describe una competencia real del área, pero de otro grupo de grados: seguir procedimientos de prueba y descarte se espera en 6° y 7°. Para un niño de segundo, además, desarmar un artefacto eléctrico no es una actuación segura."
     },
     {
      "l": "B",
      "t": "formule hipótesis sobre la causa de la falla y proponga estrategias para repararlo.",
-     "j": "Es incorrecta. Formular hipótesis sobre fallas corresponde a 10°-11°."
+     "j": "Es incorrecta. También es una competencia de la Guía 30, pero corresponde a 10° y 11°, donde el estudiante detecta, describe y formula hipótesis sobre fallas. Pedirla en segundo grado desconoce la progresión por grupos de grados."
     },
     {
      "l": "C",
-     "t": "detecte la falla simple, actúe de manera segura frente al artefacto e informe a un adulto lo que observó.",
-     "j": "Es correcta. Es el desempeño de 1° a 3° en solución de problemas."
+     "t": "detecte la falla simple, actúe de forma segura frente al juguete e informe a un adulto.",
+     "j": "Es correcta. Es el desempeño de 1° a 3°: «Detecto fallas simples en el funcionamiento de algunos artefactos sencillos, actúo de manera segura frente a ellos e informo a los adultos mis observaciones»."
     }
    ],
    "clave": "C",
@@ -3069,8 +3095,16 @@
      "doc": "guia30_mineducacion_2008",
      "texto": "Detecto fallas simples en el funcionamiento de algunos artefactos sencillos, actúo de manera segura frente a ellos e informo a los adultos mis observaciones.",
      "ubicacion": "Guía 30, 1° a 3°"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Detecto, describo y formulo hipótesis sobre fallas en sistemas tecnológicos sencillos (siguiendo un proceso de prueba y descarte) y propongo estrategias para repararlas.",
+     "ubicacion": "Guía 30, 10° a 11°"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque las tres opciones son desempeños reales de la Guía 30 y hay que ubicar el que corresponde al grupo de grados. La detección de fallas crece con la edad: en 1° a 3° el niño detecta fallas simples, actúa de manera segura e informa a los adultos; en 6° y 7° sigue procedimientos de prueba y descarte; en 10° y 11° formula hipótesis sobre las fallas y propone cómo repararlas. Para segundo grado, lo esperado es observar, cuidarse e informar. En la prueba, cuando las opciones parezcan todas correctas, revisa el grado del enunciado y la progresión de la competencia.",
+   "revisado": true
   },
   {
    "id": "K014",
@@ -3082,18 +3116,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "pruebe por separado la pila, los cables y el bombillo, y descarte los que funcionan hasta encontrar el elemento que falla.",
-     "j": "Es correcta. Es el procedimiento de prueba y descarte que la Guía 30 propone para 6° a 7°."
+     "t": "pruebe por separado la pila, los cables y el bombillo, y descarte los que funcionan.",
+     "j": "Es correcta. Es el procedimiento que la Guía 30 propone para 6° y 7°: detectar fallas en artefactos y sistemas «siguiendo procedimientos de prueba y descarte», y luego proponer estrategias de solución."
     },
     {
      "l": "B",
-     "t": "reemplace todos los componentes del circuito por unos nuevos para asegurarse de que la maqueta funcione.",
-     "j": "Es incorrecta. Cambia todo sin diagnosticar; no desarrolla la competencia."
+     "t": "cambie todos los componentes del circuito por otros nuevos para asegurar que funcione.",
+     "j": "Es incorrecta. Puede hacer que la maqueta funcione, pero lo logra sin diagnosticar: el estudiante no sabe qué falló ni por qué. Así no se desarrolla la competencia de detección de fallas que la Guía 30 espera en este grado."
     },
     {
      "l": "C",
-     "t": "le entregue la maqueta al docente para que identifique el problema y le explique después la solución.",
-     "j": "Es incorrecta. El docente asume la tarea que debe desarrollar el estudiante."
+     "t": "le entregue la maqueta al docente para que encuentre la falla y luego se la explique.",
+     "j": "Es incorrecta. La explicación del docente puede ser útil después, pero aquí el docente asume la tarea que debe hacer el estudiante. La Guía 30 espera que sea el estudiante quien siga el procedimiento de prueba y descarte."
     }
    ],
    "clave": "A",
@@ -3105,7 +3139,10 @@
      "texto": "Detecto fallas en artefactos, procesos y sistemas tecnológicos, siguiendo procedimientos de prueba y descarte, y propongo estrategias de solución.",
      "ubicacion": "Guía 30, 6° a 7°"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La Guía 30 ubica en 6° y 7° el desempeño «Detecto fallas en artefactos, procesos y sistemas tecnológicos, siguiendo procedimientos de prueba y descarte, y propongo estrategias de solución». Prueba y descarte significa revisar cada parte por separado, eliminar las que funcionan y llegar así al elemento que falla. Cambiar todo o entregar la maqueta al docente resuelve el síntoma, pero no desarrolla la competencia. En los casos de la CNSC sobre el área, la respuesta correcta suele ser la que pone al estudiante a razonar con un procedimiento propio de la tecnología, mientras el docente orienta.",
+   "revisado": true
   },
   {
    "id": "K015",
@@ -3117,18 +3154,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "un ciclo, porque el ventilador se encenderá cada vez que el programa se ejecute.",
-     "j": "Es incorrecta. Un ciclo repite instrucciones; aquí se toma una decisión."
+     "t": "una sentencia iterativa, porque el ventilador se enciende cada vez que el programa se ejecuta.",
+     "j": "Es incorrecta. Una sentencia iterativa (ciclo) repite instrucciones varias veces. El bloque del enunciado no repite nada: evalúa una condición y decide si ejecuta la acción. Sería iterativa si dijera «repetir» o «por siempre»."
     },
     {
      "l": "B",
-     "t": "un condicional, porque la acción se ejecuta solo cuando se cumple una condición.",
-     "j": "Es correcta. «Si… entonces…» es la estructura condicional."
+     "t": "una sentencia condicional, porque la acción se ejecuta solo cuando se cumple una condición.",
+     "j": "Es correcta. La estructura «si… entonces…» es la sentencia condicional: el ventilador se enciende solo si la temperatura es mayor que 30. Las Orientaciones mencionan los tipos de sentencias secuencial, condicional e iterativa."
     },
     {
      "l": "C",
-     "t": "una variable, porque la temperatura es un dato que cambia durante la ejecución.",
-     "j": "Es incorrecta. La temperatura sí es una variable, pero el bloque completo es un condicional."
+     "t": "una sentencia secuencial, porque las instrucciones se cumplen una después de la otra.",
+     "j": "Es incorrecta. Todo programa tiene un orden, pero la sentencia secuencial ejecuta las instrucciones una tras otra sin decidir. Aquí hay una decisión que depende de un dato, y eso define la estructura condicional."
     }
    ],
    "clave": "B",
@@ -3137,10 +3174,18 @@
    "citas": [
     {
      "doc": "orientaciones_tecnologia_2022",
+     "texto": "dominar un lenguaje de programación y los tipos de sentencias (secuencial, condicional e iterativa)",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 3.2.3 Dimensión histórico contextual"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
      "texto": "Véase, por ejemplo, los usos pedagógicos de Scratch y Code.org.",
      "ubicacion": "Orientaciones Curriculares, 4.3.3"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "Las Orientaciones Curriculares incluyen entre los aspectos técnicos del área «dominar un lenguaje de programación y los tipos de sentencias (secuencial, condicional e iterativa)». La secuencial ejecuta instrucciones una tras otra; la condicional decide si ejecuta una acción según se cumpla una condición; la iterativa repite instrucciones. El bloque «si temperatura > 30 entonces encender ventilador» toma una decisión a partir de un dato: es condicional. Para reconocerla en un caso de la prueba, busca las palabras «si», «entonces» o «si no»; para la iterativa, busca «repetir», «mientras» o «por siempre».",
+   "revisado": true
   },
   {
    "id": "K016",
@@ -3148,22 +3193,22 @@
    "ficha": "F08",
    "familia": "DIS-ALGO",
    "competencia": "Solución de problemas",
-   "enunciado": "Según las Orientaciones Curriculares, el pensamiento computacional sin computadores",
+   "enunciado": "Según las Orientaciones Curriculares, el desarrollo del pensamiento computacional sin computadores",
    "opciones": [
     {
      "l": "A",
-     "t": "reemplaza la formación con equipos en las instituciones que no tienen conectividad permanente.",
-     "j": "Es incorrecta. El documento aclara que no pretende sustituir el trabajo con equipos de cómputo."
+     "t": "reemplaza la formación con equipos en las instituciones que no tienen infraestructura de cómputo.",
+     "j": "Es incorrecta. Es el distractor más cercano, porque el documento sí la presenta como alternativa para instituciones sin infraestructura. Pero aclara que «no pretende sustituir» las competencias que se desarrollan con equipos de cómputo, sino servir de solución mientras tanto."
     },
     {
      "l": "B",
-     "t": "es una estrategia exclusiva de preescolar, antes de que los niños usen dispositivos digitales.",
-     "j": "Es incorrecta. Se propone para niños y jóvenes, no solo para preescolar."
+     "t": "es una estrategia propia del preescolar, antes de que los niños empiecen a usar dispositivos.",
+     "j": "Es incorrecta. El documento no la limita al preescolar: dice que favorece la introducción de conceptos como números binarios y algoritmos «en los niños y jóvenes». Puede usarse en cualquier grado donde sea pertinente."
     },
     {
      "l": "C",
-     "t": "es un enfoque didáctico que no requiere equipos y usa recursos al alcance, como juegos basados en reglas.",
-     "j": "Es correcta. Así lo describen las Orientaciones Curriculares en el numeral 4.3.3."
+     "t": "es un enfoque didáctico que no requiere equipos y usa recursos al alcance, como juegos con reglas.",
+     "j": "Es correcta. Las Orientaciones lo describen como «un enfoque didáctico que no requiere de equipos computacionales para su implementación, sino que utiliza los recursos que se encuentran al alcance como desafíos y juegos basados en reglas»."
     }
    ],
    "clave": "C",
@@ -3174,8 +3219,16 @@
      "doc": "orientaciones_tecnologia_2022",
      "texto": "desarrollo del pensamiento computacional sin computadores es un enfoque didáctico que no requiere de equipos computacionales para su implementación",
      "ubicacion": "Orientaciones Curriculares, 4.3.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "más no pretende sustituir el desarrollo de competencias tecnológicas soportadas en el uso de equipos de cómputo",
+     "ubicacion": "Orientaciones Curriculares, 4.3.3"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque la opción A dice algo parcialmente cierto: el pensamiento computacional sin computadores sí es una alternativa para establecimientos sin infraestructura o con acceso limitado. La diferencia está en el verbo: el documento aclara que «no pretende sustituir el desarrollo de competencias tecnológicas soportadas en el uso de equipos de cómputo». Su definición es la de un enfoque didáctico que usa recursos al alcance, como desafíos y juegos basados en reglas, para abordar algoritmos, números binarios o comprensión de datos con niños y jóvenes. En la prueba, fíjate si una opción convierte una alternativa en un reemplazo.",
+   "revisado": true
   },
   {
    "id": "K017",
@@ -3187,18 +3240,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "construcción-fabricación, porque los estudiantes manipulan físicamente un artefacto.",
-     "j": "Es incorrecta. Esa estrategia pasa de las ideas a realizaciones concretas; aquí se examina un producto existente."
+     "t": "construcción-fabricación, porque los estudiantes manipulan físicamente un artefacto real.",
+     "j": "Es incorrecta. Manipular objetos ocurre en varias estrategias. La construcción-fabricación va del mundo de las ideas y los diseños al de las realizaciones: modelos, prototipos, programas. Aquí no se construye nada; se examina un producto que ya existe."
     },
     {
      "l": "B",
-     "t": "análisis de productos tecnológicos, porque parte de un producto terminado y lo descompone en sus partes.",
-     "j": "Es correcta. Es la definición del numeral 4.2.3 de las Orientaciones Curriculares."
+     "t": "análisis de productos tecnológicos, porque parte de un producto terminado y lo descompone.",
+     "j": "Es correcta. Las Orientaciones dicen que en esta estrategia «Se parte de un producto tecnológico terminado para descomponerlo en sus partes» y analizar decisiones como «la elección de materiales». Es exactamente lo que hace la docente."
     },
     {
      "l": "C",
-     "t": "diseño y rediseño, porque los estudiantes reflexionan sobre las decisiones de diseño de la licuadora.",
-     "j": "Es incorrecta. El rediseño exige proponer mejoras al producto, y el enunciado no lo plantea."
+     "t": "diseño y rediseño, porque los estudiantes evalúan las decisiones de diseño de la licuadora.",
+     "j": "Es incorrecta. Es el distractor más cercano: el rediseño también puede empezar evaluando un producto existente, pero su fin es identificar qué se puede innovar o rediseñar. Sería correcta si la docente pidiera proponer mejoras a la licuadora."
     }
    ],
    "clave": "B",
@@ -3209,8 +3262,16 @@
      "doc": "orientaciones_tecnologia_2022",
      "texto": "Se parte de un producto tecnológico terminado para descomponerlo en sus partes",
      "ubicacion": "Orientaciones Curriculares, 4.2.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "se puede comenzar desde la evaluación de un producto tecnológico existente con el fin de identificar qué aspectos podemos innovar, rediseñar",
+     "ubicacion": "Orientaciones Curriculares, 4.2.2"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque análisis de productos y rediseño parten ambos de un producto existente. La diferencia está en el propósito. En el análisis de productos tecnológicos «Se parte de un producto tecnológico terminado para descomponerlo en sus partes» y comprender el conocimiento empleado, los procesos técnicos y decisiones como la elección de materiales. En el rediseño se evalúa un producto existente «con el fin de identificar qué aspectos podemos innovar, rediseñar». Como la docente solo pide desarmar, identificar y discutir, sin proponer mejoras, se trata de análisis. En la prueba, pregúntate qué se le pide al estudiante al final de la actividad.",
+   "revisado": true
   },
   {
    "id": "K018",
@@ -3218,22 +3279,22 @@
    "ficha": "F09",
    "familia": "DIS-DIDAC",
    "competencia": "Didáctica del área",
-   "enunciado": "La estrategia de construcción-fabricación, según las Orientaciones Curriculares, se centra en",
+   "enunciado": "La estrategia de construcción-fabricación, según las Orientaciones Curriculares, centra su interés en",
    "opciones": [
     {
      "l": "A",
-     "t": "el paso del mundo de las ideas y los diseños al mundo de las realizaciones: modelos, prototipos, simulaciones o programas.",
-     "j": "Es correcta. Así la define el numeral 4.2.1."
+     "t": "el paso del mundo de las ideas y los diseños al de las realizaciones, como modelos o prototipos.",
+     "j": "Es correcta. El numeral 4.2.1 dice que esta estrategia «centra su interés en el paso del mundo de las ideas y los diseños, al mundo de las realizaciones gráficas, modelos, simulaciones, algoritmos», programas o prototipos."
     },
     {
      "l": "B",
      "t": "la reflexión crítica sobre los efectos de la tecnología en el ambiente y en las comunidades.",
-     "j": "Es incorrecta. Eso corresponde al enfoque CTS."
+     "j": "Es incorrecta. La reflexión crítica sobre impactos es propia del enfoque CTS y del componente de tecnología y sociedad. Puede aparecer en un proyecto de construcción, pero no es el centro de esta estrategia."
     },
     {
      "l": "C",
-     "t": "el estudio de la historia de los artefactos para comprender su evolución a lo largo del tiempo.",
-     "j": "Es incorrecta. Eso corresponde al componente de naturaleza y evolución."
+     "t": "el estudio de la historia de los artefactos para comprender su evolución a través del tiempo.",
+     "j": "Es incorrecta. El estudio histórico de los artefactos corresponde al componente de naturaleza y evolución de la tecnología. La construcción-fabricación se centra en materializar ideas, no en reconstruir su historia."
     }
    ],
    "clave": "A",
@@ -3245,7 +3306,10 @@
      "texto": "La construcción-fabricación como estrategia didáctica para la enseñanza y el aprendizaje de la tecnología y la informática centra su interés en el paso del mundo de las ideas y los diseños, al mundo de las realizaciones gráficas",
      "ubicacion": "Orientaciones Curriculares, 4.2.1"
     }
-   ]
+   ],
+   "dificultad": 1,
+   "explicacion": "Es una pregunta de reconocimiento de la definición. Las Orientaciones Curriculares dicen que la construcción-fabricación «centra su interés en el paso del mundo de las ideas y los diseños, al mundo de las realizaciones gráficas, modelos, simulaciones, algoritmos, diagramas de procesos, programas computacionales» o prototipos. La palabra clave es materializar: pasar de la idea al producto concreto que resuelve un problema, necesidad o deseo. Recuerda las demás estrategias para diferenciarlas: análisis de productos parte de un producto terminado; diseño y rediseño crea o mejora soluciones. En la prueba, si el caso termina en un prototipo, un modelo o un programa, piensa en construcción-fabricación.",
+   "revisado": true
   },
   {
    "id": "K019",
@@ -3257,18 +3321,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "la velocidad de procesamiento de los computadores frente a la de las calculadoras.",
-     "j": "Es incorrecta. Es un asunto técnico, no ético."
+     "t": "la velocidad de procesamiento de los computadores frente a la de otros equipos digitales.",
+     "j": "Es incorrecta. La velocidad de procesamiento es una característica técnica que se puede medir y comparar, pero no plantea un dilema ético. La Guía 30 habla de problemas que afectan a las personas, como la privacidad o la propiedad."
     },
     {
      "l": "B",
-     "t": "la cantidad de horas de clase que se dedican al área en cada grado.",
-     "j": "Es incorrecta. Es un asunto curricular, no una discusión ética de las TIC."
+     "t": "la cantidad de horas de clase que se dedican al área de tecnología en cada grado.",
+     "j": "Es incorrecta. La intensidad horaria es una decisión curricular de cada institución, no una discusión ética derivada del uso de las TIC. La Guía 30 no la menciona entre los ejemplos de esa problemática."
     },
     {
      "l": "C",
      "t": "la privacidad y la confidencialidad, y los derechos de propiedad de los programas.",
-     "j": "Es correcta. La Guía 30 los menciona como ejemplos de la problemática ética de las TIC."
+     "j": "Es correcta. La Guía 30 dice que algunos ejemplos de la problemática ética de las TIC «tienen que ver con la privacidad y la confidencialidad, con los derechos de propiedad de los programas», entre otros."
     }
    ],
    "clave": "C",
@@ -3280,7 +3344,10 @@
      "texto": "Algunos ejemplos de esta problemática tienen que ver con la privacidad y la confidencialidad, con los derechos de propiedad de los programas",
      "ubicacion": "Guía 30, p. 10"
     }
-   ]
+   ],
+   "dificultad": 1,
+   "explicacion": "Es una pregunta de reconocimiento. En el apartado sobre tecnología y ética, la Guía 30 dice que las TIC son fuente de discusiones éticas relacionadas con su uso y con las amenazas que se derivan de ellas, y da ejemplos: la privacidad y la confidencialidad, los derechos de propiedad de los programas, la responsabilidad por su mal funcionamiento y el acceso a dichas tecnologías. Estos temas conectan el área con la ciudadanía digital. En la prueba, una discusión ética siempre involucra derechos, responsabilidades o equidad de las personas; los datos técnicos o las decisiones de horario no son dilemas éticos.",
+   "revisado": true
   },
   {
    "id": "K020",
@@ -3288,22 +3355,22 @@
    "ficha": "F10",
    "familia": "DIS-CTS",
    "competencia": "Tecnología y sociedad",
-   "enunciado": "Para la Guía 30, la ética de la tecnología también se relaciona con",
+   "enunciado": "En un debate de grado noveno, un estudiante dice que la ética de la tecnología solo tiene que ver con evitar daños. Para la Guía 30, la ética de la tecnología también se relaciona con",
    "opciones": [
     {
      "l": "A",
      "t": "el acceso equitativo a los productos y servicios tecnológicos que benefician a la humanidad.",
-     "j": "Es correcta. Así lo plantea la Guía 30 en el apartado Tecnología y ética."
+     "j": "Es correcta. La Guía 30 dice: «La ética de la tecnología también se relaciona con el acceso equitativo a los productos y a los servicios tecnológicos que benefician a la humanidad». La ética no solo evita daños: también pregunta quién accede a los beneficios."
     },
     {
      "l": "B",
-     "t": "la prohibición de las tecnologías que tienen algún efecto negativo sobre el ambiente.",
-     "j": "Es incorrecta. La guía reconoce efectos negativos, pero también los problemas que la tecnología ha resuelto; no propone prohibir."
+     "t": "la prohibición de las tecnologías que generan algún efecto negativo sobre el ambiente o la salud.",
+     "j": "Es incorrecta. La Guía 30 reconoce que algunos desarrollos traen beneficios y a la vez plantean dilemas, como la contaminación ambiental, pero propone analizarlos y valorarlos, no prohibir toda tecnología con efectos negativos."
     },
     {
      "l": "C",
      "t": "la obligación de enseñar programación a todos los estudiantes desde el preescolar.",
-     "j": "Es incorrecta. No es un planteamiento ético de la guía."
+     "j": "Es incorrecta. Enseñar programación puede ser una decisión curricular valiosa, pero no es un planteamiento ético de la Guía 30. La pregunta busca la dimensión de equidad en el acceso a los beneficios de la tecnología."
     }
    ],
    "clave": "A",
@@ -3315,7 +3382,10 @@
      "texto": "La ética de la tecnología también se relaciona con el acceso equitativo a los productos y a los servicios tecnológicos que benefician a la humanidad",
      "ubicacion": "Guía 30, p. 10"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El enunciado contrapone una visión reducida de la ética (evitar daños) con lo que dice la Guía 30. En el apartado Tecnología y ética, la guía reconoce los dilemas que plantean algunos desarrollos, como la energía nuclear o la contaminación, y añade que «La ética de la tecnología también se relaciona con el acceso equitativo a los productos y a los servicios tecnológicos que benefician a la humanidad». Es decir, la ética incluye la justicia en la distribución de los beneficios. En la prueba, cuando aparezca equidad o brecha de acceso en un caso de tecnología y sociedad, recuerda que la Guía 30 lo trata como un asunto ético.",
+   "revisado": true
   },
   {
    "id": "K021",
@@ -3327,21 +3397,21 @@
    "opciones": [
     {
      "l": "A",
-     "t": "Apropiación y uso de la tecnología, porque trata de la utilización adecuada y segura de herramientas y equipos.",
-     "j": "Es correcta. En la tabla de 8° a 9° aparece en la columna de apropiación y uso."
+     "t": "Tecnología y sociedad, porque la seguridad en el trabajo es una responsabilidad de tipo social.",
+     "j": "Es incorrecta. La seguridad tiene una dimensión social y el componente de tecnología y sociedad trata la ética y la responsabilidad. Pero la Guía 30 ubica este desempeño, centrado en usar bien herramientas y equipos, en apropiación y uso."
     },
     {
      "l": "B",
-     "t": "Solución de problemas con tecnología, porque los elementos de protección resuelven el problema de los accidentes.",
-     "j": "Es incorrecta. Ese componente trata de identificar problemas, diseñar y detectar fallas."
+     "t": "Solución de problemas con tecnología, porque la protección resuelve el problema de los accidentes.",
+     "j": "Es incorrecta. Ese componente trata de identificar y resolver problemas, diseñar soluciones y detectar fallas. Usar elementos de protección no es diseñar una solución, sino utilizar la tecnología de manera adecuada y segura."
     },
     {
      "l": "C",
-     "t": "Tecnología y sociedad, porque la seguridad en el trabajo es una responsabilidad social.",
-     "j": "Es incorrecta. Aunque tiene relación, la guía lo ubica en apropiación y uso."
+     "t": "Apropiación y uso de la tecnología, porque trata la utilización adecuada y segura de las herramientas.",
+     "j": "Es correcta. En la tabla de 8° a 9° de la Guía 30, este desempeño aparece junto a otros de uso adecuado de la tecnología, como el mantenimiento de los artefactos y el uso responsable de las TIC: es del componente de apropiación y uso."
     }
    ],
-   "clave": "A",
+   "clave": "C",
    "fuente": "Guía 30, 8° a 9°",
    "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
    "citas": [
@@ -3349,8 +3419,16 @@
      "doc": "guia30_mineducacion_2008",
      "texto": "Utilizo elementos de protección y normas de seguridad para la realización de actividades y manipulación de herramientas y equipos.",
      "ubicacion": "Guía 30, 8° a 9°"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Hago un mantenimiento  adecuado de mis artefactos tecnológicos.",
+     "ubicacion": "Guía 30, 8° a 9°"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La Guía 30 organiza los desempeños en cuatro componentes. En la tabla de 8° a 9°, el desempeño sobre elementos de protección y normas de seguridad aparece junto a «Hago un mantenimiento adecuado de mis artefactos tecnológicos» y al uso responsable y autónomo de las TIC: todos tratan de usar la tecnología de forma adecuada, segura y pertinente, que es el componente de apropiación y uso. Tecnología y sociedad trata actitudes, valoración y participación; solución de problemas trata diseño y detección de fallas. En la prueba, si el desempeño empieza por «utilizo» o habla de usar bien una herramienta, piensa primero en apropiación y uso.",
+   "revisado": true
   },
   {
    "id": "K022",
@@ -3362,18 +3440,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "entretenerse en su tiempo libre siempre que lo hagan bajo la supervisión de sus padres.",
-     "j": "Es incorrecta. No es el desempeño que plantea la guía."
+     "t": "entretenerse en su tiempo libre, siempre que lo hagan bajo la supervisión permanente de sus padres.",
+     "j": "Es incorrecta. El uso recreativo supervisado puede ser sano, pero no es el desempeño que plantea la Guía 30. La guía apunta a un uso con fines de aprendizaje y comunicación, y además pide autonomía, no solo supervisión."
     },
     {
      "l": "B",
      "t": "aprender, investigar y comunicarse con otros en el mundo, de manera responsable y autónoma.",
-     "j": "Es correcta. Es el desempeño textual de la Guía 30 para 8° a 9°."
+     "j": "Es correcta. Es el desempeño textual de 8° a 9°: «Utilizo responsable y autónomamente las Tecnologías de la Información y la Comunicación (TIC) para aprender, investigar y comunicarme con otros en el mundo»."
     },
     {
      "l": "C",
      "t": "reemplazar los libros de texto y las clases presenciales por recursos digitales gratuitos.",
-     "j": "Es incorrecta. La guía no plantea reemplazar las clases."
+     "j": "Es incorrecta. La Guía 30 no plantea reemplazar las clases ni los libros. Propone que el estudiante use las TIC como herramienta para aprender e investigar, lo que puede complementar los demás recursos."
     }
    ],
    "clave": "B",
@@ -3385,7 +3463,10 @@
      "texto": "Utilizo responsable y autónomamente las Tecnologías de la Información y la Comunicación (TIC) para aprender, investigar y comunicarme con otros en el mundo.",
      "ubicacion": "Guía 30, 8° a 9°"
     }
-   ]
+   ],
+   "dificultad": 1,
+   "explicacion": "Es una pregunta de reconocimiento. La Guía 30 incluye en el componente de apropiación y uso, para 8° y 9°, el desempeño «Utilizo responsable y autónomamente las Tecnologías de la Información y la Comunicación (TIC) para aprender, investigar y comunicarme con otros en el mundo». Tiene tres finalidades (aprender, investigar, comunicarse) y dos condiciones (responsable y autónomamente). En los casos de la CNSC sobre seguridad digital, esta idea se traduce en formar el criterio del estudiante para que use las TIC con autonomía, en lugar de limitarse a prohibir o vigilar.",
+   "revisado": true
   },
   {
    "id": "K023",
