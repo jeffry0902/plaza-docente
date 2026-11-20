@@ -1,0 +1,875 @@
+{
+ "id": "2026-11-20",
+ "fecha": "2026-11-20",
+ "casos": [
+  {
+   "id": "C148",
+   "titulo": "El plan de área ante el consejo académico",
+   "texto": "En la semana de planeación institucional de un colegio oficial de Yopal, la docente de Tecnología e Informática presenta ante el consejo académico la actualización del plan de área con base en las Orientaciones Curriculares del MEN (2022). El coordinador académico pregunta si el área es obligatoria o si depende del énfasis del PEI, y qué política nacional llevó al MEN a reemplazar la Guía 30. Un docente de Ciencias Naturales objeta que la unidad sobre las tecnologías del cultivo de arroz y de la ganadería del Casanare «es de su área y no de tecnología». La sede rural del colegio, además, pide que el área le proponga un proyecto que tenga sentido para las veredas."
+  },
+  {
+   "id": "C149",
+   "titulo": "La campaña de noveno y el riego de la huerta",
+   "texto": "En una institución educativa oficial de Yopal, la docente de Tecnología e Informática orienta dos proyectos. En noveno, los estudiantes preparan una campaña digital (pódcast e infografías) sobre noticias falsas, contraseñas seguras y protección de los datos personales en redes sociales; algunos padres preguntan por qué eso se trabaja en Informática y no en Lengua Castellana. En séptimo, los estudiantes diseñaron tres alternativas de riego para la huerta escolar y ahora deben elegir una con criterios del área: un grupo quiere la que se construye más rápido y otro la que tiene más sensores."
+  },
+  {
+   "id": "C150",
+   "titulo": "La reunión del Consejo de Política Social",
+   "texto": "La docente de Tecnología e Informática de un colegio oficial de Yopal integra el comité escolar de convivencia y es invitada a una reunión del Consejo Municipal de Política Social. Un funcionario recién llegado propone que el comité municipal de convivencia escolar «se reúna solo cuando haya un caso grave» y pregunta quiénes lo conforman. Una madre de familia que asiste a la reunión quiere saber, además, quién formulará los lineamientos de la Cátedra de Educación Emocional de la que escuchó hablar en las noticias."
+  },
+  {
+   "id": "C151",
+   "titulo": "El chat del grupo de séptimo",
+   "texto": "En grado séptimo de un colegio oficial de Yopal, la docente de Tecnología e Informática inicia una unidad sobre los productos de la tecnología. Los estudiantes usan a diario una aplicación de mensajería: saben enviar audios, crear grupos y responder en el momento o más tarde, pero cuando la docente pregunta cómo llega un mensaje al celular de un familiar que vive en otra ciudad, nadie sabe explicarlo. Como primera tarea, hacen una lista de productos tecnológicos de su entorno: una cuchara, la red de computadores del colegio y el almacenamiento en la nube donde guardan sus trabajos. Un estudiante afirma que «sin científicos no habría tecnología»."
+  },
+  {
+   "id": "C152",
+   "titulo": "El comité municipal sin su presidente",
+   "texto": "El comité municipal de convivencia escolar de Yopal tiene programada una sesión ordinaria. El día de la reunión llega más de la mitad de sus integrantes, pero el presidente del comité avisa que no podrá asistir. La docente de Tecnología e Informática de un colegio oficial fue invitada a esa sesión para presentar un proyecto de prevención del ciberacoso. Por otra parte, el comisario de familia, integrante del comité, ha notado en junio un aumento de casos de ciberacoso y no quiere esperar a la siguiente sesión ordinaria, y la secretaria de salud, que estará de viaje, pregunta si puede participar de forma virtual en la próxima sesión."
+  }
+ ],
+ "fichas": [
+  {
+   "id": "F33",
+   "familia": "DIS-ALGO",
+   "titulo": "Tecnología e informática en la escuela: qué aporta cada una",
+   "lectura": "Las Orientaciones Curriculares de Tecnología e Informática (MEN, 2022) explican qué aporta cada parte del área. La tecnología, como conocimiento escolar, es un sistema integrado que fomenta las dimensiones individual, social e histórico contextual; implica descubrir, crear, proponer y transformar la cotidianidad para solucionar problemas con soluciones seguras, amigables, sustentables y sostenibles, y favorece el pensamiento tecnológico en sus dimensiones estructural, funcional y dinámica. El estudio de la informática, por su parte, contribuye al desarrollo y uso del pensamiento computacional, algorítmico y sistémico en la búsqueda de soluciones que puedan ser ejecutadas por sistemas informáticos automatizados; favorece la alfabetización digital, informacional, multimedia y comunicacional, ligada a la ética computacional, la seguridad informática y los derechos digitales. Las dos no van por separado: se orientan de modo interdependiente hacia las competencias, desde cuatro formas de comprensión y aplicación.",
+   "puntos": [
+    "Tecnología → pensamiento tecnológico (dimensiones estructural, funcional y dinámica) y soluciones seguras, amigables, sustentables y sostenibles.",
+    "Informática → pensamiento computacional, algorítmico y sistémico; soluciones ejecutables por sistemas informáticos automatizados.",
+    "Informática también favorece la alfabetización digital, informacional, multimedia y comunicacional (ética computacional, seguridad informática, derechos digitales).",
+    "Ambas se orientan de modo interdependiente desde cuatro formas: de pensar; de usar, actuar y transformar; de hacer e intervenir; de ser y estar.",
+    "Trampa CNSC: tratar tecnología e informática como dos asignaturas sin relación, o reducir la informática al manejo de programas."
+   ],
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "el estudio de la informática en el contexto escolar contribuye al desarrollo y uso del pensamiento computacional, algorítmico y sistémico en la búsqueda de soluciones relevantes que puedan ser ejecutadas por sistemas informáticos automatizados",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Favorece, a través de prácticas tecnológicas, el desarrollo del Pensamiento Tecnológico en sus dimensiones estructural, funcional y dinámica",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Ambas, tecnología e informática, se orientan de modo interdependiente hacia el fortalecimiento de competencias de formación desde cuatro formas de comprensión y aplicación",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "Q233",
+   "tipo": "caso",
+   "caso": "C148",
+   "familia": "PED-CURR",
+   "dificultad": 2,
+   "competencia": "Currículo y plan de área",
+   "enunciado": "Para responder al coordinador sobre el carácter del área, la docente explica, con las Orientaciones Curriculares, que Tecnología e Informática es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "un área optativa que cada institución incluye en su plan de estudios cuando el PEI tiene énfasis técnico.",
+     "j": "Es incorrecta. Confunde el área con un énfasis institucional. El PEI sí define énfasis y áreas optativas, pero las Orientaciones recuerdan que la Ley 115 ubica a Tecnología e Informática entre las áreas fundamentales y obligatorias, no entre las optativas."
+    },
+    {
+     "l": "B",
+     "t": "un área fundamental y obligatoria del currículo, según los artículos 23 y 31 de la Ley 115 de 1994.",
+     "j": "Es correcta. El apartado 2.1 de las Orientaciones dice que la Ley 115 «establece en sus artículos 23 y 31 a la Tecnología e Informática como área fundamental y obligatoria del currículo». Ningún PEI puede dejarla por fuera del plan de estudios."
+    },
+    {
+     "l": "C",
+     "t": "un área obligatoria solo en la educación media, como preparación para la formación técnica y laboral.",
+     "j": "Es incorrecta. Es una verdad a medias: el artículo 31 se refiere a la media, pero el texto cita también el artículo 23, que corresponde a la educación básica. El área es fundamental y obligatoria en básica y en media, no solo en los últimos grados."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave es «carácter del área». El apartado 2.1 de las Orientaciones Curriculares responde de forma directa: la Ley General de Educación, en sus artículos 23 y 31, establece a la Tecnología e Informática como área fundamental y obligatoria del currículo en los establecimientos educativos colombianos. Que el artículo 31 trate la media no la vuelve exclusiva de esos grados, porque el artículo 23 se refiere a la básica. En la prueba, cuando un caso proponga que una institución decida si incluye o no el área, recuerda que las áreas obligatorias y fundamentales no dependen del énfasis del PEI: el PEI decide cómo se organizan, no si existen.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1 ¿Qué es el área de Tecnología e Informática?",
+   "consejo": "Ley 115, arts. 23 y 31: T&I es área fundamental y obligatoria (básica y media).",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "La Ley General de Educación, Ley 115 de 1994, establece en sus artículos 23 y 31 a la Tecnología e Informática como área fundamental y obligatoria del currículo en los establecimientos educativos colombianos.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1"
+    }
+   ]
+  },
+  {
+   "id": "Q234",
+   "tipo": "caso",
+   "caso": "C148",
+   "familia": "LC-INF",
+   "dificultad": 3,
+   "competencia": "Lectura crítica de textos institucionales",
+   "enunciado": "El coordinador pregunta qué política obligó al MEN a actualizar la Guía 30. Según el texto de las Orientaciones, la relación entre el CONPES 3975 de 2019 y los CONPES 3988 y 3995 de 2020 es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "los tres CONPES exigen al MEN actualizar la Guía 30, y por eso las Orientaciones les dan cumplimiento.",
+     "j": "Es incorrecta. Generaliza a los tres documentos lo que el texto dice de uno solo. Las Orientaciones afirman que el CONPES 3975 «exige» la actualización de la Guía 30; de los CONPES 3988 y 3995 dicen que el documento les «da respuesta», que es una relación distinta."
+    },
+    {
+     "l": "B",
+     "t": "el CONPES 3988 exige la actualización de la Guía 30 y el CONPES 3975 solo fundamenta el uso de la IA.",
+     "j": "Es incorrecta. Invierte los papeles de los documentos. En el texto, la exigencia de actualizar la Guía 30 aparece asociada al CONPES 3975 (Acción 3.1 e Hito 6 de su Plan de Acción), mientras que el CONPES 3988, «Tecnologías para aprender», es una de las políticas a las que se da respuesta."
+    },
+    {
+     "l": "C",
+     "t": "el CONPES 3975 exige al MEN actualizar la Guía 30, y las Orientaciones además dan respuesta a los otros dos.",
+     "j": "Es correcta. El texto dice que el CONPES 3975 exige al MEN diseñar lineamientos y, «en especial, la actualización» de la Guía 30, y que el documento cumple esos mandatos. Luego agrega con «Así mismo» que también da respuesta a los CONPES 3988 y 3995, entre otras políticas."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es de nivel 3 porque hay que distinguir dos relaciones que el texto expresa con verbos distintos. Del CONPES 3975 de 2019 dice que «exige» al MEN diseñar lineamientos con énfasis en inteligencia artificial y, en especial, actualizar la Guía 30, y que las Orientaciones «dan cumplimiento a dichos mandatos». Después, con el conector «Así mismo», añade que el documento «da respuesta» a otras políticas: los CONPES 3988 y 3995 de 2020 y el 4069 de 2021. En lectura crítica, un conector aditivo suma información, pero no iguala las relaciones: desconfía de la opción que generaliza («los tres») y de la que intercambia los papeles.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 1.3 Prospectiva y requerimientos de actualización.",
+   "consejo": "«Exige» (CONPES 3975) ≠ «da respuesta» (CONPES 3988, 3995, 4069).",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "en especial, la actualización de las orientaciones generales para la educación en tecnología o documento Guía 30 (Acción 3.1. e Hito 6 del Anexo A. PAS Documento CONPES 3975); así, estas Orientaciones Curriculares para el Área de Tecnología e Informática dan cumplimiento a dichos mandatos.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Así mismo, da respuesta a la política de “Tecnologías para aprender” (CONPES 3988 de 2020), la “Política Nacional de Confianza y Seguridad Digital” (CONPES 3995 de 2020)",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.3"
+    }
+   ]
+  },
+  {
+   "id": "Q235",
+   "tipo": "caso",
+   "caso": "C148",
+   "familia": "DIS-CTS",
+   "dificultad": 2,
+   "competencia": "Tecnología y sociedad",
+   "enunciado": "Ante la objeción del docente de Ciencias Naturales sobre la unidad del cultivo de arroz y la ganadería, la respuesta de la docente que se ajusta a las Orientaciones es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el área estudia manifestaciones tecnológicas nacionales, regionales y locales, y el agro es uno de sus contextos.",
+     "j": "Es correcta. El apartado 2.1 dice que el área «se ocupa de estudiar las diferentes expresiones y manifestaciones tecnológicas tanto nacionales, regionales, locales como internacionales» y nombra el agro entre los contextos de interés formativo. La unidad sobre el arroz y la ganadería es propia del área."
+    },
+    {
+     "l": "B",
+     "t": "la unidad debe pasar a Ciencias Naturales, porque el área estudia sobre todo los artefactos digitales del siglo XXI.",
+     "j": "Es incorrecta. Reduce el área a lo digital. Las Orientaciones destacan la informática, pero incluyen productos analógicos o digitales y preguntan, por ejemplo, qué tecnologías se emplean para cultivar alimentos y domesticar animales. Ciencias Naturales puede aportar, pero no le quita el objeto al área."
+    },
+    {
+     "l": "C",
+     "t": "la unidad puede quedarse solo como proyecto transversal, porque el agro no es objeto de estudio propio del área.",
+     "j": "Es incorrecta. Un proyecto transversal es una opción válida para integrar áreas, pero la razón que da es falsa: el texto dice expresamente que hay manifestaciones tecnológicas de interés formativo asociadas al agro. La unidad puede estar en el plan de área sin dejar de dialogar con otras."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La clave está en el objeto de estudio del área. Las Orientaciones dicen que Tecnología e Informática se ocupa de las manifestaciones tecnológicas nacionales, regionales, locales e internacionales, y pone como primer ejemplo el agro: qué tecnologías se emplean y emplearon para cultivar alimentos, domesticar animales y lograr mejores cosechas. Por eso una unidad sobre el arroz y la ganadería del Casanare es contenido propio del área, aunque pueda articularse con Ciencias Naturales. En la prueba, desconfía de las opciones que reducen la tecnología a los computadores: la CNSC espera que el docente reconozca las tecnologías del contexto regional como objeto legítimo del área.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.",
+   "consejo": "El agro, la industria, la salud y el transporte también son tecnología: el área estudia lo regional y lo local.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "se ocupa de estudiar las diferentes expresiones y manifestaciones tecnológicas tanto nacionales, regionales, locales como internacionales.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Algunas manifestaciones tecnológicas que son objeto de interés formativo en esta área están asociadas a contextos como el agro, por ejemplo, ¿qué tecnologías se emplean y emplearon para cultivar los alimentos, domesticar animales",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1"
+    }
+   ]
+  },
+  {
+   "id": "Q236",
+   "tipo": "caso",
+   "caso": "C148",
+   "familia": "DIS-CTS",
+   "dificultad": 3,
+   "competencia": "Tecnología y sociedad",
+   "enunciado": "Para la sede rural, ¿cuál propuesta responde mejor al propósito que las Orientaciones asignan a las interrelaciones entre tecnología e informática, ciencia, innovación e investigación?",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "Un curso de ofimática en la sala de sistemas para que los estudiantes certifiquen el manejo de programas básicos.",
+     "j": "Es incorrecta. Es atractiva porque acerca a los estudiantes rurales al computador, pero se queda en el manejo de herramientas. Las Orientaciones esperan que esas interrelaciones desarrollen la capacidad de resolver problemas; un curso de manejo de programas no lo logra por sí solo."
+    },
+    {
+     "l": "B",
+     "t": "Un proyecto en el que los estudiantes resuelvan un problema de su vereda con herramientas digitales y locales.",
+     "j": "Es correcta. El texto dice que esas interrelaciones son estrategias para que los estudiantes desarrollen «su capacidad para resolver de problemas que contribuyan al fortalecimiento de la tecnología regional, la reducción de las brechas socio-digitales entre campo y ciudad». El proyecto cumple las tres condiciones."
+    },
+    {
+     "l": "C",
+     "t": "Una salida a la feria tecnológica de la ciudad para que los estudiantes conozcan los avances de la industria.",
+     "j": "Es incorrecta. Una salida pedagógica puede motivar y ampliar referentes, pero los estudiantes solo observan productos ajenos. No resuelven un problema propio ni fortalecen la tecnología de su región, que es lo que pide el apartado; serviría como actividad complementaria, no como propuesta central."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es de nivel 3 porque las tres propuestas parecen útiles para una sede rural. El criterio está en el texto: las Orientaciones proponen interrelaciones entre tecnología e informática, ciencia, innovación e investigación como estrategias para que los estudiantes desarrollen su capacidad de resolver problemas que contribuyan al fortalecimiento de la tecnología regional y a la reducción de las brechas socio-digitales entre campo y ciudad. Solo el proyecto sobre un problema de la vereda pone a los estudiantes a resolver algo de su territorio. El curso de ofimática se queda en el uso instrumental y la salida es solo observación. En la CNSC, la mejor opción es la que convierte el contexto en problema que se resuelve.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 1.3.",
+   "consejo": "Brecha campo-ciudad: se reduce resolviendo problemas del territorio, no solo con cursos de manejo de programas.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "desarrollen su capacidad para resolver de problemas que contribuyan al fortalecimiento de la tecnología regional, la reducción de las brechas socio-digitales entre campo y ciudad",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 1.3"
+    }
+   ]
+  },
+  {
+   "id": "K065",
+   "tipo": "conocimiento",
+   "ficha": "F33",
+   "familia": "DIS-ALGO",
+   "dificultad": 1,
+   "competencia": "Pensamiento computacional",
+   "enunciado": "Según las Orientaciones Curriculares (MEN, 2022), el estudio de la informática en el contexto escolar contribuye al desarrollo y uso del pensamiento",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "tecnológico, en sus dimensiones estructural, funcional y dinámica, para comprender y construir artificios.",
+     "j": "Es incorrecta. Es la descripción que el documento hace de lo que favorece la tecnología, no la informática. Es un distractor cercano porque ambas aparecen en el mismo apartado, una después de la otra, y se complementan dentro del área."
+    },
+    {
+     "l": "B",
+     "t": "computacional, algorítmico y sistémico, en la búsqueda de soluciones que ejecuten sistemas automatizados.",
+     "j": "Es correcta. El texto dice que el estudio de la informática «contribuye al desarrollo y uso del pensamiento computacional, algorítmico y sistémico en la búsqueda de soluciones relevantes que puedan ser ejecutadas por sistemas informáticos automatizados»."
+    },
+    {
+     "l": "C",
+     "t": "instrumental, centrado en el manejo de programas de oficina para producir documentos y presentaciones.",
+     "j": "Es incorrecta. Reduce la informática al uso de herramientas. Las Orientaciones no hablan de un pensamiento instrumental; al contrario, esperan superar el uso instrumental de las TIC y asocian la informática con el pensamiento computacional, algorítmico y sistémico."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La ficha separa lo que aporta cada parte del área. De la informática, las Orientaciones dicen que contribuye al desarrollo y uso del pensamiento computacional, algorítmico y sistémico en la búsqueda de soluciones que puedan ser ejecutadas por sistemas informáticos automatizados. El pensamiento tecnológico, con sus dimensiones estructural, funcional y dinámica, es lo que favorece la tecnología. Para recordarlo: la informática busca soluciones que una máquina pueda ejecutar, por eso habla de algoritmos y sistemas automatizados. En la prueba, si una opción reduce la informática al manejo de programas de oficina, descártala: es justamente el uso instrumental que el documento quiere superar.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "el estudio de la informática en el contexto escolar contribuye al desarrollo y uso del pensamiento computacional, algorítmico y sistémico en la búsqueda de soluciones relevantes que puedan ser ejecutadas por sistemas informáticos automatizados",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1"
+    }
+   ]
+  },
+  {
+   "id": "K066",
+   "tipo": "conocimiento",
+   "ficha": "F33",
+   "familia": "DIS-ALGO",
+   "dificultad": 2,
+   "competencia": "Pensamiento computacional",
+   "enunciado": "En una reunión de área, una docente afirma: «Tecnología desarrolla el pensamiento tecnológico e Informática el computacional; son dos asignaturas sin relación». Según la ficha, la afirmación es imprecisa porque",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "ambas se orientan de modo interdependiente a las competencias, desde cuatro formas de comprensión y aplicación.",
+     "j": "Es correcta. La primera parte de la afirmación coincide con el documento, pero la conclusión no. Las Orientaciones dicen que «Ambas, tecnología e informática, se orientan de modo interdependiente» hacia las competencias desde cuatro formas de comprensión y aplicación."
+    },
+    {
+     "l": "B",
+     "t": "la informática reemplazó a la tecnología en 2022 y el pensamiento tecnológico ya no se trabaja en el área.",
+     "j": "Es incorrecta. Las Orientaciones de 2022 destacan la informática, pero no eliminan la tecnología: el mismo apartado dice que la tecnología favorece el pensamiento tecnológico en sus dimensiones estructural, funcional y dinámica. Las dos siguen siendo parte del área."
+    },
+    {
+     "l": "C",
+     "t": "el pensamiento computacional pertenece a Matemáticas y el área solo trabaja el pensamiento tecnológico.",
+     "j": "Es incorrecta. Puede haber integración con Matemáticas, y el texto habla de una sólida base matemática, pero el documento asigna el pensamiento computacional al estudio de la informática dentro del área de Tecnología e Informática, no a otra área."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La afirmación de la docente tiene una parte verdadera y una conclusión falsa, y eso es lo que hay que detectar. Es cierto que las Orientaciones asocian la tecnología con el pensamiento tecnológico y la informática con el pensamiento computacional, algorítmico y sistémico. Pero el documento cierra el apartado diciendo que ambas se orientan de modo interdependiente hacia el fortalecimiento de las competencias, desde cuatro formas de comprensión y aplicación: formas de pensar; de usar, actuar y transformar; de hacer e intervenir; y de ser y estar. En la CNSC, cuando una opción separa lo que la norma integra, suele ser la trampa.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Ambas, tecnología e informática, se orientan de modo interdependiente hacia el fortalecimiento de competencias de formación desde cuatro formas de comprensión y aplicación: formas de pensar, formas de usar, actuar y transformar, formas de hacer e intervenir y formas de ser y estar",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1"
+    }
+   ]
+  },
+  {
+   "id": "Q237",
+   "tipo": "caso",
+   "caso": "C149",
+   "familia": "DIS-DATOS",
+   "dificultad": 3,
+   "competencia": "Informática y TIC",
+   "enunciado": "Para explicar a los padres por qué la campaña de noveno pertenece al estudio de la informática, el argumento más fiel a las Orientaciones Curriculares es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "toda actividad que se produce con computador o celular hace parte del área, sin importar el contenido trabajado.",
+     "j": "Es incorrecta. Justifica el proyecto por el aparato que se usa y no por lo que se aprende. Esa visión instrumental es la que las Orientaciones buscan superar: usar un computador en Lengua Castellana no convierte esa clase en Informática."
+    },
+    {
+     "l": "B",
+     "t": "la campaña desarrolla el pensamiento tecnológico en sus dimensiones estructural, funcional y dinámica.",
+     "j": "Es incorrecta. Es un distractor cercano porque usa una expresión literal del documento, pero esa idea describe lo que favorece la tecnología mediante prácticas tecnológicas con artificios. El aporte propio de la informática a una campaña sobre datos y noticias falsas es otro."
+    },
+    {
+     "l": "C",
+     "t": "la informática favorece la alfabetización digital e informacional, ligada a la seguridad y los derechos digitales.",
+     "j": "Es correcta. El texto dice que el estudio de la informática «Favorece la alfabetización digital, informacional, multimedia y comunicacional» en aspectos como «la ética computacional, la responsabilidad, seguridad informática y derechos digitales». La campaña trabaja justo esos aspectos."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es de nivel 3 porque dos opciones usan ideas del mismo apartado y solo una corresponde a la informática. Las Orientaciones dicen que el estudio de la informática favorece la alfabetización digital, informacional, multimedia y comunicacional, ligada a la ética computacional, la responsabilidad, la seguridad informática y los derechos digitales. Una campaña sobre noticias falsas, contraseñas y protección de datos es exactamente eso. El pensamiento tecnológico estructural, funcional y dinámico es lo que la tecnología desarrolla con artificios y sistemas. Y justificar el proyecto por el aparato es la visión instrumental. En la prueba, relaciona la informática con datos, información y ciudadanía digital, no solo con el uso del computador.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.",
+   "consejo": "Noticias falsas, datos personales y contraseñas = alfabetización digital e informacional (informática).",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Favorece la alfabetización digital, informacional, multimedia y comunicacional, que posibilitan la transformación productiva del ciudadano en aspectos de gran relevancia como la ética computacional, la responsabilidad, seguridad informática y derechos digitales",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1"
+    }
+   ]
+  },
+  {
+   "id": "Q238",
+   "tipo": "caso",
+   "caso": "C149",
+   "familia": "DIS-DISENO",
+   "dificultad": 3,
+   "competencia": "Solución de problemas con tecnología",
+   "enunciado": "Para que séptimo compare las tres alternativas de riego, el criterio que la docente debe proponer, según las Orientaciones Curriculares, es que la solución elegida sea",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "segura, amigable, sustentable y sostenible para la vida, además de responder a la necesidad de la huerta.",
+     "j": "Es correcta. Las Orientaciones dicen que la tecnología escolar implica crear y transformar la cotidianidad para la solución de problemas, con «soluciones que deben ser seguras, amigables, sustentables y sostenibles para la vida». Esos son los criterios para comparar alternativas."
+    },
+    {
+     "l": "B",
+     "t": "la más económica y rápida de construir, porque el tiempo y el presupuesto escolar son las restricciones principales.",
+     "j": "Es incorrecta. Es una verdad a medias: el tiempo y el costo sí son restricciones de diseño que deben tenerse en cuenta. Pero convertirlos en el criterio principal deja por fuera la seguridad y la sostenibilidad, que el documento pone como condiciones de toda solución."
+    },
+    {
+     "l": "C",
+     "t": "la más avanzada técnicamente, con sensores y automatización, porque la prospectiva del área privilegia la IA.",
+     "j": "Es incorrecta. La prospectiva del área sí valora la automatización y la inteligencia artificial, pero no dice que la solución con más tecnología sea la mejor. Una alternativa con muchos sensores puede no ser sostenible ni amigable para el contexto de la huerta."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Es de nivel 3 porque los dos grupos defienden criterios que existen en el diseño real: el costo y el tiempo, por un lado, y la sofisticación técnica, por otro. Las Orientaciones fijan, sin embargo, las condiciones que toda solución tecnológica escolar debe cumplir: ser segura, amigable, sustentable y sostenible para la vida, además de resolver el problema o la necesidad. Por eso la docente debe pedir que las alternativas se comparen con esos criterios, y usar el costo y el tiempo como restricciones dentro de esa comparación. En la CNSC, la opción más avanzada o la más barata no gana por sí sola: gana la que responde a la necesidad sin poner en riesgo a las personas ni al entorno.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.",
+   "consejo": "Comparar alternativas: segura, amigable, sustentable y sostenible; costo y tiempo son restricciones, no el fin.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "soluciones que deben ser seguras, amigables, sustentables y sostenibles para la vida.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Implica actos lógicos y fácticos de descubrimiento, creación, proposición y transformación de la cotidianidad en y para la solución de problemas",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1"
+    }
+   ]
+  },
+  {
+   "id": "Q239",
+   "tipo": "caso",
+   "caso": "C150",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "Frente a la propuesta del funcionario, la docente aclara que, según la Ley 1620 de 2013, el comité municipal de convivencia escolar",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "es una instancia transitoria que convoca la secretaría de educación cuando se presenta una situación tipo III.",
+     "j": "Es incorrecta. Supone que el comité existe solo para emergencias. El artículo 9 dice lo contrario: los comités municipales «son de carácter permanente». Las situaciones tipo III se atienden con los protocolos de cada colegio, no creando un comité ocasional."
+    },
+    {
+     "l": "B",
+     "t": "depende del comité escolar del colegio con mejor puntaje Saber 11 y se activa cuando ese comité lo solicita.",
+     "j": "Es incorrecta. Mezcla dos datos ciertos de forma equivocada. Un rector de los mejores puntajes Saber 11 integra el comité municipal, pero el comité no depende de ningún colegio: el artículo 9 lo ubica dentro de los Consejos Territoriales de Política Social."
+    },
+    {
+     "l": "C",
+     "t": "es de carácter permanente y hace parte del Consejo Territorial de Política Social de su jurisdicción.",
+     "j": "Es correcta. El artículo 9 dice que los Consejos Territoriales de Política Social «tendrán comités municipales, distritales y departamentales de convivencia escolar» y que estos «son de carácter permanente». No se reúnen solo cuando hay un caso grave."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La palabra clave del caso es «solo cuando haya un caso grave». El artículo 9 de la Ley 1620 de 2013 responde con dos datos: los comités municipales, distritales y departamentales de convivencia escolar hacen parte de los Consejos Territoriales de Política Social, creados según el Decreto 1137 de 1999, y son de carácter permanente. Su función es coordinar las acciones del Sistema en el territorio, no atender casos uno por uno. En la prueba, cuando una opción convierta una instancia del Sistema Nacional de Convivencia en algo ocasional o dependiente de un colegio, desconfía: la ley define su ubicación y su permanencia.",
+   "fuente": "Ley 1620 de 2013, art. 9.",
+   "consejo": "Comité municipal de convivencia: permanente y dentro del Consejo Territorial de Política Social.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Los Consejos Territoriales de Política Social creados de conformidad con el Decreto 1137 de 1999 tendrán comités municipales, distritales y departamentales de convivencia escolar",
+     "ubicacion": "Ley 1620 de 2013, art. 9"
+    },
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Los comités municipales, distritales y departamentales de convivencia escolar son de carácter permanente",
+     "ubicacion": "Ley 1620 de 2013, art. 9"
+    }
+   ]
+  },
+  {
+   "id": "Q240",
+   "tipo": "caso",
+   "caso": "C150",
+   "familia": "NOR-SIST",
+   "dificultad": 3,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "El funcionario pregunta quiénes conforman el comité municipal. ¿Cuál pareja corresponde por completo a la conformación que fija el artículo 9 de la Ley 1620 de 2013?",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "El Comisario de Familia y el Personero Municipal.",
+     "j": "Es correcta. Las dos figuras están en la lista del artículo 9: el numeral 6 nombra a «El Comisario de Familia» y el numeral 7 a «El Personero Distrital, Municipal o Procurador Regional». Es la única pareja en la que ambos integrantes son del comité municipal."
+    },
+    {
+     "l": "B",
+     "t": "El Personero estudiantil y el Comisario de Familia.",
+     "j": "Es incorrecta. El Comisario de Familia sí integra el comité, pero el personero estudiantil no: él hace parte del comité escolar de convivencia de cada colegio. El artículo 9 se refiere al Personero Municipal, que es un servidor público del municipio."
+    },
+    {
+     "l": "C",
+     "t": "El Secretario de Educación y el coordinador de convivencia.",
+     "j": "Es incorrecta. El Secretario de Educación municipal sí está en el numeral 2, pero ningún coordinador de convivencia aparece en la lista del artículo 9. Los coordinadores participan en el comité escolar de su institución, no en el comité municipal."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Es de nivel 3 porque cada distractor tiene un integrante verdadero y otro falso, y hay que revisar la pareja completa. El artículo 9 de la Ley 1620 conforma el comité municipal con servidores del territorio: los secretarios de Gobierno, Educación, Salud y Cultura, el ICBF, el Comisario de Familia, el Personero, el Defensor del Pueblo, el comandante de la Policía de Infancia y Adolescencia y dos rectores con los más altos puntajes Saber 11. El personero estudiantil y el coordinador pertenecen al comité escolar de convivencia. En la CNSC, no confundas el comité escolar con el municipal: el primero es de la institución y el segundo del territorio.",
+   "fuente": "Ley 1620 de 2013, art. 9, numerales 2, 6 y 7.",
+   "consejo": "Personero Municipal (comité municipal) ≠ personero estudiantil (comité escolar).",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "6. El Comisario de Familia.",
+     "ubicacion": "Ley 1620 de 2013, art. 9, num. 6"
+    },
+    {
+     "doc": "ley_1620_2013",
+     "texto": "7. El Personero Distrital, Municipal o Procurador Regional.",
+     "ubicacion": "Ley 1620 de 2013, art. 9, num. 7"
+    },
+    {
+     "doc": "ley_1620_2013",
+     "texto": "2. El Secretario de Educación departamental, distrital o municipal, según corresponda.",
+     "ubicacion": "Ley 1620 de 2013, art. 9, num. 2"
+    }
+   ]
+  },
+  {
+   "id": "Q241",
+   "tipo": "caso",
+   "caso": "C150",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "La madre pregunta quién formula los lineamientos de la Cátedra de Educación Emocional. Según la Ley 1620 de 2013, con la adición hecha por la Ley 2503 de 2025, esa función es del",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "comité municipal de convivencia escolar, porque coordina las acciones del Sistema en el nivel territorial.",
+     "j": "Es incorrecta. Es cierto que el comité municipal coordina las funciones y acciones del Sistema en su territorio, según el artículo 9. Pero la función de formular los lineamientos de la Cátedra fue adicionada al artículo 8, que enumera las funciones del Comité Nacional."
+    },
+    {
+     "l": "B",
+     "t": "Comité Nacional de Convivencia Escolar, que además puede convocar mesas con expertos para ajustarla.",
+     "j": "Es correcta. El numeral 15 del artículo 8, adicionado por la Ley 2503 de 2025, le asigna «Formular los lineamientos pedagógicos, metodológicos y curriculares específicos para la Cátedra de Educación Emocional», y el parágrafo 2 le da la potestad de convocar mesas con expertos."
+    },
+    {
+     "l": "C",
+     "t": "comité escolar de convivencia de cada institución, porque conoce las necesidades de sus estudiantes.",
+     "j": "Es incorrecta. El comité escolar conoce a sus estudiantes y participa en la vida institucional, pero la ley no le asigna formular los lineamientos de una cátedra nacional. Esa función está entre las del Comité Nacional de Convivencia Escolar."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave es «lineamientos». El artículo 8 de la Ley 1620 enumera las funciones del Comité Nacional de Convivencia Escolar y la Ley 2503 de 2025 le adicionó varios numerales sobre la Cátedra de Educación Emocional; el numeral 15 dice: «Formular los lineamientos pedagógicos, metodológicos y curriculares específicos para la Cátedra de Educación Emocional». El parágrafo 2 añade que ese comité puede convocar mesas con expertos para revisar y ajustar la propuesta. Los comités territoriales coordinan en su jurisdicción y los escolares actúan en cada colegio. En la CNSC, los lineamientos de alcance nacional se asignan a la instancia nacional.",
+   "fuente": "Ley 1620 de 2013, art. 8, num. 15 y parágrafo 2 (adicionados por la Ley 2503 de 2025).",
+   "consejo": "Lineamientos de la Cátedra de Educación Emocional = Comité Nacional de Convivencia Escolar.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Formular los lineamientos pedagógicos, metodológicos y curriculares específicos para la Cátedra de Educación Emocional.",
+     "ubicacion": "Ley 1620 de 2013, art. 8, num. 15"
+    },
+    {
+     "doc": "ley_1620_2013",
+     "texto": "El Comité Nacional de Convivencia Escolar, tendrá la potestad de convocar e implementar mesas con expertos",
+     "ubicacion": "Ley 1620 de 2013, art. 8, parágrafo 2"
+    }
+   ]
+  },
+  {
+   "id": "Q242",
+   "tipo": "caso",
+   "caso": "C150",
+   "familia": "LC-LIT",
+   "dificultad": 1,
+   "competencia": "Lectura literal de textos normativos",
+   "enunciado": "Según el texto del artículo 9 de la Ley 1620 de 2013, lo que hacen los comités municipales, distritales y departamentales de convivencia escolar es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "formular la política nacional de convivencia escolar y los lineamientos de la educación socioemocional.",
+     "j": "Es incorrecta. La educación socioemocional sí aparece en la misma lectura, pero en los numerales adicionados al artículo 8, que trata del Comité Nacional. La opción responde con una idea del texto que corresponde a otra instancia y a otra pregunta."
+    },
+    {
+     "l": "B",
+     "t": "atender directamente las situaciones tipo II y III que se presenten en los colegios de su jurisdicción.",
+     "j": "Es incorrecta. El artículo 9 no habla de atender situaciones en los colegios. Esa atención la hacen los establecimientos con los protocolos de la Ruta de Atención Integral; la opción agrega información que no está en el texto leído."
+    },
+    {
+     "l": "C",
+     "t": "coordinar las funciones y acciones del Sistema en el nivel territorial de su respectiva jurisdicción.",
+     "j": "Es correcta. El artículo 9 dice que estos comités «coordinarán las funciones y acciones del Sistema en el nivel territorial de su respectiva jurisdicción acorde con la estructura definida en el artículo 6o». La opción repite lo que dice el texto."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es una pregunta de lectura literal: hay que ubicar la frase exacta del artículo 9. El texto dice que los comités municipales, distritales y departamentales de convivencia escolar «coordinarán las funciones y acciones del Sistema en el nivel territorial de su respectiva jurisdicción». Las otras opciones usan ideas cercanas: la educación socioemocional aparece en la misma lectura, pero como función del Comité Nacional, y la atención de situaciones tipo II y III no se menciona en este artículo. En la prueba, vuelve al texto antes de responder y descarta la opción que, aunque aparezca en la lectura, responde a otra pregunta.",
+   "fuente": "Ley 1620 de 2013, art. 9.",
+   "consejo": "Comités territoriales = coordinan el Sistema en su jurisdicción.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "los cuales coordinarán las funciones y acciones del Sistema en el nivel territorial de su respectiva jurisdicción acorde con la estructura definida en el artículo 6o de esta ley.",
+     "ubicacion": "Ley 1620 de 2013, art. 9"
+    }
+   ]
+  },
+  {
+   "id": "Q243",
+   "tipo": "caso",
+   "caso": "C151",
+   "familia": "DIS-CONC",
+   "dificultad": 2,
+   "competencia": "Naturaleza de la tecnología",
+   "enunciado": "Según la clasificación de los productos de la tecnología de las Orientaciones Curriculares, la cuchara, la red de computadores y el almacenamiento en la nube son, en ese orden,",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "un artefacto, un artefacto y un proceso.",
+     "j": "Es incorrecta. Acierta con la cuchara, pero trata la red como si fuera un objeto aislado. Las Orientaciones ponen la red de computadores como ejemplo de sistema, y el almacenamiento en la nube como ejemplo de servicio, no de proceso."
+    },
+    {
+     "l": "B",
+     "t": "un artefacto, un sistema y un servicio.",
+     "j": "Es correcta. El documento da la cuchara como ejemplo de artefacto, «una red de computadores o telecomunicaciones» como ejemplo de sistema y el «almacenamiento en la nube» como ejemplo de servicio. La clasificación coincide en los tres casos."
+    },
+    {
+     "l": "C",
+     "t": "un artefacto, un proceso y un sistema.",
+     "j": "Es incorrecta. Desplaza las categorías un lugar. Un proceso, según los ejemplos del texto, es algo como convertir energía eléctrica en lumínica o diseñar un algoritmo; la red es un sistema y el almacenamiento en la nube es un servicio."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares nombran cinco productos de la tecnología y dan ejemplos de cada uno: artefactos (una cuchara, un bombillo, un azadón), procesos (convertir energía eléctrica en lumínica, diseñar un algoritmo), sistemas (la cocina de un restaurante, una red de computadores), servicios (mantenimiento, comunicación, almacenamiento en la nube) y conocimiento tecnológico nuevo. Con esos ejemplos la clasificación es directa: artefacto, sistema y servicio. En la prueba, fíjate en que un servicio no es un objeto que se tiene, sino algo que se presta; y que un sistema reúne elementos que funcionan juntos. Es una diferencia que la CNSC usa a menudo en casos de aula.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.1 ¿Qué es tecnología? (Figura 5).",
+   "consejo": "Cuchara = artefacto; red de computadores = sistema; almacenamiento en la nube = servicio.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Los productos de la tecnología (Figura 5), en suma, son: artefactos (ej. una cuchara, un bombillo, un azadón, un arado)",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "sistemas (ej. como la cocina de un restaurante, una red de computadores o telecomunicaciones",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "servicios (ej. mantenimiento y reparación, salud, comunicación, almacenamiento en la nube",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.1"
+    }
+   ]
+  },
+  {
+   "id": "Q244",
+   "tipo": "caso",
+   "caso": "C151",
+   "familia": "DIS-CONC",
+   "dificultad": 3,
+   "competencia": "Naturaleza de la tecnología",
+   "enunciado": "Al cierre de la unidad, ¿cuál evidencia muestra que un estudiante pasó del saber tecnológico al conocimiento tecnológico sobre la aplicación de mensajería?",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "Explica cómo la aplicación y el hardware envían el mensaje y aplica esa explicación al correo y a los foros.",
+     "j": "Es correcta. Las Orientaciones dicen que hay conocimiento tecnológico cuando develamos cómo la aplicación y el hardware generan y envían el mensaje, comprobamos que otros sistemas de comunicación digital lo hacen igual y podemos explicarlo y usarlo en otros casos."
+    },
+    {
+     "l": "B",
+     "t": "Usa la aplicación con fluidez en modo sincrónico y asincrónico, y enseña a sus familiares a crear grupos.",
+     "j": "Es incorrecta. Describe un buen manejo de la herramienta, que es justamente el ejemplo de saber tecnológico del documento: sabemos lo que la aplicación permite hacer, pero no podemos explicar cómo sucede. Enseñar a usarla no exige explicarla."
+    },
+    {
+     "l": "C",
+     "t": "Describe los beneficios y riesgos de la aplicación en la vida diaria y propone normas para usarla bien.",
+     "j": "Es incorrecta. Es el distractor más cercano porque parece una reflexión profunda. Pero el texto ubica en el saber tecnológico la comprensión de los beneficios e impactos en las tareas cotidianas; sin explicar cómo funciona, no hay conocimiento tecnológico."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Es de nivel 3 porque la opción C parece de nivel superior y hay que leer con cuidado la distinción del documento. Las Orientaciones definen el saber tecnológico como el que emerge del uso práctico y de la comprensión de sus beneficios e impactos en tareas cotidianas: «La enunciación sobre la práctica sin una explicación profunda de sus razones». El conocimiento tecnológico aparece cuando se devela cómo la aplicación y el hardware generan, envían y leen el mensaje, se comprueba que otros sistemas lo hacen igual y se puede explicar y aplicar en otros casos. La evidencia clave es explicar el funcionamiento y transferirlo, no usar ni valorar la herramienta.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.1 (saber y conocimiento tecnológico).",
+   "consejo": "Saber = uso y beneficios sin explicar cómo; conocimiento = explicar cómo funciona y transferirlo.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "La enunciación sobre la práctica sin una explicación profunda de sus razones es lo que denominamos saber tecnológico.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "y comprobamos que todos los sistemas de comunicación digital (mail, foros, chats, blogs, etc.) lo hacen de esta misma manera y podemos explicarlo y dar cuenta de su uso en otros casos para la invención o innovación de T&I, entonces, hemos generado y poseemos conocimiento tecnológico.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.1"
+    }
+   ]
+  },
+  {
+   "id": "Q245",
+   "tipo": "caso",
+   "caso": "C151",
+   "familia": "PED-ENSENAR",
+   "dificultad": 3,
+   "competencia": "Enseñar",
+   "enunciado": "Para que el grupo construya conocimiento tecnológico y no se quede en el saber del uso, la secuencia didáctica más coherente con las Orientaciones Curriculares es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "explicar primero la teoría de redes y protocolos, y luego evaluar con un cuestionario los conceptos memorizados.",
+     "j": "Es incorrecta. Es atractiva porque trabaja conceptos y no solo uso, pero corta el vínculo que plantea el documento: el conocimiento tecnológico nace de reflexionar sobre el uso y sirve para generar productos. Memorizar definiciones no muestra que el estudiante pueda explicar ni transferir."
+    },
+    {
+     "l": "B",
+     "t": "proponer el uso de varias aplicaciones de chat durante el periodo, para que acumulen experiencia práctica.",
+     "j": "Es incorrecta. Más uso produce más saber tecnológico, pero no lo convierte en conocimiento. El documento dice que la mayoría sabe lo que la aplicación permite hacer sin poder explicar cómo sucede; sin reflexión guiada, el grupo se queda ahí."
+    },
+    {
+     "l": "C",
+     "t": "partir del uso cotidiano del chat, guiar la reflexión sobre cómo funciona y aplicarla a mejorar un producto.",
+     "j": "Es correcta. Sigue el recorrido del texto: el conocimiento tecnológico «es producto de la reflexión que hacemos del uso» para desentrañar los conocimientos que subyacen a la práctica, «con el fin de usar este conocimiento en la generación de nuevos y mejorados productos tecnológicos»."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es de nivel 3 porque la opción A es una práctica de aula frecuente y parece más rigurosa. Las Orientaciones, sin embargo, describen un recorrido con tres momentos: el uso práctico (saber tecnológico), la reflexión sobre ese uso para desentrañar los conocimientos que subyacen a la práctica, y la aplicación de ese conocimiento a la generación de productos nuevos o mejorados. Solo la secuencia C los recorre en ese orden. La teoría memorizada no parte del uso ni se aplica, y el uso sin reflexión no pasa del saber. En la CNSC, la mejor mediación parte de la experiencia del estudiante, la problematiza y la lleva a una producción.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.1.",
+   "consejo": "Uso → reflexión guiada → aplicación a un producto: así se construye conocimiento tecnológico.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "El conocimiento tecnológico, por tanto, es producto de la reflexión que hacemos del uso para desentrañar la base de conocimientos relacionales que subyacen a esta práctica y los productos con el fin de usar este conocimiento en la generación de nuevos y mejorados productos tecnológicos.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.1"
+    }
+   ]
+  },
+  {
+   "id": "Q246",
+   "tipo": "caso",
+   "caso": "C151",
+   "familia": "DIS-INNOV",
+   "dificultad": 2,
+   "competencia": "Naturaleza de la tecnología",
+   "enunciado": "Frente a la afirmación del estudiante de que «sin científicos no habría tecnología», la respuesta de la docente más fiel a las Orientaciones Curriculares es que el conocimiento tecnológico",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "es ciencia aplicada: primero la ciencia descubre las leyes y luego la tecnología solo las pone en práctica.",
+     "j": "Es incorrecta. Es la idea más extendida, y por eso es un buen distractor, pero el documento no reduce la tecnología a ciencia aplicada. Dice que su emergencia obedece también a métodos de diseño, innovación e investigación, y que no depende necesariamente de la ciencia."
+    },
+    {
+     "l": "B",
+     "t": "tiene una relación potente con los avances tecnocientíficos, pero no depende necesariamente de ellos.",
+     "j": "Es correcta. El texto dice que el conocimiento tecnológico «plantea una relación potente con los avances de naturaleza tecnocientífica, pero no necesariamente dependiente de estos». La docente reconoce el vínculo con la ciencia sin aceptar la dependencia."
+    },
+    {
+     "l": "C",
+     "t": "no guarda relación con la ciencia, porque surge solo de la experiencia práctica de las comunidades.",
+     "j": "Es incorrecta. Corrige el error del estudiante con el error contrario. El documento sí reconoce una relación histórica con la ciencia y la califica de «potente»; lo que niega es que esa relación sea de dependencia necesaria."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave es «necesariamente». Las Orientaciones Curriculares explican que la emergencia del conocimiento tecnológico obedece a la relación histórica con diversos métodos de diseño, innovación e investigación y con la ciencia, por lo que plantea «una relación potente con los avances de naturaleza tecnocientífica, pero no necesariamente dependiente de estos». Así, la docente no debe aceptar que la tecnología sea solo ciencia aplicada, pero tampoco debe negar el vínculo. En la prueba, desconfía de los extremos: la opción correcta suele reconocer la relación entre tecnología y ciencia sin convertirla en subordinación.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.1.",
+   "consejo": "Tecnología y ciencia: relación potente, no dependencia necesaria.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "por lo que el conocimiento tecnológico plantea una relación potente con los avances de naturaleza tecnocientífica, pero no necesariamente dependiente de estos.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.1"
+    }
+   ]
+  },
+  {
+   "id": "Q247",
+   "tipo": "caso",
+   "caso": "C152",
+   "familia": "NOR-SIST",
+   "dificultad": 3,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "Uno de los asistentes propone sesionar de todos modos, porque hay quórum. Según el Decreto 1965 de 2013, lo procedente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "sesionar y decidir, porque asistió más de la mitad de los integrantes y eso basta para el quórum decisorio.",
+     "j": "Es incorrecta. El quórum sí está completo, porque el artículo 18 permite sesionar con la mitad más uno de los miembros. Pero el parágrafo 1 del artículo 17 agrega otra condición: el comité no puede sesionar sin la presencia de su presidente."
+    },
+    {
+     "l": "B",
+     "t": "sesionar y decidir, y enviar después el acta al presidente para que ratifique las decisiones adoptadas.",
+     "j": "Es incorrecta. Busca una salida práctica, pero el decreto no prevé una ratificación posterior. La condición es previa: sin el presidente presente, el comité no puede sesionar, así que no hay decisiones válidas que ratificar."
+    },
+    {
+     "l": "C",
+     "t": "no sesionar, porque el comité no puede hacerlo sin el presidente, aunque asistan más de la mitad.",
+     "j": "Es correcta. El parágrafo 1 del artículo 17 dice que el comité «no podrá sesionar sin la presencia del Presidente del Comité». El quórum del artículo 18 es necesario, pero no suficiente: también se requiere al presidente."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Es de nivel 3 porque hay que combinar dos reglas del Decreto 1965. El artículo 18 dice que los comités municipales pueden sesionar con la asistencia de la mitad más uno de sus miembros, y esa condición se cumple en el caso. Pero el parágrafo 1 del artículo 17 establece que el comité «no podrá sesionar sin la presencia del Presidente del Comité». Las dos condiciones se exigen al mismo tiempo; cumplir una no reemplaza la otra, y el decreto no contempla ratificar después lo decidido. En la CNSC, cuando un caso diga «hay quórum», revisa si la norma pide además la presencia de alguien en particular.",
+   "fuente": "Decreto 1965 de 2013, arts. 17 (parágrafo 1) y 18.",
+   "consejo": "Comité municipal: quórum (mitad más uno) + presidente presente. Sin presidente, no hay sesión.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Artículo 18. Quórum decisorio. Los Comités municipales, distritales y departamentales de Convivencia Escolar, podrán sesionar con la asistencia de la mitad más uno de sus miembros.",
+     "ubicacion": "Decreto 1965 de 2013, art. 18"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "El Comité municipal, distrital y departamental de Convivencia Escolar no podrá sesionar sin la presencia del Presidente del Comité.",
+     "ubicacion": "Decreto 1965 de 2013, art. 17, parágrafo 1"
+    }
+   ]
+  },
+  {
+   "id": "Q248",
+   "tipo": "caso",
+   "caso": "C152",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "En la sesión a la que fue invitada, la docente de Tecnología e Informática puede, según el Decreto 1965 de 2013,",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "exponer su proyecto y opinar en la discusión, pero no votar las decisiones que tome el comité.",
+     "j": "Es correcta. El parágrafo 2 del artículo 17 permite invitar a miembros de la comunidad educativa cuyo aporte sea útil y dice que «Los invitados tendrán voz pero no voto dentro de las respectivas sesiones». Puede intervenir, no votar."
+    },
+    {
+     "l": "B",
+     "t": "exponer su proyecto y votar las decisiones que se relacionen con la prevención del ciberacoso.",
+     "j": "Es incorrecta. Supone que el voto depende del tema en el que el invitado es experto. El decreto no hace esa distinción: los invitados tienen voz pero no voto en las sesiones, sin importar el asunto que se trate."
+    },
+    {
+     "l": "C",
+     "t": "entregar su proyecto por escrito, pero no intervenir en la discusión ni votar ninguna decisión.",
+     "j": "Es incorrecta. Acierta en que no vota, pero le quita la voz, que el decreto sí le reconoce. La invitan precisamente porque su aporte puede ser útil, y por eso puede exponer y participar en la discusión de la sesión."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La palabra clave es «invitada». El parágrafo 2 del artículo 17 del Decreto 1965 permite a los comités municipales, distritales y departamentales invitar a miembros de la comunidad educativa, funcionarios o expertos cuyo aporte pueda ser útil, y fija su papel: «tendrán voz pero no voto». La docente puede presentar su proyecto y opinar, pero las decisiones las votan los integrantes del comité. Esta misma lógica aparece en otras instancias del sistema educativo. En la prueba, distingue siempre entre integrante e invitado: el invitado aporta en la discusión, el integrante además decide.",
+   "fuente": "Decreto 1965 de 2013, art. 17, parágrafo 2.",
+   "consejo": "Invitado al comité: voz, sí; voto, no.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Parágrafo 2. Los Comités municipales, distritales y departamentales de Convivencia Escolar, cuando lo consideren necesario para el cumplimiento de sus objetivos y funciones, podrán invitar a sus sesiones a los miembros de la comunidad educativa",
+     "ubicacion": "Decreto 1965 de 2013, art. 17, parágrafo 2"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Los invitados tendrán voz pero no voto dentro de las respectivas sesiones.",
+     "ubicacion": "Decreto 1965 de 2013, art. 17, parágrafo 2"
+    }
+   ]
+  },
+  {
+   "id": "Q249",
+   "tipo": "caso",
+   "caso": "C152",
+   "familia": "NOR-SIST",
+   "dificultad": 3,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "El comisario de familia quiere que el comité trate el aumento de casos de ciberacoso antes de la siguiente sesión ordinaria. Según el Decreto 1965, lo que corresponde es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "él mismo convoque la sesión extraordinaria, porque cualquier integrante del comité está facultado para hacerlo.",
+     "j": "Es incorrecta. Es un distractor cercano: cualquier integrante puede solicitar la sesión extraordinaria, pero el artículo 17 dice que esas sesiones «serán convocadas por el Presidente del Comité». Pedir la sesión y convocarla son actos distintos."
+    },
+    {
+     "l": "B",
+     "t": "solicite una sesión extraordinaria, para que el presidente la convoque a petición de un integrante.",
+     "j": "Es correcta. El artículo 17 dice que las sesiones extraordinarias son convocadas por el presidente «cuando las circunstancias lo exijan o por solicitud de cualquiera de los integrantes». El comisario es integrante y puede pedirla."
+    },
+    {
+     "l": "C",
+     "t": "espere a la sesión ordinaria, porque el comité solo puede sesionar cuatro veces al año como parte del consejo.",
+     "j": "Es incorrecta. Lee mal la cifra del decreto: el artículo 17 dice que los comités sesionan «como mínimo cuatro (4) veces al año», no como máximo. Además, el mismo artículo prevé las sesiones extraordinarias para casos como este."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Es de nivel 3 porque hay que leer dos detalles del artículo 17 del Decreto 1965. Primero, los comités municipales sesionan «como mínimo» cuatro veces al año: es un piso, no un techo. Segundo, las sesiones extraordinarias «serán convocadas por el Presidente del Comité, cuando las circunstancias lo exijan o por solicitud de cualquiera de los integrantes». El comisario de familia, como integrante, puede solicitarla, pero quien convoca es el presidente. En la CNSC, fíjate en los verbos: solicitar, convocar y decidir suelen corresponder a personas distintas, y en los cuantificadores como «mínimo» o «máximo».",
+   "fuente": "Decreto 1965 de 2013, art. 17.",
+   "consejo": "Sesión extraordinaria: cualquier integrante la solicita; el presidente la convoca. Cuatro sesiones al año es el mínimo.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Artículo 17. Sesiones. Los Comités municipales, distritales y departamentales de Convivencia Escolar sesionarán como mínimo cuatro (4) veces al año",
+     "ubicacion": "Decreto 1965 de 2013, art. 17"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Las sesiones extraordinarias serán convocadas por el Presidente del Comité, cuando las circunstancias lo exijan o por solicitud de cualquiera de los integrantes del mismo.",
+     "ubicacion": "Decreto 1965 de 2013, art. 17"
+    }
+   ]
+  },
+  {
+   "id": "Q250",
+   "tipo": "caso",
+   "caso": "C152",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Sistema Nacional de Convivencia Escolar",
+   "enunciado": "La secretaria de salud quiere participar de manera virtual en la próxima sesión. Según el Decreto 1965 de 2013, el trámite es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "conectarse a la sesión sin aviso previo, porque la participación virtual está permitida a todos los integrantes.",
+     "j": "Es incorrecta. Parte de una idea cierta: el parágrafo del artículo 18 permite participar de manera virtual. Pero no es automático: la integrante debe informar al presidente, que analiza si es viable, de modo que conectarse sin aviso no cumple el trámite."
+    },
+    {
+     "l": "B",
+     "t": "pedir autorización a la Secretaría Técnica del Comité Nacional, que decide sobre la participación virtual.",
+     "j": "Es incorrecta. Confunde la instancia. La Secretaría Técnica aparece en el trámite, pero solo para informar la decisión, y se trata de la del comité territorial. Quien analiza la viabilidad de la participación virtual es el presidente del comité."
+    },
+    {
+     "l": "C",
+     "t": "informar al presidente, que analiza la viabilidad y comunica su decisión a través de la Secretaría Técnica.",
+     "j": "Es correcta. El parágrafo del artículo 18 dice que, en el caso de la participación virtual, «el integrante deberá informar al Presidente del Comité, quien analizará la viabilidad» e «informará de su decisión a través de la Secretaría Técnica»."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La palabra clave es «trámite». El parágrafo del artículo 18 del Decreto 1965 permite que los integrantes de los comités municipales participen de manera presencial o virtual, pero fija un paso: el integrante debe informar al presidente del comité, quien analiza la viabilidad de la participación virtual y comunica su decisión a través de la Secretaría Técnica. Por eso no basta con conectarse, y tampoco se pide permiso a una instancia nacional. En la prueba, cuando la norma permite algo «previo aviso» o «previo análisis», la opción correcta respeta ese paso y la instancia que decide.",
+   "fuente": "Decreto 1965 de 2013, art. 18, parágrafo.",
+   "consejo": "Participación virtual: informar al presidente → él decide → lo comunica la Secretaría Técnica.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Comité municipal, distrital y departamental de Convivencia Escolar podrá hacerse de manera presencial o virtual.",
+     "ubicacion": "Decreto 1965 de 2013, art. 18, parágrafo"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "En este último evento, el integrante deberá informar al Presidente del Comité, quien analizará la viabilidad de que su participación sea virtual e informará de su decisión a través de la Secretaría Técnica.",
+     "ubicacion": "Decreto 1965 de 2013, art. 18, parágrafo"
+    }
+   ]
+  }
+ ]
+}

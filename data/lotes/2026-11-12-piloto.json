@@ -3474,22 +3474,22 @@
    "ficha": "F12",
    "familia": "PED-EVAL-NORM",
    "competencia": "Evaluar",
-   "enunciado": "De acuerdo con el Decreto 1290 de 2009, compilado en el Decreto 1075 de 2015, la escala de valoración nacional es",
+   "enunciado": "De acuerdo con el Decreto 1290 de 2009, compilado en el Decreto 1075 de 2015, la escala de valoración nacional con la que cada institución debe expresar la equivalencia de su escala es",
    "opciones": [
     {
      "l": "A",
      "t": "Excelente, Sobresaliente, Aceptable, Insuficiente y Deficiente.",
-     "j": "Es incorrecta. Era una escala usada antes del Decreto 1290."
+     "j": "Es incorrecta. Son denominaciones que algunos recuerdan de escalas anteriores, pero no son las que fija el artículo 2.3.3.3.3.5. La escala nacional vigente tiene cuatro niveles de desempeño, no cinco calificativos."
     },
     {
      "l": "B",
      "t": "Desempeño Superior, Desempeño Alto, Desempeño Básico y Desempeño Bajo.",
-     "j": "Es correcta. Es la escala nacional del art. 2.3.3.3.3.5."
+     "j": "Es correcta. El artículo 2.3.3.3.3.5 dice que cada escala institucional debe expresar su equivalencia con la escala nacional: «Desempeño Superior Desempeño Alto. Desempeño Básico. Desempeño Bajo». Son cuatro niveles de desempeño."
     },
     {
      "l": "C",
-     "t": "una escala numérica de 1 a 5 definida por cada secretaría de educación.",
-     "j": "Es incorrecta. Cada institución define su escala, pero debe tener equivalencia con la escala nacional cualitativa."
+     "t": "Desempeño Superior, Desempeño Avanzado, Desempeño Básico y Desempeño Mínimo.",
+     "j": "Es incorrecta. Es un distractor cercano porque conserva la estructura de cuatro desempeños, pero cambia dos nombres. «Avanzado» y «Mínimo» no aparecen en la escala nacional; los niveles intermedio y final se llaman Alto y Bajo."
     }
    ],
    "clave": "B",
@@ -3498,10 +3498,18 @@
    "citas": [
     {
      "doc": "decreto_1075_2015",
-     "texto": "Desempeño Superior Desempeño Alto Desempeño Básico Desempeño Bajo",
+     "texto": "Desempeño Superior Desempeño Alto. Desempeño Básico. Desempeño Bajo.",
+     "ubicacion": "Decreto 1075, art. 2.3.3.3.3.5"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "cada escala deberá expresar su equivalencia con la escala de valoración nacional",
      "ubicacion": "Decreto 1075, art. 2.3.3.3.3.5"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El artículo 2.3.3.3.3.5 del Decreto 1075 de 2015 (antes artículo 5 del Decreto 1290) da autonomía a cada establecimiento para definir su escala de valoración, pero le exige expresar su equivalencia con la escala nacional para facilitar la movilidad de los estudiantes: Desempeño Superior, Desempeño Alto, Desempeño Básico y Desempeño Bajo. El mismo artículo aclara que el básico es la superación de los desempeños necesarios y el bajo, su no superación. En la prueba, recuerda que la institución puede usar números o letras, pero siempre debe traducirlos a esos cuatro nombres exactos.",
+   "revisado": true
   },
   {
    "id": "K024",
@@ -3509,22 +3517,22 @@
    "ficha": "F12",
    "familia": "PED-EVAL-NORM",
    "competencia": "Evaluar",
-   "enunciado": "Según el Decreto 1075 de 2015, el Sistema Institucional de Evaluación de los Estudiantes se aprueba",
+   "enunciado": "Según el Decreto 1075 de 2015, dentro del procedimiento de creación del Sistema Institucional de Evaluación de los Estudiantes, el sistema se aprueba",
    "opciones": [
     {
      "l": "A",
-     "t": "por el consejo académico, en una reunión con los docentes de todas las áreas.",
-     "j": "Es incorrecta. El consejo académico participa, pero la aprobación es del consejo directivo."
+     "t": "en sesión del consejo académico, con la firma de los jefes de área en el acta.",
+     "j": "Es incorrecta. El consejo académico tiene un papel importante en lo pedagógico y puede participar en la definición del sistema, pero el numeral 3 del artículo 2.3.3.3.3.8 asigna la aprobación al consejo directivo, no al académico."
     },
     {
      "l": "B",
-     "t": "por la secretaría de educación, después de revisar la propuesta del rector.",
-     "j": "Es incorrecta. Es una decisión institucional, no de la secretaría."
+     "t": "por resolución de la secretaría de educación, previa solicitud del rector.",
+     "j": "Es incorrecta. El sistema de evaluación es institucional: hace parte del proyecto educativo institucional y lo crea el propio establecimiento. El procedimiento del artículo 2.3.3.3.3.8 no incluye una aprobación de la secretaría de educación."
     },
     {
      "l": "C",
-     "t": "en sesión del consejo directivo, dejando constancia en el acta.",
-     "j": "Es correcta. Así lo exige el art. 2.3.3.3.3.8, numeral 3."
+     "t": "en sesión del consejo directivo, con la consignación de lo aprobado en el acta.",
+     "j": "Es correcta. El numeral 3 del artículo 2.3.3.3.3.8 dice: «Aprobar el sistema institucional de evaluación en sesión en el consejo directivo y consignación en el acta». Es un paso del procedimiento mínimo que todo establecimiento debe seguir."
     }
    ],
    "clave": "C",
@@ -3534,9 +3542,12 @@
     {
      "doc": "decreto_1075_2015",
      "texto": "Aprobar el sistema institucional de evaluación en sesión en el consejo directivo y consignación en el acta.",
-     "ubicacion": "Decreto 1075, art. 2.3.3.3.3.8"
+     "ubicacion": "Decreto 1075, art. 2.3.3.3.3.8, num. 3"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El artículo 2.3.3.3.3.8 del Decreto 1075 fija el procedimiento mínimo para crear el Sistema Institucional de Evaluación: definirlo, socializarlo con la comunidad educativa, aprobarlo en sesión del consejo directivo con consignación en el acta, incorporarlo al PEI, divulgarlo, divulgar los mecanismos de reclamación e informarlo a quienes ingresen. La aprobación corresponde al consejo directivo porque es la instancia de participación de la comunidad educativa en la orientación del establecimiento. En la prueba, no confundas quién aporta lo pedagógico (consejo académico) con quién aprueba: en el SIEE, aprueba el consejo directivo y queda en el acta.",
+   "revisado": true
   },
   {
    "id": "K025",
@@ -3544,22 +3555,22 @@
    "ficha": "F13",
    "familia": "PED-EVAL",
    "competencia": "Evaluar",
-   "enunciado": "Según las Orientaciones Curriculares del área, al evaluar las competencias en Tecnología e Informática el docente debe tener presente que",
+   "enunciado": "Según las Orientaciones Curriculares del área, al evaluar las competencias en Tecnología e Informática el docente debe tener presente",
    "opciones": [
     {
      "l": "A",
-     "t": "toda actividad evaluada debe tener una nota para que el estudiante la tome en serio.",
-     "j": "Es incorrecta. Contradice lo que plantean las Orientaciones."
+     "t": "que toda actividad evaluada debe calificarse para que el estudiante la tome en serio.",
+     "j": "Es incorrecta. Confunde evaluar con calificar. Las Orientaciones dicen expresamente lo contrario: no todo lo que se evalúa para emitir un juicio de valor tiene que convertirse en una nota. La motivación del estudiante no depende solo de la calificación."
     },
     {
      "l": "B",
-     "t": "no todo lo evaluado para emitir el juicio de valor debe ser calificado.",
-     "j": "Es correcta. Es una recomendación textual del numeral 5.2.1."
+     "t": "que no todo lo evaluado para emitir el juicio de valor debe ser calificado.",
+     "j": "Es correcta. El numeral 5.2.1 de las Orientaciones dice: «Tenga presente que no todo lo evaluado para emitir el juicio de valor debe ser calificado». La evaluación formativa recoge información para orientar el aprendizaje, aunque no siempre lleve nota."
     },
     {
      "l": "C",
-     "t": "la evaluación debe centrarse en el producto final, porque es la evidencia del aprendizaje.",
-     "j": "Es incorrecta. El documento pide considerar el proceso y el progreso."
+     "t": "que debe calificarse solo el producto final, porque es la evidencia del aprendizaje.",
+     "j": "Es incorrecta. El producto final es una evidencia valiosa en el área, pero el mismo numeral pide considerar «el proceso y el progreso» del estudiante. Evaluar solo el producto deja por fuera lo que ocurrió durante el aprendizaje."
     }
    ],
    "clave": "B",
@@ -3570,8 +3581,16 @@
      "doc": "orientaciones_tecnologia_2022",
      "texto": "Tenga presente que no todo lo evaluado para emitir el juicio de valor debe ser calificado.",
      "ubicacion": "Orientaciones Curriculares, 5.2.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Considere el proceso y el progreso de la niña, niño o adolescente",
+     "ubicacion": "Orientaciones Curriculares, 5.2.1"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La idea clave es la diferencia entre evaluar y calificar. En el numeral 5.2.1, las Orientaciones Curriculares recomiendan considerar el proceso y el progreso de la niña, el niño o el adolescente y recuerdan: «Tenga presente que no todo lo evaluado para emitir el juicio de valor debe ser calificado». Evaluar es recoger información para valorar y orientar el aprendizaje; calificar es asignar una nota. Un docente puede observar, retroalimentar y ajustar su enseñanza sin poner nota a todo. En la prueba, desconfía de las opciones que reducen la evaluación a la calificación o al producto final: la CNSC privilegia la evaluación formativa.",
+   "revisado": true
   },
   {
    "id": "K026",
@@ -3579,22 +3598,22 @@
    "ficha": "F13",
    "familia": "PED-EVAL",
    "competencia": "Evaluar",
-   "enunciado": "Uno de los propósitos de la evaluación institucional de los estudiantes, según el Decreto 1075 de 2015, es",
+   "enunciado": "Uno de los propósitos de la evaluación institucional de los estudiantes, según el artículo 2.3.3.3.3.3 del Decreto 1075 de 2015, es",
    "opciones": [
     {
      "l": "A",
-     "t": "clasificar a los estudiantes por rendimiento para organizar los grupos del año siguiente.",
-     "j": "Es incorrecta. No es un propósito establecido por la norma."
+     "t": "clasificar a los estudiantes por rendimiento para conformar los grupos del año siguiente.",
+     "j": "Es incorrecta. Organizar grupos por rendimiento no aparece entre los cinco propósitos del artículo. La norma usa la información de la evaluación para valorar avances, reorientar procesos, apoyar a los estudiantes y determinar la promoción."
     },
     {
      "l": "B",
-     "t": "identificar las características personales, intereses, ritmos de desarrollo y estilos de aprendizaje del estudiante para valorar sus avances.",
-     "j": "Es correcta. Es el primer propósito del art. 2.3.3.3.3.3."
+     "t": "identificar intereses, ritmos de desarrollo y estilos de aprendizaje para valorar sus avances.",
+     "j": "Es correcta. El numeral 1 del artículo 2.3.3.3.3.3 dice: «Identificar las características personales, intereses, ritmos de desarrollo y estilos de aprendizaje del estudiante para valorar sus avances». Es el primer propósito de la evaluación."
     },
     {
      "l": "C",
-     "t": "certificar ante la secretaría de educación el cumplimiento de los planes de estudio.",
-     "j": "Es incorrecta. No aparece entre los propósitos de la evaluación de los estudiantes."
+     "t": "certificar ante la secretaría de educación el cumplimiento del plan de estudios del año.",
+     "j": "Es incorrecta. La evaluación de los estudiantes no es un trámite de certificación ante la secretaría. Sí aporta información al plan de mejoramiento institucional (numeral 5), pero ese es un uso interno del establecimiento."
     }
    ],
    "clave": "B",
@@ -3604,9 +3623,12 @@
     {
      "doc": "decreto_1075_2015",
      "texto": "Identificar las características personales, intereses, ritmos de desarrollo y estilos de aprendizaje del estudiante para valorar sus avances.",
-     "ubicacion": "Decreto 1075, art. 2.3.3.3.3.3"
+     "ubicacion": "Decreto 1075, art. 2.3.3.3.3.3, num. 1"
     }
-   ]
+   ],
+   "dificultad": 1,
+   "explicacion": "El artículo 2.3.3.3.3.3 del Decreto 1075 (antes artículo 3 del Decreto 1290) enumera cinco propósitos de la evaluación de los estudiantes en el ámbito institucional: identificar características personales, intereses, ritmos y estilos de aprendizaje para valorar avances; proporcionar información para consolidar o reorientar los procesos educativos; implementar estrategias para apoyar a quienes presentan debilidades y desempeños superiores; determinar la promoción; y aportar al plan de mejoramiento institucional. Todos miran al estudiante y a la institución, no a clasificar ni a certificar. En la prueba, el primer propósito es el más citado: la evaluación parte de reconocer la diversidad del estudiante.",
+   "revisado": true
   },
   {
    "id": "K027",
@@ -3618,30 +3640,38 @@
    "opciones": [
     {
      "l": "A",
-     "t": "durante el primer trimestre del año escolar, y actualizarse anualmente.",
-     "j": "Es correcta. Así lo establece el art. 2.3.3.5.2.3.5."
+     "t": "durante el primer periodo académico; se actualiza en cada periodo.",
+     "j": "Es incorrecta. Es un distractor cercano porque el PIAR sí tiene seguimientos periódicos, que fija el sistema institucional de evaluación. Pero la norma no habla del primer periodo: dice que se elabora durante el primer trimestre del año escolar y que se actualiza anualmente."
     },
     {
      "l": "B",
-     "t": "al finalizar el primer periodo, cuando el docente ya conoce los resultados del estudiante.",
-     "j": "Es incorrecta. La norma fija el primer trimestre."
+     "t": "antes de la matrícula, como requisito de ingreso a la institución.",
+     "j": "Es incorrecta. Contradice el artículo 2.3.3.5.2.3.10: ningún establecimiento puede rechazar la matrícula por la situación de discapacidad. El proceso de admisión aporta a la valoración pedagógica y al PIAR, pero no lo exige como requisito."
     },
     {
      "l": "C",
-     "t": "antes de la matrícula, como requisito para que el estudiante pueda ingresar a la institución.",
-     "j": "Es incorrecta. Ningún establecimiento puede condicionar la matrícula por la discapacidad."
+     "t": "durante el primer trimestre del año escolar; se actualiza anualmente.",
+     "j": "Es correcta. El artículo 2.3.3.5.2.3.5 dice que el PIAR «Se deberá elaborar durante el primer trimestre del año escolar, se actualizará anualmente y facilitará la entrega pedagógica entre grados». Los seguimientos periódicos son otra cosa."
     }
    ],
-   "clave": "A",
+   "clave": "C",
    "fuente": "Decreto 1075, art. 2.3.3.5.2.3.5",
    "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
    "citas": [
     {
      "doc": "decreto_1075_2015",
-     "texto": "Se deberá elaborar durante el primer trimestre del año escolar",
+     "texto": "Se deberá elaborar durante el primer trimestre del año escolar, se actualizará. anualmente y facilitará la entrega pedagógica entre grados.",
      "ubicacion": "Decreto 1075, art. 2.3.3.5.2.3.5"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Ningún establecimiento educativo podrá rechazar la matrícula de un estudiante en razón a su situación discapacidad",
+     "ubicacion": "Decreto 1075, art. 2.3.3.5.2.3.10"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque los dos primeros distractores mezclan datos ciertos del mismo artículo. El artículo 2.3.3.5.2.3.5 del Decreto 1075 fija el tiempo del PIAR: se elabora durante el primer trimestre del año escolar, se actualiza anualmente y facilita la entrega pedagógica entre grados. Aparte, el establecimiento hace los seguimientos periódicos que establezca en su sistema institucional de evaluación. Y el artículo 2.3.3.5.2.3.10 prohíbe rechazar la matrícula por discapacidad, así que el PIAR no puede ser requisito de ingreso. En la CNSC, distingue la elaboración (primer trimestre), la actualización (anual) y el seguimiento (periódico).",
+   "revisado": true
   },
   {
    "id": "K028",
@@ -3649,22 +3679,22 @@
    "ficha": "F14",
    "familia": "PED-INCL",
    "competencia": "Formar en la diversidad",
-   "enunciado": "Según la definición del Decreto 1421 de 2017, los ajustes razonables",
+   "enunciado": "Según la definición del Decreto 1421 de 2017, compilado en el Decreto 1075 de 2015, los ajustes razonables",
    "opciones": [
     {
      "l": "A",
-     "t": "se aplican solo cuando existe un diagnóstico médico que certifique la discapacidad del estudiante.",
-     "j": "Es incorrecta. Contradice la definición de la norma."
+     "t": "se realizan cuando hay un diagnóstico médico que certifique la deficiencia del estudiante.",
+     "j": "Es incorrecta. Es la idea más común en las instituciones, por eso atrae. Pero la definición dice expresamente que la realización de los ajustes razonables «no depende de un diagnóstico médico de deficiencia», sino de las barreras que se presenten."
     },
     {
      "l": "B",
      "t": "dependen de las barreras visibles e invisibles que impiden el goce del derecho a la educación.",
-     "j": "Es correcta. La norma establece que no dependen de un diagnóstico médico de deficiencia, sino de las barreras."
+     "j": "Es correcta. La definición dice que los ajustes «pueden ser materiales e inmateriales y su realización no depende de un diagnóstico médico de deficiencia, sino de las barreras visibles e invisibles que se puedan presentar e impedir un pleno goce del derecho a la educación»."
     },
     {
      "l": "C",
-     "t": "consisten en reducir los objetivos de aprendizaje del grado para el estudiante con discapacidad.",
-     "j": "Es incorrecta. El currículo flexible mantiene los mismos objetivos generales."
+     "t": "consisten en reducir los objetivos generales del grado para el estudiante con discapacidad.",
+     "j": "Es incorrecta. Confunde el ajuste con rebajar la meta. La definición de currículo flexible del mismo decreto dice que este «mantiene los mismos objetivos generales para todos los estudiantes» y ofrece diferentes oportunidades de acceder a ellos."
     }
    ],
    "clave": "B",
@@ -3675,8 +3705,16 @@
      "doc": "decreto_1075_2015",
      "texto": "su realización no depende de un diagnóstico médico de deficiencia, sino de las barreras visibles e invisibles",
      "ubicacion": "Decreto 1421 de 2017, definiciones"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Currículo flexible: es aquel que mantiene los mismos objetivos generales para todos los estudiantes",
+     "ubicacion": "Decreto 1421 de 2017, definiciones"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque las tres opciones suenan a prácticas que se ven en las instituciones. La definición del Decreto 1421 es precisa: los ajustes razonables pueden ser materiales e inmateriales y su realización no depende de un diagnóstico médico de deficiencia, sino de las barreras visibles e invisibles que impiden el pleno goce del derecho a la educación. El foco está en la barrera, no en el diagnóstico. Además, el currículo flexible mantiene los mismos objetivos generales para todos y cambia las formas de acceder a ellos. En la CNSC, si una opción condiciona el apoyo a un certificado médico o rebaja los objetivos, es la trampa.",
+   "revisado": true
   },
   {
    "id": "K029",
@@ -3688,18 +3726,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "el conjunto de criterios, planes de estudio, programas, metodologías y procesos que contribuyen a la formación integral.",
-     "j": "Es correcta. Es la definición del art. 76."
+     "t": "el conjunto de criterios, planes de estudio, programas, metodologías y procesos de formación.",
+     "j": "Es correcta. El artículo 76 dice que «Currículo es el conjunto de criterios, planes de estudio, programas, metodologías, y procesos que contribuyen a la formación integral», e incluye también los recursos para llevar a cabo el PEI."
     },
     {
      "l": "B",
-     "t": "el esquema de áreas obligatorias y optativas con sus asignaturas e intensidad horaria.",
-     "j": "Es incorrecta. Esa es la definición de plan de estudios (art. 79), que es solo una parte del currículo."
+     "t": "el esquema estructurado de áreas obligatorias y optativas con sus respectivas asignaturas.",
+     "j": "Es incorrecta. Es un distractor cercano porque copia la definición de plan de estudios del artículo 79. El plan de estudios forma parte del currículo, pero el currículo es más amplio: incluye criterios, programas, metodologías y procesos."
     },
     {
      "l": "C",
-     "t": "el listado de contenidos que el MEN establece para cada grado de la educación básica.",
-     "j": "Es incorrecta. El MEN da lineamientos; el currículo lo construye cada institución."
+     "t": "el listado de contenidos mínimos que el MEN fija para cada grado de la educación básica.",
+     "j": "Es incorrecta. Reduce el currículo a contenidos definidos desde el nivel central. El MEN expide lineamientos y orientaciones, pero el artículo 77 reconoce la autonomía escolar y cada institución construye su currículo dentro de su PEI."
     }
    ],
    "clave": "A",
@@ -3710,8 +3748,16 @@
      "doc": "ley_115_1994",
      "texto": "Currículo es el conjunto de criterios, planes de estudio, programas, metodologías, y procesos",
      "ubicacion": "Ley 115, art. 76"
+    },
+    {
+     "doc": "ley_115_1994",
+     "texto": "El plan de estudios es el esquema estructurado de las áreas obligatorias y fundamentales y de áreas optativas con sus respectivas asignaturas, que forman parte del currículo",
+     "ubicacion": "Ley 115, art. 79"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La Ley 115 distingue dos conceptos que la CNSC suele mezclar en los distractores. El artículo 76 define el currículo como el conjunto de criterios, planes de estudio, programas, metodologías y procesos que contribuyen a la formación integral y a la construcción de la identidad cultural, incluidos los recursos humanos, académicos y físicos para llevar a cabo el PEI. El artículo 79 define el plan de estudios como el esquema estructurado de áreas obligatorias, fundamentales y optativas con sus asignaturas, que forma parte del currículo. En la prueba, recuerda la relación: el plan de estudios está dentro del currículo, no al revés.",
+   "revisado": true
   },
   {
    "id": "K030",
@@ -3719,22 +3765,22 @@
    "ficha": "F15",
    "familia": "PED-CURR",
    "competencia": "Enseñar",
-   "enunciado": "Según el artículo 73 de la Ley 115 de 1994, el Proyecto Educativo Institucional debe",
+   "enunciado": "Según el parágrafo del artículo 73 de la Ley 115 de 1994, el Proyecto Educativo Institucional debe",
    "opciones": [
     {
      "l": "A",
-     "t": "ser igual en todas las instituciones de una entidad territorial para garantizar la equidad.",
-     "j": "Es incorrecta. Cada institución elabora el suyo de acuerdo con su contexto."
+     "t": "ser igual en todas las instituciones de la entidad territorial, para garantizar la equidad.",
+     "j": "Es incorrecta. Contradice la idea de un proyecto propio de cada institución. El parágrafo pide que el PEI responda a las necesidades de sus educandos y de su comunidad local, lo que hace que cada proyecto sea distinto según su contexto."
     },
     {
      "l": "B",
-     "t": "responder a las necesidades de los educandos y de la comunidad, y ser concreto, factible y evaluable.",
-     "j": "Es correcta. Es el texto del parágrafo del art. 73."
+     "t": "responder a las necesidades de los educandos y la comunidad, y ser concreto, factible y evaluable.",
+     "j": "Es correcta. El parágrafo del artículo 73 dice que el PEI «debe responder a situaciones y necesidades de los educandos, de la comunidad local, de la región y del país, ser concreto, factible y evaluable». La opción resume esos requisitos."
     },
     {
      "l": "C",
-     "t": "ser aprobado por el Ministerio de Educación Nacional antes de su aplicación.",
-     "j": "Es incorrecta. La ley no exige aprobación del MEN para el PEI."
+     "t": "ser aprobado por el Ministerio de Educación Nacional antes de comenzar a aplicarse en el colegio.",
+     "j": "Es incorrecta. Agrega un requisito que no está en el texto. El parágrafo enumera las condiciones del PEI (responder a necesidades, ser concreto, factible y evaluable) y entre ellas no aparece una aprobación previa del Ministerio."
     }
    ],
    "clave": "B",
@@ -3744,9 +3790,12 @@
     {
      "doc": "ley_115_1994",
      "texto": "El Proyecto Educativo Institucional debe responder a situaciones y necesidades de los educandos, de la comunidad local, de la región y del país, ser concreto, factible y evaluable.",
-     "ubicacion": "Ley 115, art. 73"
+     "ubicacion": "Ley 115, art. 73, parágrafo"
     }
-   ]
+   ],
+   "dificultad": 1,
+   "explicacion": "El parágrafo del artículo 73 de la Ley 115 fija las características de todo Proyecto Educativo Institucional: debe responder a situaciones y necesidades de los educandos, de la comunidad local, de la región y del país, y ser concreto, factible y evaluable. Por eso el PEI es propio de cada institución y se construye desde su contexto, y no un documento uniforme ni una autorización ministerial. En la prueba, cuando un caso pregunte si una decisión del colegio está bien orientada, revisa si responde a las necesidades de sus estudiantes y de su comunidad: es el criterio que la ley pone al PEI y que la CNSC espera que el docente aplique.",
+   "revisado": true
   },
   {
    "id": "K031",
@@ -3759,17 +3808,17 @@
     {
      "l": "A",
      "t": "tres áreas de la gestión institucional: académica, administrativa y comunitaria.",
-     "j": "Es correcta. Así lo establece el numeral 2.1.1."
+     "j": "Es correcta. El numeral 2.1.1 dice que «las competencias funcionales de los docentes se demuestran en tres (3) áreas de la gestión institucional»: la gestión académica, la gestión administrativa y la gestión comunitaria."
     },
     {
      "l": "B",
-     "t": "cuatro áreas de gestión: directiva, académica, administrativa y comunitaria.",
-     "j": "Es incorrecta. La gestión directiva corresponde a los directivos docentes."
+     "t": "cuatro áreas de la gestión institucional: directiva, académica, administrativa y comunitaria.",
+     "j": "Es incorrecta. Es el distractor más cercano porque esas cuatro áreas sí existen en la resolución, pero para los directivos docentes, cuyas competencias funcionales «se demuestran en cuatro (4) áreas». La gestión directiva no corresponde al docente de aula."
     },
     {
      "l": "C",
-     "t": "dos áreas: la pedagógica y la disciplinar del área de conocimiento.",
-     "j": "Es incorrecta. No es la organización que establece la resolución."
+     "t": "tres áreas de la gestión institucional: directiva, académica y comunitaria.",
+     "j": "Es incorrecta. Acierta en el número de áreas, pero cambia una. La gestión directiva es propia de los directivos docentes; la tercera área del docente de aula es la gestión administrativa, que incluye el uso eficiente de recursos pedagógicos."
     }
    ],
    "clave": "A",
@@ -3780,8 +3829,16 @@
      "doc": "resolucion_3842_2022_ocr",
      "texto": "competencias funcionales de los docentes se demuestran en tres (3) áreas de la",
      "ubicacion": "Res. 3842 de 2022, 2.1.1"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "las competencias funcionales de los directivos docentes se demuestran en cuatro (4) áreas de la gestión institucional",
+     "ubicacion": "Res. 3842 de 2022, 1.1"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque los distractores combinan datos verdaderos de la misma resolución. La Resolución 3842 de 2022 distingue los cargos: las competencias funcionales del docente de aula se demuestran en tres áreas de la gestión institucional (académica, administrativa y comunitaria), mientras que las de los directivos docentes se demuestran en cuatro, porque agregan la gestión directiva. Por eso hay que fijarse tanto en el número como en los nombres. En la prueba, asocia la gestión directiva con rectores y coordinadores; al docente de aula se le evalúan cuatro competencias académicas, dos administrativas y las de gestión comunitaria.",
+   "revisado": true
   },
   {
    "id": "K032",
@@ -3794,17 +3851,17 @@
     {
      "l": "A",
      "t": "Planeación y organización.",
-     "j": "Es incorrecta. Es una competencia funcional de la gestión académica."
+     "j": "Es incorrecta. Es una competencia real del docente, pero de otro tipo: la resolución la ubica entre las competencias funcionales de la gestión académica, junto con el dominio curricular, las competencias pedagógicas y la evaluación del aprendizaje."
     },
     {
      "l": "B",
-     "t": "Uso eficiente de recursos.",
-     "j": "Es incorrecta. Es una competencia funcional de la gestión administrativa."
+     "t": "Evaluación del aprendizaje.",
+     "j": "Es incorrecta. También es una competencia funcional de la gestión académica. Las competencias comportamentales no se refieren a tareas del cargo, sino a actitudes, valores, intereses y motivaciones que el docente demuestra al cumplir sus funciones."
     },
     {
      "l": "C",
      "t": "Negociación y mediación.",
-     "j": "Es correcta. Hace parte de las siete competencias comportamentales."
+     "j": "Es correcta. La resolución dice que las competencias comportamentales son «liderazgo; comunicación y relaciones interpersonales; trabajo en equipo; negociación y mediación; compromiso social e institucional; iniciativa; y orientación al logro»."
     }
    ],
    "clave": "C",
@@ -3815,8 +3872,16 @@
      "doc": "resolucion_3842_2022_ocr",
      "texto": "liderazgo; comunicación y relaciones interpersonales; trabajo en equipo; negociación y mediación; compromiso social e institucional; iniciativa; y orientación al logro.",
      "ubicacion": "Res. 3842 de 2022, 2.1.2"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "a) Dominio curricular y de contenidos de las áreas de conocimiento. b) Planeación y organización. c) Competencias pedagógicas y didácticas. d) Evaluación del aprendizaje",
+     "ubicacion": "Res. 3842 de 2022, 2.1.1.1"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "La Resolución 3842 de 2022 separa dos tipos de competencias. Las funcionales se demuestran en las áreas de gestión; en la académica son el dominio curricular, la planeación y organización, las competencias pedagógicas y didácticas y la evaluación del aprendizaje. Las comportamentales son siete: liderazgo; comunicación y relaciones interpersonales; trabajo en equipo; negociación y mediación; compromiso social e institucional; iniciativa; y orientación al logro. Para distinguirlas, pregúntate si la opción nombra una tarea del cargo (funcional) o una actitud al realizarla (comportamental). En la prueba psicotécnica de la CNSC se evalúan justamente esas siete comportamentales.",
+   "revisado": true
   },
   {
    "id": "K033",
@@ -3824,22 +3889,22 @@
    "ficha": "F17",
    "familia": "NOR-CONV-TIPO",
    "competencia": "Convivencia y protección",
-   "enunciado": "Dos estudiantes discuten a gritos por un balón en el descanso; es la primera vez y no hay golpes. Según el Decreto 1965 de 2013, es una situación",
+   "enunciado": "Dos estudiantes discuten a gritos por un balón en el descanso; es la primera vez y no hay golpes ni daño a la salud. Según el Decreto 1965 de 2013, es una situación",
    "opciones": [
     {
      "l": "A",
-     "t": "tipo II, porque hubo agresión verbal entre dos estudiantes frente a sus compañeros.",
-     "j": "Es incorrecta. El tipo II exige repetición, sistematicidad o daño al cuerpo o a la salud."
+     "t": "tipo II, porque hubo agresión verbal entre los dos estudiantes frente a sus compañeros.",
+     "j": "Es incorrecta. Puede haber agresión verbal, y eso hace atractiva la opción, pero el tipo II exige que la agresión se presente de manera repetida o sistemática, o que cause daños al cuerpo o a la salud sin incapacidad. Nada de eso ocurre aquí."
     },
     {
      "l": "B",
-     "t": "tipo I, porque es un conflicto manejado inadecuadamente, esporádico y sin daño al cuerpo ni a la salud.",
-     "j": "Es correcta. Corresponde a la definición del art. 40, numeral 1."
+     "t": "tipo I, porque es un conflicto esporádico manejado inadecuadamente y sin daño al cuerpo.",
+     "j": "Es correcta. El numeral 1 del artículo 40 dice que el tipo I corresponde a «los conflictos manejados inadecuadamente y aquellas situaciones esporádicas que inciden negativamente en el clima escolar», y que «en ningún caso generan daños al cuerpo o a la salud»."
     },
     {
      "l": "C",
-     "t": "tipo III, porque toda agresión entre estudiantes debe reportarse a la Policía de Infancia y Adolescencia.",
-     "j": "Es incorrecta. El tipo III se reserva para presuntos delitos."
+     "t": "tipo III, porque toda agresión verbal en público debe reportarse a la Policía Nacional.",
+     "j": "Es incorrecta. Exagera la respuesta institucional. El tipo III se reserva para situaciones de agresión que sean constitutivas de presuntos delitos; una discusión esporádica por un balón no lo es y se atiende con el protocolo de tipo I."
     }
    ],
    "clave": "B",
@@ -3849,9 +3914,17 @@
     {
      "doc": "decreto_1965_2013",
      "texto": "Corresponden a este tipo los conflictos manejados inadecuadamente y aquellas situaciones esporádicas que inciden negativamente en el clima escolar, y que en ningún caso generan daños al cuerpo o a la salud.",
-     "ubicacion": "Decreto 1965, art. 40"
+     "ubicacion": "Decreto 1965, art. 40, num. 1"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "a. Que se presenten de manera repetida o sistemática. b. Que causen daños al cuerpo o a la salud sin generar incapacidad alguna para cualquiera de los involucrados.",
+     "ubicacion": "Decreto 1965, art. 40, num. 2"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque hay que revisar tres condiciones del caso: es la primera vez (esporádica), es un conflicto mal manejado y no hay daño al cuerpo ni a la salud. El artículo 40 del Decreto 1965 clasifica como tipo I los conflictos manejados inadecuadamente y las situaciones esporádicas que afectan el clima escolar sin generar daños al cuerpo o a la salud. El tipo II exige repetición o sistematicidad, o daño sin incapacidad; el tipo III, la presunta comisión de un delito. En la CNSC, la gravedad aparente («a gritos», «frente a todos») no decide el tipo: lo decide la presencia o ausencia de repetición, daño o delito.",
+   "revisado": true
   },
   {
    "id": "K034",
@@ -3859,25 +3932,25 @@
    "ficha": "F17",
    "familia": "NOR-CONV-TIPO",
    "competencia": "Convivencia y protección",
-   "enunciado": "Excluir deliberadamente a un compañero de los grupos y difundir rumores para afectar su imagen es, según el Decreto 1965 de 2013, una agresión",
+   "enunciado": "Excluir deliberadamente a un compañero de los grupos de trabajo y difundir rumores para afectar su imagen es, según el Decreto 1965 de 2013, una agresión",
    "opciones": [
     {
      "l": "A",
-     "t": "gestual, porque busca descalificar al otro sin necesidad de usar palabras.",
-     "j": "Es incorrecta. La agresión gestual se hace con gestos."
+     "t": "gestual, porque busca descalificar al compañero sin necesidad de usar palabras.",
+     "j": "Es incorrecta. La agresión gestual existe y también busca descalificar, pero el decreto la define como la que se hace «con los gestos». Excluir y difundir rumores no son gestos, sino acciones dirigidas a dañar las relaciones de la persona."
     },
     {
      "l": "B",
-     "t": "relacional, porque busca afectar negativamente las relaciones que el otro tiene.",
-     "j": "Es correcta. El art. 39 define así la agresión relacional e incluye excluir de grupos y difundir rumores."
+     "t": "verbal, porque los rumores se transmiten con palabras entre los compañeros.",
+     "j": "Es incorrecta. Es el distractor más cercano porque los rumores usan palabras. Pero el artículo 39 incluye expresamente la exclusión y la difusión de rumores dentro de otra categoría, porque lo que buscan es afectar las relaciones y el estatus de la persona."
     },
     {
      "l": "C",
-     "t": "verbal, porque los rumores se transmiten mediante palabras entre los compañeros.",
-     "j": "Es incorrecta. Aunque usa palabras, el decreto clasifica la exclusión y los rumores como agresión relacional."
+     "t": "relacional, porque busca afectar negativamente las relaciones que el otro tiene.",
+     "j": "Es correcta. El artículo 39 define la agresión relacional como «toda acción que busque afectar negativamente las relaciones que otros tienen» e incluye «excluir de grupos, aislar deliberadamente y difundir rumores o secretos». El caso encaja en la definición."
     }
    ],
-   "clave": "B",
+   "clave": "C",
    "fuente": "Decreto 1965, art. 39",
    "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
    "citas": [
@@ -3886,7 +3959,10 @@
      "texto": "Es toda acción que busque afectar negativamente las relaciones que otros tienen. Incluye excluir de grupos, aislar deliberadamente y difundir rumores o secretos",
      "ubicacion": "Decreto 1965, art. 39"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque la conducta podría parecer verbal y hay que fijarse en su finalidad. El artículo 39 del Decreto 1965 define la agresión relacional como toda acción que busca afectar negativamente las relaciones que otros tienen, e incluye excluir de grupos, aislar deliberadamente y difundir rumores o secretos para afectar el estatus o la imagen de la persona frente a otros. El medio (palabras o gestos) no decide la categoría cuando el decreto nombra la conducta de forma expresa. En la prueba, si el caso habla de exclusión, aislamiento o rumores, piensa en agresión relacional; si se hace por medios electrónicos, revisa además la agresión electrónica.",
+   "revisado": true
   },
   {
    "id": "K035",
@@ -3894,22 +3970,22 @@
    "ficha": "F18",
    "familia": "NOR-CONV-RUTA",
    "competencia": "Convivencia y protección",
-   "enunciado": "Según el Decreto 1965 de 2013, en una situación tipo I el primer paso del protocolo es",
+   "enunciado": "Según el Decreto 1965 de 2013, en una situación tipo I el primer paso del protocolo que debe desarrollar el establecimiento es",
    "opciones": [
     {
      "l": "A",
-     "t": "informar a la Policía de Infancia y Adolescencia para que verifique los hechos.",
-     "j": "Es incorrecta. Eso corresponde a situaciones tipo III."
+     "t": "informar a la Policía de Infancia y Adolescencia para que verifique los hechos ocurridos.",
+     "j": "Es incorrecta. Aplica a una situación leve una acción pensada para casos graves. Poner los hechos en conocimiento de la Policía corresponde al protocolo de las situaciones tipo III, que son presuntos delitos, no a los conflictos esporádicos del tipo I."
     },
     {
      "l": "B",
-     "t": "reunir inmediatamente a las partes y mediar de manera pedagógica para que expongan sus puntos de vista.",
-     "j": "Es correcta. Es el numeral 1 del art. 42."
+     "t": "reunir de inmediato a las partes y mediar pedagógicamente para que expongan su punto de vista.",
+     "j": "Es correcta. El numeral 1 del artículo 42 dice: «Reunir inmediatamente a las partes involucradas en el conflicto y mediar de manera pedagógica para que éstas expongan sus puntos de vista y busquen la reparación de los daños causados»."
     },
     {
      "l": "C",
-     "t": "remitir el caso al comité escolar de convivencia para que defina la sanción.",
-     "j": "Es incorrecta. En tipo I la mediación es inmediata; el comité actúa en los tipos II y III."
+     "t": "remitir el caso al comité escolar de convivencia para que defina la sanción que corresponde.",
+     "j": "Es incorrecta. Salta el paso inicial. En el tipo I la respuesta es inmediata y pedagógica entre las partes; el comité escolar interviene con más fuerza en las situaciones tipo II y III. Además, el protocolo no empieza por una sanción, sino por la mediación."
     }
    ],
    "clave": "B",
@@ -3918,10 +3994,13 @@
    "citas": [
     {
      "doc": "decreto_1965_2013",
-     "texto": "Reunir inmediatamente a las partes involucradas en el conflicto y mediar de manera pedagógica",
-     "ubicacion": "Decreto 1965, art. 42"
+     "texto": "Reunir inmediatamente a las partes involucradas en el conflicto y mediar de manera pedagógica para que éstas expongan sus puntos de vista y busquen la reparación de los daños causados",
+     "ubicacion": "Decreto 1965, art. 42, num. 1"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El artículo 42 del Decreto 1965 fija el procedimiento mínimo para las situaciones tipo I: primero, reunir inmediatamente a las partes y mediar de manera pedagógica para que expongan sus puntos de vista y busquen la reparación, el restablecimiento de derechos y la reconciliación; luego, fijar una solución imparcial, equitativa y justa y dejar constancia; y después, hacer seguimiento. La lógica es pedagógica y restaurativa, no sancionatoria. En la CNSC, cuando el caso sea un conflicto esporádico sin daño, la respuesta correcta casi siempre es la mediación inmediata del docente o de quien conoció el hecho, no la remisión ni la Policía.",
+   "revisado": true
   },
   {
    "id": "K036",
@@ -3933,18 +4012,18 @@
    "opciones": [
     {
      "l": "A",
-     "t": "el docente que conoció el caso, quien debe presentar la denuncia antes de informar a las directivas.",
-     "j": "Es incorrecta. La norma asigna esta acción al presidente del comité escolar de convivencia."
+     "t": "el docente que conoció el caso, quien debe denunciar antes de informar a las directivas.",
+     "j": "Es incorrecta. Todo docente tiene el deber de actuar frente a un presunto delito, y por eso la opción atrae. Pero el numeral 3 del artículo 44 asigna expresamente esta acción al presidente del comité escolar de convivencia, dentro del protocolo institucional."
     },
     {
      "l": "B",
-     "t": "los padres de familia, porque son los representantes legales del estudiante afectado.",
-     "j": "Es incorrecta. La institución tiene el deber de informar."
+     "t": "el comité escolar de convivencia en pleno, después de sesionar y analizar el caso.",
+     "j": "Es incorrecta. Es un distractor cercano porque el comité sí se cita en el numeral 4. Pero ese numeral empieza con «No obstante lo dispuesto en el numeral anterior»: el aviso a la Policía no espera a la sesión, se hace de inmediato."
     },
     {
      "l": "C",
-     "t": "el presidente del comité escolar de convivencia, de manera inmediata y por el medio más expedito.",
-     "j": "Es correcta. Así lo establece el art. 44, numeral 3."
+     "t": "el presidente del comité escolar de convivencia, de inmediato y por el medio más expedito.",
+     "j": "Es correcta. El numeral 3 del artículo 44 dice: «El presidente del Comité Escolar de Convivencia, de manera inmediata y por el medio más expedito, pondrá la situación en conocimiento de la Policía Nacional». La citación del comité viene aparte."
     }
    ],
    "clave": "C",
@@ -3953,10 +4032,18 @@
    "citas": [
     {
      "doc": "decreto_1965_2013",
-     "texto": "pondrá la situación en conocimiento de la Policía Nacional",
-     "ubicacion": "Decreto 1965, art. 44"
+     "texto": "El presidente del Comité Escolar de Convivencia, de manera inmediata y por el medio más expedito, pondrá la situación en conocimiento de la Policía Nacional.",
+     "ubicacion": "Decreto 1965, art. 44, num. 3"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "No obstante lo dispuesto en el numeral anterior, se citará a los integrantes del Comité Escolar de Convivencia",
+     "ubicacion": "Decreto 1965, art. 44, num. 4"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "Es de nivel 3 porque hay que leer el orden y la relación entre dos numerales del artículo 44. El numeral 3 dice que el presidente del comité escolar de convivencia, de manera inmediata y por el medio más expedito, pone la situación en conocimiento de la Policía Nacional. El numeral 4 agrega que, no obstante lo anterior, se cita a los integrantes del comité: la sesión no condiciona ni retrasa el aviso. Antes van la atención en salud si hay daño y la información inmediata a los padres. En la CNSC, en tipo III el aviso a la Policía es inmediato y tiene un responsable definido por la norma.",
+   "revisado": true
   },
   {
    "id": "K037",
@@ -3964,22 +4051,22 @@
    "ficha": "F19",
    "familia": "NOR-DERECHOS",
    "competencia": "Convivencia y protección",
-   "enunciado": "Según la Ley 1098 de 2006, el interés superior del niño, niña y adolescente es",
+   "enunciado": "Según el artículo 8 de la Ley 1098 de 2006, el interés superior del niño, niña y adolescente es",
    "opciones": [
     {
      "l": "A",
-     "t": "el imperativo que obliga a todas las personas a garantizar la satisfacción integral y simultánea de todos sus derechos humanos.",
-     "j": "Es correcta. Es la definición del art. 8."
+     "t": "el imperativo que obliga a todas las personas a garantizar la satisfacción integral de sus derechos.",
+     "j": "Es correcta. El artículo 8 lo define como «el imperativo que obliga a todas las personas a garantizar la satisfacción integral y simultánea de todos sus derechos humanos, que son universales, prevalentes e interdependientes»."
     },
     {
      "l": "B",
-     "t": "la facultad de los padres para decidir sobre la educación de sus hijos menores de edad.",
-     "j": "Es incorrecta. No es la definición legal del principio."
+     "t": "la facultad de los padres para decidir sobre la educación y la crianza de sus hijos menores de edad.",
+     "j": "Es incorrecta. Los padres tienen responsabilidades en la crianza, pero el principio no es una facultad de ellos. El interés superior obliga a todas las personas, incluidos los padres, a garantizar los derechos del niño, la niña o el adolescente."
     },
     {
      "l": "C",
-     "t": "la prioridad que tienen los menores en la asignación de cupos escolares en las instituciones oficiales.",
-     "j": "Es incorrecta. Confunde el principio con una medida administrativa."
+     "t": "la prioridad que tienen los menores de edad en la asignación de cupos en las instituciones oficiales.",
+     "j": "Es incorrecta. Confunde un principio general con una medida administrativa concreta. El artículo 8 no habla de cupos: define un imperativo que orienta todas las decisiones que afectan a niños, niñas y adolescentes."
     }
    ],
    "clave": "A",
@@ -3988,10 +4075,13 @@
    "citas": [
     {
      "doc": "ley_1098_2006",
-     "texto": "Se entiende por interés superior del niño, niña y adolescente, el imperativo que obliga a todas las personas a garantizar la satisfacción integral y simultánea de todos sus Derechos Humanos",
+     "texto": "Se entiende por interés superior del niño, niña y adolescente, el imperativo que obliga a todas las personas a garantizar la satisfacción integral y simultánea de todos sus derechos humanos",
      "ubicacion": "Ley 1098, art. 8"
     }
-   ]
+   ],
+   "dificultad": 1,
+   "explicacion": "El artículo 8 de la Ley 1098 de 2006 define el interés superior de los niños, las niñas y los adolescentes como el imperativo que obliga a todas las personas a garantizar la satisfacción integral y simultánea de todos sus derechos humanos, que son universales, prevalentes e interdependientes. Las palabras clave son «obliga a todas las personas» e «integral y simultánea»: no es un privilegio de una persona ni una medida puntual, sino un mandato para todos. En la prueba, cuando un caso enfrente el interés de un estudiante con la comodidad de un adulto o de la institución, este principio inclina la decisión hacia la garantía de los derechos del estudiante.",
+   "revisado": true
   },
   {
    "id": "K038",
