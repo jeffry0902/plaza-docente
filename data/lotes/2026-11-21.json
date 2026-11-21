@@ -1,0 +1,822 @@
+{
+ "id": "2026-11-21",
+ "fecha": "2026-11-21",
+ "casos": [
+  {
+   "id": "C153",
+   "titulo": "Samuel llega trasladado a undécimo",
+   "texto": "En agosto, una institución educativa oficial de Yopal recibe por traslado a Samuel, estudiante de undécimo con baja visión, que llega de otro municipio con su PIAR. La docente de Tecnología e Informática hace parte del equipo que lo acompaña. En la primera semana se detectan cuatro situaciones: la secretaría académica no ha registrado en el Simat que Samuel tiene discapacidad, porque «eso ya lo hizo el colegio anterior»; en la sala de informática ningún equipo tiene lector de pantalla ni magnificador; Samuel presentará la prueba Saber 11 en unas semanas; y algunos compañeros se burlan de él porque acerca mucho la cara a la pantalla. El rector pide al equipo precisar qué le corresponde hacer al establecimiento en cada frente."
+  },
+  {
+   "id": "C154",
+   "titulo": "La comisión de promoción de séptimo",
+   "texto": "Al cierre del año, la comisión de evaluación y promoción de un colegio oficial de Yopal revisa los resultados de séptimo. De 120 estudiantes, 102 fueron promovidos y 18 no. Por grupos, los no promovidos fueron: 7-1, 4 de 40 estudiantes; 7-2, 6 de 40; y 7-3, 8 de 40. Entre los no promovidos de 7-3 está Daniela, estudiante con discapacidad intelectual que tiene PIAR con flexibilización curricular en Tecnología e Informática y en Matemáticas. Su acudiente teme que, si Daniela no es promovida, el colegio le niegue el cupo para el año siguiente, y un docente de la comisión opina que «a los estudiantes con PIAR no se les puede dejar repitiendo»."
+  },
+  {
+   "id": "C155",
+   "titulo": "Tecnologías del Casanare en noveno",
+   "texto": "Una docente de Tecnología e Informática de un colegio de Yopal planea con noveno una unidad sobre las tecnologías de la región. Los estudiantes visitan una finca donde se cruzan razas de ganado para obtener animales más resistentes al calor; comparan cómo se ha secado el arroz en el Casanare en distintas épocas (en patios al sol, en secadoras de combustión y en secadoras con sensores de humedad), y entrevistan a los locutores de la emisora comunitaria, que todavía transmite por radio análoga. En la socialización, un estudiante afirma que «la secadora con sensores es la solución definitiva y las anteriores fueron errores», y otro sostiene que la emisora «no es una TIC porque no es digital»."
+  },
+  {
+   "id": "C156",
+   "titulo": "Un electivo de inteligencia artificial en décimo",
+   "texto": "En una institución oficial de Yopal, la docente de Tecnología e Informática propone abrir en décimo un electivo sobre inteligencia artificial. Algunos padres piden no abordar el tema porque «la IA es peligrosa y los muchachos todavía no deberían ocuparse de eso». El profesor de Matemáticas, en cambio, se ofrece a trabajar con ella para que los estudiantes entiendan cómo aprende un modelo a partir de datos. La docente debe sustentar ante el consejo académico por qué estudiar la IA en la educación media y qué competencias fomentará el electivo."
+  },
+  {
+   "id": "C157",
+   "titulo": "El primer año de la ingeniera nombrada",
+   "texto": "Una ingeniera de sistemas gana el concurso y en febrero es nombrada en período de prueba como docente de Tecnología e Informática en una institución oficial de Yopal; es la única docente del área en la jornada de la mañana. En marzo, el rector organiza la conformación del consejo académico. En abril, la sede rural le pide apoyo porque los computadores que le donaron llevan meses guardados sin instalar. En mayo, el jefe del área de Matemáticas la invita a un proyecto de aula conjunto, pero propone que Tecnología e Informática solo preste la sala de informática para que los estudiantes resuelvan allí las guías de Matemáticas."
+  },
+  {
+   "id": "C158",
+   "titulo": "Burlas en el chat del videojuego",
+   "texto": "En un colegio oficial de Yopal, tres estudiantes de octavo envían desde hace dos semanas apodos y mensajes ofensivos, en el chat de un videojuego en línea, a un compañero que llegó de una vereda y se burlan de su acento. No hay daño al cuerpo ni a la salud, y el comité escolar de convivencia clasificó la situación como tipo II. Ya se informó a las familias y se adoptaron medidas de protección. El coordinador propone que, para «dar ejemplo», los implicados y sus acudientes expongan lo ocurrido frente a todo el curso en la clase de Tecnología e Informática."
+  },
+  {
+   "id": "C159",
+   "titulo": "Puntos, niveles y juegos en sexto",
+   "texto": "Una docente de Tecnología e Informática quiere motivar a un grupo de sexto que se distrae con facilidad. Considera tres alternativas: usar un juego de mesa que ya existe sobre circuitos eléctricos para que apliquen lo aprendido; otorgar puntos, insignias y niveles de reto a las tareas semanales de la unidad, sin usar ningún juego; o crear con los estudiantes un videojuego original para aprender el sistema binario. Escoge la segunda alternativa, y el coordinador objeta que «eso no es usar juegos en clase, así que no es una estrategia del área»."
+  },
+  {
+   "id": "C160",
+   "titulo": "La columna sobre los celulares",
+   "texto": "En el boletín de un colegio de Yopal aparece esta columna de opinión: «Los celulares en el aula son el principal enemigo de la atención. Desde que el colegio vecino los prohibió, sus estudiantes participan más en clase y sus resultados en las pruebas Saber mejoraron. Las familias deberían exigir lo mismo aquí. En conclusión, la tecnología digital distrae y no enseña, y la escuela debe mantenerla lejos de los estudiantes». La docente de Tecnología e Informática usa el texto con undécimo para analizar argumentos."
+  }
+ ],
+ "fichas": [
+  {
+   "id": "F34",
+   "familia": "DIS-DISENO",
+   "titulo": "Pensamiento tecnológico y pensamiento de diseño (Orientaciones 2022)",
+   "lectura": "Las Orientaciones Curriculares de Tecnología e Informática (MEN, 2022) proponen cinco formas de pensar en el área: el pensamiento tecnológico, el de diseño, el computacional, el sistémico y el crítico. Dos de ellas organizan el trabajo de diseño en el aula. El pensamiento tecnológico avanza por pasos: problematizar (identificar las variables del problema y reconocer el propósito o meta a alcanzar), conceptualizar las variables, diseñar (proponer principios, prácticas y prototipos), planear los procedimientos, materializar el diseño con construcciones adecuadas y evaluar la solución, su factibilidad y utilidad. El pensamiento de diseño (design thinking) es un conjunto de procesos y estrategias divergentes que se emplea preferentemente en equipo, con técnicas que van desde empatizar —ponerse en la piel del usuario final— hasta definir el problema, idear muchas soluciones, prototipar y evaluar o probar con el usuario.",
+   "puntos": [
+    "Pensamiento tecnológico: problematizar → conceptualizar → diseñar → planear → materializar → evaluar.",
+    "Problematizar = identificar las variables del problema y reconocer el propósito o meta a alcanzar (aún no se proponen soluciones).",
+    "Design thinking: empatizar → definir → idear → prototipar → evaluar/probar; se emplea preferentemente en equipo.",
+    "Empatizar = ponerse en la piel del usuario final; definir = clarificar y concretar el problema con la información obtenida.",
+    "Trampa CNSC: confundir empatizar con definir, o diseñar con problematizar; fíjate en qué hace el estudiante en ese momento."
+   ],
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Problematizar: identificar las variables del problema y reconocer el propósito o meta a alcanzar",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.4 Formas de pensar en T&I"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "a) empatizar, ponernos en la piel del usuario final",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.4 Formas de pensar en T&I"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Si bien, el pensamiento de diseño favorece un modo de pensar a nivel individual, se emplea preferentemente durante el trabajo en equipo",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.4 Formas de pensar en T&I"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "tipo": "caso",
+   "id": "Q251",
+   "caso": "C153",
+   "familia": "PED-INCL",
+   "dificultad": 2,
+   "competencia": "Educación inclusiva: responsabilidades institucionales",
+   "enunciado": "Frente al argumento de la secretaría académica sobre el registro de Samuel en el Simat, lo que corresponde al establecimiento según el Decreto 1421 de 2017 es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "reportar a Samuel en el Simat como estudiante con discapacidad, porque el reporte se hace también en el traslado.",
+     "j": "Es correcta. El numeral 2 del literal c obliga a los establecimientos a «reportar en el Simat a los estudiantes con discapacidad en el momento de la matrícula, el retiro o el traslado». La matrícula de Samuel en el nuevo colegio activa esa obligación para quien lo recibe."
+    },
+    {
+     "l": "B",
+     "t": "dejar el reporte en manos del colegio anterior, porque fue allí donde se registró por primera vez su discapacidad.",
+     "j": "Es incorrecta. Supone que el registro inicial basta para siempre. El decreto exige el reporte en cada momento de la trayectoria —matrícula, retiro o traslado—, así que el colegio que recibe a Samuel no puede delegar esa tarea en el de origen."
+    },
+    {
+     "l": "C",
+     "t": "esperar un nuevo diagnóstico médico de la familia antes de registrar a Samuel en el Simat el próximo año escolar.",
+     "j": "Es incorrecta. Aplaza un deber que es inmediato. El reporte se hace en el momento del traslado; además, el mismo decreto prevé que aun sin diagnóstico se proceda con la matrícula y el registro en el Simat con la información de la familia."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La palabra clave es «en el momento». El Decreto 1421 de 2017 enumera las responsabilidades de los establecimientos educativos públicos y privados, y el numeral 2 dice que deben «reportar en el Simat a los estudiantes con discapacidad en el momento de la matrícula, el retiro o el traslado». Por eso el colegio que recibe a Samuel debe hacer su propio reporte sin esperar al año siguiente ni delegarlo en el colegio anterior. En la prueba, cuando un caso proponga aplazar o trasladar a otro una obligación de registro o de reporte, revisa si la norma fija el momento exacto en que debe cumplirse.",
+   "fuente": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.1, literal c, numeral 2 (compilado en el Decreto 1075 de 2015)",
+   "consejo": "Simat: se reporta al estudiante con discapacidad en la matrícula, el retiro o el traslado.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "2. Reportar en el Simat a los estudiantes con discapacidad en el momento de la matrícula, el retiro o el traslado.",
+     "ubicacion": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal c), compilado en el Decreto 1075 de 2015, numeral 2"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q252",
+   "caso": "C153",
+   "familia": "PED-INCL",
+   "dificultad": 3,
+   "competencia": "Educación inclusiva: accesibilidad tecnológica",
+   "enunciado": "Sobre la sala de informática sin lector de pantalla ni magnificador, la actuación institucional que corresponde según el Decreto 1421 de 2017 es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "pedir a la familia de Samuel que compre el software lector de pantalla, porque es un apoyo personal del estudiante.",
+     "j": "Es incorrecta. Traslada a la familia una obligación institucional. La accesibilidad a la información y la comunicación es una condición que el establecimiento gestiona; la familia acompaña el proceso, pero no le corresponde dotar la sala de informática."
+    },
+    {
+     "l": "B",
+     "t": "solicitar al Ministerio de Educación Nacional la dotación de equipos accesibles, porque es quien financia los colegios.",
+     "j": "Es incorrecta. Acierta en que hay que gestionar la dotación, pero se equivoca de instancia. Para los establecimientos oficiales, el decreto ordena reportar las necesidades de infraestructura a la entidad territorial certificada correspondiente, que en este caso es Yopal."
+    },
+    {
+     "l": "C",
+     "t": "reportar a la secretaría de educación de Yopal la necesidad de infraestructura tecnológica accesible de la sala.",
+     "j": "Es correcta. El numeral 15 ordena a los establecimientos oficiales reportar a la entidad territorial certificada «las necesidades en infraestructura física y tecnológica, para la accesibilidad». Mientras llega la dotación, el PIAR sigue orientando los ajustes en clase."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El caso combina dos condiciones: el colegio es oficial y la barrera es de infraestructura tecnológica. Para esa combinación, el numeral 15 del literal c del Decreto 1421 de 2017 dice que el establecimiento debe reportar «a la entidad territorial certificada en educación correspondiente, en el caso de los establecimientos educativos oficiales, las necesidades en infraestructura física y tecnológica». Yopal es entidad territorial certificada, así que el reporte va a su secretaría de educación, no al Ministerio ni a la familia. En la prueba, distingue bien a quién le corresponde cada acción: la familia acompaña, el establecimiento reporta y la entidad territorial gestiona la dotación.",
+   "fuente": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.1, literal c, numeral 15",
+   "consejo": "Colegio oficial + necesidad de infraestructura accesible → reporte a la entidad territorial certificada.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "15. Reportar a la entidad territorial certificada en educación correspondiente, en el caso de los establecimientos educativos oficiales, las necesidades en infraestructura física y tecnológica, para la accesibilidad al medio físico, al conocimiento, a la información y a la comunicación a todos los estudiantes.",
+     "ubicacion": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal c), compilado en el Decreto 1075 de 2015, numeral 15"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q253",
+   "caso": "C153",
+   "familia": "PED-INCL",
+   "dificultad": 2,
+   "competencia": "Educación inclusiva: exámenes de Estado",
+   "enunciado": "Para que Samuel presente la prueba Saber 11 en condiciones adecuadas, el establecimiento debe",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "orientar a Samuel para que solicite él mismo los apoyos al jefe de salón el día de la prueba Saber 11.",
+     "j": "Es incorrecta. Deja la gestión en manos del estudiante y para el último momento. El decreto pone en el establecimiento la responsabilidad de reportar al Icfes, de modo que los apoyos se preparen con anticipación y no dependan de lo que se logre ese día."
+    },
+    {
+     "l": "B",
+     "t": "reportar al Icfes que Samuel presentará la prueba, para que le garanticen los apoyos y ajustes razonables.",
+     "j": "Es correcta. El numeral 14 obliga a «reportar al Icfes los estudiantes con discapacidad que presenten los exámenes de Estado para que se les garanticen los apoyos y ajustes razonables acordes a sus necesidades». Es una tarea institucional que se cumple antes de la prueba."
+    },
+    {
+     "l": "C",
+     "t": "tramitar ante la secretaría de educación que Samuel quede eximido de la prueba Saber 11 por su discapacidad.",
+     "j": "Es incorrecta. Confunde ajuste razonable con exención. La educación inclusiva busca que Samuel participe en igualdad de condiciones con los apoyos que necesita, no que se le excluya del examen de Estado que presentan sus compañeros."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La clave está en el numeral 14 del literal c del Decreto 1421 de 2017: el establecimiento debe «reportar al Icfes los estudiantes con discapacidad que presenten los exámenes de Estado para que se les garanticen los apoyos y ajustes razonables acordes a sus necesidades». La lógica de la norma es la de toda la educación inclusiva: el estudiante participa en lo mismo que sus compañeros, y la institución gestiona con anticipación los apoyos para que lo haga en igualdad de condiciones. En la prueba, desconfía de las opciones que eximen al estudiante de una actividad o que lo dejan solo frente a la gestión de sus apoyos.",
+   "fuente": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.1, literal c, numeral 14",
+   "consejo": "Examen de Estado + discapacidad → el colegio reporta al Icfes para garantizar apoyos y ajustes.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "14. Reportar al Icfes los estudiantes con discapacidad que presenten los exámenes de Estado para que se les garanticen los apoyos y ajustes razonables acordes a sus necesidades.",
+     "ubicacion": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal c), compilado en el Decreto 1075 de 2015, numeral 14"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q254",
+   "caso": "C153",
+   "familia": "PED-INCL",
+   "dificultad": 3,
+   "competencia": "Educación inclusiva y convivencia",
+   "enunciado": "Además de atender en el aula las burlas contra Samuel, la medida institucional que corresponde según el Decreto 1421 de 2017 es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "ajustar el manual de convivencia y fortalecer la prevención para evitar la discriminación por discapacidad.",
+     "j": "Es correcta. El numeral 10 ordena «ajustar los manuales de convivencia escolar e incorporar estrategias en los componentes de promoción y prevención» de la ruta, para prevenir la exclusión o discriminación por discapacidad. Es la respuesta institucional, más allá del manejo del episodio."
+    },
+    {
+     "l": "B",
+     "t": "remitir el caso al ICBF para el restablecimiento de derechos de Samuel, porque fue discriminado por su discapacidad.",
+     "j": "Es incorrecta. La remisión al ICBF es una medida posible cuando se requiere restablecer derechos, pero no es la acción institucional que pide el enunciado ni la primera respuesta ante unas burlas. El decreto pide al colegio ajustar su manual y su prevención."
+    },
+    {
+     "l": "C",
+     "t": "cambiar a Samuel de grupo para ubicarlo con estudiantes más tolerantes, mientras pasan las burlas de sus compañeros.",
+     "j": "Es incorrecta. Parece protectora, pero traslada la consecuencia a la víctima y la separa de su grupo, lo que es una forma de exclusión. Lo que debe cambiar es el entorno escolar, mediante la promoción y la prevención, no la ubicación del estudiante."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El enunciado pide la medida institucional, no el manejo del episodio en el aula. El numeral 10 del literal c del Decreto 1421 de 2017 responde de forma directa: los establecimientos deben «ajustar los manuales de convivencia escolar e incorporar estrategias en los componentes de promoción y prevención de la ruta de atención integral para la convivencia escolar», con miras a prevenir cualquier caso de exclusión o discriminación en razón de la discapacidad. Así, la inclusión y la convivencia se articulan: la ruta de convivencia también protege a los estudiantes con discapacidad. En la prueba, fíjate si te preguntan por la atención inmediata o por la acción institucional de fondo.",
+   "fuente": "Decreto 1421 de 2017, art. 2.3.3.5.2.3.1, literal c, numeral 10",
+   "consejo": "Discriminación por discapacidad → ajustar manual de convivencia + promoción y prevención de la ruta.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "10. Ajustar los manuales de convivencia escolar e incorporar estrategias en los componentes de promoción y prevención de la ruta de atención integral para la convivencia escolar, con miras a fomentar la convivencia y prevenir cualquier caso de exclusión o discriminación en razón a la discapacidad de los estudiantes.",
+     "ubicacion": "Decreto 1421 de 2017 (art. 2.3.3.5.2.3.1, literal c), compilado en el Decreto 1075 de 2015, numeral 10"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q255",
+   "caso": "C154",
+   "familia": "PED-EVAL-NORM",
+   "dificultad": 3,
+   "competencia": "Sistema Institucional de Evaluación: promoción",
+   "enunciado": "Para responder a la acudiente y al docente de la comisión, lo que establece el Decreto 1075 de 2015 sobre el caso de Daniela es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "Daniela debe ser promovida al grado siguiente, porque a un estudiante con PIAR no se le puede reprobar el año.",
+     "j": "Es incorrecta. Es la posición del docente de la comisión, pero la norma dice que la promoción de estudiantes con discapacidad se rige por las mismas disposiciones de la sección. No existe una promoción automática; lo que cambia es que se tiene en cuenta la flexibilización."
+    },
+    {
+     "l": "B",
+     "t": "el colegio puede negar el cupo a Daniela si no es promovida, según lo que defina su sistema de evaluación.",
+     "j": "Es incorrecta. Confirma el temor de la acudiente, pero contradice la norma: cuando un estudiante no es promovido, el establecimiento «debe garantizarle, en todos los casos, el cupo». El sistema institucional de evaluación no puede disponer lo contrario."
+    },
+    {
+     "l": "C",
+     "t": "el colegio debe garantizarle el cupo, y su promoción se decide teniendo en cuenta la flexibilización de su PIAR.",
+     "j": "Es correcta. El artículo 2.3.3.3.3.6 ordena garantizar el cupo «en todos los casos» al estudiante no promovido, y dispone que la promoción de estudiantes con discapacidad tenga en cuenta la flexibilización curricular hecha con base en su valoración pedagógica."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El caso tiene dos condiciones y la respuesta debe atender ambas. Primera: si un estudiante no es promovido, el establecimiento «debe garantizarle, en todos los casos, el cupo para que continúe con su proceso formativo». Segunda: la promoción de los estudiantes con discapacidad se rige por las mismas disposiciones, pero tiene en cuenta la flexibilización curricular hecha con base en su valoración pedagógica, su trayectoria, su proyecto de vida y el riesgo de deserción. Por eso no hay promoción automática ni pérdida del cupo. En la prueba, cuando dos opciones capturan solo una mitad de la norma, busca la que integra las dos condiciones del enunciado.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.6 (Decreto 1290 de 2009, art. 6, modificado por el Decreto 1421 de 2017)",
+   "consejo": "No promovido → cupo garantizado siempre; discapacidad → mismas reglas + flexibilización del PIAR.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Cuando un establecimiento educativo determine que un estudiante no puede ser promovido al grado siguiente, debe garantizarle, en todos los casos, el cupo para que continúe con su proceso formativo.",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.3.3.6"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "La promoción de estudiantes con discapacidad en la educación básica y media está regida por las mismas disposiciones establecidas en la presente sección, la cual tendrá en cuenta la flexibilización curricular que realice el establecimiento educativo con base en los resultados de la valoración pedagógica de estos estudiantes",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.3.3.6"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q256",
+   "caso": "C154",
+   "familia": "RC-INT",
+   "dificultad": 3,
+   "competencia": "Interpretación y representación de datos",
+   "enunciado": "Con los datos de séptimo, la afirmación correcta que puede presentar la comisión es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el 15 % de los estudiantes de séptimo no fue promovido, y 7-3 aporta cerca del 44 % de ellos.",
+     "j": "Es correcta. 18 ÷ 120 = 0,15, es decir, el 15 % del grado. De esos 18 no promovidos, 8 son de 7-3: 8 ÷ 18 ≈ 0,444, cerca del 44 %. Las dos partes de la afirmación usan el total adecuado para cada pregunta."
+    },
+    {
+     "l": "B",
+     "t": "el 18 % de los estudiantes de séptimo no fue promovido, y el grupo 7-3 aporta el 20 % de ellos.",
+     "j": "Es incorrecta. Confunde la cantidad con el porcentaje: 18 es el número de no promovidos, no su porcentaje, que es 18 ÷ 120 = 15 %. Además, el 20 % es la proporción de no promovidos dentro de 7-3, no la parte del total que aporta ese grupo."
+    },
+    {
+     "l": "C",
+     "t": "el 15 % de los estudiantes de séptimo no fue promovido, y 7-3 aporta el 20 % de ellos.",
+     "j": "Es incorrecta. La primera parte es correcta, pero la segunda usa el total equivocado: 8 ÷ 40 = 20 % es la tasa de no promoción dentro de 7-3. La pregunta es qué parte de los 18 no promovidos aporta 7-3, y eso es 8 ÷ 18 ≈ 44 %."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El ítem exige razonar en dos pasos y elegir bien el denominador en cada uno. Para saber qué porcentaje del grado no fue promovido, se divide entre todos los estudiantes: 18 ÷ 120 = 15 %. Para saber qué parte de los no promovidos aporta 7-3, se divide entre los no promovidos: 8 ÷ 18 ≈ 44 %. El 20 % (8 ÷ 40) es otro dato, la tasa de no promoción dentro del grupo, y es la trampa de una de las opciones. En las pruebas de razonamiento cuantitativo, antes de calcular pregúntate siempre «¿porcentaje de qué total?», porque los distractores suelen usar el denominador equivocado.",
+   "fuente": "Competencia de razonamiento cuantitativo (Anexo Técnico CNSC 2026, numeral 2.1).",
+   "consejo": "Antes de calcular un porcentaje, identifica el total: ¿del grado, del grupo o de los no promovidos?",
+   "citas": []
+  },
+  {
+   "tipo": "caso",
+   "id": "Q257",
+   "caso": "C155",
+   "familia": "DIS-CTS",
+   "dificultad": 2,
+   "competencia": "Naturaleza y evolución de la tecnología",
+   "enunciado": "Frente a la afirmación de que la secadora con sensores es la solución definitiva, la docente orienta la reflexión con las Orientaciones Curriculares, que señalan que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "las soluciones digitales superan a las análogas, por lo que la secadora con sensores reemplaza a las demás.",
+     "j": "Es incorrecta. Es un error frecuente creer que lo digital siempre supera a lo análogo. El texto dice que las respuestas tecnológicas son diversas y transitorias según el contexto; una secadora con sensores puede no ser la mejor opción para todas las fincas ni para siempre."
+    },
+    {
+     "l": "B",
+     "t": "las respuestas tecnológicas a un mismo problema son diversas, transitorias y siempre mejorables con el tiempo.",
+     "j": "Es correcta. Las Orientaciones afirman que la tecnología posee un arraigo temporal y geográfico, «de allí que sus respuestas sean diversas para un mismo problema, transitorias y siempre mejorables». Los tres métodos de secado responden a épocas y contextos distintos."
+    },
+    {
+     "l": "C",
+     "t": "el secado al sol es una técnica tradicional y no una tecnología, por lo que sale de la comparación.",
+     "j": "Es incorrecta. Confunde técnica y tecnología, y deja por fuera un saber valioso de la región. Las Orientaciones reconocen las manifestaciones tecnológicas de las comunidades a lo largo de la historia, por ejemplo en el agro; secar el arroz al sol también es una solución tecnológica."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave es «solución definitiva». Las Orientaciones Curriculares de 2022 explican que la tecnología, como actividad humana, posee un arraigo temporal y geográfico, «de allí que sus respuestas sean diversas para un mismo problema, transitorias y siempre mejorables en el transcurrir de las épocas». Comparar el secado al sol, las secadoras de combustión y las de sensores es justamente reconocer la naturaleza, la evolución y los impactos de la tecnología en función de los contextos y los tiempos. En la prueba, desconfía de las opciones que presentan una tecnología como definitiva o que desprecian las soluciones anteriores.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.1 La tecnología como actividad humana",
+   "consejo": "Las soluciones tecnológicas son diversas, transitorias y siempre mejorables: no hay solución definitiva.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la tecnología posee un arraigo temporal y geográfico, por tanto, sus materializaciones dan cuenta del progreso dentro de un grupo humano particular en el plano cultural, intelectual y técnico, de allí que sus respuestas sean diversas para un mismo problema, transitorias y siempre mejorables en el transcurrir de las épocas",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.1"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q258",
+   "caso": "C155",
+   "familia": "DIS-SIST",
+   "dificultad": 2,
+   "competencia": "Sistemas tecnológicos",
+   "enunciado": "Según la clasificación de sistemas de las Orientaciones Curriculares, el cruce de razas de ganado que observan en la finca es un ejemplo de sistema",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "cibernético, porque organiza de una forma particular los procesos y servicios productivos de la finca.",
+     "j": "Es incorrecta. Los sistemas cibernéticos, según el texto, conllevan formas particulares de actuación y organización social en procesos y servicios. El cruce de razas no se define por cómo se organiza la finca, sino por la transformación de características biológicas."
+    },
+    {
+     "l": "B",
+     "t": "de control, porque regula la manera en que los animales de la finca responden al calor de la región.",
+     "j": "Es incorrecta. Los sistemas de control que nombra el texto son eléctricos, electrónicos, hidráulicos o neumáticos. Lograr animales más resistentes al calor no es regular una variable con un sistema de control, sino transformar las características biológicas del ganado."
+    },
+    {
+     "l": "C",
+     "t": "de orden biotecnológico, porque transforma características biológicas de organismos para un uso específico.",
+     "j": "Es correcta. El texto define los sistemas biotecnológicos como los asociados a la creación o transformación de las características biológicas de organismos para usos específicos, y da el ejemplo de cruzar «especies de ganado, peces o frutas para obtener especies mejoradas»."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones Curriculares de 2022 enumeran los sistemas que obligan a estudiar las manifestaciones tecnológicas: mecanismos, de control, de comunicación e información, cibernéticos y, más recientemente, de orden biotecnológico. Este último se asocia a la creación o transformación de las características biológicas de organismos o procesos vivos para usos específicos, y el propio texto pone el ejemplo de cruzar especies de ganado, peces o frutas para obtener especies mejoradas. El caso de la finca coincide punto por punto con ese ejemplo. En la prueba, para clasificar un sistema pregúntate qué transforma: fuerza, señales, información, organización social o características biológicas.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.1",
+   "consejo": "Cruzar especies para mejorarlas = sistema de orden biotecnológico.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "de orden biotecnológico impulsado por la generación de nuevas formas de tecnología e informática asociadas a la creación o transformación de las características biológicas de ciertos organismos o procesos vivos para usos específicos; por ejemplo, cuando cruzamos especies de ganado, peces o frutas para obtener especies mejoradas",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.1"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q259",
+   "caso": "C155",
+   "familia": "DIS-DATOS",
+   "dificultad": 2,
+   "competencia": "Tecnología, informática y TIC",
+   "enunciado": "Frente a la afirmación de que la emisora comunitaria no es una TIC porque no es digital, la docente explica, con las Orientaciones Curriculares, que la emisora",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "sí es una TIC, porque las TIC incluyen tecnologías análogas y digitales para producir y comunicar información.",
+     "j": "Es correcta. Las Orientaciones aclaran que, aunque se da por sentado que las TIC son solo digitales, «las TIC se refieren tanto a tecnologías análogas como digitales usadas para producir y divulgar información y comunicarla». La radio análoga cumple esa definición."
+    },
+    {
+     "l": "B",
+     "t": "no es una TIC, porque las TIC son únicamente las tecnologías digitales que se relacionan con el uso de Internet.",
+     "j": "Es incorrecta. Repite justo la idea que el texto corrige: «se da por sentado» que hablar de TIC es hablar solo de tecnologías digitales e Internet, pero las Orientaciones aclaran que las TIC también comprenden tecnologías análogas como la radio."
+    },
+    {
+     "l": "C",
+     "t": "será una TIC cuando empiece a transmitir por Internet, porque en ese momento pasa a ser un producto informático.",
+     "j": "Es incorrecta. Confunde TIC con informática. La emisora ya es una TIC por producir y divulgar información, sea análoga o digital; transmitir por Internet cambiaría el soporte, pero no es la condición para que la emisora sea considerada una TIC."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Las Orientaciones Curriculares de 2022 parten de un malentendido frecuente: «se da por sentado» que hablar de TIC es hablar exclusivamente de tecnologías digitales y de Internet. Enseguida lo corrigen: las TIC se refieren tanto a tecnologías análogas como digitales usadas para producir y divulgar información y comunicarla. Por eso la emisora comunitaria que transmite por radio análoga es una TIC, igual que lo fueron el libro, el telégrafo o la televisión. En la prueba, recuerda que lo que define a una TIC es su función de producir y comunicar información, no que sea digital ni que use Internet.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.3 Las TIC y su lugar en el área",
+   "consejo": "TIC = tecnologías análogas y digitales para producir, divulgar y comunicar información.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "las TIC se refieren tanto a tecnologías análogas como digitales usadas para producir y divulgar información y comunicarla",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.3"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q260",
+   "caso": "C156",
+   "familia": "DIS-CTS",
+   "dificultad": 3,
+   "competencia": "Ética y tecnología: inteligencia artificial",
+   "enunciado": "Para responder a la preocupación de los padres con base en las Orientaciones Curriculares, la docente argumenta que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "conviene dejar la IA para la educación superior, porque en la media se priorizan las competencias básicas.",
+     "j": "Es incorrecta. Propone postergar el tema, cuando las Orientaciones dicen que es necesario estudiar la IA «desde la educación básica y media». Aplazarla deja a los estudiantes sin criterios frente a tecnologías que ya hacen parte de su vida cotidiana."
+    },
+    {
+     "l": "B",
+     "t": "por sus beneficios y peligros, la IA debe estudiarse en la media para construir criterios y límites éticos.",
+     "j": "Es correcta. El texto reconoce que hay voces que anuncian beneficios y advierten peligros, «de allí que sea necesario estudiarla desde la educación básica y media» para que los ciudadanos construyan criterios, establezcan límites éticos y vigilen sus impactos."
+    },
+    {
+     "l": "C",
+     "t": "los beneficios de la IA superan sus peligros, así que basta con enseñar a usar bien sus aplicaciones.",
+     "j": "Es incorrecta. Es una verdad a medias: el texto reconoce beneficios, pero no los presenta como superiores a los peligros, y no reduce la formación al uso de aplicaciones. Pide construir criterios, límites éticos y formas de mitigar y vigilar los impactos."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares de 2022 presentan la inteligencia artificial como un ejemplo reciente del desarrollo de la informática y reconocen que hay voces que anuncian beneficios y advierten peligros. Precisamente por esa tensión concluyen que es necesario estudiarla desde la educación básica y media, a fin de generar un saber y conocimiento informático que faculte a los ciudadanos para construir criterios, establecer límites éticos y mitigar y vigilar sus impactos. La respuesta a los padres no es negar el riesgo ni postergar el tema, sino formar criterio. En la prueba, cuando una tecnología genere temor, la postura del MEN suele ser estudiarla de forma crítica, no evitarla.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.2 ¿Qué es la informática?",
+   "consejo": "IA: se estudia desde básica y media para construir criterios y límites éticos, no se evita.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "de allí que sea necesario estudiarla desde la educación básica y media a fin de generar un saber y conocimiento informático que faculte a los ciudadanos para construir criterios y establecer límites éticos, así como mitigar y vigilar sus impactos en la sociedad",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.2"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q261",
+   "caso": "C156",
+   "familia": "DIS-ALGO",
+   "dificultad": 3,
+   "competencia": "Formación en informática y pensamiento computacional",
+   "enunciado": "Al sustentar el trabajo conjunto con Matemáticas, la docente explica que, según las Orientaciones Curriculares, una formación en informática debe fomentar",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "sobre todo la ética de la ciudadanía digital, porque el principal riesgo de la IA es de orden ético.",
+     "j": "Es incorrecta. Es una verdad a medias: el texto sí incluye una ética de la ciudadanía digital, pero junto con la comprensión teórica, la abstracción y el diseño de soluciones. Ponerla «sobre todo» desconoce la base matemática que justifica el trabajo con Matemáticas."
+    },
+    {
+     "l": "B",
+     "t": "el manejo de las aplicaciones de IA más usadas, con certificaciones que acrediten el dominio del software.",
+     "j": "Es incorrecta. Reduce la informática al uso de herramientas. Las Orientaciones insisten en que la informática no se centra en el computador ni en sus programas, y piden competencias de comprensión teórica, abstracción y diseño de soluciones."
+    },
+    {
+     "l": "C",
+     "t": "la comprensión teórica desde bases matemáticas, algorítmicas y de modelación, y la abstracción con modelos.",
+     "j": "Es correcta. El texto dice que para formar en informática se deben fomentar las competencias asociadas a «la comprensión teórica de su conocimiento desde las bases matemáticas, algorítmicas y de modelación» y a la capacidad de abstracción con modelos que representan realidades."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones Curriculares de 2022 precisan qué competencias fomenta una formación en informática: la comprensión teórica de su conocimiento desde las bases matemáticas, algorítmicas y de modelación; la capacidad de abstracción en función de modelos que representan digitalmente realidades; el diseño de soluciones innovadoras, y una ética de la ciudadanía digital. La primera de ellas es la que sustenta el trabajo con Matemáticas para entender cómo aprende un modelo a partir de datos. La ética es parte de la lista, pero no la reemplaza. En la prueba, cuando una opción toma un elemento verdadero y lo vuelve el único o el principal, revisa si el texto lo presenta junto con otros.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.1.2 ¿Qué es la informática?",
+   "consejo": "Formar en informática = bases matemáticas, algorítmicas y de modelación + abstracción + diseño + ética digital.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "debemos fomentar las competencias asociadas a la comprensión teórica de su conocimiento desde las bases matemáticas, algorítmicas y de modelación, la capacidad de abstracción en función de modelos que representan digitalmente realidades",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.1.2"
+    }
+   ]
+  },
+  {
+   "id": "K067",
+   "tipo": "conocimiento",
+   "ficha": "F34",
+   "familia": "DIS-DISENO",
+   "dificultad": 1,
+   "competencia": "Pensamiento tecnológico y diseño",
+   "enunciado": "Según las Orientaciones Curriculares de Tecnología e Informática (2022), el primer paso del pensamiento tecnológico, problematizar, consiste en",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "identificar las variables del problema y reconocer el propósito o la meta que se quiere alcanzar.",
+     "j": "Es correcta. Las Orientaciones definen así el primer paso: «Problematizar: identificar las variables del problema y reconocer el propósito o meta a alcanzar». En este momento todavía no se proponen soluciones; se entiende bien el problema."
+    },
+    {
+     "l": "B",
+     "t": "proponer principios, prácticas y prototipos que permitan lograr el propósito previsto para la solución.",
+     "j": "Es incorrecta. Describe el paso de diseñar, que viene después de problematizar y conceptualizar. Proponer prototipos antes de identificar las variables del problema es un error típico de los proyectos escolares que empiezan por construir."
+    },
+    {
+     "l": "C",
+     "t": "evaluar la solución construida, su factibilidad y su utilidad en relación con el problema planteado.",
+     "j": "Es incorrecta. Describe el último paso, evaluar. Es un paso necesario del pensamiento tecnológico, pero cierra el proceso: se evalúa una solución ya materializada, mientras que problematizar es lo primero que se hace frente al problema."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Las Orientaciones Curriculares de 2022 describen el pensamiento tecnológico como una secuencia: problematizar, conceptualizar las variables, diseñar, planear, materializar y evaluar. El primer paso, problematizar, consiste en «identificar las variables del problema y reconocer el propósito o meta a alcanzar». Diseñar propone principios, prácticas y prototipos, y evaluar revisa la factibilidad y la utilidad de la solución construida. Conocer el orden ayuda en los casos: si un grupo empieza a construir sin haber identificado las variables, la docente debe devolverlo a problematizar. En la prueba, identifica qué está haciendo el estudiante en ese momento para nombrar el paso.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.4 Formas de pensar en T&I: el pensamiento tecnológico",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. Problematizar = variables + propósito, antes de diseñar.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Problematizar: identificar las variables del problema y reconocer el propósito o meta a alcanzar",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.4"
+    }
+   ]
+  },
+  {
+   "id": "K068",
+   "tipo": "conocimiento",
+   "ficha": "F34",
+   "familia": "DIS-DISENO",
+   "dificultad": 2,
+   "competencia": "Pensamiento de diseño",
+   "enunciado": "Un grupo de sexto diseña un dispensador de agua para la sede rural. Antes de idear soluciones, entrevista a los niños de preescolar que lo usarán para conocer sus dificultades. Según el pensamiento de diseño descrito en las Orientaciones Curriculares, esa técnica es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "definir, porque el grupo clarifica y concreta el problema con la información que obtiene de los usuarios.",
+     "j": "Es incorrecta. Es la técnica más cercana, pero viene después: definir es clarificar y concretar el problema con la información ya obtenida. En el caso, el grupo todavía está recogiendo esa información al ponerse en el lugar de los niños de preescolar."
+    },
+    {
+     "l": "B",
+     "t": "empatizar, porque el grupo se pone en la piel de los usuarios finales antes de proponer cualquier solución.",
+     "j": "Es correcta. Las Orientaciones describen la primera técnica del design thinking como «empatizar, ponernos en la piel del usuario final». Entrevistar a los niños que usarán el dispensador, antes de idear, es exactamente ese momento del proceso."
+    },
+    {
+     "l": "C",
+     "t": "prototipar, porque el grupo comprueba con los usuarios cómo reaccionan frente a la solución que se diseñó.",
+     "j": "Es incorrecta. Prototipar es materializar la solución ideada para comprobar la reacción del público objetivo. En el caso aún no existe ninguna solución que probar: el grupo apenas está conociendo las dificultades de los usuarios."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares de 2022 describen el pensamiento de diseño como un conjunto de técnicas que van desde empatizar, «ponernos en la piel del usuario final», hasta definir el problema, idear soluciones, prototipar y evaluar o probar. La pista del enunciado es temporal: el grupo entrevista a los usuarios «antes de idear soluciones» y para «conocer sus dificultades». Eso es empatizar. Definir vendría después, cuando el grupo use esa información para concretar el problema, y prototipar exige tener ya una solución. En la prueba, ubica el momento del proceso y lo que todavía no existe para descartar las técnicas posteriores.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 2.4 Formas de pensar en T&I: el pensamiento de diseño",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. Design thinking: empatizar → definir → idear → prototipar → evaluar.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "a) empatizar, ponernos en la piel del usuario final",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.4"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "b) definir, clarificar y concretar el problema con la información obtenida",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 2.4"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q262",
+   "caso": "C157",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 2,
+   "competencia": "Estatuto docente: período de prueba",
+   "enunciado": "Como su título no es de licenciada en educación, según el Decreto 1278 de 2002, al término del período de prueba ella debe",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "presentar el título de licenciada en Tecnología, porque sin él no puede ser inscrita en el Escalafón Docente.",
+     "j": "Es incorrecta. Exige un requisito que la norma no impone. El Decreto 1278 permite el ingreso de profesionales con título diferente al de licenciado; lo que pide al final del período de prueba es acreditar formación en educación, no un segundo pregrado."
+    },
+    {
+     "l": "B",
+     "t": "acreditar un programa de pedagogía solo si su evaluación de desempeño del período queda por debajo del 60 %.",
+     "j": "Es incorrecta. Mezcla dos reglas distintas. La acreditación de formación pedagógica es un requisito para todos los profesionales no licenciados, sin importar la calificación; una calificación inferior al 60 % no abre un plan de mejora, sino el retiro del servicio."
+    },
+    {
+     "l": "C",
+     "t": "acreditar que cursa o terminó un postgrado en educación, o que hizo un programa de pedagogía en una universidad.",
+     "j": "Es correcta. El parágrafo 1 del artículo 12 dice que los profesionales con título diferente al de licenciado deben acreditar, al término del período de prueba, que cursan o han terminado un postgrado en educación o que han realizado un programa de pedagogía."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El artículo 12 del Decreto 1278 de 2002 regula el nombramiento en período de prueba y su parágrafo 1 se dirige a profesionales como ella: quienes tienen título diferente al de licenciado en educación deben acreditar, al término del período de prueba, que cursan o han terminado un postgrado en educación, o que han realizado un programa de pedagogía bajo la responsabilidad de una institución de educación superior. No se exige una licenciatura ni depende de la calificación obtenida. En la prueba, recuerda que el estatuto abre la carrera a otros profesionales, pero les pide formación pedagógica certificada al cerrar el período de prueba.",
+   "fuente": "Decreto 1278 de 2002, art. 12, parágrafo 1",
+   "consejo": "Profesional no licenciado: al terminar el período de prueba acredita postgrado en educación o programa de pedagogía.",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "Los profesionales con título diferente al de licenciado en educación, deben acreditar, al término del período de prueba, que cursan o han terminado un postgrado en educación, o que han realizado un programa de pedagogía bajo la responsabilidad de una institución de educación superior",
+     "ubicacion": "Decreto 1278 de 2002, art. 12, parágrafo 1"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q263",
+   "caso": "C157",
+   "familia": "NOR-ORG",
+   "dificultad": 2,
+   "competencia": "Gobierno escolar: consejo académico",
+   "enunciado": "Sobre la conformación del consejo académico, según el artículo 145 de la Ley 115 de 1994, la docente",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "puede integrarlo en representación de su área, porque lo forman los directivos y un docente por cada área o grado.",
+     "j": "Es correcta. El artículo 145 dice que el consejo académico está «integrado por los directivos docentes y un docente por cada área o grado que ofrezca la respectiva institución». Como única docente del área en su jornada, puede llevar la voz de Tecnología e Informática."
+    },
+    {
+     "l": "B",
+     "t": "puede postularse como uno de los dos representantes de los docentes que el claustro elige para ese consejo.",
+     "j": "Es incorrecta. Confunde el consejo académico con el consejo directivo: es en este último donde el artículo 143 ubica a «dos representantes de los docentes». El consejo académico no se integra por dos representantes elegidos, sino por un docente por cada área o grado."
+    },
+    {
+     "l": "C",
+     "t": "debe esperar a superar el período de prueba, porque el consejo lo integran solo docentes inscritos en el escalafón.",
+     "j": "Es incorrecta. Añade una condición que el artículo 145 no contiene. La ley define la integración del consejo académico por los directivos docentes y un docente por cada área o grado, sin exigir que ese docente haya superado el período de prueba."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El gobierno escolar tiene tres instancias con integraciones distintas, y la CNSC suele mezclarlas. El artículo 145 de la Ley 115 de 1994 dice que el consejo académico, convocado y presidido por el rector, está integrado por los directivos docentes y un docente por cada área o grado que ofrezca la institución; entre sus funciones está el estudio del currículo y la organización del plan de estudio. Los «dos representantes de los docentes» pertenecen al consejo directivo, según el artículo 143. En la prueba, asocia consejo académico con lo pedagógico y con un docente por área, y consejo directivo con representantes de los estamentos.",
+   "fuente": "Ley 115 de 1994, arts. 143 y 145",
+   "consejo": "Consejo académico = directivos + un docente por área o grado. Dos representantes docentes = consejo directivo.",
+   "citas": [
+    {
+     "doc": "ley_115_1994",
+     "texto": "El Consejo Académico, convocado y presidido por el rector o director, estará integrado por los directivos docentes y un docente por cada área o grado que ofrezca la respectiva institución.",
+     "ubicacion": "Ley 115 de 1994, art. 145"
+    },
+    {
+     "doc": "ley_115_1994",
+     "texto": "b) Dos representantes de los docentes de la institución;",
+     "ubicacion": "Ley 115 de 1994, art. 143"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q264",
+   "caso": "C157",
+   "familia": "PSI-COMP",
+   "dificultad": 2,
+   "competencia": "Compromiso social e institucional",
+   "enunciado": "Frente a la solicitud de la sede rural sobre los computadores guardados, la respuesta que mejor demuestra el compromiso social e institucional es que la docente",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "informe a la secretaría de educación que los equipos no se usan, para que los asigne a otra institución.",
+     "j": "Es incorrecta. Resuelve el problema de los equipos ociosos, pero en contra de la comunidad que los recibió. Antepone la eficiencia administrativa a los estudiantes de la sede rural, en lugar de aportar desde su cargo una solución que los beneficie."
+    },
+    {
+     "l": "B",
+     "t": "acuerde con el rector un plan para instalar los equipos en la sede y acompañar a sus docentes en su uso.",
+     "j": "Es correcta. Asume la responsabilidad desde su rol, actúa por los canales institucionales y beneficia a la comunidad de la sede. Coincide con la definición de la competencia: asumir responsabilidades «anteponiendo los intereses institucionales a los personales»."
+    },
+    {
+     "l": "C",
+     "t": "explique a la sede que su asignación académica es en la sede principal, y que el apoyo le corresponde a otro.",
+     "j": "Es incorrecta. Es un límite comprensible, pero pone el interés personal por encima del institucional y deja sin respuesta una necesidad de los estudiantes. La competencia evaluada pide aportar soluciones dentro y fuera de las tareas habituales del cargo."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La Guía de orientación de la CNSC define el compromiso social e institucional como la habilidad para asumir responsabilidades con ética y profesionalismo, dentro y fuera del establecimiento, «anteponiendo los intereses institucionales a los personales». Frente a unos computadores donados que nadie ha instalado, el nivel más alto de la competencia es el de quien propone una solución concreta desde su saber y la coordina con el rector para que la comunidad de la sede se beneficie. Reasignar los equipos o declararse ajena al problema son salidas posibles, pero no demuestran la competencia. En la prueba psicotécnica, busca la respuesta que aporta y articula, no la que delega o se excusa.",
+   "fuente": "Guía de orientación al aspirante CNSC (2022), definición de Compromiso social e institucional",
+   "consejo": "Compromiso institucional = aportar una solución desde el cargo, por canales institucionales, que beneficie a la comunidad.",
+   "citas": [
+    {
+     "doc": "guia_orientacion_cnsc_2022",
+     "texto": "Habilidad para asumir responsabilidades con ética y profesionalismo, dentro y fuera del establecimiento, anteponiendo los intereses institucionales a los personales",
+     "ubicacion": "Guía de orientación al aspirante CNSC (2022), definición de Compromiso social e institucional"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q265",
+   "caso": "C157",
+   "familia": "CB-EQUIPO",
+   "dificultad": 2,
+   "competencia": "Trabajo en equipo",
+   "enunciado": "Frente a la propuesta del jefe del área de Matemáticas para el proyecto conjunto, la respuesta que mejor demuestra trabajo en equipo es que la docente",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "acepte prestar la sala para evitar un conflicto, y deje los aprendizajes de su área para otro proyecto.",
+     "j": "Es incorrecta. Evita el desacuerdo, pero renuncia al sentido del proyecto conjunto: su área queda reducida a un espacio físico. Ceder siempre no es trabajar en equipo; un buen equipo integra los aportes de todos sus miembros."
+    },
+    {
+     "l": "B",
+     "t": "rechace el proyecto conjunto y sugiera que cada área trabaje por separado en sus propias clases y horarios.",
+     "j": "Es incorrecta. Defiende el lugar de su área, pero cierra una oportunidad de integración que favorece a los estudiantes. Ante una propuesta desequilibrada, la salida de equipo es renegociarla, no abandonar el trabajo colaborativo."
+    },
+    {
+     "l": "C",
+     "t": "proponga acordar un propósito común en el que cada área defina qué aprendizajes aporta al proyecto.",
+     "j": "Es correcta. Mantiene la colaboración y equilibra la propuesta: construye una meta compartida y hace visible el aporte de cada área. Así el proyecto deja de ser una clase de Matemáticas en la sala y se vuelve una integración real de las dos disciplinas."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El caso evalúa el trabajo en equipo, una de las competencias blandas que el Anexo Técnico incluye en la prueba de aptitudes junto con el liderazgo, la ética y la ciudadanía. Frente a una propuesta que reduce el aporte de un área, la respuesta de nivel alto no es ceder para evitar el conflicto ni romper la colaboración, sino reorientar el trabajo hacia un propósito común en el que cada integrante aporte lo propio. Esa respuesta protege la integración de las áreas, que es lo que más beneficia a los estudiantes. En la prueba, descarta tanto la sumisión como la ruptura y elige la opción que construye acuerdos.",
+   "fuente": "Anexo Técnico CNSC 2026, numeral 2.1 (competencias blandas: trabajo en equipo)",
+   "consejo": "Trabajo en equipo = propósito común + aporte de cada uno; ni ceder todo ni romper.",
+   "citas": []
+  },
+  {
+   "tipo": "caso",
+   "id": "Q266",
+   "caso": "C158",
+   "familia": "NOR-CONV-RUTA",
+   "dificultad": 3,
+   "competencia": "Protocolo de atención de situaciones tipo II",
+   "enunciado": "Frente a la propuesta del coordinador, la docente señala que, según el protocolo para situaciones tipo II del Decreto 1965 de 2013,",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la exposición ante el curso es válida, porque hace parte de las acciones de promoción de la convivencia escolar.",
+     "j": "Es incorrecta. Confunde la atención de un caso con la promoción. Las acciones de promoción son políticas generales para el clima escolar; exponer un caso concreto ante el curso vulnera la intimidad y la confidencialidad que el protocolo exige preservar."
+    },
+    {
+     "l": "B",
+     "t": "los espacios para que partes y acudientes expongan lo ocurrido deben preservar intimidad y confidencialidad.",
+     "j": "Es correcta. El numeral 4 del artículo 43 ordena generar espacios para que las partes y sus acudientes expongan lo acontecido, «preservando, en cualquier caso, el derecho a la intimidad, confidencialidad y demás derechos». Una exposición ante todo el curso lo contradice."
+    },
+    {
+     "l": "C",
+     "t": "la situación debe remitirse a la Policía de Infancia y Adolescencia, porque al repetirse se convierte en tipo III.",
+     "j": "Es incorrecta. La repetición de la agresión es una característica de las situaciones tipo II, no de las tipo III, que son las que constituyen presuntos delitos. Remitir a la Policía sería aplicar el protocolo equivocado a una situación ya bien clasificada."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El caso ya superó los primeros pasos del protocolo tipo II: se informó a las familias y se adoptaron medidas de protección. El siguiente paso, el numeral 4 del artículo 43 del Decreto 1965 de 2013, es generar espacios en los que las partes y sus padres, madres o acudientes puedan exponer y precisar lo acontecido, «preservando, en cualquier caso, el derecho a la intimidad, confidencialidad y demás derechos». Exponer el caso ante todo el curso, aunque se presente como ejemplo, vulnera esos derechos. En la prueba, cuando una opción propone hacer público un caso de convivencia «para dar ejemplo», recuerda que la ruta protege la intimidad de todos los involucrados.",
+   "fuente": "Decreto 1965 de 2013, art. 43, numeral 4",
+   "consejo": "Tipo II: espacios para que partes y acudientes expongan lo ocurrido, siempre con intimidad y confidencialidad.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Generar espacios en los que las partes involucradas y los padres, madres o acudientes de los estudiantes, puedan exponer y precisar lo acontecido, preservando, en cualquier caso, el derecho a la intimidad, confidencialidad y demás derechos.",
+     "ubicacion": "Decreto 1965 de 2013, art. 43, numeral 4"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q267",
+   "caso": "C159",
+   "familia": "PED-ENSENAR",
+   "dificultad": 3,
+   "competencia": "Estrategias didácticas del área",
+   "enunciado": "Para responder la objeción del coordinador con las Orientaciones Curriculares, la docente explica que la alternativa que escogió es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "gamificación, porque no usa juegos de forma directa sino sus elementos, para motivar y generar compromiso.",
+     "j": "Es correcta. Las Orientaciones definen la gamificación como implementar elementos típicos del juego, y aclaran que «no se utilizan directamente juegos, sino sus elementos»; dan como ejemplos obtener puntos e implementar niveles de reto en las tareas."
+    },
+    {
+     "l": "B",
+     "t": "aprendizaje basado en juegos, porque los puntos y los niveles convierten las tareas de la unidad en un juego.",
+     "j": "Es incorrecta. Es la estrategia más cercana, pero el aprendizaje basado en juegos usa juegos que ya existen para aplicar los conceptos, como el juego de mesa sobre circuitos de la primera alternativa. Asignar puntos y niveles no convierte las tareas en un juego."
+    },
+    {
+     "l": "C",
+     "t": "un juego serio, porque las tareas con puntos y niveles se crearon para desarrollar un conocimiento específico.",
+     "j": "Es incorrecta. El juego serio exige crear un juego original para desarrollar un conocimiento o habilidad específica, como el videojuego sobre el sistema binario de la tercera alternativa. La docente no crea ningún juego; solo agrega elementos de juego a las tareas."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Las Orientaciones Curriculares de 2022 presentan tres estrategias basadas en el juego y las diferencian con precisión. El aprendizaje basado en juegos usa juegos que ya existen para aplicar lo aprendido; la gamificación implementa elementos típicos del juego, como puntos, roles o niveles de reto, y aclara que «no se utilizan directamente juegos, sino sus elementos»; los juegos serios exigen crear juegos originales para un conocimiento específico. La segunda alternativa del caso es gamificación, y por eso sí es una estrategia del área aunque no haya un juego. En la prueba, pregúntate si hay un juego existente, un juego creado o solo elementos de juego.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 4.4.3 Aprendizaje basado en juegos, gamificación y juegos serios",
+   "consejo": "Juego existente = ABJ; solo elementos de juego (puntos, niveles) = gamificación; juego creado = juego serio.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Esto implica que no se utilizan directamente juegos, sino sus elementos para incentivar a los estudiantes a generar estructuras narrativas, enriquecer y motivar la experiencia de aprendizaje y generar compromiso con las actividades de aula",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 4.4.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la estrategia didáctica de juegos serios requiere de la creación de juegos originales para desarrollar un conocimiento o habilidad específica",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 4.4.3"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q268",
+   "caso": "C160",
+   "familia": "LC-CRIT",
+   "dificultad": 2,
+   "competencia": "Reflexionar y evaluar el contenido de un texto",
+   "enunciado": "La conclusión de la columna, «la tecnología digital distrae y no enseña», es débil principalmente porque",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "se apoya en lo ocurrido en un colegio vecino, en lugar de usar datos del colegio donde se publicó el boletín.",
+     "j": "Es incorrecta. Usar un caso de otro colegio no es en sí mismo un defecto: los ejemplos externos pueden apoyar un argumento. La debilidad principal está en el salto de la premisa a la conclusión, no en el origen del ejemplo usado por el autor."
+    },
+    {
+     "l": "B",
+     "t": "no informa cuántos estudiantes del colegio vecino presentaron las pruebas Saber antes y después de la medida.",
+     "j": "Es incorrecta. Es una omisión real que haría más sólida la evidencia, pero no explica por qué la conclusión es débil. Aunque se dieran esos datos, seguiría sin justificarse que toda la tecnología digital distrae y no enseña."
+    },
+    {
+     "l": "C",
+     "t": "generaliza a toda la tecnología digital lo que el texto solo dice sobre el uso de los celulares en el aula.",
+     "j": "Es correcta. Todas las premisas hablan de celulares en el aula, pero la conclusión se extiende a toda la tecnología digital y afirma que no enseña. Es una generalización que las premisas no sostienen, y por eso es la debilidad principal del argumento."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Para evaluar la conclusión de un argumento hay que comparar su alcance con el de las premisas. La columna solo ofrece razones sobre los celulares en el aula —la experiencia del colegio vecino, la participación y los resultados—, pero concluye algo mucho más amplio: que toda la tecnología digital distrae y no enseña. Esa generalización apresurada es la debilidad principal. Las otras opciones señalan aspectos que podrían mejorar la evidencia, pero no explican el salto de la parte al todo. En lectura crítica, cuando te pidan la debilidad «principal», busca primero si la conclusión dice más de lo que las premisas permiten.",
+   "fuente": "Competencia de lectura crítica (Anexo Técnico CNSC 2026, numeral 2.1).",
+   "consejo": "Compara el alcance de la conclusión con el de las premisas: ¿generaliza de una parte al todo?",
+   "citas": []
+  }
+ ]
+}

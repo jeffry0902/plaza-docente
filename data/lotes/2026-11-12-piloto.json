@@ -4089,34 +4089,42 @@
    "ficha": "F19",
    "familia": "NOR-DERECHOS",
    "competencia": "Convivencia y protección",
-   "enunciado": "Según el Decreto 1965 de 2013, en todas las acciones de la Ruta de Atención Integral se debe garantizar, entre otros, el principio de",
+   "enunciado": "Según el artículo 35 del Decreto 1965 de 2013, en todas las acciones de los componentes de la Ruta de Atención Integral para la Convivencia Escolar debe garantizarse, entre otros, el principio de",
    "opciones": [
     {
      "l": "A",
-     "t": "publicidad, para que la comunidad educativa conozca los casos y aprenda de ellos.",
-     "j": "Es incorrecta. La ruta exige confidencialidad, no publicidad de los casos."
+     "t": "publicidad de los casos ante la comunidad educativa, para que todos aprendan de lo que ocurrió.",
+     "j": "Es incorrecta. La ruta no contempla un principio de publicidad de los casos. Al contrario, el mismo artículo exige garantizar la protección de datos, y los protocolos piden preservar la intimidad y la confidencialidad de los involucrados."
     },
     {
      "l": "B",
-     "t": "protección integral, incluido el derecho a no ser revictimizado.",
-     "j": "Es correcta. Así lo establece el art. 35."
+     "t": "protección integral, que incluye el derecho de los involucrados a no ser revictimizados.",
+     "j": "Es correcta. El artículo 35 ordena garantizar en todas las acciones de la ruta «los principios de protección integral, incluyendo el derecho a no ser revictimizado», junto con el interés superior, la prevalencia de los derechos y la corresponsabilidad."
     },
     {
      "l": "C",
-     "t": "celeridad, que obliga a cerrar cada caso en un plazo máximo de cinco días hábiles.",
-     "j": "Es incorrecta. El decreto no fija ese plazo."
+     "t": "confidencialidad absoluta, que impide informar a las familias de los estudiantes involucrados.",
+     "j": "Es incorrecta. Exagera una idea correcta. La confidencialidad protege a los involucrados frente a terceros, pero no excluye a las familias: los protocolos de las situaciones tipo II y III ordenan informar de manera inmediata a padres, madres o acudientes."
     }
    ],
    "clave": "B",
-   "fuente": "Decreto 1965, art. 35",
+   "fuente": "Decreto 1965 de 2013, art. 35",
    "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
    "citas": [
     {
      "doc": "decreto_1965_2013",
-     "texto": "incluyendo el derecho a no ser revictimizado",
-     "ubicacion": "Decreto 1965, art. 35"
+     "texto": "debe garantizarse la aplicación de los principios de protección integral, incluyendo el derecho a no ser revictimizado",
+     "ubicacion": "Decreto 1965 de 2013, art. 35"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "3. Informar de manera inmediata a los padres, madres o acudientes de todos los estudiantes involucrados, actuación de la cual se dejará constancia.",
+     "ubicacion": "Decreto 1965 de 2013, art. 43, numeral 3"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El artículo 35 del Decreto 1965 de 2013 enumera los principios que deben garantizarse en todas las acciones de la Ruta de Atención Integral: la protección integral, «incluyendo el derecho a no ser revictimizado»; el interés superior de los niños, niñas y adolescentes; la prevalencia de los derechos; la corresponsabilidad; la exigibilidad; la perspectiva de género y la proporcionalidad, además de la protección de datos. No incluye un principio de publicidad, y la confidencialidad no impide informar a las familias. En la prueba, cuando una opción proponga exponer un caso o, al revés, ocultarlo a los acudientes, recuerda que la ruta protege al estudiante sin aislarlo de su familia.",
+   "revisado": true
   },
   {
    "id": "K039",
@@ -4128,30 +4136,33 @@
    "opciones": [
     {
      "l": "A",
-     "t": "el rector, el consejo directivo y el consejo académico.",
-     "j": "Es correcta. Es la conformación que fija el art. 142."
+     "t": "el rector, el consejo directivo y el consejo académico de la institución.",
+     "j": "Es correcta. El artículo 142 dice textualmente que cada establecimiento educativo del Estado «tendrá un gobierno escolar conformado por el rector, el Consejo Directivo y el Consejo Académico». Son las tres instancias que dirigen la institución."
     },
     {
      "l": "B",
      "t": "el rector, los coordinadores y la asociación de padres de familia.",
-     "j": "Es incorrecta. No es la conformación legal."
+     "j": "Es incorrecta. Los coordinadores son directivos docentes y la asociación de padres participa en la vida escolar, pero ninguno de los dos es una instancia del gobierno escolar según el artículo 142. Mezcla cargos y organizaciones con los órganos de gobierno."
     },
     {
      "l": "C",
      "t": "el consejo directivo, el personero y el comité escolar de convivencia.",
-     "j": "Es incorrecta. Mezcla órganos que no hacen parte del gobierno escolar según el art. 142."
+     "j": "Es incorrecta. El personero de los estudiantes y el comité escolar de convivencia existen en los establecimientos, pero no conforman el gobierno escolar. La opción también omite al rector, que sí hace parte de él y preside los dos consejos."
     }
    ],
    "clave": "A",
-   "fuente": "Ley 115, art. 142",
+   "fuente": "Ley 115 de 1994, art. 142",
    "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
    "citas": [
     {
      "doc": "ley_115_1994",
      "texto": "Cada establecimiento educativo del Estado tendrá un gobierno escolar conformado por el rector, el Consejo Directivo y el Consejo Académico.",
-     "ubicacion": "Ley 115, art. 142"
+     "ubicacion": "Ley 115 de 1994, art. 142"
     }
-   ]
+   ],
+   "dificultad": 1,
+   "explicacion": "El artículo 142 de la Ley 115 de 1994 establece que cada establecimiento educativo del Estado tendrá un gobierno escolar conformado por tres instancias: el rector, el Consejo Directivo y el Consejo Académico. Otros actores, como el personero de los estudiantes, el comité escolar de convivencia, los coordinadores o la asociación de padres, participan en la vida institucional, pero no forman parte de ese gobierno. En la prueba, esta distinción aparece en casos en los que hay que decidir ante qué instancia se lleva una propuesta: lo pedagógico va al consejo académico y las decisiones de funcionamiento institucional al consejo directivo.",
+   "revisado": true
   },
   {
    "id": "K040",
@@ -4159,34 +4170,42 @@
    "ficha": "F20",
    "familia": "NOR-ORG",
    "competencia": "Organización escolar y carrera",
-   "enunciado": "Un docente quiere proponer una nueva asignatura optativa dentro del área de Tecnología e Informática. Según la Ley 115, la instancia que estudia la organización del plan de estudios es",
+   "enunciado": "Un docente quiere proponer una nueva asignatura optativa dentro del área de Tecnología e Informática. Según la Ley 115 de 1994, la instancia institucional que participa en la organización del plan de estudio es",
    "opciones": [
     {
      "l": "A",
      "t": "el consejo directivo, porque toma las decisiones que afectan el funcionamiento de la institución.",
-     "j": "Es incorrecta. El plan de estudios es función del consejo académico."
+     "j": "Es incorrecta. Es una función real del consejo directivo (art. 144, literal a), pero solo para decisiones que no sean competencia de otra autoridad. La organización del plan de estudio está asignada expresamente al consejo académico por el artículo 145."
     },
     {
      "l": "B",
-     "t": "la secretaría de educación, porque aprueba los cambios en las áreas obligatorias.",
-     "j": "Es incorrecta. No es la instancia que lo estudia dentro de la institución."
+     "t": "la secretaría de educación, porque verifica los requisitos del currículo y del plan de estudios.",
+     "j": "Es incorrecta. La secretaría de educación verifica el cumplimiento de requisitos cuando se le someten el PEI, el currículo y el plan de estudios, pero no es una instancia del establecimiento ni la que estudia primero la propuesta del docente."
     },
     {
      "l": "C",
-     "t": "el consejo académico, al que le corresponde la organización del plan de estudio.",
-     "j": "Es correcta. Así lo dispone el art. 145, literal b."
+     "t": "el consejo académico, porque una de sus funciones es la organización del plan de estudio.",
+     "j": "Es correcta. El artículo 145 dice que el consejo académico se reunirá periódicamente para participar en «la organización del plan de estudio», además del estudio, la modificación y los ajustes al currículo. Allí se estudia una nueva asignatura del área."
     }
    ],
    "clave": "C",
-   "fuente": "Ley 115, art. 145",
+   "fuente": "Ley 115 de 1994, arts. 144 y 145",
    "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
    "citas": [
     {
      "doc": "ley_115_1994",
      "texto": "La organización del plan de estudio",
-     "ubicacion": "Ley 115, art. 145"
+     "ubicacion": "Ley 115 de 1994, art. 145, literal b"
+    },
+    {
+     "doc": "ley_115_1994",
+     "texto": "Tomar las decisiones que afecten el funcionamiento de la institución y que no sean competencia de otra autoridad",
+     "ubicacion": "Ley 115 de 1994, art. 144, literal a"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El artículo 145 de la Ley 115 de 1994 asigna al consejo académico, integrado por los directivos docentes y un docente por cada área o grado, la participación en el estudio, la modificación y los ajustes al currículo y en «la organización del plan de estudio». Una nueva asignatura optativa del área es un asunto del plan de estudio, de modo que la propuesta se estudia allí. El consejo directivo toma las decisiones de funcionamiento que no sean competencia de otra autoridad, y la secretaría verifica requisitos desde fuera. En la prueba, asocia lo curricular y pedagógico con el consejo académico.",
+   "revisado": true
   },
   {
    "id": "K041",
@@ -4194,34 +4213,42 @@
    "ficha": "F21",
    "familia": "NOR-ESTATUTO",
    "competencia": "Organización escolar y carrera",
-   "enunciado": "Según el Decreto 1278 de 2002, un docente que obtiene menos del 60 % en la evaluación del periodo de prueba",
+   "enunciado": "Una docente nombrada en período de prueba obtiene 75 % en la evaluación de desempeño y 58 % en la de competencias. Según el artículo 31 del Decreto 1278 de 2002, ella",
    "opciones": [
     {
      "l": "A",
-     "t": "repite el periodo de prueba al año siguiente en la misma institución.",
-     "j": "Es incorrecta. La norma no prevé repetir el periodo."
+     "t": "es inscrita en el Escalafón Docente, porque el promedio de sus dos calificaciones supera el 60 %.",
+     "j": "Es incorrecta. Promedia dos resultados que la norma evalúa por separado. El artículo 31 dice que los docentes que obtengan menos del 60 % «en la evaluación de desempeño o en competencias» serán retirados: basta con no alcanzar el mínimo en una de las dos."
     },
     {
      "l": "B",
-     "t": "es retirado del servicio, porque no alcanzó el mínimo exigido para ser inscrito en el escalafón.",
-     "j": "Es correcta. Así lo establece el art. 31."
+     "t": "regresa a la docencia cuando haya vacante, porque no obtuvo el mínimo en la evaluación de competencias.",
+     "j": "Es incorrecta. Esa consecuencia existe, pero el artículo 31 la prevé para los directivos docentes que ya estaban inscritos en el Escalafón. Para quienes ocupan un cargo docente, la calificación inferior al 60 % en desempeño o en competencias lleva al retiro del servicio."
     },
     {
      "l": "C",
-     "t": "es reubicado en un cargo administrativo de la secretaría de educación.",
-     "j": "Es incorrecta. No existe esa figura en el art. 31."
+     "t": "es retirada del servicio, porque obtuvo menos del 60 % en una de las dos evaluaciones del período.",
+     "j": "Es correcta. El artículo 31 dice que «los docentes que obtengan una calificación inferior al sesenta por ciento (60%) en la evaluación de desempeño o en competencias, serán retirados del servicio». El 58 % en competencias es suficiente para esa consecuencia."
     }
    ],
-   "clave": "B",
-   "fuente": "Decreto 1278, art. 31",
+   "clave": "C",
+   "fuente": "Decreto 1278 de 2002, art. 31",
    "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
    "citas": [
     {
      "doc": "decreto_1278_2002",
      "texto": "Los docentes que obtengan una calificación inferior al sesenta por ciento (60%) en la evaluación de desempeño o en competencias, serán retirados del servicio.",
-     "ubicacion": "Decreto 1278, art. 31"
+     "ubicacion": "Decreto 1278 de 2002, art. 31"
+    },
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "si se encontraban inscritos en el Escalafón Docente, serán regresados a la docencia una vez exista vacante",
+     "ubicacion": "Decreto 1278 de 2002, art. 31"
     }
-   ]
+   ],
+   "dificultad": 3,
+   "explicacion": "El ítem exige leer con cuidado dos detalles del artículo 31 del Decreto 1278 de 2002. Primero, la conjunción «o»: los docentes que obtengan una calificación inferior al 60 % en la evaluación de desempeño o en la de competencias serán retirados del servicio; no se promedian. Segundo, el sujeto: regresar a la docencia es la consecuencia prevista para los directivos docentes que ya estaban inscritos en el Escalafón, no para quienes ocupan un cargo docente. Para quedar inscrito hace falta obtener 60 % o más en ambas. En la prueba, fíjate en las conjunciones y en el cargo al que se dirige cada regla.",
+   "revisado": true
   },
   {
    "id": "K042",
@@ -4229,34 +4256,37 @@
    "ficha": "F21",
    "familia": "NOR-ESTATUTO",
    "competencia": "Organización escolar y carrera",
-   "enunciado": "Según el Anexo Técnico del concurso 2026, el puntaje mínimo aprobatorio de la Prueba de Aptitudes y Competencias Básicas para docentes es",
+   "enunciado": "Según el Anexo Técnico del proceso de selección 2026, en la Prueba de Aptitudes y Competencias Básicas el aspirante a un cargo docente",
    "opciones": [
     {
      "l": "A",
-     "t": "70 puntos sobre 100, igual que para los directivos docentes.",
-     "j": "Es incorrecta. 70 es el mínimo para los directivos docentes."
+     "t": "debe obtener 70.00 puntos para continuar, el mismo mínimo aprobatorio fijado para los directivos docentes.",
+     "j": "Es incorrecta. Toma el mínimo de otro cargo: el Anexo fija 70.00 puntos para los directivos docentes y 60.00 para los docentes. Es una confusión frecuente porque las dos cifras aparecen en la misma frase del documento."
     },
     {
      "l": "B",
-     "t": "55 puntos sobre 100, que corresponde al peso de la prueba en el puntaje total.",
-     "j": "Es incorrecta. 55 % es el peso de la prueba, no el mínimo aprobatorio."
+     "t": "suma su puntaje con la entrevista para el total, sin un mínimo que lo excluya del proceso de selección.",
+     "j": "Es incorrecta. Describe una prueba clasificatoria, como la entrevista o la psicotécnica. La de aptitudes y competencias básicas es de carácter eliminatorio: quien no alcanza el mínimo aprobatorio no continúa en el proceso de selección."
     },
     {
      "l": "C",
-     "t": "60 puntos sobre 100; quien no lo alcance no continúa en el proceso.",
-     "j": "Es correcta. Así lo establece el numeral 2.2 del Anexo Técnico."
+     "t": "debe obtener al menos 60.00 puntos, porque la prueba es eliminatoria y sin ese mínimo no continúa.",
+     "j": "Es correcta. El Anexo dice que los aspirantes que no superen el mínimo aprobatorio «(70.00 puntos) para Directivos Docentes y (60.00) para Docentes» no continuarán en el proceso de selección, «por tratarse de una prueba de carácter eliminatorio»."
     }
    ],
    "clave": "C",
-   "fuente": "Anexo Técnico 2026, 2.2",
+   "fuente": "Anexo Técnico CNSC 2026, numeral 2, Nota 1",
    "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. En el examen este saber aparece dentro de un caso.",
    "citas": [
     {
      "doc": "anexo_tecnico_2026",
-     "texto": "Los aspirantes que no superen el mínimo aprobatorio (70.00 puntos) para Directivos Docentes y (60.00) para Docentes",
-     "ubicacion": "Anexo Técnico 2026, 2.2"
+     "texto": "Los aspirantes que no superen el mínimo aprobatorio (70.00 puntos) para Directivos Docentes y (60.00) para Docentes, en las Pruebas de Aptitudes y Competencias Básicas, en virtud de lo previsto en el artículo 13º de los Acuerdos del Proceso de Selección, no continuarán en el proceso de selección por tratarse de una prueba de carácter eliminatorio.",
+     "ubicacion": "Anexo Técnico CNSC 2026, numeral 2, Nota 1"
     }
-   ]
+   ],
+   "dificultad": 2,
+   "explicacion": "El Anexo Técnico del proceso de selección 2026 fija el mínimo aprobatorio de la Prueba de Aptitudes y Competencias Básicas en 70.00 puntos para directivos docentes y en 60.00 para docentes, y aclara que quien no lo supere no continúa en el proceso, por tratarse de una prueba de carácter eliminatorio. Las demás pruebas, como la psicotécnica o la entrevista, son clasificatorias: suman al puntaje, pero no excluyen. Para una aspirante a docente de aula, la meta mínima es 60.00 puntos en esta prueba escrita. En la prueba, no confundas el mínimo de cada cargo ni el carácter eliminatorio con el clasificatorio.",
+   "revisado": true
   }
  ]
 }
