@@ -1,0 +1,388 @@
+{
+ "id": "2026-11-22",
+ "fecha": "2026-11-22",
+ "casos": [
+  {"id": "C161", "titulo": "La maleta para la salida de campo", "texto": "En una institución educativa oficial de Yopal, el grupo de décimo prepara una salida de campo a un humedal y propone diseñar en Tecnología e Informática una maleta para llevar binoculares, libretas y una tableta sin que se mojen ni se golpeen. La docente organiza el proyecto siguiendo el ejemplo de la maleta de las Orientaciones Curriculares de 2022: un equipo estudiará la maleta desde la tecnología, otro desde las TIC y otro desde la informática. Antes de empezar, un estudiante comenta: «la informática aquí no aparece, porque no vamos a programar nada»."},
+  {"id": "C162", "titulo": "Drones para sembrar arroz", "texto": "En un colegio de Yopal, el grupo de undécimo trabaja un proyecto sobre la siembra de arroz con drones, a partir del ejemplo del cultivo con drones de las Orientaciones Curriculares de 2022. La docente divide el curso en tres equipos. El primero plantea el problema y diseña el dron: su forma, el tipo de energía y las condiciones aerodinámicas. El segundo estudia cómo programar los drones para que tomen una semilla, se desplacen sin dejarla caer y la planten. El tercero estudia el soporte computacional que permite coordinar los drones para que no se estrellen entre sí, se ubiquen en el terreno y se comuniquen con el capataz."},
+  {"id": "C163", "titulo": "La evaluación del PEI", "texto": "El rector de una institución educativa oficial de Yopal convoca a una jornada para evaluar el Proyecto Educativo Institucional. Invita a estudiantes, docentes, directivos, padres de familia y administrativos. La docente de Tecnología e Informática propone invitar también a un grupo de egresados que hoy estudian ingeniería y trabajan en empresas de la región, para que opinen sobre el énfasis técnico del colegio. Un coordinador se opone: «los egresados ya no hacen parte del colegio; si acaso, que vengan como invitados a escuchar»."},
+  {"id": "C164", "titulo": "El acudiente que solo pregunta por la nota", "texto": "Al finalizar el segundo periodo, la docente de Tecnología e Informática cita al acudiente de Brayan, estudiante de octavo que no ha entregado tres prácticas y tiene desempeño bajo. La docente propone un plan de mejoramiento con actividades en casa y seguimiento semanal por el cuaderno de comunicaciones. El acudiente responde: «yo vine porque me toca informarme de la nota, pero lo de mejorar es asunto del colegio; para eso ustedes son los profesores». La docente quiere explicarle, con base en la Ley 115 de 1994, lo que le corresponde a la familia."},
+  {"id": "C165", "titulo": "La junta de acción comunal y la sala de informática", "texto": "La gobernación entregó veinte computadores portátiles a la sede rural de una institución educativa de Yopal. La junta de acción comunal de la vereda se acerca a la docente de Tecnología e Informática: quiere ayudar a construir una caseta para proteger los equipos de la humedad y también hacer seguimiento a que los portátiles se usen en clase y no queden guardados. Un docente de la sede opina que «la comunidad no tiene por qué vigilar al colegio; eso es asunto de la secretaría de educación»."},
+  {"id": "C166", "titulo": "El comité municipal planea su año", "texto": "En la primera sesión del año del Comité Municipal de Convivencia Escolar de Yopal, sus integrantes revisan qué hará el comité. Una docente de Tecnología e Informática, invitada para presentar una experiencia de aula, escucha varias propuestas: que el comité atienda directamente los casos de acoso que ocurran en cada colegio; que se asegure de que las entidades del municipio conozcan y apliquen la Ruta de Atención Integral; que se organicen charlas informativas sobre derechos humanos, sexuales y reproductivos; que se revisen las estrategias del año anterior, y que se apoye una campaña radial y en redes hecha por estudiantes, padres y docentes sobre la convivencia escolar."},
+  {"id": "C167", "titulo": "El noticiero escolar de noveno", "texto": "En Tecnología e Informática, los estudiantes de noveno de un colegio de Yopal preparan un noticiero escolar. En la primera fase analizan tres comerciales de televisión: cómo usan las imágenes, la música y los efectos de sonido para llamar la atención y convencer al público, y qué sienten ellos al verlos. En la segunda fase usan esos mismos recursos para producir notas que comuniquen a la comunidad lo que ocurre en el colegio. Al planear la evaluación, la docente quiere nombrar con precisión la competencia genérica de las Orientaciones Curriculares que se desarrolla principalmente en esta actividad."},
+  {"id": "C168", "titulo": "El propósito del área en el plan de estudios", "texto": "El consejo académico de un colegio oficial de Yopal revisa el plan de estudios de Tecnología e Informática. La versión anterior definía así el propósito general del área: «formar estudiantes que dominen la ofimática y la programación que pide el mercado laboral». La docente del área, recién nombrada, debe proponer una nueva redacción que esté de acuerdo con el propósito formativo que las Orientaciones Curriculares de 2022 plantean para el área a nivel macrocurricular."},
+  {"id": "C169", "titulo": "El comité del centro educativo rural", "texto": "Un centro educativo rural de Yopal tiene un director y cuatro docentes, y no cuenta con todos los integrantes que exige la conformación general del Comité Escolar de Convivencia. Por eso su comité está integrado por el representante de los docentes —la docente de Tecnología e Informática—, el presidente del consejo de padres de familia y el representante de los estudiantes. Este mes ocurren dos situaciones: el director está en licencia durante tres semanas y debe reunirse el comité, y el día de la reunión el representante de los estudiantes no asiste porque está enfermo."},
+  {"id": "C170", "titulo": "El calendario del comité escolar", "texto": "En una institución educativa oficial de Yopal, el Comité Escolar de Convivencia sesionó en enero y en marzo. En abril, el comité revisa el calendario que le queda hasta diciembre. Además, después de una pelea entre dos estudiantes en la sala de informática, el personero estudiantil, que integra el comité, pide una sesión extraordinaria. Un integrante responde que «las extraordinarias no se piden: solo se hacen cuando al presidente le parezca»."},
+  {"id": "C171", "titulo": "La lista de elegibles de Tecnología", "texto": "Después del concurso docente, la Comisión Nacional del Servicio Civil publicó la lista de elegibles para docente de aula de Tecnología e Informática de Yopal. Al producirse una vacante, la secretaría de educación ofrece el nombramiento a Laura, que ocupa el primer lugar, pero ella lo rechaza porque acaba de aceptar otro empleo. La vacante se provee con quien sigue en la lista. Dos años y medio después de publicada la lista se produce otra vacante en el área y Laura pide que ahora sí la nombren."}
+ ],
+ "fichas": [
+  {
+   "id": "F35",
+   "familia": "DIS-COMP",
+   "titulo": "Competencias genéricas y propósitos del área (Orientaciones 2022)",
+   "lectura": "Las Orientaciones Curriculares de Tecnología e Informática (MEN, 2022) afirman que el desarrollo de competencias tecnológicas es el aspecto central de la formación en el área, y que de él se desprende una serie de competencias genéricas «no exclusivas de la formación en el Área de T&I, sino de orden transversal en la escuela». Son cinco: digitales (gestión de información, comunicación, creación de contenidos, resolución de problemas y seguridad), informáticas (manejo de programas, plataformas y redes en el computador o en dispositivos móviles), informacionales (búsqueda, análisis, selección, organización, utilización y comunicación de la información), mediáticas (percibir, analizar y disfrutar del poder de los mensajes, imágenes y sonidos de los medios y usarlos para comunicar) y transmediáticas (producción, prevención de riesgos, narrativa, estética, ética). Se favorecen con mayor intensidad en T&I, pero no son excluyentes para las demás áreas.",
+   "puntos": [
+    "Informáticas = manejo de programas, plataformas y redes.",
+    "Informacionales = buscar, analizar, seleccionar, organizar, utilizar y comunicar información de manera eficaz.",
+    "Mediáticas = percibir, analizar y disfrutar el poder de los mensajes de los medios y usarlos para comunicar.",
+    "Son transversales: se favorecen más en T&I, pero no son exclusivas del área.",
+    "Trampa CNSC: confundir «informática» (programas y redes) con «informacional» (manejo de la información)."
+   ],
+   "citas": [
+    {"doc": "orientaciones_tecnologia_2022", "texto": "genera una serie de competencias genéricas no exclusivas de la formación en el Área de T&I, sino de orden transversal en la escuela", "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 2, competencias tecnológicas"},
+    {"doc": "orientaciones_tecnologia_2022", "texto": "Competencias informacionales, orientadas a la búsqueda, análisis, selección, organización, utilización y comunicación de la información, de manera eficaz", "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 2, competencias tecnológicas"},
+    {"doc": "orientaciones_tecnologia_2022", "texto": "Si bien estas se favorecen con mayor intensidad en el área de T&I no son excluyentes para las demás áreas básicas y fundamentales", "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 2, competencias tecnológicas"}
+   ]
+  }
+ ],
+ "items": [
+  {
+   "tipo": "caso", "id": "Q269", "caso": "C161", "familia": "DIS-DISENO", "dificultad": 2,
+   "competencia": "Diseño: condiciones de diseño de un artefacto",
+   "enunciado": "Según las Orientaciones Curriculares de 2022, el equipo que estudia la maleta desde la tecnología debe concentrarse principalmente en",
+   "opciones": [
+    {"l": "A", "t": "el uso de un graficador que permita proyectar el diseño de la maleta y generar su renderizado.", "j": "Es incorrecta. Las Orientaciones ubican el graficador y el renderizado «de lado de las TIC», no de la tecnología. Sería la respuesta correcta para el equipo que estudia la maleta desde las TIC, que usa herramientas digitales para proyectar el diseño."},
+    {"l": "B", "t": "la búsqueda y el procesamiento de información sobre quién usará la maleta y en qué ambiente.", "j": "Es incorrecta. Buscar, seleccionar y procesar información sobre el usuario y el ambiente de uso son acciones informáticas según el documento. Es un aporte necesario para el proyecto, pero corresponde al equipo de informática y no al de tecnología."},
+    {"l": "C", "t": "el problema que resuelve y sus condiciones de diseño: forma, función, estructura y materiales.", "j": "Es correcta. Según las Orientaciones, desde la tecnología se estudia «el problema qué resolvió» la maleta y sus condiciones de diseño (forma, función, estructura, materiales, esfuerzos), además de su mantenimiento y disposición final."}
+   ],
+   "clave": "C",
+   "explicacion": "El ejemplo de la maleta muestra que un mismo producto puede estudiarse desde tres miradas. Desde la tecnología, las Orientaciones proponen estudiar el problema que resolvió, por qué surgió y las condiciones de diseño: forma y geometría, función, estructura, materiales, procesos de fabricación y esfuerzos a los que estará sometida, así como su mantenimiento y disposición final. El graficador y el renderizado pertenecen a las TIC, y la búsqueda y el procesamiento de información sobre el usuario son acciones informáticas. En la prueba, cuando un caso divida un proyecto en tecnología, TIC e informática, asocia la tecnología con el problema y el diseño del artefacto.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), cap. 2, relaciones entre tecnología, TIC e informática (ejemplo de la maleta)",
+   "consejo": "Tecnología = problema + condiciones de diseño (forma, función, estructura, materiales). TIC = graficador y renderizado.",
+   "citas": [
+    {"doc": "orientaciones_tecnologia_2022", "texto": "Si tomamos el caso de la maleta podemos, desde la tecnología, estudiar el problema qué resolvió, por qué surgió el problema, las condiciones de diseño (forma y geometría del artefacto, función, estructura, materiales", "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 2, ejemplo de la maleta"},
+    {"doc": "orientaciones_tecnologia_2022", "texto": "De lado de las TIC podemos concentrar nuestro estudio en el uso de un graficador especial que nos permita proyectar nuestro diseño, generar el renderizado de la maleta", "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 2, ejemplo de la maleta"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q270", "caso": "C161", "familia": "DIS-DATOS", "dificultad": 3,
+   "competencia": "Informática como manejo de la información",
+   "enunciado": "Frente al comentario del estudiante, la respuesta de la docente que mejor se ajusta a las Orientaciones Curriculares es que la informática",
+   "opciones": [
+    {"l": "A", "t": "sí está presente, porque buscar y procesar información sobre el usuario y la carga es una acción informática.", "j": "Es correcta. El documento dice que diseñar la maleta implica «acciones informáticas de búsqueda, selección, almacenamiento, procesamiento y producción de nueva información» y concluye que la informática, además de generar programas, implica el manejo de la información."},
+    {"l": "B", "t": "sí está presente, porque proyectar el diseño en un graficador y renderizar la maleta exige trabajar con un programa.", "j": "Es incorrecta. Reconoce que la informática aparece, pero por la razón equivocada: el graficador y el renderizado son, según el ejemplo, el aporte de las TIC. Confundir el uso de un programa con la informática es el error que el texto busca corregir."},
+    {"l": "C", "t": "no está presente, porque en este proyecto no se programa y la maleta es un artefacto analógico y no digital.", "j": "Es incorrecta. Acepta el argumento del estudiante, que reduce la informática a programar. Las Orientaciones afirman lo contrario: la informática también implica el manejo de la información, que en este proyecto aparece al estudiar al usuario y el ambiente de uso."}
+   ],
+   "clave": "A",
+   "explicacion": "La clave está en la frase final del ejemplo: «la informática además de la generación de programas computacionales, implica el manejo de la información». Para que la maleta cumpla las condiciones de uso, el equipo debe buscar, seleccionar, almacenar, procesar y producir información sobre quién la usará, qué carga llevará y en qué ambiente. Esas son acciones informáticas, aunque nadie programe. La opción del graficador es atractiva, pero el texto la ubica en las TIC. En la prueba, desconfía de las opciones que reducen la informática a programar o a usar un software: para las Orientaciones de 2022, también es gestión de la información.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), cap. 2, ejemplo de la maleta",
+   "consejo": "Informática no es solo programar: también es buscar, seleccionar, procesar y producir información.",
+   "citas": [
+    {"doc": "orientaciones_tecnologia_2022", "texto": "Se evidencia aquí, como se expresó más arriba, que la informática además de la generación de programas computacionales, implica el manejo de la información.", "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 2, ejemplo de la maleta"},
+    {"doc": "orientaciones_tecnologia_2022", "texto": "ello implica realizar acciones informáticas de búsqueda, selección, almacenamiento, procesamiento y producción de nueva información y conocimiento", "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 2, ejemplo de la maleta"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q271", "caso": "C162", "familia": "DIS-DATOS", "dificultad": 3,
+   "competencia": "Relaciones entre tecnología, TIC e informática",
+   "enunciado": "Según las Orientaciones Curriculares, el tercer equipo, que estudia cómo coordinar los drones y comunicarlos con el capataz, trabaja principalmente desde",
+   "opciones": [
+    {"l": "A", "t": "la informática, porque su trabajo consiste en hacer que los drones se comuniquen entre sí.", "j": "Es incorrecta. Para el documento, el estudio desde la informática es el del segundo equipo: programar los drones para que tomen la semilla, se desplacen y la planten, emulando al campesino. Coordinar y comunicar los drones se atribuye a otra mirada."},
+    {"l": "B", "t": "la tecnología, porque su trabajo define cómo se ubicarán los drones sobre el terreno.", "j": "Es incorrecta. La tecnología estaría en el planteamiento del problema y en el diseño de la solución y del dron: forma, función, estructura, energía y aerodinámica. Ese es el trabajo del primer equipo, no el del soporte que coordina a los drones."},
+    {"l": "C", "t": "las TIC, porque su trabajo es el soporte computacional que coordina a los drones.", "j": "Es correcta. El texto dice: «El estudio de las TIC, por el contrario, estaría en el diseño del soporte computacional que permite, por ejemplo, coordinar los drones para que no se estrellen entre sí», que se posicionen y que se comuniquen con el capataz."}
+   ],
+   "clave": "C",
+   "explicacion": "En el ejemplo del cultivo con drones, las Orientaciones reparten el estudio así: la tecnología plantea el problema y diseña la solución y el artefacto; la informática programa los drones para emular la siembra que hace el campesino, y las TIC diseñan el soporte computacional que coordina los drones para que no se estrellen, se ubiquen en el terreno y se comuniquen entre sí y con el capataz. La trampa es pensar que todo lo que tiene que ver con comunicación entre máquinas es informática. En la prueba, ubica cada tarea en la mirada que le asigna el documento, no en la que suena más técnica.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), cap. 2, ejemplo del cultivo con drones",
+   "consejo": "Drones: tecnología = problema y diseño; informática = programar la siembra; TIC = soporte que los coordina y comunica.",
+   "citas": [
+    {"doc": "orientaciones_tecnologia_2022", "texto": "El estudio de las TIC, por el contrario, estaría en el diseño del soporte computacional que permite, por ejemplo, coordinar los drones para que no se estrellen entre sí", "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 2, ejemplo del cultivo con drones"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q272", "caso": "C163", "familia": "CB-CIUD", "dificultad": 2,
+   "competencia": "Participación de la comunidad educativa",
+   "enunciado": "De acuerdo con el artículo 6 de la Ley 115 de 1994, frente a la objeción del coordinador lo procedente es",
+   "opciones": [
+    {"l": "A", "t": "invitar a los egresados como observadores, porque evaluar el PEI corresponde a quienes hoy integran el colegio.", "j": "Es incorrecta. Parece una salida conciliadora, pero reduce a los egresados a escuchar. La ley dice que todos los integrantes de la comunidad educativa, según su competencia, participan en el diseño, ejecución y evaluación del PEI, y los egresados son parte de ella."},
+    {"l": "B", "t": "invitar a los egresados a participar, porque la ley los incluye en la comunidad educativa que evalúa el PEI.", "j": "Es correcta. El artículo 6 dice que la comunidad educativa está conformada por estudiantes, educadores, padres o acudientes, «egresados», directivos docentes y administradores escolares, y que todos ellos participan en la evaluación del Proyecto Educativo Institucional."},
+    {"l": "C", "t": "no invitar a los egresados a la jornada, porque la comunidad educativa la conforman los miembros matriculados.", "j": "Es incorrecta. Confunde la comunidad educativa con la población matriculada. La Ley 115 incluye expresamente a los egresados entre sus integrantes, así que excluirlos de la evaluación del PEI desconoce la conformación que fija el artículo 6."}
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 6 de la Ley 115 enumera quiénes conforman la comunidad educativa: estudiantes o educandos, educadores, padres de familia o acudientes, egresados, directivos docentes y administradores escolares. Y agrega que todos ellos, según su competencia, participan en el diseño, la ejecución y la evaluación del PEI. Por eso los egresados no son invitados de segunda categoría: tienen derecho a participar. La opción de invitarlos solo como observadores es atractiva porque parece prudente, pero recorta una participación que la ley reconoce. En la prueba, cuando alguien proponga excluir o limitar a un estamento, revisa si la norma lo nombra como integrante de la comunidad educativa.",
+   "fuente": "Ley 115 de 1994, art. 6",
+   "consejo": "Comunidad educativa: estudiantes, educadores, padres o acudientes, egresados, directivos y administradores.",
+   "citas": [
+    {"doc": "ley_115_1994", "texto": "La comunidad educativa está conformada por estudiantes o educandos, educadores, padres de familia o acudientes de los estudiantes, egresados, directivos docentes y administradores escolares.", "ubicacion": "Ley 115 de 1994, art. 6"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q273", "caso": "C164", "familia": "NOR-SERV", "dificultad": 3,
+   "competencia": "Corresponsabilidad de la familia en la educación",
+   "enunciado": "Según el artículo 7 de la Ley 115 de 1994, la docente debe explicarle al acudiente que a la familia le corresponde",
+   "opciones": [
+    {"l": "A", "t": "informarse sobre el rendimiento de Brayan y dejar en manos de los docentes las acciones para mejorarlo.", "j": "Es incorrecta. Es una verdad a medias: la ley sí le pide informarse sobre el rendimiento, pero en el mismo literal agrega que la familia debe «participar en las acciones de mejoramiento». Dejarlas solo al colegio desconoce la corresponsabilidad de la familia."},
+    {"l": "B", "t": "participar en el consejo directivo para revisar allí las valoraciones de Brayan en el área de tecnología.", "j": "Es incorrecta. Mezcla dos literales: la familia puede participar en el Consejo Directivo, pero para «velar por la adecuada prestación del servicio educativo», no para revisar las notas de su hijo. Sería correcta si la pregunta fuera sobre la participación en el gobierno escolar."},
+    {"l": "C", "t": "informarse sobre el rendimiento de Brayan y, además, participar en las acciones de mejoramiento acordadas.", "j": "Es correcta. El literal c del artículo 7 le asigna a la familia informarse sobre el rendimiento académico y el comportamiento de sus hijos «y en ambos casos, participar en las acciones de mejoramiento». El plan de la docente es justamente una de esas acciones."}
+   ],
+   "clave": "C",
+   "explicacion": "El acudiente tiene razón a medias, y por eso la opción A es tan atractiva. El literal c del artículo 7 de la Ley 115 dice que a la familia le corresponde informarse sobre el rendimiento académico y el comportamiento de sus hijos, y sobre la marcha de la institución, «y en ambos casos, participar en las acciones de mejoramiento». Informarse no basta: la ley pide también participar. La opción del Consejo Directivo toma un literal distinto y le cambia el propósito. En la prueba, cuando un caso trate de la familia, recuerda que la Ley 115 la define como primer responsable de la educación de los hijos y busca la opción que reconoce su corresponsabilidad.",
+   "fuente": "Ley 115 de 1994, art. 7, literal c",
+   "consejo": "Familia: informarse del rendimiento Y participar en las acciones de mejoramiento.",
+   "citas": [
+    {"doc": "ley_115_1994", "texto": "c) Informarse sobre el rendimiento académico y el comportamiento de sus hijos, y sobre la marcha de la institución educativa, y en ambos casos, participar en las acciones de mejoramiento;", "ubicacion": "Ley 115 de 1994, art. 7, literal c"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q274", "caso": "C165", "familia": "NOR-SERV", "dificultad": 2,
+   "competencia": "Participación de la sociedad en el servicio educativo",
+   "enunciado": "De acuerdo con el artículo 8 de la Ley 115 de 1994, la propuesta de la junta de acción comunal",
+   "opciones": [
+    {"l": "A", "t": "excede su papel, porque la vigilancia de la prestación del servicio educativo es una función exclusiva del Estado.", "j": "Es incorrecta. Coincide con la opinión del docente, pero contradice la ley: el artículo 8 dice que la sociedad «colaborará» con el Estado en la vigilancia de la prestación del servicio educativo. La vigilancia no es exclusiva del Estado."},
+    {"l": "B", "t": "se ajusta a la ley, porque la sociedad colabora en la vigilancia del servicio y apoya a las instituciones educativas.", "j": "Es correcta. El artículo 8 dice que la sociedad colabora con el Estado en la vigilancia de la prestación del servicio y que participa para verificar la buena marcha de la educación y para apoyar y contribuir al fortalecimiento de las instituciones educativas."},
+    {"l": "C", "t": "se ajusta a la ley, porque la sociedad es responsable de la educación y puede asumir la administración de la sala.", "j": "Es incorrecta. Parte de una frase cierta —la sociedad es responsable de la educación con la familia y el Estado— pero saca una conclusión que la ley no contiene: el artículo 8 habla de colaborar, verificar y apoyar, no de administrar los recursos del colegio."}
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 8 de la Ley 115 dice que la sociedad es responsable de la educación con la familia y el Estado, y que colaborará con este en la vigilancia de la prestación del servicio educativo. Entre los fines de su participación están verificar la buena marcha de la educación y apoyar y contribuir al fortalecimiento de las instituciones educativas. La junta propone exactamente eso: construir la caseta (apoyo) y hacer seguimiento al uso de los portátiles (verificación). Las opciones incorrectas se van a los extremos: negar cualquier vigilancia o permitir que la comunidad administre. En la prueba, ubica la participación de la sociedad entre colaborar y apoyar, sin reemplazar a la institución.",
+   "fuente": "Ley 115 de 1994, art. 8",
+   "consejo": "Sociedad: colabora en la vigilancia, verifica la buena marcha y apoya a las instituciones; no las administra.",
+   "citas": [
+    {"doc": "ley_115_1994", "texto": "La sociedad es responsable de la educación con la familia y el Estado. Colaborará con éste en la vigilancia de la prestación del servicio educativo y en el cumplimiento de su función social.", "ubicacion": "Ley 115 de 1994, art. 8"},
+    {"doc": "ley_115_1994", "texto": "d) Apoyar y contribuir al fortalecimiento de las instituciones educativas;", "ubicacion": "Ley 115 de 1994, art. 8, literal d"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q275", "caso": "C166", "familia": "NOR-SIST", "dificultad": 2,
+   "competencia": "Funciones de los comités territoriales de convivencia",
+   "enunciado": "De las propuestas presentadas, la que corresponde a una función del comité municipal según el artículo 10 de la Ley 1620 de 2013 es",
+   "opciones": [
+    {"l": "A", "t": "garantizar que las entidades del municipio se apropien de la Ruta de Atención Integral y la implementen.", "j": "Es correcta. El numeral 2 del artículo 10 asigna a estos comités «garantizar que la Ruta de Atención Integral para la Convivencia Escolar sea apropiada e implementada adecuadamente en la jurisdicción respectiva, por las entidades que hacen parte del Sistema»."},
+    {"l": "B", "t": "atender directamente los casos de acoso escolar que se presenten en cada uno de los colegios del municipio.", "j": "Es incorrecta. Atender los casos que ocurren en un establecimiento no figura entre las funciones del artículo 10. El comité municipal armoniza, garantiza, fomenta y vigila el Sistema en su jurisdicción; la atención de cada situación se hace en el colegio, siguiendo la Ruta."},
+    {"l": "C", "t": "aplicar en cada colegio del municipio los protocolos de la Ruta, en reemplazo de sus comités escolares.", "j": "Es incorrecta. El comité municipal debe garantizar que la Ruta sea apropiada e implementada por las entidades del Sistema, no aplicarla él mismo en cada colegio. Reemplazar a los comités escolares confunde el nivel territorial con el nivel institucional."}
+   ],
+   "clave": "A",
+   "explicacion": "La Ley 1620 organiza el Sistema Nacional de Convivencia Escolar en tres niveles: nacional, territorial (municipal, distrital o departamental) y escolar. El artículo 10 enumera las funciones del nivel territorial, y todas son de coordinación, fomento y seguimiento: armonizar las acciones, garantizar que la Ruta sea apropiada e implementada por las entidades, fomentar competencias ciudadanas, vigilar y ajustar las estrategias. Ninguna consiste en atender directamente los casos de un colegio. En la prueba, cuando una opción ponga a un comité territorial a resolver una situación concreta de un estudiante, sospecha: esa tarea es del establecimiento y de su comité escolar.",
+   "fuente": "Ley 1620 de 2013, art. 10, numeral 2",
+   "consejo": "Comité municipal: garantiza que las entidades apliquen la Ruta; no atiende los casos de cada colegio.",
+   "citas": [
+    {"doc": "ley_1620_2013", "texto": "2. Garantizar que la Ruta de Atención Integral para la Convivencia Escolar sea apropiada e implementada adecuadamente en la jurisdicción respectiva, por las entidades que hacen parte del Sistema en el marco de sus responsabilidades.", "ubicacion": "Ley 1620 de 2013, art. 10, numeral 2"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q276", "caso": "C166", "familia": "NOR-SIST", "dificultad": 3,
+   "competencia": "Funciones de los comités territoriales de convivencia",
+   "enunciado": "Para revisar las estrategias del año anterior, el procedimiento que se ajusta al artículo 10 de la Ley 1620 de 2013 es",
+   "opciones": [
+    {"l": "A", "t": "ajustarlas cada vez que un colegio informe un caso grave, a partir de lo que reporte su rector.", "j": "Es incorrecta. Es razonable atender las alertas de los colegios, pero la ley no fija el ajuste caso a caso ni con base en el informe de un rector. El numeral 9 pide revisar las estrategias de forma periódica y con los reportes del Sistema de Información Unificado."},
+    {"l": "B", "t": "mantenerlas iguales hasta que el Comité Nacional defina nuevas estrategias para todo el país.", "j": "Es incorrecta. El comité municipal debe acoger los lineamientos del Comité Nacional, pero la ley le asigna a él mismo vigilar, revisar y ajustar periódicamente las estrategias de su nivel. Esperar sin actuar renuncia a una función propia del comité."},
+    {"l": "C", "t": "ajustarlas periódicamente con los reportes y el monitoreo del Sistema de Información Unificado.", "j": "Es correcta. El numeral 9 asigna al comité «vigilar, revisar y ajustar periódicamente las estrategias y acciones del Sistema» en su nivel, «de conformidad con los reportes y monitoreo del Sistema de Información Unificado», además de la información de las entidades encargadas."}
+   ],
+   "clave": "C",
+   "explicacion": "Aquí hay dos opciones que parecen sensatas. Ajustar las estrategias cuando un colegio reporta un caso grave suena responsable, pero el numeral 9 del artículo 10 dice cómo debe hacerse: de manera periódica y «de conformidad con los reportes y monitoreo del Sistema de Información Unificado», teniendo en cuenta también la información sobre acoso escolar, violencia escolar y salud sexual y reproductiva que reportan las entidades encargadas. La decisión se basa en información sistemática, no en casos aislados. Y esperar al Comité Nacional desconoce que esta es una función propia del comité municipal. En la prueba, fíjate en el detalle de la norma: periodicidad y fuente de información.",
+   "fuente": "Ley 1620 de 2013, art. 10, numeral 9",
+   "consejo": "Ajuste de estrategias: periódico y con los reportes del Sistema de Información Unificado.",
+   "citas": [
+    {"doc": "ley_1620_2013", "texto": "9. Vigilar, revisar y ajustar periódicamente las estrategias y acciones del Sistema en el nivel municipal, distrital o departamental, de conformidad con los reportes y monitoreo del Sistema de Información Unificado", "ubicacion": "Ley 1620 de 2013, art. 10, numeral 9"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q277", "caso": "C166", "familia": "LC-INF", "dificultad": 3,
+   "competencia": "Comprender cómo se articulan las partes de un texto",
+   "enunciado": "En el numeral 4 del artículo 10 de la Ley 1620, la expresión «además de información» indica que los procesos de formación en competencias ciudadanas deben",
+   "opciones": [
+    {"l": "A", "t": "reemplazar la información por la reflexión y la acción, porque informar no basta para formar.", "j": "Es incorrecta. Interpreta «además de» como si significara «en lugar de». La expresión suma elementos: la información se conserva y se le agregan la reflexión y la acción. Eliminar la información contradice el sentido literal del numeral 4."},
+    {"l": "B", "t": "incluir la información y sumarle la reflexión y la acción sobre los imaginarios colectivos.", "j": "Es correcta. «Además de» introduce una adición: los procesos de formación incluyen información y, junto con ella, «la reflexión y la acción sobre los imaginarios colectivos» en relación con la convivencia, la autoridad, la autonomía y los derechos."},
+    {"l": "C", "t": "empezar por la información y dejar la reflexión y la acción para una fase posterior del proceso.", "j": "Es incorrecta. El numeral no establece un orden ni etapas: pide procesos de formación que incluyan los tres elementos. Suponer una secuencia en la que la reflexión y la acción quedan para después es agregarle al texto una idea que no contiene."}
+   ],
+   "clave": "B",
+   "explicacion": "La pregunta evalúa cómo un conector articula las partes de un enunciado. En el numeral 4, «además de información» funciona como un conector de adición: lo que sigue (la reflexión y la acción sobre los imaginarios colectivos) se suma a la información, no la reemplaza ni la aplaza. Por eso una campaña solo de charlas informativas se queda corta frente a la función del comité. Las opciones incorrectas cambian el sentido del conector: una lo lee como sustitución y otra como secuencia. En lectura crítica de normas, cuando aparezca un conector como «además de», «salvo» o «sin perjuicio de», detente y pregúntate qué relación lógica establece entre las partes.",
+   "fuente": "Ley 1620 de 2013, art. 10, numeral 4 (lectura inferencial)",
+   "consejo": "«Además de» suma; no reemplaza ni ordena en etapas.",
+   "citas": [
+    {"doc": "ley_1620_2013", "texto": "4. Fomentar el desarrollo de competencias ciudadanas a través de procesos de formación que incluyan además de información, la reflexión y la acción sobre los imaginarios colectivos en relación con la convivencia", "ubicacion": "Ley 1620 de 2013, art. 10, numeral 4"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q278", "caso": "C166", "familia": "NOR-SIST", "dificultad": 2,
+   "competencia": "Funciones de los comités territoriales de convivencia",
+   "enunciado": "Al apoyar la campaña radial y en redes hecha por estudiantes, padres y docentes, el comité municipal ejerce principalmente la función de",
+   "opciones": [
+    {"l": "A", "t": "coordinar el registro oportuno de la información regional en el Sistema de Información Unificado.", "j": "Es incorrecta. Es una función real del comité (numeral 8), pero se refiere al registro de información para hacer seguimiento al Sistema. Una campaña de comunicación hecha por la comunidad no es un registro de datos, así que la función no corresponde al caso."},
+    {"l": "B", "t": "formular recomendaciones para garantizar el adecuado funcionamiento del Sistema en el municipio.", "j": "Es incorrecta. También es una función del comité (numeral 10), pero consiste en recomendar ajustes al funcionamiento del Sistema. Apoyar una campaña de estudiantes, padres y docentes no es formular recomendaciones, sino promover la comunicación y la movilización."},
+    {"l": "C", "t": "promover la comunicación y movilización de estudiantes, padres y docentes sobre la convivencia.", "j": "Es correcta. El numeral 6 le asigna al comité «promover la comunicación y movilización entre niños, niñas, adolescentes, padres y madres de familia y docentes, alrededor de la convivencia escolar». La campaña radial y en redes es exactamente esa movilización."}
+   ],
+   "clave": "C",
+   "explicacion": "Las tres opciones son funciones reales del comité municipal según el artículo 10 de la Ley 1620; el reto es aplicar la correcta al caso. La campaña la hacen estudiantes, padres y docentes y busca comunicar y movilizar a la comunidad sobre la convivencia: eso es lo que describe el numeral 6, que pide «promover la comunicación y movilización» de esos actores. El registro de información (numeral 8) y las recomendaciones de funcionamiento (numeral 10) son tareas distintas. En la prueba, cuando todas las opciones sean normas verdaderas, no elijas la que suene más importante, sino la que describe exactamente la acción del caso.",
+   "fuente": "Ley 1620 de 2013, art. 10, numeral 6",
+   "consejo": "Si todas las opciones son funciones reales, elige la que describe la acción concreta del caso.",
+   "citas": [
+    {"doc": "ley_1620_2013", "texto": "6. Promover la comunicación y movilización entre niños, niñas, adolescentes, padres y madres de familia y docentes, alrededor de la convivencia escolar", "ubicacion": "Ley 1620 de 2013, art. 10, numeral 6"}
+   ]
+  },
+  {
+   "tipo": "conocimiento", "id": "K069", "ficha": "F35", "familia": "DIS-COMP", "dificultad": 1,
+   "competencia": "Competencias genéricas del área",
+   "enunciado": "Según las Orientaciones Curriculares de Tecnología e Informática (2022), las competencias orientadas a la búsqueda, el análisis, la selección, la organización, la utilización y la comunicación de la información son las competencias",
+   "opciones": [
+    {"l": "A", "t": "informáticas, centradas en el manejo de programas, plataformas y redes.", "j": "Es incorrecta. Las Orientaciones definen las competencias informáticas por «el manejo de programas, plataformas y redes» en el computador o en dispositivos móviles. Es el distractor más común, porque «informática» e «informacional» se parecen."},
+    {"l": "B", "t": "mediáticas, centradas en el análisis de los mensajes de los medios.", "j": "Es incorrecta. Las competencias mediáticas se refieren a percibir, analizar y disfrutar del poder de los mensajes, imágenes y sonidos de los medios de comunicación. Trabajan con información, pero no se definen por buscarla y seleccionarla."},
+    {"l": "C", "t": "informacionales, centradas en el manejo eficaz de la información.", "j": "Es correcta. El documento dice: «Competencias informacionales, orientadas a la búsqueda, análisis, selección, organización, utilización y comunicación de la información, de manera eficaz» y eficiente. Es la definición que repite el enunciado."}
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones de 2022 describen cinco competencias genéricas que se desprenden de la formación en T&I: digitales, informáticas, informacionales, mediáticas y transmediáticas. Las informacionales se definen por el ciclo de la información: buscarla, analizarla, seleccionarla, organizarla, utilizarla y comunicarla de manera eficaz y eficiente. Las informáticas, en cambio, se refieren al manejo de programas, plataformas y redes. La confusión entre ambas es frecuente porque los nombres se parecen. Para no fallar, asocia «informacional» con información y «informática» con herramientas. Si dudaste, vuelve a la ficha y repasa las cinco competencias.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), cap. 2, competencias tecnológicas",
+   "consejo": "Pregunta de conocimiento: vuelve a la ficha si dudaste. Informacional = información; informática = programas y redes.",
+   "citas": [
+    {"doc": "orientaciones_tecnologia_2022", "texto": "Competencias informacionales, orientadas a la búsqueda, análisis, selección, organización, utilización y comunicación de la información, de manera eficaz", "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 2"},
+    {"doc": "orientaciones_tecnologia_2022", "texto": "Competencias informáticas, desde el manejo de programas, plataformas y redes mediate el uso del computador o dispositivos móviles", "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 2"}
+   ]
+  },
+  {
+   "tipo": "conocimiento", "id": "K070", "ficha": "F35", "familia": "DIS-COMP", "dificultad": 2,
+   "competencia": "Competencias genéricas del área",
+   "enunciado": "Sobre las competencias genéricas que se desprenden de la formación en Tecnología e Informática, las Orientaciones Curriculares (2022) señalan que",
+   "opciones": [
+    {"l": "A", "t": "son propias del área de T&I, que es la responsable de desarrollarlas en la escuela.", "j": "Es incorrecta. El documento dice lo contrario: son competencias «no exclusivas de la formación en el Área de T&I, sino de orden transversal en la escuela». Atribuirlas solo al área desconoce que las demás áreas también las favorecen."},
+    {"l": "B", "t": "son transversales: se favorecen más en T&I, pero no son exclusivas del área.", "j": "Es correcta. Las Orientaciones afirman que estas competencias son «de orden transversal en la escuela» y que, si bien se favorecen con mayor intensidad en el área de T&I, «no son excluyentes para las demás áreas básicas y fundamentales»."},
+    {"l": "C", "t": "son de las demás áreas, a las que T&I solo aporta las herramientas digitales.", "j": "Es incorrecta. Reduce el área a un servicio de herramientas para las otras asignaturas. El documento dice que estas competencias se favorecen con mayor intensidad precisamente en T&I, aunque también se trabajen en las demás áreas."}
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones de 2022 sostienen que el desarrollo de competencias tecnológicas es el aspecto central del área y que de él se desprenden competencias genéricas «no exclusivas de la formación en el Área de T&I, sino de orden transversal en la escuela». También precisan que se favorecen con mayor intensidad en T&I, pero no son excluyentes para las demás áreas. Las dos respuestas incorrectas se van a los extremos: una las vuelve exclusivas del área y la otra reduce el área a proveer herramientas. Esta idea sirve en los casos de trabajo con otras asignaturas: el área lidera, pero la responsabilidad es compartida por toda la escuela.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), cap. 2, competencias tecnológicas",
+   "consejo": "Pregunta de conocimiento: competencias genéricas = transversales; más intensas en T&I, no exclusivas.",
+   "citas": [
+    {"doc": "orientaciones_tecnologia_2022", "texto": "genera una serie de competencias genéricas no exclusivas de la formación en el Área de T&I, sino de orden transversal en la escuela", "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 2"},
+    {"doc": "orientaciones_tecnologia_2022", "texto": "Si bien estas se favorecen con mayor intensidad en el área de T&I no son excluyentes para las demás áreas básicas y fundamentales", "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 2"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q279", "caso": "C167", "familia": "DIS-COMP", "dificultad": 3,
+   "competencia": "Competencias genéricas del área",
+   "enunciado": "Según las Orientaciones Curriculares de 2022, la competencia genérica que se desarrolla principalmente en las dos fases del noticiero es la competencia",
+   "opciones": [
+    {"l": "A", "t": "mediática, porque analizan el poder de los mensajes de los medios y los usan para comunicar.", "j": "Es correcta. Las competencias mediáticas se relacionan con «percibir, analizar y disfrutar del poder de los mensajes, imágenes, estímulos y sonidos de los medios de comunicación, usándolos para satisfacer las necesidades de comunicación». Eso hacen en las dos fases."},
+    {"l": "B", "t": "informacional, porque buscan, seleccionan y organizan la información que publicarán en el noticiero.", "j": "Es incorrecta. Seguramente buscarán información para las notas, pero el caso se centra en analizar cómo los comerciales usan imágenes y sonidos para persuadir y en usar esos recursos. Sería correcta si la actividad fuera investigar y seleccionar fuentes."},
+    {"l": "C", "t": "informática, porque manejan los programas de edición de video y audio para producir las notas.", "j": "Es incorrecta. Usarán programas de edición, pero eso es un medio y no el centro de la actividad. Las competencias informáticas se definen por el manejo de programas, plataformas y redes, y el caso pide analizar y usar el lenguaje de los medios."}
+   ],
+   "clave": "A",
+   "explicacion": "El caso describe dos fases: analizar cómo los comerciales usan imágenes, música y efectos para convencer, e incluso qué sienten al verlos, y luego usar esos recursos para comunicar. Las Orientaciones definen las competencias mediáticas como la capacidad de «percibir, analizar y disfrutar del poder de los mensajes, imágenes, estímulos y sonidos de los medios de comunicación, usándolos para satisfacer las necesidades de comunicación». Las otras dos competencias también aparecen en un noticiero, pero no son el centro de la actividad. En la prueba, cuando varias competencias estén presentes, elige la que corresponde a lo que el caso describe con más detalle.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), cap. 2, competencias tecnológicas",
+   "consejo": "Analizar el poder de los mensajes, imágenes y sonidos de los medios y usarlos para comunicar = competencia mediática.",
+   "citas": [
+    {"doc": "orientaciones_tecnologia_2022", "texto": "Competencias mediáticas, relacionadas con la capacidad para percibir, analizar y disfrutar del poder de los mensajes, imágenes, estímulos y sonidos de los medios de comunicación, usándolos para satisfacer las necesidades de comunicación, expresión, formación o información", "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 2"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q280", "caso": "C168", "familia": "PED-CURR", "dificultad": 2,
+   "competencia": "Propósitos formativos del área en el currículo",
+   "enunciado": "La redacción del propósito general del área que mejor se ajusta a las Orientaciones Curriculares de 2022 es",
+   "opciones": [
+    {"l": "A", "t": "que los estudiantes dominen las herramientas ofimáticas y de programación que demanda el mercado laboral regional.", "j": "Es incorrecta. Es casi la redacción anterior. Las Orientaciones no plantean el propósito macrocurricular del área como el dominio de herramientas para el mercado laboral, sino como comprender la tecnología y resolver problemas que mejoren la calidad de vida."},
+    {"l": "B", "t": "que los estudiantes usen las TIC como recurso didáctico para mejorar sus aprendizajes en las demás áreas.", "j": "Es incorrecta. Las TIC sí son recurso didáctico en la escuela, pero ese uso no define el propósito formativo del área. Formulado así, el área quedaría reducida a apoyar a las otras asignaturas y perdería su objeto de estudio propio."},
+    {"l": "C", "t": "que los estudiantes comprendan la tecnología y sus implicaciones, y resuelvan problemas que mejoren la calidad de vida.", "j": "Es correcta. A nivel macrocurricular, el área favorece competencias para «estudiar, reflexionar y comprender la naturaleza, evolución e implicaciones ético-políticas de la tecnología y la informática» y para resolver problemas asociados a la mejora de la calidad de vida."}
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones de 2022 plantean que el área de T&I favorece el desarrollo de competencias tecnológicas para dos grandes fines: estudiar, reflexionar y comprender la naturaleza, evolución e implicaciones ético-políticas de la tecnología y la informática en la vida cotidiana, y resolver problemas, necesidades y deseos de orden tecnológico asociados a la mejora de la calidad de vida, procurando un mundo sustentable. La redacción anterior del plan reduce el área al dominio de herramientas, y la otra opción la reduce a apoyar a las demás áreas. En la prueba, cuando te pidan el propósito del área, busca la opción que une comprensión crítica y solución de problemas.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.1 Propósitos formativos del área a nivel macrocurricular",
+   "consejo": "Propósito del área: comprender la tecnología (naturaleza, evolución, implicaciones) y resolver problemas para la calidad de vida.",
+   "citas": [
+    {"doc": "orientaciones_tecnologia_2022", "texto": "El Área de Tecnología e Informática (T&I) favorece el desarrollo de competencias tecnológicas de niños y jóvenes de Educación Básica y Media para, principalmente, estudiar, reflexionar y comprender la naturaleza, evolución e implicaciones ético-políticas de la tecnología y la informática en la vida cotidiana; así como, para resolver problemas, necesidades y deseos de orden tecnológico asociados a la mejora de la calidad de vida de las personas y demás especies que habitan el planeta", "ubicacion": "Orientaciones Curriculares T&I (2022), 3.1"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q281", "caso": "C169", "familia": "NOR-SIST", "dificultad": 3,
+   "competencia": "Comité Escolar de Convivencia en centros educativos",
+   "enunciado": "Según el Decreto 1965 de 2013, mientras el director está en licencia, el comité del centro educativo debe ser presidido por",
+   "opciones": [
+    {"l": "A", "t": "el presidente del consejo de padres, por ser el integrante del comité con mayor representación externa.", "j": "Es incorrecta. El decreto no le asigna la presidencia al presidente del consejo de padres en ningún caso. Es un integrante del comité mínimo del parágrafo 2, pero la norma dice quién preside en ausencia del director, y no es él."},
+    {"l": "B", "t": "el docente que lidere procesos o estrategias de convivencia, como lo dispone el decreto en ausencia del director.", "j": "Es correcta. El parágrafo 1 del artículo 22 dice que en los centros educativos el director preside el comité y que, «en ausencia del director, el docente que lidere procesos o estrategias de convivencia será quien presida». La regla responde justo a la licencia del director."},
+    {"l": "C", "t": "un docente designado por la secretaría de educación mientras dura la licencia del director del centro.", "j": "Es incorrecta. Supone que la secretaría debe intervenir, pero el decreto ya resuelve la ausencia del director dentro del propio centro: preside el docente que lidere los procesos o estrategias de convivencia. No hace falta una designación externa."}
+   ],
+   "clave": "B",
+   "explicacion": "El Decreto 1965 trae reglas especiales para los centros educativos, que suelen ser pequeños y rurales. El parágrafo 1 del artículo 22 dice que allí el director es el presidente del comité y que, en su ausencia, preside «el docente que lidere procesos o estrategias de convivencia». El parágrafo 2 agrega que, cuando no hay integrantes suficientes, el comité se conforma como mínimo con el representante de los docentes, el presidente del consejo de padres y el representante de los estudiantes, y que en ese caso el docente preside. En la prueba, distingue siempre si el caso ocurre en una institución educativa o en un centro educativo: las reglas cambian.",
+   "fuente": "Decreto 1965 de 2013, art. 22, parágrafos 1 y 2",
+   "consejo": "Centro educativo: preside el director; en su ausencia, el docente que lidere procesos de convivencia.",
+   "citas": [
+    {"doc": "decreto_1965_2013", "texto": "En ausencia del director, el docente que lidere procesos o estrategias de convivencia será quien presida.", "ubicacion": "Decreto 1965 de 2013, art. 22, parágrafo 1"},
+    {"doc": "decreto_1965_2013", "texto": "éste será integrado como mínimo por el representante de los docentes, el presidente del consejo de padres de familia y el representante de los estudiantes.", "ubicacion": "Decreto 1965 de 2013, art. 22, parágrafo 2"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q282", "caso": "C169", "familia": "NOR-SIST", "dificultad": 3,
+   "competencia": "Quórum del Comité Escolar de Convivencia",
+   "enunciado": "El día en que el representante de los estudiantes no asiste, y de acuerdo con el artículo 24 del Decreto 1965 de 2013, el comité del centro educativo",
+   "opciones": [
+    {"l": "A", "t": "no puede sesionar, porque se requiere la presencia del personero y del presidente del consejo de estudiantes.", "j": "Es incorrecta. La conclusión es cierta, pero la razón es la regla general de las instituciones educativas. Para los centros del parágrafo 2 del artículo 22, el decreto exige otra cosa: la presencia del presidente y del representante de los estudiantes."},
+    {"l": "B", "t": "puede sesionar, porque están presentes dos de sus tres integrantes, que constituyen la mayoría del comité.", "j": "Es incorrecta. Aplica una regla de mayoría que la norma no usa para este caso. El artículo 24 fija integrantes cuya presencia es obligatoria; si falta uno de ellos, el comité no puede sesionar, aunque estén presentes la mayoría de sus miembros."},
+    {"l": "C", "t": "no puede sesionar, porque en estos centros se requiere la presencia del presidente y del representante estudiantil.", "j": "Es correcta. El artículo 24 dice que, en los centros a que hace referencia el parágrafo 2 del artículo 22, «el Comité no podrá sesionar sin la presencia del presidente y del representante de los estudiantes». Sin el representante, no hay sesión."}
+   ],
+   "clave": "C",
+   "explicacion": "Este ítem tiene dos opciones que dicen «no puede sesionar» y solo una da la razón correcta. El artículo 24 del Decreto 1965 trae dos reglas. La general, para las instituciones educativas: el comité no puede sesionar sin el presidente, el personero estudiantil y el presidente del consejo de estudiantes. Y la especial, para los centros educativos con comité mínimo del parágrafo 2 del artículo 22: no puede sesionar sin el presidente y el representante de los estudiantes. Como el caso es un centro educativo con comité mínimo, aplica la regla especial. En la prueba, no te quedes con la conclusión: verifica que la razón corresponda al tipo de establecimiento.",
+   "fuente": "Decreto 1965 de 2013, art. 24, inciso 2",
+   "consejo": "Centro con comité mínimo: sin presidente y representante de los estudiantes no hay sesión.",
+   "citas": [
+    {"doc": "decreto_1965_2013", "texto": "Para el caso de los centros educativos a que hace referencia el parágrafo 2 del artículo 22 de este Decreto, el Comité no podrá sesionar sin la presencia del presidente y del representante de los estudiantes.", "ubicacion": "Decreto 1965 de 2013, art. 24"},
+    {"doc": "decreto_1965_2013", "texto": "En cualquier caso, este Comité no podrá sesionar sin la presencia del presidente, del personero estudiantil y del presidente del consejo de estudiantes.", "ubicacion": "Decreto 1965 de 2013, art. 24"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q283", "caso": "C170", "familia": "RC-FORM", "dificultad": 2,
+   "competencia": "Formulación y ejecución",
+   "enunciado": "Si el comité quiere cumplir solo el mínimo de sesiones ordinarias del artículo 23 del Decreto 1965 de 2013, de mayo a diciembre debe programar",
+   "opciones": [
+    {"l": "A", "t": "4 sesiones, una por cada uno de los bimestres que hay entre mayo y diciembre.", "j": "Es correcta. De mayo a diciembre hay ocho meses, es decir, cuatro bimestres. Si el comité sesiona «como mínimo una vez cada dos (2) meses», necesita al menos cuatro sesiones ordinarias en ese periodo para cumplir el mínimo."},
+    {"l": "B", "t": "6 sesiones, una por cada uno de los bimestres que tiene el año escolar completo.", "j": "Es incorrecta. Seis es el mínimo para un año completo de doce meses, pero el caso pregunta solo por el periodo de mayo a diciembre. Las sesiones de enero y marzo ya cubrieron los primeros bimestres del año."},
+    {"l": "C", "t": "8 sesiones, una por cada uno de los meses que quedan entre mayo y diciembre.", "j": "Es incorrecta. Convierte la periodicidad bimestral en mensual. El decreto exige sesionar como mínimo una vez cada dos meses; una sesión al mes es posible, pero supera el mínimo que el enunciado pide calcular."}
+   ],
+   "clave": "A",
+   "explicacion": "El problema pide pasar de una norma a un cálculo. El artículo 23 del Decreto 1965 dice que el Comité Escolar de Convivencia «sesionará como mínimo una vez cada dos (2) meses». De mayo a diciembre hay ocho meses: mayo, junio, julio, agosto, septiembre, octubre, noviembre y diciembre. Ocho meses divididos en periodos de dos meses dan cuatro bimestres, así que el mínimo es de cuatro sesiones ordinarias. Las otras opciones cometen errores típicos: usar el año completo en lugar del periodo pedido, o tomar la periodicidad como mensual. En razonamiento cuantitativo, identifica primero el intervalo que pide el enunciado y luego aplica la regla.",
+   "fuente": "Decreto 1965 de 2013, art. 23 (razonamiento cuantitativo)",
+   "consejo": "Primero delimita el periodo que pide el enunciado; luego divide entre la periodicidad de la norma.",
+   "citas": [
+    {"doc": "decreto_1965_2013", "texto": "El Comité Escolar de Convivencia sesionará como mínimo una vez cada dos (2) meses.", "ubicacion": "Decreto 1965 de 2013, art. 23"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q284", "caso": "C170", "familia": "NOR-SIST", "dificultad": 2,
+   "competencia": "Sesiones del Comité Escolar de Convivencia",
+   "enunciado": "Frente a la solicitud del personero estudiantil, lo que dispone el artículo 23 del Decreto 1965 de 2013 es que",
+   "opciones": [
+    {"l": "A", "t": "el personero puede convocar directamente la sesión extraordinaria, porque la situación ocurrió en el colegio.", "j": "Es incorrecta. El personero puede solicitar la sesión, pero no convocarla. El artículo 23 dice que las sesiones extraordinarias «serán convocadas por el Presidente» del comité; la solicitud de un integrante activa esa convocatoria, no la reemplaza."},
+    {"l": "B", "t": "la sesión extraordinaria la convoca el presidente, también cuando la solicita cualquiera de los integrantes.", "j": "Es correcta. El artículo 23 dice que las sesiones extraordinarias son convocadas por el presidente del comité «cuando las circunstancias lo exijan o por solicitud de cualquiera de los integrantes del mismo». El personero integra el comité, así que puede pedirla."},
+    {"l": "C", "t": "la sesión extraordinaria depende solo del presidente, porque la solicitud de un integrante no la hace obligatoria.", "j": "Es incorrecta. Es el argumento del integrante que responde en el caso, pero la norma prevé dos vías para convocar una sesión extraordinaria: que las circunstancias lo exijan o que la solicite cualquiera de los integrantes. La solicitud sí cuenta."}
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 23 del Decreto 1965 regula dos tipos de sesiones. Las ordinarias, como mínimo una vez cada dos meses, y las extraordinarias, que convoca el presidente del comité «cuando las circunstancias lo exijan o por solicitud de cualquiera de los integrantes del mismo». El personero integra el comité, de modo que su solicitud es una vía válida para que se convoque la sesión. La convocatoria, sin embargo, sigue en manos del presidente: por eso la opción que deja al personero convocar directamente también es incorrecta. En la prueba, distingue entre quién puede pedir una actuación y quién tiene la facultad de realizarla.",
+   "fuente": "Decreto 1965 de 2013, art. 23",
+   "consejo": "Extraordinarias: las convoca el presidente, por las circunstancias o a solicitud de cualquier integrante.",
+   "citas": [
+    {"doc": "decreto_1965_2013", "texto": "El Comité Escolar de Convivencia sesionará como mínimo una vez cada dos (2) meses. Las sesiones extraordinarias serán convocadas por el Presidente del Comité Escolar de Convivencia, cuando las circunstancias lo exijan o por solicitud de cualquiera de los integrantes del mismo.", "ubicacion": "Decreto 1965 de 2013, art. 23"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q285", "caso": "C171", "familia": "NOR-ESTATUTO", "dificultad": 2,
+   "competencia": "Provisión de cargos con la lista de elegibles",
+   "enunciado": "Según el artículo 11 del Decreto 1278 de 2002, al producirse la primera vacante el nominador debía proveerla",
+   "opciones": [
+    {"l": "A", "t": "con quien ocupara el primer lugar de la lista y, si no aceptaba, con los siguientes en estricto orden de puntaje.", "j": "Es correcta. El artículo 11 dice que la vacante se provee «con quien ocupe el primer lugar en el respectivo listado de elegibles» y que, solo si este no acepta voluntariamente, se nombra a los siguientes «en estricto orden de puntaje». Así se hizo en el caso."},
+    {"l": "B", "t": "con cualquiera de los integrantes de la lista, porque todos superaron el concurso y son igualmente idóneos.", "j": "Es incorrecta. Superar el concurso da derecho a estar en la lista, pero no hace intercambiables a los elegibles. El Decreto 1278 obliga a respetar el orden de mérito: primero quien ocupa el primer lugar y luego los siguientes en estricto orden de puntaje."},
+    {"l": "C", "t": "con el integrante de la lista que mejor se ajustara al perfil que la institución definiera para la vacante.", "j": "Es incorrecta. Introduce un criterio de selección posterior al concurso que la norma no prevé. El artículo 11 no deja al nominador escoger según el perfil: lo obliga a nombrar a quien ocupe el primer lugar y, si no acepta, a seguir el orden de puntaje."}
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 11 del Decreto 1278 protege el mérito: cuando se produce una vacante, el nominador debe proveerla mediante acto administrativo «con quien ocupe el primer lugar en el respectivo listado de elegibles». Solo si esa persona no acepta voluntariamente se puede nombrar a los siguientes, y siempre en estricto orden de puntaje. Las opciones incorrectas abren la puerta a la discrecionalidad, ya sea porque todos son idóneos o porque alguno se ajusta mejor al perfil. En la prueba, cualquier opción que permita escoger dentro de la lista por un criterio distinto al puntaje contradice el Estatuto de Profesionalización Docente.",
+   "fuente": "Decreto 1278 de 2002, art. 11",
+   "consejo": "Lista de elegibles: primer lugar; si no acepta, los siguientes en estricto orden de puntaje.",
+   "citas": [
+    {"doc": "decreto_1278_2002", "texto": "Cuando se produzca una vacante en un cargo docente o directivo docente, el nominador deberá proveerla mediante acto administrativo con quien ocupe el primer lugar en el respectivo listado de elegibles del concurso.", "ubicacion": "Decreto 1278 de 2002, art. 11"},
+    {"doc": "decreto_1278_2002", "texto": "Sólo en caso de no aceptación voluntaria de quien ocupe el primer lugar, se podrá nombrar a los siguientes en estricto orden de puntaje y quien rehuse el nombramiento será excluido del correspondiente listado.", "ubicacion": "Decreto 1278 de 2002, art. 11"}
+   ]
+  },
+  {
+   "tipo": "caso", "id": "Q286", "caso": "C171", "familia": "NOR-ESTATUTO", "dificultad": 3,
+   "competencia": "Exclusión y vigencia de la lista de elegibles",
+   "enunciado": "Frente a la nueva petición de Laura, y de acuerdo con el artículo 11 del Decreto 1278 de 2002, lo procedente es",
+   "opciones": [
+    {"l": "A", "t": "nombrarla, porque al rechazar el primer nombramiento solo perdió el turno para esa vacante específica.", "j": "Es incorrecta. Supone que rechazar un nombramiento solo aplaza el turno. El artículo 11 dice que quien rehúse el nombramiento «será excluido del correspondiente listado», y además la lista ya superó su vigencia de dos años al producirse la nueva vacante."},
+    {"l": "B", "t": "no nombrarla, porque quedó excluida al rehusar y la lista ya perdió su vigencia de dos años.", "j": "Es correcta. Concurren dos razones del artículo 11: quien rehúsa el nombramiento queda excluido del listado, y los listados de elegibles «tendrán una vigencia de dos (2) años, contados a partir de su publicación». A los dos años y medio, la lista ya no puede usarse."},
+    {"l": "C", "t": "no nombrarla, porque quedó excluida, y proveer la vacante con quien siga en esa misma lista.", "j": "Es incorrecta. Acierta en que Laura quedó excluida, pero olvida la segunda condición: la lista tiene vigencia de dos años desde su publicación. Como la vacante se produjo dos años y medio después, ya no puede proveerse con esa lista."}
+   ],
+   "clave": "B",
+   "explicacion": "Este caso exige aplicar dos reglas del artículo 11 del Decreto 1278. La primera: quien rehúse el nombramiento será excluido del correspondiente listado, así que Laura ya no hace parte de la lista. La segunda: los listados de elegibles tienen una vigencia de dos años contados a partir de su publicación; como la nueva vacante aparece dos años y medio después, la lista ya no está vigente para nadie. La opción C es la trampa: acierta en la exclusión, pero propone usar una lista vencida. En la prueba, cuando un caso traiga fechas o plazos, verifica si el tiempo transcurrido cambia la respuesta antes de elegir la opción que parece correcta.",
+   "fuente": "Decreto 1278 de 2002, art. 11 y parágrafo",
+   "consejo": "Quien rehúsa el nombramiento sale de la lista; la lista vale dos años desde su publicación.",
+   "citas": [
+    {"doc": "decreto_1278_2002", "texto": "Los listados de elegibles tendrán una vigencia de dos (2) años, contados a partir de su publicación.", "ubicacion": "Decreto 1278 de 2002, art. 11, parágrafo"},
+    {"doc": "decreto_1278_2002", "texto": "Sólo en caso de no aceptación voluntaria de quien ocupe el primer lugar, se podrá nombrar a los siguientes en estricto orden de puntaje y quien rehuse el nombramiento será excluido del correspondiente listado.", "ubicacion": "Decreto 1278 de 2002, art. 11"}
+   ]
+  }
+ ]
+}
