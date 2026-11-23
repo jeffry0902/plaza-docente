@@ -402,6 +402,24 @@
     "fuente": "Resolución 3842 de 2022, 1.1.1 a 1.1.3."
    }
   },
+  "GDI-AUTON": {
+   "componente": "GDI",
+   "afirmacion": "GDI-A1",
+   "nombre": "Autonomía escolar y descentralización",
+   "evidencia": "Distingue lo que corresponde a la Nación, a la entidad territorial certificada y al establecimiento, y ejerce la autonomía institucional (PEI, plan de estudios, atención a la diversidad, institución integrada).",
+   "leccion": {
+    "idea": "Con la descentralización, el Ministerio pasó a definir los grandes lineamientos de política y a vigilar el sector; las entidades territoriales certificadas prestan directamente el servicio y administran el personal; y los establecimientos ganaron autonomía para elaborar su PEI, definir el plan de estudios, los métodos y la organización de su trabajo.",
+    "claves": [
+     "Nación (Ley 715, art. 5): políticas, normas técnicas curriculares y pedagógicas «sin perjuicio de la autonomía de las instituciones», concursos, evaluación de la calidad.",
+     "Entidad territorial certificada (Ley 715, art. 7): presta el servicio, hace los nombramientos, traslada docentes y distribuye la planta entre las instituciones.",
+     "Establecimiento: autonomía para el PEI, el plan de estudios, los métodos pedagógicos y la organización del trabajo; gobierno escolar con representación de todos los estamentos.",
+     "Proyectos Etnoeducativos Comunitarios (PEC): se basan en los planes de vida de las comunidades y buscan pertinencia y permanencia cultural.",
+     "La integración de establecimientos (Decreto 688 de 2002) buscó garantizar el ciclo completo de educación básica."
+    ],
+    "trampa": "Esperar que el Ministerio o la secretaría envíen el plan de estudios (eso era el modelo centralizado), o pedirle a un órgano del colegio lo que es de la entidad certificada, como nombrar o trasladar docentes.",
+    "fuente": "Guía 34 MEN (2008), 1.1 y 1.2; Ley 715 de 2001, arts. 5 y 7."
+   }
+  },
   "PED-EVAL": {
    "componente": "PED",
    "nombre": "Evaluación formativa",

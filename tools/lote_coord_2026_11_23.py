@@ -1,0 +1,270 @@
+# -*- coding: utf-8 -*-
+"""Quinto lote de coordinación (2026-11-23). Cubre la lectura K010 (Guía 34, 1.1 La descentralización y 1.2 El
+establecimiento educativo integrado) con cinco ítems y estrena la familia GDI-AUTON (autonomía escolar y competencias
+de la Nación, las entidades territoriales y los establecimientos). Rota GAC (SIEE, seguimiento académico), GAF
+(talento humano), GCO (proyección a la comunidad), GDI (competencias del directivo, áreas de gestión) y PSI
+(orientación al logro). Formatos: ingreso 2022 (3 opciones, una correcta) y ascenso 2024 (cada opción es un nivel de
+desempeño; la correcta es la de nivel avanzado). Genera data/lotes/coord-2026-11-23.json. Citas: texto literal de fuentes/."""
+import json, os
+
+RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+casos, items = [], []
+
+
+def caso(id, titulo, texto):
+    casos.append({"id": id, "titulo": titulo, "texto": texto})
+
+
+def item(id, caso, familia, dif, enunciado, ops, clave, explicacion, fuente, consejo, citas, competencia, formato="ingreso 2022"):
+    items.append({"id": id, "tipo": "caso", "caso": caso, "familia": familia, "dificultad": dif, "enunciado": enunciado,
+                  "opciones": [{"l": l, "t": t, "j": j} for l, (t, j) in zip("ABC", ops)], "clave": clave,
+                  "explicacion": explicacion, "fuente": fuente, "consejo": consejo,
+                  "citas": [{"doc": d, "texto": t, "ubicacion": u} for d, t, u in citas], "competencia": competencia,
+                  "cargo": "coordinador", "formato": formato})
+
+
+G34, L715, D1075, R3842 = "guia34_mineducacion_2008", "ley_715_2001", "decreto_1075_2015", "resolucion_3842_2022_ocr"
+K010 = "Guía 34, 1.1 La descentralización"
+
+# ------------------------------------------------------------ K010 · Guía 34, descentralización y autonomía escolar
+caso("CK42", "Primera semana sin plan ni docente",
+     "En la primera semana del año, el consejo académico revisa el plan de estudios de la básica secundaria. Varios docentes proponen no hacer cambios "
+     "«hasta que la secretaría de educación o el Ministerio nos envíen el plan de estudios oficial», y otros quieren adoptar completo el plan que trae "
+     "la editorial de los libros de texto. Al mismo tiempo, la institución no tiene docente de matemáticas para dos grupos de octavo porque la docente "
+     "titular se trasladó en diciembre, y el rector le pide a usted como coordinador ayudarle a gestionar la vacante.")
+item("CO072", "CK42", "GDI-AUTON", 3,
+     "Frente a la propuesta de esperar un plan de estudios oficial, lo que usted le explica al consejo académico es que",
+     [("el Ministerio de Educación es la entidad que define los currículos y distribuye los textos, por lo que conviene esperar su plan antes de ajustarlo.",
+       "Es incorrecta. Describe el sistema centralizado que existió hasta mediados de los años ochenta. Hoy el Ministerio define los grandes lineamientos de política y ejerce vigilancia, pero no diseña el plan de estudios de cada establecimiento."),
+      ("el establecimiento tiene autonomía para definir su plan de estudios y sus métodos, dentro de los lineamientos y normas técnicas que fija la Nación.",
+       "Es correcta. La Guía 34 explica que, con la descentralización, los establecimientos adquirieron autonomía para elaborar su PEI y definir el plan de estudios y los métodos; la Ley 715 deja a la Nación las normas técnicas curriculares, sin perjuicio de esa autonomía."),
+      ("la secretaría de educación certificada presta el servicio en el municipio, por lo que le corresponde expedir el plan de estudios de cada institución.",
+       "Es incorrecta. Es una verdad a medias: la entidad certificada sí presta el servicio y administra la planta, pero eso no le da la función de expedir el plan de estudios, que el establecimiento define con autonomía en su PEI.")],
+     "B",
+     "La palabra clave es «esperar». La Guía 34 resume el paso de un sistema centralizado, en el que el Ministerio diseñaba los currículos, a uno descentralizado en el que el Ministerio define los grandes lineamientos de política y ejerce la vigilancia, las entidades territoriales certificadas prestan el servicio y los establecimientos tienen autonomía para elaborar su PEI y definir el plan de estudios, los métodos pedagógicos y la organización de su trabajo. La Ley 715 (art. 5.5) confirma que las normas técnicas curriculares de la Nación se aplican sin perjuicio de esa autonomía. Adoptar sin análisis el plan de una editorial tampoco ejerce esa autonomía: el plan se construye desde el PEI.",
+     "Guía 34 MEN (2008), 1.1 La descentralización; Ley 715 de 2001, art. 5.5.",
+     "Plan de estudios: lo define el establecimiento con autonomía en su PEI; la Nación fija lineamientos y normas técnicas.",
+     [(G34, "los establecimientos educativos adquirieron autonomía para elaborar su Proyecto Educativo Institucional – PEI, así como para definir el plan de estudios, los métodos pedagógicos y la manera de organizar su trabajo.", K010),
+      (G34, "el Ministerio de Educación Nacional pasó a definir los grandes lineamientos de política del sector, así como a ejercer la vigilancia del mismo.", K010),
+      (L715, "Establecer las normas técnicas curriculares y pedagógicas para los niveles de educación preescolar, básica y media, sin perjuicio de la autonomía de las instituciones educativas", "Ley 715, art. 5.5")],
+     "Autonomía escolar y descentralización")
+item("CO073", "CK42", "GAF-TALENTO", 2,
+     "Para cubrir la vacante de matemáticas, el trámite que usted le sugiere al rector es",
+     [("pedirle al consejo directivo que vincule de manera provisional a un docente de la región mientras llega el nombramiento oficial.",
+       "Es incorrecta. El consejo directivo tiene funciones de orientación y decisión institucional, pero no nombra personal docente: los nombramientos y la distribución de la planta son competencia de la entidad territorial certificada."),
+      ("solicitar directamente al Ministerio de Educación el nombramiento del docente, porque la planta docente oficial se financia con recursos de la Nación.",
+       "Es incorrecta. Que los recursos provengan del Sistema General de Participaciones no hace al Ministerio responsable de nombrar: la Ley 715 asigna a las entidades certificadas los nombramientos y la distribución de docentes."),
+      ("reportar la vacante a la secretaría de educación de la entidad certificada, que es la que distribuye los docentes y la planta entre las instituciones.",
+       "Es correcta. Tras la descentralización, las entidades territoriales certificadas prestan directamente el servicio; la Ley 715 les asigna nombrar el personal requerido y distribuir entre las instituciones los docentes y la planta de cargos.")],
+     "C",
+     "La palabra clave es «vacante». La Guía 34 explica que, con la descentralización, los departamentos, distritos y municipios certificados son responsables de prestar directamente el servicio educativo en su jurisdicción. La Ley 715 (art. 7) concreta esa responsabilidad: las entidades certificadas administran el personal docente, efectúan los nombramientos, trasladan docentes y distribuyen entre las instituciones los docentes y la planta de cargos según las necesidades del servicio. Por eso la vacante se reporta a la secretaría de educación certificada (en el caso del concurso, la de Yopal). El coordinador apoya al rector con la información de grupos y horas, pero no nombra ni vincula personal.",
+     "Guía 34 MEN (2008), 1.1 La descentralización; Ley 715 de 2001, arts. 7.3 y 7.4.",
+     "Vacantes, nombramientos y traslados: los gestiona la secretaría de educación de la entidad territorial certificada.",
+     [(G34, "los departamentos, distritos y municipios certificados comenzaron a ser responsables de prestar directamente el servicio educativo en su respectiva área de jurisdicción", K010),
+      (L715, "Distribuir entre las instituciones educativas los docentes y la planta de cargos, de acuerdo con las necesidades del servicio", "Ley 715, art. 7.4")],
+     "Talento humano")
+
+caso("CK43", "La sede rural que no tiene voz",
+     "Hace dos años su institución integró una sede rural de preescolar a quinto. En la autoevaluación, las familias de esa sede dicen que «las decisiones se toman "
+     "en el pueblo sin preguntarnos»: las elecciones del consejo de padres se hicieron en la sede principal, en horario laboral, y ningún padre de la sede rural "
+     "quedó elegido. Los estudiantes de la sede rural tampoco conocen a su vocero ante el consejo de estudiantes. El rector le pide a usted proponer qué hacer este año.")
+item("CO074", "CK43", "GDI-GOB", 2,
+     "La actuación del coordinador que corresponde al nivel avanzado es",
+     [("enviar a las familias de la sede rural un resumen escrito de las decisiones del consejo de padres e invitarlas a la próxima asamblea general.",
+       "Es incorrecta (nivel mínimo). Mejora la información, pero las familias siguen siendo receptoras de decisiones ya tomadas: no quedan representadas en el órgano ni participan en su construcción."),
+      ("organizar con el rector reuniones por grados en la sede rural para elegir sus representantes y acordar con ellos cómo llevar su voz a los órganos.",
+       "Es correcta (nivel avanzado). Garantiza que todos los integrantes de la comunidad, incluidos los de la sede rural, estén representados en el gobierno escolar, y crea mecanismos para que su participación sea continua y no solo formal."),
+      ("explicarles que las elecciones se hicieron según la norma y que los representantes elegidos en la sede principal ya hablan por todos los grados.",
+       "Es incorrecta (nivel inferior). Se queda en la legalidad formal y desconoce la queja: si una sede completa queda sin voz, el gobierno escolar no cumple su propósito de garantizar la participación democrática.")],
+     "B",
+     "La Guía 34 recuerda que, con la descentralización, se constituyó el gobierno escolar, que funciona a través de organismos en los que están representados todos los integrantes de la comunidad educativa, lo que garantiza la participación democrática en las decisiones. El Decreto 1075 define el consejo de padres como un órgano destinado a asegurar la continua participación de los padres y lo integra con padres de cada uno de los grados, elegidos en reunión por grados. En la prueba de ascenso, el nivel avanzado no se limita a informar ni a defender el procedimiento: corrige las condiciones que dejan por fuera a una sede y construye mecanismos de participación con ella.",
+     "Guía 34 MEN (2008), 1.1 La descentralización; Decreto 1075 de 2015, art. 2.3.4.5.",
+     "Gobierno escolar: todos los integrantes de la comunidad representados; en sedes integradas, crear condiciones para que cada sede participe.",
+     [(G34, "diferentes organismos en los que están representados todos los integrantes de la comunidad educativa, lo que garantiza la participación democrática en las decisiones institucionales.", K010),
+      (D1075, "destinado a asegurar su continua participación en el proceso educativo y a elevar los resultados de calidad del", "Decreto 1075, art. 2.3.4.5")],
+     "Gobierno escolar", "ascenso 2024")
+
+caso("CK44", "El cabildo pide la palabra",
+     "Una de las sedes de su institución atiende a niños de una comunidad indígena del municipio. El gobernador del cabildo le pide a usted que el trabajo de la sede "
+     "tenga en cuenta la lengua, las prácticas y el plan de vida de la comunidad. Un docente opina que «todos los estudiantes deben recibir exactamente el mismo "
+     "currículo para que haya igualdad», y otro propone que el tema lo resuelva la secretaría de educación sin involucrar a la comunidad.")
+item("CO075", "CK44", "GDI-AUTON", 2,
+     "La orientación que usted da como coordinador, de acuerdo con la Guía 34, es",
+     [("aplicar en la sede el mismo currículo de las demás sedes, porque la igualdad de trato es la forma de garantizar la calidad para todos los estudiantes.",
+       "Es incorrecta. Confunde igualdad con uniformidad. La Guía 34 presenta la atención a la diversidad y los proyectos etnoeducativos como avances para garantizar la pertinencia de la educación, no como privilegios que rompen la igualdad."),
+      ("trasladar la solicitud a la secretaría para que defina los contenidos propios, porque la etnoeducación es un asunto de la entidad territorial.",
+       "Es incorrecta. La entidad territorial puede asesorar y apoyar, pero excluir a la comunidad contradice el sentido del proyecto etnoeducativo, que se basa en los planes de vida de las propias comunidades."),
+      ("construir con la comunidad y los docentes de la sede un proyecto etnoeducativo que parta de su plan de vida y se articule con el PEI de la institución.",
+       "Es correcta. Los proyectos etnoeducativos comunitarios se basan en los planes de vida de las comunidades y buscan la pertinencia de la educación y la permanencia cultural; construirlos con la comunidad es ejercer la autonomía institucional.")],
+     "C",
+     "La palabra clave es «plan de vida». La Guía 34 señala que, en el marco de la autonomía escolar, se ha avanzado en la formulación de Proyectos Etnoeducativos Comunitarios (PEC) y en la atención a la diversidad, que se basan en los planes de vida de las comunidades y buscan garantizar la pertinencia de la educación y la permanencia cultural de los grupos étnicos. Por eso el coordinador no impone un currículo uniforme ni delega la decisión sin la comunidad: lidera su construcción conjunta y la articula con el PEI. Para la CNSC, igualdad no significa dar a todos exactamente lo mismo, sino garantizar una educación pertinente para cada contexto.",
+     "Guía 34 MEN (2008), 1.1 La descentralización.",
+     "Comunidades étnicas: proyecto etnoeducativo construido con la comunidad desde su plan de vida, articulado con el PEI.",
+     [(G34, "se ha avanzado en la formulación e implementación de Proyectos Etnoeducativos Comunitarios – PEC, y en general, en la atención a la diversidad, los cuales se basan en los planes de vida de las comunidades", K010),
+      (G34, "buscan garantizar la pertinencia de la educación y la permanencia cultural de los grupos étnicos en el contexto diverso de nuestro país.", K010)],
+     "Autonomía escolar y diversidad")
+
+caso("CK45", "Quinto termina, sexto no empieza",
+     "Su institución integrada tiene una sede principal con preescolar, básica y media, y dos sedes de primaria. Al revisar la matrícula de enero, usted encuentra que "
+     "de los 64 estudiantes que terminaron quinto en las sedes de primaria solo 41 se matricularon en sexto en la sede principal. En la reunión de directivos, "
+     "una docente propone dedicar el año a unificar uniformes, horarios y símbolos para que las sedes «se sientan parte de un solo colegio».")
+item("CO076", "CK45", "GDI-AUTON", 2,
+     "Según el propósito de la integración que describe la Guía 34, la prioridad de su propuesta es",
+     [("fortalecer la identidad común entre las sedes con uniformes, horarios y símbolos compartidos, porque la integración busca formar una sola comunidad.",
+       "Es incorrecta. La identidad institucional es valiosa, pero no es el propósito central que la Guía 34 atribuye a la integración; además, no responde al dato que muestra el caso: estudiantes que no continúan."),
+      ("garantizar que los estudiantes de primaria continúen el ciclo en sexto, con seguimiento a quienes no se matricularon y una transición articulada.",
+       "Es correcta. La integración se hizo para garantizar el ciclo completo de educación básica; el dato de matrícula indica que ese propósito no se cumple, y el coordinador debe priorizar la continuidad y el seguimiento a quienes no llegaron."),
+      ("respetar que cada sede de primaria conserve su organización propia, porque cada una tenía su trayectoria antes de que se hiciera la integración.",
+       "Es incorrecta. Mantener sedes desarticuladas es justamente lo que la integración buscaba superar; esa opción deja sin respuesta a los niños que terminan quinto y no encuentran continuidad en la misma institución.")],
+     "B",
+     "La palabra clave es «propósito». La Guía 34 explica que la integración de los establecimientos, que se materializó a partir del Decreto 688 de 2002, tuvo como propósito garantizar el ciclo completo de educación básica a todos los niños, niñas y jóvenes, porque muchos que terminaban la primaria debían buscar cupo lejos de casa y aumentaban sus probabilidades de abandonar el sistema. Si 23 de 64 estudiantes no pasan a sexto, la institución integrada no está cumpliendo ese propósito. La identidad común es útil, pero la prioridad del coordinador es la continuidad de las trayectorias escolares.",
+     "Guía 34 MEN (2008), 1.2 El establecimiento educativo integrado.",
+     "Integración institucional: su propósito es garantizar el ciclo completo de educación básica; vigile la transición de quinto a sexto.",
+     [(G34, "Su propósito fue garantizar el ciclo completo de educación básica a todos los niños, niñas y jóvenes de nuestro país.", "Guía 34, 1.2 El establecimiento educativo integrado"),
+      (G34, "lo que incrementaba los costos de educarse y aumentaba sus probabilidades de abandonar el sistema sin culminar la educación obligatoria.", "Guía 34, 1.2 El establecimiento educativo integrado")],
+     "Integración institucional")
+
+# ------------------------------------------------------------ GAC · SIEE y seguimiento académico
+caso("CK46", "Llega con constancia de séptimo",
+     "En agosto llega trasladado desde otro municipio un estudiante con una constancia de desempeño que dice que fue promovido a séptimo grado. En las primeras "
+     "semanas, los docentes de matemáticas y lenguaje notan vacíos importantes y uno de ellos le propone a usted ubicarlo en sexto «para que no se pierda», "
+     "mientras otro sostiene que la constancia obliga a dejarlo en séptimo y que no hay nada más que hacer.")
+item("CO077", "CK46", "GAC-SIEE", 3,
+     "De acuerdo con el Decreto 1075, lo que usted como coordinador orienta es",
+     [("aplicar una prueba de ubicación y, según su resultado, matricularlo en el grado que le corresponda, aunque la constancia diga otra cosa.",
+       "Es incorrecta. La evaluación diagnóstica sirve para identificar apoyos, no para cambiar el grado: si la constancia reporta que fue promovido, la norma ordena matricularlo en el grado al que fue promovido."),
+      ("mantenerlo en séptimo porque así lo indica la constancia y esperar los resultados del periodo para decidir si necesita apoyos.",
+       "Es incorrecta. Acierta en el grado, pero se queda corta: la norma no pide esperar al cierre del periodo, sino que el establecimiento receptor implemente los procesos de apoyo cuando el diagnóstico muestra que se necesitan."),
+      ("mantenerlo en séptimo, como indica la constancia, y si la evaluación diagnóstica muestra vacíos, implementar procesos de apoyo.",
+       "Es correcta. El artículo 2.3.3.3.3.17 dice que el estudiante será matriculado en el grado al que fue promovido según la constancia y que, si el establecimiento receptor considera que necesita procesos de apoyo, debe implementarlos.")],
+     "C",
+     "El caso combina dos condiciones del artículo 2.3.3.3.3.17 del Decreto 1075 (Decreto 1290, art. 17). Primera: cuando la constancia de desempeño reporta que el estudiante fue promovido y se traslada, será matriculado en el grado al que fue promovido; por eso no se le baja de grado. Segunda: si el establecimiento receptor, a través de una evaluación diagnóstica, considera que necesita procesos de apoyo para estar acorde con las exigencias del nuevo curso, debe implementarlos. Las dos opciones incorrectas aplican solo una mitad: una cambia el grado y la otra no actúa a tiempo. Lea siempre hasta el final de la norma.",
+     "Decreto 1075 de 2015, art. 2.3.3.3.3.17 (Decreto 1290 de 2009, art. 17).",
+     "Traslado con constancia de promoción: se matricula en el grado promovido y, si el diagnóstico lo indica, se dan apoyos.",
+     [(D1075, "Cuando la constancia de desempeño reporte que el estudiante ha sido promovido al siguiente grado y se traslade de un establecimiento educativo a otro, será matriculado en el grado al que fue promovido según el reporte.", "Decreto 1075, art. 2.3.3.3.3.17"),
+      (D1075, "considera que el estudiante necesita procesos de apoyo para estar acorde con las exigencias académicas del nuevo curso, debe implementarlos.", "Decreto 1075, art. 2.3.3.3.3.17")],
+     "SIEE y promoción")
+
+caso("CK47", "Recuperaciones que no recuperan",
+     "Al cierre del segundo periodo, usted revisa con el consejo académico los resultados: el 30 % de los estudiantes de la básica secundaria tiene al menos un área "
+     "en desempeño bajo, la misma cifra del año anterior. Cada docente diseña sus actividades de recuperación a su manera: unos repiten el examen, otros piden un "
+     "trabajo escrito y otros no hacen ninguna. Nadie ha revisado si esas actividades mejoran los resultados.")
+item("CO078", "CK47", "GAC-SEGUIM", 3,
+     "La propuesta del coordinador que corresponde al nivel avanzado es",
+     [("acordar con las áreas actividades de recuperación articuladas, orientadas a las competencias básicas, y revisar cada periodo sus efectos para ajustarlas.",
+       "Es correcta (nivel avanzado). Supera los criterios individuales, orienta las actividades a un apoyo real a las competencias y evalúa periódicamente sus efectos para ajustarlas, como describe el nivel más alto de la Guía 34."),
+      ("pedir a cada área que diseñe un formato común de recuperación para el resto del año y entregarlo a los docentes al iniciar el tercer periodo.",
+       "Es incorrecta (nivel satisfactorio). Avanza hacia actividades articuladas, pero no prevé revisar si funcionan: sin evaluar sus efectos no hay forma de saber si mejoran los resultados ni de ajustarlas."),
+      ("programar una semana institucional de recuperaciones al final del año para que los estudiantes en desempeño bajo presenten un examen en cada área.",
+       "Es incorrecta (nivel mínimo). Organiza un momento, pero mantiene la recuperación como un examen aislado, al final y sin estrategia de apoyo: es el tipo de práctica que la Guía 34 asocia a niveles bajos.")],
+     "A",
+     "En la escala de la Guía 34, el componente «actividades de recuperación» va de la existencia (actividades diseñadas con criterios individuales que no garantizan el mejoramiento) a la apropiación (actividades que ofrecen un apoyo real al desarrollo de las competencias básicas) y al mejoramiento continuo (la institución revisa y evalúa periódicamente sus efectos y hace los ajustes). La prueba de ascenso premia la acción que lleva el proceso al nivel más alto: articular, orientar a competencias y evaluar los efectos. Un formato común sin seguimiento es un avance parcial, y una semana de exámenes al final repite el problema que muestra el caso.",
+     "Guía 34 MEN (2008), Anexo 1, gestión académica, proceso seguimiento académico, componente actividades de recuperación.",
+     "Recuperación de nivel avanzado: articulada, orientada a competencias y con evaluación periódica de sus efectos.",
+     [(G34, "La institución cuenta con actividades de recuperación de los estudiantes, pero éstas han sido diseñadas a partir de criterios individuales que no garantizan el mejoramiento de los resultados.", "Guía 34, Anexo 1, seguimiento académico"),
+      (G34, "La institución revisa y evalúa periódicamente los efectos de las actividades de recuperación y sus mecanismos de implementación, y realiza los ajustes pertinentes", "Guía 34, Anexo 1, seguimiento académico")],
+     "Seguimiento académico", "ascenso 2024")
+
+# ------------------------------------------------------------ GCO · proyección a la comunidad
+caso("CK48", "La biblioteca los sábados",
+     "La junta de acción comunal del barrio le pide a usted que la comunidad pueda usar la biblioteca y la sala de informática de la institución los sábados "
+     "para un programa de alfabetización digital de adultos. Hasta ahora, la institución ha prestado sus espacios solo cuando alguien lo pide para una actividad "
+     "puntual, sin reglas claras, y en dos ocasiones se perdieron equipos.")
+item("CO079", "CK48", "GCO-COMUN", 2,
+     "La actuación del coordinador que corresponde al nivel avanzado es",
+     [("prestar la sala para el programa, como se ha hecho antes, y pedir a la junta que firme un acta en la que se responsabiliza por los equipos.",
+       "Es incorrecta (nivel mínimo). Atiende la demanda puntual y añade un control, pero mantiene la lógica de préstamos ocasionales, sin un programa institucional ni una evaluación conjunta del servicio."),
+      ("negar el uso de los espacios hasta que la institución tenga un sistema de vigilancia, porque los equipos son para los estudiantes.",
+       "Es incorrecta (nivel inferior). Protege los recursos, pero cierra la institución a la comunidad y desconoce que el uso de la planta física y de los medios es un componente de la proyección a la comunidad."),
+      ("proponer con el rector un programa de uso de los espacios con reglas acordadas con la junta y evaluar con ella, cada semestre, cómo funciona.",
+       "Es correcta (nivel avanzado). Convierte el préstamo ocasional en un programa con reglas de uso y cuidado, informado a la comunidad y evaluado conjuntamente, que es lo que la Guía 34 describe en los niveles más altos.")],
+     "C",
+     "En la Guía 34, el uso de la planta física y de los medios es un componente del proceso de proyección a la comunidad. En el nivel de existencia, la institución presta algunos recursos como respuesta a demandas específicas; en la pertinencia ya tiene programas para que la comunidad use la sala de informática o la biblioteca; y en el mejoramiento continuo la institución y la comunidad evalúan conjuntamente y mejoran de mutuo acuerdo esos servicios. Por eso el nivel avanzado no es negar ni prestar sin reglas: es organizar un programa acordado, con cuidado de los recursos, y evaluarlo con la comunidad.",
+     "Guía 34 MEN (2008), Anexo 1, gestión de la comunidad, proceso proyección a la comunidad.",
+     "Uso de espacios por la comunidad: programa con reglas acordadas y evaluación conjunta; no préstamos ocasionales.",
+     [(G34, "La institución pone a disposición de la comunidad algunos de sus recursos físicos, como respuesta a demandas específicas.", "Guía 34, Anexo 1, proyección a la comunidad"),
+      (G34, "La institución y la comunidad evalúan conjuntamente y mejoran de mutuo acuerdo los servicios que la primera le ofrece a la segunda", "Guía 34, Anexo 1, proyección a la comunidad")],
+     "Proyección a la comunidad", "ascenso 2024")
+
+# ------------------------------------------------------------ GDI · competencias del directivo y áreas de gestión
+caso("CK49", "El portafolio del período de prueba",
+     "Usted está en período de prueba como coordinador y organiza el portafolio de evidencias para su evaluación. Tiene anotadas, entre otras, estas evidencias: "
+     "1) gestionó con una fundación del municipio una red de apoyo para el programa de lectura de las familias; 2) organizó la distribución de aulas, "
+     "pupitres y equipos para los tres grupos nuevos de sexto; 3) medió entre dos docentes que no se ponían de acuerdo sobre el uso del laboratorio.")
+item("CO080", "CK49", "GDI-COMPET", 2,
+     "Para separar en el portafolio las competencias comportamentales de las funcionales, usted agrupa como comportamentales",
+     [("planeación y organización; ejecución; comunicación institucional e interacción con la comunidad y el entorno.",
+       "Es incorrecta. Son las competencias funcionales de la gestión directiva y de la gestión comunitaria. Las funcionales se demuestran en las áreas de gestión; las comportamentales son actitudes, valores y motivaciones."),
+      ("liderazgo; negociación y mediación; trabajo en equipo; iniciativa; compromiso social e institucional.",
+       "Es correcta. La Resolución 3842 enumera como comportamentales el liderazgo, la comunicación y relaciones interpersonales, el trabajo en equipo, la negociación y mediación, el compromiso social e institucional, la iniciativa y la orientación al logro."),
+      ("pedagogía y didáctica; trabajo en equipo; administración de recursos; negociación y mediación; liderazgo.",
+       "Es incorrecta. Mezcla dos tipos: pedagogía y didáctica es una competencia funcional de la gestión académica y administración de recursos lo es de la gestión administrativa; solo las otras tres son comportamentales.")],
+     "B",
+     "La Resolución 3842 distingue dos grupos. Las competencias funcionales se demuestran en cuatro áreas de gestión, cada una con dos competencias: directiva (planeación y organización; ejecución), académica (pedagogía y didáctica; innovación y direccionamiento académico), administrativa (administración de recursos; gestión del talento humano) y comunitaria (comunicación institucional; interacción con la comunidad y el entorno). Las comportamentales se refieren a actitudes, valores, intereses y motivaciones: liderazgo, comunicación y relaciones interpersonales, trabajo en equipo, negociación y mediación, compromiso social e institucional, iniciativa y orientación al logro. La trampa es la mezcla: una sola competencia funcional invalida la opción.",
+     "Resolución 3842 de 2022, 1.1.2 y 1.1.3.",
+     "Comportamentales (7): liderazgo, comunicación y relaciones, trabajo en equipo, negociación y mediación, compromiso, iniciativa, logro.",
+     [(R3842, "las competencias comportamentales se refieren a las actitudes, los valores, los intereses y las motivaciones que demuestran los docentes en el cumplimiento de sus funciones.", "Resolución 3842, 1.1.3"),
+      (R3842, "Estas competencias son: liderazgo; comunicación y relaciones interpersonales; trabajo en equipo; negociación y mediación; compromiso social e institucional; iniciativa; y orientación al logro.", "Resolución 3842, 1.1.3")],
+     "Competencias del directivo docente")
+item("CO081", "CK49", "GDI-COMPET", 3,
+     "Según la Resolución 3842, las evidencias 1 y 2 corresponden, respectivamente, a las áreas de gestión",
+     [("directiva, porque orienta a la institución hacia sus metas, y académica, porque los grupos nuevos afectan el plan de estudios de sexto.",
+       "Es incorrecta. La red de apoyo no es orientar la institución hacia las metas del PEI, y distribuir aulas y equipos no es diseñar el currículo: se clasificó por el efecto posible y no por la descripción oficial del área."),
+      ("comunitaria, porque crea redes de apoyo con otros sectores, y académica, porque los recursos se distribuyen para el aprendizaje.",
+       "Es incorrecta. La primera está bien ubicada, pero la segunda no: que los recursos sirvan al aprendizaje no cambia el área; la distribución de recursos físicos es la descripción oficial de la gestión administrativa."),
+      ("comunitaria, porque crea redes de apoyo con otros sectores, y administrativa, porque distribuye y articula los recursos físicos.",
+       "Es correcta. La gestión comunitaria incluye conducir las relaciones con el entorno y otros sectores para crear redes de apoyo, y la administrativa incluye la obtención, distribución y articulación de recursos humanos, físicos y financieros.")],
+     "C",
+     "La Resolución 3842 describe cada área de gestión del directivo. La gestión comunitaria comprende generar un clima institucional adecuado y conducir las relaciones de la institución con el entorno y otros sectores para crear y consolidar redes de apoyo: ahí cae la alianza con la fundación. La gestión administrativa involucra implementar acciones para la obtención, distribución y articulación de recursos humanos, físicos y financieros: ahí cae la distribución de aulas, pupitres y equipos. La evidencia 3 (mediar entre docentes) es comportamental. La trampa típica es clasificar por el propósito final («todo es para el aprendizaje») en lugar de por la acción que se describe.",
+     "Resolución 3842 de 2022, 1.1.2 Competencias funcionales.",
+     "Clasifique por la acción: redes con otros sectores → comunitaria; distribuir recursos físicos → administrativa.",
+     [(R3842, "conducir las relaciones de la institución con el entorno y otros sectores para crear y consolidar redes de apoyo.", "Resolución 3842, 1.1.2, gestión comunitaria"),
+      (R3842, "Involucra la capacidad de implementar acciones para la obtención, distribución y articulación de recursos humanos, físicos y financieros", "Resolución 3842, 1.1.2, gestión administrativa")],
+     "Competencias del directivo docente")
+
+caso("CK50", "Dos hallazgos para clasificar",
+     "En la autoevaluación institucional, el equipo de gestión registra dos hallazgos: 1) la institución no sabe qué estudian ni en qué trabajan sus egresados "
+     "de los últimos cinco años; 2) los boletines de calificaciones del primer periodo se entregaron tres semanas tarde porque el archivo académico está "
+     "desordenado. El rector le pide a usted ubicarlos en la matriz por área de gestión y proceso.")
+item("CO082", "CK50", "GDI-AREAS", 3,
+     "Según el Cuadro No. 3 de la Guía 34, los hallazgos 1 y 2 se ubican, respectivamente, en",
+     [("gestión de la comunidad, proceso de proyección a la comunidad; y gestión académica, proceso de seguimiento académico.",
+       "Es incorrecta. Los egresados parecen un tema de la comunidad y los boletines un tema académico, pero la Guía 34 los ubica de otra forma: egresados en seguimiento académico y boletines en apoyo a la gestión académica."),
+      ("gestión académica, proceso de seguimiento académico; y gestión administrativa y financiera, apoyo a la gestión académica.",
+       "Es correcta. El Cuadro No. 3 pone el seguimiento a los egresados entre los componentes del seguimiento académico, y la matrícula, el archivo académico y los boletines en el proceso de apoyo a la gestión académica."),
+      ("gestión directiva, proceso de relaciones con el entorno; y gestión administrativa y financiera, apoyo a la gestión académica.",
+       "Es incorrecta. Acierta en el segundo hallazgo, pero no en el primero: las relaciones con el entorno tratan de las alianzas con otras entidades, mientras que el seguimiento a los egresados es parte del seguimiento académico.")],
+     "B",
+     "En la Guía 34 se clasifica por el proceso del Cuadro No. 3, no por la palabra que suena más cercana. El proceso de seguimiento académico (gestión académica) define los resultados en términos de asistencia, calificaciones, pertinencia de la formación recibida, promoción y recuperación, y sus componentes incluyen el seguimiento a los egresados: saber qué hacen indica si la formación fue pertinente. El proceso de apoyo a la gestión académica (gestión administrativa y financiera) da soporte a la matrícula, el archivo académico y los boletines de calificaciones. Por eso el retraso de boletines por desorden del archivo es administrativo, aunque afecte lo académico.",
+     "Guía 34 MEN (2008), Cuadro No. 3. Procesos y componentes de las áreas de gestión.",
+     "Egresados → seguimiento académico (académica). Matrícula, archivo y boletines → apoyo a la gestión académica (administrativa).",
+     [(G34, "Seguimiento a los resultados académicos, a la asistencia de los estudiantes y a los egresados, uso pedagógico de las evaluaciones externas", "Guía 34, Cuadro No. 3, seguimiento académico"),
+      (G34, "Proceso de matrícula, archivo académico y boletines de calificaciones.", "Guía 34, Cuadro No. 3, apoyo a la gestión académica")],
+     "Áreas de gestión")
+
+# ------------------------------------------------------------ PSI · orientación al logro
+caso("CK51", "El plan va atrasado",
+     "En julio, usted revisa con el equipo de gestión el avance del plan de mejoramiento. La meta del año es que el 80 % de los docentes de primaria aplique la "
+     "estrategia de lectura acordada; el indicador muestra que solo la aplica el 35 %. Los responsables dicen que «todavía queda medio año» y que «en noviembre "
+     "se pone al día».")
+item("CO083", "CK51", "PSI-LOGRO", 2,
+     "La actuación que mejor demuestra la competencia de orientación al logro es",
+     [("analizar con los responsables las causas del atraso a partir del indicador y acordar con ellos medidas correctivas y fechas de revisión mensuales.",
+       "Es correcta. Usa el indicador para identificar a tiempo la demora y sus causas, y toma medidas correctivas con los responsables, con revisiones cercanas: así se orienta la gestión hacia el cumplimiento de la meta."),
+      ("confiar en el compromiso del equipo y dejar el análisis del atraso para la autoevaluación de fin de año, cuando se tengan todos los datos completos.",
+       "Es incorrecta. Parece respetuosa con el equipo, pero renuncia al seguimiento periódico: si espera a fin de año, ya no habrá tiempo de corregir y la meta se perderá sin haber actuado."),
+      ("informar por escrito al rector que la meta no se está cumpliendo y pedirle que llame la atención a los docentes responsables de la estrategia.",
+       "Es incorrecta. Reporta el problema, pero traslada la responsabilidad y lo convierte en un asunto disciplinario; no analiza las causas ni propone medidas que acerquen al equipo a la meta.")],
+     "A",
+     "La orientación al logro es una de las competencias comportamentales que la Resolución 3842 exige al directivo docente. La Guía 34 explica para qué sirven las metas y los indicadores: las metas son medibles, lo que permite hacer seguimiento periódico a su cumplimiento, y los indicadores permiten identificar oportunamente las situaciones que presentan demoras y sus causas, para tomar medidas correctivas o ajustar el plan. Un 35 % frente a un 80 % en julio es una señal de alerta que exige actuar ya, con los responsables. Esperar a fin de año o solo reportar no orienta al equipo hacia el resultado.",
+     "Resolución 3842 de 2022, 1.1.3; Guía 34 MEN (2008), Etapa 2, metas e indicadores.",
+     "Orientación al logro: seguimiento periódico con indicadores, análisis de causas y medidas correctivas a tiempo.",
+     [(G34, "se podrá identificar oportunamente las situaciones que presentan demoras y sus causas, lo que permitirá tomar las medidas correctivas pertinentes o realizar ajustes al plan.", "Guía 34, Etapa 2, definición de los indicadores de resultados"),
+      (R3842, "trabajo en equipo; negociación y mediación; compromiso social e institucional; iniciativa; y orientación al logro.", "Resolución 3842, 1.1.3 Competencias comportamentales")],
+     "Orientación al logro")
+
+lote = {"id": "coord-2026-11-23", "fecha": "2026-11-23", "cargo": "coordinador",
+        "nota": "Lectura K010 (Guía 34, descentralización y establecimiento integrado) con cinco ítems; familia nueva GDI-AUTON. Formatos ingreso 2022 y ascenso 2024 (la correcta es la de nivel avanzado).",
+        "casos": casos, "fichas": [], "items": items}
+json.dump(lote, open(os.path.join(RAIZ, "data", "lotes", "coord-2026-11-23.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(len(casos), "casos ·", len(items), "ítems")
