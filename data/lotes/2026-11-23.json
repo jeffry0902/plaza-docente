@@ -1,0 +1,893 @@
+{
+ "id": "2026-11-23",
+ "fecha": "2026-11-23",
+ "casos": [
+  {
+   "id": "C172",
+   "titulo": "Tres problemas para noveno",
+   "texto": "En una institución educativa oficial de Yopal, la docente de Tecnología e Informática de noveno pide a tres equipos que propongan un problema tecnológico de su entorno, siguiendo las Orientaciones Curriculares de 2022. El equipo 1 propone crear una aplicación para avisar a los vecinos cuando sube el nivel del caño del barrio, algo que no existe en el municipio. El equipo 2 propone modificar el buscador de la biblioteca escolar para que muestre primero los libros disponibles y así mejore su rendimiento actual. El equipo 3 propone enseñar a las familias de la asociación de productores de leche a usar la licuadora industrial que recibieron, para preparar yogur."
+  },
+  {
+   "id": "C173",
+   "titulo": "La silla de montar llanera",
+   "texto": "Una docente de Tecnología e Informática de sexto en Yopal planea una unidad sobre la silla de montar llanera, un artefacto analógico muy presente en la vida de las familias del Casanare. Un colega le sugiere limitar la unidad a que los estudiantes describan las partes de la silla y su uso en el trabajo de llano. La docente revisa la dimensión individual de las Orientaciones Curriculares de 2022, según la cual el trabajo de aula sobre las formas de pensar lo tecnológico debe tener siempre unas intenciones definidas."
+  },
+  {
+   "id": "C174",
+   "titulo": "La charla entre aspirantes",
+   "texto": "En un grupo de estudio de aspirantes al concurso docente en Yopal, Mauricio explica las etapas del concurso previstas en el artículo 9 del Decreto 1278 de 2002. Según él, «la prueba de aptitudes y competencias básicas sirve para ordenar a los concursantes en la lista, y la entrevista y la valoración de antecedentes sirven para escoger a los más idóneos». Una compañera añade que, en la clasificación, solo cuentan la prueba psicotécnica, la entrevista y los antecedentes, porque la prueba de aptitudes «ya se usó en la selección»."
+  },
+  {
+   "id": "C175",
+   "titulo": "La matrícula de Valentina",
+   "texto": "Una familia que vive en el barrio La Campiña de Yopal llega a la secretaría de educación para matricular a Valentina, de 11 años, quien tiene una discapacidad física y no ha estado escolarizada. A pocas cuadras de su casa hay una institución educativa oficial con cupo. Un funcionario sugiere enviarla a una institución del otro extremo de la ciudad, «que tiene más experiencia con estudiantes con discapacidad», y ubicarla en grado tercero mientras se valora su desempeño."
+  },
+  {
+   "id": "C176",
+   "titulo": "La sede rural que llega hasta quinto",
+   "texto": "Darío es un estudiante con discapacidad que terminó quinto en una sede rural de Yopal. La sede solo ofrece hasta quinto grado, de modo que no es posible que curse sexto cerca de su lugar de residencia; la institución más cercana con básica secundaria queda a 18 kilómetros. La familia, con pocos recursos, consulta a la secretaría de educación qué corresponde según el Decreto 1421 de 2017."
+  },
+  {
+   "id": "C177",
+   "titulo": "Martín y el aula regular",
+   "texto": "Martín es un estudiante con discapacidad auditiva que ingresa a séptimo en Yopal; se comunica en español oral con apoyo de audífonos y no usa la Lengua de Señas Colombiana. La entidad territorial asesoró a su familia sobre las opciones que contempla el Decreto 1421 de 2017, y la familia decidió que Martín estudie en la oferta general, en la institución más cercana a su casa, en un aula regular. Ya en clase, el docente de Tecnología e Informática pide a la secretaría que le asigne a Martín un intérprete de Lengua de Señas Colombiana para su aula."
+  },
+  {
+   "id": "C178",
+   "titulo": "«El celular es solo una herramienta»",
+   "texto": "En un debate de décimo sobre los celulares en la vida de los jóvenes de Yopal, un estudiante sostiene: «la tecnología es neutra; el celular es solo una herramienta y lo bueno o lo malo depende únicamente de quien lo use». Otro responde que, por el contrario, «la tecnología manda: Internet cambió el trabajo y el comercio, y la sociedad solo se adapta». La docente quiere intervenir según la dimensión social de las Orientaciones Curriculares de 2022."
+  },
+  {
+   "id": "C179",
+   "titulo": "El plan de área de once",
+   "texto": "Al revisar el plan de área de undécimo de una institución de Yopal, la docente nueva de Tecnología e Informática encuentra que todas las unidades se centran exclusivamente en usar con eficiencia y eficacia el software de oficina y la maquinaria del taller. No hay ninguna unidad que pregunte cómo surgieron esas tecnologías, por qué se eligieron para ese contexto o qué relación tienen con las personas, el ambiente y la calidad de vida."
+  },
+  {
+   "id": "C180",
+   "titulo": "La bomba de agua de la escuela",
+   "texto": "En una sede rural de Yopal, la docente de cuarto grado prepara una unidad de Tecnología e Informática sobre la bomba que lleva agua del aljibe al tanque de la escuela. Quiere que la unidad fortalezca la práctica tecnológica, que las Orientaciones Curriculares de 2022 señalan como propósito de formación del área."
+  },
+  {
+   "id": "C181",
+   "titulo": "Las competencias de primero a tercero",
+   "texto": "La coordinadora de una institución de Yopal pide a la docente de grado primero que evalúe a sus estudiantes en Tecnología e Informática con las competencias del conjunto de grados 1° a 3° de las Orientaciones Curriculares de 2022, tal como están escritas, «porque son las mismas para los tres grados». La docente considera que varias de esas competencias no son alcanzables por niños que apenas inician primero."
+  },
+  {
+   "id": "C182",
+   "titulo": "¿En qué profundizar?",
+   "texto": "El equipo de docentes de Tecnología e Informática de una institución de Yopal actualiza su plan de área y debe decidir en qué temas profundizar. Un docente propone copiar el plan de un colegio de Bogotá reconocido por sus premios en robótica; otra docente propone guiarse por los temas que más preguntan las pruebas externas. El rector pide que la decisión siga los criterios de las Orientaciones Curriculares de 2022."
+  },
+  {
+   "id": "C183",
+   "titulo": "El sistema de cultivo importado",
+   "texto": "En un proyecto de once, un grupo de estudiantes de Yopal encuentra en Internet un sistema de cultivo automatizado que dio excelentes resultados en una granja de otro país. Proponen instalarlo en la huerta escolar copiando exactamente sus planos y su programación, convencidos de que obtendrán los mismos resultados. La docente quiere aprovechar la propuesta para trabajar un propósito de la práctica tecnológica de las Orientaciones Curriculares de 2022."
+  },
+  {
+   "id": "C184",
+   "titulo": "Las entregas de noveno",
+   "texto": "En una institución de Yopal, el grupo 9A tiene 32 estudiantes y 24 de ellos entregaron a tiempo el proyecto de Tecnología e Informática. El grupo 9B tiene 40 estudiantes y 28 entregaron a tiempo. En la reunión de área, un docente afirma que 9B tuvo mejor cumplimiento «porque entregó cuatro proyectos más». La jefe de área pide analizar los datos con el indicador adecuado."
+  },
+  {
+   "id": "C185",
+   "titulo": "La feria de robótica",
+   "texto": "El área de Tecnología e Informática de una institución de Yopal, con tres docentes, debe organizar la feria institucional de robótica. Uno de ellos, experto en electrónica, ha asumido todas las tareas por su cuenta: escogió los proyectos, armó el cronograma y no consulta a sus compañeras, quienes se sienten excluidas aunque tienen experiencia en programación y en logística de eventos. La jefe de área debe intervenir."
+  },
+  {
+   "id": "C186",
+   "titulo": "El archivo perdido",
+   "texto": "Al terminar la jornada, la madre de un estudiante de octavo llega molesta a la sala de informática de una institución de Yopal. Dice que su hijo perdió el archivo del proyecto final porque los computadores de la sala «borran todo» y que la culpa es de la docente. La docente sabe que los equipos se restauran cada noche y que a los estudiantes se les pidió guardar copia en su correo institucional."
+  }
+ ],
+ "fichas": [
+  {
+   "id": "F36",
+   "familia": "DIS-COMP",
+   "titulo": "Propósito central y dimensiones de la formación (Orientaciones 2022)",
+   "lectura": "Las Orientaciones Curriculares de Tecnología e Informática (MEN, 2022) fijan el propósito formativo central del área: «la solución de problemas de orden fáctico y el dominio de las prácticas tecnológicas que lo hacen posible». Los problemas de T&I se relacionan con la invención (aparece algo que no estaba en el mundo), la innovación (se modifica el modo en que algo opera para mejorar su rendimiento) y el uso y adopción de productos tecnológicos. Esa formación se desarrolla en tres dimensiones. La individual desarrolla formas de pensar lo tecnológico (tecnológico, computacional, de diseño, crítico, sistémico, entre otras). La social forma en lo ético, lo político y lo crítico, y entiende la T&I como construcción social no neutra. La histórico contextual fundamenta la práctica tecnológica en su evolución temporal y en su contexto, con preguntas como «¿por qué esta tecnología y no otra?», y supera la visión técnico-instrumental centrada solo en el uso eficiente.",
+   "puntos": [
+    "Propósito central: solucionar problemas de orden fáctico y dominar las prácticas tecnológicas que lo hacen posible.",
+    "Problemas de T&I: invención, innovación y uso y adopción de productos tecnológicos.",
+    "Dimensión individual: formas de pensar lo tecnológico.",
+    "Dimensión social: formación ética, política y crítica; la T&I no es neutra.",
+    "Dimensión histórico contextual: evolución y contexto de la tecnología; fundamenta la práctica tecnológica.",
+    "Trampa CNSC: decir que el propósito central del área es el manejo eficiente de computadores o programas."
+   ],
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "el propósito formativo central del área de Tecnología e Informática es la solución de problemas de orden fáctico y el dominio de las prácticas tecnológicas que lo hacen posible",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "La dimensión social propende por una formación ética, política y crítica de los ciudadanos frente a la T&I y sus productos",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.2"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "La dimensión histórico contextual fundamenta la práctica tecnológica, los modos de hacer y actuar en relación con el uso y generación de la tecnología y la informática tanto en su evolución temporal como espacio contextual",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.3"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "tipo": "caso",
+   "id": "Q287",
+   "caso": "C172",
+   "familia": "DIS-INNOV",
+   "dificultad": 2,
+   "competencia": "Invención, innovación y uso y adopción",
+   "enunciado": "Según las Orientaciones Curriculares de 2022, la propuesta del equipo 2 corresponde a un problema de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "invención, porque la idea toma la forma de un proceso digital que antes no funcionaba de esa manera.",
+     "j": "Es incorrecta. La invención ocurre cuando las ideas toman forma de artefactos o procesos «que no estaban presentes en el mundo». El buscador ya existía en la biblioteca; solo se cambia su forma de operar. Sería la respuesta correcta para la aplicación del equipo 1."
+    },
+    {
+     "l": "B",
+     "t": "innovación, porque modifica el modo en que opera un producto digital para mejorar su rendimiento.",
+     "j": "Es correcta. Las Orientaciones definen la innovación como el caso en que «se modifica el modo en que artefactos o procesos» operan «para mejorar su rendimiento actual», y ponen como ejemplo digital un buscador web. Eso es exactamente lo que propone el equipo 2 con el buscador de la biblioteca."
+    },
+    {
+     "l": "C",
+     "t": "uso y adopción, porque los estudiantes se apropian de un producto digital que ya existe en la biblioteca.",
+     "j": "Es incorrecta. El uso y adopción se refiere a usar productos tecnológicos ya disponibles, como la licuadora del ejemplo oficial, sin modificar cómo operan. El equipo 2 no solo usa el buscador: cambia su funcionamiento para mejorar su rendimiento, y eso es innovación."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares de 2022 relacionan los problemas de Tecnología e Informática con tres situaciones: la invención, cuando aparece algo que no estaba presente en el mundo; la innovación, cuando se modifica el modo en que un artefacto o proceso opera para mejorar su rendimiento actual; y el uso y adopción de productos tecnológicos. El equipo 2 no crea un buscador nuevo ni se limita a usarlo: cambia su manera de operar para que rinda mejor, y el propio documento usa el buscador web como ejemplo digital de innovación. En la prueba, la palabra clave es «modificar el modo en que opera»: eso distingue la innovación de la invención.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.1-3.2, propósito formativo central",
+   "consejo": "Invención = no existía. Innovación = se modifica cómo opera para rendir mejor. Uso y adopción = se usa lo que ya existe.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "La innovación, cuando se modifica el modo en que artefactos o procesos, sean analógicos (como una silla) o digitales (como un buscador web) operan en el mundo para mejorar su rendimiento actual.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, problemas en T&I"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "La invención, cuando las ideas toman forma de artefactos o procesos, sean analógicos (como una herramienta) o digitales (como una aplicación) que no estaban presentes en el mundo",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, problemas en T&I"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q288",
+   "caso": "C172",
+   "familia": "DIS-INNOV",
+   "dificultad": 3,
+   "competencia": "Invención, innovación y uso y adopción",
+   "enunciado": "Un estudiante afirma que el equipo 3 no plantea un problema de Tecnología e Informática porque «no inventa ni mejora nada». Según las Orientaciones Curriculares de 2022, el estudiante",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "tiene razón, porque los problemas del área exigen inventar un artefacto o modificar el modo en que este opera.",
+     "j": "Es incorrecta. Reduce los problemas del área a la invención y la innovación, y olvida la tercera situación que nombra el documento: el uso y adopción de productos tecnológicos. Sería cierto solo si el área se limitara a crear o mejorar artefactos, lo que las Orientaciones no plantean."
+    },
+    {
+     "l": "B",
+     "t": "se equivoca, porque enseñar a usar la licuadora es una innovación, ya que cambia la forma en que esta opera.",
+     "j": "Es incorrecta. Acierta en que el equipo 3 sí plantea un problema del área, pero lo clasifica mal. Enseñar a usar la licuadora no modifica el modo en que el artefacto opera; las familias lo usan tal como fue diseñado. Por eso es un caso de uso y adopción, no de innovación."
+    },
+    {
+     "l": "C",
+     "t": "se equivoca, porque el uso y la adopción de productos tecnológicos también son un problema propio del área.",
+     "j": "Es correcta. Las Orientaciones incluyen entre los problemas de T&I «el uso y adopción de productos tecnológicos», y ponen como ejemplo analógico precisamente la licuadora. Enseñar a las familias a usar la licuadora industrial es un problema legítimo del área, aunque no haya invención ni innovación."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Este ítem exige dos pasos: decidir si el equipo 3 plantea un problema del área y, luego, clasificarlo. Las Orientaciones de 2022 señalan que los problemas en T&I se relacionan con la invención, la innovación y el uso y adopción de productos tecnológicos, y ponen la licuadora como ejemplo analógico de esta última. Por eso el estudiante se equivoca: aprender a usar y adoptar un producto también es un problema tecnológico. La trampa es llamar innovación a cualquier novedad para las familias; la innovación exige modificar cómo opera el artefacto. En la prueba, recuerda que el área no se limita a crear o mejorar: también forma para usar y apropiarse de la tecnología.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.2, problemas en T&I",
+   "consejo": "Los problemas de T&I son de tres tipos: invención, innovación y uso y adopción (ejemplo oficial: la licuadora).",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "El uso y adopción de productos tecnológicos, analógicos (como la licuadora) o digitales (como el machine learning).",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, problemas en T&I"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q289",
+   "caso": "C173",
+   "familia": "PED-ENSENAR",
+   "dificultad": 3,
+   "competencia": "Intenciones del trabajo de aula sobre las formas de pensar",
+   "enunciado": "Según la dimensión individual de las Orientaciones Curriculares de 2022, para ir más allá de la sugerencia del colega, la docente debe complementar la unidad para que los estudiantes también",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "diseñen soluciones a problemas, develen las formas de pensar que originaron la silla y asuman posturas críticas.",
+     "j": "Es correcta. La dimensión individual pide que el trabajo sobre las formas de pensar lo tecnológico tenga «siempre la intención» de identificar, diseñar y construir soluciones, «desvelar las formas de pensar que dieron origen a las soluciones existentes» y «asumir posicionamientos críticos» frente a su generación, uso e impactos."
+    },
+    {
+     "l": "B",
+     "t": "aprendan a usar con eficiencia la silla y sus accesorios, centrándose en el desempeño técnico del jinete.",
+     "j": "Es incorrecta. Se queda en el uso eficiente del artefacto, que es justamente la visión técnico-instrumental que las Orientaciones invitan a superar. El dominio técnico importa en la práctica tecnológica, pero no responde a las intenciones de la dimensión individual que pide el enunciado."
+    },
+    {
+     "l": "C",
+     "t": "reconozcan la evolución histórica de la silla y la comparen con las sillas de montar de otras regiones.",
+     "j": "Es incorrecta. Preguntar cómo surgió y evolucionó un artefacto en distintos contextos es propio de la dimensión histórico contextual. Es una actividad valiosa, pero no corresponde a las tres intenciones que el documento fija para la dimensión individual: diseñar soluciones, develar formas de pensar y asumir posturas críticas."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La dimensión individual de las Orientaciones de 2022 propone desarrollar distintas formas de pensar lo tecnológico (tecnológico, computacional, de diseño, crítico, sistémico, entre otras) siempre con tres intenciones: identificar, diseñar y construir soluciones a problemas; desvelar las formas de pensar que dieron origen a las soluciones existentes, y asumir posicionamientos críticos frente a su generación, uso e impactos. Describir las partes de la silla no cubre ninguna de ellas por completo. Las otras opciones son buenas actividades, pero responden a otra mirada: el uso eficiente o la evolución histórica. En la prueba, cuando el enunciado nombre una dimensión concreta, elige la acción que corresponde a esa dimensión y no a otra.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.2.1, dimensión individual",
+   "consejo": "Dimensión individual: diseñar soluciones + develar las formas de pensar que las originaron + posturas críticas.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "siempre con la intención de: a) identificar, diseñar y construir la solución a problemas mediante la generación de artefactos analógicos o digitales",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.1 Dimensión individual"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "b) desvelar las formas de pensar que dieron origen a las soluciones existentes; así como c) asumir posicionamientos críticos frente a dicha generación, uso e impactos.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.1 Dimensión individual"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q290",
+   "caso": "C174",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 2,
+   "competencia": "Etapas del concurso: selección y clasificación",
+   "enunciado": "De acuerdo con el artículo 9 del Decreto 1278 de 2002, la explicación de Mauricio",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "es correcta, porque la prueba de aptitudes fija el orden y las demás pruebas definen quién es el más idóneo.",
+     "j": "Es incorrecta. Repite el error de Mauricio. Según el artículo 9, la prueba de aptitudes y competencias básicas sirve para escoger a los más idóneos, y la clasificación, con varias pruebas, establece el orden. Sería correcta solo si se intercambiaran los objetos que fija la norma."
+    },
+    {
+     "l": "B",
+     "t": "es incorrecta, porque la selección escoge a los más idóneos y la clasificación fija el orden por mérito.",
+     "j": "Es correcta. El artículo 9 dice que la selección mediante prueba de aptitudes y competencias básicas «tiene por objeto la escogencia de los aspirantes más idóneos», y que la clasificación «tiene por objeto establecer el orden en el listado de elegibles, según el mérito». Mauricio invierte esos objetos."
+    },
+    {
+     "l": "C",
+     "t": "es incorrecta, porque la selección y la clasificación forman una misma etapa que produce un único puntaje.",
+     "j": "Es incorrecta. Acierta en que Mauricio se equivoca, pero da una razón falsa. El artículo 9 enumera la selección y la clasificación como etapas distintas del concurso, cada una con su propio objeto: la primera escoge a los más idóneos y la segunda ordena el listado según el mérito."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 9 del Decreto 1278 de 2002 enumera las etapas del concurso docente y define el objeto de dos de ellas. La selección mediante prueba de aptitudes y competencias básicas tiene por objeto escoger a los aspirantes más idóneos que harán parte del listado de elegibles. La clasificación tiene por objeto establecer el orden en ese listado según el mérito de cada concursante. Mauricio intercambió los dos objetos, y la otra razón que lo descarta confunde dos etapas distintas con una sola. En la prueba, asocia «selección» con quién entra a la lista y «clasificación» con en qué puesto queda cada uno.",
+   "fuente": "Decreto 1278 de 2002, art. 9",
+   "consejo": "Selección = escoger a los más idóneos. Clasificación = establecer el orden en la lista según el mérito.",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "Selección mediante prueba de aptitudes y competencias básicas. Tiene por objeto la escogencia de los aspirantes más idóneos que harán parte del correspondiente listado de elegibles.",
+     "ubicacion": "Decreto 1278 de 2002, art. 9"
+    },
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "Clasificación. Tiene por objeto establecer el orden en el listado de elegibles, según el mérito de cada concursante elegible",
+     "ubicacion": "Decreto 1278 de 2002, art. 9"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q291",
+   "caso": "C174",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 2,
+   "competencia": "Etapas del concurso: criterios de la clasificación",
+   "enunciado": "Según el artículo 9 del Decreto 1278 de 2002, lo que afirma la compañera sobre la clasificación",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "es incorrecto, porque la clasificación también tiene en cuenta los resultados de la prueba de aptitudes.",
+     "j": "Es correcta. El artículo 9 dice que para la clasificación «se tendrán en cuenta los resultados de la prueba de aptitudes y competencias básicas; la prueba psicotécnica; la entrevista y la valoración de antecedentes». La prueba de aptitudes sirve en la selección y vuelve a contar en el orden del listado."
+    },
+    {
+     "l": "B",
+     "t": "es correcto, porque la prueba de aptitudes solo define quién pasa y no vuelve a contar en el orden final.",
+     "j": "Es incorrecta. Supone que cada prueba se usa una sola vez. La norma incluye expresamente los resultados de la prueba de aptitudes y competencias básicas entre lo que se tiene en cuenta para clasificar, junto con la psicotécnica, la entrevista y los antecedentes."
+    },
+    {
+     "l": "C",
+     "t": "es incorrecto, porque la clasificación solo tiene en cuenta los resultados de la prueba de aptitudes.",
+     "j": "Es incorrecta. Acierta en que la compañera se equivoca, pero se va al otro extremo. El artículo 9 indica que en la clasificación cuentan cuatro resultados: la prueba de aptitudes y competencias básicas, la prueba psicotécnica, la entrevista y la valoración de antecedentes."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La compañera cree que la prueba de aptitudes deja de contar después de la selección. El artículo 9 del Decreto 1278 de 2002 dice lo contrario: para establecer el orden en el listado de elegibles se tienen en cuenta los resultados de la prueba de aptitudes y competencias básicas, la prueba psicotécnica, la entrevista y la valoración de antecedentes. Es decir, la prueba escrita sirve dos veces: para escoger a los más idóneos y para ordenar el listado. El error contrario, pensar que solo cuenta la prueba de aptitudes, también se descarta con la cita. En la prueba, cuando aparezca la clasificación, recuerda que suma cuatro resultados y no uno solo.",
+   "fuente": "Decreto 1278 de 2002, art. 9",
+   "consejo": "Clasificación = aptitudes + psicotécnica + entrevista + antecedentes.",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "para lo cual se tendrán en cuenta los resultados de la prueba de aptitudes y competencias básicas; la prueba psicotécnica; la entrevista y la valoración de antecedentes",
+     "ubicacion": "Decreto 1278 de 2002, art. 9"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q292",
+   "caso": "C175",
+   "familia": "PED-INCL",
+   "dificultad": 3,
+   "competencia": "Oferta general para estudiantes con discapacidad",
+   "enunciado": "Según el Decreto 1421 de 2017, en la oferta general lo que corresponde para Valentina es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "remitirla a la institución con más experiencia en discapacidad, en el grado que muestre su desempeño previo.",
+     "j": "Es incorrecta. Repite la sugerencia del funcionario. La norma no remite a la institución «especializada» sino a la más cercana a la residencia, y no ubica por desempeño sino según la edad cronológica. Los apoyos que necesite se definen en el PIAR."
+    },
+    {
+     "l": "B",
+     "t": "remitirla al establecimiento más cercano a su residencia, en el grado que indique una valoración pedagógica.",
+     "j": "Es incorrecta. Acierta en el establecimiento más cercano, pero falla en el grado. El decreto ordena ubicarla en el grado acorde a su edad cronológica; la valoración pedagógica sirve para diseñar los ajustes razonables del PIAR, no para bajarla de grado."
+    },
+    {
+     "l": "C",
+     "t": "remitirla al establecimiento más cercano a su residencia, en el grado acorde a su edad y con los ajustes del PIAR.",
+     "j": "Es correcta. El decreto dice que los estudiantes con discapacidad en la oferta general deben ser remitidos «al establecimiento educativo oficial o contratado más cercano a su lugar de residencia, y al grado acorde a su edad cronológica», con los ajustes razonables definidos en el PIAR."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Este caso tiene dos condiciones y el decreto resuelve ambas. Sobre el lugar: en la oferta general, los estudiantes con discapacidad deben ser remitidos al establecimiento oficial o contratado más cercano a su lugar de residencia, igual que en el sistema general. Sobre el grado: se ubican en el grado acorde a su edad cronológica. Las necesidades particulares de Valentina se atienden con los ajustes razonables definidos en el PIAR, dentro de las actividades escolares con los demás estudiantes. La opción más atractiva acierta en el lugar pero baja de grado a la estudiante. En la prueba, en inclusión, la lógica de la norma es la misma que para todos: cerca de casa, en su grado y con apoyos.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.2 (Decreto 1421 de 2017)",
+   "consejo": "Oferta general: el establecimiento más cercano + el grado según la edad cronológica + los ajustes del PIAR.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "deberán ser remitidos al establecimiento educativo oficial o contratado más cercano a su lugar de residencia, y al grado acorde a su edad cronológica.",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.2 (Decreto 1421 de 2017), num. 1"
+    },
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "contará con los ajustes razonables definidos en el PIAR, dentro de los espacios, ambientes y actividades escolares, con los demás estudiantes.",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.2 (Decreto 1421 de 2017), num. 1"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q293",
+   "caso": "C176",
+   "familia": "PED-INCL",
+   "dificultad": 2,
+   "competencia": "Oferta general: transporte y alimentación",
+   "enunciado": "De acuerdo con el Decreto 1421 de 2017, ante la situación de Darío, lo que corresponde es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "garantizar el transporte y la alimentación, si es el caso, para que curse sexto en otra institución.",
+     "j": "Es correcta. El decreto prevé que, cuando no sea posible atender al estudiante cerca de su residencia por un motivo justificado, «se garantizarán los servicios de transporte y alimentación, si es el caso». Así Darío puede continuar en la oferta general, en el grado que le corresponde."
+    },
+    {
+     "l": "B",
+     "t": "mantenerlo en la sede rural repitiendo quinto hasta que se abra la básica secundaria cerca de su casa.",
+     "j": "Es incorrecta. Hacerlo repetir un grado que ya aprobó desconoce su trayectoria y la regla de ubicarlo en el grado acorde a su edad. El decreto no ordena esperar: ante la imposibilidad justificada de estudiar cerca, garantiza el transporte y la alimentación."
+    },
+    {
+     "l": "C",
+     "t": "esperar a que la familia consiga el transporte, porque a la entidad le corresponde solo asignar el cupo.",
+     "j": "Es incorrecta. Traslada a la familia una carga que el decreto asigna al sistema educativo. La norma dice expresamente que, si no es posible estudiar cerca de la residencia por motivo justificado, se garantizarán el transporte y la alimentación, si es el caso."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La oferta general remite al estudiante con discapacidad al establecimiento más cercano a su residencia. Pero el Decreto 1421 de 2017 prevé qué pasa cuando eso no es posible por un motivo justificado, como una sede que solo ofrece hasta quinto: se garantizarán los servicios de transporte y alimentación, si es el caso. La respuesta protege la continuidad de la trayectoria de Darío en la oferta general. Las otras opciones lo dejan por fuera del grado que le corresponde o le trasladan a la familia una obligación del sistema. En la prueba, cuando un caso de inclusión plantee una barrera de distancia, busca la respuesta que remueve la barrera sin sacar al estudiante del sistema.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.2 (Decreto 1421 de 2017)",
+   "consejo": "Si no es posible estudiar cerca por motivo justificado: transporte y alimentación garantizados, si es el caso.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "En el evento que no sea posible cerca al lugar de residencia, por algún motivo justificado, se garantizarán los servicios de transporte y alimentación, si es el caso.",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.2 (Decreto 1421 de 2017), num. 1"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q294",
+   "caso": "C177",
+   "familia": "PED-INCL",
+   "dificultad": 3,
+   "competencia": "Oferta para población con discapacidad auditiva",
+   "enunciado": "Según el Decreto 1421 de 2017, dado que la familia de Martín optó por la oferta general, él",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "recibe en el aula regular los apoyos del PIAR, sin contar entre ellos con intérprete ni modelo lingüístico.",
+     "j": "Es correcta. El decreto dice que en la oferta general el estudiante con discapacidad auditiva «ingresa a un aula regular y se le brindan los apoyos determinados en el PIAR», pero «sin contar entre estos apoyos con intérprete de lengua de señas» ni modelo lingüístico, que son propios de la modalidad bilingüe-bicultural."
+    },
+    {
+     "l": "B",
+     "t": "recibe en el aula regular los apoyos del PIAR, incluido un intérprete de lengua de señas de la entidad.",
+     "j": "Es incorrecta. Es la solicitud del docente, pero el decreto la excluye expresamente de la oferta general. El intérprete de Lengua de Señas Colombiana y el modelo lingüístico se prevén en la oferta bilingüe-bicultural, que es la otra opción entre las que la familia pudo elegir."
+    },
+    {
+     "l": "C",
+     "t": "debe pasar a un aula paralela bilingüe, porque solo en esa modalidad se le pueden dar apoyos del PIAR.",
+     "j": "Es incorrecta. Desconoce la decisión de la familia y la norma. En la oferta general el estudiante sí recibe los apoyos del PIAR según su particularidad; lo que no recibe son el intérprete y el modelo lingüístico. Las aulas paralelas pertenecen a la modalidad bilingüe-bicultural."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El Decreto 1421 de 2017 ordena a la entidad territorial asesorar a las familias de estudiantes con discapacidad auditiva para optar entre dos caminos. En la oferta general, el estudiante ingresa a un aula regular y recibe los apoyos del PIAR conforme a su particularidad, sin intérprete de lengua de señas ni modelo lingüístico. En la modalidad bilingüe-bicultural, el proceso se da en Lengua de Señas Colombiana con el español como segunda lengua, en aulas paralelas con docentes bilingües, intérpretes y modelos lingüísticos. Como la familia eligió la oferta general, Martín recibe los apoyos del PIAR, pero no el intérprete. En la prueba, fíjate en la opción que eligió la familia: de ella dependen los apoyos.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.2 (Decreto 1421 de 2017)",
+   "consejo": "Auditiva, oferta general: aula regular + apoyos del PIAR, sin intérprete ni modelo lingüístico. Bilingüe-bicultural: LSC, aulas paralelas, intérpretes.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "por la oferta general en la cual el estudiante ingresa a un aula regular y se le brindan los apoyos determinados en el PIAR conforme su particularidad, sin contar entre estos apoyos con intérprete de lengua de señas colombina - Español, ni modelo lingüístico",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.2 (Decreto 1421 de 2017), num. 2"
+    },
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "la entidad territorial asesorará a las familias y a estos estudiantes, para optar",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.2 (Decreto 1421 de 2017), num. 2"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q295",
+   "caso": "C177",
+   "familia": "PED-INCL",
+   "dificultad": 2,
+   "competencia": "Oferta bilingüe bicultural",
+   "enunciado": "Si la familia de Martín hubiera optado por la modalidad bilingüe-bicultural, según el Decreto 1421 de 2017, el proceso de enseñanza-aprendizaje se haría",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "en español como primera lengua y en señas como apoyo, en el aula regular con un intérprete para el grupo.",
+     "j": "Es incorrecta. Invierte el orden de las lenguas: en la modalidad bilingüe-bicultural la Lengua de Señas Colombiana es la lengua de enseñanza y el español es la segunda lengua. Además, la norma habla de aulas paralelas, no de un intérprete dentro del aula regular."
+    },
+    {
+     "l": "B",
+     "t": "en Lengua de Señas Colombiana y en español escrito, en una institución especial solo para estudiantes sordos.",
+     "j": "Es incorrecta. Acierta en las lenguas, pero no en el lugar. El decreto ubica esta modalidad en «establecimientos educativos regulares», con aulas paralelas, y no en instituciones especiales separadas. La entidad puede centralizar la oferta en uno o varios establecimientos regulares y garantizar el transporte."
+    },
+    {
+     "l": "C",
+     "t": "en Lengua de Señas Colombiana y en español como segunda lengua, en aulas paralelas con docentes bilingües.",
+     "j": "Es correcta. El decreto define la modalidad bilingüe-bicultural como aquella cuyo proceso de enseñanza-aprendizaje es «en la Lengua de Señas Colombiana - Español como segunda lengua», en establecimientos regulares con «aulas paralelas y docentes bilingües», además de intérpretes y modelos lingüísticos."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El Decreto 1421 de 2017 describe la oferta bilingüe-bicultural para la población con discapacidad auditiva: el proceso de enseñanza-aprendizaje se da en Lengua de Señas Colombiana, con el español como segunda lengua, en establecimientos educativos regulares destinados para ello, que cuentan con aulas paralelas, docentes bilingües y otros apoyos como intérpretes y modelos lingüísticos. La entidad puede centralizar esta oferta en uno o varios establecimientos y garantizar el transporte a quienes vivan lejos. Los distractores cambian el orden de las lenguas o envían al estudiante a una institución segregada. En la prueba, recuerda que incluso esta modalidad funciona dentro de establecimientos regulares.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.2 (Decreto 1421 de 2017)",
+   "consejo": "Bilingüe-bicultural: LSC primero y español como segunda lengua, en establecimientos regulares con aulas paralelas.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "la Modalidad Bilingüe - Bicultural es aquella cuyo proceso de enseñanza - aprendizaje será en la Lengua de Señas Colombiana - Español como segunda lengua y consiste en la destinación de establecimientos educativos regulares, en los que se contarán con aulas paralelas y docentes bilingües",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.2 (Decreto 1421 de 2017), num. 2"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q296",
+   "caso": "C178",
+   "familia": "DIS-CTS",
+   "dificultad": 3,
+   "competencia": "La tecnología como construcción social no neutra",
+   "enunciado": "Según la dimensión social de las Orientaciones Curriculares de 2022, la intervención más coherente de la docente es mostrar que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la tecnología es neutra en sí misma, por lo que la discusión debe centrarse en las normas de uso del celular.",
+     "j": "Es incorrecta. Coincide con el primer estudiante, pero el documento afirma lo contrario: la T&I tiene «escasa neutralidad» y es resultado de tensiones sociales, culturales, políticas y económicas. Hablar de uso responsable es valioso, pero no corrige la idea de neutralidad."
+    },
+    {
+     "l": "B",
+     "t": "la tecnología es una construcción social no neutra: la sociedad influye en ella y ella influye en la sociedad.",
+     "j": "Es correcta. Las Orientaciones conciben la T&I y sus productos como «construcciones sociales no neutras», y piden reconocer tanto el rol de consumidores e intereses políticos en la forma de las soluciones como «los efectos contrarios: el modo en que la tecnología influye en los cambios sociales»."
+    },
+    {
+     "l": "C",
+     "t": "la tecnología determina por sí sola el cambio social, como pasó con Internet en el teletrabajo y el comercio.",
+     "j": "Es incorrecta. Es una verdad a medias que coincide con el segundo estudiante. Las Orientaciones sí reconocen que la tecnología influye en los cambios sociales, con ese mismo ejemplo, pero también que los grupos sociales y los intereses políticos moldean la forma que toman las soluciones."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Los dos estudiantes representan dos errores opuestos. El primero cree que la tecnología es neutra; el segundo, que la tecnología decide sola y la sociedad solo se adapta. La dimensión social de las Orientaciones de 2022 corrige a ambos: la T&I y sus productos son construcciones sociales no neutras, influidas por hechos sociales, económicos, culturales y por grupos de consumidores e intereses políticos, y al mismo tiempo la tecnología influye en los cambios sociales, como Internet en el teletrabajo. La respuesta correcta es la que mantiene las dos direcciones de la relación. En la prueba, desconfía de las opciones que presentan la relación entre tecnología y sociedad en un solo sentido.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.2.2, dimensión social",
+   "consejo": "Tecnología y sociedad se influyen en ambas direcciones; la T&I no es neutra.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Se concibe que la T&I y sus productos son construcciones sociales no neutras que representan uno de los muchos posibles caminos para solucionar un problema",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.2-3.2.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "pero también reconocer los efectos contrarios: el modo en que la tecnología influye en los cambios sociales",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.2-3.2.3"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q297",
+   "caso": "C179",
+   "familia": "DIS-CTS",
+   "dificultad": 3,
+   "competencia": "Superar la visión técnico-instrumental",
+   "enunciado": "Según la dimensión histórico contextual de las Orientaciones Curriculares de 2022, la observación que corresponde hacer sobre ese plan de área es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "debe superar una visión técnico-instrumental centrada solo en el uso eficiente y eficaz de los artefactos.",
+     "j": "Es correcta. El documento pide entender la T&I como resultado de una relación interdependiente entre personas, conocimientos, medio ambiente, medio técnico y calidad de vida, «superando esa visión técnico instrumental centrada en el exclusivo uso eficiente y eficaz de los artefactos o los sistemas». El plan de once está centrado exclusivamente en ese uso."
+    },
+    {
+     "l": "B",
+     "t": "está bien orientado, porque el dominio técnico de artefactos y equipos es un propósito de la práctica tecnológica.",
+     "j": "Es incorrecta. Es una verdad a medias: las Orientaciones sí incluyen el dominio de aspectos técnicos entre los propósitos de la práctica tecnológica. El problema del plan no es enseñar el uso, sino limitarse exclusivamente a él, que es la visión que el documento pide superar."
+    },
+    {
+     "l": "C",
+     "t": "debe concentrarse en la historia de cada tecnología y dejar el uso del software y del taller para otras áreas.",
+     "j": "Es incorrecta. Corrige un extremo con otro. La dimensión histórico contextual no elimina el uso de los artefactos; lo integra con preguntas sobre cómo surgen, por qué se eligen para un contexto y cómo se relacionan con las personas y el ambiente. Trasladar el uso a otras áreas no tiene base en el documento."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La palabra clave del caso es «exclusivamente». La dimensión histórico contextual de las Orientaciones de 2022 invita a preguntarse cómo surge una tecnología, cómo evoluciona y por qué se eligió para un contexto, y a entender la T&I como resultado de una relación interdependiente entre personas, conocimientos, medio ambiente, medio técnico y calidad de vida. Así se supera la visión técnico-instrumental centrada en el exclusivo uso eficiente y eficaz de los artefactos. El distractor más fuerte recuerda que el dominio técnico es un propósito del área, lo cual es cierto, pero no justifica un plan que solo enseña a usar. En la prueba, distingue entre incluir el uso y reducirlo todo al uso.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.2.3, dimensión histórico contextual",
+   "consejo": "El uso eficiente sí, pero no como único propósito: hay que superar la visión técnico-instrumental.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "superando esa visión técnico instrumental centrada en el exclusivo uso eficiente y eficaz de los artefactos o los sistemas, sean estos analógicos o digitales.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.2-3.2.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "implica entender la T&I y sus productos como resultado de una relación interdependiente y corresponsable entre personas, sus conocimientos y formas de hacer y actuar, medio ambiente y medio técnico, calidad de vida",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.2-3.2.3"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q298",
+   "caso": "C180",
+   "familia": "PED-ENSENAR",
+   "dificultad": 1,
+   "competencia": "La práctica tecnológica como vivencia",
+   "enunciado": "Según las Orientaciones Curriculares de 2022, la actividad que mejor fortalece la práctica tecnológica en esta unidad es que la docente",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "proyecte un video sobre la bomba y los niños copien en el cuaderno el nombre de cada una de sus partes.",
+     "j": "Es incorrecta. Los niños solo reciben información sobre la bomba, sin vivirla ni participar en su uso o generación. Un video puede servir como apoyo, pero no asegura la experiencia propia que el documento pone en el centro de la práctica tecnológica."
+    },
+    {
+     "l": "B",
+     "t": "invite a un técnico a reparar la bomba de la escuela mientras los niños lo observan y toman apuntes.",
+     "j": "Es incorrecta. Observar a un experto puede motivar, pero los niños quedan como espectadores. La práctica tecnológica exige asegurar la vivencia y la participación de los estudiantes frente al uso y la generación de artefactos, no solo mirar cómo otro los manipula."
+    },
+    {
+     "l": "C",
+     "t": "organice que los niños manipulen materiales, armen una bomba sencilla y evalúen cómo funciona.",
+     "j": "Es correcta. Las Orientaciones dicen que la práctica tecnológica convierte la T&I en «experiencia encarnada», producto de la vivencia que los niños alcanzan «al manipular, estudiar y comprender el uso de materiales», y piden asegurar su participación en el uso, la generación y la evaluación de artefactos."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones de 2022 señalan que la práctica tecnológica es un propósito de formación del área y que por eso se debe asegurar la vivencia y participación de niñas, niños y adolescentes frente al uso y generación de artefactos y sistemas y a su evaluación. La práctica convierte la T&I en experiencia propia, en experiencia encarnada, producto de manipular, estudiar y comprender materiales, procesos y sistemas. Armar y evaluar una bomba sencilla cumple esa condición; ver un video o mirar a un técnico deja a los niños como espectadores. En la prueba, en casos de enseñanza del área, prefiere la opción en la que el estudiante hace, prueba y evalúa.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.2.3, práctica tecnológica",
+   "consejo": "Práctica tecnológica = vivencia y participación: manipular, construir y evaluar.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la práctica tecnológica convierte las expresiones de la T&I en experiencia propia, experiencia encarnada, modos de hacer y actuar producto de la vivencia que niñas, niños o adolescentes alcanzan al manipular, estudiar y comprender el uso de materiales e insumos",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.2-3.2.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "se debe asegurar la vivencia y participación de niñas, niños o adolescentes frente al uso y generación de artefactos y sistemas",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.2-3.2.3"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q299",
+   "caso": "C181",
+   "familia": "DIS-COMP",
+   "dificultad": 2,
+   "competencia": "Competencias por conjunto de grados",
+   "enunciado": "Según las Orientaciones Curriculares de 2022, frente a la solicitud de la coordinadora, lo adecuado es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "aplicar las competencias de 1° a 3° tal como están escritas, porque el documento las fija para cada uno de esos grados.",
+     "j": "Es incorrecta. Es la lectura de la coordinadora, y el documento la descarta expresamente: las competencias del conjunto describen lo que debe demostrar el estudiante al final de tercero y «de ningún modo» corresponden taxativamente a lo que pueda hacer un estudiante de primero."
+    },
+    {
+     "l": "B",
+     "t": "entender que esas competencias describen lo que logra el estudiante de tercero y definir en el SIEE evidencias para primero.",
+     "j": "Es correcta. El documento aclara que las competencias de 1° a 3° «evidencian la competencia que el estudiante de tercero debe demostrar» y no corresponden taxativamente a lo que puede hacer el de primero o segundo; por eso cada institución ajusta su SIEE y define sus propias evidencias para 1° y 2°."
+    },
+    {
+     "l": "C",
+     "t": "esperar a que el Ministerio publique las evidencias de primero antes de evaluar a los estudiantes de ese grado.",
+     "j": "Es incorrecta. Supone que esa tarea es del Ministerio. Las Orientaciones asignan a cada establecimiento, en el marco de su autonomía institucional, la responsabilidad de ajustar su SIEE y definir sus propias evidencias de aprendizaje para los grados 1° y 2°, así como para 4°, 6°, 8° y 10°."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones de 2022 organizan las competencias por conjuntos de grados y aclaran que describen lo que el estudiante debe ser capaz de hacer de manera autónoma al finalizar cada conjunto: tercero, quinto, séptimo, noveno y once. Las competencias de 1° a 3° muestran lo que debe demostrar el estudiante de tercero y no lo que se le exige a uno de primero. Por eso cada institución, en el marco de su autonomía, ajusta su SIEE y define sus propias evidencias de aprendizaje para los grados intermedios. En la prueba, cuando un caso aplique una competencia de un conjunto a un grado inicial, recuerda que la meta es al final del conjunto y que las evidencias intermedias las define la institución.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.3, organización curricular",
+   "consejo": "Competencias de 1° a 3° = lo que logra el de tercero. La institución define las evidencias de 1°, 2°, 4°, 6°, 8° y 10° en su SIEE.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "las competencias para primero a tercero (1° - 3°) evidencian la competencia que el estudiante de tercero debe demostrar y de ningún modo, corresponde taxativamente a lo que pueda hacer el estudiante de primero o segundo",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.3 y 3.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "debe ajustar su Sistema Institucional de Evaluación de los Estudiantes -SIEE- en relación con las competencias del área de T&I, y definir sus propias evidencias de aprendizaje para los grados 1° y 2°",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.3 y 3.3"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q300",
+   "caso": "C182",
+   "familia": "PED-CURR",
+   "dificultad": 3,
+   "competencia": "Criterios para decidir en qué profundizar",
+   "enunciado": "Según las Orientaciones Curriculares de 2022, el equipo de docentes debe decidir en qué profundizar con base en",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "los planes de las instituciones con mejores resultados, las tendencias globales y los recursos de la sala de cómputo.",
+     "j": "Es incorrecta. Recoge la propuesta de copiar el plan del colegio de Bogotá. Las Orientaciones no proponen trasladar planes de otros contextos; piden partir de la región. El contexto global aparece, pero como oportunidad a la que la región debe sumarse según sus propias necesidades."
+    },
+    {
+     "l": "B",
+     "t": "los dominios de sus docentes, los intereses de los estudiantes y los temas que más evalúan las pruebas externas.",
+     "j": "Es incorrecta. Acierta en el primer elemento, los dominios de los docentes, pero cambia los otros dos. El documento pide considerar las condiciones históricas y contextuales de la región y sus necesidades de desarrollo en T&I, no los temas de las pruebas externas."
+    },
+    {
+     "l": "C",
+     "t": "los dominios de sus docentes, las condiciones de la región en T&I y las necesidades de desarrollo que esta requiere.",
+     "j": "Es correcta. El documento dice que cada equipo de docentes debe «determinar en qué profundizar según tres elementos»: los dominios que los docentes tengan de la T&I, las condiciones históricas y contextuales de su región y las necesidades de desarrollo en T&I que la región requiere."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones de 2022 dejan en manos de cada equipo de docentes la decisión sobre en qué profundizar, y le dan tres criterios: los dominios que los docentes tengan de la T&I, las condiciones históricas y contextuales que su región tiene de la T&I, y las necesidades de desarrollo en T&I que la región requiere para sumarse a las oportunidades del contexto global. Copiar el plan de otro colegio desconoce la región, y guiarse por las pruebas externas cambia dos de los tres criterios. El distractor más cercano comparte el primero, por eso hay que revisar los tres. En la prueba, en preguntas de currículo del área, la región y su contexto casi siempre forman parte de la respuesta.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.2.3",
+   "consejo": "Profundizar según: dominios de los docentes + condiciones de la región + necesidades de desarrollo de la región.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Será responsabilidad de cada equipo de docentes en los establecimientos educativos del país determinar en qué profundizar según tres elementos: a. Los dominios que los docentes tengan de la T&I; b. Las condiciones históricas y contextuales que su región tiene de la T&I",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.3 y 3.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Las necesidades de desarrollo en T&I que la región requiere para sumarse a las oportunidades del contexto global",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.3 y 3.3"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q301",
+   "caso": "C183",
+   "familia": "DIS-CTS",
+   "dificultad": 2,
+   "competencia": "La tecnología no se transfiere con resultados idénticos",
+   "enunciado": "Según las Orientaciones Curriculares de 2022, la docente debe ayudar a los estudiantes a comprender que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la T&I depende de personas, organizaciones y máquinas, y no se transfiere con resultados idénticos.",
+     "j": "Es correcta. El documento pide entender que la T&I «surge de un todo complejo que depende de sistemas que incluyen personas con educación, organizaciones y máquinas» y que «no es un producto aislado y aislable que pueda transferirse de un contexto a otro con resultados idénticos»."
+    },
+    {
+     "l": "B",
+     "t": "la tecnología funciona igual en cualquier lugar si se copian con precisión sus planos y su programación.",
+     "j": "Es incorrecta. Es la creencia de los estudiantes, que el documento contradice: la tecnología depende de personas, organizaciones y condiciones del contexto. Copiar planos y programación es útil para estudiar el sistema, pero no garantiza los mismos resultados en la huerta escolar."
+    },
+    {
+     "l": "C",
+     "t": "la tecnología importada debe descartarse, porque solo las soluciones locales responden a nuestra cultura.",
+     "j": "Es incorrecta. Corrige el error con otro extremo. Las Orientaciones no rechazan la tecnología de otros lugares; advierten que no se transfiere con resultados idénticos y que hay que adaptarla al contexto. Sería válida solo si el documento prohibiera el estudio de soluciones externas, y no lo hace."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Entre los propósitos de la práctica tecnológica, las Orientaciones de 2022 incluyen apropiarse de patrones de organización, planeación y gestión, y entender que la T&I surge de un todo complejo que depende de sistemas que incluyen personas con educación, organizaciones y máquinas. Por eso no es un producto aislado que pueda transferirse de un contexto a otro con resultados idénticos. La propuesta de los estudiantes es una buena oportunidad para estudiar el sistema importado y adaptarlo a la huerta escolar, sin creer que copiarlo basta ni descartarlo por venir de fuera. En la prueba, entre dos extremos, la respuesta del área suele ser contextualizar la tecnología.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.2.3, práctica tecnológica",
+   "consejo": "La tecnología no se copia y pega: depende de personas, organizaciones y contexto.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Entender que la T&I surge de un todo complejo que depende de sistemas que incluyen personas con educación, organizaciones y máquinas, y por ende, no es un producto aislado y aislable que pueda transferirse de un contexto a otro con resultados idénticos",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.3 y 3.3"
+    }
+   ]
+  },
+  {
+   "tipo": "conocimiento",
+   "id": "K071",
+   "ficha": "F36",
+   "familia": "DIS-COMP",
+   "dificultad": 1,
+   "competencia": "Propósito formativo central del área",
+   "enunciado": "Según las Orientaciones Curriculares de 2022, el propósito formativo central del área de Tecnología e Informática es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la solución de problemas de orden fáctico y el dominio de las prácticas tecnológicas que lo hacen posible.",
+     "j": "Es correcta. Es la formulación literal del documento: el propósito formativo central del área «es la solución de problemas de orden fáctico y el dominio de las prácticas tecnológicas que lo hacen posible». Por eso el área insiste en que la formación en solución de problemas es un propósito ineludible."
+    },
+    {
+     "l": "B",
+     "t": "el uso eficiente y eficaz de los artefactos y sistemas digitales que llegan a las instituciones educativas.",
+     "j": "Es incorrecta. Reduce el área a la visión técnico-instrumental que el propio documento pide superar, centrada en el uso eficiente de los artefactos. Además, el área trabaja tanto artefactos analógicos como digitales, no solo los sistemas digitales."
+    },
+    {
+     "l": "C",
+     "t": "el desarrollo de competencias informáticas para el manejo de programas, plataformas y redes en el aula.",
+     "j": "Es incorrecta. Las competencias informáticas son una de las competencias genéricas que el área favorece, pero el documento aclara que son transversales y no constituyen el propósito central. El centro es la solución de problemas de orden fáctico y el dominio de las prácticas tecnológicas."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Las Orientaciones Curriculares de 2022 lo dicen de forma directa: el propósito formativo central del área de Tecnología e Informática es la solución de problemas de orden fáctico y el dominio de las prácticas tecnológicas que lo hacen posible. A partir de allí se entienden los tres tipos de problemas del área (invención, innovación y uso y adopción) y las tres dimensiones de la formación. Las otras opciones nombran cosas que el área sí trabaja, como el uso de artefactos o las competencias informáticas, pero no son su propósito central. En la prueba, cuando pregunten por el propósito del área, busca «solución de problemas» y no «manejo de herramientas».",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.2",
+   "consejo": "Propósito central del área = solución de problemas de orden fáctico + dominio de las prácticas tecnológicas.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "el propósito formativo central del área de Tecnología e Informática es la solución de problemas de orden fáctico y el dominio de las prácticas tecnológicas que lo hacen posible",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2"
+    }
+   ]
+  },
+  {
+   "tipo": "conocimiento",
+   "id": "K072",
+   "ficha": "F36",
+   "familia": "DIS-COMP",
+   "dificultad": 2,
+   "competencia": "Dimensiones de la formación en T&I",
+   "enunciado": "Una docente pregunta a sus estudiantes: «¿por qué esta tecnología y no otra?, ¿por qué digital y no analógica?, ¿por qué para este contexto y no para otro?». Según las Orientaciones Curriculares de 2022, estas preguntas trabajan principalmente la dimensión",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "individual, porque desarrollan las formas de pensar de cada estudiante frente al fenómeno tecnológico.",
+     "j": "Es incorrecta. La dimensión individual se ocupa de desarrollar formas de pensar lo tecnológico, como el pensamiento computacional o de diseño. Las preguntas del caso no apuntan a una forma de pensar, sino a por qué una tecnología surge y se elige en un tiempo y un contexto."
+    },
+    {
+     "l": "B",
+     "t": "histórico contextual, porque buscan apropiarse de la naturaleza de la tecnología según su tiempo y contexto.",
+     "j": "Es correcta. El documento ubica esas mismas preguntas en la dimensión histórico contextual, que «fundamenta la práctica tecnológica» en su «evolución temporal» y «espacio contextual», y dice que con ellas «podemos apropiarnos de su naturaleza»."
+    },
+    {
+     "l": "C",
+     "t": "social, porque forman una postura ética y política frente a los límites que se deben poner a la tecnología.",
+     "j": "Es incorrecta. La dimensión social forma en lo ético, lo político y lo crítico para decidir límites y modos de impulsar la tecnología. Las preguntas del caso son de otra naturaleza: indagan por qué una tecnología y no otra en un contexto, lo que el documento asigna a la dimensión histórico contextual."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones de 2022 proponen tres dimensiones de la formación en Tecnología e Informática. La individual desarrolla formas de pensar lo tecnológico. La social forma en lo ético, lo político y lo crítico frente a la T&I. La histórico contextual fundamenta la práctica tecnológica en su evolución temporal y en su contexto, y el documento la ilustra con preguntas como «¿por qué esta tecnología y no otra?», «¿por qué digital y no analógica?» o «¿por qué para este contexto y no en otro?». En la prueba, si las preguntas del caso indagan por el origen, la evolución o la elección de una tecnología en un lugar, la dimensión es la histórico contextual.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.2.3",
+   "consejo": "«¿Por qué esta tecnología y no otra?» = dimensión histórico contextual.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "podemos apropiarnos de su naturaleza: ¿por qué esta tecnología y no otra? ¿Por qué mecánica y no eléctrica? ¿Por qué digital y no analógica?",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.2-3.2.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "La dimensión histórico contextual fundamenta la práctica tecnológica, los modos de hacer y actuar en relación con el uso y generación de la tecnología y la informática tanto en su evolución temporal como espacio contextual",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.2.2-3.2.3"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q302",
+   "caso": "C184",
+   "familia": "RC-INT",
+   "dificultad": 3,
+   "competencia": "Comparar grupos de distinto tamaño con proporciones",
+   "enunciado": "Si se compara el cumplimiento con el indicador adecuado, ¿cuántas entregas más necesitaba 9B para igualar el cumplimiento de 9A?",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "Cuatro entregas más, porque así a 9B le faltarían ocho, igual que al grupo 9A.",
+     "j": "Es incorrecta. Compara cantidades absolutas de faltantes en grupos de distinto tamaño. Con 32 entregas, 9B tendría el 80 %, más que el 75 % de 9A. Igualar el número de faltantes no iguala el cumplimiento cuando los grupos tienen distinto tamaño."
+    },
+    {
+     "l": "B",
+     "t": "Cinco entregas más, porque la diferencia entre el 75 % y el 70 % es de cinco puntos.",
+     "j": "Es incorrecta. Confunde puntos porcentuales con número de estudiantes. La diferencia de 5 puntos porcentuales, aplicada a un grupo de 40 estudiantes, equivale a dos entregas (el 5 % de 40), no a cinco."
+    },
+    {
+     "l": "C",
+     "t": "Dos entregas más, porque el 75 % de 40 estudiantes es 30 y el grupo 9B llevaba 28.",
+     "j": "Es correcta. El cumplimiento se compara con proporciones: 9A entregó 24 de 32, es decir, el 75 %. Para que 9B alcance ese 75 % con 40 estudiantes necesita 30 entregas; como tenía 28, le faltaban dos entregas."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El docente comparó cantidades absolutas, pero los grupos tienen distinto tamaño, así que se debe usar la proporción. 9A entregó 24 de 32, el 75 %; 9B entregó 28 de 40, el 70 %. Por tanto, 9A tuvo mejor cumplimiento. El segundo paso es calcular cuánto le faltaba a 9B: el 75 % de 40 es 30, y como llevaba 28, necesitaba dos entregas más. Los distractores repiten errores frecuentes: igualar los faltantes absolutos o tratar los puntos porcentuales como si fueran personas. En la prueba de razonamiento cuantitativo, cuando compares grupos de distinto tamaño, pasa primero a porcentajes y solo después vuelve a cantidades.",
+   "fuente": "Razonamiento cuantitativo: proporciones y porcentajes",
+   "consejo": "Grupos de distinto tamaño: compara porcentajes, no cantidades. 5 puntos porcentuales de 40 son 2 personas.",
+   "citas": []
+  },
+  {
+   "tipo": "caso",
+   "id": "Q303",
+   "caso": "C185",
+   "familia": "CB-EQUIPO",
+   "dificultad": 2,
+   "competencia": "Distribuir responsabilidades en el equipo",
+   "enunciado": "Como jefe de área, la acción más adecuada para orientar el trabajo del equipo es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "dejar que el docente experto organice solo la feria, porque así se asegura la calidad técnica del evento.",
+     "j": "Es incorrecta. Prioriza el resultado técnico y desconoce el trabajo en equipo. Mantiene la exclusión de las compañeras y desperdicia su experiencia en programación y logística. Delegar en una persona sería razonable para una tarea puntual, no para un proyecto de toda el área."
+    },
+    {
+     "l": "B",
+     "t": "reunir al equipo, distribuir las tareas según las fortalezas de cada docente y acordar un seguimiento conjunto.",
+     "j": "Es correcta. Orientar un equipo implica distribuir responsabilidades según las fortalezas de cada integrante, con acuerdos y seguimiento. Así se aprovecha la experiencia en electrónica del docente y la de sus compañeras en programación y logística, y se recupera la participación de todo el equipo."
+    },
+    {
+     "l": "C",
+     "t": "asignar a cada docente un tercio idéntico de las tareas, sin considerar su experiencia, para ser equitativa.",
+     "j": "Es incorrecta. Busca equidad, pero confunde equidad con repartir todo por igual. Ignorar las fortalezas de cada docente puede afectar la calidad de la feria. Lo adecuado es distribuir según fortalezas, con acuerdos, y no de forma mecánica."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "En las competencias de trabajo en equipo, la CNSC suele premiar la acción de quien orienta al grupo hacia una meta común aprovechando lo que cada integrante sabe hacer. En el caso, el problema no es la capacidad técnica del docente, sino que trabaja solo y excluye a sus compañeras, que tienen experiencia en programación y logística. La jefe de área debe reunir al equipo, distribuir responsabilidades según fortalezas, construir acuerdos y hacer seguimiento conjunto. Dejar todo al experto mantiene la exclusión, y repartir tareas idénticas ignora las fortalezas. En la prueba, desconfía tanto de la opción que centraliza todo en una persona como de la que reparte de forma mecánica.",
+   "fuente": "Competencias comportamentales: trabajo en equipo",
+   "consejo": "Equipo: distribuir según fortalezas + acuerdos + seguimiento. Ni todo para uno ni partes iguales mecánicas.",
+   "citas": []
+  },
+  {
+   "tipo": "caso",
+   "id": "Q304",
+   "caso": "C186",
+   "familia": "PSI-COMRI",
+   "dificultad": 1,
+   "competencia": "Comunicación con acudientes",
+   "enunciado": "Frente al reclamo de la madre, la actuación más adecuada de la docente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "escucharla con calma, explicarle cómo funcionan los equipos y acordar una salida para el trabajo.",
+     "j": "Es correcta. Escuchar con empatía, explicar con claridad y respeto y buscar una salida conjunta mantiene la confianza con la familia. La docente aclara que los equipos se restauran cada noche, sin culpar a nadie, y acuerda con la madre cómo apoyar al estudiante para recuperar el trabajo."
+    },
+    {
+     "l": "B",
+     "t": "pedirle que se retire y solicite una cita formal, porque no es el momento de atender reclamos de familias.",
+     "j": "Es incorrecta. Puede ser razonable programar una cita cuando no hay tiempo, pero despedirla sin escucharla aumenta el malestar y rompe la comunicación. La relación con las familias exige al menos escuchar y ofrecer una respuesta respetuosa, aunque luego se agende una reunión."
+    },
+    {
+     "l": "C",
+     "t": "explicarle de inmediato que su hijo es el único responsable, porque se le pidió guardar copia en el correo.",
+     "j": "Es incorrecta. El dato es cierto, pero usarlo para culpar al estudiante desde el primer momento cierra el diálogo y no ayuda a resolver el problema. Una comunicación respetuosa explica lo ocurrido sin señalar culpables y busca una solución con la familia."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La competencia de comunicación y relaciones interpersonales se evalúa en situaciones de tensión como esta. La respuesta esperada combina tres acciones: escuchar con empatía, explicar con claridad y respeto lo que ocurrió y acordar una salida. La docente tiene la razón técnica, pues los equipos se restauran cada noche y se pidió guardar copia, pero usar ese dato para culpar al estudiante cierra el diálogo, y despedir a la madre sin escucharla rompe la confianza. Lo adecuado es explicar sin señalar culpables y buscar con ella cómo recuperar el trabajo. En la prueba, ante un reclamo de una familia, elige la opción que escucha, aclara y propone, en ese orden.",
+   "fuente": "Competencias comportamentales: comunicación y relaciones interpersonales",
+   "consejo": "Ante un reclamo: escuchar, explicar con claridad y respeto, y acordar una salida.",
+   "citas": []
+  }
+ ]
+}
