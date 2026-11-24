@@ -1,0 +1,867 @@
+{
+ "id": "2026-11-24",
+ "fecha": "2026-11-24",
+ "casos": [
+  {
+   "id": "C187",
+   "titulo": "El estudiante que llega sin desayunar",
+   "texto": "En una institución educativa oficial de Yopal, la docente de Tecnología e Informática nota que un estudiante de séptimo se duerme en clase, está muy delgado y le cuenta que casi nunca desayuna ni almuerza porque en su casa no alcanza. La docente informa al rector, quien responde: «La alimentación es responsabilidad de la familia y de la alcaldía. Según el principio de corresponsabilidad, al colegio no le toca hacer nada distinto de enseñar». La orientadora escolar está de vacaciones y regresa en dos semanas. Al día siguiente, un vecino del estudiante, que no es su familiar, se acerca a la docente preocupado por la situación del niño."
+  },
+  {
+   "id": "C188",
+   "titulo": "Los videos del concurso de experiencias",
+   "texto": "Una docente de Tecnología e Informática de Yopal quiere presentar su proyecto de robótica en un concurso regional de experiencias significativas. Para documentarlo, publicó en un canal abierto de video varias grabaciones en las que se ven con claridad los rostros y los nombres de sus estudiantes de octavo. La madre de una estudiante pide que se retire el video en el que aparece su hija, porque no autorizó esa publicación. La docente responde que el concurso cierra en una semana, que el video es la mejor evidencia de su trabajo y que ella también tiene derecho a mostrar su labor profesional."
+  },
+  {
+   "id": "C189",
+   "titulo": "El celular decomisado en la sala de informática",
+   "texto": "En una institución educativa oficial de Yopal, el docente de Tecnología e Informática le retira el celular a un estudiante de noveno durante una clase en la sala de informática. El estudiante reacciona con gritos, el docente lo saca del aula y la discusión sigue en el pasillo frente a otros estudiantes. La abuela del estudiante, que es su acudiente y estaba en la institución para una reunión, presenció lo ocurrido. Al día siguiente, la madre del estudiante pide por escrito al Comité Escolar de Convivencia un espacio para conciliar con el docente. El coordinador opina que el caso no le corresponde al comité porque, según él, el comité solo atiende conflictos entre estudiantes."
+  },
+  {
+   "id": "C190",
+   "titulo": "Una sola evidencia para el aula multigrado",
+   "texto": "Una docente de una sede rural de Yopal atiende en la misma aula a estudiantes de primero a quinto. Para su unidad de Tecnología e Informática sobre los artefactos de la cocina de la casa, escribe una única evidencia de aprendizaje para todos los grados: «Explica por escrito, con un diagrama, cómo cambió la forma de cocinar en el Casanare desde el fogón de leña hasta la estufa eléctrica y propone una mejora para su casa». Al revisar la planeación, el directivo le recuerda que debe tener en cuenta los criterios de las Orientaciones Curriculares de 2022 para formular las evidencias de aprendizaje."
+  },
+  {
+   "id": "C191",
+   "titulo": "Tres artefactos para empezar en sexto",
+   "texto": "Una docente de Tecnología e Informática de sexto en Yopal quiere ordenar una unidad del componente Naturaleza y evolución de la tecnología y la informática de lo simple a lo complejo. Elige tres productos tecnológicos. El primero es el molino manual de maíz, que casi todos usan en casa, tiene pocas partes y se maneja con una sola acción. El segundo es el celular, que los estudiantes usan todos los días y del que saben mucho, aunque tiene muchas partes internas. El tercero es el sistema automatizado de riego de un cultivo de arroz cercano, que ninguno ha visto funcionar, tiene muchas partes y exige varios pasos para operarlo."
+  },
+  {
+   "id": "C192",
+   "titulo": "El comité y el sobrino del coordinador",
+   "texto": "El Comité Escolar de Convivencia de una institución educativa oficial de Yopal se reúne para analizar una agresión entre dos estudiantes de décimo. Uno de los estudiantes involucrados es sobrino del coordinador, que integra el comité y es servidor público. En la misma reunión, la secretaria propone no elaborar acta porque «solo vamos a conversar y no vamos a decidir nada». Además, el comité debe revisar la actualización del manual de convivencia y planear una campaña de prevención del ciberacoso para el próximo año."
+  },
+  {
+   "id": "C193",
+   "titulo": "Las cámaras del parque",
+   "texto": "La alcaldía de Yopal abre una audiencia pública para decidir si instala cámaras con reconocimiento facial en el parque principal. Los estudiantes de décimo ya analizaron en clases anteriores las posibles ventajas y riesgos sociales de esas cámaras, como la seguridad y la privacidad. Ahora, la docente de Tecnología e Informática organiza una nueva actividad: cada equipo prepara una propuesta argumentada, la presenta en la audiencia pública y pide a las autoridades que tengan en cuenta su postura antes de tomar la decisión."
+  },
+  {
+   "id": "C194",
+   "titulo": "El tanque de enfriamiento de la vereda",
+   "texto": "Una docente de Tecnología e Informática de séptimo trabaja con estudiantes de una vereda de Yopal donde una asociación de productores instaló un tanque comunitario de enfriamiento de leche. La docente pide a los estudiantes que entrevisten a los productores y expliquen cómo el uso de ese tanque permitió que la vereda conservara la leche, la vendiera a mejores precios y resolviera un problema económico que afectaba a todas las familias de la asociación."
+  },
+  {
+   "id": "C195",
+   "titulo": "El secador solar de arroz",
+   "texto": "Los estudiantes de noveno de una institución de Yopal diseñaron y construyeron un secador solar para el arroz que producen sus familias. El prototipo cumplió la especificación principal: seca el grano en menos tiempo que el secado al aire libre. Sin embargo, al probarlo notaron que el plástico de la cubierta se rompe con el sol en pocas semanas y queda como residuo, y que el calor acumulado quiebra parte del grano. La docente piensa cerrar el proyecto porque la meta inicial ya se cumplió."
+  },
+  {
+   "id": "C196",
+   "titulo": "La estrategia de la sede urbana",
+   "texto": "Una docente de Tecnología e Informática atiende una sede rural de una institución de Yopal que tiene tres tabletas, no tiene conexión a internet y cuenta con dos horas semanales para el área. El coordinador le pide replicar exactamente la estrategia de la sede urbana, que trabaja con un laboratorio de robótica, computadores para todos y cuatro horas semanales. La docente tiene amplia experiencia en el diseño de proyectos con materiales del entorno."
+  }
+ ],
+ "fichas": [
+  {
+   "id": "F37",
+   "familia": "DIS-COMP",
+   "titulo": "Cómo se formulan las evidencias de aprendizaje (Orientaciones 2022)",
+   "lectura": "Las Orientaciones Curriculares de Tecnología e Informática (MEN, 2022) piden que las evidencias de aprendizaje sean coherentes con cuatro criterios: a) las intenciones formativas del área, del componente y del Proyecto Educativo Institucional; b) el estadio de desarrollo cognitivo, físico, moral y social de los estudiantes del conjunto de grados, porque «No será la misma evidencia de aprendizaje la que se pida a un escolar de primero en comparación con uno de quinto grado»; c) los dominios que evidencian la competencia y su gradación para cada grado (teóricos, prácticos, prospectivos y críticos), y d) las correlaciones entre los componentes, que aseguran una formación holística. En el marco de su autonomía, cada establecimiento decide qué evidencias toma a pie de letra y cuáles adapta o genera. Además, las competencias de las tablas son la exigencia mínima que los sistemas nacionales de evaluación tienen en cuenta para las pruebas Saber y para los concursos docentes de selección y ascenso.",
+   "puntos": [
+    "Criterio a: intenciones formativas del área, del componente y del PEI.",
+    "Criterio b: estadio de desarrollo; no se pide lo mismo en primero que en quinto.",
+    "Criterio c: dominios teóricos, prácticos, prospectivos y críticos, con gradación por grado.",
+    "Criterio d: correlaciones entre los cuatro componentes (formación holística).",
+    "Autonomía: cada establecimiento decide qué evidencias usa a pie de letra y cuáles adapta o genera.",
+    "Las competencias de las tablas son la exigencia mínima para pruebas Saber y concursos docentes.",
+    "Trampa CNSC: creer que las evidencias son obligatorias al pie de la letra o que las competencias son un techo."
+   ],
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "No será la misma evidencia de aprendizaje la que se pida a un escolar de primero en comparación con uno de quinto grado.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "en el marco de su autonomía, cada Establecimiento Educativo definirá cuáles evidencias de aprendizaje abordará a pie de letra y cuáles deberá adaptar o generar para dar cumplimiento a las competencias aquí propuestas",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "las competencias presentadas en las tablas son la exigencia mínima de aprendizaje que los sistemas nacionales de evaluación tomarán en cuenta para el diseño de pruebas de aprendizaje como las pruebas saber, Saber Once, y para los concursos docentes de selección y ascenso",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "tipo": "caso",
+   "id": "Q305",
+   "caso": "C187",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 2,
+   "competencia": "Corresponsabilidad en la garantía de derechos",
+   "enunciado": "De acuerdo con el artículo 10 de la Ley 1098 de 2006, el argumento del rector es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "válido, porque la corresponsabilidad asigna a la familia el cuidado del estudiante y a la escuela solo su formación académica.",
+     "j": "Es incorrecta. La corresponsabilidad no reparte funciones en compartimentos cerrados: la familia, la sociedad y el Estado son corresponsables de la atención, el cuidado y la protección. La ley prohíbe expresamente usar ese principio como excusa para no atender a un niño cuyos derechos están en riesgo."
+    },
+    {
+     "l": "B",
+     "t": "inadmisible, porque una institución que presta servicios sociales no puede usar la corresponsabilidad para negar la atención.",
+     "j": "Es correcta. El artículo 10 dice que las instituciones públicas o privadas obligadas a prestar servicios sociales «no podrán invocar el principio de la corresponsabilidad para negar la atención». La institución educativa oficial presta un servicio social y no puede escudarse en la familia o la alcaldía para no actuar."
+    },
+    {
+     "l": "C",
+     "t": "válido en parte, porque la escuela debe actuar cuando se demuestre que la familia incumplió primero sus deberes de cuidado.",
+     "j": "Es incorrecta. La ley no condiciona la actuación de la escuela a que primero se pruebe el incumplimiento de la familia. Esperar esa prueba es justamente negar la atención por corresponsabilidad. La escuela actúa de inmediato y, en paralelo, se informa a las autoridades que correspondan."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 10 de la Ley 1098 define la corresponsabilidad como la concurrencia de actores y acciones para garantizar los derechos de niños, niñas y adolescentes, y señala que la familia, la sociedad y el Estado son corresponsables de su atención, cuidado y protección. Pero añade un límite claro: las instituciones obligadas a prestar servicios sociales no pueden invocar ese principio para negar la atención que exigen los derechos fundamentales. El rector usa la corresponsabilidad justo para lo que la ley prohíbe: decir que, como otros también son responsables, el colegio no debe hacer nada. En la prueba, cuando un directivo diga «eso le toca a otro», recuerda que la corresponsabilidad suma responsables, no los resta.",
+   "fuente": "Ley 1098 de 2006 (Código de la Infancia y la Adolescencia), art. 10",
+   "consejo": "Corresponsabilidad = todos responden a la vez. Nunca sirve para negar la atención a un niño.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "instituciones públicas o privadas obligadas a la prestación de servicios sociales, no podrán invocar el principio de la corresponsabilidad para negar la atención que demande la satisfacción de derechos fundamentales de niños, niñas y adolescentes",
+     "ubicacion": "Ley 1098 de 2006, art. 10"
+    },
+    {
+     "doc": "ley_1098_2006",
+     "texto": "La familia, la sociedad y el Estado son corresponsables en su atención, cuidado y protección.",
+     "ubicacion": "Ley 1098 de 2006, art. 10"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q306",
+   "caso": "C187",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 2,
+   "competencia": "Exigibilidad de los derechos",
+   "enunciado": "El vecino pregunta si él, sin ser familiar del niño, puede acudir a la autoridad competente para pedir que se protejan sus derechos. Según el artículo 11 de la Ley 1098, la docente debe responderle que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "sí puede, porque cualquier persona puede exigir a la autoridad competente el restablecimiento de esos derechos.",
+     "j": "Es correcta. El artículo 11 establece que «cualquier persona puede exigir de la autoridad competente el cumplimiento y el restablecimiento de los derechos» de niños, niñas y adolescentes. El vecino no necesita ser familiar ni representante legal para pedir que la autoridad actúe."
+    },
+    {
+     "l": "B",
+     "t": "no puede, porque solo los padres o el representante legal del niño pueden pedir a la autoridad la protección de sus derechos.",
+     "j": "Es incorrecta. Confunde la exigibilidad de los derechos con la representación legal. La ley amplía la posibilidad de exigir derechos a cualquier persona; las reglas sobre legitimidad solo aplican a ciertas acciones judiciales o procedimientos, no a pedir a la autoridad que actúe."
+    },
+    {
+     "l": "C",
+     "t": "sí puede, pero solo después de que la institución educativa confirme la vulneración y le entregue una constancia escrita.",
+     "j": "Es incorrecta. La ley no exige que la escuela certifique primero la vulneración ni que autorice a nadie. Poner ese requisito retrasa la protección del niño. La institución debe actuar por su cuenta, pero eso no limita el derecho del vecino a acudir directamente a la autoridad."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 11 de la Ley 1098 consagra la exigibilidad de los derechos: salvo las normas procesales sobre legitimidad para ciertas acciones judiciales o procedimientos, cualquier persona puede exigir de la autoridad competente el cumplimiento y el restablecimiento de los derechos de niños, niñas y adolescentes. Por eso el vecino sí puede acudir a la autoridad, aunque no sea pariente ni representante legal, y no necesita permiso ni constancia de la institución. En la prueba, la palabra clave es «cualquier persona»: la protección de la niñez no depende del vínculo familiar de quien la pide. Desconfía de las opciones que agregan requisitos previos que la norma no menciona.",
+   "fuente": "Ley 1098 de 2006, art. 11",
+   "consejo": "Exigibilidad: cualquier persona puede pedir a la autoridad que proteja los derechos de un niño.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "cualquier persona puede exigir de la autoridad competente el cumplimiento y el restablecimiento de los derechos de los niños, las niñas y los adolescentes",
+     "ubicacion": "Ley 1098 de 2006, art. 11"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q307",
+   "caso": "C187",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 2,
+   "competencia": "Deber de actuación oportuna de los agentes del Estado",
+   "enunciado": "La docente duda entre esperar a que regrese la orientadora o actuar ya. Según el artículo 11 de la Ley 1098, como docente de una institución oficial, lo que corresponde es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "esperar a la orientadora, porque la corresponsabilidad reparte las tareas y a cada actor le toca responder solo por la suya.",
+     "j": "Es incorrecta. Esperar dos semanas deja al niño sin atención en una situación que afecta su alimentación y su salud. La ley exige actuar oportunamente; la orientadora puede sumarse después, pero su ausencia no justifica que la docente no informe ni active la atención."
+    },
+    {
+     "l": "B",
+     "t": "asumir ella misma la alimentación diaria del estudiante con recursos propios, hasta que la familia pueda volver a responder.",
+     "j": "Es incorrecta. La intención es buena, pero no garantiza derechos de forma sostenida ni activa a las instancias que deben actuar. El deber de la docente es actuar oportunamente por los canales institucionales para que la situación se atienda, no reemplazar sola a la familia y al Estado."
+    },
+    {
+     "l": "C",
+     "t": "actuar oportunamente, reportando ya por escrito el caso para que se active la atención y la remisión, sin esperar a la orientadora.",
+     "j": "Es correcta. La ley dice que el Estado, en cabeza de todos y cada uno de sus agentes, tiene la responsabilidad inexcusable de actuar oportunamente. La docente oficial es agente del Estado: debe reportar ya, por escrito, para que se active la atención y, si la institución no responde, acudir a la autoridad competente."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El artículo 11 de la Ley 1098 dice que el Estado, en cabeza de todos y cada uno de sus agentes, tiene la responsabilidad inexcusable de actuar oportunamente para garantizar, proteger y restablecer los derechos de niños, niñas y adolescentes. Una docente de institución oficial es agente del Estado, de modo que no puede quedarse esperando a que regrese otra persona. Actuar oportunamente no significa resolver sola el problema con su dinero, sino usar de inmediato los canales institucionales para que la situación se atienda y se remita. En la prueba, frente a un derecho en riesgo, las palabras clave son «oportunamente» e «inexcusable»: se informa ya, por el conducto debido, y se deja constancia.",
+   "fuente": "Ley 1098 de 2006, art. 11",
+   "consejo": "Agente del Estado = actuar oportunamente, por el conducto institucional. Ni esperar ni resolver solo.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "El Estado en cabeza de todos y cada uno de sus agentes tiene la responsabilidad inexcusable de actuar oportunamente para garantizar la realización, protección y el restablecimiento de los derechos de los niños, las niñas y los adolescentes.",
+     "ubicacion": "Ley 1098 de 2006, art. 11"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q308",
+   "caso": "C188",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 3,
+   "competencia": "Prevalencia de los derechos de niños, niñas y adolescentes",
+   "enunciado": "Frente a la petición de la madre y al argumento de la docente, la decisión que se ajusta al artículo 9 de la Ley 1098 es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "mantener el video hasta que cierre el concurso, porque la docente también tiene derecho a mostrar su labor profesional.",
+     "j": "Es incorrecta. La docente tiene derecho a mostrar su trabajo, pero el artículo 9 dice que, si hay conflicto entre los derechos fundamentales de un niño y los de cualquier otra persona, prevalecen los del niño. El plazo del concurso no cambia esa regla."
+    },
+    {
+     "l": "B",
+     "t": "retirar o editar el video para proteger la imagen de la estudiante, aunque la docente pierda esa evidencia.",
+     "j": "Es correcta. El artículo 9 ordena que en toda decisión que se tome en relación con niños, niñas y adolescentes prevalezcan sus derechos, en especial si chocan con los de otra persona. La docente puede documentar su proyecto de otro modo, sin exponer el rostro ni el nombre de la estudiante."
+    },
+    {
+     "l": "C",
+     "t": "dejar el video en el canal mientras el consejo directivo estudia la solicitud, para dar a ambas partes un trato igual.",
+     "j": "Es incorrecta. Parece neutral, pero mantener el video publicado mientras se decide prolonga la exposición de la estudiante. La ley no pide tratar por igual los dos derechos en conflicto: establece que prevalecen los del niño, así que la protección es inmediata."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 9 de la Ley 1098 establece la prevalencia de los derechos: en todo acto, decisión o medida de cualquier naturaleza que se adopte en relación con niños, niñas y adolescentes, prevalecen sus derechos, en especial cuando entran en conflicto con los derechos fundamentales de cualquier otra persona. Aquí hay dos intereses legítimos, el de la docente a mostrar su trabajo y el de la estudiante a proteger su imagen, pero la ley ya resolvió cuál pesa más. La decisión correcta es retirar o editar el video, y documentar el proyecto con evidencias que no expongan a los estudiantes. En la prueba, cuando choquen el derecho de un adulto y el de un menor, elige la opción que protege al menor de inmediato.",
+   "fuente": "Ley 1098 de 2006, art. 9",
+   "consejo": "Conflicto entre derechos de un niño y de un adulto: prevalecen los del niño, y la protección es inmediata.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "En todo acto, decisión o medida administrativa, judicial o de cualquier naturaleza que deba adoptarse en relación con los niños, las niñas y los adolescentes, prevalecerán los derechos de estos, en especial si existe conflicto entre sus derechos fundamentales con los de cualquier otra persona.",
+     "ubicacion": "Ley 1098 de 2006, art. 9"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q309",
+   "caso": "C189",
+   "familia": "NOR-SIST",
+   "dificultad": 1,
+   "competencia": "Conformación del Comité Escolar de Convivencia",
+   "enunciado": "Sobre la participación de la abuela, que presenció los hechos, el Comité Escolar de Convivencia puede",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "invitarla con voz pero sin voto, con el propósito de ampliar la información sobre lo ocurrido.",
+     "j": "Es correcta. El parágrafo del artículo 12 de la Ley 1620 dice que el comité «podrá invitar con voz pero sin voto a un miembro de la comunidad educativa conocedor de los hechos». La abuela es acudiente y presenció lo ocurrido, así que puede aportar información sin integrar el comité."
+    },
+    {
+     "l": "B",
+     "t": "incluirla con voz y voto en la sesión, porque conoce de primera mano lo ocurrido entre el docente y el estudiante.",
+     "j": "Es incorrecta. Conocer los hechos permite invitarla, pero no la convierte en integrante del comité. La conformación está fijada en la ley; el invitado participa con voz y sin voto, solo para ampliar la información de la situación que se analiza."
+    },
+    {
+     "l": "C",
+     "t": "recibir su versión por escrito, porque las sesiones son exclusivas de los integrantes que señala la ley.",
+     "j": "Es incorrecta. La ley sí permite que una persona de la comunidad educativa que conoce los hechos asista a la sesión, con voz pero sin voto. Limitarla a un escrito no lo exige la norma y puede hacer perder información útil para analizar el caso."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 12 de la Ley 1620 fija quiénes conforman el Comité Escolar de Convivencia: el rector, que lo preside; el personero estudiantil; el docente con función de orientación; el coordinador, cuando exista el cargo; el presidente del consejo de padres; el presidente del consejo de estudiantes y un docente que lidere procesos de convivencia. Su parágrafo agrega que el comité puede invitar con voz pero sin voto a un miembro de la comunidad educativa conocedor de los hechos, para ampliar la información. La abuela encaja en esa figura: puede hablar en la sesión, pero no vota ni pasa a ser integrante. En la prueba, distingue entre integrantes, que tienen voz y voto, e invitados, que solo tienen voz.",
+   "fuente": "Ley 1620 de 2013, art. 12 y parágrafo",
+   "consejo": "Invitado al comité = miembro de la comunidad que conoce los hechos, con voz pero sin voto.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "El comité podrá invitar con voz pero sin voto a un miembro de la comunidad educativa conocedor de los hechos, con el propósito de ampliar información.",
+     "ubicacion": "Ley 1620 de 2013, art. 12, parágrafo"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q310",
+   "caso": "C189",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Funciones del Comité Escolar de Convivencia: conciliación",
+   "enunciado": "Para atender la solicitud escrita de la madre, de acuerdo con el artículo 13 de la Ley 1620, el comité",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "debe remitirla a la Comisaría de Familia, porque conciliar un conflicto entre un docente y un estudiante no le corresponde al comité.",
+     "j": "Es incorrecta. Convocar un espacio de conciliación para situaciones que afectan la convivencia es una función del comité. Remitir a la Comisaría de Familia corresponde a situaciones que trascienden el ámbito escolar, no a una discusión en clase como esta."
+    },
+    {
+     "l": "B",
+     "t": "puede convocar la conciliación solo de oficio, porque la petición de una madre no basta para que el comité la convoque.",
+     "j": "Es incorrecta. La ley permite convocar la conciliación por solicitud de cualquiera de los miembros de la comunidad educativa o de oficio. La madre es miembro de la comunidad educativa, así que su petición sí basta para que el comité convoque el espacio."
+    },
+    {
+     "l": "C",
+     "t": "puede convocar un espacio de conciliación, al que el estudiante asistirá acompañado por su madre, su acudiente o un compañero.",
+     "j": "Es correcta. La función 4 del artículo 13 permite convocar un espacio de conciliación por solicitud de cualquier miembro de la comunidad educativa, y señala que el estudiante estará acompañado por el padre, madre, acudiente o un compañero del establecimiento."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La función 4 del artículo 13 de la Ley 1620 faculta al Comité Escolar de Convivencia para convocar un espacio de conciliación para resolver situaciones conflictivas que afecten la convivencia escolar, por solicitud de cualquiera de los miembros de la comunidad educativa o de oficio. La misma función dice que el estudiante estará acompañado por el padre, madre, acudiente o un compañero del establecimiento. La madre es miembro de la comunidad educativa, así que su solicitud basta, y el conflicto ocurrió en la vida escolar, de modo que no hay razón para remitirlo a otra autoridad. En la prueba, recuerda los dos datos de esta función: quién puede pedir la conciliación y quién acompaña al estudiante.",
+   "fuente": "Ley 1620 de 2013, art. 13, num. 4",
+   "consejo": "Conciliación en el comité: la pide cualquier miembro de la comunidad o se convoca de oficio; el estudiante va acompañado.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Convocar a un espacio de conciliación para la resolución de situaciones conflictivas que afecten la convivencia escolar, por solicitud de cualquiera de los miembros de la comunidad educativa o de oficio",
+     "ubicacion": "Ley 1620 de 2013, art. 13, num. 4"
+    },
+    {
+     "doc": "ley_1620_2013",
+     "texto": "El estudiante estará acompañado por el padre, madre de familia, acudiente o un compañero del establecimiento educativo.",
+     "ubicacion": "Ley 1620 de 2013, art. 13, num. 4"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q311",
+   "caso": "C189",
+   "familia": "NOR-SIST",
+   "dificultad": 3,
+   "competencia": "Funciones del Comité Escolar de Convivencia: activar la Ruta",
+   "enunciado": "Durante la conciliación, el estudiante cuenta que un adulto ajeno al colegio lo amenaza por mensajes para que le entregue dinero y que por eso no suelta el celular. Según el artículo 13 de la Ley 1620, frente a esa nueva situación el comité debe",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "resolverla en la misma conciliación, porque el comité debe resolver los conflictos que afecten la convivencia escolar.",
+     "j": "Es incorrecta. El comité sí resuelve conflictos de la vida escolar, pero esta situación trasciende el ámbito escolar y tiene características de una conducta punible. Ese tipo de hechos no los puede resolver el comité y debe pasar a otras autoridades."
+    },
+    {
+     "l": "B",
+     "t": "activar la Ruta para que otras autoridades del Sistema la atiendan, porque trasciende el ámbito escolar.",
+     "j": "Es correcta. La función 5 del artículo 13 ordena activar la Ruta frente a situaciones que el comité no puede resolver porque trascienden del ámbito escolar y revisten las características de una conducta punible. La amenaza de un adulto externo para exigir dinero debe ser atendida por otras autoridades."
+    },
+    {
+     "l": "C",
+     "t": "registrarla en el seguimiento del manual de convivencia y esperar a que la familia decida si presenta una denuncia.",
+     "j": "Es incorrecta. Hacer seguimiento al manual es otra función del comité, pero no responde a un hecho que puede ser delito. La activación de la Ruta no depende de que la familia decida denunciar; el comité tiene el deber de activarla para que actúen las autoridades competentes."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 13 de la Ley 1620 le da al comité funciones distintas para situaciones distintas. Los conflictos de la vida escolar se identifican, analizan y resuelven en el comité, incluso con conciliación. Pero la función 5 ordena activar la Ruta de Atención Integral cuando una situación no puede ser resuelta por el comité porque trasciende del ámbito escolar y reviste las características de una conducta punible; en ese caso la atienden otras instancias o autoridades del Sistema. La amenaza de un adulto externo para exigir dinero cumple esas dos condiciones. En la prueba, fíjate si el hecho sale del ámbito escolar y si puede ser delito: si es así, la respuesta es activar la Ruta, no conciliar ni esperar.",
+   "fuente": "Ley 1620 de 2013, art. 13, num. 1 y 5",
+   "consejo": "Si trasciende el ámbito escolar y puede ser delito: el comité activa la Ruta, no concilia.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "que no pueden ser resueltos por este comité de acuerdo con lo establecido en el manual de convivencia, porque trascienden del ámbito escolar, y revistan las características de la comisión de una conducta punible, razón por la cual deben ser atendidos por otras instancias o autoridades",
+     "ubicacion": "Ley 1620 de 2013, art. 13, num. 5"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q312",
+   "caso": "C189",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Funciones del Comité Escolar de Convivencia: conflictos que atiende",
+   "enunciado": "Según el artículo 13 de la Ley 1620, la opinión del coordinador sobre el alcance del comité",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "no es acertada, porque el comité también identifica, analiza y resuelve los conflictos entre docentes y estudiantes.",
+     "j": "Es correcta. La función 1 del artículo 13 incluye resolver los conflictos «entre docentes y estudiantes, directivos y estudiantes, entre estudiantes y entre docentes». El conflicto entre el docente y el estudiante de noveno sí le corresponde al comité."
+    },
+    {
+     "l": "B",
+     "t": "es acertada, porque el comité atiende solo conflictos entre estudiantes y los demás le corresponden al consejo directivo.",
+     "j": "Es incorrecta. Limita el comité a los conflictos entre estudiantes, cuando la ley le asigna también los conflictos entre docentes y estudiantes, entre directivos y estudiantes y entre docentes. No hay norma que mande esos casos al consejo directivo."
+    },
+    {
+     "l": "C",
+     "t": "es acertada en parte, porque el comité atiende conflictos con docentes solo cuando la institución no tiene coordinador.",
+     "j": "Es incorrecta. Mezcla la conformación del comité, donde el coordinador participa cuando exista el cargo, con sus funciones. Que haya o no coordinador no cambia los conflictos que el comité debe atender; siempre incluye los que se dan entre docentes y estudiantes."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La función 1 del artículo 13 de la Ley 1620 dice que el Comité Escolar de Convivencia debe identificar, documentar, analizar y resolver los conflictos que se presenten entre docentes y estudiantes, directivos y estudiantes, entre estudiantes y entre docentes. El coordinador reduce el comité a los conflictos entre estudiantes, pero la ley incluye expresamente a los adultos de la institución. El caso del docente y el estudiante de noveno, por tanto, sí le corresponde al comité, que puede incluso conciliar. En la prueba, recuerda que el comité atiende las cuatro combinaciones: docente-estudiante, directivo-estudiante, estudiante-estudiante y docente-docente. Si una opción deja por fuera a los adultos, es una verdad a medias.",
+   "fuente": "Ley 1620 de 2013, art. 13, num. 1",
+   "consejo": "El comité atiende conflictos docente-estudiante, directivo-estudiante, entre estudiantes y entre docentes.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Identificar, documentar, analizar y resolver los conflictos que se presenten entre docentes y estudiantes, directivos y estudiantes, entre estudiantes y entre docentes.",
+     "ubicacion": "Ley 1620 de 2013, art. 13, num. 1"
+    }
+   ]
+  },
+  {
+   "tipo": "conocimiento",
+   "id": "K073",
+   "ficha": "F37",
+   "familia": "DIS-COMP",
+   "dificultad": 1,
+   "competencia": "Alcance de las competencias del área",
+   "enunciado": "Según las Orientaciones Curriculares de 2022, las competencias que se presentan en las tablas del área son",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "una sugerencia opcional que cada institución puede reemplazar por completo, según su modelo pedagógico.",
+     "j": "Es incorrecta. Las instituciones tienen autonomía para adaptar o generar evidencias de aprendizaje, pero las competencias no son opcionales. El documento las presenta como la exigencia mínima que se tiene en cuenta en las pruebas nacionales y en los concursos docentes."
+    },
+    {
+     "l": "B",
+     "t": "el máximo de aprendizaje esperado en cada grado, que ningún establecimiento puede ampliar ni adaptar.",
+     "j": "Es incorrecta. Invierte el sentido del texto: las competencias son un mínimo, no un techo. Además, el documento reconoce que cada establecimiento, en su autonomía, decide qué evidencias aborda a pie de letra y cuáles adapta o genera."
+    },
+    {
+     "l": "C",
+     "t": "la exigencia mínima que los sistemas nacionales de evaluación usan para pruebas Saber y concursos docentes.",
+     "j": "Es correcta. El texto dice que «las competencias presentadas en las tablas son la exigencia mínima de aprendizaje» que los sistemas nacionales de evaluación tomarán en cuenta para las pruebas Saber, Saber Once y los concursos docentes de selección y ascenso."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones Curriculares de 2022 aclaran que, en todos los casos, las competencias de las tablas son la exigencia mínima de aprendizaje que los sistemas nacionales de evaluación tomarán en cuenta para diseñar pruebas como Saber y Saber Once, y para los concursos docentes de selección y ascenso. Por eso son un piso común, no un techo ni una sugerencia opcional. La autonomía institucional opera sobre las evidencias de aprendizaje, que cada establecimiento puede tomar a pie de letra, adaptar o generar, siempre para cumplir esas competencias. Este dato es útil para tu prueba: el documento mismo anuncia que sus competencias son referencia para el concurso docente, así que conviene dominarlas.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), cap. 3, 3.3",
+   "consejo": "Competencias de las tablas = exigencia mínima (piso) para Saber y concursos docentes.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "las competencias presentadas en las tablas son la exigencia mínima de aprendizaje que los sistemas nacionales de evaluación tomarán en cuenta para el diseño de pruebas de aprendizaje como las pruebas saber, Saber Once, y para los concursos docentes de selección y ascenso",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3"
+    }
+   ]
+  },
+  {
+   "tipo": "conocimiento",
+   "id": "K074",
+   "ficha": "F37",
+   "familia": "DIS-COMP",
+   "dificultad": 2,
+   "competencia": "Autonomía institucional y evidencias de aprendizaje",
+   "enunciado": "De acuerdo con las Orientaciones Curriculares de 2022, en el marco de su autonomía, cada establecimiento educativo",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "debe aplicar todas las evidencias de aprendizaje a pie de letra, porque son iguales para todo el país.",
+     "j": "Es incorrecta. El documento no obliga a tomar todas las evidencias al pie de la letra. Reconoce que cada establecimiento puede abordar algunas tal como están y adaptar o generar otras, según su contexto y su PEI, para cumplir las competencias."
+    },
+    {
+     "l": "B",
+     "t": "define qué evidencias aborda a pie de letra y cuáles adapta o genera para cumplir las competencias.",
+     "j": "Es correcta. El texto dice que cada establecimiento «definirá cuáles evidencias de aprendizaje abordará a pie de letra y cuáles deberá adaptar o generar para dar cumplimiento a las competencias aquí propuestas». La autonomía recae en las evidencias, no en las competencias."
+    },
+    {
+     "l": "C",
+     "t": "puede reemplazar las competencias del área por otras propias, siempre que las incluya en su PEI.",
+     "j": "Es incorrecta. Extiende la autonomía a las competencias, cuando el texto la limita a las evidencias. Las competencias se mantienen porque son la exigencia mínima; lo que se adapta o genera son las evidencias para alcanzarlas."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares de 2022 piden que las evidencias de aprendizaje sean coherentes con las intenciones formativas del área, del componente y del PEI; con el estadio de desarrollo de los estudiantes; con los dominios de la competencia y su gradación, y con las relaciones entre componentes. A partir de esos criterios, y en el marco de su autonomía, cada establecimiento define qué evidencias toma a pie de letra y cuáles adapta o genera para cumplir las competencias propuestas. La autonomía, entonces, opera sobre las evidencias y no sobre las competencias, que siguen siendo la exigencia mínima. En la prueba, desconfía tanto de la opción que vuelve todo obligatorio al pie de la letra como de la que permite cambiar las competencias.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), cap. 3, 3.3",
+   "consejo": "Autonomía institucional = adaptar o generar evidencias; las competencias se mantienen.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "en el marco de su autonomía, cada Establecimiento Educativo definirá cuáles evidencias de aprendizaje abordará a pie de letra y cuáles deberá adaptar o generar para dar cumplimiento a las competencias aquí propuestas",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q313",
+   "caso": "C190",
+   "familia": "DIS-COMP",
+   "dificultad": 2,
+   "competencia": "Criterios para formular evidencias de aprendizaje",
+   "enunciado": "Según el criterio de las Orientaciones de 2022 sobre el desarrollo de los estudiantes, lo que debe ajustar la docente en su planeación es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "formular evidencias distintas según el estadio de desarrollo de cada grado, pues no se pide lo mismo en primero que en quinto.",
+     "j": "Es correcta. El documento pide que las evidencias estén acordes con el estadio de desarrollo de los estudiantes y advierte que «No será la misma evidencia de aprendizaje la que se pida a un escolar de primero en comparación con uno de quinto grado». La unidad puede ser común, pero las evidencias deben graduarse."
+    },
+    {
+     "l": "B",
+     "t": "mantener una sola evidencia para todos, porque el aula multigrado permite unificar lo que se pide a los cinco grados.",
+     "j": "Es incorrecta. El aula multigrado permite compartir la unidad y el tema, pero no elimina el criterio del estadio de desarrollo. Pedir el mismo texto escrito con diagrama a un niño de primero y a uno de quinto desconoce lo que cada uno puede demostrar."
+    },
+    {
+     "l": "C",
+     "t": "usar con todos la evidencia más exigente de quinto, porque así los estudiantes de primero se adelantan en el área.",
+     "j": "Es incorrecta. Igualar hacia arriba también desconoce el estadio de desarrollo. Una evidencia pensada para quinto puede ser inalcanzable para primero y no mostraría lo que esos niños sí aprendieron. Cada grado necesita una evidencia acorde con su desarrollo."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Las Orientaciones Curriculares de 2022 señalan que las evidencias de aprendizaje deben estar acordes con varios criterios, entre ellos el estadio de desarrollo cognitivo, físico, moral y social de los estudiantes del conjunto de grados, y lo ilustran con un ejemplo directo: no se pide la misma evidencia a un escolar de primero que a uno de quinto. La docente puede mantener una unidad común sobre los artefactos de la cocina, pero debe graduar lo que pide a cada grado; por ejemplo, que los más pequeños nombren y comparen y que los mayores expliquen el cambio y propongan mejoras. En la prueba, en un aula multigrado, la respuesta correcta comparte el tema y gradúa las evidencias.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), cap. 3, 3.3",
+   "consejo": "Multigrado: tema común, evidencias graduadas según el desarrollo de cada grado.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "No será la misma evidencia de aprendizaje la que se pida a un escolar de primero en comparación con uno de quinto grado.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q314",
+   "caso": "C191",
+   "familia": "DIS-COMP",
+   "dificultad": 3,
+   "competencia": "Progresión de lo simple a lo complejo en Naturaleza y evolución",
+   "enunciado": "Según las tres condiciones con que las Orientaciones de 2022 explican lo simple y lo complejo, el producto tecnológico más complejo para estos estudiantes es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el molino manual de maíz, porque es el más antiguo y estudiar su historia exige más información que los otros productos.",
+     "j": "Es incorrecta. El documento ubica lo histórico y cercano en el extremo simple de la progresión. Además, los estudiantes tienen mucha información sobre el molino, lo operan con una sola acción y tiene pocas partes: cumple las tres condiciones de lo simple."
+    },
+    {
+     "l": "B",
+     "t": "el celular, porque es un producto digital y los productos digitales son siempre más complejos que los analógicos.",
+     "j": "Es incorrecta. Las Orientaciones no miden la complejidad por ser digital o analógico. El celular tiene muchas partes, pero los estudiantes tienen mucha información sobre él y lo usan a diario, así que no reúne las tres condiciones de lo complejo."
+    },
+    {
+     "l": "C",
+     "t": "el sistema de riego automatizado, porque tienen poca información sobre él, exige varios pasos y tiene muchas partes.",
+     "j": "Es correcta. El documento define lo complejo con tres condiciones: poca información sobre el producto, muchas actividades para usarlo y un número amplio de partes. El sistema de riego las cumple todas para estos estudiantes, así que debe ir al final de la secuencia."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones Curriculares de 2022 dicen que las evidencias del componente Naturaleza y evolución progresan de lo simple, cercano e histórico a lo complejo, distante y presente, y explican lo simple o complejo con tres condiciones: la cantidad de información que se tiene sobre el producto, pues es más simple si se tiene mucha; el número de actividades necesarias para usarlo, y el número de partes que tiene. El sistema de riego es el único que reúne las tres condiciones de complejidad para estos estudiantes. El celular tiene muchas partes, pero ellos saben mucho de él, y el molino es cercano y simple. En la prueba, aplica las tres condiciones a la vez y no te dejes llevar por si el producto es antiguo o digital.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.3.1.1",
+   "consejo": "Complejidad = poca información + muchas actividades + muchas partes. No depende de si es digital.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "poseen una progresión interna que va de lo más simple, cercano e histórico hacia los más complejo, distante y presente",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 3.3.1.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la cantidad de información y conocimiento que poseemos para usar y aprovechar un producto tecnológico en una actividad, será más simple si poseemos mucha información y más complejo si poseemos poca",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 3.3.1.1"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "será más complejo si el producto tecnológico posee un número amplio de partes lo que dificulta su uso o su comprensión",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 3.3.1.1"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q315",
+   "caso": "C192",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Conflictos de interés en el Comité Escolar de Convivencia",
+   "enunciado": "Frente a la situación del coordinador, que es tío de uno de los estudiantes involucrados, el Decreto 1965 de 2013 indica que el comité debe",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "permitir que el coordinador participe y vote, porque su cargo hace parte de la conformación legal del comité.",
+     "j": "Es incorrecta. Es cierto que el coordinador integra el comité, pero eso no impide que surja un conflicto de interés en un caso concreto. El decreto ordena tramitar esos conflictos, no ignorarlos porque la persona sea integrante por derecho propio."
+    },
+    {
+     "l": "B",
+     "t": "pedir al coordinador que renuncie a su cargo, porque el parentesco le impide seguir siendo directivo de la institución.",
+     "j": "Es incorrecta. Es una medida desproporcionada que el decreto no contempla. El conflicto de interés afecta su participación en esta actuación concreta, no su cargo; se tramita según la Ley 1437 de 2011, sin exigir renuncias."
+    },
+    {
+     "l": "C",
+     "t": "tramitar el conflicto de interés conforme a los artículos 11 y 12 de la Ley 1437 de 2011, porque es servidor público.",
+     "j": "Es correcta. El artículo 27 del Decreto 1965 dice que, en los comités de establecimientos oficiales, los conflictos de interés o causales de impedimento de los integrantes que sean servidores públicos «se tramitarán conforme a lo establecido en el artículo 11 y 12 de la Ley 1437 de 2011»."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El artículo 27 del Decreto 1965 de 2013 regula los conflictos de interés y las causales de impedimento o recusación en los Comités Escolares de Convivencia de los establecimientos oficiales. Cuando se presentan respecto de integrantes que son servidores públicos, se tramitan conforme a los artículos 11 y 12 de la Ley 1437 de 2011. El coordinador es servidor público y tiene un vínculo familiar con uno de los estudiantes, así que el comité no puede pasar por alto la situación, pero tampoco debe exigirle que deje su cargo. En la prueba, ante un integrante con interés directo en el caso, elige la opción que sigue el trámite legal del conflicto de interés, no la que lo ignora ni la que impone sanciones.",
+   "fuente": "Decreto 1965 de 2013, art. 27",
+   "consejo": "Conflicto de interés de un servidor público en el comité: se tramita por los arts. 11 y 12 de la Ley 1437 de 2011.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Cuando en las actuaciones adelantadas por parte de los Comités Escolares de Convivencia de los establecimientos educativos oficiales se presenten conflictos de interés o causales de impedimento o recusación",
+     "ubicacion": "Decreto 1965 de 2013, art. 27"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "respecto de los integrantes que ostenten la calidad de servidores públicos, los mismos se tramitarán conforme a lo establecido en el artículo 11 y 12 de la Ley 1437 de 2011",
+     "ubicacion": "Decreto 1965 de 2013, art. 27"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q316",
+   "caso": "C192",
+   "familia": "NOR-SIST",
+   "dificultad": 1,
+   "competencia": "Actas del Comité Escolar de Convivencia",
+   "enunciado": "Sobre la propuesta de la secretaria de no elaborar acta de la reunión, el Decreto 1965 de 2013 establece que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "se debe elaborar un acta, porque el decreto la exige para todas las sesiones que adelante el comité.",
+     "j": "Es correcta. El artículo 25 dice: «De todas las sesiones que adelante el Comité Escolar de Convivencia se deberá elaborar un acta». No importa si la sesión termina o no en una decisión; toda sesión debe quedar registrada."
+    },
+    {
+     "l": "B",
+     "t": "el acta se vuelve obligatoria cuando la sesión termina en una decisión o en una medida sobre el caso.",
+     "j": "Es incorrecta. Agrega una condición que el decreto no tiene. La obligación de levantar acta cubre todas las sesiones, también aquellas en que solo se analiza información o se conversa sobre una situación."
+    },
+    {
+     "l": "C",
+     "t": "una grabación en audio de la sesión reemplaza el acta cuando la reunión no tiene carácter decisorio.",
+     "j": "Es incorrecta. El decreto exige un acta con unos requisitos mínimos y no prevé que una grabación la reemplace. Grabar podría ser un apoyo, pero no sustituye el documento que exige la norma ni la protección de los datos tratados."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 25 del Decreto 1965 de 2013 es tajante: de todas las sesiones que adelante el Comité Escolar de Convivencia se debe elaborar un acta, que debe contener como mínimo los requisitos del artículo 10 del mismo decreto. El parágrafo añade que el comité debe garantizar la intimidad y la confidencialidad de los datos personales que trate. Por eso la idea de no levantar acta porque «solo vamos a conversar» no tiene sustento: el registro protege el debido proceso y permite el seguimiento. En la prueba, recuerda la palabra «todas»: no hay sesiones del comité sin acta, sean ordinarias, extraordinarias, decisorias o de análisis.",
+   "fuente": "Decreto 1965 de 2013, art. 25",
+   "consejo": "Comité de convivencia: acta de TODAS las sesiones, con datos confidenciales.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "De todas las sesiones que adelante el Comité Escolar de Convivencia se deberá elaborar un acta",
+     "ubicacion": "Decreto 1965 de 2013, art. 25"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q317",
+   "caso": "C192",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Contenido del manual de convivencia",
+   "enunciado": "Para actualizar el manual de convivencia, la propuesta que se ajusta al artículo 28 del Decreto 1965 de 2013 es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "citar en el manual la Ley 1620 sin incluir sus definiciones, para que el documento quede más corto y fácil de leer.",
+     "j": "Es incorrecta. El artículo 28 dice que en el manual «se incluirán» las definiciones, principios y responsabilidades de la Ley 1620. Remitir a la ley sin incluirlas deja al manual sin la base que el decreto exige para desarrollar la Ruta."
+    },
+    {
+     "l": "B",
+     "t": "incluir las definiciones, principios y responsabilidades de la Ley 1620 como base de los componentes de la Ruta.",
+     "j": "Es correcta. El artículo 28 ordena incluir en el manual las definiciones, principios y responsabilidades de la Ley 1620, que servirán de base para desarrollar los componentes de promoción, prevención, atención y seguimiento de la Ruta de Atención Integral."
+    },
+    {
+     "l": "C",
+     "t": "desarrollar en el manual solo el componente de atención, porque la promoción y la prevención se trabajan en las clases.",
+     "j": "Es incorrecta. Las clases sí aportan a la promoción y la prevención, pero el decreto pide que el manual desarrolle los cuatro componentes de la Ruta: promoción, prevención, atención y seguimiento. Dejar solo la atención reduce el manual a un reglamento de sanciones."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 28 del Decreto 1965 de 2013 dice que en el manual de convivencia se incluirán las definiciones, principios y responsabilidades que la Ley 1620 establece para todos los miembros de la comunidad educativa. Esos elementos sirven de base para que el mismo manual desarrolle los cuatro componentes de la Ruta de Atención Integral: promoción, prevención, atención y seguimiento, sin perjuicio de lo que exigen la Ley 115 y el Decreto 1860. Por eso no basta con remitir a la ley ni con regular solo la atención de casos. En la prueba, cuando aparezca el manual de convivencia, recuerda que no es solo un reglamento de faltas: debe contener la base conceptual de la Ley 1620 y los cuatro componentes de la Ruta.",
+   "fuente": "Decreto 1965 de 2013, art. 28",
+   "consejo": "Manual de convivencia = definiciones, principios y responsabilidades de la Ley 1620 + los 4 componentes de la Ruta.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "En el Manual de Convivencia se incluirán las definiciones, principios y responsabilidades que para todos los miembros de la comunidad educativa establece la Ley 1620 de 2013, los cuales servirán de base para que dentro del mismo Manual se desarrollen los componentes de promoción, prevención, atención y seguimiento de la Ruta de Atención Integral para la Convivencia Escolar",
+     "ubicacion": "Decreto 1965 de 2013, art. 28"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q318",
+   "caso": "C192",
+   "familia": "NOR-SIST",
+   "dificultad": 3,
+   "competencia": "Acciones del Comité Escolar de Convivencia",
+   "enunciado": "Para planear la campaña de prevención del ciberacoso, el criterio que se ajusta al artículo 26 del Decreto 1965 de 2013 es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "diseñar la campaña a partir de las estrategias y programas trazados por el Comité Nacional y el Comité municipal de Convivencia.",
+     "j": "Es correcta. El artículo 26 dice que el comité desarrolla sus acciones de promoción, prevención y atención «a partir de la implementación, desarrollo y aplicación de las estrategias y programas» trazados por el Comité Nacional y el respectivo comité municipal, distrital o departamental."
+    },
+    {
+     "l": "B",
+     "t": "esperar a que el Comité municipal diseñe y ejecute la campaña, porque la prevención no es una función del comité escolar.",
+     "j": "Es incorrecta. La prevención de la violencia escolar sí es una acción del comité escolar. El decreto le pide desarrollar esas acciones apoyándose en las estrategias de los comités nacional y territorial, no esperar a que otro comité las ejecute por él."
+    },
+    {
+     "l": "C",
+     "t": "diseñar una campaña propia sin relación con los programas municipales, porque el comité escolar es autónomo en su ámbito.",
+     "j": "Es incorrecta. El comité actúa en el ámbito de sus competencias, pero el artículo 26 le pide desarrollar sus acciones a partir de las estrategias y programas de los comités nacional y territorial. Puede adaptar la campaña a su contexto, pero no desconectarla de esos programas."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 26 del Decreto 1965 de 2013 dice que el Comité Escolar de Convivencia, en el ámbito de sus competencias, desarrolla acciones de promoción, de prevención y mitigación de la violencia escolar y de atención de las situaciones que afectan la convivencia. Esas acciones se hacen a partir de la implementación, desarrollo y aplicación de las estrategias y programas trazados por el Comité Nacional de Convivencia Escolar y por el respectivo comité municipal, distrital o departamental. Los dos distractores son errores cercanos: uno le quita al comité escolar su función de prevenir y el otro lo desconecta del Sistema. En la prueba, recuerda que el comité escolar actúa, pero articulado con los comités nacional y territorial.",
+   "fuente": "Decreto 1965 de 2013, art. 26",
+   "consejo": "Comité escolar: sí hace prevención, pero a partir de las estrategias de los comités nacional y territorial.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "a partir de la implementación, desarrollo y aplicación de las estrategias y programas trazados por el Comité Nacional de Convivencia Escolar y por el respectivo Comité municipal, distrital o departamental de Convivencia Escolar",
+     "ubicacion": "Decreto 1965 de 2013, art. 26"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q319",
+   "caso": "C193",
+   "familia": "DIS-CTS",
+   "dificultad": 3,
+   "competencia": "Perspectivas crítica, ética y política del componente Tecnología, informática y sociedad",
+   "enunciado": "Según las Orientaciones Curriculares de 2022, la nueva actividad que organiza la docente trabaja principalmente la perspectiva",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "crítica, porque los estudiantes muestran curiosidad, se informan sobre las cámaras y trabajan en equipo para preparar su propuesta.",
+     "j": "Es incorrecta. Esas actitudes aparecen en la actividad, pero la perspectiva crítica se centra en desarrollar actitudes como la curiosidad y el deseo de informarse. El propósito central de la nueva actividad es incidir en una decisión pública, que es lo propio de la perspectiva política."
+    },
+    {
+     "l": "B",
+     "t": "ética, porque los estudiantes generan criterios de valoración social y analizan los impactos de las cámaras en la comunidad.",
+     "j": "Es incorrecta. Describe bien lo que hicieron en las clases anteriores, cuando analizaron ventajas y riesgos. La nueva actividad va un paso más allá: los estudiantes no solo valoran los impactos, sino que participan en la decisión pública sobre la tecnología."
+    },
+    {
+     "l": "C",
+     "t": "política, porque los estudiantes participan críticamente en una decisión pública sobre el uso de una tecnología en su ciudad.",
+     "j": "Es correcta. Las Orientaciones definen la perspectiva política como la participación crítica en decisiones asociadas con la generación, uso, degradación y desecho de la T&I. Presentar una postura en la audiencia pública para incidir en la decisión de la alcaldía es exactamente eso."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El componente Tecnología, informática y sociedad de las Orientaciones de 2022 distingue tres perspectivas. La crítica desarrolla actitudes como la sensibilización, la curiosidad, la cooperación y el deseo de informarse. La ética genera criterios de valoración social y analiza impactos. La política busca que los estudiantes participen críticamente en decisiones sobre la generación, el uso, la degradación y el desecho de la tecnología. El caso tiene dos momentos: en las clases anteriores se valoraron impactos, que es lo ético; en la nueva actividad los estudiantes presentan su postura en una audiencia para incidir en una decisión pública, que es lo político. En la prueba, fíjate en lo que pide el enunciado: la actividad nueva, no las anteriores.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.3.1.4",
+   "consejo": "Crítica = actitudes; ética = valorar impactos; política = participar en decisiones sobre la tecnología.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "desde la perspectiva política, participen críticamente en decisiones asociadas con la generación, uso, degradación y desecho de la T&I",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 3.3.1.4"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "desde la perspectiva ética, generen criterios de valoración social de la tecnología y la informática",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 3.3.1.4"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q320",
+   "caso": "C194",
+   "familia": "DIS-COMP",
+   "dificultad": 2,
+   "competencia": "Dimensiones de la apropiación de la T&I",
+   "enunciado": "Según las Orientaciones Curriculares de 2022, la actividad con el tanque de enfriamiento promueve la apropiación de la T&I en su dimensión",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "individual, porque cada estudiante comprende cómo una tecnología le permite hacer tareas cotidianas en su entorno próximo.",
+     "j": "Es incorrecta. La dimensión individual se refiere a cómo una tecnología le sirve al propio estudiante en sus tareas cotidianas y su desarrollo personal. La actividad no pide eso: pide explicar cómo el tanque mejoró la vida económica de toda la comunidad."
+    },
+    {
+     "l": "B",
+     "t": "social, porque los estudiantes comprenden cómo el uso de una tecnología resolvió problemas de la comunidad.",
+     "j": "Es correcta. Las Orientaciones dicen que la apropiación social ocurre cuando el estudiante comprende que el uso de ciertas tecnologías mejoró el desarrollo social de las comunidades, permitiéndoles resolver problemas y lograr un progreso colectivo, por ejemplo en lo económico."
+    },
+    {
+     "l": "C",
+     "t": "técnica, porque los estudiantes aprenden a operar el tanque y a controlar la temperatura adecuada para conservar la leche.",
+     "j": "Es incorrecta. Las Orientaciones describen la apropiación en dos dimensiones, individual y social, y no mencionan una dimensión técnica. Además, la actividad no consiste en operar el tanque, sino en explicar su efecto en el progreso económico de la vereda."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares de 2022 explican que la apropiación de la T&I ocurre en dos dimensiones. En la individual, el estudiante comprende cómo ciertas tecnologías le permiten realizar tareas cotidianas en su entorno próximo y los beneficios para su propio desarrollo. En la social, comprende que el uso, la adopción, la adaptación y la generación de tecnologías mejoraron el desarrollo social de las comunidades, permitiéndoles resolver problemas y lograr un progreso colectivo en lo alimenticio, la salud o lo económico. La actividad pide explicar cómo el tanque resolvió un problema económico de toda la asociación, así que corresponde a la dimensión social. En la prueba, pregúntate quién se beneficia: la persona o la comunidad.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 3.3.1.2",
+   "consejo": "Apropiación individual = me sirve a mí; apropiación social = mejoró la vida de la comunidad.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "en la dimensión social cuando comprende que el uso, adopción, adaptación y generación de ciertas tecnologías analógicas y digitales mejoraron y mejoran el desarrollo social de las comunidades permitiéndoles la resolución de problemas y necesidades y un progreso colectivo",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 3.3.1.2"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "en la dimensión individual cuando el estudiante de básica y media comprende los modos en que ciertas tecnologías le permiten realizar diferentes tareas cotidianas en su entorno más próximo",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 3.3.1.2"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q321",
+   "caso": "C195",
+   "familia": "DIS-DISENO",
+   "dificultad": 3,
+   "competencia": "El diseño incluye identificar nuevos problemas derivados de la solución",
+   "enunciado": "De acuerdo con la forma en que la Guía 30 describe el diseño, la decisión más adecuada de la docente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "pedir que identifiquen los nuevos problemas derivados de su solución y los usen como punto de partida para mejorarla.",
+     "j": "Es correcta. La Guía 30 dice que el diseño involucra procesos como la evaluación de la solución y «la identificación de nuevos problemas derivados de la solución propuesta». El residuo plástico y el grano quebrado son esos nuevos problemas, y trabajarlos es parte del diseño, no un proyecto distinto."
+    },
+    {
+     "l": "B",
+     "t": "cerrar el proyecto, porque la solución ya cumplió la especificación principal de secar el grano en menos tiempo.",
+     "j": "Es incorrecta. Cumplir la especificación principal es un logro, pero la Guía 30 incluye en el diseño la evaluación de la solución y la identificación de los nuevos problemas que genera. Cerrar ahora deja por fuera justamente esa parte del proceso."
+    },
+    {
+     "l": "C",
+     "t": "pedir que diseñen un secador distinto desde cero, porque una solución que genera efectos negativos no es válida.",
+     "j": "Es incorrecta. Reconoce que hay problemas, pero descarta un prototipo que sí funciona. Según la Guía 30, los nuevos problemas derivados de una solución se identifican para mejorarla; empezar desde cero solo sería razonable si el diseño no cumpliera su función principal."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La Guía 30 explica que, a través del diseño, se buscan soluciones a problemas con recursos limitados y en el marco de condiciones y restricciones. También dice que el diseño involucra procesos como la anticipación, la detección de necesidades, el planteamiento de múltiples soluciones, la evaluación y, al final, la identificación de nuevos problemas derivados de la solución propuesta. El secador cumplió su especificación principal, pero generó dos problemas nuevos: residuos de plástico y grano quebrado. Según la Guía, eso no cierra el proceso ni invalida el prototipo; es la entrada a una nueva iteración. En la prueba, cuando una solución funcione pero tenga efectos no previstos, elige la opción que evalúa y mejora a partir de esos efectos.",
+   "fuente": "Guía 30 MEN (2008), Tecnología y diseño",
+   "consejo": "El diseño no termina cuando funciona: se evalúa y se identifican los nuevos problemas que genera la solución.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "la evaluación y su desarrollo, así como con la identificación de nuevos problemas derivados de la solución propuesta",
+     "ubicacion": "Guía 30 MEN (2008), Tecnología y diseño"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q322",
+   "caso": "C196",
+   "familia": "PED-ENSENAR",
+   "dificultad": 3,
+   "competencia": "Elección de estrategias didácticas según el contexto",
+   "enunciado": "Según las Orientaciones Curriculares de 2022, la respuesta más adecuada de la docente a la solicitud del coordinador es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "replicar la estrategia de robótica de la sede urbana, porque todas las sedes de una institución deben usar las mismas estrategias.",
+     "j": "Es incorrecta. Mantener la coherencia institucional es importante, pero el documento no exige estrategias idénticas en todas las sedes. Copiar una estrategia que depende de un laboratorio, computadores y cuatro horas semanales ignora las condiciones reales de la sede rural."
+    },
+    {
+     "l": "B",
+     "t": "elegir la estrategia según su experticia, los recursos e infraestructura de la sede y la intensidad horaria disponible.",
+     "j": "Es correcta. Las Orientaciones dicen que la elección y uso de las estrategias didácticas dependerá de la experticia y experiencia docente, de los recursos didácticos e infraestructura y de la intensidad horaria disponible. La docente puede proponer proyectos con materiales del entorno y argumentarlo así ante el coordinador."
+    },
+    {
+     "l": "C",
+     "t": "aplazar las estrategias de construcción hasta que la sede reciba computadores suficientes y conexión a internet.",
+     "j": "Es incorrecta. Las limitaciones de recursos no justifican suspender el trabajo del área. El documento pide elegir la estrategia de acuerdo con lo que hay, y la docente tiene experiencia en proyectos con materiales del entorno, que no requieren internet ni computadores."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares de 2022 presentan varias estrategias didácticas para la Tecnología e Informática, como los proyectos tecnológicos, el movimiento maker o las actividades tecnológicas escolares, y aclaran que la elección y uso de esas estrategias dependerá de la experticia y experiencia docente, de los recursos didácticos e infraestructura con que se cuente y de la intensidad horaria disponible. La sede rural tiene otras condiciones: pocas tabletas, sin internet y la mitad de horas. Lo adecuado es elegir una estrategia viable y argumentarla con el documento, no copiar la de otra sede ni esperar recursos. En la prueba, cuando el contexto limite los recursos, elige la opción que adapta la estrategia, nunca la que suspende el aprendizaje.",
+   "fuente": "Orientaciones Curriculares T&I (MEN, 2022), 4.2",
+   "consejo": "La estrategia didáctica se elige según experticia docente, recursos, infraestructura e intensidad horaria.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la elección y uso de las estrategias didácticas dependerá de la experticia y experiencia docente, de los recursos didácticos e infraestructura con que cuente, así como la intensidad horaria disponible",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), 4.2"
+    }
+   ]
+  }
+ ]
+}
