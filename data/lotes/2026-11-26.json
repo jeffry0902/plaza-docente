@@ -1,0 +1,940 @@
+{
+ "id": "2026-11-26",
+ "fecha": "2026-11-26",
+ "casos": [
+  {
+   "id": "C215",
+   "titulo": "Mariana quiere pasar a séptimo",
+   "texto": "En marzo, durante el primer periodo académico, la docente de Tecnología e Informática de grado sexto de una institución oficial de Yopal observa que Mariana resuelve con soltura retos de programación pensados para octavo y que tiene un desempeño sobresaliente en todas las áreas, con muy buena relación con sus compañeros. Los padres le piden a la docente que «la pasen ya a séptimo» y le sugieren hablar directamente con el rector para que lo decida por resolución esa misma semana."
+  },
+  {
+   "id": "C216",
+   "titulo": "El SIEE que se cambia en junio",
+   "texto": "En junio, el rector de una institución oficial de Yopal propone modificar el Sistema Institucional de Evaluación de los Estudiantes (SIEE) para que el proyecto tecnológico tenga más peso en la valoración de cada periodo. Anuncia que basta con que el consejo académico apruebe el cambio, que se aplicará desde el tercer periodo y que estudiantes y familias se enterarán por el boletín. La docente de Tecnología e Informática, integrante del consejo académico, debe pronunciarse."
+  },
+  {
+   "id": "C217",
+   "titulo": "El traslado entre dos colegios",
+   "texto": "Un estudiante de grado noveno se traslada en agosto entre dos instituciones oficiales que pertenecen a la misma entidad territorial certificada. La institución que lo recibe no reconoce las valoraciones de Tecnología e Informática del primer semestre porque su SIEE usa otros criterios, y la familia presenta una reclamación. El rector de la institución receptora le pide a la docente del área que revise qué dice el Decreto 1075 de 2015 sobre quién resuelve este tipo de reclamaciones."
+  },
+  {
+   "id": "C218",
+   "titulo": "El esquema del sector educativo",
+   "texto": "En una jornada pedagógica sobre la Ley 1620 de 2013, un grupo de docentes de Yopal elabora un esquema del Sistema Nacional de Convivencia Escolar. Un docente afirma que el sector educativo dentro del Sistema está conformado por el Ministerio de Educación, el ICBF y las comisarías de familia, «porque son los que atienden los casos». La docente de Tecnología e Informática propone revisar el artículo 14 antes de terminar el esquema."
+  },
+  {
+   "id": "C219",
+   "titulo": "El proyecto de derechos en lo digital",
+   "texto": "La docente de Tecnología e Informática de grado noveno propone articular al PEI un proyecto pedagógico sobre el ejercicio de los derechos humanos, sexuales y reproductivos en entornos digitales y el desarrollo de competencias ciudadanas, con talleres sobre privacidad y riesgos del envío de imágenes íntimas. El coordinador le responde: «Eso es voluntario y extracurricular; si quiere, hágalo en una jornada libre»."
+  },
+  {
+   "id": "C220",
+   "titulo": "La autoevaluación sin clima escolar",
+   "texto": "El equipo de gestión de una institución oficial de Yopal prepara la autoevaluación institucional del año. Al revisar los criterios, un directivo propone dejar por fuera todo lo relacionado con el clima escolar y con los proyectos de prevención del acoso, «porque eso le toca al comité de convivencia y no tiene que ver con la calidad». La docente de Tecnología e Informática, que integra el equipo, consulta el artículo 15 de la Ley 1620 de 2013."
+  },
+  {
+   "id": "C221",
+   "titulo": "¿Quién forma a los docentes en convivencia?",
+   "texto": "Varias docentes de una institución oficial de Yopal quieren formarse en resolución de conflictos escolares y en prevención del acoso y del ciberacoso. Una propone que el Comité Escolar de Convivencia contrate un curso con recursos del colegio; otra cree que el Ministerio de Educación debe llegar directamente a cada institución a dictarlo. La docente de Tecnología e Informática revisa el numeral 6 del artículo 15 de la Ley 1620 de 2013."
+  },
+  {
+   "id": "C222",
+   "titulo": "Celulares que duran un año",
+   "texto": "En grado noveno, varios estudiantes cuentan que en sus familias se cambia de celular casi cada año, aunque el anterior siga funcionando, y que algunos equipos «se ponen lentos» poco después de comprarlos. La docente de Tecnología e Informática quiere planear una actividad a partir de la evidencia de aprendizaje de las Orientaciones Curriculares (2022) para octavo y noveno que se relaciona con este fenómeno."
+  },
+  {
+   "id": "C223",
+   "titulo": "Dos evidencias para la malla",
+   "texto": "Al organizar la malla curricular de Tecnología e Informática, la docente encuentra dos evidencias de las Orientaciones Curriculares (2022): «Automatizo información obtenida en contextos de informática, cibernética, robótica o domótica proponiendo una solución concreta a problemas propuestos» y «Elaboro algoritmos en un entorno de programación para solucionar problemas que requieren el uso de estructuras básicas de secuenciación, condición o repetición». Un colega sugiere ubicar las dos en décimo, «porque las dos son de programación»."
+  },
+  {
+   "id": "C224",
+   "titulo": "El agua para la huerta",
+   "texto": "En grado séptimo, los equipos deben proponer cómo llevar agua a la huerta escolar. Tienen tres alternativas: una bomba eléctrica de bajo precio pero alto consumo de energía, una bomba solar más costosa y un sistema por gravedad con un tanque elevado que exige reforzar una estructura. Un equipo elige la bomba eléctrica «porque es la más barata» y da por terminada la tarea."
+  },
+  {
+   "id": "C225",
+   "titulo": "El manual que redactó un abogado",
+   "texto": "Para actualizar el manual de convivencia, el rector de una institución oficial de Yopal contrata a un abogado externo para que redacte el texto completo, y propone que el consejo directivo lo apruebe sin consultar a estudiantes ni a familias, «para ganar tiempo». La docente de Tecnología e Informática, integrante del Comité Escolar de Convivencia, revisa el artículo 29 del Decreto 1965 de 2013."
+  },
+  {
+   "id": "C226",
+   "titulo": "El manual copiado para la sede rural",
+   "texto": "Una institución oficial de Yopal abrió una sede rural y debe ajustar su manual de convivencia. La comisión que lo revisa propone copiar el manual de un colegio urbano de otra ciudad, «porque ya está aprobado y trae todo». Al leerlo, la docente de Tecnología e Informática nota que las situaciones que describe son propias de ese colegio urbano y no de la vida en la sede rural."
+  },
+  {
+   "id": "C227",
+   "titulo": "Socializar el manual actualizado",
+   "texto": "Ya actualizado el manual de convivencia, el Comité Escolar de Convivencia de una institución de Yopal propone darlo a conocer con una lectura en cada aula durante la primera semana de clases. La docente de Tecnología e Informática quiere proponer una estrategia que cumpla mejor lo que pide el Decreto 1965 de 2013 sobre la divulgación del manual, aprovechando los recursos digitales de la institución."
+  },
+  {
+   "id": "C228",
+   "titulo": "El manual que solo tiene sanciones",
+   "texto": "Después de atender, según el protocolo, una discusión fuerte entre dos estudiantes de octavo por el turno de uso de un computador, el Comité Escolar de Convivencia revisa el manual y descubre que, para este tipo de conflictos, solo contiene sanciones. Un docente propone agregar más sanciones «para que no se repita». La docente de Tecnología e Informática revisa el numeral 5 del artículo 29 del Decreto 1965 de 2013."
+  },
+  {
+   "id": "C229",
+   "titulo": "El ventilador que no enciende",
+   "texto": "En grado sexto, uno de los ventiladores del aula de tecnología dejó de funcionar. La docente quiere convertir la situación en una actividad de detección de fallas basada en la evidencia de aprendizaje de sexto y séptimo de las Orientaciones Curriculares (2022). Un colega le sugiere usar mejor la evidencia de cuarto y quinto, «que es más fácil», y le pide que le explique en qué se diferencian."
+  },
+  {
+   "id": "C230",
+   "titulo": "Las arepas del desayuno escolar",
+   "texto": "En grado séptimo, la docente de Tecnología e Informática quiere iniciar el trabajo de programación. Propone que los estudiantes primero descompongan en pasos el problema de preparar las arepas del desayuno escolar y luego programen en un entorno por bloques una animación del proceso que use secuencias, condiciones («si la masa está seca, agregar agua») y repeticiones. Un padre pregunta en la reunión si eso «no es perder el tiempo cocinando»."
+  },
+  {
+   "id": "C231",
+   "titulo": "El carrito de cartón",
+   "texto": "En grado quinto, los estudiantes reciben un kit para armar un carrito con ruedas de tapas plásticas, ejes de palos de pincho y una base de cartón. El kit trae un manual con instrucciones ilustradas. La docente de Tecnología e Informática debe decidir cómo usar el manual en la actividad, de acuerdo con las evidencias de aprendizaje de cuarto y quinto de las Orientaciones Curriculares (2022)."
+  },
+  {
+   "id": "C232",
+   "titulo": "La silla, el trapiche y la hamaca",
+   "texto": "En grado cuarto de una sede rural de Yopal, la docente de Tecnología e Informática y el docente de Ciencias Sociales planean una unidad conjunta sobre la vida en el llano. Ella quiere trabajar con artefactos de la región, como la silla de montar, el trapiche y la hamaca, y su propósito es que los estudiantes conecten la tecnología con las costumbres de su comunidad. Busca la evidencia de cuarto y quinto de las Orientaciones Curriculares (2022) que mejor responde a ese propósito."
+  }
+ ],
+ "fichas": [
+  {
+   "id": "F39",
+   "familia": "PED-ENSENAR",
+   "titulo": "Pistas de la Guía 30 para enseñar: proyectos, salidas de campo y exploración «en vivo»",
+   "lectura": "Al final de sus orientaciones, la Guía 30 del MEN (2008) ofrece «pistas para maestros exploradores e innovadores». La primera afirma que los proyectos pedagógicos realizados en el aula, las salidas de campo, la visita de expertos y la experimentación con diversos elementos y artefactos de la realidad local «contribuyen a la construcción de conocimientos integrados, motivan la imaginación de los estudiantes y crean condiciones de aprendizaje significativo». La Guía agrega que la exploración y el descubrimiento «en vivo y en directo», es decir, en la práctica cotidiana, son indispensables para toda actividad de aprendizaje. Y propone una reflexión para empezar: el manejo creativo de la incertidumbre y la posibilidad de formular muchas respuestas a una pregunta propician la innovación y la invención. En los casos de la CNSC, esto se traduce en elegir la opción en la que el estudiante explora artefactos reales de su entorno, no la que se queda en la explicación o en la memorización.",
+   "puntos": [
+    "Proyectos de aula, salidas de campo, visita de expertos y experimentación con artefactos locales.",
+    "Efecto: conocimientos integrados, imaginación y aprendizaje significativo.",
+    "Exploración y descubrimiento «en vivo y en directo» = en la práctica cotidiana; son indispensables.",
+    "Muchas respuestas a una pregunta + manejo creativo de la incertidumbre → innovación e invención.",
+    "Trampa CNSC: elegir la clase expositiva o la memorización «primero» y la exploración «si queda tiempo»."
+   ],
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Los proyectos pedagógicos realizados en el aula, las salidas de campo, la visita de expertos y la experimentación con diversos elementos y artefactos de la realidad local, contribuyen a la construcción de conocimientos integrados, motivan la imaginación de los estudiantes y crean condiciones de aprendizaje significativo.",
+     "ubicacion": "Guía 30 MEN (2008), Pistas para maestros exploradores e innovadores"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "La exploración y el descubrimiento “en vivo y en directo”, es decir, en la práctica cotidiana, son indispensables para toda actividad de aprendizaje.",
+     "ubicacion": "Guía 30 MEN (2008), Pistas para maestros exploradores e innovadores"
+    },
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "El manejo creativo de la incertidumbre y la posibilidad de formular muchas respuestas a una pregunta, propician la innovación y la invención.",
+     "ubicacion": "Guía 30 MEN (2008), Ciencia, tecnología y sociedad para promover la cultura del futuro"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "tipo": "caso",
+   "id": "Q341",
+   "caso": "C215",
+   "familia": "PED-EVAL-NORM",
+   "dificultad": 3,
+   "competencia": "Promoción anticipada de grado",
+   "enunciado": "Según el artículo 2.3.3.3.3.7 del Decreto 1075 de 2015 (Decreto 1290 de 2009), la orientación que la docente debe dar a los padres es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el consejo académico, con el consentimiento de ellos, recomienda la promoción ante el consejo directivo, que decide.",
+     "j": "Es correcta. El artículo dice que, durante el primer periodo, el consejo académico, previo consentimiento de los padres, recomendará ante el consejo directivo la promoción anticipada. La decisión queda en el acta del consejo directivo y, si es positiva, en el registro escolar."
+    },
+    {
+     "l": "B",
+     "t": "el rector, con el informe de la docente, decide la promoción mediante resolución y la registra en el boletín.",
+     "j": "Es incorrecta. Acierta en que se necesita un soporte del desempeño, pero se equivoca de instancia: la norma no le da la decisión al rector por resolución. Quien recomienda es el consejo académico y la decisión se consigna en el acta del consejo directivo."
+    },
+    {
+     "l": "C",
+     "t": "la comisión de evaluación estudia el caso al cierre del año y, si lo aprueba, la promueve en el siguiente.",
+     "j": "Es incorrecta. Falla en el momento: la promoción anticipada se tramita durante el primer periodo del año escolar. Esperar al cierre del año convierte el caso en una promoción ordinaria y deja sin efecto la figura que la familia está pidiendo."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La promoción anticipada tiene tres condiciones que la CNSC suele mezclar en los distractores: el momento (durante el primer periodo del año escolar), el consentimiento previo de los padres y las instancias (el consejo académico recomienda y el consejo directivo decide, con registro en su acta). Además, el estudiante debe demostrar un rendimiento superior en el desarrollo cognitivo, personal y social en el marco de las competencias básicas del grado que cursa. El caso de Mariana ocurre en marzo, con desempeño sobresaliente y con padres que ya consienten; por eso el camino es el consejo académico, no una resolución del rector ni una espera hasta fin de año.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.7 (Decreto 1290 de 2009, art. 7)",
+   "consejo": "Promoción anticipada: primer periodo + consentimiento de padres + consejo académico recomienda + consejo directivo decide.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Durante el primer periodo del año escolar el consejo académico, previo consentimiento de los padres de familia, recomendará ante el consejo directivo la promoción anticipada al grado siguiente del estudiante que demuestre un rendimiento superior en el desarrollo cognitivo, personal y social en el marco de las competencias básicas del grado que cursa.",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.3.3.7"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "La decisión será consignada en el acta del consejo directivo y, si es positiva, en el registro escolar.",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.3.3.7"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q342",
+   "caso": "C216",
+   "familia": "PED-EVAL-NORM",
+   "dificultad": 3,
+   "competencia": "Modificación del Sistema Institucional de Evaluación",
+   "enunciado": "De acuerdo con el artículo 2.3.3.3.3.8 del Decreto 1075 de 2015, la docente debe señalar que la modificación propuesta",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "puede aprobarla el consejo académico, porque es la instancia técnica que orienta la evaluación institucional.",
+     "j": "Es incorrecta. El consejo académico participa en la discusión pedagógica, pero la norma exige aprobar el sistema en sesión del consejo directivo, con consignación en el acta. Una modificación no puede saltarse ese paso porque el parágrafo obliga a seguir el mismo procedimiento."
+    },
+    {
+     "l": "B",
+     "t": "es válida si se informa a las familias en el boletín, pues lo que se exige es divulgarla antes de aplicarla.",
+     "j": "Es incorrecta. Es una verdad a medias: divulgar el sistema sí es uno de los pasos, pero no es el único. Antes hay que definirlo, socializarlo, aprobarlo en el consejo directivo e incorporarlo en el PEI; informar por el boletín no reemplaza esos pasos."
+    },
+    {
+     "l": "C",
+     "t": "debe seguir el mismo procedimiento de creación del SIEE, incluida su aprobación en el consejo directivo.",
+     "j": "Es correcta. El parágrafo del artículo dice que, cuando se considere necesaria la modificación, se deberá seguir el procedimiento antes enunciado. Ese procedimiento incluye socializar el sistema con la comunidad y aprobarlo en sesión del consejo directivo, con consignación en el acta."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El artículo 2.3.3.3.3.8 fija un procedimiento mínimo para crear el SIEE: definirlo, socializarlo con la comunidad educativa, aprobarlo en sesión del consejo directivo con consignación en el acta, incorporarlo en el PEI, divulgarlo, divulgar los mecanismos de reclamación e informar a quienes ingresen. El parágrafo cierra la puerta a los atajos: cualquier modificación sigue el mismo procedimiento. La lógica de la CNSC es el debido proceso institucional: una buena intención pedagógica, como dar más peso al proyecto tecnológico, no autoriza a cambiar la evaluación solo con el consejo académico ni a notificarla por el boletín.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.8 y parágrafo (Decreto 1290 de 2009, art. 8)",
+   "consejo": "Modificar el SIEE = repetir el procedimiento de creación. Aprueba el consejo directivo, no el académico.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Cuando el establecimiento educativo considere necesaria la modificación del sistema institucional de evaluación de los estudiantes deberá seguir el procedimiento antes enunciado.",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.3.3.8, parágrafo"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Socializar el sistema institucional de evaluación con la comunidad educativa.",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.3.3.8, num. 2"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Aprobar el sistema institucional de evaluación en sesión en el consejo directivo y consignación en el acta.",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.3.3.8, num. 3"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q343",
+   "caso": "C217",
+   "familia": "PED-EVAL-NORM",
+   "dificultad": 2,
+   "competencia": "Responsabilidades de la entidad territorial en la evaluación",
+   "enunciado": "Según el artículo 2.3.3.3.3.10 del Decreto 1075 de 2015, la instancia a la que la norma asigna resolver las reclamaciones sobre la movilidad de estudiantes entre establecimientos de su jurisdicción es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el Ministerio de Educación Nacional, que expide las orientaciones para implementar los sistemas de evaluación.",
+     "j": "Es incorrecta. Al Ministerio le corresponde expedir y actualizar orientaciones, acompañar a las secretarías y evaluar la efectividad de los sistemas, según el artículo anterior. Resolver las reclamaciones por movilidad entre establecimientos de una jurisdicción no está entre sus funciones en esta sección."
+    },
+    {
+     "l": "B",
+     "t": "la secretaría de educación de la entidad territorial certificada a cuya jurisdicción pertenecen ambos colegios.",
+     "j": "Es correcta. El numeral 4 del artículo 2.3.3.3.3.10 dice que la entidad territorial certificada debe resolver las reclamaciones que se presenten respecto de la movilidad de estudiantes entre establecimientos educativos de su jurisdicción, como ocurre en este caso."
+    },
+    {
+     "l": "C",
+     "t": "el consejo directivo de la institución de origen, porque fue allí donde se emitieron las valoraciones reclamadas.",
+     "j": "Es incorrecta. El consejo directivo de cada institución aprueba su propio SIEE, pero la controversia surge entre dos establecimientos con sistemas distintos. Para esa movilidad, la norma asigna la función de resolver las reclamaciones a la entidad territorial certificada."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El Decreto 1290 de 2009, compilado en el Decreto 1075 de 2015, reparte responsabilidades por niveles. El Ministerio publica resultados de pruebas externas, expide orientaciones, acompaña a las secretarías y evalúa la efectividad de los sistemas. La entidad territorial certificada analiza resultados, acompaña a los establecimientos de su jurisdicción, trabaja con los directivos y resuelve las reclamaciones sobre la movilidad de estudiantes entre establecimientos. La palabra clave del enunciado es «movilidad entre establecimientos»: cuando el conflicto involucra dos colegios con SIEE distintos, la instancia que la norma nombra es la secretaría de la entidad territorial certificada.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.3.3.10, num. 4 (Decreto 1290 de 2009, art. 10)",
+   "consejo": "Movilidad entre colegios de la misma jurisdicción → reclamación a la entidad territorial certificada.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Resolver las reclamaciones que se presenten con respecto de la movilidad de estudiantes entre establecimientos educativos de su jurisdicción.",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.3.3.10, num. 4"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Expedir y actualizar orientaciones para la implementación del sistema institucional de evaluación.",
+     "ubicacion": "Decreto 1075 de 2015, art. 2.3.3.3.3.9, num. 2"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q344",
+   "caso": "C218",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "El sector educativo en el Sistema Nacional de Convivencia Escolar",
+   "enunciado": "Según el artículo 14 de la Ley 1620 de 2013, el sector educativo, como parte del Sistema Nacional, está conformado por",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el Ministerio de Educación, el ICBF y las comisarías de familia, que son quienes atienden los casos de convivencia.",
+     "j": "Es incorrecta. Repite la confusión del docente: el ICBF y las comisarías de familia no son parte del sector educativo. El artículo 14 nombra solo al Ministerio, a las secretarías de educación certificadas y a los establecimientos que prestan el servicio educativo."
+    },
+    {
+     "l": "B",
+     "t": "el Ministerio de Educación, el Comité Nacional de Convivencia y los comités escolares de convivencia.",
+     "j": "Es incorrecta. Los comités son instancias del Sistema, pero el artículo 14 no los menciona al definir el sector educativo. Este se conforma por entidades: el Ministerio, las secretarías de educación certificadas y los establecimientos educativos."
+    },
+    {
+     "l": "C",
+     "t": "el Ministerio de Educación, las secretarías de educación certificadas y los establecimientos educativos.",
+     "j": "Es correcta. El artículo 14 dice que el sector educativo como parte del Sistema Nacional está conformado por el Ministerio de Educación Nacional, las secretarías de educación de las entidades territoriales certificadas y los establecimientos que prestan el servicio educativo."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La Ley 1620 distingue entre el Sistema Nacional de Convivencia Escolar, que involucra varios sectores e instancias, y el sector educativo dentro de ese Sistema. El artículo 14 define este último con tres actores: el Ministerio de Educación Nacional, las secretarías de educación de las entidades territoriales certificadas y los establecimientos que prestan el servicio educativo de acuerdo con la Ley 115. Las preguntas de la CNSC suelen mezclar entidades de protección, como el ICBF, o instancias, como los comités, con los integrantes del sector educativo. Para no caer, busque en el enunciado la expresión «sector educativo» y recuerde los tres niveles: nación, territorio e institución.",
+   "fuente": "Ley 1620 de 2013, art. 14",
+   "consejo": "Sector educativo del Sistema = MEN + secretarías certificadas + establecimientos educativos.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "El sector educativo como parte del Sistema Nacional está conformado por: el Ministerio de Educación Nacional, las secretarías de educación de las entidades territoriales certificadas en educación y los establecimientos que prestan el servicio educativo de acuerdo con la Ley 115 de 1994.",
+     "ubicacion": "Ley 1620 de 2013, art. 14"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q345",
+   "caso": "C219",
+   "familia": "NOR-FORMAR",
+   "dificultad": 2,
+   "competencia": "Proyectos pedagógicos obligatorios de convivencia y ciudadanía",
+   "enunciado": "De acuerdo con el numeral 1 del artículo 15 de la Ley 1620 de 2013, la docente puede responder que la implementación de esos programas",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "se hace mediante proyectos pedagógicos de carácter obligatorio, como parte del Proyecto Educativo Institucional.",
+     "j": "Es correcta. El numeral 1 dice que la implementación de los programas de competencias ciudadanas y de educación para el ejercicio de los derechos humanos, sexuales y reproductivos se hará a través de proyectos pedagógicos de carácter obligatorio, como parte de los PEI o PEC."
+    },
+    {
+     "l": "B",
+     "t": "se hace mediante actividades voluntarias, que cada docente decide realizar en su área según su interés.",
+     "j": "Es incorrecta. Es justamente el error del coordinador. La ley no deja estos programas a la voluntad de cada docente: los define como proyectos pedagógicos de carácter obligatorio, articulados al PEI. Un docente sí puede liderarlos, pero no como actividad opcional."
+    },
+    {
+     "l": "C",
+     "t": "se hace mediante campañas anuales que dirige la secretaría de educación en todos los colegios del municipio.",
+     "j": "Es incorrecta. Las secretarías certificadas promueven y fomentan estos programas junto con el Ministerio, pero la implementación en el establecimiento se hace con proyectos pedagógicos dentro del PEI, no solo con campañas externas que llegan desde la secretaría."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El numeral 1 del artículo 15 asigna al Ministerio, junto con las secretarías certificadas, promover en los establecimientos los programas de competencias ciudadanas y de educación para el ejercicio de los derechos humanos, sexuales y reproductivos. Lo decisivo para el caso es la segunda frase: esa implementación se hará a través de proyectos pedagógicos de carácter obligatorio, de conformidad con el artículo 14 de la Ley 115, como parte de los PEI o de los PEC. La propuesta de la docente cabe en ese marco y conecta el área con la formación ciudadana. La CNSC premia la respuesta que reconoce el carácter obligatorio y su lugar en el PEI.",
+   "fuente": "Ley 1620 de 2013, art. 15, num. 1",
+   "consejo": "Competencias ciudadanas y derechos sexuales y reproductivos: proyectos pedagógicos OBLIGATORIOS dentro del PEI.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Dicha implementación se hará a través de proyectos pedagógicos de carácter obligatorio, de conformidad con el artículo 14 de la Ley General de Educación, como parte de los Proyectos Educativos Institucionales –PEI– o de los Proyectos Educativos Comunitarios –PEC–, según el caso.",
+     "ubicacion": "Ley 1620 de 2013, art. 15, num. 1"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q346",
+   "caso": "C220",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Clima escolar como criterio de evaluación de la calidad",
+   "enunciado": "Según el numeral 4 del artículo 15 de la Ley 1620 de 2013, en los procesos de autoevaluación de los establecimientos educativos, las variables asociadas al clima escolar",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "solo se analizan cuando el comité escolar reporta situaciones tipo II o tipo III durante el año escolar.",
+     "j": "Es incorrecta. Condiciona el análisis a que haya casos graves, algo que la ley no establece. El numeral 4 incorpora el clima escolar como criterio de evaluación de los establecimientos, sin depender de que se presenten situaciones tipo II o III."
+    },
+    {
+     "l": "B",
+     "t": "pertenecen al manual de convivencia y se revisan aparte, sin relación con la evaluación de la calidad.",
+     "j": "Es incorrecta. Es el argumento del directivo. El manual de convivencia sí trata el clima escolar, pero la ley ordena incorporar esas variables en los procesos de autoevaluación o de certificación de calidad, de modo que no pueden quedar aparte."
+    },
+    {
+     "l": "C",
+     "t": "se incorporan como un criterio de evaluación, junto con los proyectos para mitigar la violencia escolar.",
+     "j": "Es correcta. El numeral 4 ordena incorporar en los procesos de autoevaluación o de certificación de calidad las variables asociadas a clima escolar y a la implementación de proyectos pedagógicos para la mitigación de la violencia y acoso escolar, como un criterio de evaluación."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Entre las responsabilidades del Ministerio de Educación, el numeral 4 del artículo 15 de la Ley 1620 conecta la convivencia con la calidad: las variables de clima escolar, la implementación de proyectos pedagógicos para mitigar la violencia y el acoso escolar y la educación para la sexualidad deben incorporarse en la autoevaluación o en la certificación de calidad de los establecimientos como un criterio de evaluación. Por eso la propuesta del directivo contradice la ley. En la lógica de la CNSC, la convivencia no es un asunto aislado del comité, sino parte de la gestión institucional que se evalúa cada año.",
+   "fuente": "Ley 1620 de 2013, art. 15, num. 4",
+   "consejo": "Clima escolar = criterio de evaluación en la autoevaluación institucional, no un tema aparte.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Incorporar en los procesos de autoevaluación o en los procesos de certificación de calidad de los establecimientos educativos, las variables asociadas a clima escolar, y a la implementación de proyectos pedagógicos para la mitigación de la violencia y acoso escolar, y la educación para la sexualidad, como un criterio de evaluación.",
+     "ubicacion": "Ley 1620 de 2013, art. 15, num. 4"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q347",
+   "caso": "C221",
+   "familia": "NOR-SIST",
+   "dificultad": 3,
+   "competencia": "Formación docente en convivencia escolar",
+   "enunciado": "Según ese numeral, la formación docente en promoción de la convivencia y resolución de conflictos escolares",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la adelanta el Ministerio directamente en cada colegio y la incluye cada año en un plan nacional de formación.",
+     "j": "Es incorrecta. Es un distractor cercano porque el Ministerio sí interviene, pero su papel es asistir técnicamente a las secretarías certificadas. Son las secretarías las que adelantan los procesos, y los temas se incluyen en los planes territoriales, no en un plan nacional."
+    },
+    {
+     "l": "B",
+     "t": "la adelantan las secretarías certificadas, con asistencia técnica del Ministerio, en sus planes territoriales.",
+     "j": "Es correcta. El numeral 6 dice que el Ministerio debe asistir técnicamente a las secretarías certificadas para que adelanten procesos de actualización y formación docente en estas temáticas, que se incluirán anualmente en los planes operativos de los planes territoriales de formación docente."
+    },
+    {
+     "l": "C",
+     "t": "la contrata el Comité Escolar de Convivencia, que define cada año la formación de los docentes del colegio.",
+     "j": "Es incorrecta. El comité escolar tiene funciones de promoción, prevención y atención de la convivencia en la institución, pero el numeral 6 ubica la formación docente en los procesos que adelantan las secretarías dentro de sus planes territoriales de formación."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La pregunta exige dos pasos: identificar quién adelanta la formación y dónde queda programada. El numeral 6 del artículo 15 responde ambos: el Ministerio asiste técnicamente a las secretarías de educación certificadas para que ellas adelanten procesos de actualización y formación docente sobre convivencia, resolución de conflictos, derechos humanos, derechos sexuales y reproductivos, competencias ciudadanas y estilos de vida saludable; y esos temas se incluyen anualmente en los planes operativos de los planes territoriales de formación docente. El distractor más peligroso es el que pone al Ministerio como ejecutor directo: el Ministerio orienta y asiste, mientras la secretaría ejecuta en su territorio.",
+   "fuente": "Ley 1620 de 2013, art. 15, num. 6",
+   "consejo": "Formación docente en convivencia: MEN asiste → secretarías adelantan → plan territorial de formación docente.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Asistir técnicamente a las secretarías de educación certificadas, para que adelanten procesos de actualización y de formación docente sobre temáticas relacionadas con la promoción de la convivencia escolar, la resolución de conflictos escolares",
+     "ubicacion": "Ley 1620 de 2013, art. 15, num. 6"
+    },
+    {
+     "doc": "ley_1620_2013",
+     "texto": "que se incluirán anualmente en los planes operativos de los planes territoriales de formación docente.",
+     "ubicacion": "Ley 1620 de 2013, art. 15, num. 6"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q348",
+   "caso": "C222",
+   "familia": "DIS-CTS",
+   "dificultad": 2,
+   "competencia": "Ciclo de vida y obsolescencia de los productos tecnológicos",
+   "enunciado": "La actividad más coherente con esa evidencia de aprendizaje es que los estudiantes",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "comparen las especificaciones técnicas de varios modelos y escojan el de mejor relación entre precio y desempeño.",
+     "j": "Es incorrecta. Comparar productos es una actividad válida del área, pero no responde a la evidencia que pide el caso. La evidencia de 8.° y 9.° se centra en el ciclo de vida y en las consecuencias del desuso anticipado, no en elegir la mejor compra."
+    },
+    {
+     "l": "B",
+     "t": "expliquen el ciclo de vida del celular y evalúen las consecuencias de su desuso anticipado por obsolescencia.",
+     "j": "Es correcta. La evidencia de 8.° y 9.° dice: «Explico el ciclo de vida de algunos productos tecnológicos y evalúo las consecuencias de su prolongación o desuso acelerado o anticipado por obsolescencia programada o por dinámicas del consumo y del mercado»."
+    },
+    {
+     "l": "C",
+     "t": "elaboren un manual de uso del celular con normas de seguridad para cuidar la batería y los datos personales.",
+     "j": "Es incorrecta. El uso seguro y la protección de datos son propósitos del área, pero esta actividad apunta a otra evidencia. Lo que el caso plantea, el cambio frecuente de equipos que siguen funcionando, se trabaja con el ciclo de vida y la obsolescencia."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares de 2022 incluyen en octavo y noveno una evidencia que encaja con el caso: explicar el ciclo de vida de algunos productos tecnológicos y evaluar las consecuencias de su prolongación o de su desuso acelerado o anticipado, ya sea por obsolescencia programada o por dinámicas del consumo y del mercado. Las otras dos opciones describen actividades útiles, pero corresponden a otros propósitos: elegir una compra o usar con seguridad un artefacto. La clave de lectura es el fenómeno que describe el enunciado: equipos que se reemplazan aunque funcionen. Ese fenómeno se analiza con el ciclo de vida, desde la relación entre tecnología, consumo y sociedad.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 3.3.2, evidencias de 8.° y 9.°",
+   "consejo": "Cambiar equipos que aún funcionan → ciclo de vida + obsolescencia programada o por consumo (8.° y 9.°).",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Explico el ciclo de vida de algunos productos tecnológicos y evalúo las consecuencias de su prolongación o desuso acelerado o anticipado por obsolescencia programada o por dinámicas del consumo y del mercado.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3.2, evidencias de 8° y 9°"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q349",
+   "caso": "C223",
+   "familia": "DIS-COMP",
+   "dificultad": 3,
+   "competencia": "Ubicación de evidencias por grupos de grados",
+   "enunciado": "Según las Orientaciones Curriculares (2022), la ubicación de estas evidencias que corresponde al documento es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "las dos en décimo y once, pues ambas son de programación y esta se profundiza en la media.",
+     "j": "Es incorrecta. Es el razonamiento del colega: agrupa por tema y no por lo que dice el documento. Las Orientaciones ubican la elaboración de algoritmos con estructuras básicas en sexto y séptimo, y la automatización de información en octavo y noveno, antes de la media."
+    },
+    {
+     "l": "B",
+     "t": "la de automatizar información en sexto y séptimo, y la de algoritmos en octavo y noveno.",
+     "j": "Es incorrecta. Invierte la progresión. Primero se elaboran algoritmos con estructuras básicas de secuenciación, condición o repetición, en sexto y séptimo; después se automatiza información en contextos de robótica o domótica, en octavo y noveno."
+    },
+    {
+     "l": "C",
+     "t": "la de algoritmos en sexto y séptimo, y la de automatizar información en octavo y noveno.",
+     "j": "Es correcta. En las Orientaciones, «Elaboro algoritmos en un entorno de programación…» aparece entre las evidencias de 6.° y 7.°, y «Automatizo información obtenida en contextos de informática, cibernética, robótica o domótica…» entre las de 8.° y 9.°. Hay una progresión de lo básico a lo aplicado."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones Curriculares de 2022 organizan las evidencias por grupos de grados y con progresión. En sexto y séptimo el estudiante elabora algoritmos en un entorno de programación con las estructuras básicas: secuenciación, condición y repetición. En octavo y noveno da un paso más: automatiza información en contextos de informática, cibernética, robótica o domótica y propone una solución concreta. Que dos evidencias traten un mismo tema no significa que vayan en el mismo grado. La CNSC evalúa si la docente ubica los desempeños en el grupo de grados correcto y si reconoce la progresión entre ellos, en lugar de agrupar por intuición.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 3.3.2, evidencias de 6.° y 7.° y de 8.° y 9.°",
+   "consejo": "Algoritmos con secuencia, condición y repetición: 6.° y 7.°. Automatizar en robótica o domótica: 8.° y 9.°.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Automatizo información obtenida en contextos de informática, cibernética, robótica o domótica proponiendo una solución concreta a problemas propuestos",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3.2, evidencias de 8° y 9°"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Elaboro algoritmos en un entorno de programación para solucionar problemas que requieren el uso de estructuras básicas de secuenciación, condición o repetición.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3.2, evidencias de 6° y 7°"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q350",
+   "caso": "C224",
+   "familia": "DIS-DISENO",
+   "dificultad": 3,
+   "competencia": "Criterios para seleccionar alternativas de solución",
+   "enunciado": "Según la evidencia de aprendizaje de sexto y séptimo de las Orientaciones Curriculares, la retroalimentación más pertinente de la docente es pedirle al equipo que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "mantenga su elección, porque en un colegio oficial el costo es el criterio que define si la solución es viable.",
+     "j": "Es incorrecta. El costo sí es uno de los criterios que nombra la evidencia, pero no el único ni el decisivo por sí solo. Aceptar la elección sin revisar los demás criterios deja la tarea a medias y no desarrolla la evidencia de 6.° y 7.°."
+    },
+    {
+     "l": "B",
+     "t": "elija la bomba solar, porque una solución tecnológica responsable debe preferir siempre las energías renovables.",
+     "j": "Es incorrecta. Es un distractor atractivo porque considera el impacto, pero impone una respuesta en lugar de pedir que el equipo la construya. La evidencia pide seleccionar con varios criterios; la bomba solar podría ser la mejor, pero el equipo debe justificarlo."
+    },
+    {
+     "l": "C",
+     "t": "revise su elección con criterios como eficiencia, seguridad, consumo, impacto y costo, y la justifique.",
+     "j": "Es correcta. La evidencia de 6.° y 7.° dice: «Selecciono alternativas tecnológicas o informáticas apropiadas, para la solución de un problema, teniendo en cuenta criterios como eficiencia, seguridad, consumo, impacto y costo, entre otros». La docente devuelve la decisión al equipo con esos criterios."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Este ítem tiene dos opciones que suenan bien. La bomba solar puede parecer la más responsable, pero la evidencia de sexto y séptimo no pide que la docente escoja por los estudiantes: pide que ellos seleccionen alternativas apropiadas teniendo en cuenta criterios como eficiencia, seguridad, consumo, impacto y costo, entre otros. El error del equipo no fue pensar en el costo, sino quedarse solo con él. La retroalimentación formativa consiste en devolver la decisión con criterios explícitos para que la justifiquen. En la lógica de la CNSC, la docente media y orienta; no impone la respuesta ni valida una decisión tomada con un único criterio.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 3.3.2, evidencias de 6.° y 7.°",
+   "consejo": "Seleccionar alternativas = varios criterios (eficiencia, seguridad, consumo, impacto, costo). Ni solo el precio ni la respuesta impuesta.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Selecciono alternativas tecnológicas o informáticas apropiadas, para la solución de un problema, teniendo en cuenta criterios como eficiencia, seguridad, consumo, impacto y costo, entre otros",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3.2, evidencias de 6° y 7°"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q351",
+   "caso": "C225",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Construcción participativa del manual de convivencia",
+   "enunciado": "Según el parágrafo 2 del artículo 29 del Decreto 1965 de 2013, el manual de convivencia debe ser",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "redactado por un experto jurídico y aprobado por el consejo directivo, que representa a la comunidad.",
+     "j": "Es incorrecta. Contar con asesoría jurídica no está prohibido, pero el parágrafo 2 no deja la construcción en manos de un experto. Exige que el manual sea construido, evaluado y ajustado por la comunidad educativa, con estudiantes, familias, docentes y directivos."
+    },
+    {
+     "l": "B",
+     "t": "construido, evaluado y ajustado por la comunidad educativa, bajo la coordinación del comité de convivencia.",
+     "j": "Es correcta. El parágrafo 2 dice que el manual deberá ser construido, evaluado y ajustado por la comunidad educativa integrada por estudiantes, padres y madres de familia, docentes y directivos docentes, bajo la coordinación del Comité Escolar de Convivencia."
+    },
+    {
+     "l": "C",
+     "t": "elaborado por el rector y los coordinadores, y después socializado a los estudiantes y a las familias en una asamblea.",
+     "j": "Es incorrecta. Socializar el manual es necesario, pero no reemplaza la participación en su construcción. Si estudiantes y familias solo lo conocen al final, el manual no fue construido por la comunidad educativa como pide el parágrafo 2."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 29 del Decreto 1965 de 2013 fija lineamientos para actualizar el manual de convivencia. Su parágrafo 2 responde a la pregunta de quién lo hace: la comunidad educativa integrada por estudiantes, padres y madres de familia, docentes y directivos docentes, que lo construye, evalúa y ajusta bajo la coordinación del Comité Escolar de Convivencia. El parágrafo 1 refuerza la idea al pedir que se apliquen los principios de participación y corresponsabilidad de la Ley 1620. En la CNSC, las opciones que buscan «ganar tiempo» saltándose la participación suelen ser incorrectas: el debido proceso institucional incluye a toda la comunidad.",
+   "fuente": "Decreto 1965 de 2013, art. 29, parágrafos 1 y 2",
+   "consejo": "Manual de convivencia: lo construye, evalúa y ajusta la comunidad educativa; coordina el Comité Escolar de Convivencia.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "El Manual de Convivencia deberá ser construido, evaluado y ajustado por la comunidad educativa integrada por los estudiantes, padres y madres de familia, docentes y directivos docentes, bajo la coordinación del Comité Escolar de Convivencia.",
+     "ubicacion": "Decreto 1965 de 2013, art. 29, parágrafo 2"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "dar plena aplicación a los principios de participación, corresponsabilidad, autonomía, diversidad e integralidad que establece la Ley 1620 de 2013.",
+     "ubicacion": "Decreto 1965 de 2013, art. 29, parágrafo 1"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q352",
+   "caso": "C226",
+   "familia": "NOR-CONV-RUTA",
+   "dificultad": 3,
+   "competencia": "Contenidos mínimos del manual de convivencia",
+   "enunciado": "Según el artículo 29 del Decreto 1965 de 2013, la objeción más precisa a la propuesta de la comisión es que el manual debe incluir",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "las situaciones más comunes que afectan la convivencia, identificadas y valoradas en el contexto propio del establecimiento.",
+     "j": "Es correcta. El numeral 1 del artículo 29 exige incluir las situaciones más comunes que afectan la convivencia escolar y el ejercicio de los derechos, «las cuales deben ser identificadas y valoradas dentro del contexto propio del establecimiento educativo». Un manual copiado no cumple esa condición."
+    },
+    {
+     "l": "B",
+     "t": "las pautas y los acuerdos que deben atender los estudiantes, porque son ellos quienes están obligados por el manual.",
+     "j": "Es incorrecta. Es una verdad a medias: el manual sí incluye pautas y acuerdos, pero el numeral 2 dice que deben atenderlos todos los integrantes de la comunidad educativa, no solo los estudiantes. Además, no responde al problema del contexto que plantea el caso."
+    },
+    {
+     "l": "C",
+     "t": "las estrategias para divulgar el manual entre los docentes, que son quienes aplican los protocolos de atención.",
+     "j": "Es incorrecta. Distorsiona el numeral 6: las estrategias de divulgación se dirigen a la comunidad educativa con énfasis en los padres, madres o acudientes, no solo en los docentes. Tampoco toca la falla principal: situaciones ajenas al contexto de la sede."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 29 enumera los aspectos mínimos del manual de convivencia: situaciones más comunes, pautas y acuerdos, clasificación de situaciones, protocolos de atención, medidas pedagógicas y estrategias de divulgación. Los tres distractores de este ítem tocan numerales reales, pero dos los distorsionan (solo estudiantes, solo docentes) y ninguno responde al problema del caso. La palabra clave es «contexto»: el numeral 1 exige que las situaciones más comunes sean identificadas y valoradas dentro del contexto propio del establecimiento. Copiar el manual de otro colegio, aunque esté aprobado, incumple esa condición. Para resolver, primero ubique el problema del caso y luego busque el numeral que lo resuelve.",
+   "fuente": "Decreto 1965 de 2013, art. 29, nums. 1, 2 y 6",
+   "consejo": "Manual de convivencia: situaciones propias del contexto de ESTE establecimiento; pautas para TODA la comunidad; divulgación con énfasis en las familias.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Las situaciones más comunes que afectan la convivencia escolar y el ejercicio de los Derechos Humanos, sexuales y reproductivos, las cuales deben ser identificadas y valoradas dentro del contexto propio del establecimiento educativo.",
+     "ubicacion": "Decreto 1965 de 2013, art. 29, num. 1"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Las pautas y acuerdos que deben atender todos los integrantes de la comunidad educativa para garantizar la convivencia escolar y el ejercicio de los Derechos Humanos, sexuales y reproductivos.",
+     "ubicacion": "Decreto 1965 de 2013, art. 29, num. 2"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "haciendo énfasis en acciones dirigidas a los padres y madres de familia o acudientes.",
+     "ubicacion": "Decreto 1965 de 2013, art. 29, num. 6"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q353",
+   "caso": "C227",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Divulgación del manual de convivencia",
+   "enunciado": "Según el numeral 6 del artículo 29 del Decreto 1965 de 2013, la propuesta que mejor se ajusta a la norma es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "una lectura en voz alta en cada aula, dirigida por los directores de grupo durante la primera semana.",
+     "j": "Es incorrecta. Es la propuesta del comité y sí divulga el manual entre los estudiantes, pero deja por fuera a quienes la norma pone en primer plano. El numeral 6 pide hacer énfasis en acciones dirigidas a los padres y madres de familia o acudientes."
+    },
+    {
+     "l": "B",
+     "t": "una publicación del manual en la cartelera del colegio, para que cada estudiante lo consulte cuando tenga una duda.",
+     "j": "Es incorrecta. Publicar el manual es útil como consulta, pero es una acción pasiva y centrada en los estudiantes. La norma habla de estrategias pedagógicas que permitan y garanticen la divulgación y socialización, con énfasis en las familias."
+    },
+    {
+     "l": "C",
+     "t": "un micrositio y talleres con acudientes, con énfasis en acciones dirigidas a los padres y madres de familia.",
+     "j": "Es correcta. El numeral 6 pide estrategias pedagógicas que permitan y garanticen la divulgación y socialización de los contenidos del manual a la comunidad educativa, haciendo énfasis en acciones dirigidas a los padres y madres de familia o acudientes. La propuesta cumple ambas condiciones."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El numeral 6 del artículo 29 exige que el manual de convivencia incluya estrategias pedagógicas que permitan y garanticen la divulgación y socialización de sus contenidos a toda la comunidad educativa, haciendo énfasis en acciones dirigidas a los padres y madres de familia o acudientes. Las dos opciones incorrectas divulgan el manual, pero solo entre estudiantes y de forma limitada. La propuesta de la docente combina un recurso digital, propio de su área, con talleres para acudientes, que es el énfasis que pide la norma. La CNSC suele premiar la opción que involucra a las familias, en coherencia con el principio de corresponsabilidad de la Ley 1620.",
+   "fuente": "Decreto 1965 de 2013, art. 29, num. 6",
+   "consejo": "Divulgar el manual: estrategias pedagógicas para toda la comunidad, con énfasis en padres, madres y acudientes.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Las estrategias pedagógicas que permitan y garanticen la divulgación y socialización de los contenidos del manual de convivencia a la comunidad educativa, haciendo énfasis en acciones dirigidas a los padres y madres de familia o acudientes.",
+     "ubicacion": "Decreto 1965 de 2013, art. 29, num. 6"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q354",
+   "caso": "C228",
+   "familia": "NOR-CONV-RUTA",
+   "dificultad": 2,
+   "competencia": "Medidas pedagógicas, reconciliación y reparación en el manual",
+   "enunciado": "De acuerdo con ese numeral, lo que el manual debe incluir para situaciones como esta es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "medidas pedagógicas que contribuyan a la reconciliación, la reparación de los daños y el clima de relaciones.",
+     "j": "Es correcta. El numeral 5 exige incluir las medidas pedagógicas y las acciones que contribuyan a la promoción de la convivencia, a la prevención y a la reconciliación, la reparación de los daños causados y el restablecimiento de un clima de relaciones constructivas cuando estas situaciones ocurran."
+    },
+    {
+     "l": "B",
+     "t": "un listado más detallado de sanciones según la gravedad, para que la falta no vuelva a presentarse.",
+     "j": "Es incorrecta. Es la propuesta del docente. El manual puede tener consecuencias, pero el numeral 5 no pide endurecer sanciones: pide medidas pedagógicas y acciones de promoción, prevención, reconciliación y reparación que restablezcan las relaciones."
+    },
+    {
+     "l": "C",
+     "t": "un procedimiento de remisión inmediata a la Policía de Infancia cada vez que se presente una discusión.",
+     "j": "Es incorrecta. Remitir a otras entidades corresponde a situaciones graves según los protocolos, no a una discusión entre compañeros ya atendida. El numeral 5 apunta a medidas pedagógicas dentro del establecimiento, como la reconciliación y la reparación."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El enfoque de la Ley 1620 y del Decreto 1965 es formativo y restaurativo, no solo sancionatorio. El numeral 5 del artículo 29 pide que el manual incluya medidas pedagógicas y acciones que contribuyan a la promoción de la convivencia, a la prevención de las situaciones que la afectan y, cuando ocurren, a la reconciliación, la reparación de los daños causados y el restablecimiento de un clima de relaciones constructivas. Ante un conflicto por el uso de un computador, la respuesta esperada no es castigar más sino reparar y reconstruir la relación. En la CNSC, las opciones que solo endurecen sanciones o que remiten de inmediato a la Policía suelen ser distractores.",
+   "fuente": "Decreto 1965 de 2013, art. 29, num. 5",
+   "consejo": "Manual de convivencia: medidas pedagógicas + reconciliación + reparación + clima de relaciones constructivas, no solo sanciones.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Las medidas pedagógicas y las acciones que contribuyan a la promoción de la convivencia escolar, a la prevención de las situaciones que la afectan y a la reconciliación, la reparación de los daños causados y el restablecimiento de un clima de relaciones constructivas en el establecimiento educativo cuando estas situaciones ocurran.",
+     "ubicacion": "Decreto 1965 de 2013, art. 29, num. 5"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q355",
+   "caso": "C229",
+   "familia": "DIS-FALLAS",
+   "dificultad": 3,
+   "competencia": "Progresión de la detección de fallas entre grupos de grados",
+   "enunciado": "Según las Orientaciones Curriculares (2022), la diferencia entre las dos evidencias es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "en 6.° y 7.° el estudiante identifica fallas sencillas y pide apoyo; en 4.° y 5.° sigue prueba y descarte y propone soluciones.",
+     "j": "Es incorrecta. Invierte la progresión entre los dos grupos de grados. Identificar fallas sencillas y actuar de forma segura o pedir apoyo corresponde a 4.° y 5.°; detectar fallas siguiendo prueba y descarte y proponer alternativas corresponde a 6.° y 7.°."
+    },
+    {
+     "l": "B",
+     "t": "en 6.° y 7.° el estudiante detecta fallas por prueba y descarte y propone alternativas; en 4.° y 5.° identifica fallas sencillas.",
+     "j": "Es correcta. En 6.° y 7.° la evidencia dice: «Detecto fallas en artefactos, procesos y sistemas… siguiendo procedimientos de prueba y descarte, y propongo estrategias o alternativas de solución». En 4.° y 5.°: «Identifico fallas sencillas… y actúo en forma segura frente a ellas o pidiendo apoyo»."
+    },
+    {
+     "l": "C",
+     "t": "en 6.° y 7.° el estudiante repara por su cuenta el artefacto; en 4.° y 5.° describe la falla y espera a que el docente la repare.",
+     "j": "Es incorrecta. Ninguna de las dos evidencias habla de reparar por cuenta propia ni de esperar pasivamente. En 4.° y 5.° el estudiante actúa en forma segura o pide apoyo; en 6.° y 7.° sigue un procedimiento de prueba y descarte y propone alternativas."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La detección de fallas aparece en varios grupos de grados con una progresión clara. En cuarto y quinto el estudiante identifica fallas sencillas en un artefacto o proceso, o riesgos en entornos informáticos, y actúa en forma segura frente a ellas o pide apoyo. En sexto y séptimo ya detecta fallas en artefactos, procesos y sistemas tecnológicos o informáticos siguiendo procedimientos de prueba y descarte, y propone estrategias o alternativas de solución. La diferencia está en el método (prueba y descarte) y en la acción (proponer soluciones). La CNSC evalúa si la docente reconoce esa progresión para ajustar la actividad al grado, en este caso el ventilador de sexto.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 3.3.2, evidencias de 6.° y 7.° y de 4.° y 5.°",
+   "consejo": "Fallas: 4.° y 5.° identifica lo sencillo y actúa seguro o pide apoyo; 6.° y 7.° prueba y descarte + propone alternativas.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Detecto fallas en artefactos, procesos y sistemas tecnológicos o informáticos, siguiendo procedimientos de prueba y descarte, y propongo estrategias o alternativas de solución.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3.2, evidencias de 6° y 7°"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Identifico fallas sencillas en un artefacto o proceso tecnológico o riesgos en entornos informáticos y actúo en forma segura frente a ellas o pidiendo apoyo.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3.2, evidencias de 4° y 5°"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q356",
+   "caso": "C230",
+   "familia": "DIS-ALGO",
+   "dificultad": 2,
+   "competencia": "Descomposición de problemas y algoritmos en 6.° y 7.°",
+   "enunciado": "La docente puede sustentar la secuencia de la actividad en las evidencias de sexto y séptimo de las Orientaciones Curriculares, porque estas piden",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "aprender primero la sintaxis de un lenguaje de programación de texto y después aplicarla a problemas cotidianos.",
+     "j": "Es incorrecta. Las evidencias de 6.° y 7.° no exigen empezar por la sintaxis de un lenguaje de texto. Piden descomponer problemas en pasos y elaborar algoritmos en un entorno de programación, que puede ser por bloques, con estructuras básicas."
+    },
+    {
+     "l": "B",
+     "t": "usar herramientas de ofimática para documentar los procesos antes de cualquier ejercicio de programación.",
+     "j": "Es incorrecta. Documentar procesos con ofimática puede ser útil, pero no es lo que piden estas evidencias ni un requisito previo a programar. La evidencia habla de elaborar algoritmos con secuenciación, condición o repetición para solucionar problemas."
+    },
+    {
+     "l": "C",
+     "t": "descomponer un problema en una secuencia de pasos y elaborar algoritmos con secuencia, condición o repetición.",
+     "j": "Es correcta. Las evidencias de 6.° y 7.° dicen: «Descompongo un problema en secuencia de pasos…» y «Elaboro algoritmos en un entorno de programación para solucionar problemas que requieren el uso de estructuras básicas de secuenciación, condición o repetición». La actividad sigue ese orden."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La actividad de las arepas no es «cocinar»: es un problema cotidiano que sirve para practicar pensamiento computacional. Las Orientaciones Curriculares de 2022 incluyen en sexto y séptimo dos evidencias que la sustentan: descomponer un problema en secuencia de pasos, proponiendo o desarrollando probables soluciones, y elaborar algoritmos en un entorno de programación con estructuras básicas de secuenciación, condición o repetición. La docente parte del contexto de los estudiantes y pasa de lo concreto a lo programado. Este es el razonamiento que la CNSC espera: justificar una decisión didáctica con la evidencia del grado y no con una idea previa de que programar exige empezar por un lenguaje de texto.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 3.3.2, evidencias de 6.° y 7.°",
+   "consejo": "6.° y 7.°: descomponer en pasos → algoritmo con secuencia, condición y repetición. El contexto cotidiano es el punto de partida.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Descompongo un problema en secuencia de pasos proponiendo o desarrollando probables soluciones a los problemas planteados.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3.2, evidencias de 6° y 7°"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Elaboro algoritmos en un entorno de programación para solucionar problemas que requieren el uso de estructuras básicas de secuenciación, condición o repetición.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3.2, evidencias de 6° y 7°"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q357",
+   "caso": "C231",
+   "familia": "DIS-DIDAC",
+   "dificultad": 2,
+   "competencia": "Manuales e instrucciones de ensamble en 4.° y 5.°",
+   "enunciado": "De acuerdo con esas evidencias, la actividad más pertinente es que los estudiantes",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "interpreten y apliquen las instrucciones del manual y luego describan con esquemas y textos cómo se ensambla.",
+     "j": "Es correcta. Las evidencias de 4.° y 5.° dicen: «Interpreto y aplico las instrucciones de los manuales para la utilización de productos tecnológicos» y «Describo con esquemas, dibujos y textos, instrucciones de ensamble de artefactos tecnológicos». La actividad integra ambas."
+    },
+    {
+     "l": "B",
+     "t": "guarden el manual y armen el carrito por ensayo y error libre, para que descubran solos cómo se ensambla.",
+     "j": "Es incorrecta. La exploración tiene valor, pero dejar de lado el manual desaprovecha justamente lo que piden las evidencias de 4.° y 5.°: interpretar y aplicar instrucciones y luego describir el ensamble con esquemas, dibujos y textos."
+    },
+    {
+     "l": "C",
+     "t": "observen a la docente armar el carrito y después respondan un cuestionario escrito sobre sus partes.",
+     "j": "Es incorrecta. Convierte a los estudiantes en observadores y reduce la actividad a recordar partes. Las evidencias de 4.° y 5.° ponen al estudiante a interpretar y aplicar instrucciones y a describir el ensamble con sus propias representaciones."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "En cuarto y quinto, las Orientaciones Curriculares de 2022 incluyen dos evidencias que se complementan: interpretar y aplicar las instrucciones de los manuales para la utilización de productos tecnológicos, y describir con esquemas, dibujos y textos instrucciones de ensamble de artefactos tecnológicos. Por eso el manual del kit no es un estorbo sino el recurso central: primero se lee y se aplica, y luego el estudiante produce su propia representación del ensamble. Las opciones incorrectas eliminan el manual o eliminan el papel activo del estudiante. La CNSC valora la opción en la que el estudiante hace, interpreta y comunica, con el docente como mediador.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 3.3.2, evidencias de 4.° y 5.°",
+   "consejo": "4.° y 5.°: interpretar y aplicar manuales + describir el ensamble con esquemas, dibujos y textos.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Interpreto y aplico las instrucciones de los manuales para la utilización de productos tecnológicos.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3.2, evidencias de 4° y 5°"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Describo con esquemas, dibujos y textos, instrucciones de ensamble de artefactos tecnológicos",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3.2, evidencias de 4° y 5°"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q358",
+   "caso": "C232",
+   "familia": "DIS-DIDAC",
+   "dificultad": 3,
+   "competencia": "Tecnología, cultura y entorno en 4.° y 5.°",
+   "enunciado": "Para ese propósito, la actividad que corresponde a la evidencia de cuarto y quinto más pertinente es pedir a los estudiantes que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "asocien costumbres llaneras con características del entorno y con el uso de esos artefactos, junto con Sociales.",
+     "j": "Es correcta. La evidencia de 4.° y 5.° dice: «Asocio costumbres culturales con características del entorno y con el uso de diversos artefactos tecnológicos o informáticos». Responde de forma directa al propósito de conectar la tecnología con las costumbres de la comunidad."
+    },
+    {
+     "l": "B",
+     "t": "clasifiquen esos artefactos según sus materiales, forma, estructura y función, sin relacionarlos con las costumbres.",
+     "j": "Es incorrecta. Clasificar artefactos por materiales, forma, estructura y función también es una evidencia de 4.° y 5.°, por eso es un distractor cercano. Sería correcta si el propósito fuera analizar los artefactos, pero deja por fuera las costumbres, que es lo que busca la docente."
+    },
+    {
+     "l": "C",
+     "t": "identifiquen fallas sencillas en esos artefactos y actúen de forma segura frente a ellas o pidan apoyo.",
+     "j": "Es incorrecta. Identificar fallas sencillas y actuar de forma segura es otra evidencia válida de 4.° y 5.°, pero responde a un propósito distinto. Una unidad sobre la vida en el llano y las costumbres de la comunidad no se resuelve con detección de fallas."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Este ítem tiene tres opciones que corresponden a evidencias reales de cuarto y quinto; solo una responde al propósito del enunciado. La clasificación de artefactos y la detección de fallas sencillas son desempeños válidos del grado, pero el propósito de la docente es conectar la tecnología con las costumbres de la comunidad. Para eso, las Orientaciones Curriculares de 2022 ofrecen una evidencia precisa: asociar costumbres culturales con características del entorno y con el uso de diversos artefactos tecnológicos o informáticos. Trabajar con Ciencias Sociales aprovecha la integración entre áreas. La lógica CNSC: entre varias acciones correctas, elija la que corresponde exactamente al propósito que plantea el caso.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 3.3.2, evidencias de 4.° y 5.°",
+   "consejo": "Varias evidencias del grado pueden ser válidas: elija la que responde al PROPÓSITO del caso.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Asocio costumbres culturales con características del entorno y con el uso de diversos artefactos tecnológicos o informáticos.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3.2, evidencias de 4° y 5°"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Clasifico artefactos existentes en mi entorno con base en características tales como materiales, forma, estructura, función, entre otras.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3.2, evidencias de 4° y 5°"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Identifico fallas sencillas en un artefacto o proceso tecnológico o riesgos en entornos informáticos y actúo en forma segura frente a ellas o pidiendo apoyo.",
+     "ubicacion": "Orientaciones Curriculares T&I (2022), cap. 3, 3.3.2, evidencias de 4° y 5°"
+    }
+   ]
+  },
+  {
+   "tipo": "conocimiento",
+   "id": "K077",
+   "ficha": "F39",
+   "familia": "PED-ENSENAR",
+   "dificultad": 1,
+   "competencia": "Estrategias de aula sugeridas por la Guía 30",
+   "enunciado": "Según la Guía 30 del MEN, los proyectos pedagógicos en el aula, las salidas de campo, la visita de expertos y la experimentación con artefactos de la realidad local",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "contribuyen a construir conocimientos integrados, motivan la imaginación y crean aprendizaje significativo.",
+     "j": "Es correcta. La Guía 30 dice que estas experiencias «contribuyen a la construcción de conocimientos integrados, motivan la imaginación de los estudiantes y crean condiciones de aprendizaje significativo». Son una pista central para planear las clases del área."
+    },
+    {
+     "l": "B",
+     "t": "son actividades complementarias que se recomiendan solo después de terminar todos los contenidos teóricos del periodo.",
+     "j": "Es incorrecta. La Guía no las presenta como un complemento para el final, sino como pistas para empezar a trabajar la formación en tecnología. Dejarlas para cuando sobre tiempo contradice la idea de que la exploración es indispensable para aprender."
+    },
+    {
+     "l": "C",
+     "t": "reemplazan la evaluación del área, porque el producto de la salida o del proyecto sustituye la valoración.",
+     "j": "Es incorrecta. La Guía describe el aporte de estas experiencias al aprendizaje, pero no dice que sustituyan la evaluación. Un proyecto o una salida de campo pueden ser objeto de evaluación formativa, pero no la eliminan."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La Guía 30 cierra sus orientaciones con pistas para maestros exploradores e innovadores. La primera reúne cuatro experiencias: los proyectos pedagógicos de aula, las salidas de campo, la visita de expertos y la experimentación con elementos y artefactos de la realidad local. Según la Guía, estas experiencias contribuyen a la construcción de conocimientos integrados, motivan la imaginación de los estudiantes y crean condiciones de aprendizaje significativo. Para la prueba, recuerde la relación: realidad local más experiencia directa produce aprendizaje significativo. Las opciones que relegan estas experiencias al final o que les atribuyen funciones que la Guía no menciona son distractores.",
+   "fuente": "Guía 30 MEN (2008), Pistas para maestros exploradores e innovadores",
+   "consejo": "Proyectos + salidas + expertos + artefactos locales → conocimientos integrados, imaginación, aprendizaje significativo.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Los proyectos pedagógicos realizados en el aula, las salidas de campo, la visita de expertos y la experimentación con diversos elementos y artefactos de la realidad local, contribuyen a la construcción de conocimientos integrados, motivan la imaginación de los estudiantes y crean condiciones de aprendizaje significativo.",
+     "ubicacion": "Guía 30 MEN (2008), Pistas para maestros exploradores e innovadores"
+    }
+   ]
+  },
+  {
+   "tipo": "conocimiento",
+   "id": "K078",
+   "ficha": "F39",
+   "familia": "PED-ENSENAR",
+   "dificultad": 2,
+   "competencia": "Exploración y descubrimiento en la práctica cotidiana",
+   "enunciado": "La Guía 30 afirma que la exploración y el descubrimiento «en vivo y en directo» son indispensables para toda actividad de aprendizaje. En una clase de sexto sobre palancas, esto implica",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "ver un video sobre palancas y responder una guía de preguntas con la definición de cada tipo de palanca.",
+     "j": "Es incorrecta. Un video puede apoyar la clase, pero por sí solo no es exploración «en vivo y en directo». La Guía 30 explica que esa expresión significa en la práctica cotidiana, y aquí el estudiante solo observa y responde preguntas."
+    },
+    {
+     "l": "B",
+     "t": "explorar palancas reales del entorno, como tijeras o carretillas, probarlas y discutir lo que descubren.",
+     "j": "Es correcta. La Guía 30 dice que la exploración y el descubrimiento «en vivo y en directo», es decir, en la práctica cotidiana, son indispensables. Probar palancas reales del entorno y discutir los hallazgos es exactamente esa experiencia directa."
+    },
+    {
+     "l": "C",
+     "t": "copiar en el cuaderno la clasificación de las palancas y memorizarla para la evaluación del periodo.",
+     "j": "Es incorrecta. Copiar y memorizar una clasificación no implica explorar ni descubrir. La Guía 30 pide experiencias en la práctica cotidiana; la memorización puede tener un lugar, pero no reemplaza la exploración directa con artefactos reales."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La Guía 30 explica qué significa explorar y descubrir «en vivo y en directo»: hacerlo en la práctica cotidiana. Y lo califica como indispensable para toda actividad de aprendizaje, no como un adorno opcional. En una clase sobre palancas, la opción coherente es manipular artefactos reales del entorno, como tijeras, carretillas o destapadores, probar cómo cambia el esfuerzo y discutir lo encontrado. El video y la copia en el cuaderno pueden apoyar, pero dejan al estudiante como receptor. La lógica de la CNSC en preguntas de enseñanza es elegir la opción en la que el estudiante actúa sobre su realidad y el docente media el descubrimiento.",
+   "fuente": "Guía 30 MEN (2008), Pistas para maestros exploradores e innovadores",
+   "consejo": "«En vivo y en directo» = en la práctica cotidiana, con artefactos reales. Es indispensable, no opcional.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "La exploración y el descubrimiento “en vivo y en directo”, es decir, en la práctica cotidiana, son indispensables para toda actividad de aprendizaje.",
+     "ubicacion": "Guía 30 MEN (2008), Pistas para maestros exploradores e innovadores"
+    }
+   ]
+  }
+ ]
+}
