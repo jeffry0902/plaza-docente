@@ -110,6 +110,15 @@ def main():
         i = it.get("id")
         if i in ids: errores.append(f"ítem duplicado {i}")
         ids.add(i)
+        # La regla de forma («en cada lote») se mide sobre el lote completo. En un lote compartido validado con
+        # --cargo coordinador se cuentan todos sus ítems (como en la validación docente), no solo el subconjunto
+        # cuyas familias están en el marco de coordinación.
+        compartido = a.cargo != "docente_ti" and not it["_lote"].startswith("lotes/coord-")
+        if compartido and (it["_lote"] != PILOTO or it.get("revisado")):
+            L = por_lote[it["_lote"] + (" (revisados)" if it["_lote"] == PILOTO else "")]; L["n"] += 1
+            ops0 = it.get("opciones", [])
+            if ops0 and max(ops0, key=lambda o: len(o.get("t", "")))["l"] == it.get("clave"): L["larga"] += 1
+            L["dif"][it.get("dificultad")] += 1
         f = fams.get(it.get("familia"))
         if not f and a.cargo != "docente_ti" and not it["_lote"].startswith("lotes/coord-"): continue   # ítem de otro cargo
         if not f: errores.append(f"{i}: familia inexistente {it.get('familia')}"); continue
@@ -133,9 +142,10 @@ def main():
             ok, m = cita_ok(docs, ct.get("doc", ""), ct.get("texto", ""))
             if not ok: errores.append(f"{i}: {m} → «{ct.get('texto','')[:90]}»")
         if it["_lote"] != PILOTO or it.get("revisado"):
-            L = por_lote[it["_lote"] + (" (revisados)" if it["_lote"] == PILOTO else "")]; L["n"] += 1
-            if ops and max(ops, key=lambda o: len(o.get("t", "")))["l"] == it.get("clave"): L["larga"] += 1
-            L["dif"][it.get("dificultad")] += 1
+            if not compartido:
+                L = por_lote[it["_lote"] + (" (revisados)" if it["_lote"] == PILOTO else "")]; L["n"] += 1
+                if ops and max(ops, key=lambda o: len(o.get("t", "")))["l"] == it.get("clave"): L["larga"] += 1
+                L["dif"][it.get("dificultad")] += 1
             if it.get("dificultad") not in (1, 2, 3): errores.append(f"{i}: falta 'dificultad' (1, 2 o 3)")
             ex = it.get("explicacion", "")
             if not (60 <= len(ex.split()) <= 160): errores.append(f"{i}: 'explicacion' debe tener entre 60 y 140 palabras")

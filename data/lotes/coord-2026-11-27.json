@@ -1,0 +1,609 @@
+{
+ "id": "coord-2026-11-27",
+ "fecha": "2026-11-27",
+ "cargo": "coordinador",
+ "nota": "Lectura K014 (Guía 34, 1.5 instancias de gobierno y participación) con cuatro ítems y dos más para K011 (autonomía escolar y nuevas formas de trabajo). Rota GAC, GAF, GCO y PSI-COMP. Formatos ingreso 2022 y ascenso 2024 (la correcta es la de nivel avanzado).",
+ "casos": [
+  {
+   "id": "CK52",
+   "titulo": "El bazar del sábado",
+   "texto": "La junta de acción comunal del barrio le escribe a usted como coordinador para pedir el polideportivo y cuatro salones de la institución un sábado de octubre: quieren hacer un bazar cultural con grupos de danza de los estudiantes y una feria de emprendimientos de las familias. Un docente le dice que eso lo decide el consejo académico porque hay estudiantes presentándose, y otro opina que basta con que el rector firme el permiso."
+  },
+  {
+   "id": "CK53",
+   "titulo": "Los resultados Saber llegan a la reunión",
+   "texto": "Llegaron los resultados de las pruebas Saber 11 y bajaron en lectura crítica por segundo año. El rector le pide a usted que proponga con qué instancia de padres de familia trabajar el análisis de los resultados y la manera de darlos a conocer a todas las familias. La presidenta de la asociación de padres se ofrece a encargarse, y un docente sugiere convocar a la asamblea general de padres para presentarlos allí."
+  },
+  {
+   "id": "CK54",
+   "titulo": "Tres cupos para el diplomado",
+   "texto": "La secretaría de educación ofrece a la institución tres cupos en un diplomado sobre diseño universal para el aprendizaje. Seis docentes se inscriben y le piden a usted, como coordinador que acompaña su trabajo pedagógico, que decida quiénes van. Uno de ellos sugiere que el consejo académico lo vote."
+  },
+  {
+   "id": "CK55",
+   "titulo": "El PEI de vacaciones",
+   "texto": "Durante las vacaciones de diciembre, el rector y los dos coordinadores reescribieron el horizonte institucional y el modelo pedagógico del PEI. El documento quedó bien redactado. En la primera semana de enero, el rector le pide a usted como coordinador que prepare su presentación para «arrancar el año con el PEI nuevo». Docentes, estudiantes, familias, egresados y empresas de la zona no han participado en la revisión."
+  },
+  {
+   "id": "CK56",
+   "titulo": "Un énfasis en sistemas",
+   "texto": "El consejo académico quiere darle a la media un énfasis en desarrollo de software. Para conseguir horas, un grupo propone suprimir Educación Artística en la básica secundaria y pasar esas horas a programación; otro grupo prefiere esperar a que la secretaría de educación apruebe el énfasis. El rector le pide a usted orientar la discusión con base en la autonomía escolar."
+  },
+  {
+   "id": "CK57",
+   "titulo": "Se enteraron por el grupo de WhatsApp",
+   "texto": "El consejo académico aprobó mover la hora de lectura al inicio de la jornada, porque los registros muestran que la mayoría de los retardos se concentran en la primera hora. Los docentes de la jornada de la tarde se enteraron por un mensaje reenviado en un grupo de WhatsApp y le reclaman a usted como coordinador que «nadie les preguntó» y que el cambio les desordena las clases de la primera hora."
+  },
+  {
+   "id": "CK58",
+   "titulo": "«Se los digo al final del periodo»",
+   "texto": "A mitad del primer periodo, los estudiantes de décimo le cuentan a usted que la docente de química no les ha explicado cómo los va a evaluar: cuando preguntan, ella responde que «los criterios se los digo al final del periodo». Dos acudientes llaman a coordinación porque tampoco los conocen. El SIEE de la institución fue aprobado y publicado en enero."
+  },
+  {
+   "id": "CK59",
+   "titulo": "Noveno B en alerta",
+   "texto": "Al cerrar el primer periodo, usted encuentra que en noveno B catorce estudiantes tienen desempeño bajo en tres o más áreas y que las inasistencias del grupo aumentaron en marzo. Los docentes del grado comentan en la sala de profesores que «es un grupo difícil», y varias familias no han vuelto a la institución desde la matrícula."
+  },
+  {
+   "id": "CK60",
+   "titulo": "Marzo sin audiencia",
+   "texto": "Es 15 de marzo. En reunión del consejo de padres preguntan por los ingresos del bazar y por una donación en dinero que una empresa hizo a la institución. Usted revisa y encuentra que el rector aún no ha convocado la audiencia pública de rendición de cuentas y que la relación de contratos de la vigencia se publicó una sola vez, en diciembre. El rector le pide su opinión antes de responderles."
+  },
+  {
+   "id": "CK61",
+   "titulo": "Empujones en la fila del restaurante",
+   "texto": "Dos estudiantes de sexto discuten por un puesto en la fila del restaurante escolar y se empujan; nadie resulta lastimado y es la primera vez que tienen un problema. El docente de turno quiere remitirlos al comité escolar de convivencia y pedir que los suspendan. La institución tiene estudiantes mediadores capacitados y el manual de convivencia prevé su participación."
+  },
+  {
+   "id": "CK62",
+   "titulo": "Las familias que no vuelven",
+   "texto": "La institución atiende a nueve estudiantes con discapacidad. Sus familias asistieron en febrero a firmar el PIAR y las actas de acuerdo, pero después casi no han regresado. Dos madres le cuentan a usted que en las reuniones de padres «nos miran raro» y que no saben a quién acudir cuando tienen dudas sobre los apoyos. La docente orientadora está dispuesta a trabajar con usted en una propuesta."
+  },
+  {
+   "id": "CK63",
+   "titulo": "Dos compromisos el mismo sábado",
+   "texto": "Usted asumió desde hace un mes la organización de la jornada de matrícula extendida del sábado en la sede rural, pensada para las familias que entre semana trabajan en las fincas. El miércoles, un instituto privado le ofrece dictar ese mismo sábado un taller pagado, bien remunerado, para docentes de otros municipios. El instituto no puede cambiar la fecha."
+  }
+ ],
+ "fichas": [],
+ "items": [
+  {
+   "id": "CO084",
+   "tipo": "caso",
+   "caso": "CK52",
+   "familia": "GDI-GOB",
+   "dificultad": 2,
+   "enunciado": "Para responder a la junta, usted le explica al rector que la instancia a la que corresponde fijar el procedimiento para prestar las instalaciones es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el consejo académico, porque las presentaciones de los estudiantes hacen parte de los proyectos pedagógicos del plan de estudios.",
+     "j": "Es incorrecta. El consejo académico organiza, orienta y mejora el plan de estudios y revisa el currículo; que participen estudiantes no convierte el préstamo de las instalaciones en un asunto curricular."
+    },
+    {
+     "l": "B",
+     "t": "el consejo directivo, que establece el procedimiento para permitir el uso de las instalaciones en actividades de la comunidad.",
+     "j": "Es correcta. El Decreto 1075 asigna al consejo directivo establecer el procedimiento para permitir el uso de las instalaciones en actividades educativas, culturales, recreativas, deportivas y sociales, y la Guía 34 lo repite al describir sus funciones."
+    },
+    {
+     "l": "C",
+     "t": "el rector, porque como responsable de administrar los recursos de la institución puede autorizar el préstamo de la planta física.",
+     "j": "Es incorrecta. El rector ejecuta las decisiones y administra, pero el procedimiento para prestar las instalaciones lo define el consejo directivo; el rector lo aplicaría si ese procedimiento ya existiera."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave es «procedimiento para prestar las instalaciones». La Guía 34, al describir las instancias de gobierno escolar, ubica en el consejo directivo las decisiones sobre el funcionamiento institucional, entre ellas definir el uso de las instalaciones para actividades educativas, culturales, recreativas, deportivas y sociales. El Decreto 1075 (art. 2.3.3.1.5.6, literal l) lo dice como función: establecer el procedimiento para permitir ese uso. El coordinador orienta al rector para que la solicitud se tramite ante el consejo directivo o con el procedimiento que este ya haya fijado. La CNSC suele poner como distractores las otras dos instancias que sí existen pero tienen otras funciones.",
+   "fuente": "Guía 34 MEN (2008), 1.5; Decreto 1075 de 2015, art. 2.3.3.1.5.6, literal l.",
+   "consejo": "Uso de las instalaciones por la comunidad: el procedimiento lo establece el consejo directivo.",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "definir el uso de las instalaciones para la realización de actividades educativas, culturales, recreativas, deportivas y sociales",
+     "ubicacion": "Guía 34, 1.5 Más y mejores instancias de participación"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Establecer el procedimiento para permitir el uso de las instalaciones en la realización de actividades educativas, culturales, recreativas, deportivas y sociales de la respectiva comunidad educativa",
+     "ubicacion": "Decreto 1075, art. 2.3.3.1.5.6, literal l"
+    }
+   ],
+   "competencia": "Gobierno escolar",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO085",
+   "tipo": "caso",
+   "caso": "CK53",
+   "familia": "GCO-COMUN",
+   "dificultad": 3,
+   "enunciado": "La instancia que usted propone para analizar los resultados con el rector y definir cómo difundirlos es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la asociación de padres, porque entre sus finalidades está apoyar a las familias en las acciones para mejorar los resultados de aprendizaje.",
+     "j": "Es incorrecta. Es un distractor muy cercano: la asociación sí apoya acciones para mejorar resultados, pero la función de contribuir con el rector en el análisis, difusión y uso de los resultados de las pruebas es del consejo de padres."
+    },
+    {
+     "l": "B",
+     "t": "la asamblea general de padres, porque al reunir a todos los padres del establecimiento garantiza que la información llegue a cada familia.",
+     "j": "Es incorrecta. La asamblea puede ser un espacio para comunicar, pero no es la instancia a la que la norma le asigna analizar con el rector los resultados ni decidir su uso; sería útil solo como escenario de difusión."
+    },
+    {
+     "l": "C",
+     "t": "el consejo de padres, al que le corresponde contribuir con el rector en el análisis, la difusión y el uso de los resultados de las pruebas.",
+     "j": "Es correcta. El Decreto 1075 asigna al consejo de padres contribuir con el rector en el análisis, difusión y uso de los resultados de las pruebas de Estado, y la Guía 34 lo incluye entre sus principales funciones, junto con los planes de mejoramiento."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La clave está en el verbo: analizar con el rector y difundir. La Guía 34 diferencia las instancias de padres: el consejo de padres contribuye con el rector o director en el análisis, difusión y uso de los resultados de las pruebas SABER y el examen de Estado; la asociación apoya la ejecución del PEI y del plan de mejoramiento y promueve la formación de los padres; la asamblea general reúne a todos los padres. El Decreto 1075 (art. 2.3.4.7, literal a) confirma la función del consejo de padres. Cuando dos instancias «ayudan a mejorar los resultados», busque cuál tiene la función exacta que pide el enunciado.",
+   "fuente": "Guía 34 MEN (2008), 1.5; Decreto 1075 de 2015, arts. 2.3.4.7 y 2.3.4.10.",
+   "consejo": "Análisis y difusión de resultados Saber con el rector: consejo de padres. Asociación: apoyar PEI, plan de mejoramiento y formación de padres.",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "contribuir con el rector o director en el análisis, difusión y uso de los resultados de las pruebas SABER y el examen de Estado",
+     "ubicacion": "Guía 34, 1.5 Más y mejores instancias de participación"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Contribuir con el rector o director en el análisis, difusión y uso de los resultados de las evaluaciones periódicas de competencias y las pruebas de Estado",
+     "ubicacion": "Decreto 1075, art. 2.3.4.7, literal a"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Apoyar a las familias y a los estudiantes en el desarrollo de las acciones necesarias para mejorar sus resultados de aprendizaje",
+     "ubicacion": "Decreto 1075, art. 2.3.4.10, literal d"
+    }
+   ],
+   "competencia": "Participación de las familias",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO086",
+   "tipo": "caso",
+   "caso": "CK54",
+   "familia": "GAF-TALENTO",
+   "dificultad": 2,
+   "enunciado": "De acuerdo con la Ley 715, a quien corresponde proponer a los docentes que recibirán la capacitación es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "a usted como coordinador, porque acompaña el trabajo pedagógico de los docentes y conoce de primera mano sus necesidades de formación.",
+     "j": "Es incorrecta. El coordinador sí conoce las necesidades y puede aportar información y criterios, pero la ley no le asigna proponer a los docentes que recibirán capacitación; esa función es del rector."
+    },
+    {
+     "l": "B",
+     "t": "al rector, a quien la ley le asigna esa función; usted le aporta la información sobre las necesidades de formación de cada docente.",
+     "j": "Es correcta. La Ley 715 (art. 10.12) asigna al rector proponer a los docentes que serán apoyados para recibir capacitación, y la Guía 34 lo repite entre sus funciones; el coordinador apoya con información pedagógica para decidir bien."
+    },
+    {
+     "l": "C",
+     "t": "al consejo académico, porque la formación de los docentes hace parte de la orientación pedagógica y del mejoramiento del plan de estudios.",
+     "j": "Es incorrecta. El consejo académico orienta el plan de estudios y puede identificar necesidades de formación, pero proponer quiénes reciben capacitación es una función expresa del rector según la Ley 715."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave es «proponer». La Ley 715 de 2001 (art. 10.12) incluye entre las funciones del rector proponer a los docentes que serán apoyados para recibir capacitación, y la Guía 34, al describir al rector como instancia de gobierno escolar, señala que debe proponer a los profesores que recibirán capacitación, además de dirigir el trabajo de los equipos docentes y administrar el talento humano. El coordinador no decide ni lo somete a votación: aporta al rector la información de las necesidades de formación y del plan de mejoramiento para que la propuesta sea pertinente. En la prueba, desconfíe de opciones en las que el coordinador asume funciones que la ley asigna al rector.",
+   "fuente": "Ley 715 de 2001, art. 10.12; Guía 34 MEN (2008), 1.5.",
+   "consejo": "Capacitación docente: la propone el rector (Ley 715, art. 10.12); el coordinador aporta información.",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "proponer a los profesores que recibirán capacitación",
+     "ubicacion": "Guía 34, 1.5 Más y mejores instancias de participación"
+    },
+    {
+     "doc": "ley_715_2001",
+     "texto": "Proponer a los docentes que serán apoyados para recibir capacitación.",
+     "ubicacion": "Ley 715, art. 10.12"
+    }
+   ],
+   "competencia": "Talento humano",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO087",
+   "tipo": "caso",
+   "caso": "CK55",
+   "familia": "GDI-PEI",
+   "dificultad": 3,
+   "enunciado": "La actuación del coordinador que corresponde al nivel avanzado es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "presentar el documento en la primera jornada pedagógica para que todos los docentes lo conozcan y lo apliquen desde el inicio del año.",
+     "j": "Es incorrecta (nivel mínimo). Socializa el documento, pero los demás estamentos siguen como receptores de un PEI terminado; conocer un texto no equivale a concertarlo ni a compartir sus pautas."
+    },
+    {
+     "l": "B",
+     "t": "proponer al rector mesas con docentes, estudiantes, familias, egresados y sector productivo para revisar el borrador antes de adoptarlo.",
+     "j": "Es correcta (nivel avanzado). Convierte el borrador en punto de partida de una construcción concertada con todos los estamentos, que es lo que la Guía 34 busca con el gobierno escolar y lo que la Resolución 3842 pide al coordinador."
+    },
+    {
+     "l": "C",
+     "t": "radicar el documento ante el consejo directivo para que lo adopte cuanto antes, ya que el equipo directivo es el responsable de formularlo.",
+     "j": "Es incorrecta (nivel inferior). Usa el órgano formal para saltarse la participación: el consejo directivo adoptaría un PEI que la comunidad no conoce, y la responsabilidad de liderarlo no autoriza a construirlo sin ella."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La Guía 34 explica que el gobierno escolar existe para que el PEI sea concertado por directivos, docentes, padres de familia, estudiantes, egresados y representantes del sector productivo local, y para que las pautas curriculares, de evaluación y de convivencia sean conocidas y compartidas, lo que fortalece la identidad institucional. La Resolución 3842 le asigna al coordinador coordinar y participar en la formulación, revisión y actualización del PEI. En la prueba de ascenso, el nivel avanzado usa el trabajo previo como insumo y abre la participación antes de la adopción; informar (mínimo) o adoptar sin consulta (inferior) no alcanzan la concertación que pide la norma.",
+   "fuente": "Guía 34 MEN (2008), 1.5; Resolución 3842 de 2022, 1.3.1.",
+   "consejo": "PEI: se concierta con todos los estamentos antes de adoptarlo; un borrador directivo es punto de partida, no producto final.",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "Con lo anterior se busca que el PEI sea concertado por directivos, docentes, padres de familia, estudiantes, egresados y representantes del sector productivo local.",
+     "ubicacion": "Guía 34, 1.5 Más y mejores instancias de participación"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Coordinar y participar en la formulación, revisión y actualización del Proyecto",
+     "ubicacion": "Resolución 3842, 1.3.1 Funciones del coordinador"
+    }
+   ],
+   "competencia": "PEI concertado",
+   "cargo": "coordinador",
+   "formato": "ascenso 2024"
+  },
+  {
+   "id": "CO088",
+   "tipo": "caso",
+   "caso": "CK56",
+   "familia": "GDI-AUTON",
+   "dificultad": 3,
+   "enunciado": "La orientación que corresponde a un uso responsable de la autonomía escolar es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "suprimir Artística en la básica secundaria y trasladar sus horas a programación, porque el énfasis del PEI le da prioridad sobre otras áreas.",
+     "j": "Es incorrecta. La autonomía permite organizar el plan de estudios, pero alrededor de las áreas fundamentales que la ley define para cada nivel; eliminar una de ellas excede los límites de la Ley 115."
+    },
+    {
+     "l": "B",
+     "t": "mantener las áreas fundamentales, introducir asignaturas optativas acordes con el énfasis y rendir cuentas a la comunidad sobre sus logros.",
+     "j": "Es correcta. La Guía 34 dice que la autonomía permite organizar el plan de estudios alrededor de las áreas fundamentales y de asignaturas optativas según el énfasis del PEI, y que debe complementarse con rendición de cuentas."
+    },
+    {
+     "l": "C",
+     "t": "solicitar a la secretaría de educación que apruebe el énfasis antes de ajustar el plan, porque a ella le corresponde diseñar el currículo.",
+     "j": "Es incorrecta. Según la Ley 115, las secretarías asesoran el diseño y desarrollo del currículo de las instituciones estatales, pero no lo diseñan ni aprueban el énfasis: esa decisión es parte de la autonomía institucional."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El caso pide dos pasos. Primero, los límites: la Guía 34 explica que la autonomía escolar permite organizar el plan de estudios alrededor de las áreas fundamentales determinadas para cada nivel y de asignaturas optativas en función del énfasis del PEI; la Ley 115 (art. 77) la ejerce dentro de los límites de la ley, y deja a las secretarías la asesoría del currículo. Segundo, la responsabilidad: la Guía 34 agrega que la autonomía debe complementarse con una apropiada rendición de cuentas sobre los logros. Suprimir un área fundamental desborda la autonomía y esperar una aprobación la desconoce. La CNSC premia la opción que ejerce la autonomía dentro de la ley y con rendición de cuentas.",
+   "fuente": "Guía 34 MEN (2008), 1.3 La autonomía escolar; Ley 115 de 1994, art. 77.",
+   "consejo": "Autonomía: plan de estudios alrededor de las áreas fundamentales + optativas según el énfasis; siempre con rendición de cuentas.",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "organizar su plan de estudios alrededor de las áreas fundamentales determinadas para cada nivel, de las asignaturas optativas en función del énfasis de su PEI",
+     "ubicacion": "Guía 34, 1.3 La autonomía escolar y 1.4 Las nuevas formas de trabajo"
+    },
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "Este ejercicio de autonomía debe ser complementado con una apropiada rendición de cuentas acerca de los logros obtenidos.",
+     "ubicacion": "Guía 34, 1.3 La autonomía escolar y 1.4 Las nuevas formas de trabajo"
+    },
+    {
+     "doc": "ley_115_1994",
+     "texto": "las instituciones de educación formal gozan de autonomía para organizar las áreas fundamentales de conocimientos definidas para cada nivel, introducir asignaturas optativas dentro de las áreas establecidas en la ley",
+     "ubicacion": "Ley 115, art. 77"
+    }
+   ],
+   "competencia": "Autonomía escolar",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO089",
+   "tipo": "caso",
+   "caso": "CK57",
+   "familia": "GDI-ROL",
+   "dificultad": 2,
+   "enunciado": "La actuación del coordinador que corresponde al nivel avanzado es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "enviar una circular con la decisión, su fecha de inicio y sus razones, y pedir a los docentes que hagan llegar sus dudas por escrito.",
+     "j": "Es incorrecta (nivel mínimo). Ordena la información y la hace formal, pero la comunicación sigue en una sola dirección: no escucha las razones de los docentes ni construye con ellos el ajuste."
+    },
+    {
+     "l": "B",
+     "t": "recordarles que la decisión fue aprobada por el consejo académico, que los representa, y que todos los docentes deben aplicarla.",
+     "j": "Es incorrecta (nivel inferior). Se apoya en la legalidad de la decisión y cierra el diálogo; desconoce que la comunicación implica escuchar de manera genuina y que el compromiso con una tarea depende de su legitimidad."
+    },
+    {
+     "l": "C",
+     "t": "reunirse con los docentes de la tarde, escuchar sus objeciones, mostrar los datos de retardos y acordar con ellos los ajustes necesarios.",
+     "j": "Es correcta (nivel avanzado). Escucha de manera genuina, usa los datos como brújula para explicar la decisión y construye acuerdos, lo que da legitimidad al cambio y compromete a los docentes con su aplicación."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La Guía 34 describe las nuevas formas de trabajo de los establecimientos: la comunicación no se limita a hablar, implica escuchar de manera genuina a los compañeros y transmitir las ideas de manera comprensible y oportuna; los consensos dan legitimidad a las decisiones y generan compromiso; y los datos e información pertinente funcionan como «brújulas» que orientan las decisiones. El nivel avanzado combina las tres cosas: escucha, muestra la evidencia de los retardos y acuerda ajustes. Informar por escrito (mínimo) o imponer la decisión (inferior) dejan intacto el problema de comunicación que el caso revela.",
+   "fuente": "Guía 34 MEN (2008), 1.4 Las nuevas formas de trabajo en los establecimientos educativos.",
+   "consejo": "Comunicación directiva: escuchar de verdad, explicar con datos y concertar; el consenso da legitimidad y compromiso.",
+   "citas": [
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "Implica escuchar de manera genuina a los compañeros y a las personas a las que sirve el establecimiento educativo",
+     "ubicacion": "Guía 34, 1.3 La autonomía escolar y 1.4 Las nuevas formas de trabajo"
+    },
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "Estos consensos, a su vez, darán mayor legitimidad a las decisiones y permitirán un alto nivel de compromiso con las tareas que cada persona desarrollará.",
+     "ubicacion": "Guía 34, 1.3 La autonomía escolar y 1.4 Las nuevas formas de trabajo"
+    },
+    {
+     "doc": "guia34_mineducacion_2008",
+     "texto": "La comunicación y el trabajo en equipo se facilitan cuando se utilizan sistemáticamente datos e información pertinente",
+     "ubicacion": "Guía 34, 1.3 La autonomía escolar y 1.4 Las nuevas formas de trabajo"
+    }
+   ],
+   "competencia": "Comunicación y trabajo en equipo",
+   "cargo": "coordinador",
+   "formato": "ascenso 2024"
+  },
+  {
+   "id": "CO090",
+   "tipo": "caso",
+   "caso": "CK58",
+   "familia": "GAC-SIEE",
+   "dificultad": 2,
+   "enunciado": "Según el Decreto 1075, lo que usted orienta como coordinador es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "respetar la libertad de cátedra de la docente para decidir cuándo informa los criterios, siempre que lo haga antes del cierre del periodo.",
+     "j": "Es incorrecta. La libertad para escoger métodos no incluye ocultar los criterios de evaluación: la norma reconoce a estudiantes y padres el derecho a conocerlos desde el inicio del año escolar."
+    },
+    {
+     "l": "B",
+     "t": "pedir a la docente que dé a conocer ya a estudiantes y familias los criterios e instrumentos con que evaluará, conforme al SIEE.",
+     "j": "Es correcta. El Decreto 1075 reconoce a estudiantes y padres el derecho a conocer el SIEE —criterios, procedimientos e instrumentos de evaluación y promoción— desde el inicio del año; el coordinador debe garantizarlo ya."
+    },
+    {
+     "l": "C",
+     "t": "remitir la queja al consejo directivo para que modifique el SIEE y fije una fecha obligatoria en la que se informen los criterios.",
+     "j": "Es incorrecta. El SIEE ya existe y fue publicado; el problema es que no se está aplicando. Modificarlo sería un trámite largo e innecesario que no resuelve a tiempo el derecho vulnerado."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave es «desde el inicio». El Decreto 1075 (arts. 2.3.3.3.3.12 y 2.3.3.3.3.14, que compilan el Decreto 1290) reconoce tanto al estudiante como a los padres de familia el derecho a conocer el sistema institucional de evaluación: criterios, procedimientos e instrumentos de evaluación y promoción desde el inicio del año escolar. Si un docente reserva los criterios para el final del periodo, vulnera ese derecho aunque el SIEE esté publicado. El coordinador, que hace seguimiento a las actividades académicas, interviene de inmediato con la docente; no necesita reformar el SIEE, sino hacerlo cumplir. Libertad de método no significa evaluación sin reglas conocidas.",
+   "fuente": "Decreto 1075 de 2015, arts. 2.3.3.3.3.12 y 2.3.3.3.3.14 (Decreto 1290 de 2009, arts. 12 y 14).",
+   "consejo": "Estudiantes y padres tienen derecho a conocer criterios, procedimientos e instrumentos de evaluación desde el inicio del año.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Conocer el sistema institucional de evaluación de los estudiantes: criterios, procedimientos e instrumentos de evaluación y promoción desde el inicio de año escolar.",
+     "ubicacion": "Decreto 1075, arts. 2.3.3.3.3.12 y 2.3.3.3.3.14"
+    }
+   ],
+   "competencia": "SIEE: derechos de estudiantes y padres",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO091",
+   "tipo": "caso",
+   "caso": "CK59",
+   "familia": "GAC-SEGUIM",
+   "dificultad": 2,
+   "enunciado": "La propuesta del coordinador que corresponde al nivel avanzado es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "reunir a los docentes del grado para analizar los casos y acordar, con ellos y con las familias, acciones pedagógicas comunes con seguimiento.",
+     "j": "Es correcta (nivel avanzado). Promueve el seguimiento al desempeño de los estudiantes con acciones pedagógicas colaborativas en las que participan docentes y familias, como pide la Resolución 3842, y deja previsto cómo revisar su efecto."
+    },
+    {
+     "l": "B",
+     "t": "enviar a cada docente la lista de los estudiantes en riesgo y pedirle que diseñe actividades de refuerzo en su propia área durante el periodo.",
+     "j": "Es incorrecta (nivel satisfactorio). Activa el seguimiento y pide apoyos, pero cada docente actúa por separado y las familias quedan por fuera; la norma pide acciones colaborativas entre docentes y familias."
+    },
+    {
+     "l": "C",
+     "t": "citar a los acudientes de los catorce estudiantes para informarles los resultados y hacerles firmar compromisos académicos individuales.",
+     "j": "Es incorrecta (nivel mínimo). Involucra a las familias, pero solo para informar y trasladarles la responsabilidad; no hay análisis con los docentes ni acciones pedagógicas de la institución."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La Resolución 3842 asigna al coordinador promover acciones de seguimiento al desempeño académico y disciplinario de los estudiantes que generen acciones pedagógicas colaborativas en favor de los estudiantes, con participación de docentes y familias. En la prueba de ascenso, el nivel avanzado reúne esas tres condiciones: analiza los casos con el equipo del grado, acuerda acciones comunes (no cada docente por su lado) e integra a las familias, con un seguimiento previsto. Pedir refuerzos por área es un nivel intermedio y citar acudientes solo para firmar compromisos es un nivel mínimo, porque traslada el problema sin acción pedagógica institucional.",
+   "fuente": "Resolución 3842 de 2022, 1.3.1, función 11.",
+   "consejo": "Seguimiento académico avanzado: análisis con el equipo del grado + acciones colaborativas con docentes y familias + revisión.",
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Promover acciones de seguimiento al desempeño académico y disciplinario de los estudiantes, que generen acciones pedagógicas colaborativas en favor de los estudiantes, donde participen docentes y familias.",
+     "ubicacion": "Resolución 3842, 1.3.1, función 11"
+    }
+   ],
+   "competencia": "Seguimiento académico",
+   "cargo": "coordinador",
+   "formato": "ascenso 2024"
+  },
+  {
+   "id": "CO092",
+   "tipo": "caso",
+   "caso": "CK60",
+   "familia": "GAF-FONDOS",
+   "dificultad": 3,
+   "enunciado": "De acuerdo con el Decreto 1075, lo que usted le advierte al rector es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la audiencia pública con la comunidad debía hacerse a más tardar el último día de febrero, y la relación de contratos debe publicarse cada mes.",
+     "j": "Es correcta. El artículo 2.3.1.6.3.19 ordena publicar mensualmente la relación de contratos y celebrar, a más tardar el último día de febrero, audiencia pública con informe financiero que incluya ingresos por donaciones."
+    },
+    {
+     "l": "B",
+     "t": "la rendición de cuentas se cumple con el informe semestral al consejo directivo, en el que basta con incluir los ingresos de la donación.",
+     "j": "Es incorrecta. El informe al consejo directivo existe (Ley 715, art. 10.15), pero no reemplaza la audiencia pública ante la comunidad educativa ni la publicación mensual de contratos que exige el Decreto 1075."
+    },
+    {
+     "l": "C",
+     "t": "basta con publicar en la cartelera los estados contables al cierre de la vigencia, porque la audiencia pública es solo para sedes rurales.",
+     "j": "Es incorrecta. Publicar los estados contables es una de las obligaciones, no la única; además, la norma exige la audiencia pública a todos los rectores que manejan el Fondo, sin exceptuar a ninguna sede."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El caso combina dos obligaciones del artículo 2.3.1.6.3.19 del Decreto 1075 (Decreto 4791 de 2008), que buscan la moralidad, publicidad y transparencia del Fondo de Servicios Educativos. Primera: publicar mensualmente, en lugar visible, la relación de contratos y convenios con contratista, objeto, valor, plazo y estado. Segunda: a más tardar el último día de febrero, y previa convocatoria a la comunidad educativa, celebrar audiencia pública para presentar el informe de gestión, incluidos los ingresos por donaciones. A 15 de marzo, ambas están incumplidas. El informe semestral al consejo directivo es otra obligación distinta, por eso es un distractor cercano.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.1.6.3.19 (Decreto 4791 de 2008, art. 19).",
+   "consejo": "FSE: contratos publicados cada mes; audiencia pública de rendición de cuentas a más tardar el último día de febrero.",
+   "citas": [
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "Publicar mensualmente en lugar visible y de fácil acceso la relación de los contratos y convenios celebrados durante el período transcurrido de la vigencia",
+     "ubicacion": "Decreto 1075, art. 2.3.1.6.3.19, num. 3"
+    },
+    {
+     "doc": "decreto_1075_2015",
+     "texto": "A más tardar el último día de febrero de cada año y previa convocatoria a la comunidad educativa, celebrar audiencia pública para presentar informe de la gestión realizada con explicación de la información financiera correspondiente, incluyendo los ingresos obtenidos por convenios con particulares, premios, donaciones u otros",
+     "ubicacion": "Decreto 1075, art. 2.3.1.6.3.19, num. 4"
+    }
+   ],
+   "competencia": "Fondo de Servicios Educativos",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO093",
+   "tipo": "caso",
+   "caso": "CK61",
+   "familia": "GCO-CONV",
+   "dificultad": 3,
+   "enunciado": "De acuerdo con el Decreto 1965, lo que usted como coordinador orienta es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "remitir el caso al comité escolar de convivencia para que defina las medidas, porque todo empujón entre estudiantes es agresión escolar.",
+     "j": "Es incorrecta. Una agresión es tipo II si es repetida o causa daño; un conflicto esporádico sin daño es tipo I y lo atiende el establecimiento con mediación pedagógica, sin necesidad de llevarlo al comité."
+    },
+    {
+     "l": "B",
+     "t": "informar de inmediato a los acudientes y remitir a ambos a valoración en salud, dejando constancia de cada una de las actuaciones.",
+     "j": "Es incorrecta. Aplica pasos del protocolo de las situaciones tipo II, previstos para casos con daño al cuerpo o a la salud; aquí no hubo lesiones y la situación es esporádica, es decir, tipo I."
+    },
+    {
+     "l": "C",
+     "t": "reunir de inmediato a los dos estudiantes y mediar, con apoyo de los mediadores, para que acuerden cómo reparar, y hacer seguimiento.",
+     "j": "Es correcta. Es el protocolo tipo I del artículo 42: reunir inmediatamente a las partes, mediar de manera pedagógica, fijar la solución dejando constancia y hacer seguimiento; los mediadores capacitados pueden participar según el manual."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Primero se clasifica: el Decreto 1965 (art. 40) define las situaciones tipo I como conflictos manejados inadecuadamente y situaciones esporádicas que en ningún caso generan daños al cuerpo o a la salud. Un empujón aislado, sin lesiones, encaja ahí. Luego se aplica el protocolo del artículo 42: reunir inmediatamente a las partes, mediar de manera pedagógica para buscar la reparación y la reconciliación, fijar la solución dejando constancia y hacer seguimiento a los compromisos. El parágrafo permite que participen estudiantes mediadores capacitados, según el manual. Remitir al comité o aplicar pasos del tipo II sobredimensiona la situación; la CNSC espera que clasifique antes de actuar.",
+   "fuente": "Decreto 1965 de 2013, arts. 40 y 42.",
+   "consejo": "Tipo I (esporádica, sin daño): reunir de inmediato, mediar pedagógicamente, dejar constancia y hacer seguimiento; pueden apoyar mediadores.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Corresponden a este tipo los conflictos manejados inadecuadamente y aquellas situaciones esporádicas que inciden negativamente en el clima escolar, y que en ningún caso generan daños al cuerpo o a la salud.",
+     "ubicacion": "Decreto 1965, art. 40, num. 1"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Reunir inmediatamente a las partes involucradas en el conflicto y mediar de manera pedagógica para que éstas expongan sus puntos de vista y busquen la reparación de los daños causados",
+     "ubicacion": "Decreto 1965, art. 42, num. 1"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Los estudiantes que hayan sido capacitados como mediadores o conciliadores escolares podrán participar en el manejo de estos casos en los términos fijados en el Manual de Convivencia.",
+     "ubicacion": "Decreto 1965, art. 42, parágrafo"
+    }
+   ],
+   "competencia": "Situaciones tipo I",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  },
+  {
+   "id": "CO094",
+   "tipo": "caso",
+   "caso": "CK62",
+   "familia": "GCO-INCL",
+   "dificultad": 2,
+   "enunciado": "La actuación del coordinador que corresponde al nivel avanzado es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "enviar una circular recordando a las familias que la norma las obliga a participar y a cumplir los compromisos firmados en el PIAR.",
+     "j": "Es incorrecta (nivel inferior). Las obligaciones de las familias existen, pero usarlas como reclamo ignora las barreras que las madres describen y no crea ninguna estrategia institucional de participación."
+    },
+    {
+     "l": "B",
+     "t": "programar una reunión trimestral con estas familias para informarles los avances de sus hijos y darles recomendaciones para la casa.",
+     "j": "Es incorrecta (nivel satisfactorio). Abre un espacio de contacto periódico, pero las familias siguen como receptoras de información; no se reconocen sus saberes ni se promueve su incidencia en las decisiones."
+    },
+    {
+     "l": "C",
+     "t": "crear con la orientadora una red de familias inclusivas, usar la escuela de familias y abrirles espacio en las instancias.",
+     "j": "Es correcta (nivel avanzado). Aplica las estrategias que el Decreto 1075 propone para promover la participación de las familias: redes de familias inclusivas, escuela de familias y participación en las instancias escolares para incidir en decisiones."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El Decreto 1075 (art. 2.3.3.5.2.3.11, Decreto 1421) reconoce a las familias como corresponsables y ordena a los establecimientos valorar sus prácticas y saberes y desarrollar estrategias para promover su participación, entre ellas la conformación de redes de familias inclusivas, el aprovechamiento de la escuela de familias para una comunidad más incluyente y la participación en las instancias escolares para incidir en la toma de decisiones. El nivel avanzado responde a la barrera que describen las madres y construye participación real; informar cada trimestre es un nivel intermedio y recordarles sus obligaciones es un nivel inferior, porque pone el problema solo en las familias.",
+   "fuente": "Decreto 1075 de 2015, art. 2.3.3.5.2.3.11 (Decreto 1421 de 2017).",
+   "consejo": "Familias de estudiantes con discapacidad: redes de familias inclusivas, escuela de familias y participación en instancias escolares.",
+   "citas": [
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "la conformación de redes de familias inclusivas, ii) el aprovechamiento de la escuela de familias para fortalecer una comunidad educativa cada vez más incluyente",
+     "ubicacion": "Decreto 1421, art. 2.3.3.5.2.3.11"
+    },
+    {
+     "doc": "decreto_1421_2017",
+     "texto": "la participación en los espacios e instancias escolares para incidir en la toma de decisiones.",
+     "ubicacion": "Decreto 1421, art. 2.3.3.5.2.3.11"
+    }
+   ],
+   "competencia": "Inclusión y familias",
+   "cargo": "coordinador",
+   "formato": "ascenso 2024"
+  },
+  {
+   "id": "CO095",
+   "tipo": "caso",
+   "caso": "CK63",
+   "familia": "PSI-COMP",
+   "dificultad": 2,
+   "enunciado": "La actuación que mejor demuestra la competencia de compromiso social e institucional es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "pedir al rector que traslade la jornada de matrícula a otro sábado, explicando que la nueva fecha también puede servir a las familias.",
+     "j": "Es incorrecta. Parece una salida negociada, pero acomoda una actividad institucional ya comprometida con las familias a su conveniencia personal, y puede dejar sin matrícula a quienes ya habían organizado su sábado."
+    },
+    {
+     "l": "B",
+     "t": "delegar la jornada en un docente de la sede con las instrucciones por escrito y aceptar el taller, ya que se trata de un día no laboral.",
+     "j": "Es incorrecta. Que sea sábado no cambia la responsabilidad que asumió: delegar a última hora para atender un interés personal antepone este al institucional y arriesga la calidad de la atención a las familias."
+    },
+    {
+     "l": "C",
+     "t": "cumplir con la jornada de matrícula que asumió y declinar el taller, aunque pierda el pago, explicándole al instituto el motivo.",
+     "j": "Es correcta. Asume con ética y profesionalismo la responsabilidad que adquirió y antepone el interés institucional y de las familias al beneficio personal, que es la definición de la competencia de compromiso social e institucional."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La guía de orientación al aspirante de la CNSC define el compromiso social e institucional como la habilidad para asumir responsabilidades con ética y profesionalismo, dentro y fuera del establecimiento, anteponiendo los intereses institucionales a los personales e identificándose con los valores, principios y políticas institucionales. La Resolución 3842 la incluye entre las competencias comportamentales del directivo docente. En el caso, la jornada atiende a familias rurales que solo pueden ir ese día; cambiarla o delegarla para aceptar un ingreso personal invierte el orden de prioridades. En la prueba psicotécnica, la opción correcta suele ser la que honra el compromiso asumido aunque tenga un costo personal.",
+   "fuente": "Guía de orientación al aspirante CNSC (2022), prueba psicotécnica; Resolución 3842 de 2022, 1.1.3.",
+   "consejo": "Compromiso social e institucional: cumplir lo asumido y anteponer el interés institucional al personal.",
+   "citas": [
+    {
+     "doc": "guia_orientacion_cnsc_2022",
+     "texto": "Habilidad para asumir responsabilidades con ética y profesionalismo, dentro y fuera del establecimiento, anteponiendo los intereses institucionales a los personales e identificándose con los valores, principios y políticas institucionales",
+     "ubicacion": "Guía de orientación CNSC, prueba psicotécnica, ejemplo 2"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "trabajo en equipo; negociación y mediación; compromiso social e institucional; iniciativa; y orientación al logro.",
+     "ubicacion": "Resolución 3842, 1.1.3 Competencias comportamentales"
+    }
+   ],
+   "competencia": "Compromiso social e institucional",
+   "cargo": "coordinador",
+   "formato": "ingreso 2022"
+  }
+ ]
+}
