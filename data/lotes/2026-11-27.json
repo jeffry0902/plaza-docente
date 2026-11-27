@@ -1,0 +1,946 @@
+{
+ "id": "2026-11-27",
+ "fecha": "2026-11-27",
+ "casos": [
+  {
+   "id": "C233",
+   "titulo": "La nivelación que pide coordinación",
+   "texto": "Al cerrar el segundo periodo, el coordinador de una institución oficial de Yopal le entrega a la docente de Tecnología e Informática la lista de los 14 estudiantes de noveno que no alcanzaron los desempeños del área. Le pide que la semana siguiente aplique a todos el mismo taller de nivelación que usó el año pasado, «para no perder tiempo». La docente revisa la lista y nota que los estudiantes fallaron por razones muy distintas: unos no entregaron el proyecto, otros no comprendieron la representación de datos y dos tuvieron ausencias largas por enfermedad."
+  },
+  {
+   "id": "C234",
+   "titulo": "Hojas de cálculo que nadie usa",
+   "texto": "La docente de Tecnología e Informática de grado décimo de una institución oficial de Yopal termina la unidad de hojas de cálculo con buenos resultados en la prueba escrita: casi todos los estudiantes identifican fórmulas, celdas y rangos. Sin embargo, en una conversación con el grupo descubre que ninguno ha usado la herramienta fuera de clase, aunque varios ayudan en negocios familiares (una tienda, un taller de motos, una venta de comidas) donde llevan las cuentas en cuadernos."
+  },
+  {
+   "id": "C235",
+   "titulo": "El proyecto de la feria de ciencias",
+   "texto": "Para la feria institucional, los estudiantes de octavo de una institución oficial de Yopal quieren construir una estación que mida la temperatura y la lluvia del colegio y muestre los datos en gráficas. La docente de Tecnología e Informática sabe que el proyecto necesita el apoyo de matemáticas (gráficas e interpretación de datos) y de ciencias naturales (variables del clima), pero el docente de matemáticas le dice que «cada área ya tiene su plan» y que prefiere que ella lo haga sola."
+  },
+  {
+   "id": "C236",
+   "titulo": "¿Podía presentarse a Matemáticas?",
+   "texto": "Un ingeniero civil que se prepara con la aspirante para el concurso docente de Yopal le pregunta si, según el manual de funciones, requisitos y competencias, su título le permitiría aspirar a alguno de los siguientes cargos de docente de aula: preescolar, básica primaria o matemáticas. Ella abre la Resolución 3842 de 2022 en el apartado de requisitos."
+  },
+  {
+   "id": "C237",
+   "titulo": "Linterna, vela o lámpara solar",
+   "texto": "En una vereda de Yopal con cortes de luz frecuentes, la docente de Tecnología e Informática de básica primaria planea una clase. Los estudiantes llevarán una vela, una linterna de pilas y una pequeña lámpara solar, y en grupos decidirán cuál de los tres productos resuelve mejor el problema de hacer las tareas de noche durante un corte, anotando qué ventajas y qué desventajas tiene cada uno (costo, duración, seguridad, luz que da)."
+  },
+  {
+   "id": "C238",
+   "titulo": "Una sede sin computadores",
+   "texto": "La docente de Tecnología e Informática atiende también la sede rural de una institución oficial de Yopal, donde no hay computadores ni conexión a internet. Una colega le comenta que en esa sede «no se puede trabajar algoritmos ni programación hasta que llegue la dotación», y le sugiere dedicar el periodo de quinto grado a dibujar las partes del computador."
+  },
+  {
+   "id": "C239",
+   "titulo": "El comedero de aves",
+   "texto": "En quinto grado, la docente de Tecnología e Informática pide a los estudiantes diseñar un comedero para las aves que visitan el patio del colegio. En la socialización, cada grupo presenta un solo comedero terminado y explica que «este es el que quedó más bonito». La docente quiere ajustar el criterio con el que valorará la próxima entrega del proceso de diseño."
+  },
+  {
+   "id": "C240",
+   "titulo": "El cargador barato",
+   "texto": "Varios estudiantes de quinto grado de una institución oficial de Yopal compraron en la calle un cargador de celular muy barato que dejó de funcionar a la semana. Al reclamar, el vendedor les dijo que «eso no tiene garantía». La docente de Tecnología e Informática decide aprovechar la situación para una clase."
+  },
+  {
+   "id": "C241",
+   "titulo": "Primeros pasos hacia el algoritmo",
+   "texto": "En segundo grado de una institución oficial de Yopal, la docente de Tecnología e Informática quiere introducir las bases del pensamiento algorítmico. Tiene tres propuestas sobre la mesa: instalar un programa de bloques en los dos computadores del aula, trabajar con los niños los pasos de rutinas que viven a diario, como alistar el morral o lavarse las manos, o empezar con la definición de algoritmo y un cuestionario."
+  },
+  {
+   "id": "C242",
+   "titulo": "Tabletas hasta la medianoche",
+   "texto": "En la reunión de padres de tercer grado, varias familias cuentan que sus hijos usan la tableta o el celular hasta muy tarde y que, cuando se los quitan, se generan peleas. Le piden a la docente de Tecnología e Informática que haga algo desde la clase. Ella quiere que la actividad apunte a la evidencia de las Orientaciones Curriculares que busca que los propios niños regulen ese uso."
+  },
+  {
+   "id": "C243",
+   "titulo": "Los radios donados",
+   "texto": "Una familia donó a una institución oficial de Yopal una caja con radios viejos, desconectados y sin pilas, junto con sus manuales de uso, que traen dibujos de las piezas. La docente de Tecnología e Informática de segundo grado quiere aprovecharlos en una clase en la que los niños trabajen con los artefactos con sus propias manos."
+  },
+  {
+   "id": "C244",
+   "titulo": "Un plan de área para transición",
+   "texto": "El rector de una institución oficial de Yopal le pide a la docente de Tecnología e Informática que incluya el grado transición en el plan de área. Le sugiere copiar la estructura de primero: una unidad sobre las partes del computador, con definiciones que los niños deben memorizar, y una evaluación escrita al final de cada periodo para medir cuántos conceptos dominan."
+  },
+  {
+   "id": "C245",
+   "titulo": "Desarmar en transición",
+   "texto": "La docente de transición de una institución oficial de Yopal pide apoyo a la docente de Tecnología e Informática para una experiencia en la que los niños de cinco años «vean por dentro» un artefacto. Entre las dos consideran tres alternativas: que los niños desarmen en grupos unos carritos de cuerda en desuso mientras preguntan cómo se mueven; que observen un video sobre cómo se fabrica un carro; o que desarmen la fuente de poder de un computador viejo para conocer sus piezas."
+  },
+  {
+   "id": "C246",
+   "titulo": "«Ya saben usar el celular»",
+   "texto": "En una reunión de docentes de una institución oficial de Yopal, un colega opina que no vale la pena trabajar Tecnología e Informática en preescolar porque «los niños de transición ya saben usar el celular mejor que nosotros». Otra docente propone, al contrario, prohibir cualquier dispositivo en ese grado. Le piden a la docente de Tecnología e Informática que oriente la discusión con base en las Orientaciones Curriculares."
+  },
+  {
+   "id": "C247",
+   "titulo": "El manual de convivencia desactualizado",
+   "texto": "El comité escolar de convivencia de una institución oficial de Yopal concluye que el manual de convivencia no menciona el ciberacoso ni las situaciones que ocurren en las redes sociales. La docente de Tecnología e Informática, que integra un grupo de apoyo, propone pedir acompañamiento externo para actualizarlo, divulgarlo y aplicarlo. Un colega sugiere escribir directamente al Ministerio de Educación; otro, al comité municipal de convivencia escolar."
+  },
+  {
+   "id": "C248",
+   "titulo": "Las cifras de la secretaría",
+   "texto": "La institución oficial en la que trabaja la docente de Tecnología e Informática reportó durante el año varios casos de acoso escolar y ciberacoso. En una jornada pedagógica, un docente pregunta qué hace la secretaría de educación certificada con esos reportes, más allá de archivarlos."
+  },
+  {
+   "id": "C249",
+   "titulo": "Talleres de ciberacoso en la tarde",
+   "texto": "La institución oficial en la que trabaja la docente de Tecnología e Informática ofrece jornadas escolares complementarias en la tarde. Ella quiere proponer allí talleres sobre prevención del ciberacoso y uso responsable de las redes sociales, y busca en la Ley 1620 de 2013 qué entidad tiene, entre sus responsabilidades, promover ese tipo de formación en dichas jornadas."
+  },
+  {
+   "id": "C250",
+   "titulo": "Lectura del artículo 16",
+   "texto": "En un taller de lectura de normas, el grupo de estudio de la aspirante analiza el encabezado y el numeral 5 del artículo 16 de la Ley 1620 de 2013. El encabezado dice que las secretarías de educación certificadas, «además de las que establece la normatividad vigente y que le son propias, tendrá las siguientes responsabilidades». El numeral 5 dice: «Garantizar el desarrollo de los procesos de actualización y de formación docente y de evaluación de clima escolar de los establecimientos educativos, previstos en los numerales 3 y 6 del artículo 15 de la presente ley»."
+  }
+ ],
+ "fichas": [
+  {
+   "id": "F40",
+   "familia": "DIS-COMP",
+   "titulo": "Tecnología e Informática en preescolar: actividades rectoras y las cuatro competencias",
+   "lectura": "Las Orientaciones Curriculares de Tecnología e Informática (MEN, 2022) incluyen recomendaciones para la educación inicial y preescolar. Recuerdan que este nivel, en el marco de la atención integral, busca un trabajo pedagógico que parte de los intereses, inquietudes, capacidades y saberes de las niñas y los niños, mediante las actividades rectoras definidas para la primera infancia: el juego, la exploración de su medio, la expresión a través del arte y el disfrute de la literatura. Luego proponen una competencia para cada uno de los cuatro componentes del área. En Naturaleza y Evolución: diferenciar los elementos de la naturaleza de los productos tecnológicos. En Uso y apropiación: usar adecuadamente algunos productos tecnológicos de los juegos y del entorno familiar y escolar. En Solución de problemas: identificar problemas de la vida diaria que se solucionan con productos tecnológicos. En Tecnología, Informática y Sociedad: aceptar las orientaciones y límites que padres, cuidadores y docentes establecen sobre el uso seguro. En la prueba, ubique cada competencia por su verbo y su propósito.",
+   "puntos": [
+    "Actividades rectoras de la primera infancia: el juego, la exploración del medio, la expresión a través del arte y el disfrute de la literatura.",
+    "El trabajo parte de los intereses, inquietudes, capacidades y saberes de las niñas y los niños.",
+    "Naturaleza y Evolución: diferenciar elementos de la naturaleza y productos tecnológicos.",
+    "Uso y apropiación: usar adecuadamente productos tecnológicos de juegos y entorno.",
+    "Solución de problemas: identificar problemas diarios que se resuelven con productos tecnológicos.",
+    "Tecnología, Informática y Sociedad: aceptar orientaciones y límites sobre el uso seguro."
+   ],
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "mediante las actividades rectoras definidas para el trabajo en primera infancia (el juego, la exploración de su medio, la expresión través del arte y el disfrute de la literatura)",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Componente Naturaleza y Evolución de la T&I Uso y apropiación de la T&I Solución de problemas con T&I Tecnología, Informática y Sociedad Competencias y evidencias de aprendizaje para educación inicial y preescolar Diferencio los elementos de la naturaleza de los productos tecnológicos usados por el hombre.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Acepto las orientaciones y límites que mis padres, cuidadores y docentes me establecen sobre el uso seguro de los productos tecnológicos.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "tipo": "caso",
+   "id": "Q359",
+   "caso": "C233",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 3,
+   "competencia": "Funciones específicas del docente de área: apoyo y nivelación",
+   "enunciado": "De acuerdo con las funciones específicas que la Resolución 3842 de 2022 asigna al docente de área de conocimiento, la actuación más pertinente de la docente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "aplicar el taller del año anterior a los catorce estudiantes y registrar los resultados en la plataforma institucional.",
+     "j": "Es incorrecta. Cumple la instrucción del coordinador, pero omite la condición que fija el manual de funciones: las actividades de apoyo y nivelación se plantean previo análisis del proceso formativo. Un mismo taller para causas tan distintas no responde a ese análisis."
+    },
+    {
+     "l": "B",
+     "t": "analizar el proceso formativo de cada estudiante y plantear con base en ello las actividades de apoyo y nivelación.",
+     "j": "Es correcta. La Resolución 3842 dice que el docente de área debe plantear actividades de apoyo y nivelación para los estudiantes de básica y media, previo análisis de su proceso formativo. El caso muestra causas diferentes, de modo que el análisis es el paso que da sentido a la nivelación."
+    },
+    {
+     "l": "C",
+     "t": "remitir el listado a la comisión de evaluación para que esta diseñe y aplique las actividades de nivelación del área.",
+     "j": "Es incorrecta. Traslada a otra instancia una función que el manual le asigna directamente al docente de área. Las instancias institucionales hacen seguimiento, pero plantear las actividades de apoyo y nivelación, previo análisis, es tarea de quien orienta el área."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La palabra clave del manual de funciones es «previo»: la Resolución 3842 de 2022 asigna al docente de área de conocimiento la función de plantear actividades de apoyo y nivelación para los estudiantes de básica y media, previo análisis de su proceso formativo. En el caso, los catorce estudiantes fallaron por motivos distintos (entregas, comprensión de un tema, ausencias por enfermedad), así que un taller único no atiende lo que cada uno necesita. La CNSC suele contraponer la obediencia rápida a una instrucción con la función que la norma asigna al cargo; la respuesta correcta es la que cumple la función tal como está escrita, sin trasladarla a otra instancia y sin saltarse el análisis.",
+   "fuente": "Resolución 3842 de 2022, 2.1.3.4, Funciones específicas de los docentes de área de conocimiento",
+   "consejo": "Nivelación del docente de área = básica y media + previo análisis del proceso formativo.",
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Plantear actividades de apoyo y nivelación para los estudiantes de básica y media, previo análisis de su proceso formativo.",
+     "ubicacion": "Res. 3842 de 2022, 2.1.3.4 Funciones específicas de los docentes de área de conocimiento"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q360",
+   "caso": "C234",
+   "familia": "PED-ENSENAR",
+   "dificultad": 2,
+   "competencia": "Aplicación práctica de los conocimientos del área",
+   "enunciado": "Según la función del docente de área de conocimiento que describe la Resolución 3842 de 2022, el ajuste más pertinente para la siguiente unidad es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "reforzar la teoría con un cuestionario semanal sobre fórmulas, porque los resultados de la prueba aún pueden mejorar.",
+     "j": "Es incorrecta. Insiste en el dominio conceptual que el grupo ya demostró y no atiende el problema del caso: los estudiantes no aplican lo aprendido. La función del manual pide orientar la aplicación práctica en escenarios de la vida cotidiana, no solo repetir contenidos."
+    },
+    {
+     "l": "B",
+     "t": "pedir a cada estudiante una consulta escrita sobre la historia de las hojas de cálculo y su evolución en el comercio.",
+     "j": "Es incorrecta. Relacionar la herramienta con su evolución es válido en el componente de naturaleza y evolución, pero no responde a lo que pide el enunciado. La consulta escrita no lleva a los estudiantes a usar la herramienta en sus propios escenarios cotidianos."
+    },
+    {
+     "l": "C",
+     "t": "proponer que cada estudiante organice en una hoja de cálculo las cuentas reales del negocio familiar en que colabora.",
+     "j": "Es correcta. El manual asigna al docente de área orientar la reflexión y aplicación práctica de los conocimientos de su área en situaciones de aula y escenarios vinculados a las experiencias cotidianas de los estudiantes. Las cuentas del negocio familiar son justamente ese escenario."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La Resolución 3842 de 2022 incluye entre las funciones específicas del docente de área la de orientar la reflexión y aplicación práctica de los conocimientos propios de la disciplina en situaciones de aula y en escenarios vinculados a las experiencias cotidianas de los estudiantes. El caso muestra un aprendizaje que se queda en la prueba escrita y no llega a la vida de los estudiantes, aunque ellos tienen a la mano un escenario real: las cuentas del negocio familiar. La lógica que premia la CNSC es la de conectar el saber del área con el contexto del estudiante; más teoría o una consulta histórica pueden ser útiles en otro momento, pero no resuelven el problema planteado.",
+   "fuente": "Resolución 3842 de 2022, 2.1.3.4, Funciones específicas de los docentes de área de conocimiento",
+   "consejo": "Docente de área: aplicación práctica del saber en escenarios de la vida cotidiana del estudiante.",
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Orientar la reflexión y aplicación práctica de los conocimientos propios de la disciplina o área de conocimiento, en situaciones de aula y escenarios vinculados a las experiencias cotidianas de los estudiantes.",
+     "ubicacion": "Res. 3842 de 2022, 2.1.3.4 Funciones específicas de los docentes de área de conocimiento"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q361",
+   "caso": "C235",
+   "familia": "CB-EQUIPO",
+   "dificultad": 2,
+   "competencia": "Trabajo conjunto con docentes de otras áreas",
+   "enunciado": "Teniendo en cuenta las funciones del docente de área de conocimiento en la Resolución 3842 de 2022, la actuación más adecuada de la docente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "proponer a los docentes de matemáticas y ciencias un espacio conjunto para acordar qué aporta cada área al proyecto.",
+     "j": "Es correcta. El manual de funciones pide al docente de área participar de espacios de trabajo conjunto con docentes de otras áreas para articular y enriquecer el trabajo interdisciplinario. Proponer un acuerdo concreto sobre los aportes de cada área es la forma de lograrlo sin imponer."
+    },
+    {
+     "l": "B",
+     "t": "asumir sola los contenidos de gráficas y clima, para no recargar a sus compañeros y cumplir con la fecha de la feria.",
+     "j": "Es incorrecta. Parece una actitud responsable, pero renuncia al trabajo interdisciplinario que el proyecto necesita y que el manual de funciones promueve. Hacer todo uno mismo «para cumplir» es la trampa típica en los ítems de trabajo en equipo."
+    },
+    {
+     "l": "C",
+     "t": "informar al rector que el docente de matemáticas se niega a colaborar, para que le asigne la tarea por escrito.",
+     "j": "Es incorrecta. Escalar la queja de inmediato rompe el diálogo entre colegas antes de intentar un acuerdo. Acudir a una instancia superior puede ser necesario después, si fracasa la concertación, pero no es el primer paso que espera la prueba."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "En los ítems de trabajo en equipo la CNSC suele ofrecer tres salidas: concertar con los colegas, hacerlo todo uno mismo o acudir de inmediato al superior. La Resolución 3842 de 2022 orienta la respuesta: una de las funciones específicas del docente de área es participar de espacios de trabajo conjunto con docentes de otras áreas de conocimiento para articular y enriquecer el trabajo interdisciplinario. Por eso la docente debe abrir un espacio para acordar qué aporta cada área al proyecto de la estación meteorológica. Asumir sola el trabajo empobrece el proyecto y acusar primero al colega cierra la puerta a la colaboración.",
+   "fuente": "Resolución 3842 de 2022, 2.1.3.4, Funciones específicas de los docentes de área de conocimiento",
+   "consejo": "Trabajo en equipo: primero concertar con los colegas; ni hacerlo todo solo ni acusar de entrada.",
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Participar de espacios de trabajo conjunto con docentes de otras áreas de conocimiento para articular y enriquecer el trabajo interdisciplinario.",
+     "ubicacion": "Res. 3842 de 2022, 2.1.3.4 Funciones específicas de los docentes de área de conocimiento"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q362",
+   "caso": "C236",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 1,
+   "competencia": "Requisitos de los cargos docentes en el manual de funciones",
+   "enunciado": "Según los requisitos de la Resolución 3842 de 2022, el cargo de docente de aula que admite un título profesional universitario en Ingenierías es el de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "docente de básica primaria, que admite cualquier título profesional universitario.",
+     "j": "Es incorrecta. Para primaria la Resolución exige licenciatura en educación de cualquier área, normalista superior o tecnología en educación. Un título profesional de ingeniería no aparece en la lista de requisitos de ese cargo."
+    },
+    {
+     "l": "B",
+     "t": "docente de preescolar, que admite títulos profesionales en áreas afines a la educación.",
+     "j": "Es incorrecta. Para preescolar la Resolución enumera licenciaturas (preescolar, infantil, pedagogía, entre otras), normalista superior y tecnología en educación. No incluye títulos profesionales universitarios de ingeniería."
+    },
+    {
+     "l": "C",
+     "t": "docente de matemáticas, que admite títulos profesionales en matemáticas, física e ingenierías.",
+     "j": "Es correcta. En los requisitos del docente de matemáticas, la Resolución 3842 lista, además de las licenciaturas, el título profesional universitario en matemáticas o estadística, física e ingenierías. Por eso el ingeniero civil podría aspirar a ese cargo."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El manual de funciones, requisitos y competencias (Resolución 3842 de 2022) fija los títulos que habilitan cada cargo. Para preescolar y para básica primaria solo aparecen licenciaturas, normalista superior y tecnología en educación. Para el docente de matemáticas, en cambio, se admiten además títulos profesionales universitarios en matemáticas o estadística, física e ingenierías. La CNSC verifica los requisitos mínimos con la oferta de empleo, que se basa en este manual; por eso conviene leer el apartado del cargo concreto y no suponer que un título profesional sirve para cualquier cargo de primaria o de preescolar.",
+   "fuente": "Resolución 3842 de 2022, 2.1.4 Requisitos (2.1.4.1 a 2.1.4.3)",
+   "consejo": "Ingenierías habilitan Matemáticas; primaria y preescolar piden licenciatura, normalista o tecnología en educación.",
+   "citas": [
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Licenciatura en matemáticas (solo, con otra opción o con énfasis). Licenciatura en educación o en educación básica con énfasis en matemáticas.",
+     "ubicacion": "Res. 3842 de 2022, 2.1.4.3 Docente de Matemáticas"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "Título profesional universitario en alguno de los siguientes programas: 1. Matemáticas, estadística (solo, con otra opción o con énfasis) 2. Física 3. Ingenierías",
+     "ubicacion": "Res. 3842 de 2022, 2.1.4.3 Docente de Matemáticas"
+    },
+    {
+     "doc": "resolucion_3842_2022_ocr",
+     "texto": "1. Licenciatura en educación, cualquiera sea su área de conocimiento. 2. Normalista superior. 3. Tecnología en educación.",
+     "ubicacion": "Res. 3842 de 2022, 2.1.4.2 Docentes de Primaria"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q363",
+   "caso": "C237",
+   "familia": "DIS-COMP",
+   "dificultad": 3,
+   "competencia": "Ubicar una actividad en los componentes del área",
+   "enunciado": "De acuerdo con las competencias que las Orientaciones Curriculares (2022) formulan para cada componente, la actividad de la docente se ubica principalmente en el componente",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "Uso y apropiación de la T&I, porque los niños deben manejar en forma segura los tres productos.",
+     "j": "Es incorrecta. La seguridad aparece como criterio, pero no es el centro de la actividad. La competencia de este componente es usar en forma segura y apropiada productos del entorno; aquí los niños no aprenden a usarlos, sino a decidir cuál resuelve mejor un problema."
+    },
+    {
+     "l": "B",
+     "t": "Tecnología, Informática y Sociedad, porque los niños deben valorar el efecto de los productos en su vereda.",
+     "j": "Es incorrecta. Este componente se centra en reconocer las implicaciones de los productos sobre la vida de las personas y otras especies. Sería correcta si la clase analizara, por ejemplo, el efecto de las pilas desechadas, pero aquí la tarea es elegir una solución."
+    },
+    {
+     "l": "C",
+     "t": "Solución de problemas con T&I, porque los niños deben sopesar los productos para resolver una necesidad diaria.",
+     "j": "Es correcta. La competencia que las Orientaciones formulan para este componente es determinar las ventajas y desventajas en el uso de productos tecnológicos en la solución de problemas de la vida diaria. Eso es exactamente lo que hacen los grupos al comparar los tres productos."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "En la tabla de competencias de las Orientaciones Curriculares, cada columna corresponde a un componente, en este orden: Naturaleza y Evolución, Uso y apropiación, Solución de problemas y Tecnología, Informática y Sociedad. Para Solución de problemas, la competencia es «Determino las ventajas y desventajas en uso de productos tecnológicos en la solución de problemas de la vida diaria». La actividad tiene un problema concreto (estudiar de noche durante un corte) y pide sopesar ventajas y desventajas para elegir. La seguridad y el efecto en la vereda aparecen como criterios, y por eso los distractores resultan atractivos, pero el propósito central define el componente.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), tabla de competencias por componente",
+   "consejo": "Ventajas y desventajas para resolver un problema diario → Solución de problemas con T&I.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Determino las ventajas y desventajas en uso de productos tecnológicos en la solución de problemas de la vida diaria.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Componente Naturaleza y Evolución de la T &I Uso y apropiación de la T &I Solución de problemas con T &I Tecnología, Informática y Sociedad Competencia Explico el modo en que los productos tecnológicos facilitan el desarrollo de las actividades, en el presente y el pasado.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Uso en forma segura y apropiada productos tecnológicos de mi entorno en el desarrollo de actividades cotidianas.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Reconozco las implicaciones que los productos tecnológicos tienen sobre la vida de las personas y otras especies.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q364",
+   "caso": "C238",
+   "familia": "DIS-ALGO",
+   "dificultad": 2,
+   "competencia": "Pensamiento algorítmico sin computadores",
+   "enunciado": "Con base en las evidencias de aprendizaje de las Orientaciones Curriculares (2022), la decisión más adecuada de la docente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "dedicar el periodo a dibujar las partes del computador y programar el trabajo con algoritmos para cuando llegue la dotación.",
+     "j": "Es incorrecta. Supone que la programación exige equipos, cuando la evidencia de las Orientaciones dice expresamente «con o sin aplicación de artefactos electrónicos». Dibujar las partes del computador puede tener lugar en otro momento, pero no sustituye el pensamiento algorítmico."
+    },
+    {
+     "l": "B",
+     "t": "proponer retos con tarjetas de instrucciones, para que los niños armen secuencias que lleven a un compañero hasta una meta.",
+     "j": "Es correcta. La evidencia de las Orientaciones es estructurar secuencias basadas en un conjunto seleccionado de instrucciones para resolver un reto, con o sin aplicación de artefactos electrónicos. Las tarjetas son ese conjunto seleccionado y llevar al compañero a la meta es el reto."
+    },
+    {
+     "l": "C",
+     "t": "explicar en el tablero la definición de algoritmo y pedir a los niños que copien en el cuaderno ejemplos de algoritmos famosos.",
+     "j": "Es incorrecta. Se queda en la definición y en la copia, mientras que la evidencia pide que el estudiante estructure secuencias para resolver un reto. Conocer la definición sirve como cierre, pero no es la actividad que desarrolla el pensamiento algorítmico."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Entre las evidencias de aprendizaje de las Orientaciones Curriculares está «Estructuro secuencias basadas en un conjunto seleccionado de instrucciones para resolver un reto con o sin aplicación de artefactos electrónicos». La expresión «con o sin» desmonta el argumento de la colega: la falta de computadores no impide trabajar algoritmos. Una actividad desconectada, con tarjetas de instrucciones y un reto concreto, cumple las tres condiciones de la evidencia: secuencia, conjunto de instrucciones seleccionado y reto. La CNSC suele poner como distractor la opción que aplaza el aprendizaje hasta tener recursos o la que lo reduce a memorizar definiciones.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), evidencias de aprendizaje",
+   "consejo": "Algoritmos «con o sin artefactos electrónicos»: la falta de equipos no aplaza el pensamiento algorítmico.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Estructuro secuencias basadas en un conjunto seleccionado de instrucciones para resolver un reto con o sin aplicación de artefactos electrónicos.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q365",
+   "caso": "C239",
+   "familia": "DIS-DISENO",
+   "dificultad": 3,
+   "competencia": "Alternativas de solución en el proceso de diseño",
+   "enunciado": "Según la evidencia de aprendizaje de las Orientaciones Curriculares (2022) sobre la propuesta de soluciones, el criterio más pertinente para la próxima entrega es que cada grupo",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "presente el comedero con el mejor acabado y explique con detalle los materiales y las medidas que empleó.",
+     "j": "Es incorrecta. Describir materiales y medidas es útil, pero el criterio sigue premiando un único producto terminado. La evidencia pide proponer posibles soluciones y comparar sus ventajas y desventajas, lo que no aparece en esta opción."
+    },
+    {
+     "l": "B",
+     "t": "proponga varias soluciones posibles, cuente cómo llegó a ellas y compare las ventajas y desventajas de cada una.",
+     "j": "Es correcta. La evidencia de las Orientaciones es proponer posibles soluciones a un problema sencillo, indicando cómo se llegó a ellas y cuáles son las ventajas y desventajas de cada una. El criterio recoge los tres elementos: varias alternativas, el camino seguido y la comparación."
+    },
+    {
+     "l": "C",
+     "t": "construya un segundo comedero que mejore el primero y registre el tiempo que tardan las aves en usarlo.",
+     "j": "Es incorrecta. Probar y mejorar un prototipo es parte del diseño y por eso la opción resulta atractiva, pero parte de una única alternativa. La evidencia pide comparar varias soluciones antes de elegir, y medir el uso no reemplaza esa comparación."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares formulan la evidencia «Propongo posibles soluciones a un problema sencillo, indicando cómo llegué a ellas y cuáles son las ventajas y desventajas de cada una». El problema del caso es que cada grupo se quedó con una sola solución elegida por su apariencia. El criterio que corrige ese sesgo es el que exige varias alternativas, el relato del proceso y la comparación de ventajas y desventajas. Los distractores son tentadores porque describen buenas prácticas (explicar materiales, mejorar un prototipo), pero ambos se apoyan en un único diseño. En los ítems de diseño, la CNSC valora la generación y comparación de alternativas antes de elegir.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), evidencias de aprendizaje",
+   "consejo": "Diseño: varias soluciones + cómo llegué + ventajas y desventajas de cada una.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Propongo posibles soluciones a un problema sencillo, indicando cómo llegué a ellas y cuáles son las ventajas y desventajas de cada una.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q366",
+   "caso": "C240",
+   "familia": "DIS-CTS",
+   "dificultad": 2,
+   "competencia": "Intereses de fabricantes, vendedores y compradores",
+   "enunciado": "De acuerdo con las evidencias de aprendizaje de las Orientaciones Curriculares (2022), la actividad que mejor aprovecha la situación es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "desarmar el cargador dañado para identificar sus componentes y explicar la función de cada uno en la carga.",
+     "j": "Es incorrecta. Desarmar un artefacto para entender su funcionamiento es una buena actividad del área, pero no responde a lo que muestra el caso: el problema fue de compra y garantía. Sería pertinente si la clase buscara explicar cómo funciona el cargador."
+    },
+    {
+     "l": "B",
+     "t": "redactar entre todos una norma del salón que prohíba traer al colegio cargadores comprados en la calle.",
+     "j": "Es incorrecta. Prohibir no forma criterio en los estudiantes y desplaza la discusión hacia el control. La evidencia de las Orientaciones pide diferenciar intereses y valorar la garantía de calidad, algo que los niños podrán aplicar en sus compras futuras."
+    },
+    {
+     "l": "C",
+     "t": "analizar qué interés tienen quien fabrica, quien vende y quien compra el cargador, y por qué importa la garantía.",
+     "j": "Es correcta. La evidencia de las Orientaciones es diferenciar los intereses del que fabrica, vende o compra un producto, bien o servicio e interesarse por obtener garantía de calidad. La situación del cargador es el punto de partida ideal para trabajar esa evidencia."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Una de las evidencias de aprendizaje que proponen las Orientaciones Curriculares dice: «Diferencio los intereses del que fabrica, vende o compra un producto, bien o servicio y me intereso por obtener garantía de calidad». El caso trae justamente un conflicto entre comprador y vendedor y la negativa a una garantía. Analizar los intereses de cada actor y el valor de la garantía forma un consumidor crítico, que es la intención de esta evidencia de la relación entre tecnología y sociedad. Desarmar el cargador es una actividad legítima, pero de otro propósito; prohibir los cargadores resuelve un síntoma y no forma criterio.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), evidencias de aprendizaje",
+   "consejo": "Comprar tecnología con criterio: intereses de fabricante, vendedor y comprador + garantía de calidad.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Diferencio los intereses del que fabrica, vende o compra un producto, bien o servicio y me intereso por obtener garantía de calidad.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q367",
+   "caso": "C241",
+   "familia": "DIS-ALGO",
+   "dificultad": 2,
+   "competencia": "Bases del pensamiento algorítmico en los primeros grados",
+   "enunciado": "Según las evidencias de aprendizaje de las Orientaciones Curriculares (2022), la propuesta más adecuada para empezar es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "instalar el programa de bloques, para que los niños aprendan desde el inicio a programar en un computador.",
+     "j": "Es incorrecta. La programación por bloques puede venir después, pero las Orientaciones sitúan el punto de partida en las secuencias de pasos de la vida cotidiana. Con dos computadores, además, la mayoría del grupo quedaría mirando en lugar de construir secuencias."
+    },
+    {
+     "l": "B",
+     "t": "trabajar los pasos de rutinas diarias de la escuela y la casa, para que los niños reconozcan su orden lógico.",
+     "j": "Es correcta. La evidencia de las Orientaciones es identificar secuencias de pasos lógicos en las actividades cotidianas del entorno escolar y familiar para introducir las bases del pensamiento algorítmico. Alistar el morral o lavarse las manos son rutinas de ese tipo."
+    },
+    {
+     "l": "C",
+     "t": "presentar la definición de algoritmo con ejemplos y aplicar un cuestionario, para asegurar primero el concepto.",
+     "j": "Es incorrecta. Empieza por la definición abstracta, cuando la evidencia propone partir de actividades cotidianas. En segundo grado, la comprensión del concepto surge de reconocer y ordenar pasos reales; la definición puede llegar como cierre, no como inicio."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares formulan la evidencia «Identifico secuencias de pasos lógicos en las actividades cotidianas de mi entorno escolar y familiar para introducir las bases del pensamiento algorítmico». La frase indica de dónde partir (actividades cotidianas de la escuela y la familia) y para qué (introducir las bases del pensamiento algorítmico). Más adelante aparecen evidencias como corregir errores en secuencias de pasos o elaborar un algoritmo a partir del entorno. En la prueba, ante grados iniciales, conviene elegir la opción que parte de la experiencia concreta del niño antes que la herramienta digital o la definición.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), evidencias de aprendizaje",
+   "consejo": "Pensamiento algorítmico en grados iniciales: partir de rutinas cotidianas de la escuela y la familia.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Identifico secuencias de pasos lógicos en las actividades cotidianas de mi entorno escolar y familiar para introducir las bases del pensamiento algorítmico.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Corrijo errores en secuencias de pasos ordenados aplicando el pensamiento lógico algorítmico.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q368",
+   "caso": "C242",
+   "familia": "DIS-SEG",
+   "dificultad": 3,
+   "competencia": "Autorregulación en el uso de artefactos",
+   "enunciado": "Considerando las evidencias de aprendizaje de las Orientaciones Curriculares (2022), la actividad que mejor responde a la intención de la docente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "pedir a cada niño que acuerde con su familia y anote sus propios límites de tiempo y de lugar para usar la tableta.",
+     "j": "Es correcta. La evidencia que busca la autorregulación es establecer los propios límites de tiempo y lugar para el uso adecuado de artefactos analógicos y digitales. El niño fija sus límites, con apoyo de la familia, y no solo recibe una norma externa."
+    },
+    {
+     "l": "B",
+     "t": "explicar a los niños las restricciones que fijan los adultos sobre la tableta y por qué las ponen para protegerlos.",
+     "j": "Es incorrecta. Corresponde a otra evidencia de las Orientaciones, la de comprender los límites y restricciones que colocan los adultos. Es valiosa y puede acompañar la actividad, pero no responde a la intención del caso: que los propios niños regulen su uso."
+    },
+    {
+     "l": "C",
+     "t": "entregar a las familias una guía para configurar el control parental y bloquear la tableta durante las horas de la noche.",
+     "j": "Es incorrecta. El control parental es una medida útil de protección, pero la decisión queda en manos de los adultos y de la configuración del equipo. No desarrolla en el niño la capacidad de establecer sus propios límites, que es lo que pide el enunciado."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Las Orientaciones Curriculares incluyen dos evidencias cercanas: «Comprendo los límites y restricciones que los adultos colocan al uso de ciertos productos tecnológicos…» y «Establezco mis propios límites de tiempo y lugar para el uso adecuado de artefactos analógicos y digitales». Ambas son correctas en el área, pero el enunciado precisa la intención: que los propios niños regulen el uso. Esa palabra clave señala la segunda evidencia, la de autorregulación. Este ítem muestra la trampa típica de la CNSC: dos opciones buenas, una de las cuales responde a otro propósito. El control parental protege, pero no forma la autonomía que pide el caso.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), evidencias de aprendizaje",
+   "consejo": "«Comprendo los límites de los adultos» ≠ «Establezco mis propios límites»: lee qué pide el enunciado.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Establezco mis propios límites de tiempo y lugar para el uso adecuado de artefactos analógicos y digitales",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Comprendo los límites y restricciones que los adultos colocan al uso de ciertos productos tecnológicos como el computador, la televisión, la radio y otros dispositivos tecnológicos empleados para la comunicación.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q369",
+   "caso": "C243",
+   "familia": "DIS-DIDAC",
+   "dificultad": 2,
+   "competencia": "Ensamble y desarme de artefactos en primaria",
+   "enunciado": "Según las evidencias de aprendizaje de las Orientaciones Curriculares (2022), la actividad más adecuada con los radios es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "proyectar un video sobre la historia de la radio y luego pedir a cada niño un dibujo de un radio antiguo.",
+     "j": "Es incorrecta. Conocer la evolución de la radio se relaciona con otro componente del área y el dibujo puede ser útil, pero la actividad no pone los radios en manos de los niños. El enunciado pide trabajar con los artefactos de forma directa."
+    },
+    {
+     "l": "B",
+     "t": "pedir a los niños que desarmen y vuelvan a armar los radios en grupos, siguiendo los dibujos de los manuales.",
+     "j": "Es correcta. La evidencia de las Orientaciones es ensamblar y desarmar artefactos y dispositivos sencillos siguiendo instrucciones gráficas. Los radios desconectados y los dibujos de los manuales permiten hacerlo de manera directa y segura, como pide la docente."
+    },
+    {
+     "l": "C",
+     "t": "exhibir los radios en una mesa del salón y explicar a los niños, pieza por pieza, cómo funciona cada uno.",
+     "j": "Es incorrecta. La explicación de la docente transmite información, pero los niños quedan como espectadores. La evidencia pide que sean ellos quienes ensamblen y desarmen los artefactos, guiados por instrucciones gráficas como las de los manuales."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Entre las evidencias que las Orientaciones Curriculares proponen para los primeros grados están «Ensamblo y desarmo artefactos y dispositivos sencillos siguiendo instrucciones gráficas» y «Reflexiono sobre el uso adecuado de los artefactos mediante descripciones, dibujos y explicaciones disponibles en manuales de uso». Los radios desconectados y sus manuales con dibujos son el material ideal para ambas: los niños manipulan, siguen instrucciones gráficas y relacionan lo que ven con el manual. La CNSC suele contraponer la actividad en la que el estudiante actúa con la exposición del docente o el video; en Tecnología e Informática se privilegia la experiencia directa con el artefacto.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), evidencias de aprendizaje",
+   "consejo": "Primeros grados: ensamblar y desarmar artefactos sencillos con instrucciones gráficas.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Ensamblo y desarmo artefactos y dispositivos sencillos siguiendo instrucciones gráficas.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Reflexiono sobre el uso adecuado de los artefactos mediante descripciones, dibujos y explicaciones disponibles en manuales de uso.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q370",
+   "caso": "C244",
+   "familia": "PED-CURR",
+   "dificultad": 3,
+   "competencia": "Tecnología e Informática en preescolar",
+   "enunciado": "De acuerdo con las recomendaciones de las Orientaciones Curriculares (2022) para la educación inicial y preescolar, la docente debe proponer que en transición",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "se trabaje la misma unidad de primero, pero con menos conceptos y con una evaluación oral en lugar de la escrita.",
+     "j": "Es incorrecta. Suaviza la forma, pero mantiene el propósito equivocado: el dominio de conceptos. Las Orientaciones dicen que la educación preescolar no tiene por objeto la formación disciplinar ni el dominio de conceptos de las áreas obligatorias."
+    },
+    {
+     "l": "B",
+     "t": "se ofrezcan experiencias de manipulación y preguntas sobre los artefactos, sin buscar el dominio de conceptos.",
+     "j": "Es correcta. Las Orientaciones afirman que la educación inicial y preescolar no tiene por objeto la formación disciplinar ni el dominio de conceptos, y que la manipulación directa, el armado y desarmado y la generación de preguntas resultan imprescindibles, en concordancia con el desarrollo de los niños."
+    },
+    {
+     "l": "C",
+     "t": "no se incluya Tecnología e Informática, porque en preescolar las áreas obligatorias todavía no tienen lugar.",
+     "j": "Es incorrecta. Acierta en que el preescolar no busca formación disciplinar, pero saca una conclusión equivocada. Las mismas Orientaciones dicen que es responsabilidad de la educación inicial y preescolar ofrecer una formación sobre el uso seguro, adecuado y ético de la tecnología."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares recuerdan que la educación inicial y preescolar «no tienen por objeto la formación disciplinar, ni el dominio de conceptos o prácticas asociadas a las áreas fundamentales y obligatorias». Eso descarta una unidad de definiciones con evaluación de conceptos, aunque sea en versión reducida. Pero las mismas Orientaciones agregan que es responsabilidad del preescolar ofrecer formación sobre el uso seguro, adecuado y ético de la tecnología, y que la manipulación directa, el armado y desarmado y las preguntas sobre el funcionamiento resultan imprescindibles. Por eso la respuesta no es excluir la tecnología, sino trabajarla con experiencias acordes al desarrollo de los niños. Son dos condiciones que hay que leer juntas.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar",
+   "consejo": "Preescolar: sin formación disciplinar ni dominio de conceptos, pero sí experiencias con la tecnología.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Por tanto, la educación inicial y preescolar no tienen por objeto la formación disciplinar, ni el dominio de conceptos o prácticas asociadas a las áreas fundamentales y obligatorias dictadas por la Ley General de Educación (Arts. 23 y 31).",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "En este sentido la manipulación directa, el armado y desarmado, formas de análisis y la generación de preguntas sobre su funcionamiento, forma, estructura, modos",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "y precios para su generación, así como algunos de sus impactos en, por ejemplo, el aprovechamiento del tiempo libre, el desarrollo de la identidad, resultan imprescindibles siempre que estén en concordancia con el desarrollo de las dimensiones educables de las niñas y niños.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q371",
+   "caso": "C245",
+   "familia": "DIS-DIDAC",
+   "dificultad": 3,
+   "competencia": "Manipulación directa en preescolar",
+   "enunciado": "Según las recomendaciones de las Orientaciones Curriculares (2022) para la educación inicial y preescolar, la alternativa más adecuada es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "desarmar la fuente de poder del computador viejo, porque así los niños conocen las piezas de un equipo real.",
+     "j": "Es incorrecta. Es una manipulación directa, y por eso resulta atractiva, pero no cumple la condición de las Orientaciones: estar en concordancia con el desarrollo de las niñas y niños. Una fuente de poder no es un artefacto adecuado ni seguro para niños de cinco años."
+    },
+    {
+     "l": "B",
+     "t": "observar el video sobre la fabricación de un carro, porque muestra el interior sin exponer a los niños a riesgos.",
+     "j": "Es incorrecta. Evita el riesgo, pero renuncia a lo que las Orientaciones consideran imprescindible: la manipulación directa y el armado y desarmado. Ver el proceso en pantalla no reemplaza la exploración con las propias manos."
+    },
+    {
+     "l": "C",
+     "t": "desarmar en grupos los carritos de cuerda en desuso, porque los niños exploran el mecanismo y formulan preguntas.",
+     "j": "Es correcta. Las Orientaciones dicen que la manipulación directa, el armado y desarmado y la generación de preguntas sobre el funcionamiento resultan imprescindibles, siempre que estén en concordancia con el desarrollo de los niños. Los carritos de cuerda cumplen ambas condiciones."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La recomendación de las Orientaciones Curriculares para preescolar tiene dos partes que deben cumplirse a la vez. Primero, la manipulación directa, el armado y desarmado, las formas de análisis y la generación de preguntas sobre el funcionamiento de los artefactos resultan imprescindibles. Segundo, eso vale «siempre que estén en concordancia con el desarrollo de las dimensiones educables de las niñas y niños». El video falla en la primera condición, porque no hay manipulación; la fuente de poder falla en la segunda, porque no es apropiada para niños de cinco años. Solo los carritos de cuerda cumplen ambas. Es un ítem de dos condiciones, típico del nivel de dificultad alto de la CNSC.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar",
+   "consejo": "Preescolar: manipular, armar y desarmar y preguntar… siempre que sea acorde al desarrollo del niño.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "En este sentido la manipulación directa, el armado y desarmado, formas de análisis y la generación de preguntas sobre su funcionamiento, forma, estructura, modos",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "y precios para su generación, así como algunos de sus impactos en, por ejemplo, el aprovechamiento del tiempo libre, el desarrollo de la identidad, resultan imprescindibles siempre que estén en concordancia con el desarrollo de las dimensiones educables de las niñas y niños.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q372",
+   "caso": "C246",
+   "familia": "DIS-SEG",
+   "dificultad": 2,
+   "competencia": "Responsabilidad del preescolar frente al uso de la tecnología",
+   "enunciado": "De acuerdo con las Orientaciones Curriculares (2022), la docente debe señalar que en la educación inicial y preescolar",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "conviene limitar la tecnología a los juegos libres, porque los niños aprenden a usarla por sí solos desde que nacen.",
+     "j": "Es incorrecta. Parte de un dato cierto de las Orientaciones, que los niños están inmersos en el mundo tecnológico desde que nacen, pero saca la conclusión opuesta. Precisamente por eso el preescolar tiene la responsabilidad de formar en un uso seguro, adecuado y ético."
+    },
+    {
+     "l": "B",
+     "t": "es responsabilidad ofrecer formación sobre el uso seguro, adecuado y ético y sobre los límites de la tecnología.",
+     "j": "Es correcta. Las Orientaciones afirman que es responsabilidad de la educación inicial y preescolar ofrecer una formación sobre el uso seguro, adecuado y ético de la tecnología, así como la comprensión progresiva de sus límites para no afectar la vida propia y la de los demás."
+    },
+    {
+     "l": "C",
+     "t": "corresponde prohibir los dispositivos digitales, porque su acceso temprano afecta la identidad de los niños.",
+     "j": "Es incorrecta. Las Orientaciones mencionan impactos de la tecnología, por ejemplo en el desarrollo de la identidad, como objeto de análisis y preguntas, no como razón para prohibir. La respuesta que proponen es la formación en uso seguro y la comprensión progresiva de los límites."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares reconocen que las niñas y niños de preescolar están inmersos en el mundo tecnológico desde el mismo momento de nacer y que su acceso a tecnologías analógicas y digitales es cada vez mayor. De ahí deducen una responsabilidad: ofrecer una formación sobre su uso seguro, adecuado y ético, así como la comprensión progresiva de los límites de la tecnología y la informática para no afectar su vida y la de los demás. Los dos colegas del caso fallan en extremos opuestos: uno supone que no hace falta formar y la otra reemplaza la formación por la prohibición. La CNSC suele premiar la opción formativa frente a la omisión o la prohibición.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar",
+   "consejo": "Preescolar: ni omitir ni prohibir; formar en uso seguro, adecuado y ético y en los límites de la T&I.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "es responsabilidad de la educación inicial y preescolar ofrecer una formación sobre su uso seguro, adecuado y ético, así como la comprensión progresiva de los límites de la T&I para no afectar su vida y la de los demás.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "las niñas y niños de preescolar están inmersos en el mundo tecnológico desde el mismo momento de nacer y que su acceso a diversas tecnologías analógicas y digitales es cada vez mayor",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q373",
+   "caso": "C247",
+   "familia": "NOR-SIST",
+   "dificultad": 3,
+   "competencia": "Responsabilidades de las secretarías de educación en el Sistema Nacional de Convivencia",
+   "enunciado": "Según el artículo 16 de la Ley 1620 de 2013, la entidad a la que corresponde acompañar a la institución para que actualice, divulgue y aplique el manual de convivencia es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el comité municipal de convivencia escolar, porque coordina las estrategias de convivencia en el municipio.",
+     "j": "Es incorrecta. El comité municipal define estrategias, programas y acciones en su jurisdicción, y la secretaría participa en él. Pero el acompañamiento directo a los establecimientos para actualizar, divulgar y aplicar el manual es una responsabilidad que el artículo 16 asigna a la secretaría."
+    },
+    {
+     "l": "B",
+     "t": "el Ministerio de Educación Nacional, porque fija la política que deben seguir los manuales de convivencia.",
+     "j": "Es incorrecta. El Ministerio fija la política nacional, y el artículo 16 la menciona como marco de las acciones de la secretaría. Sin embargo, el acompañamiento cercano a cada establecimiento para el manual de convivencia le corresponde a la secretaría de educación certificada."
+    },
+    {
+     "l": "C",
+     "t": "la secretaría de educación de la entidad territorial certificada, porque acompaña a los establecimientos.",
+     "j": "Es correcta. El numeral 9 del artículo 16 asigna a las secretarías de educación de las entidades territoriales certificadas la responsabilidad de acompañar a los establecimientos educativos para que actualicen, divulguen y apliquen el manual de convivencia."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El artículo 16 de la Ley 1620 de 2013 enumera las responsabilidades de las secretarías de educación de las entidades territoriales certificadas dentro del Sistema Nacional de Convivencia Escolar. Su numeral 9 es literal: «Acompañar a los establecimientos educativos para que actualicen, divulguen y apliquen el manual de convivencia». Los distractores nombran instancias reales del sistema con funciones cercanas: el comité municipal, en el que la secretaría participa, y el Ministerio, cuya política enmarca las acciones regionales. La lógica de la CNSC en estos ítems es identificar la instancia exacta a la que la norma asigna la responsabilidad, no la que parece más importante.",
+   "fuente": "Ley 1620 de 2013, art. 16, num. 9",
+   "consejo": "Acompañar a los colegios con el manual de convivencia → secretaría de educación certificada (art. 16, num. 9).",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Acompañar a los establecimientos educativos para que actualicen, divulguen y apliquen el manual de convivencia.",
+     "ubicacion": "Ley 1620 de 2013, art. 16, num. 9"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q374",
+   "caso": "C248",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Seguimiento de la secretaría a los casos reportados",
+   "enunciado": "De acuerdo con el artículo 16 de la Ley 1620 de 2013, con los casos que denuncian los establecimientos educativos la secretaría debe",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "hacer seguimiento y apoyar su reporte, y analizar casos y cifras para tomar decisiones con el fin de prevenirlos.",
+     "j": "Es correcta. El numeral 7 del artículo 16 dice que la secretaría debe hacer seguimiento y apoyar el reporte de los casos denunciados por los establecimientos, y hacer análisis de casos y de cifras que le permitan tomar decisiones para prevenir y mitigar dichos casos."
+    },
+    {
+     "l": "B",
+     "t": "investigar los hechos y sancionar a los responsables, para garantizar que no se repitan en la institución.",
+     "j": "Es incorrecta. El artículo 16 no asigna a la secretaría la investigación ni la sanción de los hechos. Su papel es de seguimiento, apoyo y análisis para la toma de decisiones; la atención de cada caso sigue la Ruta de Atención Integral en lo que es de su competencia."
+    },
+    {
+     "l": "C",
+     "t": "remitir los casos al comité nacional de convivencia escolar, para que este decida las medidas en cada caso.",
+     "j": "Es incorrecta. Equivoca la instancia y la función: el numeral 7 no habla de remitir al comité nacional, sino de que la propia secretaría haga seguimiento, apoye el reporte y analice casos y cifras para tomar decisiones con base en la Ruta de Atención Integral."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El numeral 7 del artículo 16 de la Ley 1620 de 2013 responde la pregunta del docente: la secretaría debe hacer seguimiento y apoyar el reporte de los casos de acoso escolar, violencia escolar y vulneración de derechos sexuales y reproductivos denunciados por los establecimientos, y hacer análisis de casos y de cifras que le permitan tomar decisiones con base en el desarrollo de la Ruta de Atención Integral, con el fin de prevenir y mitigar dichos casos. Los distractores atribuyen a la secretaría funciones que la norma no le da, como sancionar, o desplazan la decisión a otra instancia. Recuerde los verbos del numeral: seguimiento, apoyo, análisis y decisiones para prevenir.",
+   "fuente": "Ley 1620 de 2013, art. 16, num. 7",
+   "consejo": "Secretaría + casos reportados = seguimiento, apoyo al reporte, análisis de casos y cifras, decisiones para prevenir.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Hacer seguimiento y apoyar el reporte de aquellos casos de acoso escolar, violencia escolar y vulneración de derechos sexuales y reproductivos de los niños, niñas y adolescentes denunciados por los establecimientos educativos y hacer análisis de casos y de cifras que les permitan tomar decisiones con base en el desarrollo de la Ruta de Atención Integral para la Convivencia Escolar, en lo que es de su competencia, con el fin de prevenir y mitigar dichos casos.",
+     "ubicacion": "Ley 1620 de 2013, art. 16, num. 7"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q375",
+   "caso": "C249",
+   "familia": "NOR-SIST",
+   "dificultad": 2,
+   "competencia": "Promoción de competencias ciudadanas en jornadas complementarias",
+   "enunciado": "Según el artículo 16 de la Ley 1620 de 2013, promover la prevención del acoso escolar y el ciberbullying en las jornadas escolares complementarias es una responsabilidad de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el comité escolar de convivencia, que diseña las actividades de formación de cada institución.",
+     "j": "Es incorrecta. El comité escolar de convivencia tiene sus propias funciones dentro de la institución, pero el numeral 6 del artículo 16 asigna esta promoción en las jornadas escolares complementarias a las secretarías de educación de las entidades territoriales certificadas."
+    },
+    {
+     "l": "B",
+     "t": "la secretaría de educación certificada, que debe promoverla en las jornadas complementarias.",
+     "j": "Es correcta. El numeral 6 del artículo 16 asigna a la secretaría de educación promover el desarrollo de las competencias ciudadanas, los derechos humanos, sexuales y reproductivos, los estilos de vida saludable y la prevención del acoso escolar y el ciberbullying en las jornadas escolares complementarias."
+    },
+    {
+     "l": "C",
+     "t": "el sector privado aliado, que financia los programas de convivencia en las jornadas de la tarde.",
+     "j": "Es incorrecta. El artículo 16 menciona al sector privado, pero en otro numeral: la secretaría debe gestionar alianzas con él para implementar programas. Eso no convierte a los aliados en responsables de promover la prevención del ciberbullying en las jornadas complementarias."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El numeral 6 del artículo 16 de la Ley 1620 de 2013 asigna a las secretarías de educación de las entidades territoriales certificadas la responsabilidad de promover el desarrollo de las competencias ciudadanas, el ejercicio de los derechos humanos, sexuales y reproductivos, el fomento de estilos de vida saludable y la prevención del acoso escolar y el ciberbullying en las jornadas escolares complementarias. La propuesta de la docente puede articularse con esa responsabilidad. Los distractores nombran actores que sí aparecen en el sistema o en el mismo artículo, como el sector privado del numeral 4, pero con otra función. Ubicar el numeral exacto evita confundir quién promueve con quién apoya.",
+   "fuente": "Ley 1620 de 2013, art. 16, num. 6",
+   "consejo": "Jornadas escolares complementarias + prevención del ciberbullying → la secretaría promueve (art. 16, num. 6).",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Promover el desarrollo de las competencias ciudadanas, el ejercicio de los derechos humanos, sexuales y reproductivos, el fomento de estilos de vida saludable y la prevención del acoso escolar y el ciberbullying en las jornadas escolares complementarias.",
+     "ubicacion": "Ley 1620 de 2013, art. 16, num. 6"
+    },
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Gestionar alianzas con el sector privado para la implementación de los programas a que hace referencia el numeral 1 del artículo 15 de la presente ley en favor de la convivencia escolar.",
+     "ubicacion": "Ley 1620 de 2013, art. 16, num. 4"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q376",
+   "caso": "C250",
+   "familia": "LC-INF",
+   "dificultad": 3,
+   "competencia": "Relación entre partes de un texto normativo",
+   "enunciado": "A partir de la lectura del encabezado y del numeral 5, se puede inferir correctamente que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "la lista del artículo 16 reemplaza las demás funciones de la secretaría y el numeral 5 crea procesos nuevos.",
+     "j": "Es incorrecta. Contradice las dos partes del texto. El encabezado dice «además de las que establece la normatividad vigente», de modo que la lista se suma y no reemplaza; y el numeral 5 se refiere a procesos «previstos» en el artículo 15, no a procesos creados en el 16."
+    },
+    {
+     "l": "B",
+     "t": "la lista del artículo 16 se suma a otras funciones, y el numeral 5 garantiza procesos ya previstos en el artículo 15.",
+     "j": "Es correcta. El encabezado usa «además de», que indica adición a las funciones que la normatividad vigente ya asigna. El numeral 5 usa «previstos en los numerales 3 y 6 del artículo 15», lo que indica que la secretaría garantiza procesos definidos en otro artículo."
+    },
+    {
+     "l": "C",
+     "t": "la lista del artículo 16 se suma a otras funciones, y el numeral 5 deja los procesos del artículo 15 a criterio de cada colegio.",
+     "j": "Es incorrecta. Acierta en la primera parte, porque el encabezado sí indica adición, pero falla en la segunda. El verbo del numeral 5 es «garantizar»: la secretaría debe asegurar el desarrollo de esos procesos, no dejarlos a la voluntad de cada establecimiento."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "En lectura crítica de normas, las pequeñas palabras de enlace definen el sentido. El encabezado del artículo 16 dice «además de las que establece la normatividad vigente y que le son propias»: la lista es adicional y no excluye otras funciones. El numeral 5 usa «garantizar» y «previstos en los numerales 3 y 6 del artículo 15»: la secretaría no crea esos procesos, sino que asegura el desarrollo de procesos que otra parte de la ley ya prevé. La opción correcta conserva las dos relaciones. Una de las incorrectas acierta en la primera parte y falla en la segunda, un recurso típico de la CNSC para premiar la lectura completa del texto.",
+   "fuente": "Ley 1620 de 2013, art. 16, encabezado y num. 5",
+   "consejo": "«Además de» = adición; «previstos en» = remite a otro artículo; «garantizar» = obligación, no opción.",
+   "citas": [
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Garantizar el desarrollo de los procesos de actualización y de formación docente y de evaluación de clima escolar de los establecimientos educativos, previstos en los numerales 3 y 6 del artículo 15 de la presente ley.",
+     "ubicacion": "Ley 1620 de 2013, art. 16, num. 5"
+    },
+    {
+     "doc": "ley_1620_2013",
+     "texto": "Además de las que establece la normatividad vigente y que le son propias, tendrá las siguientes responsabilidades:",
+     "ubicacion": "Ley 1620 de 2013, art. 16"
+    }
+   ]
+  },
+  {
+   "tipo": "conocimiento",
+   "id": "K079",
+   "ficha": "F40",
+   "familia": "DIS-COMP",
+   "dificultad": 1,
+   "competencia": "Actividades rectoras de la primera infancia",
+   "enunciado": "Según las Orientaciones Curriculares (2022), las actividades rectoras definidas para el trabajo en primera infancia son",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el juego, la exploración del medio, la expresión a través del arte y el disfrute de la literatura.",
+     "j": "Es correcta. Las Orientaciones mencionan las actividades rectoras definidas para el trabajo en primera infancia: el juego, la exploración de su medio, la expresión a través del arte y el disfrute de la literatura. A través de ellas se promueve el desarrollo integral de las niñas y niños."
+    },
+    {
+     "l": "B",
+     "t": "el juego, la manipulación de artefactos, la programación por bloques y la lectura de manuales de uso.",
+     "j": "Es incorrecta. Comparte el juego con la lista oficial, pero agrega actividades propias del área que no son las actividades rectoras de la primera infancia. La manipulación de artefactos es importante en preescolar, pero no figura entre las cuatro actividades rectoras."
+    },
+    {
+     "l": "C",
+     "t": "la exploración del medio, la escritura de palabras, el cálculo mental y el uso guiado del computador.",
+     "j": "Es incorrecta. Comparte la exploración del medio, pero incluye la escritura, el cálculo y el uso del computador, que se acercan a la formación disciplinar. Las Orientaciones recuerdan que el preescolar no tiene por objeto el dominio de conceptos de las áreas obligatorias."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Las Orientaciones Curriculares de Tecnología e Informática enmarcan sus recomendaciones para preescolar en las actividades rectoras de la primera infancia: el juego, la exploración del medio, la expresión a través del arte y el disfrute de la literatura. Además, señalan que este nivel parte de los intereses, inquietudes, capacidades y saberes de las niñas y los niños, y les ofrece ambientes y experiencias retadoras. Para la prueba, memorice las cuatro actividades rectoras como un bloque: los distractores suelen conservar una de ellas y mezclarla con actividades del área o con aprendizajes disciplinares que no son propios del nivel.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar",
+   "consejo": "Actividades rectoras: juego, exploración del medio, arte y literatura.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "mediante las actividades rectoras definidas para el trabajo en primera infancia (el juego, la exploración de su medio, la expresión través del arte y el disfrute de la literatura)",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar"
+    }
+   ]
+  },
+  {
+   "tipo": "conocimiento",
+   "id": "K080",
+   "ficha": "F40",
+   "familia": "DIS-COMP",
+   "dificultad": 2,
+   "competencia": "Competencias de preescolar por componente",
+   "enunciado": "En las competencias que las Orientaciones Curriculares (2022) proponen para preescolar, «Acepto las orientaciones y límites que mis padres, cuidadores y docentes me establecen sobre el uso seguro de los productos tecnológicos» corresponde al componente",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "Uso y apropiación de la T&I, porque la competencia se refiere al uso seguro de los productos tecnológicos.",
+     "j": "Es incorrecta. La expresión «uso seguro» lleva a pensar en este componente, pero su competencia para preescolar es otra: usar adecuadamente algunos productos tecnológicos de los juegos y del entorno familiar y escolar. La competencia del enunciado trata de los límites que ponen otras personas."
+    },
+    {
+     "l": "B",
+     "t": "Solución de problemas con T&I, porque los límites de los adultos resuelven problemas de seguridad diarios.",
+     "j": "Es incorrecta. La competencia de este componente para preescolar es identificar algunos problemas de la vida diaria que se solucionan con productos tecnológicos. Aceptar los límites de los adultos no es resolver un problema con un producto tecnológico."
+    },
+    {
+     "l": "C",
+     "t": "Tecnología, Informática y Sociedad, porque trata de las orientaciones y límites que otras personas establecen.",
+     "j": "Es correcta. En la tabla de las Orientaciones, la cuarta columna es Tecnología, Informática y Sociedad, y su competencia para preescolar es aceptar las orientaciones y límites que padres, cuidadores y docentes establecen sobre el uso seguro de los productos tecnológicos."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La tabla de competencias para educación inicial y preescolar sigue el orden de los cuatro componentes del área: Naturaleza y Evolución (diferenciar los elementos de la naturaleza de los productos tecnológicos), Uso y apropiación (usar adecuadamente algunos productos tecnológicos), Solución de problemas (identificar problemas de la vida diaria que se solucionan con productos tecnológicos) y Tecnología, Informática y Sociedad (aceptar las orientaciones y límites que padres, cuidadores y docentes establecen sobre el uso seguro). La trampa del ítem es la expresión «uso seguro», que lleva a Uso y apropiación. Lo que define el componente es la relación con las otras personas y sus normas, propia de la dimensión social de la tecnología.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias para educación inicial y preescolar",
+   "consejo": "Preescolar: aceptar límites y orientaciones de los adultos → Tecnología, Informática y Sociedad.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Acepto las orientaciones y límites que mis padres, cuidadores y docentes me establecen sobre el uso seguro de los productos tecnológicos.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Uso adecuadamente algunos productos tecnológicos dispuestos en mis juegos, en mi entorno familiar y escolar. Identifico algunos problemas de la vida diaria que son solucionados con el uso de productos tecnológicos.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), recomendaciones para educación inicial y preescolar"
+    }
+   ]
+  }
+ ]
+}
