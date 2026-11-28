@@ -1,0 +1,925 @@
+{
+ "id": "2026-11-28",
+ "fecha": "2026-11-28",
+ "casos": [
+  {
+   "id": "C251",
+   "titulo": "La provisional que se siente fija",
+   "texto": "Desde hace tres años, una ingeniera de sistemas trabaja como docente provisional de Tecnología e Informática en una institución oficial de Yopal, en una vacante definitiva. Al publicarse la lista de elegibles del concurso, la secretaría de educación le informa que el cargo será provisto con la persona que ocupó el primer puesto. Ella sostiene que, por su antigüedad y por sus buenas evaluaciones de desempeño, ya tiene derecho a quedarse en el cargo."
+  },
+  {
+   "id": "C252",
+   "titulo": "La licencia del titular",
+   "texto": "El docente titular de Tecnología e Informática de una institución oficial de Yopal obtiene una licencia de un año, situación administrativa que implica su separación temporal del cargo. Para cubrir la vacante, la secretaría de educación usa el listado de elegibles vigente y llama a una aspirante, quien no acepta porque prefiere esperar una vacante definitiva. Después de colgar, la aspirante teme haber perdido su lugar en el listado."
+  },
+  {
+   "id": "C253",
+   "titulo": "El compañero preocupado por la evaluación",
+   "texto": "Una docente nombrada en período de prueba en el área de Tecnología e Informática en Yopal conversa con un compañero que fue nombrado el mismo día. Él está angustiado: cree que, si al terminar el año académico no obtiene calificación satisfactoria en la evaluación de desempeño laboral y de competencias, quedará inhabilitado para volver a concursar como docente."
+  },
+  {
+   "id": "C254",
+   "titulo": "La pinza, la lupa y el megáfono",
+   "texto": "En transición, la docente de una institución oficial de Yopal pone sobre la mesa una pinza de cocina, una lupa y un megáfono de cartón. Pide a los niños que miren sus manos, sus ojos y su boca, que digan a qué parte de su cuerpo «le ayuda» cada objeto y que luego dibujen a una persona usándolos para hacer algo que sin ellos no podría hacer igual de bien."
+  },
+  {
+   "id": "C255",
+   "titulo": "El molinete de papel",
+   "texto": "En una clase de preescolar, la docente entrega a cada niño una hoja cuadrada ya cortada por las diagonales y un palito con una chinche de punta roma. Sin mostrar un molinete terminado, va diciendo en voz alta cada paso: llevar una punta al centro, luego la siguiente, sostenerlas todas y esperar a que ella las fije al palito. Al final, los niños soplan sus molinetes y celebran que giran."
+  },
+  {
+   "id": "C256",
+   "titulo": "Las aplicaciones de domicilios",
+   "texto": "La docente de Tecnología e Informática de décimo de una institución oficial de Yopal planea una unidad sobre las aplicaciones de domicilios que se volvieron comunes en la ciudad. Su propósito es que los estudiantes construyan formas éticas y políticas de ser y estar en el mundo frente a ellas: quién gana con la plataforma, en qué condiciones trabajan los repartidores y qué decisiones pueden tomar como usuarios. Antes de elegir las estrategias, revisa en las Orientaciones Curriculares con qué enfoque se articula ese propósito."
+  },
+  {
+   "id": "C257",
+   "titulo": "«Ya no se enseñan artefactos»",
+   "texto": "En una reunión de área, un colega afirma que las Orientaciones Curriculares de 2022 «eliminaron» el estudio de los artefactos y que, por eso, ya no tiene sentido desarmar una licuadora o analizar cómo funciona una bicicleta en clase. La docente de Tecnología e Informática revisa el apartado de enfoques y perspectivas para responderle con lo que dice el documento."
+  },
+  {
+   "id": "C258",
+   "titulo": "Tres estrategias sueltas",
+   "texto": "Para el tercer periodo de séptimo, la docente de Tecnología e Informática planea una semana de rutinas de pensamiento, otra de taller maker con cartón reciclado y otra de deliberación sobre el uso del celular, sin relación entre ellas. Al final aplicará una prueba escrita de definiciones. La coordinadora académica le pide revisar la planeación a la luz de las Orientaciones Curriculares antes de entregarla."
+  },
+  {
+   "id": "C259",
+   "titulo": "¿Qué se registra en el sistema?",
+   "texto": "En la primera reunión del año, el comité escolar de convivencia de una institución oficial de Yopal explica a los docentes nuevos cómo se reportan los casos. La docente de Tecnología e Informática, que apoyará el manejo de la información del comité, pregunta qué situaciones deben quedar identificadas, registradas y con seguimiento en el Sistema de Información Unificado de Convivencia Escolar."
+  },
+  {
+   "id": "C260",
+   "titulo": "El sistema abierto a las familias",
+   "texto": "En una jornada con el consejo de padres de una institución oficial de Yopal, un acudiente propone que la información del Sistema de Información Unificado de Convivencia Escolar pueda ser consultada por las familias, «para saber con quién se juntan nuestros hijos». La docente de Tecnología e Informática, invitada a explicar cómo funciona el sistema, responde con base en el decreto reglamentario de la Ley 1620."
+  },
+  {
+   "id": "C261",
+   "titulo": "Lectura de los artículos 31 y 32",
+   "texto": "En el grupo de estudio, la aspirante lee dos fragmentos del Decreto 1965 de 2013. El artículo 31 dice que varias entidades nacionales «crearán […] una mesa técnica en el marco del Comité Nacional de Convivencia Escolar, la cual se encargará del diseño, implementación, operación y funcionamiento del Sistema de Información Unificado de Convivencia Escolar». El artículo 32 enumera siete funciones de esa mesa; la última es: «7. Las demás que le sean asignadas por el Comité Nacional de Convivencia Escolar»."
+  },
+  {
+   "id": "C262",
+   "titulo": "La columna sobre los formatos de reporte",
+   "texto": "Una columna de un periódico local afirma: «El Decreto 1965 deja que cada colegio decida libremente con qué formatos reporta sus casos de convivencia». Un docente compara esa afirmación con tres numerales del artículo 32, que enumera las funciones de la Mesa Técnica del Sistema de Información Unificado de Convivencia Escolar: «1. Diseñar la estructura del Sistema […] en cuanto a la información contenida, usuarios autorizados para el registro y seguimiento de la información, niveles de seguridad para el acceso a la información y generación de reportes»; «3. Definir el responsable de la administración del Sistema […] y de su protocolo técnico de operación»; y «5. Definir los lineamientos, aplicativos y formatos a través de los cuales se deberá reportar la información al Sistema»."
+  },
+  {
+   "id": "C263",
+   "titulo": "El semillero de robótica",
+   "texto": "Para conformar el semillero de robótica de octavo, un docente de una institución oficial de Yopal propone invitar solo a los varones porque, según él, «a las niñas no les llaman la atención los motores». La docente de Tecnología e Informática, que coordina el semillero, recuerda lo que dice el Código de la Infancia y la Adolescencia sobre la perspectiva de género antes de responderle."
+  },
+  {
+   "id": "C264",
+   "titulo": "«La crianza es asunto nuestro»",
+   "texto": "En la entrega de informes, el padre de un estudiante de sexto le dice a la docente de Tecnología e Informática que, por la baja nota del periodo, va a «corregir» al niño con la correa, porque «la crianza es asunto de los padres y la ley nos da ese derecho». La madre, que también asistió a la reunión, no dice nada. La docente quiere responder con lo que establece el Código de la Infancia y la Adolescencia."
+  },
+  {
+   "id": "C265",
+   "titulo": "«Eso le toca al colegio»",
+   "texto": "En la escuela de padres de una institución oficial de Yopal, la docente de Tecnología e Informática propone que cada familia acuerde con sus hijos normas para el uso responsable de las redes sociales en casa. Un acudiente responde que formar a los hijos en sus derechos y en cómo ejercerlos «es tarea del colegio y del gobierno, no de la casa»."
+  },
+  {
+   "id": "C266",
+   "titulo": "Lectura del artículo 15",
+   "texto": "En el grupo de estudio, la aspirante analiza el artículo 15 de la Ley 1098 de 2006. Su primer inciso dice: «Es obligación de la familia, de la sociedad y del Estado, formar a los niños, las niñas y los adolescentes en el ejercicio responsable de los derechos». El segundo dice: «Las autoridades contribuirán con este propósito a través de decisiones oportunas y eficaces y con claro sentido pedagógico. El niño, la niña o el adolescente tendrán o deberá cumplir las obligaciones cívicas y sociales que correspondan a un individuo de su desarrollo»."
+  },
+  {
+   "id": "C267",
+   "titulo": "La lonchera térmica de noveno",
+   "texto": "En noveno, los grupos construyeron una lonchera térmica con cajas de icopor y papel aluminio para mantener caliente el almuerzo que traen de casa. Al revisar los primeros prototipos, un grupo decide cambiar el aluminio de lugar «porque así se ve más bonito» y otro quiere duplicar la capa de icopor porque a un compañero «le parece que funciona mejor». La docente de Tecnología e Informática quiere orientar la sesión de mejoras."
+  },
+  {
+   "id": "C268",
+   "titulo": "¿Parque solar o un pozo más?",
+   "texto": "En el municipio se discute si conviene instalar un parque solar en terrenos de una vereda o ampliar la explotación petrolera cercana. El tema aparece a diario en las noticias locales y en las conversaciones de las familias. La docente de Tecnología e Informática de séptimo de una institución oficial de Yopal quiere aprovechar el debate en una actividad del componente de tecnología y sociedad."
+  }
+ ],
+ "fichas": [
+  {
+   "id": "F41",
+   "familia": "DIS-DIDAC",
+   "titulo": "La estrategia de construcción-fabricación: pensar, actuar y hacer",
+   "lectura": "Entre las estrategias didácticas específicas que proponen las Orientaciones Curriculares de Tecnología e Informática (MEN, 2022) está la construcción-fabricación. Su interés es el paso del mundo de las ideas y los diseños al mundo de las realizaciones: gráficas, modelos, simulaciones, algoritmos, programas, prototipos u otras formas que hagan manifiesto el pensamiento tecnológico en productos que resuelven problemas, necesidades o deseos. El documento insiste en que no se trata solo de elaborar artefactos analógicos: también incluye la producción y programación de software, es decir, materializar el pensamiento en artefactos digitales como un algoritmo o un programa. La estrategia se apoya en el trinomio pensar, actuar y hacer, una unidad de pensamiento y acción que Papert (1991) denominó construccionismo. Y tiene una condición: construir-fabricar siempre debe dar como resultado un conocimiento nuevo sobre los productos y su origen, sobre el diseño y sus posibilidades. En la prueba, desconfíe de las opciones que reducen la estrategia a manualidades o la separan del aprendizaje de conceptos.",
+   "puntos": [
+    "Interés: pasar de las ideas y los diseños a realizaciones concretas (modelos, algoritmos, programas, prototipos).",
+    "Incluye la producción y programación de software, no solo artefactos analógicos.",
+    "Trinomio pensar, actuar y hacer: unidad de pensamiento y acción.",
+    "Papert (1991) llamó a esa unidad construccionismo.",
+    "Construir-fabricar siempre debe dejar un conocimiento nuevo sobre los productos, su origen y el diseño."
+   ],
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la construcción-fabricación como estrategia didáctica, refiere también a la producción y programación de software por lo que no se debe tomar como mero elaboración de artefactos analógicos, sino que se refiere también a la acción de hacer y materializar el pensamiento en artefactos digitales, como un algoritmo o un programa.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.1 Construcción-fabricación"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Este trinomio, pensar, actuar y hacer, posibilitan la intervención e interacción del hombre en la realidad a través de la creación de productos tecnológicos.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.1 Construcción-fabricación"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "una unidad de pensamiento y acción que Papert (1991) denominó, construccionismo.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.1 Construcción-fabricación"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "construir-fabricar siempre deberá dar como resultado un conocimiento nuevo sobre los productos y su origen, sobre el diseño y sus posibilidades.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.1 Construcción-fabricación"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "tipo": "caso",
+   "id": "Q377",
+   "caso": "C251",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 3,
+   "competencia": "Duración del nombramiento provisional en vacante definitiva",
+   "enunciado": "De acuerdo con el artículo 13 del Decreto 1278 de 2002, frente a lo que sostiene la docente, lo que corresponde es que su nombramiento provisional",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "se mantiene solo hasta que el cargo se provea en período de prueba con el listado de elegibles del concurso.",
+     "j": "Es correcta. El literal b del artículo 13 dice que en vacantes definitivas el nombramiento provisional será hasta cuando se provea el cargo en período de prueba o en propiedad, de acuerdo con el listado de elegibles producto del concurso. La antigüedad no cambia ese límite."
+    },
+    {
+     "l": "B",
+     "t": "se convirtió en nombramiento en propiedad porque superó tres años continuos de servicio en la misma vacante.",
+     "j": "Es incorrecta. Ninguna norma del estatuto convierte la provisionalidad en propiedad por el paso del tiempo. Según el artículo 12, los derechos de carrera se adquieren al aprobar el período de prueba, al que se llega por concurso; los años de servicio provisional no los reemplazan."
+    },
+    {
+     "l": "C",
+     "t": "se mantiene hasta que termine el año escolar y solo después el cargo pasa a la persona del listado.",
+     "j": "Es incorrecta. Confunde la duración del período de prueba, que sí se extiende hasta culminar el año escolar, con la del nombramiento provisional. Para la vacante definitiva, el límite del provisional es el momento en que el cargo se provee con el listado de elegibles."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "La clave está en el tipo de vacante. El artículo 13 del Decreto 1278 distingue dos casos: en vacantes temporales, el provisional dura lo que dure la situación administrativa del titular; en vacantes definitivas, dura hasta cuando se provea el cargo en período de prueba o en propiedad con el listado de elegibles producto del concurso. La docente lleva tres años en una vacante definitiva, así que su nombramiento termina cuando llega la persona elegible. La CNSC suele poner distractores que premian la antigüedad o las buenas evaluaciones; en el estatuto, el mérito se demuestra en el concurso y los derechos de carrera solo se adquieren al aprobar el período de prueba.",
+   "fuente": "Decreto 1278 de 2002, art. 13, lit. b; art. 12",
+   "consejo": "Provisional en vacante definitiva = hasta que llegue alguien del listado de elegibles. La antigüedad no da carrera.",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "En vacantes definitivas, el nombramiento provisional será hasta cuando se provea el cargo en período de prueba o en propiedad, de acuerdo con el listado de elegibles producto del concurso.",
+     "ubicacion": "Decreto 1278 de 2002, art. 13, lit. b"
+    },
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "Aprobado el período de prueba por obtener calificación satisfactoria en las evaluaciones, el docente o directivo docente adquiere los derechos de carrera",
+     "ubicacion": "Decreto 1278 de 2002, art. 12"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q378",
+   "caso": "C252",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 3,
+   "competencia": "Nombramiento provisional en vacante temporal y listado de elegibles",
+   "enunciado": "Según el artículo 13 del Decreto 1278 de 2002, lo correcto sobre este nombramiento y sobre la preocupación de la aspirante es que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el nombramiento dura hasta proveer el cargo en propiedad, y no aceptarlo la excluye del listado vigente.",
+     "j": "Es incorrecta. Aplica a la vacante temporal la regla de las vacantes definitivas y, además, afirma una exclusión que la norma niega. El artículo 13 dice expresamente que la no aceptación del nombramiento en vacante temporal no implica la exclusión del listado."
+    },
+    {
+     "l": "B",
+     "t": "el nombramiento dura lo que dure la situación administrativa, y no aceptarlo no la excluye del listado.",
+     "j": "Es correcta. El literal a del artículo 13 dice que, en vacantes cuyos titulares están en situaciones que implican separación temporal, el nombramiento provisional dura lo que dure esa situación, que debe usarse el listado de elegibles vigente y que su no aceptación no implica la exclusión."
+    },
+    {
+     "l": "C",
+     "t": "el nombramiento dura lo que dure la situación administrativa, y no aceptarlo la pasa al final del listado.",
+     "j": "Es incorrecta. Acierta en la duración del nombramiento, pero inventa una consecuencia que la norma no contempla. El artículo 13 solo dice que la no aceptación no implica la exclusión del listado; no establece ninguna pérdida de posición para quien no acepta."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El literal a del artículo 13 del Decreto 1278 tiene tres ideas que la CNSC combina en un solo ítem: el nombramiento provisional en una vacante temporal dura lo que dure la situación administrativa del titular; para hacerlo debe usarse el listado de elegibles vigente; y la no aceptación de ese nombramiento no implica la exclusión del listado. La aspirante, por tanto, conserva su lugar y puede esperar una vacante definitiva. Una de las opciones incorrectas acierta en la duración y falla en la consecuencia, un recurso típico para premiar la lectura completa de la norma. Recuerde comparar siempre las dos partes de cada opción con el texto.",
+   "fuente": "Decreto 1278 de 2002, art. 13, lit. a",
+   "consejo": "Vacante temporal: dura lo que dure la situación del titular; decir que no al nombramiento no saca del listado.",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "En vacantes de docentes cuyos titulares se encuentren en situaciones administrativas que impliquen separación temporal, el nombramiento provisional será por el tiempo que dure la respectiva situación administrativa. En este caso deberá hacerse uso del listado de elegibles vigente y su no aceptación no implica la exclusión del mismo.",
+     "ubicacion": "Decreto 1278 de 2002, art. 13, lit. a"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q379",
+   "caso": "C253",
+   "familia": "NOR-ESTATUTO",
+   "dificultad": 2,
+   "competencia": "Consecuencia de no superar el período de prueba",
+   "enunciado": "Según el artículo 12 del Decreto 1278 de 2002, si el compañero no supera el período de prueba,",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "continuará en el cargo como provisional y podrá presentarse a concurso en la siguiente convocatoria.",
+     "j": "Es incorrecta. El estatuto no prevé que quien no supera el período de prueba pase a ser provisional en el mismo cargo. El parágrafo 2 del artículo 12 dice que será separado del servicio; lo que sí conserva es la posibilidad de concursar de nuevo."
+    },
+    {
+     "l": "B",
+     "t": "repetirá el período de prueba el año siguiente y, si tampoco lo aprueba, será separado del servicio.",
+     "j": "Es incorrecta. La norma no ofrece una segunda oportunidad de período de prueba en el mismo nombramiento. El parágrafo 2 del artículo 12 es directo: quienes no superen el período de prueba serán separados del servicio, sin un año adicional de evaluación."
+    },
+    {
+     "l": "C",
+     "t": "será separado del servicio y podrá presentarse de nuevo a concurso cuando haya otra convocatoria.",
+     "j": "Es correcta. El parágrafo 2 del artículo 12 dice que quienes no superen el período de prueba serán separados del servicio, pudiéndose presentar de nuevo a concurso cuando haya otra convocatoria. Así, el temor del compañero de quedar inhabilitado no tiene fundamento en la norma."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El artículo 12 del Decreto 1278 regula el período de prueba: al terminar el año académico, la persona es evaluada en su desempeño laboral y en sus competencias; si aprueba, adquiere los derechos de carrera y se inscribe en el Escalafón. El parágrafo 2 resuelve el caso contrario con dos consecuencias que deben recordarse juntas: quien no supera el período de prueba es separado del servicio, pero puede presentarse de nuevo a concurso cuando haya otra convocatoria. La norma no crea una inhabilidad, no convierte el nombramiento en provisional y no da un segundo período de prueba. En la prueba, desconfíe de las opciones que suavizan o endurecen la consecuencia.",
+   "fuente": "Decreto 1278 de 2002, art. 12, par. 2",
+   "consejo": "No superar el período de prueba = separación del servicio + puede volver a concursar.",
+   "citas": [
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "Parágrafo 2. Quienes no superen el período de prueba serán separados del servicio, pudiéndose presentar de nuevo a concurso cuando haya otra convocatoria.",
+     "ubicacion": "Decreto 1278 de 2002, art. 12, par. 2"
+    },
+    {
+     "doc": "decreto_1278_2002",
+     "texto": "Al terminar el año académico respectivo, la persona nombrada en periodo de prueba será sujeto de una evaluación de desempeño laboral y de competencias.",
+     "ubicacion": "Decreto 1278 de 2002, art. 12"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q380",
+   "caso": "C254",
+   "familia": "DIS-COMP",
+   "dificultad": 2,
+   "competencia": "Evidencias de aprendizaje de preescolar",
+   "enunciado": "De las evidencias de aprendizaje que las Orientaciones Curriculares (2022) proponen para educación inicial y preescolar, la que esta actividad trabaja de manera más directa es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "Diferencio las características de los artefactos analógicos de los artefactos digitales.",
+     "j": "Es incorrecta. Es una evidencia real de preescolar, pero la actividad no compara artefactos analógicos con digitales: los tres objetos son analógicos y lo que se pide es relacionar cada uno con una parte del cuerpo. Sería la respuesta si la docente contrastara, por ejemplo, un reloj de agujas con uno digital."
+    },
+    {
+     "l": "B",
+     "t": "Comprendo que diversos artefactos analógicos y digitales son extensión de partes de mi cuerpo.",
+     "j": "Es correcta. La actividad pide relacionar la pinza con la mano, la lupa con el ojo y el megáfono con la voz, y dibujar cómo cada objeto amplía lo que el cuerpo hace. Eso es justamente comprender que los artefactos son extensión de partes del cuerpo, como dice la evidencia oficial."
+    },
+    {
+     "l": "C",
+     "t": "Exploro el uso de artefactos analógicos y digitales en mis actividades cotidianas.",
+     "j": "Es incorrecta. Es también una evidencia de preescolar, pero describe la exploración del uso de artefactos en la vida diaria. La actividad va más allá de usar los objetos: su centro es la relación entre cada artefacto y la parte del cuerpo cuya función amplía."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "En las Orientaciones Curriculares de 2022, el preescolar tiene una lista de evidencias de aprendizaje que parecen similares, y la CNSC pide ubicar la que corresponde a una actividad concreta. La palabra clave del enunciado es «de manera más directa»: la docente pide que los niños asocien cada objeto con la mano, el ojo o la boca y que dibujen cómo los objetos amplían lo que el cuerpo puede hacer. Esa es la evidencia «Comprendo que diversos artefactos analógicos y digitales son extensión de partes de mi cuerpo». Las otras dos opciones son evidencias oficiales del mismo nivel, pero describen otro foco: la comparación entre analógico y digital, o el uso cotidiano de artefactos.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), evidencias de aprendizaje para educación inicial y preescolar",
+   "consejo": "Artefacto como extensión del cuerpo: pinza → mano, lupa → ojo, megáfono → voz.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Comprendo que diversos artefactos analógicos y digitales son extensión de partes de mi cuerpo.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje para educación inicial y preescolar"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Diferencio las características de los artefactos analógicos de los artefactos digitales.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje para educación inicial y preescolar"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q381",
+   "caso": "C255",
+   "familia": "DIS-COMP",
+   "dificultad": 3,
+   "competencia": "Evidencias de aprendizaje de preescolar",
+   "enunciado": "La evidencia de aprendizaje de preescolar de las Orientaciones Curriculares (2022) que corresponde con mayor precisión al centro de esta actividad es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "Armo artefactos analógicos siguiendo instrucciones gráficas u orales.",
+     "j": "Es correcta. El centro de la actividad es construir un molinete paso a paso a partir de instrucciones que la docente da en voz alta, sin un modelo terminado. Eso coincide con la evidencia oficial de armar artefactos analógicos siguiendo instrucciones gráficas u orales."
+    },
+    {
+     "l": "B",
+     "t": "Sigo las instrucciones establecidas por los adultos para el uso de los artefactos analógicos y digitales.",
+     "j": "Es incorrecta. Es una evidencia real de preescolar y comparte la idea de seguir instrucciones, por eso atrae. Pero se refiere a las reglas de los adultos para usar artefactos, no a instrucciones para armar uno. Sería la respuesta si la actividad tratara de normas de uso del computador o de la tableta."
+    },
+    {
+     "l": "C",
+     "t": "Diferencio la manera en que ciertos artefactos analógicos y digitales resuelven un mismo problema.",
+     "j": "Es incorrecta. Es otra evidencia del nivel, pero exige comparar varios artefactos que resuelven un mismo problema. En la actividad todos los niños construyen el mismo molinete y nadie compara soluciones distintas, de modo que esta evidencia no es el centro de la clase."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El ítem exige distinguir dos evidencias de preescolar que comparten la palabra «instrucciones». Las Orientaciones Curriculares de 2022 incluyen «Armo artefactos analógicos siguiendo instrucciones gráficas u orales» y «Sigo las instrucciones establecidas por los adultos para el uso de los artefactos analógicos y digitales». La primera trata de construir un artefacto a partir de pasos; la segunda, de respetar las normas de uso que fijan los adultos. En el caso, la docente dicta en voz alta los pasos para armar un molinete, así que la evidencia que corresponde es la de armar. En la prueba, busque el verbo central de la actividad (armar, usar, comparar) antes de elegir.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), evidencias de aprendizaje para educación inicial y preescolar",
+   "consejo": "Armar con pasos dictados o dibujados ≠ seguir normas de uso de los adultos.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Armo artefactos analógicos siguiendo instrucciones gráficas u orales.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje para educación inicial y preescolar"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Sigo las instrucciones establecidas por los adultos para el uso de los artefactos analógicos y digitales.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), competencias y evidencias de aprendizaje para educación inicial y preescolar"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q382",
+   "caso": "C256",
+   "familia": "DIS-DIDAC",
+   "dificultad": 2,
+   "competencia": "Relación entre propósitos de formación y enfoques",
+   "enunciado": "Según las Orientaciones Curriculares (2022), el propósito de formación que persigue la docente se articula con",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el enfoque cognitivo, al igual que el propósito de la solución de problemas.",
+     "j": "Es incorrecta. Las Orientaciones articulan con el enfoque cognitivo, más fuertemente aunque no exclusivamente, el propósito de la solución de problemas y la satisfacción de necesidades. El propósito de la docente no es resolver un problema técnico, sino formar posturas éticas y políticas."
+    },
+    {
+     "l": "B",
+     "t": "el enfoque instrumental artefactual, porque se estudian plataformas concretas.",
+     "j": "Es incorrecta. Las Orientaciones relacionan el enfoque instrumental artefactual con vivenciar prácticas tecnológicas y maneras de pensar la T&I. Que la unidad analice una aplicación concreta no cambia su propósito, que es la formación ética y política de los estudiantes."
+    },
+    {
+     "l": "C",
+     "t": "los enfoques sociotécnico y tecnocultural, por su dimensión ética y política.",
+     "j": "Es correcta. Las Orientaciones dicen que la generación de formas éticas y políticas de ser y estar en el mundo se articula con el enfoque sociotécnico y tecnocultural. Ese es exactamente el propósito de la unidad sobre las aplicaciones de domicilios."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Las Orientaciones Curriculares de 2022 relacionan cada propósito de formación con uno o varios enfoques: la solución de problemas y la satisfacción de necesidades, con el enfoque cognitivo; vivenciar prácticas tecnológicas y maneras de pensar la T&I, con el instrumental artefactual; la generación de formas éticas y políticas de ser y estar en el mundo, con el sociotécnico y tecnocultural; y la comprensión de la naturaleza y evolución de la T&I, con el sistémico y el cognitivo. En el caso, la palabra clave es «formas éticas y políticas», que remite directamente al enfoque sociotécnico y tecnocultural. El objeto de estudio (una aplicación) no define el enfoque: lo define el propósito de formación.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.1 Enfoques y perspectivas",
+   "consejo": "Ético-político → sociotécnico y tecnocultural; solución de problemas → cognitivo.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la generación de formas éticas y políticas de ser y estar en el mundo se articula con el enfoque sociotécnico y tecnocultural",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.1 Enfoques y perspectivas para el estudio de la T&I"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "el propósito de la formación para la solución de problemas y la satisfacción de necesidades se articula, más fuertemente aunque no exclusivamente, con el enfoque cognitivo",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.1 Enfoques y perspectivas para el estudio de la T&I"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q383",
+   "caso": "C257",
+   "familia": "DIS-DIDAC",
+   "dificultad": 3,
+   "competencia": "Perspectiva holística y tradición instrumental artefactual",
+   "enunciado": "Según las Orientaciones Curriculares (2022), la respuesta más fiel al documento es que los enfoques del área permiten estudiar la T&I de manera holística",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "descentrando, sin desconocerla, la tradición instrumental artefactual del área.",
+     "j": "Es correcta. Las Orientaciones dicen que los enfoques hacen posible abordar el estudio de la T&I de una manera holística, descentrando, sin desconocer, la tradición instrumental artefactual. El análisis de artefactos sigue siendo válido, aunque ya no es el único centro del área."
+    },
+    {
+     "l": "B",
+     "t": "reemplazando la tradición instrumental artefactual por el enfoque sociotécnico.",
+     "j": "Es incorrecta. Coincide con el colega en que el estudio de artefactos desaparece, cosa que el documento niega. Las Orientaciones descentran la tradición instrumental artefactual sin desconocerla, y además mantienen el enfoque instrumental artefactual entre los enfoques del área."
+    },
+    {
+     "l": "C",
+     "t": "conservando la tradición instrumental artefactual como el centro de toda el área.",
+     "j": "Es incorrecta. Contradice la otra mitad de la idea: el documento descentra esa tradición. Las Orientaciones proponen una perspectiva holística que incluye enfoques sociotécnico, tecnocultural, sistémico y cognitivo, de modo que el artefacto ya no es el único eje del área."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Este ítem evalúa una frase de las Orientaciones Curriculares de 2022 con dos partes inseparables: los enfoques permiten abordar la T&I de manera holística «descentrando», es decir, quitando del centro, pero «sin desconocer» la tradición instrumental artefactual. Por eso desarmar una licuadora o analizar una bicicleta sigue teniendo lugar en el aula, aunque dentro de una mirada más amplia que incluye lo sociotécnico, lo tecnocultural, lo sistémico y lo cognitivo. Los distractores toman solo una mitad de la idea: uno elimina la tradición artefactual y el otro la deja como centro único. En la prueba, desconfíe de las opciones que convierten un matiz del documento en un extremo.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.1 Enfoques y perspectivas",
+   "consejo": "Holístico = descentrar el artefacto sin desconocerlo.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Estos enfoques hacen posible el abordar el estudio de la T&I de una manera holística descentrando, si desconocer, la tradición instrumental artefactual, permitiendo dar cuenta de los propósitos de formación.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.1 Enfoques y perspectivas para el estudio de la T&I"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q394",
+   "caso": "C258",
+   "familia": "PED-ENSENAR",
+   "dificultad": 3,
+   "competencia": "Coherencia de las estrategias didácticas con proyectos y evaluación",
+   "enunciado": "De acuerdo con lo que las Orientaciones Curriculares (2022) señalan sobre las estrategias didácticas del área, el ajuste más pertinente es",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "conservar las tres estrategias por separado y evaluar cada una con su propia prueba escrita de definiciones.",
+     "j": "Es incorrecta. Mantiene el problema central de la planeación: estrategias aisladas que no confluyen en un proyecto o en una ATE. Además, multiplicar pruebas de definiciones no da coherencia entre las acciones de aula y la evaluación del aprendizaje que piden las Orientaciones."
+    },
+    {
+     "l": "B",
+     "t": "elegir una sola estrategia para todo el periodo y mantener la prueba escrita final como evaluación del área.",
+     "j": "Es incorrecta. Reducir a una estrategia no es lo que pide el documento, que presenta varias estrategias y deja su elección a la experticia del docente y al contexto. Tampoco resuelve la coherencia con la evaluación, que sigue siendo una prueba de definiciones desconectada."
+    },
+    {
+     "l": "C",
+     "t": "integrar las estrategias en un proyecto tecnológico o una ATE y hacer coherente la evaluación con esas acciones.",
+     "j": "Es correcta. Las Orientaciones dicen que las estrategias didácticas deben integrarse coherentemente al desarrollo de proyectos tecnológicos o de una ATE específica y guardar estrecha coherencia con las acciones realizadas para la evaluación del aprendizaje. El ajuste responde a las dos fallas."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "La planeación tiene dos fallas que el enunciado obliga a ver juntas: las estrategias están sueltas y la evaluación no se relaciona con ellas. Las Orientaciones Curriculares de 2022 resuelven ambas en la misma frase: las estrategias didácticas, en la medida de lo posible, deben integrarse coherentemente al desarrollo de proyectos tecnológicos o de una Actividad Tecnológica Escolar (ATE) específica, y guardar estrecha coherencia con las acciones realizadas para la evaluación del aprendizaje. Por eso, el ajuste correcto conserva la variedad de estrategias, pero las pone al servicio de un mismo proyecto y alinea la evaluación con lo que se hace en el aula. Los distractores corrigen solo una parte o ninguna.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2 Estrategias didácticas específicas",
+   "consejo": "Estrategias → dentro de un proyecto o una ATE + coherentes con la evaluación.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "en la medida de lo posible debe integrarse coherentemente al desarrollo de proyectos tecnológicos o de una ATE específica; así, como guardar estrecha coherencia con las acciones realizadas para la evaluación del aprendizaje",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2 Estrategias didácticas específicas"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q384",
+   "caso": "C259",
+   "familia": "NOR-CONV-RUTA",
+   "dificultad": 2,
+   "competencia": "Situaciones que se registran en el Sistema de Información Unificado",
+   "enunciado": "Según el artículo 33 del Decreto 1965 de 2013, la operación del sistema debe garantizar la identificación, el registro y el seguimiento de",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "las situaciones de tipo I, II y III que se presenten en el establecimiento educativo.",
+     "j": "Es incorrecta. Amplía el registro a las situaciones tipo I, que el artículo 33 no incluye. El numeral 1 menciona solo las situaciones de tipo II y III; las de tipo I se atienden en el establecimiento según el protocolo del manual de convivencia."
+    },
+    {
+     "l": "B",
+     "t": "las situaciones de tipo II y III de las que trata el artículo 40 del mismo decreto.",
+     "j": "Es correcta. El numeral 1 del artículo 33 dice que la Mesa Técnica debe garantizar la identificación, registro y seguimiento de las situaciones de tipo II y III de las que trata el artículo 40 del Decreto. Esa es la respuesta para la docente del caso."
+    },
+    {
+     "l": "C",
+     "t": "las situaciones de tipo III, que son las que se remiten a las entidades externas.",
+     "j": "Es incorrecta. Se queda corta, porque el numeral 1 incluye también las situaciones de tipo II. Es cierto que el numeral 2 se ocupa de las entidades que atienden las situaciones tipo III, pero eso trata del acceso al sistema, no de qué se registra."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 33 del Decreto 1965 de 2013 fija lo que la Mesa Técnica debe garantizar para que funcione el Sistema de Información Unificado de Convivencia Escolar. El numeral 1 responde a la pregunta del caso: la identificación, el registro y el seguimiento de las situaciones de tipo II y III de las que trata el artículo 40. Las situaciones tipo I no aparecen en ese numeral. El numeral 2, en cambio, habla del acceso oportuno de las entidades que atienden situaciones tipo III para registrar y seguir sus acciones. La CNSC suele construir distractores que amplían o recortan la lista; memorice el par «tipo II y III» para el registro en el sistema.",
+   "fuente": "Decreto 1965 de 2013, art. 33, num. 1",
+   "consejo": "Sistema de Información Unificado: se registran y siguen las situaciones tipo II y III.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "La identificación, registro y seguimiento de las situaciones de tipo II y III de las que trata el artículo 40 del presente Decreto.",
+     "ubicacion": "Decreto 1965 de 2013, art. 33, num. 1"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q385",
+   "caso": "C260",
+   "familia": "NOR-CONV-RUTA",
+   "dificultad": 3,
+   "competencia": "Acceso y protección de datos en el Sistema de Información Unificado",
+   "enunciado": "De acuerdo con el artículo 33 del Decreto 1965 de 2013, la explicación correcta de la docente es que la operación del sistema debe garantizar",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "el acceso oportuno de las entidades que atienden situaciones tipo III, y la intimidad y confidencialidad de los involucrados.",
+     "j": "Es correcta. El numeral 2 del artículo 33 garantiza acceso oportuno a las entidades involucradas en la atención de las situaciones tipo III, y el numeral 3 garantiza el derecho a la intimidad, la confidencialidad y la protección de datos personales de las personas involucradas."
+    },
+    {
+     "l": "B",
+     "t": "el acceso oportuno de las familias del establecimiento, y la intimidad y confidencialidad de los estudiantes menores.",
+     "j": "Es incorrecta. Mantiene la protección de la intimidad, pero acepta la propuesta del acudiente, que la norma no contempla. El artículo 33 da acceso a las entidades que atienden las situaciones tipo III; abrir la información a las familias chocaría con la confidencialidad de los involucrados."
+    },
+    {
+     "l": "C",
+     "t": "el acceso oportuno de todas las entidades a las situaciones tipo I, II y III, y la protección de los datos personales.",
+     "j": "Es incorrecta. Mezcla dos numerales y los amplía. El registro y seguimiento se refiere a situaciones tipo II y III, y el acceso oportuno del numeral 2 es para las entidades involucradas en la atención de las tipo III, no para todas las entidades ni para las tipo I."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Este ítem combina dos numerales del artículo 33 del Decreto 1965. El numeral 2 define quién tiene acceso oportuno al sistema: las entidades involucradas en la atención de las situaciones tipo III, para registrar y seguir las acciones adelantadas. El numeral 3 obliga a garantizar el derecho a la intimidad, la confidencialidad y la protección de datos personales de las personas involucradas, conforme a la Constitución, la Ley 1098 de 2006 y la Ley 1581 de 2012, entre otras. La propuesta del acudiente choca con ambos: las familias no son las entidades que atienden las situaciones, y la consulta abierta violaría la confidencialidad. La opción correcta es la única que respeta los dos numerales sin ampliarlos.",
+   "fuente": "Decreto 1965 de 2013, art. 33, nums. 2 y 3",
+   "consejo": "Acceso al sistema: entidades que atienden tipo III. Siempre: intimidad, confidencialidad y protección de datos.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "Que todas las entidades involucradas en la atención de las situaciones tipo III, a las que se refiere el numeral 3 del artículo 40 del presente Decreto, cuenten con un acceso oportuno que permita el registro y seguimiento de las acciones adelantadas frente a dichas situaciones.",
+     "ubicacion": "Decreto 1965 de 2013, art. 33, num. 2"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "El derecho a la intimidad, la confidencialidad y la protección de datos personales de las personas involucradas",
+     "ubicacion": "Decreto 1965 de 2013, art. 33, num. 3"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q386",
+   "caso": "C261",
+   "familia": "LC-INF",
+   "dificultad": 2,
+   "competencia": "Relación entre artículos de un texto normativo",
+   "enunciado": "A partir de la lectura de los dos fragmentos, se puede inferir correctamente que la mesa técnica",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "funciona en lugar del Comité Nacional, que le entrega la operación completa del sistema de información.",
+     "j": "Es incorrecta. El artículo 31 dice que la mesa se crea «en el marco del» Comité Nacional, expresión que indica que forma parte de él y actúa dentro de su ámbito, no que lo sustituya. El Comité sigue existiendo y puede asignarle más funciones, según el numeral 7."
+    },
+    {
+     "l": "B",
+     "t": "funciona en el marco del Comité Nacional, pero solo puede cumplir las seis funciones que la anteceden.",
+     "j": "Es incorrecta. Acierta en la relación con el Comité, pero ignora el sentido del numeral 7. La expresión «las demás que le sean asignadas» indica que la lista queda abierta, de modo que el Comité Nacional puede encargarle funciones adicionales a las enumeradas."
+    },
+    {
+     "l": "C",
+     "t": "funciona en el marco del Comité Nacional, el cual puede asignarle funciones además de las enumeradas.",
+     "j": "Es correcta. El artículo 31 ubica la mesa «en el marco del» Comité Nacional de Convivencia Escolar, y el numeral 7 del artículo 32 deja abierta la lista con «las demás que le sean asignadas» por ese mismo Comité. Las dos partes del texto sostienen la inferencia."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "En lectura crítica de normas, las fórmulas de relación entre órganos y las cláusulas finales de las listas definen el sentido del texto. El artículo 31 usa «en el marco del Comité Nacional», que indica que la mesa técnica actúa dentro de ese Comité y no en su lugar. El numeral 7 del artículo 32, «Las demás que le sean asignadas por el Comité Nacional», convierte la lista en abierta: el Comité puede encargarle otras funciones. La opción correcta conserva las dos relaciones. Una opción incorrecta acierta en la primera parte y falla en la segunda, recurso frecuente en la CNSC para premiar a quien lee la norma completa y no solo el comienzo.",
+   "fuente": "Decreto 1965 de 2013, arts. 31 y 32, num. 7",
+   "consejo": "«En el marco de» = dentro de, no en lugar de. «Las demás que le sean asignadas» = lista abierta.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "una mesa técnica en el marco del Comité Nacional de Convivencia Escolar, la cual se encargará del diseño, implementación, operación y funcionamiento del Sistema de Información Unificado de Convivencia Escolar.",
+     "ubicacion": "Decreto 1965 de 2013, art. 31"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "7. Las demás que le sean asignadas por el Comité Nacional de Convivencia Escolar.",
+     "ubicacion": "Decreto 1965 de 2013, art. 32, num. 7"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q387",
+   "caso": "C262",
+   "familia": "LC-CRIT",
+   "dificultad": 3,
+   "competencia": "Evaluar una afirmación frente al texto normativo",
+   "enunciado": "Al evaluar la afirmación de la columna a la luz de los tres numerales, se concluye que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "se sostiene, porque el numeral 3 permite que cada colegio defina quién administra el sistema de información.",
+     "j": "Es incorrecta. Atribuye al colegio una función que el numeral 3 asigna a la Mesa Técnica: es la mesa la que define el responsable de la administración del sistema y su protocolo técnico. Además, ese numeral no habla de los formatos de reporte, que es lo que afirma la columna."
+    },
+    {
+     "l": "B",
+     "t": "no se sostiene, porque el numeral 5 asigna a la mesa técnica definir los lineamientos, aplicativos y formatos de reporte.",
+     "j": "Es correcta. El numeral 5 dice que la Mesa Técnica debe definir los lineamientos, aplicativos y formatos a través de los cuales se deberá reportar la información al sistema. Si esa definición le corresponde a la mesa, no es cierto que cada colegio escoja libremente sus formatos."
+    },
+    {
+     "l": "C",
+     "t": "se sostiene en parte, porque el numeral 1 deja que cada colegio defina los usuarios autorizados para el registro.",
+     "j": "Es incorrecta. Lee mal el sujeto de la función. El numeral 1 encarga a la Mesa Técnica diseñar la estructura del sistema, incluidos los usuarios autorizados para el registro. Ninguno de los tres numerales deja esas decisiones a cada establecimiento educativo."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Evaluar una afirmación frente a un texto exige identificar quién es el sujeto de cada función. Los tres numerales citados pertenecen al artículo 32, cuyo encabezado se refiere a las funciones de la Mesa Técnica. El numeral 5 contradice directamente la columna: es la mesa la que define los lineamientos, aplicativos y formatos para reportar información al sistema. Los distractores atribuyen al colegio funciones que los numerales 1 y 3 también asignan a la mesa: diseñar la estructura del sistema con sus usuarios autorizados y definir el responsable de su administración. En la prueba, antes de evaluar una afirmación, pregúntese siempre a quién le asigna la norma la acción que se discute.",
+   "fuente": "Decreto 1965 de 2013, art. 32, nums. 1, 3 y 5",
+   "consejo": "Funciones del art. 32 = de la Mesa Técnica, no de cada colegio.",
+   "citas": [
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "5. Definir los lineamientos, aplicativos y formatos a través de los cuales se deberá reportar la información al Sistema de Información Unificado de Convivencia Escolar.",
+     "ubicacion": "Decreto 1965 de 2013, art. 32, num. 5"
+    },
+    {
+     "doc": "decreto_1965_2013",
+     "texto": "3. Definir el responsable de la administración del Sistema de Información Unificado de Convivencia y de su protocolo técnico de operación.",
+     "ubicacion": "Decreto 1965 de 2013, art. 32, num. 3"
+    }
+   ]
+  },
+  {
+   "tipo": "conocimiento",
+   "id": "K081",
+   "ficha": "F41",
+   "familia": "DIS-DIDAC",
+   "dificultad": 1,
+   "competencia": "Alcance de la estrategia de construcción-fabricación",
+   "enunciado": "Según las Orientaciones Curriculares (2022), la estrategia didáctica de construcción-fabricación",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "comprende también la producción y programación de software, como un algoritmo o un programa.",
+     "j": "Es correcta. Las Orientaciones subrayan que la construcción-fabricación refiere también a la producción y programación de software y que no debe tomarse como mera elaboración de artefactos analógicos, sino como la materialización del pensamiento en artefactos digitales."
+    },
+    {
+     "l": "B",
+     "t": "se limita a elaborar artefactos analógicos con materiales como la madera, el metal o el cartón.",
+     "j": "Es incorrecta. Es la lectura reducida que el documento rechaza de forma expresa. Los materiales sí aparecen entre los insumos de la estrategia, pero las Orientaciones aclaran que no se debe tomar como mera elaboración de artefactos analógicos."
+    },
+    {
+     "l": "C",
+     "t": "se reserva para la media, donde se dispone de herramientas como el cautín, la segueta o el multímetro.",
+     "j": "Es incorrecta. El cautín, la segueta y el multímetro aparecen en el documento como ejemplos de sistemas de transformación de la idea al producto, pero las Orientaciones no restringen la estrategia a un nivel educativo. También mencionan los lenguajes de programación y el computador."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "Las Orientaciones Curriculares de 2022 presentan la construcción-fabricación como el paso del mundo de las ideas y los diseños a realizaciones concretas: modelos, simulaciones, algoritmos, programas, prototipos y otras formas de concreción. Para evitar una lectura reducida, el documento subraya que la estrategia refiere también a la producción y programación de software y que no se debe tomar como mera elaboración de artefactos analógicos. Es decir, programar un algoritmo es tan construcción-fabricación como armar una maqueta. Los distractores toman elementos reales del texto, como los materiales o las herramientas, y los convierten en límites que el documento no pone. En la prueba, recuerde que en el área lo digital también se construye.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.1 Construcción-fabricación",
+   "consejo": "Construcción-fabricación = también programar software, no solo manualidades.",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "la construcción-fabricación como estrategia didáctica, refiere también a la producción y programación de software por lo que no se debe tomar como mero elaboración de artefactos analógicos",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.1 Construcción-fabricación"
+    }
+   ]
+  },
+  {
+   "tipo": "conocimiento",
+   "id": "K082",
+   "ficha": "F41",
+   "familia": "DIS-DIDAC",
+   "dificultad": 2,
+   "competencia": "Trinomio de la construcción-fabricación y construccionismo",
+   "enunciado": "Según las Orientaciones Curriculares (2022), la construcción-fabricación se apoya en un trinomio que forma una unidad de pensamiento y acción que Papert (1991) denominó",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "diseñar, construir y evaluar; construccionismo.",
+     "j": "Es incorrecta. El nombre del autor está bien, pero el trinomio no. Diseñar, construir y evaluar se parecen a las fases de un proceso de diseño; el trinomio que mencionan las Orientaciones para esta estrategia es pensar, actuar y hacer."
+    },
+    {
+     "l": "B",
+     "t": "pensar, actuar y hacer; construccionismo.",
+     "j": "Es correcta. Las Orientaciones dicen que el trinomio pensar, actuar y hacer posibilita la intervención del ser humano en la realidad mediante la creación de productos tecnológicos, en una unidad de pensamiento y acción que Papert (1991) denominó construccionismo."
+    },
+    {
+     "l": "C",
+     "t": "pensar, actuar y hacer; constructivismo.",
+     "j": "Es incorrecta. El trinomio es correcto, pero el término no. El constructivismo es una teoría del aprendizaje más amplia; las Orientaciones atribuyen a Papert (1991) el término construccionismo para la unidad entre pensamiento y acción en la construcción de productos."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "Las Orientaciones Curriculares de 2022 explican que la estrategia de construcción-fabricación genera un dominio de las formas de pensar, actuar y hacer previstas para el área. Ese trinomio posibilita la intervención e interacción del ser humano en la realidad a través de la creación de productos tecnológicos, en una unidad de pensamiento y acción que Papert (1991) denominó construccionismo. El ítem pone dos trampas habituales: cambiar el trinomio por las fases de un proceso de diseño y confundir construccionismo con constructivismo, dos palabras muy parecidas. Para la prueba, asocie la estrategia de construcción con el término que comparte su raíz: construcción → construccionismo.",
+   "fuente": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.1 Construcción-fabricación",
+   "consejo": "Pensar, actuar y hacer + Papert = construccionismo (no constructivismo).",
+   "citas": [
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "Este trinomio, pensar, actuar y hacer, posibilitan la intervención e interacción del hombre en la realidad a través de la creación de productos tecnológicos.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.1 Construcción-fabricación"
+    },
+    {
+     "doc": "orientaciones_tecnologia_2022",
+     "texto": "una unidad de pensamiento y acción que Papert (1991) denominó, construccionismo.",
+     "ubicacion": "Orientaciones Curriculares de Tecnología e Informática (MEN, 2022), 4.2.1 Construcción-fabricación"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q388",
+   "caso": "C263",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 3,
+   "competencia": "Perspectiva de género en el Código de la Infancia y la Adolescencia",
+   "enunciado": "Según el artículo 12 de la Ley 1098 de 2006, la perspectiva de género se debe tener en cuenta",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "únicamente en las decisiones judiciales y administrativas sobre los derechos de los menores de edad.",
+     "j": "Es incorrecta. Reduce el alcance de la perspectiva de género a las decisiones de autoridades. El artículo 12 dice que debe tenerse en cuenta en la aplicación del Código, en todos los ámbitos donde se desenvuelven los niños, las niñas y los adolescentes, lo que incluye la escuela."
+    },
+    {
+     "l": "B",
+     "t": "en la familia y en el grupo social, que son los espacios que menciona la definición del artículo.",
+     "j": "Es incorrecta. Es una verdad a medias: la definición sí menciona el rol en la familia y en el grupo social, pero eso describe las relaciones que se reconocen. El alcance de su aplicación está en la frase siguiente: en todos los ámbitos donde se desenvuelven los niños, niñas y adolescentes."
+    },
+    {
+     "l": "C",
+     "t": "en todos los ámbitos donde se desenvuelven los niños, niñas y adolescentes, para alcanzar la equidad.",
+     "j": "Es correcta. El artículo 12 dice que la perspectiva de género se debe tener en cuenta en la aplicación del Código, en todos los ámbitos en donde se desenvuelven los niños, las niñas y los adolescentes, para alcanzar la equidad. El semillero escolar es uno de esos ámbitos."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "El artículo 12 de la Ley 1098 tiene dos partes que la CNSC separa en las opciones. Primero define la perspectiva de género como el reconocimiento de las diferencias sociales, biológicas y psicológicas en las relaciones entre las personas según el sexo, la edad, la etnia y el rol en la familia y el grupo social. Luego fija su alcance: debe tenerse en cuenta en todos los ámbitos donde se desenvuelven los niños, las niñas y los adolescentes, para alcanzar la equidad. El semillero de robótica es un ámbito escolar, así que excluir a las niñas por un estereotipo contraría esa perspectiva. Los distractores toman palabras reales de la definición o restringen el alcance a las autoridades.",
+   "fuente": "Ley 1098 de 2006, art. 12",
+   "consejo": "Perspectiva de género: en todos los ámbitos donde están los niños, niñas y adolescentes, para la equidad.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "Esta perspectiva se debe tener en cuenta en la aplicación de este Código, en todos los ámbitos en donde se desenvuelven los niños, las niñas y los adolescentes, para alcanzar la equidad.",
+     "ubicacion": "Ley 1098 de 2006, art. 12"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q389",
+   "caso": "C264",
+   "familia": "NOR-DERECHOS",
+   "dificultad": 2,
+   "competencia": "Responsabilidad parental",
+   "enunciado": "De acuerdo con el artículo 14 de la Ley 1098 de 2006, frente a lo que afirma el padre es correcto señalar que la responsabilidad parental",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "es compartida y solidaria del padre y la madre, y en ningún caso puede conllevar violencia física o psicológica.",
+     "j": "Es correcta. El artículo 14 dice que la responsabilidad parental incluye la responsabilidad compartida y solidaria del padre y la madre, y que en ningún caso su ejercicio puede conllevar violencia física, psicológica o actos que impidan el ejercicio de los derechos del niño."
+    },
+    {
+     "l": "B",
+     "t": "complementa la patria potestad, y por eso permite correcciones físicas moderadas que no causen lesiones.",
+     "j": "Es incorrecta. Es cierto que la responsabilidad parental es un complemento de la patria potestad, pero de allí no se sigue ningún permiso de castigo físico. El artículo 14 excluye la violencia física en cualquier grado con la expresión «en ningún caso»."
+    },
+    {
+     "l": "C",
+     "t": "recae en quien firma como acudiente, y por eso le permite elegir los métodos de corrección del hijo.",
+     "j": "Es incorrecta. El artículo 14 no la asigna al acudiente, sino al padre y a la madre de forma compartida y solidaria. Además, la define como orientación, cuidado, acompañamiento y crianza, y prohíbe expresamente que su ejercicio conlleve violencia."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El artículo 14 de la Ley 1098 define la responsabilidad parental como un complemento de la patria potestad y como la obligación de orientación, cuidado, acompañamiento y crianza de los niños, niñas y adolescentes. Incluye la responsabilidad compartida y solidaria del padre y la madre de asegurar el máximo nivel de satisfacción de sus derechos. Su segundo inciso es el que responde al caso: en ningún caso el ejercicio de la responsabilidad parental puede conllevar violencia física, psicológica o actos que impidan el ejercicio de los derechos. La CNSC suele usar distractores que parten de una verdad (el vínculo con la patria potestad) para llegar a una conclusión que la norma prohíbe.",
+   "fuente": "Ley 1098 de 2006, art. 14",
+   "consejo": "Responsabilidad parental: compartida padre-madre; en ningún caso violencia física o psicológica.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "En ningún caso el ejercicio de la responsabilidad parental puede conllevar violencia física, psicológica o actos que impidan el ejercicio de sus derechos.",
+     "ubicacion": "Ley 1098 de 2006, art. 14"
+    },
+    {
+     "doc": "ley_1098_2006",
+     "texto": "Esto incluye la responsabilidad compartida y solidaria del padre y la madre de asegurarse que los niños, las niñas y los adolescentes puedan lograr el máximo nivel de satisfacción de sus derechos.",
+     "ubicacion": "Ley 1098 de 2006, art. 14"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q390",
+   "caso": "C265",
+   "familia": "CB-CIUD",
+   "dificultad": 1,
+   "competencia": "Corresponsabilidad en la formación para el ejercicio de los derechos",
+   "enunciado": "Según el artículo 15 de la Ley 1098 de 2006, formar a los niños, las niñas y los adolescentes en el ejercicio responsable de los derechos es obligación",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "del Estado, por medio de los establecimientos educativos.",
+     "j": "Es incorrecta. Coincide con lo que dice el acudiente, pero deja por fuera a la familia y a la sociedad. El artículo 15 reparte esa obligación entre tres actores, y el colegio, como parte del Estado y de la sociedad, no la asume en solitario."
+    },
+    {
+     "l": "B",
+     "t": "de la familia, de la sociedad y del Estado.",
+     "j": "Es correcta. El artículo 15 dice textualmente que es obligación de la familia, de la sociedad y del Estado formar a los niños, las niñas y los adolescentes en el ejercicio responsable de los derechos. Por eso la propuesta de la docente involucra a las familias."
+    },
+    {
+     "l": "C",
+     "t": "de la familia, con apoyo voluntario del colegio.",
+     "j": "Es incorrecta. Invierte el error del acudiente: reconoce a la familia, pero convierte la participación de la sociedad y del Estado en algo voluntario. El artículo 15 establece una obligación compartida por los tres actores, no un apoyo opcional."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "El artículo 15 de la Ley 1098 de 2006 se titula «Ejercicio de los derechos y responsabilidades» y empieza con una frase que conviene memorizar: es obligación de la familia, de la sociedad y del Estado formar a los niños, las niñas y los adolescentes en el ejercicio responsable de los derechos. Es la misma lógica de corresponsabilidad que atraviesa el Código y la Ley 1620. En el caso, la docente actúa bien al proponer un acuerdo familiar, porque la familia es uno de los tres obligados. Los distractores dejan la obligación en un solo actor o vuelven voluntaria la participación de alguno. En la CNSC, las respuestas que excluyen a uno de los corresponsables suelen ser incorrectas.",
+   "fuente": "Ley 1098 de 2006, art. 15",
+   "consejo": "Formar en el ejercicio responsable de los derechos: familia + sociedad + Estado.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "Es obligación de la familia, de la sociedad y del Estado, formar a los niños, las niñas y los adolescentes en el ejercicio responsable de los derechos.",
+     "ubicacion": "Ley 1098 de 2006, art. 15"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q391",
+   "caso": "C266",
+   "familia": "LC-INF",
+   "dificultad": 3,
+   "competencia": "Inferencia sobre las partes de un artículo",
+   "enunciado": "Del segundo inciso del artículo se infiere correctamente que las obligaciones cívicas y sociales del niño, la niña o el adolescente",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "son las mismas de un adulto, porque el artículo les reconoce el ejercicio de los derechos.",
+     "j": "Es incorrecta. Contradice la expresión clave del inciso: las obligaciones son las que correspondan a un individuo de su desarrollo. Que el artículo hable del ejercicio de los derechos no iguala las obligaciones de un niño con las de un adulto."
+    },
+    {
+     "l": "B",
+     "t": "dependen de lo que decida su familia, y las autoridades solo intervienen cuando hay una infracción.",
+     "j": "Es incorrecta. El inciso no deja las obligaciones a criterio de la familia: las relaciona con el desarrollo del niño. Tampoco limita la actuación de las autoridades a las infracciones, pues dice que contribuyen al propósito formativo con decisiones oportunas, eficaces y pedagógicas."
+    },
+    {
+     "l": "C",
+     "t": "corresponden a su desarrollo, y las autoridades aportan con decisiones de claro sentido pedagógico.",
+     "j": "Es correcta. El inciso dice que el niño, la niña o el adolescente deberá cumplir las obligaciones cívicas y sociales que correspondan a un individuo de su desarrollo, y que las autoridades contribuirán al propósito formativo con decisiones oportunas, eficaces y con claro sentido pedagógico."
+    }
+   ],
+   "clave": "C",
+   "explicacion": "Para inferir bien, hay que relacionar las dos oraciones del segundo inciso con el primero. El primero fija un propósito: formar en el ejercicio responsable de los derechos. El segundo dice cómo aportan las autoridades («decisiones oportunas y eficaces y con claro sentido pedagógico») y qué se espera del niño, la niña o el adolescente («las obligaciones cívicas y sociales que correspondan a un individuo de su desarrollo»). La expresión «de su desarrollo» indica proporcionalidad: no se exige lo mismo que a un adulto. La opción correcta recoge las dos ideas sin agregar nada. Los distractores igualan al niño con el adulto o trasladan la decisión a la familia, algo que el texto no dice.",
+   "fuente": "Ley 1098 de 2006, art. 15",
+   "consejo": "«Que correspondan a un individuo de su desarrollo» = obligaciones proporcionales a la edad y la madurez.",
+   "citas": [
+    {
+     "doc": "ley_1098_2006",
+     "texto": "Las autoridades contribuirán con este propósito a través de decisiones oportunas y eficaces y con claro sentido pedagógico. El niño, la niña o el adolescente tendrán o deberá cumplir las obligaciones cívicas y sociales que correspondan a un individuo de su desarrollo.",
+     "ubicacion": "Ley 1098 de 2006, art. 15"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q392",
+   "caso": "C267",
+   "familia": "DIS-DISENO",
+   "dificultad": 2,
+   "competencia": "Justificación de las mejoras a una solución tecnológica",
+   "enunciado": "De acuerdo con los desempeños que la Guía 30 propone para octavo y noveno, la orientación más pertinente para la sesión de mejoras es pedir a los grupos que",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "justifiquen cada cambio con base en la experimentación, las evidencias y el razonamiento lógico.",
+     "j": "Es correcta. La Guía 30 propone para octavo y noveno el desempeño «Propongo mejoras en las soluciones tecnológicas y justifico los cambios propuestos con base en la experimentación, las evidencias y el razonamiento lógico». Medir cuánto tiempo conserva el calor cada versión permite justificar los cambios."
+    },
+    {
+     "l": "B",
+     "t": "justifiquen cada cambio con base en el costo y la disponibilidad de los materiales en el barrio.",
+     "j": "Es incorrecta. El costo y la disponibilidad son criterios válidos al comparar soluciones, pero no responden al problema del caso: los grupos cambian el diseño por gusto o por impresión. El desempeño de la Guía pide justificar las mejoras con experimentación, evidencias y razonamiento lógico."
+    },
+    {
+     "l": "C",
+     "t": "registren cada cambio en la bitácora y presenten al final la versión que les parezca más lograda.",
+     "j": "Es incorrecta. Registrar en la bitácora es buena práctica, pero la opción mantiene el criterio subjetivo que la docente quiere superar: elegir lo que «parece» mejor. Sin pruebas ni evidencias, la mejora no está justificada como pide la Guía 30."
+    }
+   ],
+   "clave": "A",
+   "explicacion": "El caso muestra un error frecuente en los proyectos escolares: cambiar un prototipo por gusto o por impresión. La Guía 30, en el componente de solución de problemas con tecnología para octavo y noveno, propone el desempeño «Propongo mejoras en las soluciones tecnológicas y justifico los cambios propuestos con base en la experimentación, las evidencias y el razonamiento lógico». Por eso, la orientación pertinente es que cada grupo pruebe sus versiones, por ejemplo midiendo la temperatura del almuerzo a lo largo de la mañana, y sustente sus cambios con datos. Los distractores proponen criterios razonables, como el costo o el registro en bitácora, pero no exigen la justificación basada en evidencias que pide el enunciado.",
+   "fuente": "Guía 30 MEN (2008), Octavo a Noveno, Solución de problemas con tecnología",
+   "consejo": "Mejorar un diseño = probar y justificar con experimentación, evidencias y razonamiento lógico.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Propongo mejoras en las soluciones tecnológicas y justifico los cambios propuestos con base en la experimentación, las evidencias y el razonamiento lógico.",
+     "ubicacion": "Guía 30 MEN (2008), Octavo a Noveno, Solución de problemas con tecnología"
+    }
+   ]
+  },
+  {
+   "tipo": "caso",
+   "id": "Q393",
+   "caso": "C268",
+   "familia": "DIS-CTS",
+   "dificultad": 3,
+   "competencia": "Evaluación de recursos energéticos y desarrollo de las comunidades",
+   "enunciado": "Según los desempeños que la Guía 30 propone para sexto y séptimo, la actividad más pertinente es que los estudiantes",
+   "opciones": [
+    {
+     "l": "A",
+     "t": "identifiquen las dos fuentes de energía y comparen su impacto ambiental para escoger la que menos contamina.",
+     "j": "Es incorrecta. Es una verdad a medias muy atractiva: evaluar el impacto ambiental sí hace parte del desempeño. Pero el desempeño de la Guía 30 pide además valorar las posibilidades de desarrollo para las comunidades, una dimensión que esta opción deja por fuera."
+    },
+    {
+     "l": "B",
+     "t": "identifiquen las dos fuentes de energía y evalúen su impacto ambiental y sus posibilidades de desarrollo para las comunidades.",
+     "j": "Es correcta. La Guía 30 propone para sexto y séptimo «Identifico diversos recursos energéticos y evalúo su impacto sobre el medio ambiente, así como las posibilidades de desarrollo para las comunidades». La actividad recoge las tres acciones: identificar, evaluar el impacto y valorar el desarrollo."
+    },
+    {
+     "l": "C",
+     "t": "identifiquen las dos fuentes de energía y comparen el costo de cada una para escoger la más económica para el municipio.",
+     "j": "Es incorrecta. El costo es un criterio legítimo de análisis, pero no es el que define este desempeño. La Guía 30 pide evaluar el impacto sobre el medio ambiente y las posibilidades de desarrollo para las comunidades, no elegir la opción más barata."
+    }
+   ],
+   "clave": "B",
+   "explicacion": "La Guía 30, en el componente de tecnología y sociedad para sexto y séptimo, incluye el desempeño «Identifico diversos recursos energéticos y evalúo su impacto sobre el medio ambiente, así como las posibilidades de desarrollo para las comunidades». El debate local entre un parque solar y la ampliación petrolera es un contexto ideal, siempre que la actividad conserve las dos dimensiones de la evaluación: la ambiental y la del desarrollo comunitario. El distractor más cercano se queda solo con el impacto ambiental, y otro cambia el criterio por el costo. En la CNSC, cuando dos opciones parecen buenas, la correcta suele ser la que recoge completo el desempeño oficial, sin recortarlo ni reemplazar sus criterios.",
+   "fuente": "Guía 30 MEN (2008), Sexto a Séptimo, Tecnología y sociedad",
+   "consejo": "Recursos energéticos en 6.°-7.°: impacto ambiental + posibilidades de desarrollo para las comunidades.",
+   "citas": [
+    {
+     "doc": "guia30_mineducacion_2008",
+     "texto": "Identifico diversos recursos energéticos y evalúo su impacto sobre el medio ambiente, así como las posibilidades de desarrollo para las comunidades.",
+     "ubicacion": "Guía 30 MEN (2008), Sexto a Séptimo, Tecnología y sociedad"
+    }
+   ]
+  }
+ ]
+}
